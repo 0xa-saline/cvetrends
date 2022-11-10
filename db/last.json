@@ -1,0 +1,1531 @@
+[
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T23:15:00",
+        "access": {},
+        "assigner": "cve@gitlab.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-2761",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://hackerone.com/reports/1653149",
+            "https://gitlab.com/gitlab-org/gitlab/-/issues/370458",
+            "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-2761.json"
+        ],
+        "summary": "An information disclosure issue in GitLab CE/EE affecting all versions from 14.4 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows an attacker to use GitLab Flavored Markdown (GFM) references in a Jira issue to disclose the names of resources they don't have access to."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T23:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39307",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://github.com/grafana/grafana/security/advisories/GHSA-3p62-42x7-gxg5"
+        ],
+        "summary": "Grafana is an open-source platform for monitoring and observability. When using the forget password on the login page, a POST request is made to the `/api/user/password/sent-reset-email` URL. When the username or email does not exist, a JSON response contains a \u201cuser not found\u201d message. This leaks information to unauthenticated users and introduces a security risk. This issue has been patched in 9.2.4 and backported to 8.5.15. There are no known workarounds."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T23:15:00",
+        "access": {},
+        "assigner": "cve@gitlab.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-3265",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://hackerone.com/reports/1693150",
+            "https://gitlab.com/gitlab-org/gitlab/-/issues/374976",
+            "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-3265.json"
+        ],
+        "summary": "A cross-site scripting issue has been discovered in GitLab CE/EE affecting all versions prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2. It was possible to exploit a vulnerability in setting the labels colour feature which could lead to a stored XSS that allowed attackers to perform arbitrary actions on behalf of victims at client side."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T23:15:00",
+        "access": {},
+        "assigner": "cve@gitlab.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-3280",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-3280.json",
+            "https://gitlab.com/gitlab-org/gitlab/-/issues/352611",
+            "https://hackerone.com/reports/1475686"
+        ],
+        "summary": "An open redirect in GitLab CE/EE affecting all versions from 10.1 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows an attacker to trick users into visiting a trustworthy URL and being redirected to arbitrary content."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T23:15:00",
+        "access": {},
+        "assigner": "cve@gitlab.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-3285",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-3285.json",
+            "https://gitlab.com/gitlab-org/security/omnibus-gitlab/-/issues/64"
+        ],
+        "summary": "Bypass of healthcheck endpoint allow list affecting all versions from 12.0 prior to 15.2.5, 15.3 prior to 15.3.4, and 15.4 prior to 15.4.1 allows an unauthorized attacker to prevent access to GitLab"
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T23:15:00",
+        "access": {},
+        "assigner": "cve@gitlab.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-3483",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://hackerone.com/reports/1724402",
+            "https://gitlab.com/gitlab-org/gitlab/-/issues/377799",
+            "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-3483.json"
+        ],
+        "summary": "An issue has been discovered in GitLab CE/EE affecting all versions starting from 12.1 before 15.3.5, all versions starting from 15.4 before 15.4.4, all versions starting from 15.5 before 15.5.2. A malicious maintainer could exfiltrate a Datadog integration's access token by modifying the integration URL such that authenticated requests are sent to an attacker controlled server."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T23:15:00",
+        "access": {},
+        "assigner": "cve@gitlab.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-3486",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://gitlab.com/gitlab-org/gitlab/-/issues/377810",
+            "https://hackerone.com/reports/1725190",
+            "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-3486.json"
+        ],
+        "summary": "An open redirect vulnerability in GitLab EE/CE affecting all versions from 9.3 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2, allows an attacker to redirect users to an arbitrary location if they trust the URL."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-10T00:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39368",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://github.com/eclipse-californium/californium/security/advisories/GHSA-p72g-cgh9-ghjg",
+            "https://github.com/eclipse-californium/californium/commit/5648a0c27c2c2667c98419254557a14bac2b1f3f",
+            "https://github.com/eclipse-californium/californium/commit/726bac57659410da463dcf404b3e79a7312ac0b9"
+        ],
+        "summary": "Eclipse Californium is a Java implementation of RFC7252 - Constrained Application Protocol for IoT Cloud services. In versions prior to 3.7.0, and 2.7.4, Californium is vulnerable to a Denial of Service. Failing handshakes don't cleanup counters for throttling, causing the threshold to be reached without being released again. This results in permanently dropping records. The issue was reported for certificate based handshakes, but may also affect PSK based handshakes. It generally affects client and server as well. This issue is patched in version 3.7.0 and 2.7.4. There are no known workarounds. main: commit 726bac57659410da463dcf404b3e79a7312ac0b9 2.7.x: commit 5648a0c27c2c2667c98419254557a14bac2b1f3f"
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-10T00:15:00",
+        "access": {},
+        "assigner": "cve@gitlab.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-3413",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://gitlab.com/gitlab-org/gitlab/-/issues/374926",
+            "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-3413.json"
+        ],
+        "summary": "Incorrect authorization during display of Audit Events in GitLab EE affecting all versions from 14.5 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2, allowed Developers to view the project's Audit Events and Developers or Maintainers to view the group's Audit Events. These should have been restricted to Project Maintainers, Group Owners, and above."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-10T00:15:00",
+        "access": {},
+        "assigner": "cve@gitlab.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-3706",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://gitlab.com/gitlab-org/gitlab/-/issues/365532",
+            "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-3706.json"
+        ],
+        "summary": "Improper authorization in GitLab CE/EE affecting all versions from 7.14 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows a user retrying a job in a downstream pipeline to take ownership of the retried jobs in the upstream pipeline even if the user doesn't have access to that project."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-10T00:15:00",
+        "access": {},
+        "assigner": "cve@gitlab.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-3726",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://hackerone.com/reports/1563383",
+            "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-3726.json",
+            "https://gitlab.com/gitlab-org/gitlab/-/issues/362509"
+        ],
+        "summary": "Lack of sand-boxing of OpenAPI documents in GitLab CE/EE affecting all versions from 12.6 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows an attacker to trick a user to click on the Swagger OpenAPI viewer and issue HTTP requests that affect the victim's account."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-10T00:15:00",
+        "access": {},
+        "assigner": "cve@gitlab.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-3793",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-3793.json",
+            "https://gitlab.com/gitlab-org/gitlab/-/issues/372120"
+        ],
+        "summary": "An improper authorization issue in GitLab CE/EE affecting all versions from 14.4 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows an attacker to read variables set directly in a GitLab CI/CD configuration file they don't have access to."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-10T00:15:00",
+        "access": {},
+        "assigner": "cve@gitlab.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-3818",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://gitlab.com/gitlab-org/gitlab/-/issues/358170",
+            "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-3818.json"
+        ],
+        "summary": "An uncontrolled resource consumption issue when parsing URLs in GitLab CE/EE affecting all versions prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows an attacker to cause performance issues and potentially a denial of service on the GitLab instance."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-10T00:15:00",
+        "access": {},
+        "assigner": "cve@gitlab.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-3819",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-3819.json",
+            "https://gitlab.com/gitlab-org/gitlab/-/issues/365847"
+        ],
+        "summary": "An improper authorization issue in GitLab CE/EE affecting all versions from 15.0 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows a malicious users to set emojis on internal notes they don't have access to."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "mobile.security@samsung.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39879",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=11"
+        ],
+        "summary": "Improper authorization vulnerability in?CallBGProvider prior to SMR Nov-2022 Release 1 allows local attacker to grant permission for accessing information with phone uid."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "mobile.security@samsung.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39880",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=11"
+        ],
+        "summary": "Improper input validation vulnerability in DualOutFocusViewer prior to SMR Nov-2022 Release 1 allows local attacker to perform an arbitrary code execution."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "mobile.security@samsung.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39881",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=11"
+        ],
+        "summary": "Improper input validation vulnerability for processing SIB12 PDU in Exynos modems prior to SMR Sep-2022 Release allows remote attacker to read out of bounds memory."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "mobile.security@samsung.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39882",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=11"
+        ],
+        "summary": "Heap overflow vulnerability in sflacf_fal_bytes_peek function in libsmat.so library prior to SMR Nov-2022 Release 1 allows local attacker to execute arbitrary code."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "mobile.security@samsung.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39883",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=11"
+        ],
+        "summary": "Improper authorization vulnerability in StorageManagerService prior to SMR Nov-2022 Release 1 allows local attacker to call privileged API."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "mobile.security@samsung.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39884",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=11"
+        ],
+        "summary": "Improper access control vulnerability in IImsService prior to SMR Nov-2022 Release 1 allows local attacker to access to Call information."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "mobile.security@samsung.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39885",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=11"
+        ],
+        "summary": "Improper access control vulnerability in BootCompletedReceiver_CMCC in DeviceManagement prior to SMR Nov-2022 Release 1 allows local attacker to access to Device information."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "mobile.security@samsung.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39886",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=11"
+        ],
+        "summary": "Improper access control vulnerability in IpcRxServiceModeBigDataInfo in RIL prior to SMR Nov-2022 Release 1 allows local attacker to access Device information."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "mobile.security@samsung.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39887",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=11"
+        ],
+        "summary": "Improper access control vulnerability in clearAllGlobalProxy in MiscPolicy prior to SMR Nov-2022 Release 1 allows local attacker to configure EDM setting."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "mobile.security@samsung.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39889",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=11"
+        ],
+        "summary": "Improper access control vulnerability in GalaxyWatch4Plugin prior to versions 2.2.11.22101351 and 2.2.12.22101351 allows attackers to access wearable device information."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "mobile.security@samsung.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39890",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=11"
+        ],
+        "summary": "Improper Authorization in Samsung Billing prior to version 5.0.56.0 allows attacker to get sensitive information."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "mobile.security@samsung.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39891",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=11"
+        ],
+        "summary": "Heap overflow vulnerability in parse_pce function in libsavsaudio.so in Editor Lite prior to version 4.0.41.3 allows attacker to get information."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "mobile.security@samsung.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39892",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=11"
+        ],
+        "summary": "Improper access control in Samsung Pass prior to version 4.0.05.1 allows attackers to unauthenticated access via keep open feature."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "mobile.security@samsung.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39893",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=11"
+        ],
+        "summary": "Sensitive information exposure vulnerability in FmmBaseModel in Galaxy Buds Pro Manage prior to version 4.1.22092751 allows local attackers with log access permission to get device identifier data through device log."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41039",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41039"
+        ],
+        "summary": "Windows Point-to-Point Tunneling Protocol Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-41044, CVE-2022-41088."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41044",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41044"
+        ],
+        "summary": "Windows Point-to-Point Tunneling Protocol Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-41039, CVE-2022-41088."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41045",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41045"
+        ],
+        "summary": "Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-41093, CVE-2022-41100."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41047",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41047"
+        ],
+        "summary": "Microsoft ODBC Driver Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-41048."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41048",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41048"
+        ],
+        "summary": "Microsoft ODBC Driver Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-41047."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41049",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41049"
+        ],
+        "summary": "Windows Mark of the Web Security Feature Bypass Vulnerability. This CVE ID is unique from CVE-2022-41091."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41050",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41050"
+        ],
+        "summary": "Windows Extensible File Allocation Table Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41051",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41051"
+        ],
+        "summary": "Azure RTOS GUIX Studio Remote Code Execution Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41052",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41052"
+        ],
+        "summary": "Windows Graphics Component Remote Code Execution Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41053",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41053"
+        ],
+        "summary": "Windows Kerberos Denial of Service Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41054",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41054"
+        ],
+        "summary": "Windows Resilient File System (ReFS) Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41055",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41055"
+        ],
+        "summary": "Windows Human Interface Device Information Disclosure Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41056",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41056"
+        ],
+        "summary": "Network Policy Server (NPS) RADIUS Protocol Denial of Service Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41057",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41057"
+        ],
+        "summary": "Windows HTTP.sys Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41058",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41058"
+        ],
+        "summary": "Windows Network Address Translation (NAT) Denial of Service Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41060",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41060"
+        ],
+        "summary": "Microsoft Word Information Disclosure Vulnerability. This CVE ID is unique from CVE-2022-41103."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41061",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41061"
+        ],
+        "summary": "Microsoft Word Remote Code Execution Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41062",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41062"
+        ],
+        "summary": "Microsoft SharePoint Server Remote Code Execution Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41063",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41063"
+        ],
+        "summary": "Microsoft Excel Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-41106."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41064",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41064"
+        ],
+        "summary": ".NET Framework Information Disclosure Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41066",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41066"
+        ],
+        "summary": "Microsoft Business Central Information Disclosure Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41073",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41073"
+        ],
+        "summary": "Windows Print Spooler Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41078",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41078"
+        ],
+        "summary": "Microsoft Exchange Server Spoofing Vulnerability. This CVE ID is unique from CVE-2022-41079."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41079",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41079"
+        ],
+        "summary": "Microsoft Exchange Server Spoofing Vulnerability. This CVE ID is unique from CVE-2022-41078."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41080",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41080"
+        ],
+        "summary": "Microsoft Exchange Server Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-41123."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41085",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41085"
+        ],
+        "summary": "Azure CycleCloud Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41086",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41086"
+        ],
+        "summary": "Windows Group Policy Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-37992."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41088",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41088"
+        ],
+        "summary": "Windows Point-to-Point Tunneling Protocol Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-41039, CVE-2022-41044."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41090",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41090"
+        ],
+        "summary": "Windows Point-to-Point Tunneling Protocol Denial of Service Vulnerability. This CVE ID is unique from CVE-2022-41116."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41091",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41091"
+        ],
+        "summary": "Windows Mark of the Web Security Feature Bypass Vulnerability. This CVE ID is unique from CVE-2022-41049."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41092",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41092"
+        ],
+        "summary": "Windows Win32k Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-41109."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41093",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41093"
+        ],
+        "summary": "Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-41045, CVE-2022-41100."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41095",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41095"
+        ],
+        "summary": "Windows Digital Media Receiver Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41096",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41096"
+        ],
+        "summary": "Microsoft DWM Core Library Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41097",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41097"
+        ],
+        "summary": "Network Policy Server (NPS) RADIUS Protocol Information Disclosure Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41098",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41098"
+        ],
+        "summary": "Windows GDI+ Information Disclosure Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41099",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41099"
+        ],
+        "summary": "BitLocker Security Feature Bypass Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41100",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41100"
+        ],
+        "summary": "Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-41045, CVE-2022-41093."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41101",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41101"
+        ],
+        "summary": "Windows Overlay Filter Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-41102."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41102",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41102"
+        ],
+        "summary": "Windows Overlay Filter Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-41101."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41103",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41103"
+        ],
+        "summary": "Microsoft Word Information Disclosure Vulnerability. This CVE ID is unique from CVE-2022-41060."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41104",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41104"
+        ],
+        "summary": "Microsoft Excel Security Feature Bypass Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41105",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41105"
+        ],
+        "summary": "Microsoft Excel Information Disclosure Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41106",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41106"
+        ],
+        "summary": "Microsoft Excel Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-41063."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41107",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41107"
+        ],
+        "summary": "Microsoft Office Graphics Remote Code Execution Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41109",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41109"
+        ],
+        "summary": "Windows Win32k Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-41092."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41113",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41113"
+        ],
+        "summary": "Windows Win32 Kernel Subsystem Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41114",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41114"
+        ],
+        "summary": "Windows Bind Filter Driver Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41116",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41116"
+        ],
+        "summary": "Windows Point-to-Point Tunneling Protocol Denial of Service Vulnerability. This CVE ID is unique from CVE-2022-41090."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41118",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41118"
+        ],
+        "summary": "Windows Scripting Languages Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-41128."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41119",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41119"
+        ],
+        "summary": "Visual Studio Remote Code Execution Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41120",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41120"
+        ],
+        "summary": "Microsoft Windows Sysmon Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41122",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41122"
+        ],
+        "summary": "Microsoft SharePoint Server Spoofing Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41123",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41123"
+        ],
+        "summary": "Microsoft Exchange Server Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-41080."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41125",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41125"
+        ],
+        "summary": "Windows CNG Key Isolation Service Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41128",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41128"
+        ],
+        "summary": "Windows Scripting Languages Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-41118."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-44244",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://gist.github.com/cai-niao98/58c97899695488bd73a73d56adf44c4c",
+            "https://github.com/cai-niao98/lin-cms/"
+        ],
+        "summary": "An authentication bypass in Lin-CMS v0.2.1 allows attackers to escalate privileges to Super Administrator."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "audit@patchstack.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-44590",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://patchstack.com/database/vulnerability/simple-video-embedder/wordpress-simple-video-embedder-plugin-2-2-auth-stored-cross-site-scripting-xss-vulnerability?_s_id=cve",
+            "https://wordpress.org/plugins/simple-video-embedder/"
+        ],
+        "summary": "Auth. (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in James Lao's Simple Video Embedder plugin <= 2.2 on WordPress."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-37966",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37966"
+        ],
+        "summary": "Windows Kerberos RC4-HMAC Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-37967",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37967"
+        ],
+        "summary": "Windows Kerberos Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-37992",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37992"
+        ],
+        "summary": "Windows Group Policy Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-41086."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-38014",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38014"
+        ],
+        "summary": "Windows Subsystem for Linux (WSL2) Kernel Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-38015",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38015"
+        ],
+        "summary": "Windows Hyper-V Denial of Service Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-38023",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38023"
+        ],
+        "summary": "Netlogon RPC Elevation of Privilege Vulnerability."
+    },
+    {
+        "Modified": "2022-11-10T00:33:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-39306",
+        "impact": {},
+        "last-modified": "2022-11-10T00:33:00",
+        "references": [
+            "https://github.com/grafana/grafana/security/advisories/GHSA-2x6g-h2hg-rq84"
+        ],
+        "summary": "Grafana is an open-source platform for monitoring and observability. Versions prior to 9.2.4, or 8.5.15 on the 8.X branch, are subject to Improper Input Validation. Grafana admins can invite other members to the organization they are an admin for. When admins add members to the organization, non existing users get an email invite, existing members are added directly to the organization. When an invite link is sent, it allows users to sign up with whatever username/email address the user chooses and become a member of the organization. This introduces a vulnerability which can be used with malicious intent. This issue is patched in version 9.2.4, and has been backported to 8.5.15. There are no known workarounds."
+    },
+    {
+        "Modified": "2022-11-10T00:32:00",
+        "Published": "2022-11-08T08:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "CWE-191",
+        "id": "CVE-2022-39343",
+        "impact": {},
+        "last-modified": "2022-11-10T00:32:00",
+        "references": [
+            "https://github.com/azure-rtos/filex/security/advisories/GHSA-8jqf-wjhq-4w9f",
+            "https://github.com/azure-rtos/filex/blob/master/common/src/fx_fault_tolerant_apply_logs.c#L218"
+        ],
+        "summary": "Azure RTOS FileX is a FAT-compatible file system that\u00e2\u20ac\u2122s fully integrated with Azure RTOS ThreadX. In versions before 6.2.0, the Fault Tolerant feature of Azure RTOS FileX includes integer under and overflows which may be exploited to achieve buffer overflow and modify memory contents. When a valid log file with correct ID and checksum is detected by the `_fx_fault_tolerant_enable` function an attempt to recover the previous failed write operation is taken by call of `_fx_fault_tolerant_apply_logs`. This function iterates through the log entries and performs required recovery operations. When properly crafted a log including entries of type `FX_FAULT_TOLERANT_DIR_LOG_TYPE` may be utilized to introduce unexpected behavior. This issue has been patched in version 6.2.0. A workaround to fix line 218 in fx_fault_tolerant_apply_logs.c is documented in the GHSA."
+    },
+    {
+        "Modified": "2022-11-10T00:15:00",
+        "Published": "2022-11-09T04:15:00",
+        "access": {},
+        "assigner": "chrome-cve-admin@google.com",
+        "cvss": null,
+        "cwe": "CWE-416",
+        "id": "CVE-2022-3885",
+        "impact": {},
+        "last-modified": "2022-11-10T00:15:00",
+        "references": [
+            "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop.html",
+            "https://crbug.com/1377816"
+        ],
+        "summary": "Use after free in V8 in Google Chrome prior to 107.0.5304.106 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)"
+    },
+    {
+        "Modified": "2022-11-10T00:15:00",
+        "Published": "2022-11-09T04:15:00",
+        "access": {},
+        "assigner": "chrome-cve-admin@google.com",
+        "cvss": null,
+        "cwe": "CWE-416",
+        "id": "CVE-2022-3886",
+        "impact": {},
+        "last-modified": "2022-11-10T00:15:00",
+        "references": [
+            "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop.html",
+            "https://crbug.com/1372999"
+        ],
+        "summary": "Use after free in Speech Recognition in Google Chrome prior to 107.0.5304.106 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)"
+    },
+    {
+        "Modified": "2022-11-10T00:15:00",
+        "Published": "2022-11-09T04:15:00",
+        "access": {},
+        "assigner": "chrome-cve-admin@google.com",
+        "cvss": null,
+        "cwe": "CWE-416",
+        "id": "CVE-2022-3887",
+        "impact": {},
+        "last-modified": "2022-11-10T00:15:00",
+        "references": [
+            "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop.html",
+            "https://crbug.com/1372695"
+        ],
+        "summary": "Use after free in Web Workers in Google Chrome prior to 107.0.5304.106 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)"
+    },
+    {
+        "Modified": "2022-11-10T00:15:00",
+        "Published": "2022-11-09T04:15:00",
+        "access": {},
+        "assigner": "chrome-cve-admin@google.com",
+        "cvss": null,
+        "cwe": "CWE-416",
+        "id": "CVE-2022-3888",
+        "impact": {},
+        "last-modified": "2022-11-10T00:15:00",
+        "references": [
+            "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop.html",
+            "https://crbug.com/1375059"
+        ],
+        "summary": "Use after free in WebCodecs in Google Chrome prior to 107.0.5304.106 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)"
+    },
+    {
+        "Modified": "2022-11-10T00:15:00",
+        "Published": "2022-11-09T04:15:00",
+        "access": {},
+        "assigner": "chrome-cve-admin@google.com",
+        "cvss": null,
+        "cwe": "CWE-843",
+        "id": "CVE-2022-3889",
+        "impact": {},
+        "last-modified": "2022-11-10T00:15:00",
+        "references": [
+            "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop.html",
+            "https://crbug.com/1380063"
+        ],
+        "summary": "Type confusion in V8 in Google Chrome prior to 107.0.5304.106 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)"
+    },
+    {
+        "Modified": "2022-11-10T00:15:00",
+        "Published": "2022-11-01T23:15:00",
+        "access": {},
+        "assigner": "chrome-cve-admin@google.com",
+        "cvss": null,
+        "cwe": "CWE-843",
+        "id": "CVE-2022-3652",
+        "impact": {},
+        "last-modified": "2022-11-10T00:15:00",
+        "references": [
+            "https://chromereleases.googleblog.com/2022/10/stable-channel-update-for-desktop_25.html",
+            "https://crbug.com/1369871"
+        ],
+        "summary": "Type confusion in V8 in Google Chrome prior to 107.0.5304.62 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)"
+    }
+]
