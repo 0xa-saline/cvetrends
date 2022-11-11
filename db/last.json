@@ -1,5 +1,98 @@
 [
     {
+        "Modified": "2022-11-11T00:58:00",
+        "Published": "2022-11-09T23:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "NVD-CWE-noinfo",
+        "id": "CVE-2022-39307",
+        "impact": {},
+        "last-modified": "2022-11-11T00:58:00",
+        "references": [
+            "https://github.com/grafana/grafana/security/advisories/GHSA-3p62-42x7-gxg5"
+        ],
+        "summary": "Grafana is an open-source platform for monitoring and observability. When using the forget password on the login page, a POST request is made to the `/api/user/password/sent-reset-email` URL. When the username or email does not exist, a JSON response contains a \u201cuser not found\u201d message. This leaks information to unauthenticated users and introduces a security risk. This issue has been patched in 9.2.4 and backported to 8.5.15. There are no known workarounds."
+    },
+    {
+        "Modified": "2022-11-11T00:53:00",
+        "Published": "2022-11-09T23:15:00",
+        "access": {},
+        "assigner": "cve@gitlab.com",
+        "cvss": null,
+        "cwe": "NVD-CWE-noinfo",
+        "id": "CVE-2022-2761",
+        "impact": {},
+        "last-modified": "2022-11-11T00:53:00",
+        "references": [
+            "https://hackerone.com/reports/1653149",
+            "https://gitlab.com/gitlab-org/gitlab/-/issues/370458",
+            "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-2761.json"
+        ],
+        "summary": "An information disclosure issue in GitLab CE/EE affecting all versions from 14.4 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows an attacker to use GitLab Flavored Markdown (GFM) references in a Jira issue to disclose the names of resources they don't have access to."
+    },
+    {
+        "Modified": "2022-11-11T00:49:00",
+        "Published": "2022-11-10T00:15:00",
+        "access": {},
+        "assigner": "cve@gitlab.com",
+        "cvss": null,
+        "cwe": "CWE-400",
+        "id": "CVE-2022-3818",
+        "impact": {},
+        "last-modified": "2022-11-11T00:49:00",
+        "references": [
+            "https://gitlab.com/gitlab-org/gitlab/-/issues/358170",
+            "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-3818.json"
+        ],
+        "summary": "An uncontrolled resource consumption issue when parsing URLs in GitLab CE/EE affecting all versions prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows an attacker to cause performance issues and potentially a denial of service on the GitLab instance."
+    },
+    {
+        "Modified": "2022-11-11T00:15:00",
+        "Published": "2022-11-11T00:15:00",
+        "access": {},
+        "assigner": "cve-assign@fb.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-36938",
+        "impact": {},
+        "last-modified": "2022-11-11T00:15:00",
+        "references": [
+            "https://github.com/facebook/redex/commit/3b44c640346b77bfb7ef36e2413688dd460288d2"
+        ],
+        "summary": "DexLoader function get_stringidx_fromdex() in Redex prior to commit 3b44c64 can load an out of bound address when loading the string index table, potentially allowing remote code execution during processing of a 3rd party Android APK file."
+    },
+    {
+        "Modified": "2022-11-10T23:15:00",
+        "Published": "2022-11-10T23:15:00",
+        "access": {},
+        "assigner": "secure@intel.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2021-0185",
+        "impact": {},
+        "last-modified": "2022-11-10T23:15:00",
+        "references": [
+            "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00708.html"
+        ],
+        "summary": "Improper input validation in the firmware for some Intel(R) Server Board M10JNP Family before version 7.216 may allow a privileged user to potentially enable an escalation of privilege via local access."
+    },
+    {
+        "Modified": "2022-11-10T23:15:00",
+        "Published": "2022-11-10T23:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41878",
+        "impact": {},
+        "last-modified": "2022-11-10T23:15:00",
+        "references": [
+            "https://github.com/parse-community/parse-server/security/advisories/GHSA-xprv-wvh7-qqqx"
+        ],
+        "summary": "Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. In versions prior to 5.3.2 or 4.10.19, keywords that are specified in the Parse Server option `requestKeywordDenylist` can be injected via Cloud Code Webhooks or Triggers. This will result in the keyword being saved to the database, bypassing the `requestKeywordDenylist` option. This issue is fixed in versions 4.10.19, and 5.3.2. If upgrade is not possible, the following Workarounds may be applied: Configure your firewall to only allow trusted servers to make request to the Parse Server Cloud Code Webhooks API, or block the API completely if you are not using the feature."
+    },
+    {
         "Modified": "2022-11-10T22:15:00",
         "Published": "2022-11-10T22:15:00",
         "access": {},
@@ -2004,122 +2097,5 @@
             "https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2022/MNDT-2022-0032/MNDT-2022-0032.md"
         ],
         "summary": "A validation issue existed in the handling of symlinks and was addressed with improved validation of symlinks. This issue is fixed in macOS Monterey 12.4. An app may be able to gain elevated privileges."
-    },
-    {
-        "Modified": "2022-11-10T16:15:00",
-        "Published": "2022-11-09T14:15:00",
-        "access": {},
-        "assigner": "security@suse.com",
-        "cvss": null,
-        "cwe": "CWE-426",
-        "id": "CVE-2022-31253",
-        "impact": {},
-        "last-modified": "2022-11-10T16:15:00",
-        "references": [
-            "https://bugzilla.suse.com/show_bug.cgi?id=1202931"
-        ],
-        "summary": "A Untrusted Search Path vulnerability in openldap2 of openSUSE Factory allows local attackers with control of the ldap user or group to change ownership of arbitrary directory entries to this user/group, leading to escalation to root. This issue affects: openSUSE Factory openldap2 versions prior to 2.6.3-404.1."
-    },
-    {
-        "Modified": "2022-11-10T16:07:00",
-        "Published": "2014-04-26T10:55:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "NETWORK"
-        },
-        "assigner": "security@google.com",
-        "cvss": 7.5,
-        "cvss-time": "2022-11-10T16:07:00",
-        "cvss-vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-        "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2014-1735",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2022-11-10T16:07:00",
-        "references": [
-            "https://code.google.com/p/chromium/issues/detail?id=360429",
-            "https://code.google.com/p/chromium/issues/detail?id=359130",
-            "https://src.chromium.org/viewvc/blink?revision=171127&view=revision",
-            "https://code.google.com/p/chromium/issues/detail?id=359525",
-            "https://code.google.com/p/v8/source/detail?r=20624",
-            "https://src.chromium.org/viewvc/blink?revision=171077&view=revision",
-            "https://code.google.com/p/v8/source/detail?r=20622",
-            "https://code.google.com/p/v8/source/detail?r=20501",
-            "http://googlechromereleases.blogspot.com/2014/04/stable-channel-update_24.html",
-            "http://secunia.com/advisories/58301",
-            "http://www.debian.org/security/2014/dsa-2920",
-            "http://lists.opensuse.org/opensuse-updates/2014-05/msg00049.html",
-            "http://lists.opensuse.org/opensuse-updates/2014-05/msg00050.html",
-            "http://security.gentoo.org/glsa/glsa-201408-16.xml",
-            "http://secunia.com/advisories/60372"
-        ],
-        "summary": "Multiple unspecified vulnerabilities in Google V8 before 3.24.35.33, as used in Google Chrome before 34.0.1847.131 on Windows and OS X and before 34.0.1847.132 on Linux, allow attackers to cause a denial of service or possibly have other impact via unknown vectors."
-    },
-    {
-        "Modified": "2022-11-10T15:57:00",
-        "Published": "2022-11-09T18:15:00",
-        "access": {},
-        "assigner": "psirt@paloaltonetworks.com",
-        "cvss": null,
-        "cwe": "CWE-345",
-        "id": "CVE-2022-0031",
-        "impact": {},
-        "last-modified": "2022-11-10T15:57:00",
-        "references": [
-            "https://security.paloaltonetworks.com/CVE-2022-0031"
-        ],
-        "summary": "A local privilege escalation (PE) vulnerability in the Palo Alto Networks Cortex XSOAR engine software running on a Linux operating system allows a local attacker with shell access to the engine to execute programs with elevated privileges."
-    },
-    {
-        "Modified": "2022-11-10T15:49:00",
-        "Published": "2022-11-09T18:15:00",
-        "access": {},
-        "assigner": "talos-cna@cisco.com",
-        "cvss": null,
-        "cwe": "NVD-CWE-Other",
-        "id": "CVE-2022-28689",
-        "impact": {},
-        "last-modified": "2022-11-10T15:49:00",
-        "references": [
-            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1521",
-            "https://inhandnetworks.com/upload/attachment/202210/25/InHand-PSA-2022-02.pdf"
-        ],
-        "summary": "A leftover debug code vulnerability exists in the console support functionality of InHand Networks InRouter302 V3.5.45. A specially-crafted network request can lead to arbitrary command execution. An attacker can send a sequence of requests to trigger this vulnerability."
-    },
-    {
-        "Modified": "2022-11-10T15:49:00",
-        "Published": "2022-11-09T18:15:00",
-        "access": {},
-        "assigner": "talos-cna@cisco.com",
-        "cvss": null,
-        "cwe": "NVD-CWE-Other",
-        "id": "CVE-2022-29481",
-        "impact": {},
-        "last-modified": "2022-11-10T15:49:00",
-        "references": [
-            "https://inhandnetworks.com/upload/attachment/202210/25/InHand-PSA-2022-02.pdf",
-            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1518"
-        ],
-        "summary": "A leftover debug code vulnerability exists in the console nvram functionality of InHand Networks InRouter302 V3.5.45. A specially-crafted series of network requests can lead to disabling security features. An attacker can send a sequence of requests to trigger this vulnerability."
-    },
-    {
-        "Modified": "2022-11-10T15:41:00",
-        "Published": "2022-11-09T19:15:00",
-        "access": {},
-        "assigner": "chrome-cve-admin@google.com",
-        "cvss": null,
-        "cwe": "CWE-416",
-        "id": "CVE-2022-3449",
-        "impact": {},
-        "last-modified": "2022-11-10T15:41:00",
-        "references": [
-            "https://chromereleases.googleblog.com/2022/10/stable-channel-update-for-desktop_11.html",
-            "https://crbug.com/1364662"
-        ],
-        "summary": "Use after free in Safe Browsing in Google Chrome prior to 106.0.5249.119 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted Chrome Extension. (Chromium security severity: High)"
     }
 ]
