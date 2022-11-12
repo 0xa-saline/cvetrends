@@ -2,7 +2,7 @@
     "data": [
         {
             "assigner": "psirt@paloaltonetworks.com",
-            "audience_size": 985128,
+            "audience_size": 985161,
             "cve": "CVE-2022-0073",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -20,8 +20,8 @@
             "github_repos": [],
             "lastModifiedDate": "2022-11-04T21:15Z",
             "num_retweets": 26,
-            "num_tweets": 10,
-            "num_tweets_and_retweets": 36,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 37,
             "publishedDate": "2022-10-27T20:15Z",
             "reddit_posts": [],
             "score": 8.8,
@@ -135,7 +135,7 @@
         },
         {
             "assigner": "psirt@paloaltonetworks.com",
-            "audience_size": 985128,
+            "audience_size": 985161,
             "cve": "CVE-2022-0074",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -153,8 +153,8 @@
             "github_repos": [],
             "lastModifiedDate": "2022-11-04T21:15Z",
             "num_retweets": 26,
-            "num_tweets": 10,
-            "num_tweets_and_retweets": 36,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 37,
             "publishedDate": "2022-10-27T20:15Z",
             "reddit_posts": [],
             "score": 8.8,
@@ -268,7 +268,7 @@
         },
         {
             "assigner": "psirt@paloaltonetworks.com",
-            "audience_size": 952777,
+            "audience_size": 952810,
             "cve": "CVE-2022-0072",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -286,8 +286,8 @@
             "github_repos": [],
             "lastModifiedDate": "2022-11-04T21:15Z",
             "num_retweets": 25,
-            "num_tweets": 8,
-            "num_tweets_and_retweets": 33,
+            "num_tweets": 9,
+            "num_tweets_and_retweets": 34,
             "publishedDate": "2022-10-27T20:15Z",
             "reddit_posts": [],
             "score": 5.8,
@@ -403,7 +403,7 @@
         },
         {
             "assigner": "security-advisories@github.com",
-            "audience_size": 195462,
+            "audience_size": 195488,
             "cve": "CVE-2022-36067",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -431,9 +431,9 @@
                 }
             ],
             "lastModifiedDate": "2022-11-08T03:03Z",
-            "num_retweets": 5,
+            "num_retweets": 6,
             "num_tweets": 1,
-            "num_tweets_and_retweets": 6,
+            "num_tweets_and_retweets": 7,
             "publishedDate": "2022-09-06T22:15Z",
             "reddit_posts": [
                 {
@@ -442,9 +442,9 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/y1l2ol/new_rce_in_nodejs_library_vm2_base_cvss_score_of/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 30873,
+                    "subreddit_subscribers": 30879,
                     "title": "New RCE in node.js library vm2. Base CVSS score of 10. CVE-2022-36067",
-                    "upvotes": 16,
+                    "upvotes": 17,
                     "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-36067"
                 },
                 {
@@ -455,7 +455,7 @@
                     "subreddit": "DailyTechNewsShow",
                     "subreddit_subscribers": 10861,
                     "title": "Critical VM2 flaw lets attackers run code outside the sandbox - CVE-2022-36067 critical CVE with CVSS 10",
-                    "upvotes": 8,
+                    "upvotes": 9,
                     "url": "https://www.bleepingcomputer.com/news/security/critical-vm2-flaw-lets-attackers-run-code-outside-the-sandbox/"
                 },
                 {
@@ -464,7 +464,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/y1q814/any_quick_tips_on_how_to_look_for_vm2_sandbox/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 749115,
+                    "subreddit_subscribers": 749176,
                     "title": "any quick tips on how to look for VM2 Sandbox? (CVE-2022-36067)",
                     "upvotes": 6,
                     "url": "https://www.reddit.com/r/sysadmin/comments/y1q814/any_quick_tips_on_how_to_look_for_vm2_sandbox/"
@@ -475,7 +475,7 @@
                     "num_comments": 3,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/xsb4ep/how_to_read_epss/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 30873,
+                    "subreddit_subscribers": 30879,
                     "title": "How to read EPSS",
                     "upvotes": 3,
                     "url": "https://www.reddit.com/r/blueteamsec/comments/xsb4ep/how_to_read_epss/"
@@ -498,8 +498,8 @@
                 {
                     "created_at": "2022-11-11 18:28",
                     "likes": 7,
-                    "num_retweets": 5,
-                    "retweets": 5,
+                    "num_retweets": 6,
+                    "retweets": 6,
                     "tweet_id": "1591135692859797505",
                     "tweet_text": "New RCE in node.js library vm2. Base CVSS score of 10. CVE-2022-36067 https://t.co/xbAVLoNsTY #cyber #threathunting #infosec",
                     "twitter_user_handle": "blueteamsec1",
@@ -530,600 +530,126 @@
             ]
         },
         {
-            "assigner": "security@android.com",
-            "audience_size": 145134,
-            "cve": "CVE-2022-20465",
+            "assigner": "cve@mitre.org",
+            "audience_size": 113203,
+            "cve": "CVE-2022-43671",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
-            "cvssv3_base_score": 4.6,
-            "cvssv3_base_severity": "MEDIUM",
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
             "cwes": [],
-            "description": "In dismiss and related functions of KeyguardHostViewController.java and related files, there is a possible lockscreen bypass due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-218500036",
-            "epss_score": "0.11898",
+            "description": "Zoho ManageEngine Password Manager Pro before 12122, PAM360 before 5711, and Access Manager Plus before 4306 allow SQL Injection.",
+            "epss_score": null,
             "github_repos": [],
-            "lastModifiedDate": "2022-11-09T16:29Z",
-            "num_retweets": 8,
-            "num_tweets": 42,
-            "num_tweets_and_retweets": 50,
-            "publishedDate": "2022-11-08T22:15Z",
+            "lastModifiedDate": "2022-11-12T04:15Z",
+            "num_retweets": 2,
+            "num_tweets": 13,
+            "num_tweets_and_retweets": 15,
+            "publishedDate": "2022-11-12T04:15Z",
             "reddit_posts": [
                 {
-                    "created": 1668166641.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/KibernetinisSaugumas/comments/ys7x7j/\u012fsilau\u017e\u0117lis_apdovanotas_70_000_doleri\u0173/",
-                    "subreddit": "KibernetinisSaugumas",
-                    "subreddit_subscribers": 63,
-                    "title": "\u012esilau\u017e\u0117lis apdovanotas 70 000 doleri\u0173",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/KibernetinisSaugumas/comments/ys7x7j/\u012fsilau\u017e\u0117lis_apdovanotas_70_000_doleri\u0173/"
-                },
-                {
-                    "created": 1667884624.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/samsunggalaxy/comments/ypc1ly/november_2022_patch_notes/",
-                    "subreddit": "samsunggalaxy",
-                    "subreddit_subscribers": 19262,
-                    "title": "November 2022 patch notes",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/samsunggalaxy/comments/ypc1ly/november_2022_patch_notes/"
-                },
-                {
-                    "created": 1668002197.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/yqjp6c/msisac_cybersecurity_advisory_multiple/",
-                    "subreddit": "k12cybersecurity",
-                    "subreddit_subscribers": 66,
-                    "title": "MS-ISAC CYBERSECURITY ADVISORY - Multiple Vulnerabilities in Google Android OS Could Allow for Privilege Escalation - PATCH: NOW",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/yqjp6c/msisac_cybersecurity_advisory_multiple/"
-                },
-                {
-                    "created": 1667947117.0,
+                    "created": 1668227909.0,
                     "is_self": false,
                     "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/yq0w46/cve202220465/",
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/yswmw0/cve202243671/",
                     "subreddit": "netcve",
                     "subreddit_subscribers": 105,
-                    "title": "CVE-2022-20465",
+                    "title": "CVE-2022-43671",
                     "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-20465"
-                }
-            ],
-            "score": 4.6,
-            "severity": "MEDIUM",
-            "tweets": [
-                {
-                    "created_at": "2022-11-11 06:18",
-                    "likes": 10,
-                    "num_retweets": 4,
-                    "retweets": 4,
-                    "tweet_id": "1590951964221009920",
-                    "tweet_text": "CVE-2022-20465: Google Pixel lock screen bypass might affect Android vendors https://t.co/V3nRw79I81",
-                    "twitter_user_handle": "Dinosn",
-                    "twitter_user_name": "Nicolas Krassas",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1292159799141060610/CLgtH-wo_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "securityonline.info/cve-2022-20465\u2026",
-                            "expanded_url": "https://securityonline.info/cve-2022-20465-google-pixel-lock-screen-bypass-might-affect-android-vendors/",
-                            "url": "https://t.co/V3nRw79I81"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-11 20:20",
-                    "likes": 1,
-                    "num_retweets": 2,
-                    "retweets": 2,
-                    "tweet_id": "1591163950661439488",
-                    "tweet_text": "The #vulnerability in #Android/Google #Pixel allowed an attacker with physical access to device bypass the lock screen protections (fingerprint, PIN) unlock the phone and gain complete access to the user\u2019s device. CVE-2022-20465. Great find by: @xdavidhu\n\nhttps://t.co/Tjt0tCeuWa",
-                    "twitter_user_handle": "securestep9",
-                    "twitter_user_name": "Sam Stepanyan",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1114515035865399296/V6nLLbjK_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "bugs.xdavidhu.me/google/2022/11\u2026",
-                            "expanded_url": "https://bugs.xdavidhu.me/google/2022/11/10/accidental-70k-google-pixel-lock-screen-bypass/",
-                            "url": "https://t.co/Tjt0tCeuWa"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-11 04:24",
-                    "likes": 6,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1590923464348946432",
-                    "tweet_text": "Is @GrapheneOS patched to the new PUK code Pin bypass? CVE-2022-20465 Bypass any Google Pixel passcode in 1.5 mins https://t.co/22mTbiHUrw \nhttps://t.co/arGvJdguzT",
-                    "twitter_user_handle": "phillipdibias",
-                    "twitter_user_name": "Phillip Di Biase",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1106030033993326593/FKjKpJrX_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "youtube.com/watch?v=dSgSnY\u2026",
-                            "expanded_url": "https://www.youtube.com/watch?v=dSgSnYPgzT0",
-                            "url": "https://t.co/22mTbiHUrw"
-                        },
-                        {
-                            "display_url": "bugs.xdavidhu.me/google/2022/11\u2026",
-                            "expanded_url": "https://bugs.xdavidhu.me/google/2022/11/10/accidental-70k-google-pixel-lock-screen-bypass/",
-                            "url": "https://t.co/arGvJdguzT"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-11 04:33",
-                    "likes": 2,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1590925760356679680",
-                    "tweet_text": "CVE-2022-20465: Google Pixel lock screen bypass might affect Android vendors https://t.co/wlHxGPOtP9 #security #opensource #cybersecurity #malware #cyber #pentesting #malwareanalysis #infosec #redteam #malwarehunting #hacking #infosec #threathunting #bugbounty #tools #offensive\u2026",
-                    "twitter_user_handle": "FilipiPires",
-                    "twitter_user_name": "Filipi Pires",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1531334436800831488/evf2wJ4z_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/MySE7Bo",
-                            "expanded_url": "https://ift.tt/MySE7Bo",
-                            "url": "https://t.co/wlHxGPOtP9"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-11 07:17",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1590967014285246464",
-                    "tweet_text": "\"CVE-2022-20465: Google Pixel lock screen bypass might affect Android vendors\" via Penetration Testing https://t.co/eZhWoox7SD",
-                    "twitter_user_handle": "lucianot54",
-                    "twitter_user_name": "lucien reb",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/378800000010887434/607c59d3c96738feb5ec4ac63f898f6f_normal.jpeg",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/7nW9b2R",
-                            "expanded_url": "https://ift.tt/7nW9b2R",
-                            "url": "https://t.co/eZhWoox7SD"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [
-                "https://source.android.com/security/bulletin/2022-11-01"
-            ],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Android",
-                            "versions": [
-                                "10.0",
-                                "11.0",
-                                "12.0",
-                                "12.1",
-                                "13.0"
-                            ]
-                        }
-                    ],
-                    "vendor": "Google"
-                }
-            ]
-        },
-        {
-            "assigner": "product-security@apple.com",
-            "audience_size": 111383,
-            "cve": "CVE-2019-8561",
-            "cve_urls": null,
-            "cvssv2_base_score": 6.8,
-            "cvssv2_severity": "MEDIUM",
-            "cvssv3_base_score": 7.8,
-            "cvssv3_base_severity": "HIGH",
-            "cwes": [
-                {
-                    "cwe_description": "Improper Input Validation",
-                    "cwe_id": "CWE-20"
-                }
-            ],
-            "description": "A logic issue was addressed with improved validation. This issue is fixed in macOS Mojave 10.14.4. A malicious application may be able to elevate privileges.",
-            "epss_score": "0.03758",
-            "github_repos": [
-                {
-                    "created": "2019-06-07T23:48:55Z",
-                    "description": "Proof of concept exploit for CVE-2019-8561 discovered by @jbradley89 ",
-                    "language": "Shell",
-                    "name": "CVE-2019-8561",
-                    "stars": 3,
-                    "topics": [
-                        "exploit",
-                        "macos",
-                        "poc",
-                        "proof-of-concept"
-                    ],
-                    "updated": "2021-09-07T11:54:33Z",
-                    "url": "https://github.com/0xmachos/CVE-2019-8561"
-                }
-            ],
-            "lastModifiedDate": "2019-12-20T16:41Z",
-            "num_retweets": 8,
-            "num_tweets": 17,
-            "num_tweets_and_retweets": 25,
-            "publishedDate": "2019-12-18T18:15Z",
-            "reddit_posts": [],
-            "score": 7.8,
-            "severity": "HIGH",
-            "tweets": [
-                {
-                    "created_at": "2022-11-11 05:33",
-                    "likes": 1,
-                    "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1590940693547036675",
-                    "tweet_text": "ThreatsHub Cybersecurity News | CVE-2019-8561: A Hard-to-Banish PackageKit Framework Vulnerability in macOS - https://t.co/pMNgppKOsR #CyberSecurity  #Coudsecurity #ThreatIntelligent #Databreach #Deeplearning #OSINT #CyberCrime #Infosec #Blog #News https://t.co/gWuu3xPqK8",
-                    "twitter_user_handle": "threatshub",
-                    "twitter_user_name": "ThreatsHub",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1079175697086730243/a8oUVuC6_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "threatshub.org/blog/cve-2019-\u2026",
-                            "expanded_url": "https://www.threatshub.org/blog/cve-2019-8561-a-hard-to-banish-packagekit-framework-vulnerability-in-macos/",
-                            "url": "https://t.co/pMNgppKOsR"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-11 01:21",
-                    "likes": 17,
-                    "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1590877376904560642",
-                    "tweet_text": "@POC_Crew The first vulnerability I talked about at #POC2022 is CVE-2022-32895, which was discovered when I dug into the old CVE-2019-8561.\nhttps://t.co/5vo97mKpNy",
-                    "twitter_user_handle": "patch1t",
-                    "twitter_user_name": "Mickey Jin",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1275239278197436420/c8lRqAmp_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "trendmicro.com/en_us/research\u2026",
-                            "expanded_url": "https://www.trendmicro.com/en_us/research/22/k/cve-2019-8561-a-hard-to-banish-packagekit-framework-vulnerabilit.html",
-                            "url": "https://t.co/5vo97mKpNy"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-11 01:52",
-                    "likes": 1,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1590885023648997376",
-                    "tweet_text": "https://t.co/rynigu3W3K CVE-2019-8561: A Hard-to-Banish PackageKit Framework\nVulnerability in macOS #cybersecurity",
-                    "twitter_user_handle": "OSINT_info",
-                    "twitter_user_name": "OSINT Info",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1510073408423272448/cxx-VSun_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "trendmicro.com/en_us/research\u2026",
-                            "expanded_url": "https://www.trendmicro.com/en_us/research/22/k/cve-2019-8561-a-hard-to-banish-packagekit-framework-vulnerabilit.html",
-                            "url": "https://t.co/rynigu3W3K"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-11 02:22",
-                    "likes": 1,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1590892722701099008",
-                    "tweet_text": "If you want to learn more about Mickey\u2019s (@patch1t) findings, you may read our new blog entry where we detailed our investigation of #CVE-2019-8561, a vulnerability that exists in the #macOS PackageKit framework\u2b07\ufe0f\n\nhttps://t.co/Iw7nMxlsEn",
-                    "twitter_user_handle": "TrendMicroRSRCH",
-                    "twitter_user_name": "Trend Micro Research",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1232853721169588224/cIK_8kSX_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "research.trendmicro.com/3tl0WmJ",
-                            "expanded_url": "https://research.trendmicro.com/3tl0WmJ",
-                            "url": "https://t.co/Iw7nMxlsEn"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-11 01:51",
-                    "likes": 1,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1590884789166301184",
-                    "tweet_text": "https://t.co/Ah5jI6Fy9n CVE-2019-8561: A Hard-to-Banish PackageKit Framework\nVulnerability in macOS #cybersecurity",
-                    "twitter_user_handle": "netsecu",
-                    "twitter_user_name": "The latest Security News",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1532685463257071617/Z2RXybDo_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "trendmicro.com/en_us/research\u2026",
-                            "expanded_url": "https://www.trendmicro.com/en_us/research/22/k/cve-2019-8561-a-hard-to-banish-packagekit-framework-vulnerabilit.html",
-                            "url": "https://t.co/Ah5jI6Fy9n"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [
-                "https://support.apple.com/HT209600"
-            ],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Mac Os X",
-                            "versions": [
-                                "*"
-                            ]
-                        }
-                    ],
-                    "vendor": "Apple"
-                }
-            ]
-        },
-        {
-            "assigner": null,
-            "audience_size": 106668,
-            "cve": "CVE-2022-40303",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": null,
-            "epss_score": null,
-            "github_repos": [],
-            "lastModifiedDate": null,
-            "num_retweets": 6,
-            "num_tweets": 12,
-            "num_tweets_and_retweets": 18,
-            "publishedDate": null,
-            "reddit_posts": [
-                {
-                    "created": 1668043469.0,
-                    "is_self": false,
-                    "num_comments": 1,
-                    "reddit_url": "https://www.reddit.com/r/netsec/comments/yr1k9p/integer_overflow_in_xmlparsenamecomplex_libxml2/",
-                    "subreddit": "netsec",
-                    "subreddit_subscribers": 460264,
-                    "title": "Integer overflow in xmlParseNameComplex (libxml2) - CVE-2022-40303",
-                    "upvotes": 26,
-                    "url": "https://gitlab.gnome.org/GNOME/libxml2/-/issues/381"
-                },
-                {
-                    "created": 1668084952.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/yre4aq/msisac_cybersecurity_advisory_multiple/",
-                    "subreddit": "k12cybersecurity",
-                    "subreddit_subscribers": 66,
-                    "title": "MS-ISAC CYBERSECURITY ADVISORY - Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution - PATCH: NOW",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/yre4aq/msisac_cybersecurity_advisory_multiple/"
+                    "url": "https://cve.report/CVE-2022-43671"
                 }
             ],
             "score": null,
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2022-11-11 07:40",
-                    "likes": 6,
-                    "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1590972635688882177",
-                    "tweet_text": "CVE-2022-40303 &amp; CVE-2022-40304: RCE flaws in Apple iOS, macOS https://t.co/WPslGFkzYq",
-                    "twitter_user_handle": "Dinosn",
-                    "twitter_user_name": "Nicolas Krassas",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1292159799141060610/CLgtH-wo_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "securityonline.info/cve-2022-40303\u2026",
-                            "expanded_url": "https://securityonline.info/cve-2022-40303-cve-2022-40304-rce-flaws-in-apple-ios-macos/",
-                            "url": "https://t.co/WPslGFkzYq"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-11 06:54",
+                    "created_at": "2022-11-12 04:45",
                     "likes": 3,
-                    "num_retweets": 2,
-                    "retweets": 2,
-                    "tweet_id": "1590961244693037057",
-                    "tweet_text": "CVE-2022-40303 &amp; CVE-2022-40304: RCE flaws in Apple iOS, macOS https://t.co/kCuwxc0Ps2 #opensource #infosec #security #pentesting",
-                    "twitter_user_handle": "the_yellow_fall",
-                    "twitter_user_name": "Gray Hats",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/419147954344058880/bTW9Gx7T_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "securityonline.info/cve-2022-40303\u2026",
-                            "expanded_url": "https://securityonline.info/cve-2022-40303-cve-2022-40304-rce-flaws-in-apple-ios-macos/",
-                            "url": "https://t.co/kCuwxc0Ps2"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-11 07:33",
-                    "likes": 1,
                     "num_retweets": 1,
                     "retweets": 1,
-                    "tweet_id": "1590971001457676288",
-                    "tweet_text": "CVE-2022-40303 &amp; CVE-2022-40304: RCE flaws in Apple iOS, macOS https://t.co/o7N7ZSGLKf #security #opensource #cybersecurity #malware #cyber #pentesting #malwareanalysis #infosec #redteam #malwarehunting #hacking #infosec #threathunting #bugbounty #tools #offensivesecurity",
-                    "twitter_user_handle": "FilipiPires",
-                    "twitter_user_name": "Filipi Pires",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1531334436800831488/evf2wJ4z_normal.jpg",
+                    "tweet_id": "1591291004082069505",
+                    "tweet_text": "CVE-2022-43671 Zoho ManageEngine Password Manager Pro before 12122, PAM360 before 5711, and Access Manager Plus before 4306 allow SQL Injection. https://t.co/rJ3cXVtbaW",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "ift.tt/q1FI2sD",
-                            "expanded_url": "https://ift.tt/q1FI2sD",
-                            "url": "https://t.co/o7N7ZSGLKf"
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43671",
+                            "url": "https://t.co/rJ3cXVtbaW"
                         }
                     ]
                 },
                 {
-                    "created_at": "2022-11-11 06:19",
+                    "created_at": "2022-11-12 04:45",
                     "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1590952343943942144",
-                    "tweet_text": "Fletch Top Threat Alert: #CVE-2022-40303 - Apple Patches Remote Code Execution Flaws in iOS, macOS\n\n#FletchScore = Critical/Trending\n\n#CyberSecurity #ThreatIntel #InfoSec CVE-2022-40303 CVE-2022-40304\n\nhttps://t.co/nzA3NcYHyQ",
-                    "twitter_user_handle": "fletch_ai",
-                    "twitter_user_name": "fletch",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1410323546165833728/NuguMAm2_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "fletch.ai/p/cve-2022-403\u2026",
-                            "expanded_url": "https://fletch.ai/p/cve-2022-40303",
-                            "url": "https://t.co/nzA3NcYHyQ"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-11 11:05",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1591024322508132352",
-                    "tweet_text": "#Vulnerability #Apple CVE-2022-40303 &amp; CVE-2022-40304: RCE flaws in Apple iOS, macOS https://t.co/8pBuX4Dvyo",
-                    "twitter_user_handle": "Komodosec",
-                    "twitter_user_name": "Komodo Cyber Consulting",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/532759052397207552/LGMpfmcr_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "securityonline.info/cve-2022-40303\u2026",
-                            "expanded_url": "https://securityonline.info/cve-2022-40303-cve-2022-40304-rce-flaws-in-apple-ios-macos/?utm_source=dlvr.it&utm_medium=twitter",
-                            "url": "https://t.co/8pBuX4Dvyo"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": null,
-            "audience_size": 106033,
-            "cve": "CVE-2022-40304",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": null,
-            "epss_score": null,
-            "github_repos": [],
-            "lastModifiedDate": null,
-            "num_retweets": 6,
-            "num_tweets": 11,
-            "num_tweets_and_retweets": 17,
-            "publishedDate": null,
-            "reddit_posts": [
-                {
-                    "created": 1668084952.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/yre4aq/msisac_cybersecurity_advisory_multiple/",
-                    "subreddit": "k12cybersecurity",
-                    "subreddit_subscribers": 66,
-                    "title": "MS-ISAC CYBERSECURITY ADVISORY - Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution - PATCH: NOW",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/yre4aq/msisac_cybersecurity_advisory_multiple/"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2022-11-11 07:40",
-                    "likes": 6,
-                    "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1590972635688882177",
-                    "tweet_text": "CVE-2022-40303 &amp; CVE-2022-40304: RCE flaws in Apple iOS, macOS https://t.co/WPslGFkzYq",
-                    "twitter_user_handle": "Dinosn",
-                    "twitter_user_name": "Nicolas Krassas",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1292159799141060610/CLgtH-wo_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "securityonline.info/cve-2022-40303\u2026",
-                            "expanded_url": "https://securityonline.info/cve-2022-40303-cve-2022-40304-rce-flaws-in-apple-ios-macos/",
-                            "url": "https://t.co/WPslGFkzYq"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-11 06:54",
-                    "likes": 3,
-                    "num_retweets": 2,
-                    "retweets": 2,
-                    "tweet_id": "1590961244693037057",
-                    "tweet_text": "CVE-2022-40303 &amp; CVE-2022-40304: RCE flaws in Apple iOS, macOS https://t.co/kCuwxc0Ps2 #opensource #infosec #security #pentesting",
-                    "twitter_user_handle": "the_yellow_fall",
-                    "twitter_user_name": "Gray Hats",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/419147954344058880/bTW9Gx7T_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "securityonline.info/cve-2022-40303\u2026",
-                            "expanded_url": "https://securityonline.info/cve-2022-40303-cve-2022-40304-rce-flaws-in-apple-ios-macos/",
-                            "url": "https://t.co/kCuwxc0Ps2"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-11 07:33",
-                    "likes": 1,
                     "num_retweets": 1,
                     "retweets": 1,
-                    "tweet_id": "1590971001457676288",
-                    "tweet_text": "CVE-2022-40303 &amp; CVE-2022-40304: RCE flaws in Apple iOS, macOS https://t.co/o7N7ZSGLKf #security #opensource #cybersecurity #malware #cyber #pentesting #malwareanalysis #infosec #redteam #malwarehunting #hacking #infosec #threathunting #bugbounty #tools #offensivesecurity",
-                    "twitter_user_handle": "FilipiPires",
-                    "twitter_user_name": "Filipi Pires",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1531334436800831488/evf2wJ4z_normal.jpg",
+                    "tweet_id": "1591291006410018816",
+                    "tweet_text": "CVE-2022-43672 Zoho ManageEngine Password Manager Pro before 12122, PAM360 before 5711, and Access Manager Plus before 4306 allow SQL Injection (in a different software component relative to CVE-2022-43671. https://t.co/Ja7yPrjYhK",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "ift.tt/q1FI2sD",
-                            "expanded_url": "https://ift.tt/q1FI2sD",
-                            "url": "https://t.co/o7N7ZSGLKf"
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43672",
+                            "url": "https://t.co/Ja7yPrjYhK"
                         }
                     ]
                 },
                 {
-                    "created_at": "2022-11-11 06:19",
+                    "created_at": "2022-11-12 04:05",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1590952343943942144",
-                    "tweet_text": "Fletch Top Threat Alert: #CVE-2022-40303 - Apple Patches Remote Code Execution Flaws in iOS, macOS\n\n#FletchScore = Critical/Trending\n\n#CyberSecurity #ThreatIntel #InfoSec CVE-2022-40303 CVE-2022-40304\n\nhttps://t.co/nzA3NcYHyQ",
-                    "twitter_user_handle": "fletch_ai",
-                    "twitter_user_name": "fletch",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1410323546165833728/NuguMAm2_normal.jpg",
+                    "tweet_id": "1591281088097185792",
+                    "tweet_text": "CVE-2022-43671 : Zoho ManageEngine Password Manager Pro before 12122, PAM360 before 5711, and Access Manager Plus before 4306 allow SQL Injection.... https://t.co/7xoGkOarky",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
                     "urls": [
                         {
-                            "display_url": "fletch.ai/p/cve-2022-403\u2026",
-                            "expanded_url": "https://fletch.ai/p/cve-2022-40303",
-                            "url": "https://t.co/nzA3NcYHyQ"
+                            "display_url": "cve.report/CVE-2022-43671",
+                            "expanded_url": "https://cve.report/CVE-2022-43671",
+                            "url": "https://t.co/7xoGkOarky"
                         }
                     ]
                 },
                 {
-                    "created_at": "2022-11-11 11:05",
+                    "created_at": "2022-11-12 04:06",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1591024322508132352",
-                    "tweet_text": "#Vulnerability #Apple CVE-2022-40303 &amp; CVE-2022-40304: RCE flaws in Apple iOS, macOS https://t.co/8pBuX4Dvyo",
-                    "twitter_user_handle": "Komodosec",
-                    "twitter_user_name": "Komodo Cyber Consulting",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/532759052397207552/LGMpfmcr_normal.png",
+                    "tweet_id": "1591281156321853440",
+                    "tweet_text": "CVE-2022-43672 : Zoho ManageEngine Password Manager Pro before 12122, PAM360 before 5711, and Access Manager Plus before 4306 allow SQL Injection  in a different software component relative to CVE-2022-43671.... https://t.co/RuA41cOyOO",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
                     "urls": [
                         {
-                            "display_url": "securityonline.info/cve-2022-40303\u2026",
-                            "expanded_url": "https://securityonline.info/cve-2022-40303-cve-2022-40304-rce-flaws-in-apple-ios-macos/?utm_source=dlvr.it&utm_medium=twitter",
-                            "url": "https://t.co/8pBuX4Dvyo"
+                            "display_url": "cve.report/CVE-2022-43672",
+                            "expanded_url": "https://cve.report/CVE-2022-43672",
+                            "url": "https://t.co/RuA41cOyOO"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-12 04:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591286367954554880",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2022-43671 \ud83d\udea8 Zoho ManageEngine Password Manager Pro before 12122, PAM360 before 5711, and Access Manager Plus before 4306 allow SQL Injection. https://t.co/tfbZnqUpAE",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-43671",
+                            "url": "https://t.co/tfbZnqUpAE"
                         }
                     ]
                 }
@@ -1165,7 +691,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/yraicv/abb_flow_computer_and_remote_controllers_path/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 30873,
+                    "subreddit_subscribers": 30879,
                     "title": "ABB Flow Computer and Remote Controllers Path Traversal Vulnerability in Totalflow TCP protocol can lead to root access CVE ID: CVE-2022-0902",
                     "upvotes": 4,
                     "url": "https://library.e.abb.com/public/b17396142a3d4d14ae29e351ccc974ec/Cyber%20Security%20Advisory%20CVE-2022-0902%20-%20Path%20Traversal%20Vulnerability%20in%20Totalflow%20TCP%20protocol.pdf?x-sign=c5q7isHZ0Mn2FexvbA0hm4hFhySPztUS097MYPUoNHAwrKFQIX0nTweQ3ojp6FLt"
@@ -1366,8 +892,431 @@
             ],
             "vendor_advisories": [],
             "vendors": []
+        },
+        {
+            "assigner": "cna@vuldb.com",
+            "audience_size": 70921,
+            "cve": "CVE-2022-3944",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": "A vulnerability was found in jerryhanjj ERP. It has been declared as critical. Affected by this vulnerability is the function uploadImages of the file application/controllers/basedata/inventory.php of the component Commodity Management. The manipulation leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-213451.",
+            "epss_score": "0.00885",
+            "github_repos": [],
+            "lastModifiedDate": "2022-11-11T08:15Z",
+            "num_retweets": 0,
+            "num_tweets": 20,
+            "num_tweets_and_retweets": 20,
+            "publishedDate": "2022-11-11T08:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1668159501.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/ys5zls/cve20223944/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 105,
+                    "title": "CVE-2022-3944",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-3944"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2022-11-11 10:49",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591020290955677696",
+                    "tweet_text": "[Exploit] We have added exploits for CVE-2022-3944, CVE-2022-3943 and CVE-2022-3941 https://t.co/9vWamz8YD9 #exploit #exploits #poc",
+                    "twitter_user_handle": "vuldb",
+                    "twitter_user_name": "VulDB \ud83d\udee1",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1466019089407741959/dkElb81A_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "vuldb.com/?exploits.2022\u2026",
+                            "expanded_url": "https://vuldb.com/?exploits.202211",
+                            "url": "https://t.co/9vWamz8YD9"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-11 13:23",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591059055644123136",
+                    "tweet_text": "I declare CVE-2022-3944 to be named Meline Bugle\nhttps://t.co/sBwgu48aCT",
+                    "twitter_user_handle": "vulnonym",
+                    "twitter_user_name": "vulnonym",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-3944",
+                            "url": "https://t.co/sBwgu48aCT"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-11 08:00",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1590977742551613441",
+                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2022-3944 | jerryhanjj ERP Commodity Management inventory.php uploadImages unrestricted upload) has been published on https://t.co/W3z9qv4K2w",
+                    "twitter_user_handle": "www_sesin_at",
+                    "twitter_user_name": "www.sesin.at",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/9KYxtdZjkl"
+                        },
+                        {
+                            "display_url": "sesin.at/2022/11/11/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2022/11/11/cve-2022-3944-jerryhanjj-erp-commodity-management-inventory-php-uploadimages-unrestricted-upload/",
+                            "url": "https://t.co/W3z9qv4K2w"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-11 08:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1590984378653417472",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2022-3944 \ud83d\udea8 A vulnerability was found in jerryhanjj ERP. It has been declared as critical. Affected by this vulnerability is the function uploadImages of the file application/controllers/basedata/invent... (click for more)  https://t.co/XzPblckdb1",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-3944",
+                            "url": "https://t.co/XzPblckdb1"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-11 09:50",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591005542352269312",
+                    "tweet_text": "Emerging Vulnerability Found CVE-2022-3944 - A vulnerability was found in jerryhanjj ERP. It has been declared as critical. Affected by this vulnerability is the function uploadImages of the file application/controllers/basedata/inventory.php...\n\nSee https://t.co/kGHSuXF6Ic",
+                    "twitter_user_handle": "ColorTokensInc",
+                    "twitter_user_name": "ColorTokens",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1505854942875365380/yihNDIfa_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-3944",
+                            "url": "https://t.co/kGHSuXF6Ic"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "cna@vuldb.com",
+            "audience_size": 69146,
+            "cve": "CVE-2022-3956",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+                    "cwe_id": "CWE-89"
+                },
+                {
+                    "cwe_description": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')",
+                    "cwe_id": "CWE-74"
+                },
+                {
+                    "cwe_description": "Improper Neutralization",
+                    "cwe_id": "CWE-707"
+                }
+            ],
+            "description": "A vulnerability classified as critical has been found in tsruban HHIMS 2.1. Affected is an unknown function of the component Patient Portrait Handler. The manipulation of the argument PID leads to sql injection. It is possible to launch the attack remotely. It is recommended to apply a patch to fix this issue. VDB-213462 is the identifier assigned to this vulnerability.",
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": "2022-11-11T16:15Z",
+            "num_retweets": 1,
+            "num_tweets": 13,
+            "num_tweets_and_retweets": 14,
+            "publishedDate": "2022-11-11T16:15Z",
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2022-11-11 16:15",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1591102325745147909",
+                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2022-3956 | tsruban HHIMS 2.1 Patient Portrait PID sql injection) has been published on https://t.co/a10gT8Jq6B",
+                    "twitter_user_handle": "www_sesin_at",
+                    "twitter_user_name": "www.sesin.at",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/9KYxtdZjkl"
+                        },
+                        {
+                            "display_url": "sesin.at/2022/11/11/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2022/11/11/cve-2022-3956-tsruban-hhims-2-1-patient-portrait-pid-sql-injection/",
+                            "url": "https://t.co/a10gT8Jq6B"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-11 16:15",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591102323551604736",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2022-3956 | tsruban HHIMS 2.1 Patient Portrait PID sql injection) has been published on https://t.co/pOM9dLcW7V",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/uXvPWJy6tj"
+                        },
+                        {
+                            "display_url": "sesin.at/2022/11/11/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2022/11/11/cve-2022-3956-tsruban-hhims-2-1-patient-portrait-pid-sql-injection/",
+                            "url": "https://t.co/pOM9dLcW7V"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-11 16:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591105174659022849",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2022-3956 \ud83d\udea8 A vulnerability classified as critical has been found in tsruban HHIMS 2.1. Affected is an unknown function of the component Patient Portrait Handler. The manipulation of the argument PID le... (click for more)  https://t.co/EBEtn1mcUO",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-3956",
+                            "url": "https://t.co/EBEtn1mcUO"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-11 16:50",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591111153820004353",
+                    "tweet_text": "CVE-2022-3956 | tsruban HHIMS 2.1 Patient Portrait PID sql injection A vulnerability classified as critical has been found in tsruban HHIMS 2.1. Affected is an unknown function of the component Patient Portrait Handler. The manipulation of the argument P\u2026 https://t.co/ogCiM8vmvJ",
+                    "twitter_user_handle": "threatmeter",
+                    "twitter_user_name": "ThreatMeter",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/XSOCGbf",
+                            "expanded_url": "https://ift.tt/XSOCGbf",
+                            "url": "https://t.co/ogCiM8vmvJ"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-11 16:55",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591112513609162758",
+                    "tweet_text": "Potentially Critical CVE Detected!\nCVE-2022-3956\nA vulnerability classified as critical has been found in tsruban HHIMS 2.1. Affected is an unknown function of the compo...\nCVSS: 8.96\n#CVE #CyberSecurity",
+                    "twitter_user_handle": "Robo_Alerts",
+                    "twitter_user_name": "Robo Shadow Alerts",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1439862150890237953/WjKa3G1I_normal.jpg",
+                    "urls": []
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "cna@vuldb.com",
+            "audience_size": 68407,
+            "cve": "CVE-2022-3949",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+                    "cwe_id": "CWE-79"
+                },
+                {
+                    "cwe_description": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')",
+                    "cwe_id": "CWE-74"
+                },
+                {
+                    "cwe_description": "Improper Neutralization",
+                    "cwe_id": "CWE-707"
+                }
+            ],
+            "description": "A vulnerability, which was classified as problematic, has been found in Sourcecodester Simple Cashiering System. This issue affects some unknown processing of the component User Account Handler. The manipulation of the argument fullname leads to cross site scripting. The attack may be initiated remotely. The associated identifier of this vulnerability is VDB-213455.",
+            "epss_score": null,
+            "github_repos": [
+                {
+                    "created": "2022-11-11T12:21:51Z",
+                    "description": "XSS in Simple Cashiering System",
+                    "language": null,
+                    "name": "CVE-2022-3949",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2022-11-11T12:21:51Z",
+                    "url": "https://github.com/maikroservice/CVE-2022-3949"
+                }
+            ],
+            "lastModifiedDate": "2022-11-11T13:15Z",
+            "num_retweets": 0,
+            "num_tweets": 18,
+            "num_tweets_and_retweets": 18,
+            "publishedDate": "2022-11-11T13:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1668177513.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/yscd4s/cve20223949/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 105,
+                    "title": "CVE-2022-3949",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-3949"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2022-11-11 13:50",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591065920541073408",
+                    "tweet_text": "Emerging Vulnerability Found CVE-2022-3949 - A vulnerability, which was classified as problematic, has been found in Sourcecodester Simple Cashiering System. This issue affects some unknown processing of the component User Account Handler. Th...\n\nSee https://t.co/fGObOz1Rcz",
+                    "twitter_user_handle": "ColorTokensInc",
+                    "twitter_user_name": "ColorTokens",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1505854942875365380/yihNDIfa_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-3949",
+                            "url": "https://t.co/fGObOz1Rcz"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-11 15:29",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591090755380002816",
+                    "tweet_text": "CVE-2022-3949 A vulnerability, which was classified as problematic, has been found in Sourcecodester Simple Cashiering System. This issue affects some unknown processing of the component User Account Handler. The manipulation of the argument fulln... https://t.co/vX0YU4cIKc",
+                    "twitter_user_handle": "eyeTSystems",
+                    "twitter_user_name": "\ud835\udc9f\ud835\udcb6\ud835\udcc3\ud835\udcbe\ud835\udc52\ud835\udcc1",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/733144294278582272/6tkqfYMy_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3949",
+                            "url": "https://t.co/vX0YU4cIKc"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-12 00:09",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591221609502838789",
+                    "tweet_text": "CVE-2022-3949 A vulnerability, which was classified as problematic, has been found in Sourcecodester Simple Cashiering System. This issue affects some unknown processing of the component User Account Handler. The manipulation of the argument fullname lea\u2026 https://t.co/ZTYck5g0qa",
+                    "twitter_user_handle": "threatmeter",
+                    "twitter_user_name": "ThreatMeter",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/6qBcf1g",
+                            "expanded_url": "https://ift.tt/6qBcf1g",
+                            "url": "https://t.co/ZTYck5g0qa"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-11 12:42",
+                    "likes": 1,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591048698725036035",
+                    "tweet_text": "CVE-2022-3949\n\nCVE-2022-3949\nXSS in Simple Cashiering System\n\nhttps://t.co/S2nSBEmMYe",
+                    "twitter_user_handle": "VulmonFeeds",
+                    "twitter_user_name": "Vulmon Vulnerability Feed",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "vulmon.com/vulnerabilityd\u2026",
+                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2022-3949",
+                            "url": "https://t.co/S2nSBEmMYe"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-11 12:45",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591049472917872640",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2022-3949 | Sourcecodester Simple Cashiering System User Account fullname cross site scripting) has been published on https://t.co/SGvzGcAs8J",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/uXvPWJy6tj"
+                        },
+                        {
+                            "display_url": "sesin.at/2022/11/11/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2022/11/11/cve-2022-3949-sourcecodester-simple-cashiering-system-user-account-fullname-cross-site-scripting/",
+                            "url": "https://t.co/SGvzGcAs8J"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2022-11-12 01:19:05"
+    "updated": "2022-11-12 07:43:32"
 }
