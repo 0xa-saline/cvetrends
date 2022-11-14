@@ -2,7 +2,7 @@
     "data": [
         {
             "assigner": "secure@microsoft.com",
-            "audience_size": 444216,
+            "audience_size": 466523,
             "cve": "CVE-2022-41082",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -18,9 +18,9 @@
                     "description": "Nmap scripts to detect exchange 0-day (CVE-2022-41082) vulnerability",
                     "language": "Lua",
                     "name": "nse-exchange",
-                    "stars": 28,
+                    "stars": 36,
                     "topics": [],
-                    "updated": "2022-11-13T21:56:08Z",
+                    "updated": "2022-11-14T05:01:52Z",
                     "url": "https://github.com/Diverto/nse-exchange"
                 },
                 {
@@ -76,9 +76,9 @@
                 }
             ],
             "lastModifiedDate": "2022-11-07T20:19Z",
-            "num_retweets": 64,
-            "num_tweets": 13,
-            "num_tweets_and_retweets": 77,
+            "num_retweets": 85,
+            "num_tweets": 17,
+            "num_tweets_and_retweets": 102,
             "publishedDate": "2022-10-03T01:15Z",
             "reddit_posts": [
                 {
@@ -87,7 +87,7 @@
                     "num_comments": 92,
                     "reddit_url": "https://www.reddit.com/r/msp/comments/xrkfdf/threat_advisory_new_0day_vulnerabilities_found_in/",
                     "subreddit": "msp",
-                    "subreddit_subscribers": 138488,
+                    "subreddit_subscribers": 138495,
                     "title": "Threat advisory: New 0-Day Vulnerabilities Found in Microsoft Exchange",
                     "upvotes": 185,
                     "url": "https://www.reddit.com/r/msp/comments/xrkfdf/threat_advisory_new_0day_vulnerabilities_found_in/"
@@ -98,9 +98,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/networking/comments/xvcrkc/cve202241082_and_cve202241040_related_to_zeroday/",
                     "subreddit": "networking",
-                    "subreddit_subscribers": 277201,
+                    "subreddit_subscribers": 277218,
                     "title": "CVE-2022-41082 and CVE-2022-41040 related to Zero-day Vulnerabilities in Microsoft Exchange Server",
-                    "upvotes": 68,
+                    "upvotes": 67,
                     "url": "https://www.reddit.com/r/networking/comments/xvcrkc/cve202241082_and_cve202241040_related_to_zeroday/"
                 },
                 {
@@ -109,9 +109,9 @@
                     "num_comments": 9,
                     "reddit_url": "https://www.reddit.com/r/crowdstrike/comments/xsvyn4/situational_awareness_proxynotshell_cve202240140/",
                     "subreddit": "crowdstrike",
-                    "subreddit_subscribers": 10812,
+                    "subreddit_subscribers": 10813,
                     "title": "SITUATIONAL AWARENESS // ProxyNotShell // CVE-2022-40140 &amp; CVE-2022-41082",
-                    "upvotes": 43,
+                    "upvotes": 42,
                     "url": "https://www.reddit.com/r/crowdstrike/comments/xsvyn4/situational_awareness_proxynotshell_cve202240140/"
                 },
                 {
@@ -120,9 +120,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/techhumor/comments/xukupz/exchange_0days/",
                     "subreddit": "techhumor",
-                    "subreddit_subscribers": 6656,
+                    "subreddit_subscribers": 6657,
                     "title": "Exchange 0-days",
-                    "upvotes": 23,
+                    "upvotes": 22,
                     "url": "https://i.redd.it/9z8zv0kcolr91.png"
                 },
                 {
@@ -131,9 +131,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/xtjl8q/proxynotshell_checkernse_nmap_script_to_check_for/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 30932,
+                    "subreddit_subscribers": 30937,
                     "title": "proxynotshell_checker.nse: nmap script to Check for Microsoft Exchange servers potentially vulnerable to ProxyNotShell (CVE-2022-40140 &amp; CVE-2022-41082).",
-                    "upvotes": 11,
+                    "upvotes": 12,
                     "url": "https://github.com/CronUp/Vulnerabilidades/blob/main/proxynotshell_checker.nse"
                 }
             ],
@@ -142,9 +142,9 @@
             "tweets": [
                 {
                     "created_at": "2022-11-13 11:22",
-                    "likes": 228,
-                    "num_retweets": 64,
-                    "retweets": 75,
+                    "likes": 281,
+                    "num_retweets": 84,
+                    "retweets": 97,
                     "tweet_id": "1591753432935071744",
                     "tweet_text": "Nmap scripts to detect exchange 0-day (CVE-2022-41082) vulnerability\n\nhttps://t.co/inicl8nYbN",
                     "twitter_user_handle": "Dinosn",
@@ -155,6 +155,34 @@
                             "display_url": "github.com/Diverto/nse-ex\u2026",
                             "expanded_url": "https://github.com/Diverto/nse-exchange",
                             "url": "https://t.co/inicl8nYbN"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-14 03:04",
+                    "likes": 1,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1591990549997064192",
+                    "tweet_text": "tools\nBlue Team Techniques\n1. Web cache poisoning vulnerability scanner\nhttps://t.co/1ZClusdfm0\n\n2. Nmap scripts to detect exchange 0-day (CVE-2022-41082) vulnerability\nhttps://t.co/5qSb1i4FEB\n\n3. Tool to automate open redirect detection at scale\nhttps://t.co/jRVZdAE3xe",
+                    "twitter_user_handle": "AlirezaGhahrood",
+                    "twitter_user_name": "Alireza ghahrood",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1561687422165028865/dBVl_bl5_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/Th0h0/autopois\u2026",
+                            "expanded_url": "https://github.com/Th0h0/autopoisoner",
+                            "url": "https://t.co/1ZClusdfm0"
+                        },
+                        {
+                            "display_url": "github.com/Diverto/nse-ex\u2026",
+                            "expanded_url": "https://github.com/Diverto/nse-exchange",
+                            "url": "https://t.co/5qSb1i4FEB"
+                        },
+                        {
+                            "display_url": "github.com/Th0h0/autoredi\u2026",
+                            "expanded_url": "https://github.com/Th0h0/autoredirect",
+                            "url": "https://t.co/jRVZdAE3xe"
                         }
                     ]
                 },
@@ -211,24 +239,6 @@
                             "url": "https://t.co/bdgGZQAhVT"
                         }
                     ]
-                },
-                {
-                    "created_at": "2022-11-13 18:08",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1591855427544834049",
-                    "tweet_text": "(Same from about 4 hours ago.)\nI think that the most retweeted(60 times) tweet that contains CVE ID between Nov 12 2022 18:01 UTC and Nov 13 2022 18:00 UTC is:\nhttps://t.co/N6SrirVNny\nIt has CVE-2022-41082. #l24_v6a5mcbpqmegq",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "twitter.com/Dinosn/status/\u2026",
-                            "expanded_url": "https://twitter.com/Dinosn/status/1591753432935071744",
-                            "url": "https://t.co/N6SrirVNny"
-                        }
-                    ]
                 }
             ],
             "vendor_advisories": [
@@ -252,7 +262,7 @@
         },
         {
             "assigner": "mobile.security@samsung.com",
-            "audience_size": 192396,
+            "audience_size": 208039,
             "cve": "CVE-2021-25337",
             "cve_urls": null,
             "cvssv2_base_score": 5.8,
@@ -264,14 +274,32 @@
             "epss_score": "0.00885",
             "github_repos": [],
             "lastModifiedDate": "2022-07-14T15:18Z",
-            "num_retweets": 3,
-            "num_tweets": 3,
-            "num_tweets_and_retweets": 6,
+            "num_retweets": 27,
+            "num_tweets": 5,
+            "num_tweets_and_retweets": 32,
             "publishedDate": "2021-03-04T21:15Z",
             "reddit_posts": [],
             "score": 7.1,
             "severity": "HIGH",
             "tweets": [
+                {
+                    "created_at": "2022-11-13 14:00",
+                    "likes": 125,
+                    "num_retweets": 25,
+                    "retweets": 32,
+                    "tweet_id": "1591793017542873088",
+                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2021-25337: 186.4K (audience size)\nCVE-2021-25369: 186.4K\nCVE-2021-25370: 186.4K\n\nPast 7 days:\nCVE-2022-41091: 4.5M\nCVE-2022-31685: 2.8M\nCVE-2022-31686: 2.5M\n\nhttps://t.co/LhpwNP6xog",
+                    "twitter_user_handle": "CVEtrends",
+                    "twitter_user_name": "CVE Trends",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cvetrends.com",
+                            "expanded_url": "https://cvetrends.com",
+                            "url": "https://t.co/LhpwNP6xog"
+                        }
+                    ]
+                },
                 {
                     "created_at": "2022-11-13 12:17",
                     "likes": 3,
@@ -291,20 +319,20 @@
                     ]
                 },
                 {
-                    "created_at": "2022-11-13 14:00",
-                    "likes": 10,
-                    "num_retweets": 1,
+                    "created_at": "2022-11-14 04:08",
+                    "likes": 0,
+                    "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1591793017542873088",
-                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2021-25337: 186.4K (audience size)\nCVE-2021-25369: 186.4K\nCVE-2021-25370: 186.4K\n\nPast 7 days:\nCVE-2022-41091: 4.5M\nCVE-2022-31685: 2.8M\nCVE-2022-31686: 2.5M\n\nhttps://t.co/LhpwNP6xog",
-                    "twitter_user_handle": "CVEtrends",
-                    "twitter_user_name": "CVE Trends",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
+                    "tweet_id": "1592006412095598592",
+                    "tweet_text": "I think that the third retweeted(24 times) tweet that contains CVE ID between Nov 13 2022 04:01 UTC and Nov 14 2022 04:00 UTC is:\nhttps://t.co/dAFKt6vhhU\nIt has CVE-2021-25337. #l24_kmjrlyckpw35u",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
                     "urls": [
                         {
-                            "display_url": "cvetrends.com",
-                            "expanded_url": "https://cvetrends.com",
-                            "url": "https://t.co/LhpwNP6xog"
+                            "display_url": "twitter.com/CVEtrends/stat\u2026",
+                            "expanded_url": "https://twitter.com/CVEtrends/status/1591793017542873088",
+                            "url": "https://t.co/dAFKt6vhhU"
                         }
                     ]
                 },
@@ -316,6 +344,24 @@
                     "twitter_user_handle": "haseeb",
                     "twitter_user_name": "Haseeb Awan - efani.com",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1293477420805189632/5NR9Q0vy_normal.jpg"
+                },
+                {
+                    "created_at": "2022-11-14 02:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591975707206369280",
+                    "tweet_text": "The vuln CVE-2021-25337 has a tweet created 0 days ago and retweeted 14 times.\nhttps://t.co/dAFKt6uJsm\n#pow1rtrtwwcve",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/CVEtrends/stat\u2026",
+                            "expanded_url": "https://twitter.com/CVEtrends/status/1591793017542873088",
+                            "url": "https://t.co/dAFKt6uJsm"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [
@@ -340,7 +386,7 @@
         },
         {
             "assigner": "mobile.security@samsung.com",
-            "audience_size": 192396,
+            "audience_size": 208039,
             "cve": "CVE-2021-25369",
             "cve_urls": null,
             "cvssv2_base_score": 2.1,
@@ -352,14 +398,32 @@
             "epss_score": "0.00885",
             "github_repos": [],
             "lastModifiedDate": "2022-07-14T15:35Z",
-            "num_retweets": 3,
-            "num_tweets": 3,
-            "num_tweets_and_retweets": 6,
+            "num_retweets": 27,
+            "num_tweets": 5,
+            "num_tweets_and_retweets": 32,
             "publishedDate": "2021-03-26T19:15Z",
             "reddit_posts": [],
             "score": 5.5,
             "severity": "MEDIUM",
             "tweets": [
+                {
+                    "created_at": "2022-11-13 14:00",
+                    "likes": 125,
+                    "num_retweets": 25,
+                    "retweets": 32,
+                    "tweet_id": "1591793017542873088",
+                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2021-25337: 186.4K (audience size)\nCVE-2021-25369: 186.4K\nCVE-2021-25370: 186.4K\n\nPast 7 days:\nCVE-2022-41091: 4.5M\nCVE-2022-31685: 2.8M\nCVE-2022-31686: 2.5M\n\nhttps://t.co/LhpwNP6xog",
+                    "twitter_user_handle": "CVEtrends",
+                    "twitter_user_name": "CVE Trends",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cvetrends.com",
+                            "expanded_url": "https://cvetrends.com",
+                            "url": "https://t.co/LhpwNP6xog"
+                        }
+                    ]
+                },
                 {
                     "created_at": "2022-11-13 12:17",
                     "likes": 3,
@@ -379,20 +443,20 @@
                     ]
                 },
                 {
-                    "created_at": "2022-11-13 14:00",
-                    "likes": 10,
-                    "num_retweets": 1,
+                    "created_at": "2022-11-14 04:08",
+                    "likes": 0,
+                    "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1591793017542873088",
-                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2021-25337: 186.4K (audience size)\nCVE-2021-25369: 186.4K\nCVE-2021-25370: 186.4K\n\nPast 7 days:\nCVE-2022-41091: 4.5M\nCVE-2022-31685: 2.8M\nCVE-2022-31686: 2.5M\n\nhttps://t.co/LhpwNP6xog",
-                    "twitter_user_handle": "CVEtrends",
-                    "twitter_user_name": "CVE Trends",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
+                    "tweet_id": "1592006413307420672",
+                    "tweet_text": "I think that the third retweeted(24 times) tweet that contains CVE ID between Nov 13 2022 04:01 UTC and Nov 14 2022 04:00 UTC is:\nhttps://t.co/dAFKt6MkjU\nIt has CVE-2021-25369. #l24_5zux3p2vcipe6",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
                     "urls": [
                         {
-                            "display_url": "cvetrends.com",
-                            "expanded_url": "https://cvetrends.com",
-                            "url": "https://t.co/LhpwNP6xog"
+                            "display_url": "twitter.com/CVEtrends/stat\u2026",
+                            "expanded_url": "https://twitter.com/CVEtrends/status/1591793017542873088",
+                            "url": "https://t.co/dAFKt6MkjU"
                         }
                     ]
                 },
@@ -404,6 +468,24 @@
                     "twitter_user_handle": "haseeb",
                     "twitter_user_name": "Haseeb Awan - efani.com",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1293477420805189632/5NR9Q0vy_normal.jpg"
+                },
+                {
+                    "created_at": "2022-11-14 02:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591975708783480833",
+                    "tweet_text": "The vuln CVE-2021-25369 has a tweet created 0 days ago and retweeted 14 times.\nhttps://t.co/dAFKt6uJsm\n#pow1rtrtwwcve",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/CVEtrends/stat\u2026",
+                            "expanded_url": "https://twitter.com/CVEtrends/status/1591793017542873088",
+                            "url": "https://t.co/dAFKt6uJsm"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [
@@ -429,7 +511,7 @@
         },
         {
             "assigner": "mobile.security@samsung.com",
-            "audience_size": 192396,
+            "audience_size": 205118,
             "cve": "CVE-2021-25370",
             "cve_urls": null,
             "cvssv2_base_score": 4.9,
@@ -446,14 +528,32 @@
             "epss_score": "0.00885",
             "github_repos": [],
             "lastModifiedDate": "2022-05-03T16:04Z",
-            "num_retweets": 3,
+            "num_retweets": 27,
             "num_tweets": 3,
-            "num_tweets_and_retweets": 6,
+            "num_tweets_and_retweets": 30,
             "publishedDate": "2021-03-26T19:15Z",
             "reddit_posts": [],
             "score": 4.4,
             "severity": "MEDIUM",
             "tweets": [
+                {
+                    "created_at": "2022-11-13 14:00",
+                    "likes": 125,
+                    "num_retweets": 25,
+                    "retweets": 32,
+                    "tweet_id": "1591793017542873088",
+                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2021-25337: 186.4K (audience size)\nCVE-2021-25369: 186.4K\nCVE-2021-25370: 186.4K\n\nPast 7 days:\nCVE-2022-41091: 4.5M\nCVE-2022-31685: 2.8M\nCVE-2022-31686: 2.5M\n\nhttps://t.co/LhpwNP6xog",
+                    "twitter_user_handle": "CVEtrends",
+                    "twitter_user_name": "CVE Trends",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cvetrends.com",
+                            "expanded_url": "https://cvetrends.com",
+                            "url": "https://t.co/LhpwNP6xog"
+                        }
+                    ]
+                },
                 {
                     "created_at": "2022-11-13 12:17",
                     "likes": 3,
@@ -469,24 +569,6 @@
                             "display_url": "googleprojectzero.blogspot.com/2022/11/a-very\u2026",
                             "expanded_url": "https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html",
                             "url": "https://t.co/DZ6jyOEum3"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-13 14:00",
-                    "likes": 10,
-                    "num_retweets": 1,
-                    "retweets": 0,
-                    "tweet_id": "1591793017542873088",
-                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2021-25337: 186.4K (audience size)\nCVE-2021-25369: 186.4K\nCVE-2021-25370: 186.4K\n\nPast 7 days:\nCVE-2022-41091: 4.5M\nCVE-2022-31685: 2.8M\nCVE-2022-31686: 2.5M\n\nhttps://t.co/LhpwNP6xog",
-                    "twitter_user_handle": "CVEtrends",
-                    "twitter_user_name": "CVE Trends",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cvetrends.com",
-                            "expanded_url": "https://cvetrends.com",
-                            "url": "https://t.co/LhpwNP6xog"
                         }
                     ]
                 },
@@ -524,7 +606,146 @@
         },
         {
             "assigner": null,
-            "audience_size": 102996,
+            "audience_size": 111677,
+            "cve": "CVE-2022-1529",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": null,
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": null,
+            "num_retweets": 22,
+            "num_tweets": 5,
+            "num_tweets_and_retweets": 27,
+            "publishedDate": null,
+            "reddit_posts": [
+                {
+                    "created": 1653483427.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/uxgsb5/msisac_cybersecurity_advisory_multiple/",
+                    "subreddit": "k12cybersecurity",
+                    "subreddit_subscribers": 66,
+                    "title": "MS-ISAC CYBERSECURITY ADVISORY - Multiple Vulnerabilities in Mozilla Firefox Products Could Allow for Arbitrary Code Execution - PATCH: NOW",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/uxgsb5/msisac_cybersecurity_advisory_multiple/"
+                },
+                {
+                    "created": 1653300062.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/RedPacketSecurity/comments/uvwqto/mozilla_firefox_firefox_esr_firefox_for_android/",
+                    "subreddit": "RedPacketSecurity",
+                    "subreddit_subscribers": 541,
+                    "title": "Mozilla Firefox, Firefox ESR, Firefox for Android and Thunderbird code execution | CVE-2022-1529",
+                    "upvotes": 1,
+                    "url": "https://www.redpacketsecurity.com/mozilla-firefox-firefox-esr-firefox-for-android-and-thunderbird-code-execution-cve-2022-1529-2/"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2022-11-13 17:18",
+                    "likes": 43,
+                    "num_retweets": 22,
+                    "retweets": 23,
+                    "tweet_id": "1591842874567823360",
+                    "tweet_text": "CVE-2022-1802 + CVE-2022-1529 + CVE-2022-2200\nTested against Firefox 100.0.1 (Windows) - thx @CyberWarship\nFor sharing and \"mistymntncop\" for the work done ! \ud83d\udd25 https://t.co/I5Rez3Cxiu",
+                    "twitter_user_handle": "kmkz_security",
+                    "twitter_user_name": "kmkz",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1481149192840089603/m9anHRWv_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/mistymntncop/C\u2026",
+                            "expanded_url": "https://github.com/mistymntncop/CVE-2022-1802/blob/main/exploit.html",
+                            "url": "https://t.co/I5Rez3Cxiu"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-14 00:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591945508687224832",
+                    "tweet_text": "The vuln CVE-2022-1529 has a tweet created 0 days ago and retweeted 17 times.\nhttps://t.co/3q0nJkQqvF\n#pow1rtrtwwcve",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/kmkz_security/\u2026",
+                            "expanded_url": "https://twitter.com/kmkz_security/status/1591842874567823360",
+                            "url": "https://t.co/3q0nJkQqvF"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-14 00:08",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591946013409169408",
+                    "tweet_text": "I think that the third retweeted(17 times) tweet that contains CVE ID between Nov 13 2022 00:01 UTC and Nov 14 2022 00:00 UTC is:\nhttps://t.co/3q0nJkzntF\nIt has CVE-2022-1529. #l24_hi32yonpqvazu",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/kmkz_security/\u2026",
+                            "expanded_url": "https://twitter.com/kmkz_security/status/1591842874567823360",
+                            "url": "https://t.co/3q0nJkzntF"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-14 02:08",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591976212133462017",
+                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the third retweeted(19 times) tweet that contains CVE ID between Nov 13 2022 02:01 UTC and Nov 14 2022 02:00 UTC is:\nhttps://t.co/3q0nJkyPE7\nIt has CVE-2022-1529. #l24_hi32yonpqvazu",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/kmkz_security/\u2026",
+                            "expanded_url": "https://twitter.com/kmkz_security/status/1591842874567823360",
+                            "url": "https://t.co/3q0nJkyPE7"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-13 18:23",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591859393519554560",
+                    "tweet_text": "CVE-2022-1802 + CVE-2022-1529 + CVE-2022-2200\nTested against Firefox 100.0.1 (Windows)\nhttps://t.co/GXgFb0IN9d",
+                    "twitter_user_handle": "cyberkendra",
+                    "twitter_user_name": "Cyber Kendra",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945545310775910400/zx-yLarD_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/mistymntncop/C\u2026",
+                            "expanded_url": "https://github.com/mistymntncop/CVE-2022-1802/blob/main/exploit.html",
+                            "url": "https://t.co/GXgFb0IN9d"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": null,
+            "audience_size": 111677,
             "cve": "CVE-2022-1802",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -540,16 +761,16 @@
                     "description": null,
                     "language": "HTML",
                     "name": "CVE-2022-1802",
-                    "stars": 127,
+                    "stars": 128,
                     "topics": [],
-                    "updated": "2022-11-13T16:08:52Z",
+                    "updated": "2022-11-14T02:25:03Z",
                     "url": "https://github.com/mistymntncop/CVE-2022-1802"
                 }
             ],
             "lastModifiedDate": null,
-            "num_retweets": 13,
-            "num_tweets": 2,
-            "num_tweets_and_retweets": 15,
+            "num_retweets": 22,
+            "num_tweets": 5,
+            "num_tweets_and_retweets": 27,
             "publishedDate": null,
             "reddit_posts": [
                 {
@@ -558,9 +779,9 @@
                     "num_comments": 61,
                     "reddit_url": "https://www.reddit.com/r/ASX_Bets/comments/q3w851/environmentally_friendly_rare_earth_mining_in/",
                     "subreddit": "ASX_Bets",
-                    "subreddit_subscribers": 97852,
+                    "subreddit_subscribers": 97867,
                     "title": "\"ENVIRONMENTALLY FRIENDLY\" RARE EARTH MINING in Europe and North America? This is",
-                    "upvotes": 100,
+                    "upvotes": 97,
                     "url": "https://www.reddit.com/r/ASX_Bets/comments/q3w851/environmentally_friendly_rare_earth_mining_in/"
                 },
                 {
@@ -569,7 +790,7 @@
                     "num_comments": 5,
                     "reddit_url": "https://www.reddit.com/r/Gentoo/comments/uzm210/has_firefox_cve20221802_been_patched_in_stable/",
                     "subreddit": "Gentoo",
-                    "subreddit_subscribers": 21332,
+                    "subreddit_subscribers": 21334,
                     "title": "Has Firefox CVE-2022-1802 been patched in stable?",
                     "upvotes": 11,
                     "url": "https://www.reddit.com/r/Gentoo/comments/uzm210/has_firefox_cve20221802_been_patched_in_stable/"
@@ -602,9 +823,9 @@
             "tweets": [
                 {
                     "created_at": "2022-11-13 17:18",
-                    "likes": 29,
-                    "num_retweets": 13,
-                    "retweets": 14,
+                    "likes": 43,
+                    "num_retweets": 22,
+                    "retweets": 23,
                     "tweet_id": "1591842874567823360",
                     "tweet_text": "CVE-2022-1802 + CVE-2022-1529 + CVE-2022-2200\nTested against Firefox 100.0.1 (Windows) - thx @CyberWarship\nFor sharing and \"mistymntncop\" for the work done ! \ud83d\udd25 https://t.co/I5Rez3Cxiu",
                     "twitter_user_handle": "kmkz_security",
@@ -615,6 +836,42 @@
                             "display_url": "github.com/mistymntncop/C\u2026",
                             "expanded_url": "https://github.com/mistymntncop/CVE-2022-1802/blob/main/exploit.html",
                             "url": "https://t.co/I5Rez3Cxiu"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-14 00:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591945510172053506",
+                    "tweet_text": "The vuln CVE-2022-1802 has a tweet created 0 days ago and retweeted 17 times.\nhttps://t.co/3q0nJkQqvF\n#pow1rtrtwwcve",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/kmkz_security/\u2026",
+                            "expanded_url": "https://twitter.com/kmkz_security/status/1591842874567823360",
+                            "url": "https://t.co/3q0nJkQqvF"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-14 02:08",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591976211202605056",
+                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the third retweeted(19 times) tweet that contains CVE ID between Nov 13 2022 02:01 UTC and Nov 14 2022 02:00 UTC is:\nhttps://t.co/3q0nJkzntF\nIt has CVE-2022-1802. #l24_vcg2t6x3c2c7m",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/kmkz_security/\u2026",
+                            "expanded_url": "https://twitter.com/kmkz_security/status/1591842874567823360",
+                            "url": "https://t.co/3q0nJkzntF"
                         }
                     ]
                 },
@@ -635,89 +892,22 @@
                             "url": "https://t.co/GXgFb0IN9d"
                         }
                     ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": null,
-            "audience_size": 102996,
-            "cve": "CVE-2022-1529",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": null,
-            "epss_score": null,
-            "github_repos": [],
-            "lastModifiedDate": null,
-            "num_retweets": 13,
-            "num_tweets": 2,
-            "num_tweets_and_retweets": 15,
-            "publishedDate": null,
-            "reddit_posts": [
-                {
-                    "created": 1653483427.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/uxgsb5/msisac_cybersecurity_advisory_multiple/",
-                    "subreddit": "k12cybersecurity",
-                    "subreddit_subscribers": 66,
-                    "title": "MS-ISAC CYBERSECURITY ADVISORY - Multiple Vulnerabilities in Mozilla Firefox Products Could Allow for Arbitrary Code Execution - PATCH: NOW",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/uxgsb5/msisac_cybersecurity_advisory_multiple/"
                 },
                 {
-                    "created": 1653300062.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/RedPacketSecurity/comments/uvwqto/mozilla_firefox_firefox_esr_firefox_for_android/",
-                    "subreddit": "RedPacketSecurity",
-                    "subreddit_subscribers": 541,
-                    "title": "Mozilla Firefox, Firefox ESR, Firefox for Android and Thunderbird code execution | CVE-2022-1529",
-                    "upvotes": 1,
-                    "url": "https://www.redpacketsecurity.com/mozilla-firefox-firefox-esr-firefox-for-android-and-thunderbird-code-execution-cve-2022-1529-2/"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2022-11-13 17:18",
-                    "likes": 29,
-                    "num_retweets": 13,
-                    "retweets": 14,
-                    "tweet_id": "1591842874567823360",
-                    "tweet_text": "CVE-2022-1802 + CVE-2022-1529 + CVE-2022-2200\nTested against Firefox 100.0.1 (Windows) - thx @CyberWarship\nFor sharing and \"mistymntncop\" for the work done ! \ud83d\udd25 https://t.co/I5Rez3Cxiu",
-                    "twitter_user_handle": "kmkz_security",
-                    "twitter_user_name": "kmkz",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1481149192840089603/m9anHRWv_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/mistymntncop/C\u2026",
-                            "expanded_url": "https://github.com/mistymntncop/CVE-2022-1802/blob/main/exploit.html",
-                            "url": "https://t.co/I5Rez3Cxiu"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-13 18:23",
+                    "created_at": "2022-11-14 00:08",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1591859393519554560",
-                    "tweet_text": "CVE-2022-1802 + CVE-2022-1529 + CVE-2022-2200\nTested against Firefox 100.0.1 (Windows)\nhttps://t.co/GXgFb0IN9d",
-                    "twitter_user_handle": "cyberkendra",
-                    "twitter_user_name": "Cyber Kendra",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945545310775910400/zx-yLarD_normal.jpg",
+                    "tweet_id": "1591946012284768256",
+                    "tweet_text": "I think that the third retweeted(17 times) tweet that contains CVE ID between Nov 13 2022 00:01 UTC and Nov 14 2022 00:00 UTC is:\nhttps://t.co/3q0nJkQqvF\nIt has CVE-2022-1802. #l24_vcg2t6x3c2c7m",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
                     "urls": [
                         {
-                            "display_url": "github.com/mistymntncop/C\u2026",
-                            "expanded_url": "https://github.com/mistymntncop/CVE-2022-1802/blob/main/exploit.html",
-                            "url": "https://t.co/GXgFb0IN9d"
+                            "display_url": "twitter.com/kmkz_security/\u2026",
+                            "expanded_url": "https://twitter.com/kmkz_security/status/1591842874567823360",
+                            "url": "https://t.co/3q0nJkQqvF"
                         }
                     ]
                 }
@@ -727,7 +917,7 @@
         },
         {
             "assigner": null,
-            "audience_size": 102996,
+            "audience_size": 111677,
             "cve": "CVE-2022-2200",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -739,9 +929,9 @@
             "epss_score": null,
             "github_repos": [],
             "lastModifiedDate": null,
-            "num_retweets": 13,
-            "num_tweets": 2,
-            "num_tweets_and_retweets": 15,
+            "num_retweets": 22,
+            "num_tweets": 5,
+            "num_tweets_and_retweets": 27,
             "publishedDate": null,
             "reddit_posts": [
                 {
@@ -761,9 +951,9 @@
             "tweets": [
                 {
                     "created_at": "2022-11-13 17:18",
-                    "likes": 29,
-                    "num_retweets": 13,
-                    "retweets": 14,
+                    "likes": 43,
+                    "num_retweets": 22,
+                    "retweets": 23,
                     "tweet_id": "1591842874567823360",
                     "tweet_text": "CVE-2022-1802 + CVE-2022-1529 + CVE-2022-2200\nTested against Firefox 100.0.1 (Windows) - thx @CyberWarship\nFor sharing and \"mistymntncop\" for the work done ! \ud83d\udd25 https://t.co/I5Rez3Cxiu",
                     "twitter_user_handle": "kmkz_security",
@@ -774,6 +964,42 @@
                             "display_url": "github.com/mistymntncop/C\u2026",
                             "expanded_url": "https://github.com/mistymntncop/CVE-2022-1802/blob/main/exploit.html",
                             "url": "https://t.co/I5Rez3Cxiu"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-14 00:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591945511585878016",
+                    "tweet_text": "The vuln CVE-2022-2200 has a tweet created 0 days ago and retweeted 17 times.\nhttps://t.co/3q0nJkzntF\n#pow1rtrtwwcve",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/kmkz_security/\u2026",
+                            "expanded_url": "https://twitter.com/kmkz_security/status/1591842874567823360",
+                            "url": "https://t.co/3q0nJkzntF"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-14 02:08",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591976213169418240",
+                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the third retweeted(19 times) tweet that contains CVE ID between Nov 13 2022 02:01 UTC and Nov 14 2022 02:00 UTC is:\nhttps://t.co/3q0nJkQqvF\nIt has CVE-2022-2200. #l24_jllfvmmojf2z2",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/kmkz_security/\u2026",
+                            "expanded_url": "https://twitter.com/kmkz_security/status/1591842874567823360",
+                            "url": "https://t.co/3q0nJkQqvF"
                         }
                     ]
                 },
@@ -794,6 +1020,24 @@
                             "url": "https://t.co/GXgFb0IN9d"
                         }
                     ]
+                },
+                {
+                    "created_at": "2022-11-14 00:08",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591946014424195072",
+                    "tweet_text": "I think that the third retweeted(17 times) tweet that contains CVE ID between Nov 13 2022 00:01 UTC and Nov 14 2022 00:00 UTC is:\nhttps://t.co/3q0nJkzntF\nIt has CVE-2022-2200. #l24_jllfvmmojf2z2",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/kmkz_security/\u2026",
+                            "expanded_url": "https://twitter.com/kmkz_security/status/1591842874567823360",
+                            "url": "https://t.co/3q0nJkzntF"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [],
@@ -801,7 +1045,7 @@
         },
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 101676,
+            "audience_size": 110079,
             "cve": "CVE-2022-41352",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -822,7 +1066,7 @@
                     "description": "Zimbra <9.0.0.p27 RCE",
                     "language": "Python",
                     "name": "cve-2022-41352-zimbra-rce",
-                    "stars": 10,
+                    "stars": 28,
                     "topics": [
                         "cpio",
                         "cve",
@@ -831,7 +1075,7 @@
                         "rce",
                         "zimbra"
                     ],
-                    "updated": "2022-11-13T20:27:13Z",
+                    "updated": "2022-11-14T04:54:00Z",
                     "url": "https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce"
                 },
                 {
@@ -846,9 +1090,9 @@
                 }
             ],
             "lastModifiedDate": "2022-11-09T20:42Z",
-            "num_retweets": 32,
-            "num_tweets": 10,
-            "num_tweets_and_retweets": 42,
+            "num_retweets": 43,
+            "num_tweets": 14,
+            "num_tweets_and_retweets": 57,
             "publishedDate": "2022-09-26T02:15Z",
             "reddit_posts": [
                 {
@@ -857,9 +1101,9 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/y06351/cve202241352_zimbra_collaboration_zcs_8815_and_90/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 30932,
+                    "subreddit_subscribers": 30937,
                     "title": "CVE-2022-41352 | Zimbra Collaboration (ZCS) 8.8.15 and 9.0 exploit which can be emailed and is known to be exploited in the wild",
-                    "upvotes": 12,
+                    "upvotes": 14,
                     "url": "https://attackerkb.com/topics/1DDTvUNFzH/cve-2022-41352/rapid7-analysis"
                 },
                 {
@@ -868,20 +1112,9 @@
                     "num_comments": 2,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/y7vb6b/ongoing_exploitation_of_cve202241352_zimbra_0day/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 30932,
+                    "subreddit_subscribers": 30937,
                     "title": "Ongoing exploitation of CVE-2022-41352 (Zimbra 0-day)",
                     "upvotes": 11,
-                    "url": "https://securelist.com/ongoing-exploitation-of-cve-2022-41352-zimbra-0-day/107703/"
-                },
-                {
-                    "created": 1665666038.0,
-                    "is_self": false,
-                    "num_comments": 1,
-                    "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/y2y5as/ongoing_exploitation_of_cve202241352_zimbra_0day/",
-                    "subreddit": "cybersecurity",
-                    "subreddit_subscribers": 414863,
-                    "title": "Ongoing exploitation of CVE-2022-41352 (Zimbra 0-day)",
-                    "upvotes": 4,
                     "url": "https://securelist.com/ongoing-exploitation-of-cve-2022-41352-zimbra-0-day/107703/"
                 },
                 {
@@ -896,12 +1129,23 @@
                     "url": "https://www.reddit.com/r/HackProtectSlo/comments/xybnvf/zimbra_0day_ranljivost_cve202241352/"
                 },
                 {
+                    "created": 1665666038.0,
+                    "is_self": false,
+                    "num_comments": 1,
+                    "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/y2y5as/ongoing_exploitation_of_cve202241352_zimbra_0day/",
+                    "subreddit": "cybersecurity",
+                    "subreddit_subscribers": 414947,
+                    "title": "Ongoing exploitation of CVE-2022-41352 (Zimbra 0-day)",
+                    "upvotes": 2,
+                    "url": "https://securelist.com/ongoing-exploitation-of-cve-2022-41352-zimbra-0-day/107703/"
+                },
+                {
                     "created": 1665666113.0,
                     "is_self": false,
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/hacking/comments/y2y6cd/exploitation_of_zimbra_0day_cve_202241352/",
                     "subreddit": "hacking",
-                    "subreddit_subscribers": 2580867,
+                    "subreddit_subscribers": 2581020,
                     "title": "Exploitation of Zimbra 0Day CVE 2022-41352",
                     "upvotes": 2,
                     "url": "https://securelist.com/ongoing-exploitation-of-cve-2022-41352-zimbra-0-day/107703/"
@@ -912,9 +1156,9 @@
             "tweets": [
                 {
                     "created_at": "2022-11-13 14:58",
-                    "likes": 55,
-                    "num_retweets": 32,
-                    "retweets": 35,
+                    "likes": 110,
+                    "num_retweets": 43,
+                    "retweets": 48,
                     "tweet_id": "1591807843673735170",
                     "tweet_text": "CVE-2022-41352 Zimbra Unauthenticated RCE\n#bugbounty #bugbountytip #RCE\n\nhttps://t.co/gFLIMLWqOT",
                     "twitter_user_handle": "momika233",
@@ -925,6 +1169,62 @@
                             "display_url": "github.com/Cr4ckC4t/cve-2\u2026",
                             "expanded_url": "https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce",
                             "url": "https://t.co/gFLIMLWqOT"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-13 08:11",
+                    "likes": 1,
+                    "num_retweets": 0,
+                    "retweets": 1,
+                    "tweet_id": "1591705217359572992",
+                    "tweet_text": "CVE-2022-41352\n\nZimbra Unauthenticated RCE\n\nis an arbitrary file write vulnerability in Zimbra mail servers due to the use of a vulnerable cpio version.\n https://t.co/YdV5NOGRvq\n\nhttps://t.co/dS0muaY1GO\n\nhttps://t.co/PtTll6B3bN https://t.co/PUxBGNxDR5",
+                    "twitter_user_handle": "hack_git",
+                    "twitter_user_name": "HackGit",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1430451138277556224/yDiqSjga_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/Cr4ckC4t/cve-2\u2026",
+                            "expanded_url": "https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce",
+                            "url": "https://t.co/YdV5NOGRvq"
+                        },
+                        {
+                            "display_url": "t.me/hackgit",
+                            "expanded_url": "http://t.me/hackgit",
+                            "url": "https://t.co/dS0muaY1GO"
+                        },
+                        {
+                            "display_url": "t.me/HackGit/6450",
+                            "expanded_url": "https://t.me/HackGit/6450",
+                            "url": "https://t.co/PtTll6B3bN"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-13 08:15",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591706421195833344",
+                    "tweet_text": "CVE-2022-41352\n\nZimbra Unauthenticated RCE\n\nis an arbitrary file write vulnerability in Zimbra mail servers due to the use of a vulnerable cpio version.\n https://t.co/3QB1fYWSPd\n\nhttps://t.co/M7bPWLfRPy\n\nhttps://t.co/wAHsORzw9J https://t.co/QcGX1r0ggl",
+                    "twitter_user_handle": "OSINT_info",
+                    "twitter_user_name": "OSINT Info",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1510073408423272448/cxx-VSun_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/Cr4ckC4t/cve-2\u2026",
+                            "expanded_url": "https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce",
+                            "url": "https://t.co/3QB1fYWSPd"
+                        },
+                        {
+                            "display_url": "t.me/hackgit",
+                            "expanded_url": "http://t.me/hackgit",
+                            "url": "https://t.co/M7bPWLfRPy"
+                        },
+                        {
+                            "display_url": "t.me/HackGit/6450",
+                            "expanded_url": "https://t.me/HackGit/6450",
+                            "url": "https://t.co/wAHsORzw9J"
                         }
                     ]
                 },
@@ -963,52 +1263,6 @@
                             "url": "https://t.co/wzptjSYVnP"
                         }
                     ]
-                },
-                {
-                    "created_at": "2022-11-13 20:08",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1591885611723522049",
-                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the third retweeted(21 times) tweet that contains CVE ID between Nov 12 2022 20:01 UTC and Nov 13 2022 20:00 UTC is:\nhttps://t.co/qpyPWPXmAs\nIt has CVE-2022-41352. #l24_aqu7ss6ucozhc",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "twitter.com/momika233/stat\u2026",
-                            "expanded_url": "https://twitter.com/momika233/status/1591807843673735170",
-                            "url": "https://t.co/qpyPWPXmAs"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-13 08:11",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 1,
-                    "tweet_id": "1591705217359572992",
-                    "tweet_text": "CVE-2022-41352\n\nZimbra Unauthenticated RCE\n\nis an arbitrary file write vulnerability in Zimbra mail servers due to the use of a vulnerable cpio version.\n https://t.co/YdV5NOGRvq\n\nhttps://t.co/dS0muaY1GO\n\nhttps://t.co/PtTll6B3bN https://t.co/PUxBGNxDR5",
-                    "twitter_user_handle": "hack_git",
-                    "twitter_user_name": "HackGit",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1430451138277556224/yDiqSjga_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/Cr4ckC4t/cve-2\u2026",
-                            "expanded_url": "https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce",
-                            "url": "https://t.co/YdV5NOGRvq"
-                        },
-                        {
-                            "display_url": "t.me/hackgit",
-                            "expanded_url": "http://t.me/hackgit",
-                            "url": "https://t.co/dS0muaY1GO"
-                        },
-                        {
-                            "display_url": "t.me/HackGit/6450",
-                            "expanded_url": "https://t.me/HackGit/6450",
-                            "url": "https://t.co/PtTll6B3bN"
-                        }
-                    ]
                 }
             ],
             "vendor_advisories": [
@@ -1032,8 +1286,124 @@
             ]
         },
         {
+            "assigner": null,
+            "audience_size": 89109,
+            "cve": "CVE-2022-3977",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": null,
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": null,
+            "num_retweets": 3,
+            "num_tweets": 5,
+            "num_tweets_and_retweets": 8,
+            "publishedDate": null,
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2022-11-14 04:42",
+                    "likes": 1,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1592015096339136512",
+                    "tweet_text": "\ud83d\udde3 CVE-2022-3977: Linux kernel Local Privilege Escalation Vulnerability\nhttps://t.co/j0eyLLoqoA\n\n#security #cybernews #cybersecurity #fridaysecurity #linkedin #twitter #telegram",
+                    "twitter_user_handle": "fridaysecurity",
+                    "twitter_user_name": "Friday Security News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1525867150279311361/6JfVBZDl_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "securityonline.info/cve-2022-3977-\u2026",
+                            "expanded_url": "https://securityonline.info/cve-2022-3977-linux-kernel-local-privilege-escalation-vulnerability/",
+                            "url": "https://t.co/j0eyLLoqoA"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-13 16:11",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1591826209260048384",
+                    "tweet_text": "CVE-2022-3977\n\nDescription&lt;!----&gt; This CVE is under investigation by Red Hat Product Security.\n\nhttps://t.co/K2gyy39l67",
+                    "twitter_user_handle": "VulmonFeeds",
+                    "twitter_user_name": "Vulmon Vulnerability Feed",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "vulmon.com/vulnerabilityd\u2026",
+                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2022-3977",
+                            "url": "https://t.co/K2gyy39l67"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-14 04:37",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1592013906062413826",
+                    "tweet_text": "CVE-2022-3977: Linux kernel Local Privilege Escalation Vulnerability https://t.co/uVXMARX12T #opensource #infosec #security #pentesting",
+                    "twitter_user_handle": "the_yellow_fall",
+                    "twitter_user_name": "Gray Hats",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/419147954344058880/bTW9Gx7T_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "securityonline.info/cve-2022-3977-\u2026",
+                            "expanded_url": "https://securityonline.info/cve-2022-3977-linux-kernel-local-privilege-escalation-vulnerability/",
+                            "url": "https://t.co/uVXMARX12T"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-14 04:41",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1592014853124030464",
+                    "tweet_text": "CVE-2022-3977: Linux kernel Local Privilege Escalation Vulnerability https://t.co/JquqAPqne8 via securityonline https://t.co/tVsbdJI9w6",
+                    "twitter_user_handle": "AcooEdi",
+                    "twitter_user_name": "EdiAcoo",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1075268845672296448/eeiBrIzG_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "dlvr.it/SckHV1",
+                            "expanded_url": "http://dlvr.it/SckHV1",
+                            "url": "https://t.co/JquqAPqne8"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-14 04:45",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1592015858473345024",
+                    "tweet_text": "#Vulnerability #CVE20223977 CVE-2022-3977: Linux kernel Local Privilege Escalation Vulnerability https://t.co/SkS0giEQp6",
+                    "twitter_user_handle": "Komodosec",
+                    "twitter_user_name": "Komodo Cyber Consulting",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/532759052397207552/LGMpfmcr_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "securityonline.info/cve-2022-3977-\u2026",
+                            "expanded_url": "https://securityonline.info/cve-2022-3977-linux-kernel-local-privilege-escalation-vulnerability/?utm_source=dlvr.it&utm_medium=twitter",
+                            "url": "https://t.co/SkS0giEQp6"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
             "assigner": "cve@mitre.org",
-            "audience_size": 88137,
+            "audience_size": 89035,
             "cve": "CVE-2022-31898",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1054,16 +1424,16 @@
                     "description": "Exploit POC code for CVE-2022-31898, a command injection for GL-iNet routers with firmware below 3.215",
                     "language": "Python",
                     "name": "cve-2022-31898",
-                    "stars": 3,
+                    "stars": 4,
                     "topics": [],
-                    "updated": "2022-11-13T20:32:28Z",
+                    "updated": "2022-11-14T00:23:47Z",
                     "url": "https://github.com/gigaryte/cve-2022-31898"
                 }
             ],
             "lastModifiedDate": "2022-11-01T12:56Z",
             "num_retweets": 5,
-            "num_tweets": 3,
-            "num_tweets_and_retweets": 8,
+            "num_tweets": 4,
+            "num_tweets_and_retweets": 9,
             "publishedDate": "2022-10-27T18:15Z",
             "reddit_posts": [
                 {
@@ -1083,7 +1453,7 @@
             "tweets": [
                 {
                     "created_at": "2022-11-13 07:11",
-                    "likes": 7,
+                    "likes": 8,
                     "num_retweets": 5,
                     "retweets": 5,
                     "tweet_id": "1591690281904398338",
@@ -1096,6 +1466,29 @@
                             "display_url": "github.com/gigaryte/cve-2\u2026",
                             "expanded_url": "https://github.com/gigaryte/cve-2022-31898",
                             "url": "https://t.co/AMYOwVOQ5D"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-13 08:10",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1591705133586546690",
+                    "tweet_text": "cve-2022-31898\n\nExploit POC code for CVE-2022-31898, a command injection for GL-iNet routers with firmware below 3.215.\n https://t.co/ha09OGBcXk\n\n#cve #poc\n\nhttps://t.co/gCzFxv1Wav https://t.co/4r8m2WQgJq",
+                    "twitter_user_handle": "hack_git",
+                    "twitter_user_name": "HackGit",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1430451138277556224/yDiqSjga_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/gigaryte/cve-2\u2026",
+                            "expanded_url": "https://github.com/gigaryte/cve-2022-31898",
+                            "url": "https://t.co/ha09OGBcXk"
+                        },
+                        {
+                            "display_url": "t.me/HackGit/6446",
+                            "expanded_url": "https://t.me/HackGit/6446",
+                            "url": "https://t.co/gCzFxv1Wav"
                         }
                     ]
                 },
@@ -1128,94 +1521,38 @@
                     ]
                 },
                 {
-                    "created_at": "2022-11-13 08:10",
-                    "likes": 0,
+                    "created_at": "2022-11-14 03:03",
+                    "likes": 1,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1591705133586546690",
-                    "tweet_text": "cve-2022-31898\n\nExploit POC code for CVE-2022-31898, a command injection for GL-iNet routers with firmware below 3.215.\n https://t.co/ha09OGBcXk\n\n#cve #poc\n\nhttps://t.co/gCzFxv1Wav https://t.co/4r8m2WQgJq",
-                    "twitter_user_handle": "hack_git",
-                    "twitter_user_name": "HackGit",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1430451138277556224/yDiqSjga_normal.jpg",
+                    "tweet_id": "1591990153081663488",
+                    "tweet_text": "exploit\n1. CVE-2022-41352:\nZimbra &lt;9.0.0.p27 - RCE\nhttps://t.co/140DUeVztS\n\n2. CVE-2022-3949:\nXSS in Simple Cashiering System\nhttps://t.co/QJqJ6Y50np\n\n3. CVE-2022-31898:\nCommand injection for GL-iNet routers with firm. &lt;3.215\nhttps://t.co/2YY6MoCmxQ",
+                    "twitter_user_handle": "AlirezaGhahrood",
+                    "twitter_user_name": "Alireza ghahrood",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1561687422165028865/dBVl_bl5_normal.jpg",
                     "urls": [
+                        {
+                            "display_url": "github.com/Cr4ckC4t/cve-2\u2026",
+                            "expanded_url": "https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce",
+                            "url": "https://t.co/140DUeVztS"
+                        },
+                        {
+                            "display_url": "github.com/maikroservice/\u2026",
+                            "expanded_url": "https://github.com/maikroservice/CVE-2022-3949",
+                            "url": "https://t.co/QJqJ6Y50np"
+                        },
                         {
                             "display_url": "github.com/gigaryte/cve-2\u2026",
                             "expanded_url": "https://github.com/gigaryte/cve-2022-31898",
-                            "url": "https://t.co/ha09OGBcXk"
-                        },
-                        {
-                            "display_url": "t.me/HackGit/6446",
-                            "expanded_url": "https://t.me/HackGit/6446",
-                            "url": "https://t.co/gCzFxv1Wav"
+                            "url": "https://t.co/2YY6MoCmxQ"
                         }
                     ]
                 }
             ],
             "vendor_advisories": [],
             "vendors": []
-        },
-        {
-            "assigner": "help@fluidattacks.com",
-            "audience_size": 78096,
-            "cve": "CVE-2022-42746",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": 6.1,
-            "cvssv3_base_severity": "MEDIUM",
-            "cwes": [
-                {
-                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
-                    "cwe_id": "CWE-79"
-                }
-            ],
-            "description": "CandidATS version 3.0.0 on 'indexFile' of the 'ajax.php' resource, allows an external attacker to steal the cookie of arbitrary users. This is possible because the application application does not properly validate user input against XSS attacks.",
-            "epss_score": "0.00885",
-            "github_repos": [],
-            "lastModifiedDate": "2022-11-05T00:32Z",
-            "num_retweets": 3,
-            "num_tweets": 1,
-            "num_tweets_and_retweets": 4,
-            "publishedDate": "2022-11-03T20:15Z",
-            "reddit_posts": [],
-            "score": 6.1,
-            "severity": "MEDIUM",
-            "tweets": [
-                {
-                    "created_at": "2022-11-12 23:03",
-                    "likes": 3,
-                    "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1591567481960910849",
-                    "tweet_text": "Our research team found four high severity #zerodays in CandidATS v3.0.0. Several parameters are vulnerable to #XSSattacks. IDs CVE-2022-42746, #CVE-2022-42747, CVE-2022-42748 and CVE-2022-42749, dubbed \u201cModestep.\u201d More: https://t.co/wEhvarqVAZ\n#cybersecurity #redteam #devsecops https://t.co/entyqKWLHg",
-                    "twitter_user_handle": "fluidattacks",
-                    "twitter_user_name": "Fluid Attacks",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1556846291656724481/Ot3vI8DD_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "bit.ly/3Uj54Q1",
-                            "expanded_url": "https://bit.ly/3Uj54Q1",
-                            "url": "https://t.co/wEhvarqVAZ"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Candidats",
-                            "versions": [
-                                "3.0.0"
-                            ]
-                        }
-                    ],
-                    "vendor": "Auieo"
-                }
-            ]
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2022-11-13 22:36:53"
+    "updated": "2022-11-14 05:09:13"
 }
