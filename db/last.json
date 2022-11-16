@@ -1,5 +1,247 @@
 [
     {
+        "Modified": "2022-11-16T00:15:00",
+        "Published": "2022-11-16T00:15:00",
+        "access": {},
+        "assigner": "tbd@nist.gov",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-3920",
+        "impact": {},
+        "last-modified": "2022-11-16T00:15:00",
+        "references": [
+            "https://discuss.hashicorp.com/t/hcsec-2022-28-consul-cluster-peering-leaks-imported-nodes-services-information/46946"
+        ],
+        "summary": "HashiCorp Consul and Consul Enterprise 1.13.0 up to 1.13.3 do not filter cluster filtering's imported nodes and services for HTTP or RPC endpoints used by the UI. Fixed in 1.14.0."
+    },
+    {
+        "Modified": "2022-11-16T00:15:00",
+        "Published": "2022-11-16T00:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41917",
+        "impact": {},
+        "last-modified": "2022-11-16T00:15:00",
+        "references": [
+            "https://github.com/opensearch-project/OpenSearch/security/advisories/GHSA-w3rx-m34v-wrqx",
+            "https://github.com/opensearch-project/OpenSearch/commit/6d20423f5920745463b1abc5f1daf6a786c41aa0"
+        ],
+        "summary": "OpenSearch is a community-driven, open source fork of Elasticsearch and Kibana. OpenSearch allows users to specify a local file when defining text analyzers to process data for text analysis. An issue in the implementation of this feature allows certain specially crafted queries to return a response containing the first line of text from arbitrary files. The list of potentially impacted files is limited to text files with read permissions allowed in the Java Security Manager policy configuration. OpenSearch version 1.3.7 and 2.4.0 contain a fix for this issue. Users are advised to upgrade. There are no known workarounds for this issue."
+    },
+    {
+        "Modified": "2022-11-16T00:09:00",
+        "Published": "2022-11-15T23:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-1241",
+        "id": "CVE-2021-4240",
+        "impact": {},
+        "last-modified": "2022-11-16T00:09:00",
+        "references": [
+            "https://huntr.dev/bounties/2-phpservermon/phpservermon/",
+            "https://vuldb.com/?id.213717",
+            "https://github.com/phpservermon/phpservermon/commit/3daa804d5f56c55b3ae13bfac368bb84ec632193"
+        ],
+        "summary": "A vulnerability, which was classified as problematic, was found in phpservermon. This affects the function generatePasswordResetToken of the file src/psm/Service/User.php. The manipulation leads to use of predictable algorithm in random number generator. The exploit has been disclosed to the public and may be used. The name of the patch is 3daa804d5f56c55b3ae13bfac368bb84ec632193. It is recommended to apply a patch to fix this issue. The identifier VDB-213717 was assigned to this vulnerability."
+    },
+    {
+        "Modified": "2022-11-16T00:09:00",
+        "Published": "2022-11-15T23:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-1241",
+        "id": "CVE-2021-4241",
+        "impact": {},
+        "last-modified": "2022-11-16T00:09:00",
+        "references": [
+            "https://huntr.dev/bounties/1-phpservermon/phpservermon/",
+            "https://github.com/phpservermon/phpservermon/commit/bb10a5f3c68527c58073258cb12446782d223bc3",
+            "https://vuldb.com/?id.213744"
+        ],
+        "summary": "A vulnerability, which was classified as problematic, was found in phpservermon. Affected is the function setUserLoggedIn of the file src/psm/Service/User.php. The manipulation leads to use of predictable algorithm in random number generator. The exploit has been disclosed to the public and may be used. The name of the patch is bb10a5f3c68527c58073258cb12446782d223bc3. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-213744."
+    },
+    {
+        "Modified": "2022-11-16T00:09:00",
+        "Published": "2022-11-15T23:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41916",
+        "impact": {},
+        "last-modified": "2022-11-16T00:09:00",
+        "references": [
+            "https://github.com/heimdal/heimdal/security/advisories/GHSA-mgqr-gvh6-23cx"
+        ],
+        "summary": "Heimdal is an implementation of ASN.1/DER, PKIX, and Kerberos. Versions prior to 7.7.1 are vulnerable to a denial of service vulnerability in Heimdal's PKI certificate validation library, affecting the KDC (via PKINIT) and kinit (via PKINIT), as well as any third-party applications using Heimdal's libhx509. Users should upgrade to Heimdal 7.7.1 or 7.8. There are no known workarounds for this issue."
+    },
+    {
+        "Modified": "2022-11-16T00:09:00",
+        "Published": "2022-11-15T23:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-41918",
+        "impact": {},
+        "last-modified": "2022-11-16T00:09:00",
+        "references": [
+            "https://github.com/opensearch-project/security/commit/f7cc569c9d3fa5d5432c76c854eed280d45ce6f4",
+            "https://github.com/opensearch-project/security/security/advisories/GHSA-wmx7-x4jp-9jgg"
+        ],
+        "summary": "OpenSearch is a community-driven, open source fork of Elasticsearch and Kibana. There is an issue with the implementation of fine-grained access control rules (document-level security, field-level security and field masking) where they are not correctly applied to the indices that back data streams potentially leading to incorrect access authorization. OpenSearch 1.3.7 and 2.4.0 contain a fix for this issue. Users are advised to update. There are no known workarounds for this issue."
+    },
+    {
+        "Modified": "2022-11-16T00:09:00",
+        "Published": "2022-11-15T22:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-29276",
+        "impact": {},
+        "last-modified": "2022-11-16T00:09:00",
+        "references": [
+            "https://www.insyde.com/security-pledge",
+            "https://www.insyde.com/security-pledge/SA-2022059"
+        ],
+        "summary": "SMI functions in AhciBusDxe use untrusted inputs leading to corruption of SMRAM. SMI functions in AhciBusDxe use untrusted inputs leading to corruption of SMRAM. This issue was discovered by Insyde during security review. It was fixed in: Kernel 5.0: version 05.09.18 Kernel 5.1: version 05.17.18 Kernel 5.2: version 05.27.18 Kernel 5.3: version 05.36.18 Kernel 5.4: version 05.44.18 Kernel 5.5: version 05.52.18 https://www.insyde.com/security-pledge/SA-2022059"
+    },
+    {
+        "Modified": "2022-11-16T00:09:00",
+        "Published": "2022-11-15T22:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-29277",
+        "impact": {},
+        "last-modified": "2022-11-16T00:09:00",
+        "references": [
+            "https://www.insyde.com/security-pledge",
+            "https://www.insyde.com/security-pledge/SA-2022060"
+        ],
+        "summary": "Incorrect pointer checks within the the FwBlockServiceSmm driver can allow arbitrary RAM modifications During review of the FwBlockServiceSmm driver, certain instances of SpiAccessLib could be tricked into writing 0xff to arbitrary system and SMRAM addresses. Fixed in: INTEL Purley-R: 05.21.51.0048 Whitley: 05.42.23.0066 Cedar Island: 05.42.11.0021 Eagle Stream: 05.44.25.0052 Greenlow/Greenlow-R(skylake/kabylake): Trunk Mehlow/Mehlow-R (CoffeeLake-S): Trunk Tatlow (RKL-S): Trunk Denverton: 05.10.12.0042 Snow Ridge: Trunk Graneville DE: 05.05.15.0038 Grangeville DE NS: 05.27.26.0023 Bakerville: 05.21.51.0026 Idaville: 05.44.27.0030 Whiskey Lake: Trunk Comet Lake-S: Trunk Tiger Lake H/UP3: 05.43.12.0052 Alder Lake: 05.44.23.0047 Gemini Lake: Not Affected Apollo Lake: Not Affected Elkhart Lake: 05.44.30.0018 AMD ROME: trunk MILAN: 05.36.10.0017 GENOA: 05.52.25.0006 Snowy Owl: Trunk R1000: 05.32.50.0018 R2000: 05.44.30.0005 V2000: Trunk V3000: 05.44.30.0007 Ryzen 5000: 05.44.30.0004 Embedded ROME: Trunk Embedded MILAN: Trunk Hygon Hygon #1/#2: 05.36.26.0016 Hygon #3: 05.44.26.0007 https://www.insyde.com/security-pledge/SA-2022060"
+    },
+    {
+        "Modified": "2022-11-16T00:09:00",
+        "Published": "2022-11-15T22:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-29278",
+        "impact": {},
+        "last-modified": "2022-11-16T00:09:00",
+        "references": [
+            "https://www.insyde.com/security-pledge",
+            "https://www.insyde.com/security-pledge/SA-2022061"
+        ],
+        "summary": "Incorrect pointer checks within the NvmExpressDxe driver can allow tampering with SMRAM and OS memory Incorrect pointer checks within the NvmExpressDxe driver can allow tampering with SMRAM and OS memory. This issue was discovered by Insyde during security review. Fixed in: Kernel 5.1: Version 05.17.23 Kernel 5.2: Version 05.27.23 Kernel 5.3: Version 05.36.23 Kernel 5.4: Version 05.44.23 Kernel 5.5: Version 05.52.23 https://www.insyde.com/security-pledge/SA-2022061"
+    },
+    {
+        "Modified": "2022-11-16T00:09:00",
+        "Published": "2022-11-15T22:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-29279",
+        "impact": {},
+        "last-modified": "2022-11-16T00:09:00",
+        "references": [
+            "https://www.insyde.com/security-pledge",
+            "https://www.insyde.com/security-pledge/SA-2022062"
+        ],
+        "summary": "Use of a untrusted pointer allows tampering with SMRAM and OS memory in SdHostDriver and SdMmcDevice Use of a untrusted pointer allows tampering with SMRAM and OS memory in SdHostDriver and SdMmcDevice. This issue was discovered by Insyde during security review. It was fixed in: Kernel 5.0: version 05.09.17 Kernel 5.1: version 05.17.17 Kernel 5.2: version 05.27.17 Kernel 5.3: version 05.36.17 Kernel 5.4: version 05.44.17 Kernel 5.5: version 05.52.17 https://www.insyde.com/security-pledge/SA-2022062"
+    },
+    {
+        "Modified": "2022-11-16T00:09:00",
+        "Published": "2022-11-15T22:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-30768",
+        "impact": {},
+        "last-modified": "2022-11-16T00:09:00",
+        "references": [
+            "https://github.com/ZoneMinder/zoneminder/releases",
+            "https://medium.com/@dk50u1/stored-xss-in-zoneminder-up-to-v1-36-12-f26b4bb68c31"
+        ],
+        "summary": "A Stored Cross Site Scripting (XSS) issue in ZoneMinder 1.36.12 allows an attacker to execute HTML or JavaScript code via the Username field when an Admin (or non-Admin users that can see other users logged into the platform) clicks on Logout. NOTE: this exists in later versions than CVE-2019-7348 and requires a different attack method."
+    },
+    {
+        "Modified": "2022-11-16T00:09:00",
+        "Published": "2022-11-15T22:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-30769",
+        "impact": {},
+        "last-modified": "2022-11-16T00:09:00",
+        "references": [
+            "https://github.com/ZoneMinder/zoneminder/releases",
+            "https://medium.com/@dk50u1/session-fixation-in-zoneminder-up-to-v1-36-12-3c850b1fbbf3"
+        ],
+        "summary": "Session fixation exists in ZoneMinder through 1.36.12 as an attacker can poison a session cookie to the next logged-in user."
+    },
+    {
+        "Modified": "2022-11-16T00:09:00",
+        "Published": "2022-11-15T22:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-4006",
+        "impact": {},
+        "last-modified": "2022-11-16T00:09:00",
+        "references": [
+            "https://vuldb.com/?id.213716",
+            "https://github.com/wbce/wbce_cms/commit/d394ba39a7bfeb31eda797b6195fd90ef74b2e75",
+            "https://github.com/WBCE/WBCE_CMS/issues/524"
+        ],
+        "summary": "A vulnerability, which was classified as problematic, has been found in WBCE CMS. Affected by this issue is the function increase_attempts of the file wbce/framework/class.login.php of the component Header Handler. The manipulation of the argument X-Forwarded-For leads to improper restriction of excessive authentication attempts. The attack may be launched remotely. The name of the patch is d394ba39a7bfeb31eda797b6195fd90ef74b2e75. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-213716."
+    },
+    {
+        "Modified": "2022-11-15T23:15:00",
+        "Published": "2022-11-09T22:15:00",
+        "access": {},
+        "assigner": "secure@microsoft.com",
+        "cvss": null,
+        "cwe": "NVD-CWE-noinfo",
+        "id": "CVE-2022-41106",
+        "impact": {},
+        "last-modified": "2022-11-15T23:15:00",
+        "references": [
+            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41106",
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2022-1591"
+        ],
+        "summary": "Microsoft Excel Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-41063."
+    },
+    {
+        "Modified": "2022-11-15T23:15:00",
+        "Published": "2022-11-07T15:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "NVD-CWE-noinfo",
+        "id": "CVE-2022-38163",
+        "impact": {},
+        "last-modified": "2022-11-15T23:15:00",
+        "references": [
+            "https://www.f-secure.com/en/home/support/security-advisories",
+            "https://withsecure.com",
+            "https://www.f-secure.com/en/home/support/security-advisories/cve-2022-38163"
+        ],
+        "summary": "A Drag and Drop spoof vulnerability was discovered in F-Secure SAFE Browser for Android and iOS version 19.0 and below. Drag and drop operation by user on address bar could lead to a spoofing of the address bar."
+    },
+    {
         "Modified": "2022-11-15T22:18:00",
         "Published": "2022-11-11T08:15:00",
         "access": {},
@@ -14,119 +256,6 @@
             "https://github.com/jerryhanjj/ERP/issues/3"
         ],
         "summary": "A vulnerability was found in jerryhanjj ERP. It has been declared as critical. Affected by this vulnerability is the function uploadImages of the file application/controllers/basedata/inventory.php of the component Commodity Management. The manipulation leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-213451."
-    },
-    {
-        "Modified": "2022-11-15T22:15:00",
-        "Published": "2022-11-15T22:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-29276",
-        "impact": {},
-        "last-modified": "2022-11-15T22:15:00",
-        "references": [
-            "https://www.insyde.com/security-pledge",
-            "https://www.insyde.com/security-pledge/SA-2022059"
-        ],
-        "summary": "SMI functions in AhciBusDxe use untrusted inputs leading to corruption of SMRAM. SMI functions in AhciBusDxe use untrusted inputs leading to corruption of SMRAM. This issue was discovered by Insyde during security review. It was fixed in: Kernel 5.0: version 05.09.18 Kernel 5.1: version 05.17.18 Kernel 5.2: version 05.27.18 Kernel 5.3: version 05.36.18 Kernel 5.4: version 05.44.18 Kernel 5.5: version 05.52.18 https://www.insyde.com/security-pledge/SA-2022059"
-    },
-    {
-        "Modified": "2022-11-15T22:15:00",
-        "Published": "2022-11-15T22:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-29277",
-        "impact": {},
-        "last-modified": "2022-11-15T22:15:00",
-        "references": [
-            "https://www.insyde.com/security-pledge",
-            "https://www.insyde.com/security-pledge/SA-2022060"
-        ],
-        "summary": "Incorrect pointer checks within the the FwBlockServiceSmm driver can allow arbitrary RAM modifications During review of the FwBlockServiceSmm driver, certain instances of SpiAccessLib could be tricked into writing 0xff to arbitrary system and SMRAM addresses. Fixed in: INTEL Purley-R: 05.21.51.0048 Whitley: 05.42.23.0066 Cedar Island: 05.42.11.0021 Eagle Stream: 05.44.25.0052 Greenlow/Greenlow-R(skylake/kabylake): Trunk Mehlow/Mehlow-R (CoffeeLake-S): Trunk Tatlow (RKL-S): Trunk Denverton: 05.10.12.0042 Snow Ridge: Trunk Graneville DE: 05.05.15.0038 Grangeville DE NS: 05.27.26.0023 Bakerville: 05.21.51.0026 Idaville: 05.44.27.0030 Whiskey Lake: Trunk Comet Lake-S: Trunk Tiger Lake H/UP3: 05.43.12.0052 Alder Lake: 05.44.23.0047 Gemini Lake: Not Affected Apollo Lake: Not Affected Elkhart Lake: 05.44.30.0018 AMD ROME: trunk MILAN: 05.36.10.0017 GENOA: 05.52.25.0006 Snowy Owl: Trunk R1000: 05.32.50.0018 R2000: 05.44.30.0005 V2000: Trunk V3000: 05.44.30.0007 Ryzen 5000: 05.44.30.0004 Embedded ROME: Trunk Embedded MILAN: Trunk Hygon Hygon #1/#2: 05.36.26.0016 Hygon #3: 05.44.26.0007 https://www.insyde.com/security-pledge/SA-2022060"
-    },
-    {
-        "Modified": "2022-11-15T22:15:00",
-        "Published": "2022-11-15T22:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-29278",
-        "impact": {},
-        "last-modified": "2022-11-15T22:15:00",
-        "references": [
-            "https://www.insyde.com/security-pledge",
-            "https://www.insyde.com/security-pledge/SA-2022061"
-        ],
-        "summary": "Incorrect pointer checks within the NvmExpressDxe driver can allow tampering with SMRAM and OS memory Incorrect pointer checks within the NvmExpressDxe driver can allow tampering with SMRAM and OS memory. This issue was discovered by Insyde during security review. Fixed in: Kernel 5.1: Version 05.17.23 Kernel 5.2: Version 05.27.23 Kernel 5.3: Version 05.36.23 Kernel 5.4: Version 05.44.23 Kernel 5.5: Version 05.52.23 https://www.insyde.com/security-pledge/SA-2022061"
-    },
-    {
-        "Modified": "2022-11-15T22:15:00",
-        "Published": "2022-11-15T22:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-29279",
-        "impact": {},
-        "last-modified": "2022-11-15T22:15:00",
-        "references": [
-            "https://www.insyde.com/security-pledge",
-            "https://www.insyde.com/security-pledge/SA-2022062"
-        ],
-        "summary": "Use of a untrusted pointer allows tampering with SMRAM and OS memory in SdHostDriver and SdMmcDevice Use of a untrusted pointer allows tampering with SMRAM and OS memory in SdHostDriver and SdMmcDevice. This issue was discovered by Insyde during security review. It was fixed in: Kernel 5.0: version 05.09.17 Kernel 5.1: version 05.17.17 Kernel 5.2: version 05.27.17 Kernel 5.3: version 05.36.17 Kernel 5.4: version 05.44.17 Kernel 5.5: version 05.52.17 https://www.insyde.com/security-pledge/SA-2022062"
-    },
-    {
-        "Modified": "2022-11-15T22:15:00",
-        "Published": "2022-11-15T22:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-30768",
-        "impact": {},
-        "last-modified": "2022-11-15T22:15:00",
-        "references": [
-            "https://github.com/ZoneMinder/zoneminder/releases",
-            "https://medium.com/@dk50u1/stored-xss-in-zoneminder-up-to-v1-36-12-f26b4bb68c31"
-        ],
-        "summary": "A Stored Cross Site Scripting (XSS) issue in ZoneMinder 1.36.12 allows an attacker to execute HTML or JavaScript code via the Username field when an Admin (or non-Admin users that can see other users logged into the platform) clicks on Logout. NOTE: this exists in later versions than CVE-2019-7348 and requires a different attack method."
-    },
-    {
-        "Modified": "2022-11-15T22:15:00",
-        "Published": "2022-11-15T22:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-30769",
-        "impact": {},
-        "last-modified": "2022-11-15T22:15:00",
-        "references": [
-            "https://github.com/ZoneMinder/zoneminder/releases",
-            "https://medium.com/@dk50u1/session-fixation-in-zoneminder-up-to-v1-36-12-3c850b1fbbf3"
-        ],
-        "summary": "Session fixation exists in ZoneMinder through 1.36.12 as an attacker can poison a session cookie to the next logged-in user."
-    },
-    {
-        "Modified": "2022-11-15T22:15:00",
-        "Published": "2022-11-15T22:15:00",
-        "access": {},
-        "assigner": "cna@vuldb.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-4006",
-        "impact": {},
-        "last-modified": "2022-11-15T22:15:00",
-        "references": [
-            "https://vuldb.com/?id.213716",
-            "https://github.com/wbce/wbce_cms/commit/d394ba39a7bfeb31eda797b6195fd90ef74b2e75",
-            "https://github.com/WBCE/WBCE_CMS/issues/524"
-        ],
-        "summary": "A vulnerability, which was classified as problematic, has been found in WBCE CMS. Affected by this issue is the function increase_attempts of the file wbce/framework/class.login.php of the component Header Handler. The manipulation of the argument X-Forwarded-For leads to improper restriction of excessive authentication attempts. The attack may be launched remotely. The name of the patch is d394ba39a7bfeb31eda797b6195fd90ef74b2e75. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-213716."
     },
     {
         "Modified": "2022-11-15T22:15:00",
@@ -1551,135 +1680,5 @@
             "https://vuldb.com/?id.213699"
         ],
         "summary": "A vulnerability, which was classified as critical, was found in MonikaBrzica scm. This affects an unknown part of the file uredi_korisnika.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-213699."
-    },
-    {
-        "Modified": "2022-11-15T21:06:00",
-        "Published": "2022-11-15T17:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-43071",
-        "impact": {},
-        "last-modified": "2022-11-15T21:06:00",
-        "references": [
-            "https://forum.xpdfreader.com/viewtopic.php?f=3&t=42349&p=43959#p43959"
-        ],
-        "summary": "A stack overflow in the Catalog::readPageLabelTree2(Object*) function of XPDF v4.04 allows attackers to cause a Denial of Service (DoS) via a crafted PDF file."
-    },
-    {
-        "Modified": "2022-11-15T21:06:00",
-        "Published": "2022-11-15T17:15:00",
-        "access": {},
-        "assigner": "cna@vuldb.com",
-        "cvss": null,
-        "cwe": "CWE-707",
-        "id": "CVE-2022-3997",
-        "impact": {},
-        "last-modified": "2022-11-15T21:06:00",
-        "references": [
-            "https://github.com/MonikaBrzica/scm/issues/2",
-            "https://vuldb.com/?id.213698"
-        ],
-        "summary": "A vulnerability, which was classified as critical, has been found in MonikaBrzica scm. Affected by this issue is some unknown functionality of the file upis_u_bazu.php. The manipulation of the argument email/lozinka/ime/id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-213698 is the identifier assigned to this vulnerability."
-    },
-    {
-        "Modified": "2022-11-15T21:06:00",
-        "Published": "2022-11-11T14:15:00",
-        "access": {},
-        "assigner": "cna@vuldb.com",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2022-3950",
-        "impact": {},
-        "last-modified": "2022-11-15T21:06:00",
-        "references": [
-            "https://github.com/sanluan/PublicCMS/commit/a972dc9b1c94aea2d84478bf26283904c21e4ca2",
-            "https://vuldb.com/?id.213456"
-        ],
-        "summary": "A vulnerability, which was classified as problematic, was found in sanluan PublicCMS. Affected is the function initLink of the file dwz.min.js of the component Tab Handler. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. The name of the patch is a972dc9b1c94aea2d84478bf26283904c21e4ca2. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-213456."
-    },
-    {
-        "Modified": "2022-11-15T21:05:00",
-        "Published": "2022-11-11T13:15:00",
-        "access": {},
-        "assigner": "cna@vuldb.com",
-        "cvss": null,
-        "cwe": "CWE-89",
-        "id": "CVE-2022-3947",
-        "impact": {},
-        "last-modified": "2022-11-15T21:05:00",
-        "references": [
-            "https://vuldb.com/?id.213453",
-            "https://c2.im5i.com/2022/11/11/26c56.png",
-            "https://c2.im5i.com/2022/11/11/26Jg5.png"
-        ],
-        "summary": "A vulnerability classified as critical has been found in eolinker goku_lite. This affects an unknown part of the file /balance/service/list. The manipulation of the argument route/keyword leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-213453 was assigned to this vulnerability."
-    },
-    {
-        "Modified": "2022-11-15T21:05:00",
-        "Published": "2022-11-11T13:15:00",
-        "access": {},
-        "assigner": "cna@vuldb.com",
-        "cvss": null,
-        "cwe": "CWE-89",
-        "id": "CVE-2022-3948",
-        "impact": {},
-        "last-modified": "2022-11-15T21:05:00",
-        "references": [
-            "https://c2.im5i.com/2022/11/09/XOvUn.png",
-            "https://c2.im5i.com/2022/11/09/XOq61.png",
-            "https://vuldb.com/?id.213454"
-        ],
-        "summary": "A vulnerability classified as critical was found in eolinker goku_lite. This vulnerability affects unknown code of the file /plugin/getList. The manipulation of the argument route/keyword leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-213454 is the identifier assigned to this vulnerability."
-    },
-    {
-        "Modified": "2022-11-15T20:56:00",
-        "Published": "2022-11-11T19:15:00",
-        "access": {},
-        "assigner": "psirt@us.ibm.com",
-        "cvss": null,
-        "cwe": "CWE-20",
-        "id": "CVE-2022-31772",
-        "impact": {},
-        "last-modified": "2022-11-15T20:56:00",
-        "references": [
-            "https://exchange.xforce.ibmcloud.com/vulnerabilities/228335",
-            "https://www.ibm.com/support/pages/node/6833806"
-        ],
-        "summary": "IBM MQ 8.0, 9.0 LTS, 9.1 CD, 9.1 LTS, 9.2 CD, and 9.2 LTS could allow an authenticated and authorized user to cause a denial of service to the MQTT channels. IBM X-Force ID: 228335."
-    },
-    {
-        "Modified": "2022-11-15T20:55:00",
-        "Published": "2022-11-10T20:15:00",
-        "access": {},
-        "assigner": "security@golang.org",
-        "cvss": null,
-        "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2022-41719",
-        "impact": {},
-        "last-modified": "2022-11-15T20:55:00",
-        "references": [
-            "https://github.com/shamaton/msgpack/issues/31",
-            "https://github.com/shamaton/msgpack/pull/32",
-            "https://pkg.go.dev/vuln/GO-2022-0972"
-        ],
-        "summary": "Unmarshal can panic on some inputs, possibly allowing for denial of service attacks."
-    },
-    {
-        "Modified": "2022-11-15T20:51:00",
-        "Published": "2022-11-11T19:15:00",
-        "access": {},
-        "assigner": "psirt@us.ibm.com",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2022-36776",
-        "impact": {},
-        "last-modified": "2022-11-15T20:51:00",
-        "references": [
-            "https://exchange.xforce.ibmcloud.com/vulnerabilities/233663",
-            "https://www.ibm.com/support/pages/node/6833574"
-        ],
-        "summary": "IBM Cloud Pak for Security (CP4S) 1.10.0.0 79and 1.10.2.0 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 233663."
     }
 ]
