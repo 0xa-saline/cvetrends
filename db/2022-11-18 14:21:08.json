@@ -2,7 +2,7 @@
     "data": [
         {
             "assigner": null,
-            "audience_size": 757284,
+            "audience_size": 794424,
             "cve": "CVE-2022-41622",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -18,47 +18,24 @@
                     "description": "A PoC exploit for CVE-2022-41622 - a CSRF in F5 BIG-IP control plane that leads to remote root",
                     "language": "HTML",
                     "name": "refreshing-soap-exploit",
-                    "stars": 3,
+                    "stars": 4,
                     "topics": [],
-                    "updated": "2022-11-17T19:49:36Z",
+                    "updated": "2022-11-18T09:47:09Z",
                     "url": "https://github.com/rbowes-r7/refreshing-soap-exploit"
                 }
             ],
             "lastModifiedDate": null,
-            "num_retweets": 45,
-            "num_tweets": 20,
-            "num_tweets_and_retweets": 65,
+            "num_retweets": 39,
+            "num_tweets": 19,
+            "num_tweets_and_retweets": 58,
             "publishedDate": null,
             "reddit_posts": [],
             "score": null,
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2022-11-17 12:59",
-                    "likes": 25,
-                    "num_retweets": 18,
-                    "retweets": 19,
-                    "tweet_id": "1593227201729728513",
-                    "tweet_text": "Rapid7's Ron Bowes published details on CVE-2022-41622 and CVE-2022-41800, two vulnerabilities in the Big-IP load balancer, patched this week by F5.\n\nhttps://t.co/zEaIn4lfNm\n\nhttps://t.co/qFq6deKGIH https://t.co/8FNlm0IdUg",
-                    "twitter_user_handle": "campuscodi",
-                    "twitter_user_name": "Catalin Cimpanu",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1554501058721882113/BXRruXC9_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "rapid7.com/blog/post/2022\u2026",
-                            "expanded_url": "https://www.rapid7.com/blog/post/2022/11/16/cve-2022-41622-and-cve-2022-41800-fixed-f5-big-ip-and-icontrol-rest-vulnerabilities-and-exposures/",
-                            "url": "https://t.co/zEaIn4lfNm"
-                        },
-                        {
-                            "display_url": "support.f5.com/csp/article/K9\u2026",
-                            "expanded_url": "https://support.f5.com/csp/article/K97843387",
-                            "url": "https://t.co/qFq6deKGIH"
-                        }
-                    ]
-                },
-                {
                     "created_at": "2022-11-17 18:33",
-                    "likes": 32,
+                    "likes": 37,
                     "num_retweets": 9,
                     "retweets": 9,
                     "tweet_id": "1593311472293056512",
@@ -93,38 +70,197 @@
                     ]
                 },
                 {
-                    "created_at": "2022-11-17 10:02",
-                    "likes": 1,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1593182761610788866",
-                    "tweet_text": "F5 BIG-IP and BIG-IQ  cross-site request forgery | CVE-2022-41622 - https://t.co/1sgwv4Dy0S\n\n#CVE #Vulnerability #OSINT #ThreatIntel #Cyber",
-                    "twitter_user_handle": "RedPacketSec",
-                    "twitter_user_name": "RedPacket Security",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1557095801272373248/RmJX2gB4_normal.jpg",
+                    "created_at": "2022-11-18 10:03",
+                    "likes": 17,
+                    "num_retweets": 4,
+                    "retweets": 5,
+                    "tweet_id": "1593545350815617025",
+                    "tweet_text": "\ud83d\udd25\u062b\u063a\u0631\u0627\u062a \u0641\u064a \u0627\u0646\u0638\u0645\u0629  F5 \u0645\u0646 \u0646\u0648\u0639:\n-BIG-IQ \n- BIG-IP \n\u062a\u062d\u0645\u0644 \u0631\u0642\u0645 CVE-2022-41622\u060c \u0627\u0644\u062b\u063a\u0631\u0629 \u062a\u062a\u064a\u062d \u0644\u0644\u0645\u0647\u0627\u062c\u0645 \u0627\u0644\u062a\u062d\u0643\u0645 \u0648\u0627\u0644\u0633\u064a\u0637\u0631\u0629 \u0639\u0644\u0649 \u0627\u0644\u0646\u0638\u0627\u0645 RCE.\n\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0643\u062b\u0631: https://t.co/qWAqJzE1TB\n\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0643\u062b\u0631: https://t.co/fgE8abCqWR\n#\u0627\u0644\u0627\u0645\u0646_\u0627\u0644\u0633\u064a\u0628\u0631\u0627\u0646\u064a https://t.co/KmjLT0Do0e",
+                    "twitter_user_handle": "MAlajab",
+                    "twitter_user_name": "\u0645\u0627\u0644\u0643 \u0627\u0644\u062f\u0648\u0633\u0631\u064a/Malek Aldossary",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1408029455503839235/PYOMijJE_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "redpacketsecurity.com/f5-big-ip-and-\u2026",
-                            "expanded_url": "https://www.redpacketsecurity.com/f5-big-ip-and-big-iq-cross-site-request-forgery-cve-2022-41622/",
-                            "url": "https://t.co/1sgwv4Dy0S"
+                            "display_url": "support.f5.com/csp/article/K9\u2026",
+                            "expanded_url": "https://support.f5.com/csp/article/K94221585",
+                            "url": "https://t.co/qWAqJzE1TB"
+                        },
+                        {
+                            "display_url": "rapid7.com/blog/post/2022\u2026",
+                            "expanded_url": "https://www.rapid7.com/blog/post/2022/11/16/cve-2022-41622-and-cve-2022-41800-fixed-f5-big-ip-and-icontrol-rest-vulnerabilities-and-exposures/",
+                            "url": "https://t.co/fgE8abCqWR"
                         }
                     ]
                 },
                 {
-                    "created_at": "2022-11-17 18:06",
-                    "likes": 3,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1593304485014786053",
-                    "tweet_text": "F5 Patches Vulnerabilities in iControl SOAP and iControl REST Running on F5 BIG-IP and BIG-IQ Devices (CVE-2022-41800 and CVE-2022-41622) https://t.co/jd8NoZANam https://t.co/oW8d2L5LHt",
-                    "twitter_user_handle": "qualys",
-                    "twitter_user_name": "Qualys",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/889206171864903680/GkZz0T6s_normal.jpg",
+                    "created_at": "2022-11-18 13:02",
+                    "likes": 4,
+                    "num_retweets": 4,
+                    "retweets": 4,
+                    "tweet_id": "1593590425897541635",
+                    "tweet_text": "#Sigma rules to detect exploitation of high-severity #RCE #vulnerabilities (CVE-2022-41622, CVE-2022-41800) in F5 BIG-IP, BIG-IQ. \n\nRules: https://t.co/UEjt2OOthL\n\n#DFIR #CVE #exploit #BlueTeam #threathunting #threatdetection #CVE202241622 #CVE202241800 #SOC #CTI #mitre #SIEM https://t.co/wftxZ2le1u",
+                    "twitter_user_handle": "SOC_Prime",
+                    "twitter_user_name": "SOC Prime",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1583099162857447426/gW1QsOar_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "threatprotect.qualys.com/2022/11/17/f5-\u2026",
-                            "expanded_url": "https://threatprotect.qualys.com/2022/11/17/f5-patches-vulnerabilities-in-icontrol-soap-and-rest-running-on-f5-big-ip-and-big-iq-devices-cve-2022-41800-and-cve-2022-41622/",
-                            "url": "https://t.co/jd8NoZANam"
+                            "display_url": "socprime.com/rs/search-resu\u2026",
+                            "expanded_url": "https://socprime.com/rs/search-result?search=CVE-2022-41622",
+                            "url": "https://t.co/UEjt2OOthL"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-18 08:09",
+                    "likes": 5,
+                    "num_retweets": 3,
+                    "retweets": 3,
+                    "tweet_id": "1593516791950622720",
+                    "tweet_text": "F5 soluciona dos vulnerabilidades de ejecuci\u00f3n remota de c\u00f3digo (RCE) en BIG-IP, BIG-IQ\n\n\u25aa\ufe0f CVE-2022-41622 (CVSS v3 \u2013 8.8) \nhttps://t.co/KZxOFZgPas\n\u25aa\ufe0f CVE-2022-41800 (CVSS v3 \u2013 8.7)\n\nDetalles t\u00e9cnicos vulnerabilidades \u2b07\ufe0f\u2b07\ufe0f\nhttps://t.co/DbO5NX9xeY https://t.co/ZGxMSZJHCW",
+                    "twitter_user_handle": "elhackernet",
+                    "twitter_user_name": "elhacker.NET",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1330969532/e-peq1_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "support.f5.com/csp/article/K9\u2026",
+                            "expanded_url": "https://support.f5.com/csp/article/K94221585",
+                            "url": "https://t.co/KZxOFZgPas"
+                        },
+                        {
+                            "display_url": "rapid7.com/blog/post/2022\u2026",
+                            "expanded_url": "https://www.rapid7.com/blog/post/2022/11/16/cve-2022-41622-and-cve-2022-41800-fixed-f5-big-ip-and-icontrol-rest-vulnerabilities-and-exposures/",
+                            "url": "https://t.co/DbO5NX9xeY"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": null,
+            "audience_size": 467944,
+            "cve": "CVE-2022-41800",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": null,
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": null,
+            "num_retweets": 24,
+            "num_tweets": 13,
+            "num_tweets_and_retweets": 37,
+            "publishedDate": null,
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2022-11-17 18:33",
+                    "likes": 37,
+                    "num_retweets": 9,
+                    "retweets": 9,
+                    "tweet_id": "1593311472293056512",
+                    "tweet_text": "F5\u88fd\u54c1\u306eBIG-IP\u3068BIG-IQ\u306b2\u3064\u306e\u30ea\u30e2\u30fc\u30c8\u30b3\u30fc\u30c9\u5b9f\u884c\u306e\u8106\u5f31\u6027\uff08CVE-2022-41622, CVE-2022-41800\uff09\u3092\u4fee\u6b63\u3059\u308bHotFix\u304c\u63d0\u4f9b\u3055\u308c\u3066\u3044\u307e\u3059\u3002CVE-2022-41622\u306f\u65e2\u306bPoC\u304c\u516c\u958b\u3055\u308c\u3066\u3044\u307e\u3059\u306d\u3002\n\nF5 fixes two remote code execution flaws in BIG-IP, BIG-IQ https://t.co/MMOGc33gBg",
+                    "twitter_user_handle": "ntsuji",
+                    "twitter_user_name": "\u8fbb \u4f38\u5f18 (nobuhiro tsuji)",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1485326952869564416/_wUBhB8N_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "bleepingcomputer.com/news/security/\u2026",
+                            "expanded_url": "https://www.bleepingcomputer.com/news/security/f5-fixes-two-remote-code-execution-flaws-in-big-ip-big-iq/",
+                            "url": "https://t.co/MMOGc33gBg"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-18 02:29",
+                    "likes": 4,
+                    "num_retweets": 5,
+                    "retweets": 5,
+                    "tweet_id": "1593431181634125824",
+                    "tweet_text": "CVE-2022-41622 and CVE-2022-41800\nFind F5 BIG-IP and BIG-IQ on HUNTER\nDork \ud83d\udc49\ud83c\udfff product[.]name=\"BIG-IQ Centralized Management\"||product[.]name=\"BIG-IP APM\"\nLink to search \ud83d\udc49\ud83c\udffc https://t.co/UqFuWKWQCl\n#infosec #cybersecurity #informationsecurity #bigip #attacksurface #BlackTechTwitter https://t.co/oYCso2KQBG",
+                    "twitter_user_handle": "HunterMapping",
+                    "twitter_user_name": "Hunter",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1585566872103096320/xj1YaerS_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "hunter.how/list?searchVal\u2026",
+                            "expanded_url": "https://hunter.how/list?searchValue=product.name%3D%22BIG-IQ%20Centralized%20Management%22%7C%7Cproduct.name%3D%22BIG-IP%20APM%22",
+                            "url": "https://t.co/UqFuWKWQCl"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-18 13:02",
+                    "likes": 4,
+                    "num_retweets": 4,
+                    "retweets": 4,
+                    "tweet_id": "1593590425897541635",
+                    "tweet_text": "#Sigma rules to detect exploitation of high-severity #RCE #vulnerabilities (CVE-2022-41622, CVE-2022-41800) in F5 BIG-IP, BIG-IQ. \n\nRules: https://t.co/UEjt2OOthL\n\n#DFIR #CVE #exploit #BlueTeam #threathunting #threatdetection #CVE202241622 #CVE202241800 #SOC #CTI #mitre #SIEM https://t.co/wftxZ2le1u",
+                    "twitter_user_handle": "SOC_Prime",
+                    "twitter_user_name": "SOC Prime",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1583099162857447426/gW1QsOar_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "socprime.com/rs/search-resu\u2026",
+                            "expanded_url": "https://socprime.com/rs/search-result?search=CVE-2022-41622",
+                            "url": "https://t.co/UEjt2OOthL"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-18 08:09",
+                    "likes": 5,
+                    "num_retweets": 3,
+                    "retweets": 3,
+                    "tweet_id": "1593516791950622720",
+                    "tweet_text": "F5 soluciona dos vulnerabilidades de ejecuci\u00f3n remota de c\u00f3digo (RCE) en BIG-IP, BIG-IQ\n\n\u25aa\ufe0f CVE-2022-41622 (CVSS v3 \u2013 8.8) \nhttps://t.co/KZxOFZgPas\n\u25aa\ufe0f CVE-2022-41800 (CVSS v3 \u2013 8.7)\n\nDetalles t\u00e9cnicos vulnerabilidades \u2b07\ufe0f\u2b07\ufe0f\nhttps://t.co/DbO5NX9xeY https://t.co/ZGxMSZJHCW",
+                    "twitter_user_handle": "elhackernet",
+                    "twitter_user_name": "elhacker.NET",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1330969532/e-peq1_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "support.f5.com/csp/article/K9\u2026",
+                            "expanded_url": "https://support.f5.com/csp/article/K94221585",
+                            "url": "https://t.co/KZxOFZgPas"
+                        },
+                        {
+                            "display_url": "rapid7.com/blog/post/2022\u2026",
+                            "expanded_url": "https://www.rapid7.com/blog/post/2022/11/16/cve-2022-41622-and-cve-2022-41800-fixed-f5-big-ip-and-icontrol-rest-vulnerabilities-and-exposures/",
+                            "url": "https://t.co/DbO5NX9xeY"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-18 13:48",
+                    "likes": 3,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1593601941589958656",
+                    "tweet_text": "Deep-dive into F5 BIG-IP &amp; BIG-IQ CVE-2022-41622 and CVE-2022-41800\n\n\ud83d\udc49\ud83c\udffc Dork: https://t.co/eYMBqNc6zN:(f5_bigip OR f5_big_ip) OR http.favicon.hash_sha256:a8eef57d094fcf99bae2378eb2c2fc2fb15d12f856c028cc979c04451bee84c2\n\ud83d\udc49\ud83c\udffc Link to search: https://t.co/3Oi7RoeJh3\n\n#hacking #dorks https://t.co/GrHHDfka1A",
+                    "twitter_user_handle": "Netlas_io",
+                    "twitter_user_name": "Netlas.io",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1394267995925630979/me-tfnnZ_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "tag.name",
+                            "expanded_url": "http://tag.name",
+                            "url": "https://t.co/eYMBqNc6zN"
+                        },
+                        {
+                            "display_url": "app.netlas.io/responses/?q=t\u2026",
+                            "expanded_url": "https://app.netlas.io/responses/?q=tag.name%3A(f5_bigip%20OR%20f5_big_ip)%20OR%20http.favicon.hash_sha256%3Aa8eef57d094fcf99bae2378eb2c2fc2fb15d12f856c028cc979c04451bee84c2&page=1&indices=",
+                            "url": "https://t.co/3Oi7RoeJh3"
+                        },
+                        {
+                            "display_url": "twitter.com/iagox86/status\u2026",
+                            "expanded_url": "https://twitter.com/iagox86/status/1592926849101082625",
+                            "url": "https://t.co/GrHHDfka1A"
                         }
                     ]
                 }
@@ -134,7 +270,7 @@
         },
         {
             "assigner": "secure@microsoft.com",
-            "audience_size": 560681,
+            "audience_size": 374557,
             "cve": "CVE-2022-41082",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -208,9 +344,9 @@
                 }
             ],
             "lastModifiedDate": "2022-11-07T20:19Z",
-            "num_retweets": 82,
-            "num_tweets": 28,
-            "num_tweets_and_retweets": 110,
+            "num_retweets": 62,
+            "num_tweets": 31,
+            "num_tweets_and_retweets": 93,
             "publishedDate": "2022-10-03T01:15Z",
             "reddit_posts": [
                 {
@@ -219,9 +355,9 @@
                     "num_comments": 92,
                     "reddit_url": "https://www.reddit.com/r/msp/comments/xrkfdf/threat_advisory_new_0day_vulnerabilities_found_in/",
                     "subreddit": "msp",
-                    "subreddit_subscribers": 138692,
+                    "subreddit_subscribers": 138701,
                     "title": "Threat advisory: New 0-Day Vulnerabilities Found in Microsoft Exchange",
-                    "upvotes": 184,
+                    "upvotes": 186,
                     "url": "https://www.reddit.com/r/msp/comments/xrkfdf/threat_advisory_new_0day_vulnerabilities_found_in/"
                 },
                 {
@@ -230,9 +366,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/networking/comments/xvcrkc/cve202241082_and_cve202241040_related_to_zeroday/",
                     "subreddit": "networking",
-                    "subreddit_subscribers": 277517,
+                    "subreddit_subscribers": 277536,
                     "title": "CVE-2022-41082 and CVE-2022-41040 related to Zero-day Vulnerabilities in Microsoft Exchange Server",
-                    "upvotes": 65,
+                    "upvotes": 67,
                     "url": "https://www.reddit.com/r/networking/comments/xvcrkc/cve202241082_and_cve202241040_related_to_zeroday/"
                 },
                 {
@@ -241,7 +377,7 @@
                     "num_comments": 9,
                     "reddit_url": "https://www.reddit.com/r/crowdstrike/comments/xsvyn4/situational_awareness_proxynotshell_cve202240140/",
                     "subreddit": "crowdstrike",
-                    "subreddit_subscribers": 10869,
+                    "subreddit_subscribers": 10874,
                     "title": "SITUATIONAL AWARENESS // ProxyNotShell // CVE-2022-40140 &amp; CVE-2022-41082",
                     "upvotes": 43,
                     "url": "https://www.reddit.com/r/crowdstrike/comments/xsvyn4/situational_awareness_proxynotshell_cve202240140/"
@@ -252,7 +388,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/techhumor/comments/xukupz/exchange_0days/",
                     "subreddit": "techhumor",
-                    "subreddit_subscribers": 6664,
+                    "subreddit_subscribers": 6665,
                     "title": "Exchange 0-days",
                     "upvotes": 23,
                     "url": "https://i.redd.it/9z8zv0kcolr91.png"
@@ -263,9 +399,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/xtjl8q/proxynotshell_checkernse_nmap_script_to_check_for/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 31027,
+                    "subreddit_subscribers": 31032,
                     "title": "proxynotshell_checker.nse: nmap script to Check for Microsoft Exchange servers potentially vulnerable to ProxyNotShell (CVE-2022-40140 &amp; CVE-2022-41082).",
-                    "upvotes": 13,
+                    "upvotes": 12,
                     "url": "https://github.com/CronUp/Vulnerabilidades/blob/main/proxynotshell_checker.nse"
                 }
             ],
@@ -274,9 +410,9 @@
             "tweets": [
                 {
                     "created_at": "2022-11-17 18:32",
-                    "likes": 107,
-                    "num_retweets": 37,
-                    "retweets": 39,
+                    "likes": 128,
+                    "num_retweets": 49,
+                    "retweets": 51,
                     "tweet_id": "1593311129874403335",
                     "tweet_text": "Can confirm.\nThis is a working exploit for #ProxyNotShell CVE-2022-41040 / CVE-2022-41082\nHere we have an Exchange 2019 box that's only up to date with what was available in October, and we have successful execution of calc.exe as SYSTEM.\n\ud83c\udf89 https://t.co/PQfen11x7n https://t.co/BlCJSJMcJM",
                     "twitter_user_handle": "wdormann",
@@ -291,38 +427,20 @@
                     ]
                 },
                 {
-                    "created_at": "2022-11-17 08:22",
-                    "likes": 92,
-                    "num_retweets": 23,
-                    "retweets": 28,
-                    "tweet_id": "1593157500425342977",
-                    "tweet_text": "A Working PoC for CVE-2022-41040 and CVE-2022-41082 (aka ProxyNotShell) is out\n https://t.co/rZ5pMJbKtJ",
-                    "twitter_user_handle": "S0ufi4n3",
-                    "twitter_user_name": "Soufiane Tahiri",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1168826150757588992/XkDv4yj2_normal.jpg",
+                    "created_at": "2022-11-18 11:01",
+                    "likes": 22,
+                    "num_retweets": 9,
+                    "retweets": 9,
+                    "tweet_id": "1593559912386371584",
+                    "tweet_text": "this is a working PoC script of the Exchange 0day exploited ITW for CVE-2022-41040 and CVE-2022-41082 (A.K.A #ProxyNotShell) \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udc69\u200d\ud83d\udcbb\ud83d\udc68\u200d\ud83d\udcbb\n------\nhttps://t.co/3NO7Pw96qI\n-----\nBy @testanull\n----\n#hackerone #BugBounty #bugbountytips\n#writeups\n#bugbountytips \n#bugbountytip #poc https://t.co/3jQIHtPseB",
+                    "twitter_user_handle": "SaraBadran18",
+                    "twitter_user_name": "\ud83d\udc1eSara Badran",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1553679117354237959/Y3cYX37J_normal.jpg",
                     "urls": [
                         {
                             "display_url": "github.com/testanull/Prox\u2026",
                             "expanded_url": "https://github.com/testanull/ProxyNotShell-PoC",
-                            "url": "https://t.co/rZ5pMJbKtJ"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-17 10:46",
-                    "likes": 24,
-                    "num_retweets": 14,
-                    "retweets": 17,
-                    "tweet_id": "1593193765954801664",
-                    "tweet_text": "Microsoft Exchange Server Remote Code Execution Vulnerability.\nPoC for CVE-2022-41040 and CVE-2022-41082\n#CVE #bugbounty #infosec #hacktools #cybersecurity #pentesting \nhttps://t.co/6uzq42WyrQ",
-                    "twitter_user_handle": "sirifu4k1",
-                    "twitter_user_name": "siri@fu4k1",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1482679844248903683/SabG476d_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/testanull/Prox\u2026",
-                            "expanded_url": "https://github.com/testanull/ProxyNotShell-PoC",
-                            "url": "https://t.co/6uzq42WyrQ"
+                            "url": "https://t.co/3NO7Pw96qI"
                         }
                     ]
                 },
@@ -345,20 +463,48 @@
                     ]
                 },
                 {
-                    "created_at": "2022-11-17 12:46",
+                    "created_at": "2022-11-17 21:20",
                     "likes": 5,
-                    "num_retweets": 2,
-                    "retweets": 2,
-                    "tweet_id": "1593224139913195520",
-                    "tweet_text": "Detect New #exchange #vulnerability CVE-\nCVE-2022-41040, CVE-2022-41082\n #ProxyNotShell ,Attacker trying to exploited in the wild after POC published today \ud83d\udd25, Detect attacks with a set of rules in the #CyberCave Platform.\nFree rules: https://t.co/wtJdCb1abF",
-                    "twitter_user_handle": "Cyber_Cave_sa",
-                    "twitter_user_name": "\u0634\u0631\u0643\u0629 CyberCave",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1532044826740416512/QrAJSqrw_normal.jpg",
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1593353373100613632",
+                    "tweet_text": "(2/2)\nand a second vulnerability that allows Remote Code Execution (CVE-2022-41082) when PowerShell is available on the Exchange Server.\n\nResearch:\nhttps://t.co/MdQi6DVsIc\n\nNmap Checker:\nhttps://t.co/wcF4bltSOV\n\nPoC:\nhttps://t.co/ruk60q9lfm\n\nUPD:\nPoC for Python3",
+                    "twitter_user_handle": "TodayCyberNews",
+                    "twitter_user_name": "Today Cyber News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1417192567418998785/wyUpZalF_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "github.com/CyberCaveCO/TD\u2026",
-                            "expanded_url": "https://github.com/CyberCaveCO/TDM/tree/main/ProxyNotShell",
-                            "url": "https://t.co/wtJdCb1abF"
+                            "display_url": "zerodayinitiative.com/blog/2022/11/1\u2026",
+                            "expanded_url": "https://www.zerodayinitiative.com/blog/2022/11/14/control-your-types-or-get-pwned-remote-code-execution-in-exchange-powershell-backend",
+                            "url": "https://t.co/MdQi6DVsIc"
+                        },
+                        {
+                            "display_url": "github.com/CronUp/Vulnera\u2026",
+                            "expanded_url": "https://github.com/CronUp/Vulnerabilidades/blob/main/proxynotshell_checker.nse",
+                            "url": "https://t.co/wcF4bltSOV"
+                        },
+                        {
+                            "display_url": "github.com/testanull/Prox\u2026",
+                            "expanded_url": "https://github.com/testanull/ProxyNotShell-PoC",
+                            "url": "https://t.co/ruk60q9lfm"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-17 22:22",
+                    "likes": 5,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1593369114717962240",
+                    "tweet_text": "#ProxyNotShell \nCVE-2022-41040 \nCVE-2022-41082\n\nWe can expect something bad again in these coming weeks \ud83d\ude2c https://t.co/HbKAFoBtXG",
+                    "twitter_user_handle": "_SaxX_",
+                    "twitter_user_name": "S. A. X. X.",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/978023010358657024/9VNDnVec_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/testanull/stat\u2026",
+                            "expanded_url": "https://twitter.com/testanull/status/1593069258543894528",
+                            "url": "https://t.co/HbKAFoBtXG"
                         }
                     ]
                 }
@@ -384,7 +530,7 @@
         },
         {
             "assigner": "secure@microsoft.com",
-            "audience_size": 553274,
+            "audience_size": 368603,
             "cve": "CVE-2022-41040",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -464,9 +610,9 @@
                 }
             ],
             "lastModifiedDate": "2022-11-07T20:17Z",
-            "num_retweets": 86,
-            "num_tweets": 22,
-            "num_tweets_and_retweets": 108,
+            "num_retweets": 67,
+            "num_tweets": 26,
+            "num_tweets_and_retweets": 93,
             "publishedDate": "2022-10-03T01:15Z",
             "reddit_posts": [
                 {
@@ -475,9 +621,9 @@
                     "num_comments": 92,
                     "reddit_url": "https://www.reddit.com/r/msp/comments/xrkfdf/threat_advisory_new_0day_vulnerabilities_found_in/",
                     "subreddit": "msp",
-                    "subreddit_subscribers": 138692,
+                    "subreddit_subscribers": 138701,
                     "title": "Threat advisory: New 0-Day Vulnerabilities Found in Microsoft Exchange",
-                    "upvotes": 187,
+                    "upvotes": 183,
                     "url": "https://www.reddit.com/r/msp/comments/xrkfdf/threat_advisory_new_0day_vulnerabilities_found_in/"
                 },
                 {
@@ -486,9 +632,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/networking/comments/xvcrkc/cve202241082_and_cve202241040_related_to_zeroday/",
                     "subreddit": "networking",
-                    "subreddit_subscribers": 277517,
+                    "subreddit_subscribers": 277536,
                     "title": "CVE-2022-41082 and CVE-2022-41040 related to Zero-day Vulnerabilities in Microsoft Exchange Server",
-                    "upvotes": 68,
+                    "upvotes": 65,
                     "url": "https://www.reddit.com/r/networking/comments/xvcrkc/cve202241082_and_cve202241040_related_to_zeroday/"
                 },
                 {
@@ -497,9 +643,9 @@
                     "num_comments": 9,
                     "reddit_url": "https://www.reddit.com/r/crowdstrike/comments/xsvyn4/situational_awareness_proxynotshell_cve202240140/",
                     "subreddit": "crowdstrike",
-                    "subreddit_subscribers": 10869,
+                    "subreddit_subscribers": 10874,
                     "title": "SITUATIONAL AWARENESS // ProxyNotShell // CVE-2022-40140 &amp; CVE-2022-41082",
-                    "upvotes": 41,
+                    "upvotes": 45,
                     "url": "https://www.reddit.com/r/crowdstrike/comments/xsvyn4/situational_awareness_proxynotshell_cve202240140/"
                 },
                 {
@@ -508,9 +654,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/techhumor/comments/xukupz/exchange_0days/",
                     "subreddit": "techhumor",
-                    "subreddit_subscribers": 6664,
+                    "subreddit_subscribers": 6665,
                     "title": "Exchange 0-days",
-                    "upvotes": 23,
+                    "upvotes": 24,
                     "url": "https://i.redd.it/9z8zv0kcolr91.png"
                 },
                 {
@@ -519,9 +665,9 @@
                     "num_comments": 14,
                     "reddit_url": "https://www.reddit.com/r/exchangeserver/comments/xy5dgy/testing_proxynotshell_cve202241040_cve202241082/",
                     "subreddit": "exchangeserver",
-                    "subreddit_subscribers": 33070,
+                    "subreddit_subscribers": 33073,
                     "title": "Testing ProxyNotShell (CVE-2022-41040; CVE-2022-41082) mitigation?",
-                    "upvotes": 11,
+                    "upvotes": 10,
                     "url": "https://www.reddit.com/r/exchangeserver/comments/xy5dgy/testing_proxynotshell_cve202241040_cve202241082/"
                 }
             ],
@@ -530,9 +676,9 @@
             "tweets": [
                 {
                     "created_at": "2022-11-17 18:32",
-                    "likes": 107,
-                    "num_retweets": 37,
-                    "retweets": 39,
+                    "likes": 128,
+                    "num_retweets": 49,
+                    "retweets": 51,
                     "tweet_id": "1593311129874403335",
                     "tweet_text": "Can confirm.\nThis is a working exploit for #ProxyNotShell CVE-2022-41040 / CVE-2022-41082\nHere we have an Exchange 2019 box that's only up to date with what was available in October, and we have successful execution of calc.exe as SYSTEM.\n\ud83c\udf89 https://t.co/PQfen11x7n https://t.co/BlCJSJMcJM",
                     "twitter_user_handle": "wdormann",
@@ -547,44 +693,26 @@
                     ]
                 },
                 {
-                    "created_at": "2022-11-17 08:22",
-                    "likes": 92,
-                    "num_retweets": 23,
-                    "retweets": 28,
-                    "tweet_id": "1593157500425342977",
-                    "tweet_text": "A Working PoC for CVE-2022-41040 and CVE-2022-41082 (aka ProxyNotShell) is out\n https://t.co/rZ5pMJbKtJ",
-                    "twitter_user_handle": "S0ufi4n3",
-                    "twitter_user_name": "Soufiane Tahiri",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1168826150757588992/XkDv4yj2_normal.jpg",
+                    "created_at": "2022-11-18 11:01",
+                    "likes": 22,
+                    "num_retweets": 9,
+                    "retweets": 9,
+                    "tweet_id": "1593559912386371584",
+                    "tweet_text": "this is a working PoC script of the Exchange 0day exploited ITW for CVE-2022-41040 and CVE-2022-41082 (A.K.A #ProxyNotShell) \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udc69\u200d\ud83d\udcbb\ud83d\udc68\u200d\ud83d\udcbb\n------\nhttps://t.co/3NO7Pw96qI\n-----\nBy @testanull\n----\n#hackerone #BugBounty #bugbountytips\n#writeups\n#bugbountytips \n#bugbountytip #poc https://t.co/3jQIHtPseB",
+                    "twitter_user_handle": "SaraBadran18",
+                    "twitter_user_name": "\ud83d\udc1eSara Badran",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1553679117354237959/Y3cYX37J_normal.jpg",
                     "urls": [
                         {
                             "display_url": "github.com/testanull/Prox\u2026",
                             "expanded_url": "https://github.com/testanull/ProxyNotShell-PoC",
-                            "url": "https://t.co/rZ5pMJbKtJ"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-17 10:46",
-                    "likes": 24,
-                    "num_retweets": 14,
-                    "retweets": 17,
-                    "tweet_id": "1593193765954801664",
-                    "tweet_text": "Microsoft Exchange Server Remote Code Execution Vulnerability.\nPoC for CVE-2022-41040 and CVE-2022-41082\n#CVE #bugbounty #infosec #hacktools #cybersecurity #pentesting \nhttps://t.co/6uzq42WyrQ",
-                    "twitter_user_handle": "sirifu4k1",
-                    "twitter_user_name": "siri@fu4k1",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1482679844248903683/SabG476d_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/testanull/Prox\u2026",
-                            "expanded_url": "https://github.com/testanull/ProxyNotShell-PoC",
-                            "url": "https://t.co/6uzq42WyrQ"
+                            "url": "https://t.co/3NO7Pw96qI"
                         }
                     ]
                 },
                 {
                     "created_at": "2022-11-17 21:20",
-                    "likes": 16,
+                    "likes": 20,
                     "num_retweets": 6,
                     "retweets": 7,
                     "tweet_id": "1593353370240094208",
@@ -611,6 +739,24 @@
                             "url": "https://t.co/VAKDZtPSuj"
                         }
                     ]
+                },
+                {
+                    "created_at": "2022-11-17 22:22",
+                    "likes": 5,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1593369114717962240",
+                    "tweet_text": "#ProxyNotShell \nCVE-2022-41040 \nCVE-2022-41082\n\nWe can expect something bad again in these coming weeks \ud83d\ude2c https://t.co/HbKAFoBtXG",
+                    "twitter_user_handle": "_SaxX_",
+                    "twitter_user_name": "S. A. X. X.",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/978023010358657024/9VNDnVec_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/testanull/stat\u2026",
+                            "expanded_url": "https://twitter.com/testanull/status/1593069258543894528",
+                            "url": "https://t.co/HbKAFoBtXG"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [
@@ -633,129 +779,8 @@
             ]
         },
         {
-            "assigner": null,
-            "audience_size": 530574,
-            "cve": "CVE-2022-41800",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": null,
-            "epss_score": null,
-            "github_repos": [],
-            "lastModifiedDate": null,
-            "num_retweets": 35,
-            "num_tweets": 15,
-            "num_tweets_and_retweets": 50,
-            "publishedDate": null,
-            "reddit_posts": [],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2022-11-17 12:59",
-                    "likes": 25,
-                    "num_retweets": 18,
-                    "retweets": 19,
-                    "tweet_id": "1593227201729728513",
-                    "tweet_text": "Rapid7's Ron Bowes published details on CVE-2022-41622 and CVE-2022-41800, two vulnerabilities in the Big-IP load balancer, patched this week by F5.\n\nhttps://t.co/zEaIn4lfNm\n\nhttps://t.co/qFq6deKGIH https://t.co/8FNlm0IdUg",
-                    "twitter_user_handle": "campuscodi",
-                    "twitter_user_name": "Catalin Cimpanu",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1554501058721882113/BXRruXC9_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "rapid7.com/blog/post/2022\u2026",
-                            "expanded_url": "https://www.rapid7.com/blog/post/2022/11/16/cve-2022-41622-and-cve-2022-41800-fixed-f5-big-ip-and-icontrol-rest-vulnerabilities-and-exposures/",
-                            "url": "https://t.co/zEaIn4lfNm"
-                        },
-                        {
-                            "display_url": "support.f5.com/csp/article/K9\u2026",
-                            "expanded_url": "https://support.f5.com/csp/article/K97843387",
-                            "url": "https://t.co/qFq6deKGIH"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-17 18:33",
-                    "likes": 32,
-                    "num_retweets": 9,
-                    "retweets": 9,
-                    "tweet_id": "1593311472293056512",
-                    "tweet_text": "F5\u88fd\u54c1\u306eBIG-IP\u3068BIG-IQ\u306b2\u3064\u306e\u30ea\u30e2\u30fc\u30c8\u30b3\u30fc\u30c9\u5b9f\u884c\u306e\u8106\u5f31\u6027\uff08CVE-2022-41622, CVE-2022-41800\uff09\u3092\u4fee\u6b63\u3059\u308bHotFix\u304c\u63d0\u4f9b\u3055\u308c\u3066\u3044\u307e\u3059\u3002CVE-2022-41622\u306f\u65e2\u306bPoC\u304c\u516c\u958b\u3055\u308c\u3066\u3044\u307e\u3059\u306d\u3002\n\nF5 fixes two remote code execution flaws in BIG-IP, BIG-IQ https://t.co/MMOGc33gBg",
-                    "twitter_user_handle": "ntsuji",
-                    "twitter_user_name": "\u8fbb \u4f38\u5f18 (nobuhiro tsuji)",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1485326952869564416/_wUBhB8N_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "bleepingcomputer.com/news/security/\u2026",
-                            "expanded_url": "https://www.bleepingcomputer.com/news/security/f5-fixes-two-remote-code-execution-flaws-in-big-ip-big-iq/",
-                            "url": "https://t.co/MMOGc33gBg"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-18 02:29",
-                    "likes": 4,
-                    "num_retweets": 5,
-                    "retweets": 5,
-                    "tweet_id": "1593431181634125824",
-                    "tweet_text": "CVE-2022-41622 and CVE-2022-41800\nFind F5 BIG-IP and BIG-IQ on HUNTER\nDork \ud83d\udc49\ud83c\udfff product[.]name=\"BIG-IQ Centralized Management\"||product[.]name=\"BIG-IP APM\"\nLink to search \ud83d\udc49\ud83c\udffc https://t.co/UqFuWKWQCl\n#infosec #cybersecurity #informationsecurity #bigip #attacksurface #BlackTechTwitter https://t.co/oYCso2KQBG",
-                    "twitter_user_handle": "HunterMapping",
-                    "twitter_user_name": "Hunter",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1585566872103096320/xj1YaerS_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "hunter.how/list?searchVal\u2026",
-                            "expanded_url": "https://hunter.how/list?searchValue=product.name%3D%22BIG-IQ%20Centralized%20Management%22%7C%7Cproduct.name%3D%22BIG-IP%20APM%22",
-                            "url": "https://t.co/UqFuWKWQCl"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-17 10:02",
-                    "likes": 1,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1593182781173112833",
-                    "tweet_text": "F5 BIG-IP security bypass | CVE-2022-41800 - https://t.co/jK14nmB1tq\n\n#CVE #Vulnerability #OSINT #ThreatIntel #Cyber",
-                    "twitter_user_handle": "RedPacketSec",
-                    "twitter_user_name": "RedPacket Security",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1557095801272373248/RmJX2gB4_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "redpacketsecurity.com/f5-big-ip-secu\u2026",
-                            "expanded_url": "https://www.redpacketsecurity.com/f5-big-ip-security-bypass-cve-2022-41800/",
-                            "url": "https://t.co/jK14nmB1tq"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-17 18:06",
-                    "likes": 3,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1593304485014786053",
-                    "tweet_text": "F5 Patches Vulnerabilities in iControl SOAP and iControl REST Running on F5 BIG-IP and BIG-IQ Devices (CVE-2022-41800 and CVE-2022-41622) https://t.co/jd8NoZANam https://t.co/oW8d2L5LHt",
-                    "twitter_user_handle": "qualys",
-                    "twitter_user_name": "Qualys",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/889206171864903680/GkZz0T6s_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "threatprotect.qualys.com/2022/11/17/f5-\u2026",
-                            "expanded_url": "https://threatprotect.qualys.com/2022/11/17/f5-patches-vulnerabilities-in-icontrol-soap-and-rest-running-on-f5-big-ip-and-big-iq-devices-cve-2022-41800-and-cve-2022-41622/",
-                            "url": "https://t.co/jd8NoZANam"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
             "assigner": "f5sirt@f5.com",
-            "audience_size": 170583,
+            "audience_size": 173596,
             "cve": "CVE-2022-1388",
             "cve_urls": null,
             "cvssv2_base_score": 7.5,
@@ -776,7 +801,7 @@
                     "description": "Vulnerabilities of Goby supported with exploitation.",
                     "language": "Go",
                     "name": "GobyVuls",
-                    "stars": 467,
+                    "stars": 468,
                     "topics": [
                         "cve",
                         "cve-2020-11651",
@@ -799,7 +824,7 @@
                         "proxyshell",
                         "vulnerabilities"
                     ],
-                    "updated": "2022-11-11T03:25:52Z",
+                    "updated": "2022-11-18T10:17:37Z",
                     "url": "https://github.com/gobysec/GobyVuls"
                 },
                 {
@@ -844,9 +869,9 @@
                 }
             ],
             "lastModifiedDate": "2022-09-30T02:27Z",
-            "num_retweets": 24,
-            "num_tweets": 13,
-            "num_tweets_and_retweets": 37,
+            "num_retweets": 27,
+            "num_tweets": 15,
+            "num_tweets_and_retweets": 42,
             "publishedDate": "2022-05-05T17:15Z",
             "reddit_posts": [
                 {
@@ -855,7 +880,7 @@
                     "num_comments": 12,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/ulppoj/poc_for_cve20221388/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 460602,
+                    "subreddit_subscribers": 460614,
                     "title": "POC for CVE-2022-1388",
                     "upvotes": 89,
                     "url": "https://github.com/horizon3ai/CVE-2022-1388"
@@ -866,9 +891,9 @@
                     "num_comments": 4,
                     "reddit_url": "https://www.reddit.com/r/hacking/comments/ulhzsn/cve20221388_f5_bigip_icontrol_rest_vulnerability/",
                     "subreddit": "hacking",
-                    "subreddit_subscribers": 2582504,
+                    "subreddit_subscribers": 2582572,
                     "title": "CVE-2022-1388: F5 Big-IP iControl REST Vulnerability Updates. Allow an unauthenticated attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands, create or delete files, or disable services.",
-                    "upvotes": 81,
+                    "upvotes": 85,
                     "url": "https://www.bleepingcomputer.com/news/security/exploits-created-for-critical-f5-big-ip-flaw-install-patch-immediately/"
                 },
                 {
@@ -877,7 +902,7 @@
                     "num_comments": 4,
                     "reddit_url": "https://www.reddit.com/r/ShittySysadmin/comments/uwause/f5_loadbalancing_how_to_learn_i_heard_that_the/",
                     "subreddit": "ShittySysadmin",
-                    "subreddit_subscribers": 19018,
+                    "subreddit_subscribers": 19019,
                     "title": "F5 Loadbalancing, how to learn - I heard that the security MiTrE organization is giving it a very high rating (CVE-2022-1388)",
                     "upvotes": 33,
                     "url": "/r/networking/comments/uvw8us/loadbalancing_how_to_learn/"
@@ -888,9 +913,9 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/Hacking_Tutorials/comments/uli1a5/cve20221388_f5_bigip_icontrol_rest_vulnerability/",
                     "subreddit": "Hacking_Tutorials",
-                    "subreddit_subscribers": 212454,
+                    "subreddit_subscribers": 212474,
                     "title": "CVE-2022-1388: F5 Big-IP iControl REST Vulnerability Updates. Allow an unauthenticated attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands, create or delete files, or disable services.",
-                    "upvotes": 29,
+                    "upvotes": 30,
                     "url": "https://www.bleepingcomputer.com/news/security/exploits-created-for-critical-f5-big-ip-flaw-install-patch-immediately/"
                 },
                 {
@@ -899,9 +924,9 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/uis0hd/f5_releases_security_advisories_addressing/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 31028,
+                    "subreddit_subscribers": 31032,
                     "title": "F5 Releases Security Advisories Addressing Multiple Vulnerabilities - including various versions of BIG-IP. Included in the release is an advisory for CVE-2022-1388, which allows undisclosed requests to bypass the iControl REST authentication in BIG-IP - here we go again!",
-                    "upvotes": 22,
+                    "upvotes": 24,
                     "url": "https://www.cisa.gov/uscert/ncas/current-activity/2022/05/04/f5-releases-security-advisories-addressing-multiple"
                 }
             ],
@@ -910,9 +935,9 @@
             "tweets": [
                 {
                     "created_at": "2022-11-17 14:40",
-                    "likes": 51,
-                    "num_retweets": 24,
-                    "retweets": 27,
+                    "likes": 60,
+                    "num_retweets": 27,
+                    "retweets": 30,
                     "tweet_id": "1593252628837736448",
                     "tweet_text": "\"F5 BIG-IP Vulnerability (CVE-2022-1388) Exploited by BlackTech\"\n\n#redteam #infosec #pentest\nhttps://t.co/tNQ0NSNoCP https://t.co/ddeSNAvBtP",
                     "twitter_user_handle": "CyberWarship",
@@ -1017,259 +1042,349 @@
             ]
         },
         {
-            "assigner": "psirt@adobe.com",
-            "audience_size": 119287,
-            "cve": "CVE-2022-24086",
+            "assigner": "secure@microsoft.com",
+            "audience_size": 154295,
+            "cve": "CVE-2022-35803",
             "cve_urls": null,
-            "cvssv2_base_score": 10.0,
-            "cvssv2_severity": "HIGH",
-            "cvssv3_base_score": 9.8,
-            "cvssv3_base_severity": "CRITICAL",
-            "cwes": [
-                {
-                    "cwe_description": "Improper Input Validation",
-                    "cwe_id": "CWE-20"
-                }
-            ],
-            "description": "Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are affected by an improper input validation vulnerability during the checkout process. Exploitation of this issue does not require user interaction and could result in arbitrary code execution.",
-            "epss_score": "0.35544",
-            "github_repos": [
-                {
-                    "created": "2022-02-20T13:52:31Z",
-                    "description": "CVE-2022-24086 about Magento RCE ",
-                    "language": null,
-                    "name": "CVE-2022-24086",
-                    "stars": 37,
-                    "topics": [],
-                    "updated": "2022-11-09T18:15:21Z",
-                    "url": "https://github.com/Mr-xn/CVE-2022-24086"
-                },
-                {
-                    "created": "2022-05-19T01:15:57Z",
-                    "description": "Verifed Proof of Concept on CVE-2022-24086",
-                    "language": null,
-                    "name": "CVE-2022-24086-RCE-PoC",
-                    "stars": 5,
-                    "topics": [],
-                    "updated": "2022-10-01T08:30:01Z",
-                    "url": "https://github.com/oK0mo/CVE-2022-24086-RCE-PoC"
-                },
-                {
-                    "created": "2022-10-01T13:53:49Z",
-                    "description": "PoC of CVE-2022-24086",
-                    "language": null,
-                    "name": "CVE-2022-24086",
-                    "stars": 1,
-                    "topics": [],
-                    "updated": "2022-10-05T05:13:21Z",
-                    "url": "https://github.com/akr3ch/CVE-2022-24086"
-                },
-                {
-                    "created": "2022-02-28T05:24:20Z",
-                    "description": "CVE-2022-24086  RCE",
-                    "language": null,
-                    "name": "CVE-2022-24086-RCE",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2022-03-29T22:30:43Z",
-                    "url": "https://github.com/nanaao/CVE-2022-24086-RCE"
-                },
-                {
-                    "created": "2022-06-12T19:54:16Z",
-                    "description": null,
-                    "language": null,
-                    "name": "CVE-2022-24086-CVE-2022-24087",
-                    "stars": 1,
-                    "topics": [],
-                    "updated": "2022-06-13T18:23:16Z",
-                    "url": "https://github.com/seymanurmutlu/CVE-2022-24086-CVE-2022-24087"
-                }
-            ],
-            "lastModifiedDate": "2022-02-22T17:40Z",
-            "num_retweets": 9,
-            "num_tweets": 14,
-            "num_tweets_and_retweets": 23,
-            "publishedDate": "2022-02-16T17:15Z",
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": 7.8,
+            "cvssv3_base_severity": "HIGH",
+            "cwes": [],
+            "description": "Windows Common Log File System Driver Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-37969.",
+            "epss_score": "0.0115",
+            "github_repos": [],
+            "lastModifiedDate": "2022-09-16T19:09Z",
+            "num_retweets": 5,
+            "num_tweets": 3,
+            "num_tweets_and_retweets": 8,
+            "publishedDate": "2022-09-13T19:15Z",
             "reddit_posts": [
                 {
-                    "created": 1644827905.0,
-                    "is_self": true,
-                    "num_comments": 19,
-                    "reddit_url": "https://www.reddit.com/r/Magento/comments/ss5vxh/adobe_releases_critical_security_patch_for_rce/",
-                    "subreddit": "Magento",
-                    "subreddit_subscribers": 8225,
-                    "title": "Adobe Releases Critical Security Patch for RCE Exploit that Affects All Versions of Magento",
-                    "upvotes": 19,
-                    "url": "https://www.reddit.com/r/Magento/comments/ss5vxh/adobe_releases_critical_security_patch_for_rce/"
-                },
-                {
-                    "created": 1646106343.0,
-                    "is_self": false,
-                    "num_comments": 1,
-                    "reddit_url": "https://www.reddit.com/r/PHP/comments/t3yg2f/understanding_the_magento_sanitisation_issue/",
-                    "subreddit": "PHP",
-                    "subreddit_subscribers": 153471,
-                    "title": "Understanding the Magento sanitisation issue during checkout, theres a patch available for CVE-2022-24087 and CVE-2022-24086",
-                    "upvotes": 17,
-                    "url": "https://snyk.io/blog/magento-vulnerability-cve-2022-24087-sanitization/"
-                },
-                {
-                    "created": 1645137518.0,
-                    "is_self": true,
-                    "num_comments": 17,
-                    "reddit_url": "https://www.reddit.com/r/Magento/comments/sv1i3b/secondary_critical_patch_required_for_adobe/",
-                    "subreddit": "Magento",
-                    "subreddit_subscribers": 8225,
-                    "title": "Secondary Critical Patch Required for Adobe Commerce for All 2.3.3-p1+ Versions",
-                    "upvotes": 17,
-                    "url": "https://www.reddit.com/r/Magento/comments/sv1i3b/secondary_critical_patch_required_for_adobe/"
-                },
-                {
-                    "created": 1644925515.0,
+                    "created": 1663097900.0,
                     "is_self": false,
                     "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/InfoSecNews/comments/st14sq/critical_magento_zeroday_flaw_cve202224086/",
-                    "subreddit": "InfoSecNews",
-                    "subreddit_subscribers": 13780,
-                    "title": "Critical Magento zero-day flaw CVE-2022-24086 actively exploited",
-                    "upvotes": 3,
-                    "url": "https://securityaffairs.co/wordpress/127999/hacking/cve-2022-24086-zero-day.html"
-                },
-                {
-                    "created": 1663945283.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/RedPacketSecurity/comments/xlzxvd/surge_in_magento_2_template_attacks_exploiting/",
-                    "subreddit": "RedPacketSecurity",
-                    "subreddit_subscribers": 547,
-                    "title": "Surge in Magento 2 template attacks exploiting the CVE-2022-24086 flaw",
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/xdggks/cve202235803/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 108,
+                    "title": "CVE-2022-35803",
                     "upvotes": 1,
-                    "url": "https://www.redpacketsecurity.com/surge-in-magento-2-template-attacks-exploiting-the-cve-2022-24086-flaw/"
+                    "url": "https://cve.report/CVE-2022-35803"
+                },
+                {
+                    "created": 1668575815.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/ywknmq/windows_kernel_exploit_cve202235803_in_common_log/",
+                    "subreddit": "blueteamsec",
+                    "subreddit_subscribers": 31032,
+                    "title": "Windows Kernel: Exploit CVE-2022-35803 in Common Log File System",
+                    "upvotes": 1,
+                    "url": "https://blog.northseapwn.top/2022/11/11/Windows-Kernel-Exploit-CVE-2022-35803-in-Common-Log-File-System/index.html"
                 }
             ],
-            "score": 9.8,
-            "severity": "CRITICAL",
+            "score": 7.8,
+            "severity": "HIGH",
             "tweets": [
                 {
-                    "created_at": "2022-11-17 11:19",
-                    "likes": 0,
+                    "created_at": "2022-11-17 15:00",
+                    "likes": 24,
                     "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1593202172153720835",
-                    "tweet_text": "Magento Vulnerability Increasingly Exploited to Hack Online Stores: E-commerce malware and vulnerability detection firm Sansec warns of a surge in cyberattacks targeting CVE-2022-24086, a critical mail template\u2026 https://t.co/rwf0Pb8U4k #security #cybersecurity #technology",
-                    "twitter_user_handle": "embedded_house",
-                    "twitter_user_name": "Embedded House",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1574153818484473861/SPALASND_normal.png",
+                    "retweets": 5,
+                    "tweet_id": "1593257805082828800",
+                    "tweet_text": "Windows Kernel: Exploit CVE-2022-35803 in Common Log File System https://t.co/zpmnKI8j9n #Pentesting #Windows #Exploit #CVE #CyberSecurity #Infosec https://t.co/GtOrbKNuLn",
+                    "twitter_user_handle": "ptracesecurity",
+                    "twitter_user_name": "Ptrace Security GmbH",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/659444735791210500/XGvv9R-0_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "dlvr.it/ScwNl7",
-                            "expanded_url": "http://dlvr.it/ScwNl7",
-                            "url": "https://t.co/rwf0Pb8U4k"
+                            "display_url": "blog.northseapwn.top/2022/11/11/Win\u2026",
+                            "expanded_url": "https://blog.northseapwn.top/2022/11/11/Windows-Kernel-Exploit-CVE-2022-35803-in-Common-Log-File-System/index.html",
+                            "url": "https://t.co/zpmnKI8j9n"
                         }
                     ]
                 },
                 {
-                    "created_at": "2022-11-17 10:00",
-                    "likes": 2,
+                    "created_at": "2022-11-18 10:49",
+                    "likes": 26,
                     "num_retweets": 2,
                     "retweets": 2,
-                    "tweet_id": "1593182166015352834",
-                    "tweet_text": "Sansec warns of a surge in TrojanOrder attacks targeting Magento and Adobe Commerce stores that have not been patched against CVE-2022-24086. https://t.co/XxFZIZtP9u",
-                    "twitter_user_handle": "EduardKovacs",
-                    "twitter_user_name": "Eduard Kovacs",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1072976538641920000/zapg4K_g_normal.jpg",
+                    "tweet_id": "1593557014369603584",
+                    "tweet_text": "Windows Kernel: Exploit CVE-2022-35803 in Common Log File System : https://t.co/gCuv7RDaga credits @uuulucky https://t.co/GbYvevaHuk",
+                    "twitter_user_handle": "binitamshah",
+                    "twitter_user_name": "Binni Shah",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1398405141405978631/4JhsrzJZ_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "securityweek.com/magento-vulner\u2026",
-                            "expanded_url": "https://www.securityweek.com/magento-vulnerability-increasingly-exploited-hack-online-stores",
-                            "url": "https://t.co/XxFZIZtP9u"
+                            "display_url": "blog.northseapwn.top/2022/11/11/Win\u2026",
+                            "expanded_url": "https://blog.northseapwn.top/2022/11/11/Windows-Kernel-Exploit-CVE-2022-35803-in-Common-Log-File-System/index.html",
+                            "url": "https://t.co/gCuv7RDaga"
                         }
                     ]
                 },
                 {
-                    "created_at": "2022-11-17 11:17",
+                    "created_at": "2022-11-18 10:49",
                     "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1593201543234605057",
-                    "tweet_text": "Magento Vulnerability Increasingly Exploited to Hack Online Stores: E-commerce malware and vulnerability detection firm Sansec warns of a surge in cyberattacks targeting CVE-2022-24086, a critical mail template vulnerability affecting Adobe Commerce and\u2026 https://t.co/NoejfhUt05",
-                    "twitter_user_handle": "shah_sheikh",
-                    "twitter_user_name": "Shah Sheikh",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1045681989095960577/kl5G4rq7_normal.jpg",
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1593557041322270721",
+                    "tweet_text": "Emerging Vulnerability Found CVE-2022-35803 - Windows Common Log File System Driver Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-37969.\n\nSee https://t.co/dMn32iICmU",
+                    "twitter_user_handle": "ColorTokensInc",
+                    "twitter_user_name": "ColorTokens",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1505854942875365380/yihNDIfa_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "securityweek.com/magento-vulner\u2026",
-                            "expanded_url": "https://www.securityweek.com/magento-vulnerability-increasingly-exploited-hack-online-stores?utm_source=dlvr.it&utm_medium=twitter",
-                            "url": "https://t.co/NoejfhUt05"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-17 16:04",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 2,
-                    "tweet_id": "1593273984921047043",
-                    "tweet_text": "Sansec signale une vague d'attaques exploitant une faille Magento (CVE-2022-24086 \u2013 corrig\u00e9e en f\u00e9vrier). Les attaquants profitent de cette p\u00e9riode de forte charge sur les sites d'e-commerce pour passer inaper\u00e7us. Le Cert-IST a \u00e9mis hier une alerte orange. https://t.co/BqhUFvLucN",
-                    "twitter_user_handle": "cert_ist",
-                    "twitter_user_name": "Cert-IST",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1232223871278997505/1Wsrgg-n_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "tinyurl.com/33nc873w",
-                            "expanded_url": "https://tinyurl.com/33nc873w",
-                            "url": "https://t.co/BqhUFvLucN"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-17 16:39",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1593282581877116928",
-                    "tweet_text": "Magento and Adobe Commerce websites under attack: Researchers warn of a surge in cyberattacks targeting CVE-2022-24086, a pre-authentication issue\u00a0impacting Adobe Commerce and Magento stores. In September 2022, Sansec researchers warned of a surge in\u2026 https://t.co/pKKc1NHRy5",
-                    "twitter_user_handle": "shah_sheikh",
-                    "twitter_user_name": "Shah Sheikh",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1045681989095960577/kl5G4rq7_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "securityaffairs.co/wordpress/1386\u2026",
-                            "expanded_url": "https://securityaffairs.co/wordpress/138663/cyber-crime/trojanorders-attacks-adobe-commerce-magento.html?utm_source=dlvr.it&utm_medium=twitter",
-                            "url": "https://t.co/pKKc1NHRy5"
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-35803",
+                            "url": "https://t.co/dMn32iICmU"
                         }
                     ]
                 }
             ],
             "vendor_advisories": [
-                "https://helpx.adobe.com/security/products/magento/apsb22-12.html"
+                "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-35803"
             ],
             "vendors": [
                 {
                     "products": [
                         {
-                            "product": "Magento",
+                            "product": "Windows Server 2022",
                             "versions": [
-                                "*",
-                                "2.4.3",
-                                "2.3.7"
+                                "-"
                             ]
                         }
                     ],
-                    "vendor": "Magento"
+                    "vendor": "Microsoft"
+                }
+            ]
+        },
+        {
+            "assigner": "secalert@redhat.com",
+            "audience_size": 113592,
+            "cve": "CVE-2022-0847",
+            "cve_urls": null,
+            "cvssv2_base_score": 7.2,
+            "cvssv2_severity": "HIGH",
+            "cvssv3_base_score": 7.8,
+            "cvssv3_base_severity": "HIGH",
+            "cwes": [
+                {
+                    "cwe_description": "Improper Initialization",
+                    "cwe_id": "CWE-665"
+                }
+            ],
+            "description": "A flaw was found in the way the \"flags\" member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.",
+            "epss_score": "0.06503",
+            "github_repos": [
+                {
+                    "created": "2021-01-24T10:50:15Z",
+                    "description": ":arrow_up: :skull_and_crossbones: :fire: Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dirty pipe, +w docker.sock",
+                    "language": "Go",
+                    "name": "traitor",
+                    "stars": 5495,
+                    "topics": [
+                        "cve-2021-3560",
+                        "cve-2022-0847",
+                        "dirtypipe",
+                        "exploit",
+                        "gtfobins",
+                        "hackthebox",
+                        "infosec",
+                        "privesc",
+                        "privilege-escalation",
+                        "redteam-tools",
+                        "security-tools"
+                    ],
+                    "updated": "2022-11-18T05:44:31Z",
+                    "url": "https://github.com/liamg/traitor"
                 },
+                {
+                    "created": "2022-03-07T18:55:20Z",
+                    "description": "A root exploit for CVE-2022-0847 (Dirty Pipe)",
+                    "language": "C",
+                    "name": "CVE-2022-0847-DirtyPipe-Exploit",
+                    "stars": 988,
+                    "topics": [],
+                    "updated": "2022-11-13T15:13:56Z",
+                    "url": "https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit"
+                },
+                {
+                    "created": "2022-03-12T20:57:24Z",
+                    "description": "A collection of exploits and documentation that can be used to exploit the Linux Dirty Pipe vulnerability.",
+                    "language": "C",
+                    "name": "CVE-2022-0847-DirtyPipe-Exploits",
+                    "stars": 342,
+                    "topics": [],
+                    "updated": "2022-11-18T09:04:09Z",
+                    "url": "https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits"
+                },
+                {
+                    "created": "2021-03-30T07:09:45Z",
+                    "description": "Linux Eelvation(\u6301\u7eed\u66f4\u65b0)",
+                    "language": "C",
+                    "name": "LinuxEelvation",
+                    "stars": 284,
+                    "topics": [
+                        "cve-2017-1000112",
+                        "cve-2017-1000367",
+                        "cve-2017-16939",
+                        "cve-2017-16995",
+                        "cve-2018-1000001",
+                        "cve-2018-17182",
+                        "cve-2018-18955",
+                        "cve-2019-13272",
+                        "cve-2019-7304",
+                        "cve-2021-3156",
+                        "cve-2021-4034",
+                        "cve-2022-0847",
+                        "elevation",
+                        "linux-kernel"
+                    ],
+                    "updated": "2022-11-09T18:11:44Z",
+                    "url": "https://github.com/Al1ex/LinuxEelvation"
+                },
+                {
+                    "created": "2022-03-07T18:36:50Z",
+                    "description": "CVE-2022-0847-DirtyPipe-Exploit   CVE-2022-0847 \u662f\u5b58\u5728\u4e8e Linux\u5185\u6838 5.8 \u53ca\u4e4b\u540e\u7248\u672c\u4e2d\u7684\u672c\u5730\u63d0\u6743\u6f0f\u6d1e\u3002\u653b\u51fb\u8005\u901a\u8fc7\u5229\u7528\u6b64\u6f0f\u6d1e\uff0c\u53ef\u8986\u76d6\u91cd\u5199\u4efb\u610f\u53ef\u8bfb\u6587\u4ef6\u4e2d\u7684\u6570\u636e\uff0c\u4ece\u800c\u53ef\u5c06\u666e\u901a\u6743\u9650\u7684\u7528\u6237\u63d0\u5347\u5230\u7279\u6743 root\u3002    CVE-2022-0847 \u7684\u6f0f\u6d1e\u539f\u7406\u7c7b\u4f3c\u4e8e CVE-2016-5195 \u810f\u725b\u6f0f\u6d1e\uff08Dirty Cow\uff09\uff0c\u4f46\u5b83\u66f4\u5bb9\u6613\u88ab\u5229\u7528\u3002\u6f0f\u6d1e\u4f5c\u8005\u5c06\u6b64\u6f0f\u6d1e\u547d\u540d\u4e3a\u201cDirty Pipe\u201d",
+                    "language": "Shell",
+                    "name": "CVE-2022-0847",
+                    "stars": 205,
+                    "topics": [],
+                    "updated": "2022-11-08T16:21:33Z",
+                    "url": "https://github.com/r1is/CVE-2022-0847"
+                }
+            ],
+            "lastModifiedDate": "2022-08-10T20:15Z",
+            "num_retweets": 7,
+            "num_tweets": 1,
+            "num_tweets_and_retweets": 8,
+            "publishedDate": "2022-03-10T17:44Z",
+            "reddit_posts": [
+                {
+                    "created": 1649255467.0,
+                    "is_self": false,
+                    "num_comments": 7,
+                    "reddit_url": "https://www.reddit.com/r/netsec/comments/txni06/dirty_pipe_explained_cve20220847/",
+                    "subreddit": "netsec",
+                    "subreddit_subscribers": 460614,
+                    "title": "Dirty Pipe Explained - CVE-2022-0847",
+                    "upvotes": 80,
+                    "url": "https://www.hackthebox.com/blog/Dirty-Pipe-Explained-CVE-2022-0847"
+                },
+                {
+                    "created": 1646664267.0,
+                    "is_self": false,
+                    "num_comments": 9,
+                    "reddit_url": "https://www.reddit.com/r/netsec/comments/t8qqhd/the_dirty_pipe_vulnerability_cve20220847/",
+                    "subreddit": "netsec",
+                    "subreddit_subscribers": 460614,
+                    "title": "The Dirty Pipe Vulnerability [CVE-2022-0847]",
+                    "upvotes": 64,
+                    "url": "https://dirtypipe.cm4all.com/"
+                },
+                {
+                    "created": 1652192641.0,
+                    "is_self": false,
+                    "num_comments": 2,
+                    "reddit_url": "https://www.reddit.com/r/netsec/comments/umjwki/learning_linux_kernel_exploitation_part_2/",
+                    "subreddit": "netsec",
+                    "subreddit_subscribers": 460614,
+                    "title": "Learning Linux kernel exploitation - Part 2 - CVE-2022-0847 (DirtyPipe)",
+                    "upvotes": 61,
+                    "url": "https://0x434b.dev/learning-linux-kernel-exploitation-part-2-cve-2022-0847/"
+                },
+                {
+                    "created": 1662377976.0,
+                    "is_self": true,
+                    "num_comments": 37,
+                    "reddit_url": "https://www.reddit.com/r/synology/comments/x6e2hl/dsm_71142962_released/",
+                    "subreddit": "synology",
+                    "subreddit_subscribers": 111755,
+                    "title": "DSM 7.1.1-42962 released!",
+                    "upvotes": 55,
+                    "url": "https://www.reddit.com/r/synology/comments/x6e2hl/dsm_71142962_released/"
+                },
+                {
+                    "created": 1646743598.0,
+                    "is_self": true,
+                    "num_comments": 7,
+                    "reddit_url": "https://www.reddit.com/r/docker/comments/t9g21g/dirty_pipe_linux_vulnerability_allows_for/",
+                    "subreddit": "docker",
+                    "subreddit_subscribers": 162719,
+                    "title": "\"Dirty Pipe\" Linux vulnerability allows for containers to overwrite files from the underlying image",
+                    "upvotes": 43,
+                    "url": "https://www.reddit.com/r/docker/comments/t9g21g/dirty_pipe_linux_vulnerability_allows_for/"
+                }
+            ],
+            "score": 7.8,
+            "severity": "HIGH",
+            "tweets": [
+                {
+                    "created_at": "2022-11-18 13:02",
+                    "likes": 7,
+                    "num_retweets": 7,
+                    "retweets": 8,
+                    "tweet_id": "1593590532097179648",
+                    "tweet_text": "Exploit for Improper Initialization in Linux Linux Kernel CVE-2022-0847 https://t.co/MMR1o5dagh #Pentesting #Linux #Kernel #Exploit #CyberSecurity #Infosec https://t.co/XJf85JUhKC",
+                    "twitter_user_handle": "ptracesecurity",
+                    "twitter_user_name": "Ptrace Security GmbH",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/659444735791210500/XGvv9R-0_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sploitus.com/exploit?id=D2F\u2026",
+                            "expanded_url": "https://sploitus.com/exploit?id=D2F07A56-EAB9-5BC0-915B-E0D6E88AC81C",
+                            "url": "https://t.co/MMR1o5dagh"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": [
                 {
                     "products": [
                         {
-                            "product": "Commerce",
+                            "product": "Linux Kernel",
                             "versions": [
-                                "2.3.7",
-                                "2.4.3",
                                 "*"
                             ]
                         }
                     ],
-                    "vendor": "Adobe"
+                    "vendor": "Linux"
+                },
+                {
+                    "products": [
+                        {
+                            "product": "Fedora",
+                            "versions": [
+                                "35"
+                            ]
+                        }
+                    ],
+                    "vendor": "Fedoraproject"
+                },
+                {
+                    "products": [
+                        {
+                            "product": "Enterprise Linux Server For Power Little Endian Update Services For Sap Solutions",
+                            "versions": [
+                                "8.1",
+                                "8.2",
+                                "8.4"
+                            ]
+                        }
+                    ],
+                    "vendor": "Redhat"
+                },
+                {
+                    "products": [
+                        {
+                            "product": "Ovirt-Engine",
+                            "versions": [
+                                "4.4.10.2"
+                            ]
+                        }
+                    ],
+                    "vendor": "Ovirt"
                 }
             ]
         },
@@ -1412,7 +1527,7 @@
         },
         {
             "assigner": "ics-cert@hq.dhs.gov",
-            "audience_size": 70537,
+            "audience_size": 73313,
             "cve": "CVE-2022-43457",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1421,12 +1536,12 @@
             "cvssv3_base_severity": null,
             "cwes": [],
             "description": "SQL Injection in HandlerPage_KID.ashx in Delta Electronics DIAEnergie versions prior to v1.9.02.001 allows an attacker to inject SQL queries via Network",
-            "epss_score": null,
+            "epss_score": "0.00885",
             "github_repos": [],
             "lastModifiedDate": "2022-11-18T04:37Z",
             "num_retweets": 1,
-            "num_tweets": 10,
-            "num_tweets_and_retweets": 11,
+            "num_tweets": 14,
+            "num_tweets_and_retweets": 15,
             "publishedDate": "2022-11-17T23:15Z",
             "reddit_posts": [
                 {
@@ -1522,20 +1637,25 @@
                     ]
                 },
                 {
-                    "created_at": "2022-11-17 23:26",
+                    "created_at": "2022-11-18 08:45",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1593385198867124224",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2022-43457 \ud83d\udea8 SQL Injection in HandlerPage_KID.ashx in Delta Electronics DIAEnergie versions prior to v1.9.02.001 allows an attacker to inject SQL queries via Network https://t.co/B7VzCFmFrI",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "tweet_id": "1593525795351322624",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2022-43457 | Delta Electronics DIAEnergie prior 1.9.02.001 HandlerPage_KID.ashx sql injection (icsa-22-298-06)) has been published on https://t.co/zVeaDtSuGD",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-43457",
-                            "url": "https://t.co/B7VzCFmFrI"
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/uXvPWJy6tj"
+                        },
+                        {
+                            "display_url": "sesin.at/2022/11/18/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2022/11/18/cve-2022-43457-delta-electronics-diaenergie-prior-1-9-02-001-handlerpage_kid-ashx-sql-injection-icsa-22-298-06/",
+                            "url": "https://t.co/zVeaDtSuGD"
                         }
                     ]
                 }
@@ -1545,7 +1665,7 @@
         },
         {
             "assigner": "ics-cert@hq.dhs.gov",
-            "audience_size": 64930,
+            "audience_size": 67706,
             "cve": "CVE-2022-43452",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1559,12 +1679,12 @@
                 }
             ],
             "description": "SQL Injection in FtyInfoSetting.aspx in Delta Electronics DIAEnergie versions prior to v1.9.02.001 allows an attacker to inject SQL queries via Network",
-            "epss_score": null,
+            "epss_score": "0.00885",
             "github_repos": [],
             "lastModifiedDate": "2022-11-18T04:37Z",
             "num_retweets": 1,
-            "num_tweets": 8,
-            "num_tweets_and_retweets": 9,
+            "num_tweets": 12,
+            "num_tweets_and_retweets": 13,
             "publishedDate": "2022-11-17T23:15Z",
             "reddit_posts": [
                 {
@@ -1685,146 +1805,8 @@
             ],
             "vendor_advisories": [],
             "vendors": []
-        },
-        {
-            "assigner": "cna@cyber.gov.il",
-            "audience_size": 62112,
-            "cve": "CVE-2022-39179",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "College Management System v1.0 - Authenticated remote code execution. An admin user (the authentication can be bypassed using SQL Injection that mentioned in my other report) can upload .php file that contains malicious code via student.php file.",
-            "epss_score": null,
-            "github_repos": [],
-            "lastModifiedDate": "2022-11-18T04:37Z",
-            "num_retweets": 1,
-            "num_tweets": 9,
-            "num_tweets_and_retweets": 10,
-            "publishedDate": "2022-11-17T23:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1668731936.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/yy6i6y/cve202239179/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 108,
-                    "title": "CVE-2022-39179",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-39179"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2022-11-17 23:10",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1593380965774028800",
-                    "tweet_text": "CVE-2022-39179 : College Management System v1.0 - Authenticated remote code execution. An admin user  the authentication can be bypassed using SQL Injection that mentioned in my other report  can upload .php file that contains malicious ... https://t.co/YFmXUaS3sn",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "cve.report/CVE-2022-39179",
-                            "expanded_url": "https://cve.report/CVE-2022-39179",
-                            "url": "https://t.co/YFmXUaS3sn"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-17 23:45",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1593389863734489088",
-                    "tweet_text": "CVE-2022-39179 College Management System v1.0 - Authenticated remote code execution. An admin user (the authentication can be bypassed using SQL Injection that mentioned in my other report) can upload .php file that contains malicious code via stu... https://t.co/6MDVj985uh",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-39179",
-                            "url": "https://t.co/6MDVj985uh"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-18 01:45",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1593420010348847105",
-                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2022-39179) has been published on https://t.co/hnKIP93ayS",
-                    "twitter_user_handle": "WolfgangSesin",
-                    "twitter_user_name": "Wolfgang Sesin",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/uXvPWJy6tj"
-                        },
-                        {
-                            "display_url": "sesin.at/2022/11/18/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2022/11/18/cve-2022-39179/",
-                            "url": "https://t.co/hnKIP93ayS"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-18 01:45",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1593420012332716038",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2022-39179) has been published on https://t.co/BlMjORPQMx",
-                    "twitter_user_handle": "www_sesin_at",
-                    "twitter_user_name": "www.sesin.at",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/9KYxtdZjkl"
-                        },
-                        {
-                            "display_url": "sesin.at/2022/11/18/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2022/11/18/cve-2022-39179/",
-                            "url": "https://t.co/BlMjORPQMx"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-18 03:25",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1593445383073579010",
-                    "tweet_text": "One night, CVE-2022-39179 wished upon a star, and today that wish has been granted. It now has a name, like a real, live vulnerability: Pregnant Mosasaur Paca\nhttps://t.co/0IlKOR5v8L",
-                    "twitter_user_handle": "vulnonym",
-                    "twitter_user_name": "vulnonym",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-39179",
-                            "url": "https://t.co/0IlKOR5v8L"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2022-11-18 08:19:57"
+    "updated": "2022-11-18 14:21:08"
 }
