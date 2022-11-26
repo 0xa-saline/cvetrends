@@ -2,7 +2,7 @@
     "data": [
         {
             "assigner": "chrome-cve-admin@google.com",
-            "audience_size": 2197216,
+            "audience_size": 3126237,
             "cve": "CVE-2022-4135",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -62,9 +62,9 @@
                 }
             ],
             "lastModifiedDate": "2022-11-25T13:59Z",
-            "num_retweets": 164,
-            "num_tweets": 97,
-            "num_tweets_and_retweets": 261,
+            "num_retweets": 237,
+            "num_tweets": 96,
+            "num_tweets_and_retweets": 333,
             "publishedDate": "2022-11-25T01:15Z",
             "reddit_posts": [
                 {
@@ -75,7 +75,7 @@
                     "subreddit": "HackProtectSlo",
                     "subreddit_subscribers": 218,
                     "title": "Google Releases Patch for an Actively Exploited Zero-day Vulnerability in its Chrome Browser (CVE-2022-4135)",
-                    "upvotes": 1,
+                    "upvotes": 2,
                     "url": "https://www.reddit.com/r/HackProtectSlo/comments/z4i92n/google_releases_patch_for_an_actively_exploited/"
                 },
                 {
@@ -106,9 +106,9 @@
             "tweets": [
                 {
                     "created_at": "2022-11-25 13:13",
-                    "likes": 67,
-                    "num_retweets": 49,
-                    "retweets": 50,
+                    "likes": 76,
+                    "num_retweets": 56,
+                    "retweets": 57,
                     "tweet_id": "1596130002893840384",
                     "tweet_text": "#Google has released an update for the #Chrome browser to patch a new, actively exploited zero-day #vulnerability (CVE-2022-4135) that resides in the GPU component.\n\nRead: https://t.co/Oyk5m8o8VP\n\n#infosec #cybersecurity #hacking",
                     "twitter_user_handle": "TheHackersNews",
@@ -124,9 +124,9 @@
                 },
                 {
                     "created_at": "2022-11-25 14:32",
-                    "likes": 75,
-                    "num_retweets": 34,
-                    "retweets": 38,
+                    "likes": 109,
+                    "num_retweets": 46,
+                    "retweets": 52,
                     "tweet_id": "1596149766802460672",
                     "tweet_text": "\ud83d\udce3 Actualizaci\u00f3n de seguridad urgente \npara el navegador Chrome en Windows, Linux y Mac\n\n \u25feVulnerabilidad de d\u00eda cero (CVE-2022-4135) explotada activamente que reside en el componente de la GPU\nhttps://t.co/Mh0fWce5sl",
                     "twitter_user_handle": "elhackernet",
@@ -141,10 +141,28 @@
                     ]
                 },
                 {
+                    "created_at": "2022-11-25 20:34",
+                    "likes": 61,
+                    "num_retweets": 40,
+                    "retweets": 43,
+                    "tweet_id": "1596240809040519169",
+                    "tweet_text": "#Google has released an update for the #Chrome browser to patch a new, actively exploited zero-day #vulnerability (CVE-2022-4135) that resides in the GPU component.\n\nRead: https://t.co/Oyk5m8FKkp\n\n#infosec #cybersecurity #hacking",
+                    "twitter_user_handle": "TheHackersNews",
+                    "twitter_user_name": "The Hacker News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/723571201449295877/-KeG1OdO_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "thehackernews.com/2022/11/update\u2026",
+                            "expanded_url": "https://thehackernews.com/2022/11/update-chrome-browser-now-to-patch-new.html",
+                            "url": "https://t.co/Oyk5m8FKkp"
+                        }
+                    ]
+                },
+                {
                     "created_at": "2022-11-25 07:06",
-                    "likes": 70,
-                    "num_retweets": 33,
-                    "retweets": 37,
+                    "likes": 77,
+                    "num_retweets": 37,
+                    "retweets": 42,
                     "tweet_id": "1596037616050257920",
                     "tweet_text": "CVE-2022-4135: New Zero-Day Vulnerability in Google Chrome https://t.co/NoDKGHXKBh",
                     "twitter_user_handle": "Dinosn",
@@ -160,9 +178,9 @@
                 },
                 {
                     "created_at": "2022-11-25 14:28",
-                    "likes": 13,
-                    "num_retweets": 6,
-                    "retweets": 9,
+                    "likes": 16,
+                    "num_retweets": 9,
+                    "retweets": 12,
                     "tweet_id": "1596148749973458944",
                     "tweet_text": "\ud83d\udea8 Alerta de Seguridad por nueva vulnerabilidad ZERO-DAY para Google Chrome \u2013 CVE-2022-4135\n\nM\u00e1s informaci\u00f3n: https://t.co/wSLqjuEfIu\n\n#Google #Chrome #Vulnerabilidad #CVE #Exploit #Alerta #actualizacion https://t.co/kicMsBkALE",
                     "twitter_user_handle": "Cronup_CyberSec",
@@ -175,32 +193,159 @@
                             "url": "https://t.co/wSLqjuEfIu"
                         }
                     ]
-                },
-                {
-                    "created_at": "2022-11-25 19:29",
-                    "likes": 16,
-                    "num_retweets": 5,
-                    "retweets": 5,
-                    "tweet_id": "1596224544313905153",
-                    "tweet_text": "#Google has released an update for the #Chrome browser to patch a new, actively exploited #0day #vulnerability (CVE-2022-4135) that resides in the #GPU component. #CyberSecurity\n#HackerNews\n\nRead: https://t.co/Hn0AePPDHT",
-                    "twitter_user_handle": "3ackd0or",
-                    "twitter_user_name": "3ackd0or",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1508518788475535361/80BEDn_W_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "thehackernews.com/2022/11/update\u2026",
-                            "expanded_url": "https://thehackernews.com/2022/11/update-chrome-browser-now-to-patch-new.html",
-                            "url": "https://t.co/Hn0AePPDHT"
-                        }
-                    ]
                 }
             ],
             "vendor_advisories": [],
             "vendors": []
         },
         {
+            "assigner": "product-security@apple.com",
+            "audience_size": 468007,
+            "cve": "CVE-2022-32898",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": 7.8,
+            "cvssv3_base_severity": "HIGH",
+            "cwes": [],
+            "description": "The issue was addressed with improved memory handling. This issue is fixed in iOS 15.7 and iPadOS 15.7, iOS 16, macOS Ventura 13, watchOS 9. An app may be able to execute arbitrary code with kernel privileges.",
+            "epss_score": "0.01237",
+            "github_repos": [],
+            "lastModifiedDate": "2022-11-03T14:34Z",
+            "num_retweets": 22,
+            "num_tweets": 21,
+            "num_tweets_and_retweets": 43,
+            "publishedDate": "2022-11-01T20:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1666874902.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/yer3vt/msisac_cybersecurity_advisory_multiple/",
+                    "subreddit": "k12cybersecurity",
+                    "subreddit_subscribers": 69,
+                    "title": "MS-ISAC CYBERSECURITY ADVISORY - Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution - PATCH: NOW",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/yer3vt/msisac_cybersecurity_advisory_multiple/"
+                }
+            ],
+            "score": 7.8,
+            "severity": "HIGH",
+            "tweets": [
+                {
+                    "created_at": "2022-11-25 08:35",
+                    "likes": 15,
+                    "num_retweets": 8,
+                    "retweets": 9,
+                    "tweet_id": "1596060114146197504",
+                    "tweet_text": "Researcher released the technical details for CVE-2022-32898 in iOS 16 https://t.co/r1hIObrpFF",
+                    "twitter_user_handle": "Dinosn",
+                    "twitter_user_name": "Nicolas Krassas",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1292159799141060610/CLgtH-wo_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "securityonline.info/researcher-rel\u2026",
+                            "expanded_url": "https://securityonline.info/researcher-released-the-technical-details-for-cve-2022-32898-in-ios-16/",
+                            "url": "https://t.co/r1hIObrpFF"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-25 22:00",
+                    "likes": 6,
+                    "num_retweets": 5,
+                    "retweets": 5,
+                    "tweet_id": "1596262514232242177",
+                    "tweet_text": "CVE-2022-32898: ANE_ProgramCreate() multiple kernel memory corruption https://t.co/Ka5ZXGAl0n  #Pentesting #CVE #kernel #CyberSecurity #Infosec https://t.co/78bOqZBkj3",
+                    "twitter_user_handle": "ptracesecurity",
+                    "twitter_user_name": "Ptrace Security GmbH",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/659444735791210500/XGvv9R-0_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "0x36.github.io/CVE-2022-32898/",
+                            "expanded_url": "https://0x36.github.io/CVE-2022-32898/",
+                            "url": "https://t.co/Ka5ZXGAl0n"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-25 14:00",
+                    "likes": 1,
+                    "num_retweets": 4,
+                    "retweets": 4,
+                    "tweet_id": "1596141669707022338",
+                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2022-4135: 1.5M (audience size)\nCVE-2022-32898: 266.4K\nCVE-2021-21551: 256.5K\n\nPast 7 days:\nCVE-2022-43781: 2.1M\nCVE-2022-43782: 1.5M\nCVE-2022-4135: 1.5M\n\nhttps://t.co/LhpwNP6xog",
+                    "twitter_user_handle": "CVEtrends",
+                    "twitter_user_name": "CVE Trends",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cvetrends.com",
+                            "expanded_url": "https://cvetrends.com",
+                            "url": "https://t.co/LhpwNP6xog"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-25 08:33",
+                    "likes": 2,
+                    "num_retweets": 3,
+                    "retweets": 3,
+                    "tweet_id": "1596059561286254592",
+                    "tweet_text": "Researcher released the technical details for CVE-2022-32898 in iOS 16 https://t.co/mqL2O4dpCw #security #opensource #cybersecurity #malware #cyber #pentesting #malwareanalysis #infosec #redteam #malwarehunting #hacking #infosec #threathunting #bugbounty #tools #offensivesecuri\u2026",
+                    "twitter_user_handle": "FilipiPires",
+                    "twitter_user_name": "Filipi Pires",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1531334436800831488/evf2wJ4z_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/g1xnDKq",
+                            "expanded_url": "https://ift.tt/g1xnDKq",
+                            "url": "https://t.co/mqL2O4dpCw"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-25 08:19",
+                    "likes": 2,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1596055939588640769",
+                    "tweet_text": "Researcher released the technical details for CVE-2022-32898 in iOS 16 https://t.co/RNAQOFoWr5 #opensource #infosec #security #pentesting",
+                    "twitter_user_handle": "the_yellow_fall",
+                    "twitter_user_name": "Gray Hats",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/419147954344058880/bTW9Gx7T_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "securityonline.info/researcher-rel\u2026",
+                            "expanded_url": "https://securityonline.info/researcher-released-the-technical-details-for-cve-2022-32898-in-ios-16/",
+                            "url": "https://t.co/RNAQOFoWr5"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [
+                "https://support.apple.com/en-us/HT213488",
+                "https://support.apple.com/en-us/HT213486",
+                "https://support.apple.com/en-us/HT213445",
+                "https://support.apple.com/en-us/HT213446"
+            ],
+            "vendors": [
+                {
+                    "products": [
+                        {
+                            "product": "Ipad Os",
+                            "versions": [
+                                "*"
+                            ]
+                        }
+                    ],
+                    "vendor": "Apple"
+                }
+            ]
+        },
+        {
             "assigner": "secure@dell.com",
-            "audience_size": 292968,
+            "audience_size": 307812,
             "cve": "CVE-2021-21551",
             "cve_urls": null,
             "cvssv2_base_score": 4.6,
@@ -303,9 +448,9 @@
                 }
             ],
             "lastModifiedDate": "2022-07-14T15:42Z",
-            "num_retweets": 41,
-            "num_tweets": 6,
-            "num_tweets_and_retweets": 47,
+            "num_retweets": 48,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 59,
             "publishedDate": "2021-05-04T16:15Z",
             "reddit_posts": [
                 {
@@ -314,9 +459,9 @@
                     "num_comments": 195,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/n4qzz5/dell_patches_12yearold_driver_vulnerability/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 753088,
+                    "subreddit_subscribers": 753179,
                     "title": "Dell patches 12-year-old driver vulnerability impacting millions of PCs",
-                    "upvotes": 970,
+                    "upvotes": 976,
                     "url": "https://www.reddit.com/r/sysadmin/comments/n4qzz5/dell_patches_12yearold_driver_vulnerability/"
                 },
                 {
@@ -325,7 +470,7 @@
                     "num_comments": 33,
                     "reddit_url": "https://www.reddit.com/r/msp/comments/n5i06j/hundreds_of_millions_of_dell_computers_at_risk/",
                     "subreddit": "msp",
-                    "subreddit_subscribers": 139004,
+                    "subreddit_subscribers": 139012,
                     "title": "Hundreds Of Millions Of Dell Computers At Risk Due to Multiple BIOS Driver Privilege Escalation Flaws",
                     "upvotes": 175,
                     "url": "https://www.reddit.com/r/msp/comments/n5i06j/hundreds_of_millions_of_dell_computers_at_risk/"
@@ -336,9 +481,9 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/Defcon/comments/n4w16e/cve202121551_hundreds_of_millions_of_dell/",
                     "subreddit": "Defcon",
-                    "subreddit_subscribers": 28162,
+                    "subreddit_subscribers": 28167,
                     "title": "CVE-2021-21551- Hundreds Of Millions Of Dell Computers At Risk Due to Multiple BIOS Driver Privilege Escalation Flaws",
-                    "upvotes": 55,
+                    "upvotes": 54,
                     "url": "https://labs.sentinelone.com/cve-2021-21551-hundreds-of-millions-of-dell-computers-at-risk-due-to-multiple-bios-driver-privilege-escalation-flaws/"
                 },
                 {
@@ -347,9 +492,9 @@
                     "num_comments": 19,
                     "reddit_url": "https://www.reddit.com/r/Intune/comments/n5ckl7/detect_and_remove_dell_cve202121551_with/",
                     "subreddit": "Intune",
-                    "subreddit_subscribers": 23893,
+                    "subreddit_subscribers": 23901,
                     "title": "Detect and remove Dell CVE-2021-21551 with Proactive Remediations - MSEndpointMgr",
-                    "upvotes": 51,
+                    "upvotes": 53,
                     "url": "https://msendpointmgr.com/2021/05/05/detect-and-remove-dell-cve-2021-21551-with-proactive-remediations/"
                 },
                 {
@@ -358,7 +503,7 @@
                     "num_comments": 7,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/n5803r/dsa2021088_dell_client_platform_security_update/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 460990,
+                    "subreddit_subscribers": 461008,
                     "title": "DSA-2021-088: Dell Client Platform Security Update for an Insufficient Access Control Vulnerability in the Dell dbutil Driver - Windows LPE vulnerability in Dell BIOS driver which has been around since ~2009 - CVE-2021-21551 - Inspiron, Latitude, OptiPlex, Precision, Vostro, Wyse and XPS",
                     "upvotes": 43,
                     "url": "https://www.dell.com/support/kbdoc/en-uk/000186019/dsa-2021-088-dell-client-platform-security-update-for-dell-driver-insufficient-access-control-vulnerability"
@@ -369,9 +514,9 @@
             "tweets": [
                 {
                     "created_at": "2022-11-25 09:42",
-                    "likes": 94,
-                    "num_retweets": 38,
-                    "retweets": 43,
+                    "likes": 108,
+                    "num_retweets": 44,
+                    "retweets": 49,
                     "tweet_id": "1596076749237780482",
                     "tweet_text": "HideMyAss : Window based kernel Exploit : Abusing CVE-2021-21551 (Vulnerable DELL Driver) to arbitrary read/write in the kernel, then unlink the current process from nt!_EPROCESS to hide itself : https://t.co/0ujBDtaiUT credits @aaaddress1 https://t.co/LFITMqkUAv",
                     "twitter_user_handle": "binitamshah",
@@ -387,9 +532,9 @@
                 },
                 {
                     "created_at": "2022-11-25 14:00",
-                    "likes": 0,
-                    "num_retweets": 3,
-                    "retweets": 3,
+                    "likes": 1,
+                    "num_retweets": 4,
+                    "retweets": 4,
                     "tweet_id": "1596141669707022338",
                     "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2022-4135: 1.5M (audience size)\nCVE-2022-32898: 266.4K\nCVE-2021-21551: 256.5K\n\nPast 7 days:\nCVE-2022-43781: 2.1M\nCVE-2022-43782: 1.5M\nCVE-2022-4135: 1.5M\n\nhttps://t.co/LhpwNP6xog",
                     "twitter_user_handle": "CVEtrends",
@@ -440,12 +585,12 @@
                     ]
                 },
                 {
-                    "created_at": "2022-11-25 18:08",
+                    "created_at": "2022-11-26 02:08",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1596204078694109184",
-                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the most retweeted(41 times) tweet that contains CVE ID between Nov 24 2022 18:01 UTC and Nov 25 2022 18:00 UTC is:\nhttps://t.co/YRnmqCv2p2\nIt has CVE-2021-21551. #l24_ikcgetxmkzelm",
+                    "tweet_id": "1596324877841088513",
+                    "tweet_text": "(Same from about 10 hours ago.)\nI think that the most retweeted(47 times) tweet that contains CVE ID between Nov 25 2022 02:01 UTC and Nov 26 2022 02:00 UTC is:\nhttps://t.co/YRnmqCv2p2\nIt has CVE-2021-21551. #l24_ikcgetxmkzelm",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
@@ -477,7 +622,7 @@
         },
         {
             "assigner": "secure@microsoft.com",
-            "audience_size": 227069,
+            "audience_size": 247062,
             "cve": "CVE-2022-33679",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -493,9 +638,9 @@
                     "description": "One day based on https://googleprojectzero.blogspot.com/2022/10/rc4-is-still-considered-harmful.html",
                     "language": "Python",
                     "name": "CVE-2022-33679",
-                    "stars": 312,
+                    "stars": 313,
                     "topics": [],
-                    "updated": "2022-11-25T01:04:26Z",
+                    "updated": "2022-11-26T03:45:09Z",
                     "url": "https://github.com/Bdenneu/CVE-2022-33679"
                 },
                 {
@@ -530,9 +675,9 @@
                 }
             ],
             "lastModifiedDate": "2022-09-15T20:09Z",
-            "num_retweets": 33,
+            "num_retweets": 44,
             "num_tweets": 1,
-            "num_tweets_and_retweets": 34,
+            "num_tweets_and_retweets": 45,
             "publishedDate": "2022-09-13T19:15Z",
             "reddit_posts": [
                 {
@@ -541,9 +686,9 @@
                     "num_comments": 2,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/ylpthx/cve202233679_windows_kerberos_elevation_of/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 460990,
+                    "subreddit_subscribers": 461008,
                     "title": "CVE-2022-33679 Windows Kerberos Elevation of Privilege",
-                    "upvotes": 40,
+                    "upvotes": 45,
                     "url": "https://github.com/Bdenneu/CVE-2022-33679"
                 },
                 {
@@ -574,9 +719,9 @@
             "tweets": [
                 {
                     "created_at": "2022-11-25 12:44",
-                    "likes": 115,
-                    "num_retweets": 33,
-                    "retweets": 33,
+                    "likes": 146,
+                    "num_retweets": 44,
+                    "retweets": 44,
                     "tweet_id": "1596122682994864131",
                     "tweet_text": "KerberosAsk is the latest addition to our OST offering. It is a fully inline BOF implementation of some of the core Kerberos commands from Rubeus/Kekeo.\n\nAsk a TGT, a service ticket or exploit CVE-2022-33679. Also works with certs to support your ADCS magic. \nDemo below. \u2b07\ufe0f (1/3)",
                     "twitter_user_handle": "OutflankNL",
@@ -603,9 +748,9 @@
             ]
         },
         {
-            "assigner": "security@atlassian.com",
-            "audience_size": 216217,
-            "cve": "CVE-2022-43781",
+            "assigner": "psirt@fortinet.com",
+            "audience_size": 193000,
+            "cve": "CVE-2022-40684",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
@@ -613,322 +758,211 @@
             "cvssv3_base_severity": "CRITICAL",
             "cwes": [
                 {
-                    "cwe_description": "Improper Neutralization of Special Elements used in a Command ('Command Injection')",
-                    "cwe_id": "CWE-77"
+                    "cwe_description": "Missing Authentication for Critical Function",
+                    "cwe_id": "CWE-306"
                 }
             ],
-            "description": "There is a command injection vulnerability using environment variables in Bitbucket Server and Data Center. An attacker with permission to control their username can exploit this issue to execute arbitrary code on the system. This vulnerability can be unauthenticated if the Bitbucket Server and Data Center instance has enabled \u201cAllow public signup\u201d.",
-            "epss_score": "0.0144",
-            "github_repos": [],
-            "lastModifiedDate": "2022-11-18T18:51Z",
-            "num_retweets": 33,
-            "num_tweets": 9,
-            "num_tweets_and_retweets": 42,
-            "publishedDate": "2022-11-17T00:15Z",
-            "reddit_posts": [
+            "description": "An authentication bypass using an alternate path or channel [CWE-288] in Fortinet FortiOS version 7.2.0 through 7.2.1 and 7.0.0 through 7.0.6, FortiProxy version 7.2.0 and version 7.0.0 through 7.0.6 and FortiSwitchManager version 7.2.0 and 7.0.0 allows an unauthenticated atttacker to perform operations on the administrative interface via specially crafted HTTP or HTTPS requests.",
+            "epss_score": "0.89292",
+            "github_repos": [
                 {
-                    "created": 1669017941.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/spixnet_gmbh_official/comments/z0taba/atlassian_releases_patches_for_critical_flaws/",
-                    "subreddit": "spixnet_gmbh_official",
-                    "subreddit_subscribers": 2,
-                    "title": "Atlassian Releases Patches for Critical Flaws Affecting Crowd and Bitbucket Products",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/spixnet_gmbh_official/comments/z0taba/atlassian_releases_patches_for_critical_flaws/"
+                    "created": "2022-10-13T14:24:12Z",
+                    "description": "A proof of concept exploit for CVE-2022-40684 affecting Fortinet FortiOS, FortiProxy, and FortiSwitchManager",
+                    "language": "Python",
+                    "name": "CVE-2022-40684",
+                    "stars": 289,
+                    "topics": [],
+                    "updated": "2022-11-21T07:09:19Z",
+                    "url": "https://github.com/horizon3ai/CVE-2022-40684"
                 },
                 {
-                    "created": 1668645527.0,
+                    "created": "2022-10-13T18:13:59Z",
+                    "description": "PoC for CVE-2022-40684 - Authentication bypass lead to Full device takeover (Read-only)",
+                    "language": "Python",
+                    "name": "CVE-2022-40684",
+                    "stars": 75,
+                    "topics": [],
+                    "updated": "2022-11-17T01:40:26Z",
+                    "url": "https://github.com/carlosevieira/CVE-2022-40684"
+                },
+                {
+                    "created": "2019-09-20T09:55:21Z",
+                    "description": "Detectar vulnerabilidades de Path traversal con nmap",
+                    "language": "Lua",
+                    "name": "nmap",
+                    "stars": 16,
+                    "topics": [
+                        "citrix",
+                        "citrix-netscaler",
+                        "cve-2019-19781",
+                        "cve-2021-41773",
+                        "cve-2022-40684",
+                        "detectar",
+                        "escaneo",
+                        "exploit",
+                        "nmap",
+                        "path",
+                        "scan",
+                        "traversal",
+                        "vulnerabilidad",
+                        "vulnerable"
+                    ],
+                    "updated": "2022-10-23T09:50:34Z",
+                    "url": "https://github.com/hackingyseguridad/nmap"
+                },
+                {
+                    "created": "2022-10-15T16:51:25Z",
+                    "description": "Fortinet Critical Authentication Bypass Vulnerability (CVE-2022-40684) [ Mass Exploit ]",
+                    "language": "Python",
+                    "name": "CVE-2022-40684",
+                    "stars": 13,
+                    "topics": [],
+                    "updated": "2022-11-16T15:20:10Z",
+                    "url": "https://github.com/Chocapikk/CVE-2022-40684"
+                },
+                {
+                    "created": "2022-10-13T21:07:50Z",
+                    "description": "Exploit for CVE-2022-40684 affecting Fortinet FortiOS, FortiProxy, and FortiSwitchManager",
+                    "language": null,
+                    "name": "CVE-2022-40684-POC",
+                    "stars": 11,
+                    "topics": [
+                        "authentication-bypass",
+                        "bugbounty",
+                        "cve-2022-40684",
+                        "exploit",
+                        "fortios",
+                        "fortiproxy",
+                        "penetration-testing",
+                        "poc",
+                        "security"
+                    ],
+                    "updated": "2022-11-16T10:19:50Z",
+                    "url": "https://github.com/kljunowsky/CVE-2022-40684-POC"
+                }
+            ],
+            "lastModifiedDate": "2022-10-20T19:06Z",
+            "num_retweets": 5,
+            "num_tweets": 2,
+            "num_tweets_and_retweets": 7,
+            "publishedDate": "2022-10-18T14:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1665162142.0,
+                    "is_self": true,
+                    "num_comments": 32,
+                    "reddit_url": "https://www.reddit.com/r/networking/comments/xy4ddq/psa_fgir22377_critical_severity_fortios/",
+                    "subreddit": "networking",
+                    "subreddit_subscribers": 278029,
+                    "title": "PSA: FG-IR-22-377: Critical Severity FortiOS /FortiProxy- Authentication bypass on administrative interface",
+                    "upvotes": 85,
+                    "url": "https://www.reddit.com/r/networking/comments/xy4ddq/psa_fgir22377_critical_severity_fortios/"
+                },
+                {
+                    "created": 1665152068.0,
+                    "is_self": true,
+                    "num_comments": 87,
+                    "reddit_url": "https://www.reddit.com/r/fortinet/comments/xy098w/fortigate_web_management_vulnerability/",
+                    "subreddit": "fortinet",
+                    "subreddit_subscribers": 34721,
+                    "title": "Fortigate web management vulnerability CVE-2022-40684",
+                    "upvotes": 51,
+                    "url": "https://www.reddit.com/r/fortinet/comments/xy098w/fortigate_web_management_vulnerability/"
+                },
+                {
+                    "created": 1667538005.0,
                     "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/yxbgl4/cve202243781/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 109,
-                    "title": "CVE-2022-43781",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-43781"
+                    "num_comments": 1,
+                    "reddit_url": "https://www.reddit.com/r/blackhat/comments/ylpcs7/cve202240684_immediate_inspection_upon_discovery/",
+                    "subreddit": "blackhat",
+                    "subreddit_subscribers": 78284,
+                    "title": "CVE-2022-40684: Immediate Inspection Upon Discovery of Fortinet Authentication Bypass Vulnerability",
+                    "upvotes": 38,
+                    "url": "https://blog.criminalip.io/2022/11/03/cve-2022-40684/"
+                },
+                {
+                    "created": 1665156227.0,
+                    "is_self": true,
+                    "num_comments": 4,
+                    "reddit_url": "https://www.reddit.com/r/ITManagers/comments/xy1ygu/fortinet_vulnerability_involving_authentication/",
+                    "subreddit": "ITManagers",
+                    "subreddit_subscribers": 14984,
+                    "title": "Fortinet vulnerability involving authentication bypass (CVE-2022-40684)",
+                    "upvotes": 31,
+                    "url": "https://www.reddit.com/r/ITManagers/comments/xy1ygu/fortinet_vulnerability_involving_authentication/"
+                },
+                {
+                    "created": 1665156152.0,
+                    "is_self": true,
+                    "num_comments": 17,
+                    "reddit_url": "https://www.reddit.com/r/msp/comments/xy1xcy/fortinet_vulnerability_involving_authentication/",
+                    "subreddit": "msp",
+                    "subreddit_subscribers": 139012,
+                    "title": "Fortinet vulnerability involving authentication bypass (CVE-2022-40684)",
+                    "upvotes": 26,
+                    "url": "https://www.reddit.com/r/msp/comments/xy1xcy/fortinet_vulnerability_involving_authentication/"
                 }
             ],
             "score": 9.8,
             "severity": "CRITICAL",
             "tweets": [
                 {
-                    "created_at": "2022-11-25 03:50",
-                    "likes": 57,
-                    "num_retweets": 24,
-                    "retweets": 24,
-                    "tweet_id": "1595988354989928448",
-                    "tweet_text": "Here is the detailed analysis blog CVE-2022-43781. Hope you like it :D\n\nhttps://t.co/6vKQF4gnui",
-                    "twitter_user_handle": "VietPetrus",
-                    "twitter_user_name": "Petrus Viet",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1432371800852234246/i6EmzT4G_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "petrusviet.medium.com/cve-2022-43781\u2026",
-                            "expanded_url": "https://petrusviet.medium.com/cve-2022-43781-32bc29de8960",
-                            "url": "https://t.co/6vKQF4gnui"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-25 17:00",
+                    "created_at": "2022-11-25 21:06",
                     "likes": 6,
-                    "num_retweets": 4,
-                    "retweets": 4,
-                    "tweet_id": "1596187027527335936",
-                    "tweet_text": "Detailed analysis blog CVE-2022-43781 https://t.co/EnQPIbSrwn #Pentesting #Vulnerability #CVE #CyberSecurity #Infosec https://t.co/kf0Rl3eUwG",
-                    "twitter_user_handle": "ptracesecurity",
-                    "twitter_user_name": "Ptrace Security GmbH",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/659444735791210500/XGvv9R-0_normal.jpg",
+                    "num_retweets": 5,
+                    "retweets": 5,
+                    "tweet_id": "1596249004865884160",
+                    "tweet_text": "Fortinet CVE-2022-40684 vulnerability from an Incident Response perspective https://t.co/tznwuvMsaS #cyber #threathunting #infosec https://t.co/d3CTYhiEU1",
+                    "twitter_user_handle": "blueteamsec1",
+                    "twitter_user_name": "Blue Team News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1106654860458553349/jM-z3b7f_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "petrusviet.medium.com/cve-2022-43781\u2026",
-                            "expanded_url": "https://petrusviet.medium.com/cve-2022-43781-32bc29de8960",
-                            "url": "https://t.co/EnQPIbSrwn"
+                            "display_url": "dlvr.it/SdN8Lx",
+                            "expanded_url": "http://dlvr.it/SdN8Lx",
+                            "url": "https://t.co/tznwuvMsaS"
                         }
                     ]
                 },
                 {
-                    "created_at": "2022-11-25 14:00",
+                    "created_at": "2022-11-25 15:31",
                     "likes": 0,
-                    "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1596141669707022338",
-                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2022-4135: 1.5M (audience size)\nCVE-2022-32898: 266.4K\nCVE-2021-21551: 256.5K\n\nPast 7 days:\nCVE-2022-43781: 2.1M\nCVE-2022-43782: 1.5M\nCVE-2022-4135: 1.5M\n\nhttps://t.co/LhpwNP6xog",
-                    "twitter_user_handle": "CVEtrends",
-                    "twitter_user_name": "CVE Trends",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cvetrends.com",
-                            "expanded_url": "https://cvetrends.com",
-                            "url": "https://t.co/LhpwNP6xog"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-25 02:33",
-                    "likes": 0,
-                    "num_retweets": 1,
+                    "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1595969007697395712",
-                    "tweet_text": "\u2728 Top 3 CVE last 12h\n\n1\ufe0f\u20e3CVE-2022-33942 : @Jackson_juhn https://t.co/dzdkMRTivX\n2\ufe0f\u20e3CVE-2022-20465 : @payloadartist https://t.co/Qrpr9fhHPz\n3\ufe0f\u20e3CVE-2022-43781 : @VietPetrus https://t.co/av9qjNreJm\nFor more follow @sirifu4k1 @rahulchaluvadhi @AsuNa_jp",
-                    "twitter_user_handle": "top3cve",
-                    "twitter_user_name": "top3cve",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1592579140598759428/3o3sgv6T_normal.jpg",
+                    "tweet_id": "1596164604505325571",
+                    "tweet_text": "Cyble Global Sensor Intelligence detects exploitation attempts of CVE-2022-40684, and CRIL observes Fortinet Access distribution in cybercrime forums.  https://t.co/XyozDWcdde",
+                    "twitter_user_handle": "Gate_15_Analyst",
+                    "twitter_user_name": "Gate 15",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1329734556996546562/tCEMgOx-_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "twitter.com/twitter/status\u2026",
-                            "expanded_url": "https://twitter.com/twitter/statuses/1595750867021570049",
-                            "url": "https://t.co/dzdkMRTivX"
-                        },
-                        {
-                            "display_url": "twitter.com/twitter/status\u2026",
-                            "expanded_url": "https://twitter.com/twitter/statuses/1595062042171359232",
-                            "url": "https://t.co/Qrpr9fhHPz"
-                        },
-                        {
-                            "display_url": "twitter.com/twitter/status\u2026",
-                            "expanded_url": "https://twitter.com/twitter/statuses/1593858510806056960",
-                            "url": "https://t.co/av9qjNreJm"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-25 14:33",
-                    "likes": 1,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1596150200715956224",
-                    "tweet_text": "\u2728 Top 3 CVE last 12h\n\n1\ufe0f\u20e3CVE-2022-33942 : @PavloSergev https://t.co/25hfi14tHX\n2\ufe0f\u20e3CVE-2022-20465 : @payloadartist https://t.co/Qrpr9fhHPz\n3\ufe0f\u20e3CVE-2022-43781 : @VietPetrus https://t.co/av9qjNreJm\nFor more follow @cyber_advising @0Pi314 @0x0SojalSec",
-                    "twitter_user_handle": "top3cve",
-                    "twitter_user_name": "top3cve",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1592579140598759428/3o3sgv6T_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "twitter.com/twitter/status\u2026",
-                            "expanded_url": "https://twitter.com/twitter/statuses/1595809640238878722",
-                            "url": "https://t.co/25hfi14tHX"
-                        },
-                        {
-                            "display_url": "twitter.com/twitter/status\u2026",
-                            "expanded_url": "https://twitter.com/twitter/statuses/1595062042171359232",
-                            "url": "https://t.co/Qrpr9fhHPz"
-                        },
-                        {
-                            "display_url": "twitter.com/twitter/status\u2026",
-                            "expanded_url": "https://twitter.com/twitter/statuses/1593858510806056960",
-                            "url": "https://t.co/av9qjNreJm"
+                            "display_url": "blog.cyble.com/2022/11/24/mul\u2026",
+                            "expanded_url": "https://blog.cyble.com/2022/11/24/multiple-organisations-compromised-by-critical-authentication-bypass-vulnerability-in-fortinet-products-cve-2022-40684/#CyberSecurity",
+                            "url": "https://t.co/XyozDWcdde"
                         }
                     ]
                 }
             ],
             "vendor_advisories": [
-                "https://confluence.atlassian.com/x/Y4hXRg",
-                "https://jira.atlassian.com/browse/BSERV-13522"
+                "https://fortiguard.com/psirt/FG-IR-22-377"
             ],
             "vendors": [
                 {
                     "products": [
                         {
-                            "product": "Bitbucket",
+                            "product": "Fortios",
                             "versions": [
                                 "*"
                             ]
                         }
                     ],
-                    "vendor": "Atlassian"
-                }
-            ]
-        },
-        {
-            "assigner": "product-security@apple.com",
-            "audience_size": 200182,
-            "cve": "CVE-2022-32898",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": 7.8,
-            "cvssv3_base_severity": "HIGH",
-            "cwes": [],
-            "description": "The issue was addressed with improved memory handling. This issue is fixed in iOS 15.7 and iPadOS 15.7, iOS 16, macOS Ventura 13, watchOS 9. An app may be able to execute arbitrary code with kernel privileges.",
-            "epss_score": "0.01237",
-            "github_repos": [],
-            "lastModifiedDate": "2022-11-03T14:34Z",
-            "num_retweets": 14,
-            "num_tweets": 15,
-            "num_tweets_and_retweets": 29,
-            "publishedDate": "2022-11-01T20:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1666874902.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/yer3vt/msisac_cybersecurity_advisory_multiple/",
-                    "subreddit": "k12cybersecurity",
-                    "subreddit_subscribers": 69,
-                    "title": "MS-ISAC CYBERSECURITY ADVISORY - Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution - PATCH: NOW",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/yer3vt/msisac_cybersecurity_advisory_multiple/"
-                }
-            ],
-            "score": 7.8,
-            "severity": "HIGH",
-            "tweets": [
-                {
-                    "created_at": "2022-11-25 08:35",
-                    "likes": 13,
-                    "num_retweets": 6,
-                    "retweets": 7,
-                    "tweet_id": "1596060114146197504",
-                    "tweet_text": "Researcher released the technical details for CVE-2022-32898 in iOS 16 https://t.co/r1hIObrpFF",
-                    "twitter_user_handle": "Dinosn",
-                    "twitter_user_name": "Nicolas Krassas",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1292159799141060610/CLgtH-wo_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "securityonline.info/researcher-rel\u2026",
-                            "expanded_url": "https://securityonline.info/researcher-released-the-technical-details-for-cve-2022-32898-in-ios-16/",
-                            "url": "https://t.co/r1hIObrpFF"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-25 14:00",
-                    "likes": 0,
-                    "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1596141669707022338",
-                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2022-4135: 1.5M (audience size)\nCVE-2022-32898: 266.4K\nCVE-2021-21551: 256.5K\n\nPast 7 days:\nCVE-2022-43781: 2.1M\nCVE-2022-43782: 1.5M\nCVE-2022-4135: 1.5M\n\nhttps://t.co/LhpwNP6xog",
-                    "twitter_user_handle": "CVEtrends",
-                    "twitter_user_name": "CVE Trends",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cvetrends.com",
-                            "expanded_url": "https://cvetrends.com",
-                            "url": "https://t.co/LhpwNP6xog"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-25 08:33",
-                    "likes": 2,
-                    "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1596059561286254592",
-                    "tweet_text": "Researcher released the technical details for CVE-2022-32898 in iOS 16 https://t.co/mqL2O4dpCw #security #opensource #cybersecurity #malware #cyber #pentesting #malwareanalysis #infosec #redteam #malwarehunting #hacking #infosec #threathunting #bugbounty #tools #offensivesecuri\u2026",
-                    "twitter_user_handle": "FilipiPires",
-                    "twitter_user_name": "Filipi Pires",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1531334436800831488/evf2wJ4z_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/g1xnDKq",
-                            "expanded_url": "https://ift.tt/g1xnDKq",
-                            "url": "https://t.co/mqL2O4dpCw"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-25 08:19",
-                    "likes": 2,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1596055939588640769",
-                    "tweet_text": "Researcher released the technical details for CVE-2022-32898 in iOS 16 https://t.co/RNAQOFoWr5 #opensource #infosec #security #pentesting",
-                    "twitter_user_handle": "the_yellow_fall",
-                    "twitter_user_name": "Gray Hats",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/419147954344058880/bTW9Gx7T_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "securityonline.info/researcher-rel\u2026",
-                            "expanded_url": "https://securityonline.info/researcher-released-the-technical-details-for-cve-2022-32898-in-ios-16/",
-                            "url": "https://t.co/RNAQOFoWr5"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-11-25 16:33",
-                    "likes": 3,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1596180332142813184",
-                    "tweet_text": "CVE-2022-32898: ANE_ProgramCreate() multiple kernel memory corruption\n  https://t.co/Ki2dSOM2ku https://t.co/Tc4EsMGitc",
-                    "twitter_user_handle": "Tinolle1955",
-                    "twitter_user_name": "Constantin Milos @Tinolle@mastodon.uno.social",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/439495833072181248/eofyYDdn_normal.jpeg",
-                    "urls": [
-                        {
-                            "display_url": "0x36.github.io/CVE-2022-32898/",
-                            "expanded_url": "https://0x36.github.io/CVE-2022-32898/",
-                            "url": "https://t.co/Ki2dSOM2ku"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [
-                "https://support.apple.com/en-us/HT213488",
-                "https://support.apple.com/en-us/HT213486",
-                "https://support.apple.com/en-us/HT213445",
-                "https://support.apple.com/en-us/HT213446"
-            ],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Ipad Os",
-                            "versions": [
-                                "*"
-                            ]
-                        }
-                    ],
-                    "vendor": "Apple"
+                    "vendor": "Fortinet"
                 }
             ]
         },
         {
             "assigner": "secure@microsoft.com",
-            "audience_size": 158463,
+            "audience_size": 164591,
             "cve": "CVE-2021-40444",
             "cve_urls": null,
             "cvssv2_base_score": 6.8,
@@ -1024,9 +1058,9 @@
                 }
             ],
             "lastModifiedDate": "2022-10-14T11:49Z",
-            "num_retweets": 4,
+            "num_retweets": 9,
             "num_tweets": 1,
-            "num_tweets_and_retweets": 5,
+            "num_tweets_and_retweets": 10,
             "publishedDate": "2021-09-15T12:15Z",
             "reddit_posts": [
                 {
@@ -1035,9 +1069,9 @@
                     "num_comments": 44,
                     "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/prp84q/you_should_learn_javascript/",
                     "subreddit": "cybersecurity",
-                    "subreddit_subscribers": 418315,
+                    "subreddit_subscribers": 418406,
                     "title": "You should learn JavaScript",
-                    "upvotes": 597,
+                    "upvotes": 596,
                     "url": "https://www.reddit.com/r/cybersecurity/comments/prp84q/you_should_learn_javascript/"
                 },
                 {
@@ -1046,9 +1080,9 @@
                     "num_comments": 32,
                     "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/pl8ywu/windows_cve202140444_zeroday_defenses_bypassed_as/",
                     "subreddit": "cybersecurity",
-                    "subreddit_subscribers": 418315,
+                    "subreddit_subscribers": 418406,
                     "title": "Windows CVE-2021-40444 zero-day defenses bypassed as new info emerges",
-                    "upvotes": 299,
+                    "upvotes": 300,
                     "url": "https://www.bleepingcomputer.com/news/microsoft/windows-mshtml-zero-day-defenses-bypassed-as-new-info-emerges/"
                 },
                 {
@@ -1057,9 +1091,9 @@
                     "num_comments": 11,
                     "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/pm5t1y/malicious_docx_generator_to_exploit_cve202140444/",
                     "subreddit": "cybersecurity",
-                    "subreddit_subscribers": 418315,
+                    "subreddit_subscribers": 418406,
                     "title": "Malicious docx generator to exploit CVE-2021-40444 (Microsoft Office Word Remote Code Execution)",
-                    "upvotes": 285,
+                    "upvotes": 282,
                     "url": "https://github.com/lockedbyte/CVE-2021-40444"
                 },
                 {
@@ -1068,9 +1102,9 @@
                     "num_comments": 25,
                     "reddit_url": "https://www.reddit.com/r/msp/comments/pl5o37/heads_up_hackers_are_exploiting_cve202140444/",
                     "subreddit": "msp",
-                    "subreddit_subscribers": 139004,
+                    "subreddit_subscribers": 139012,
                     "title": "Heads up: Hackers are exploiting CVE-2021-40444",
-                    "upvotes": 243,
+                    "upvotes": 242,
                     "url": "https://www.reddit.com/r/msp/comments/pl5o37/heads_up_hackers_are_exploiting_cve202140444/"
                 },
                 {
@@ -1079,9 +1113,9 @@
                     "num_comments": 104,
                     "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/qao73j/we_are_a_security_team_with_20_years_of_ethical/",
                     "subreddit": "cybersecurity",
-                    "subreddit_subscribers": 418315,
+                    "subreddit_subscribers": 418406,
                     "title": "We are a security team with 20+ years of ethical hacking, and we've defended over 2 million attacks with Blumira. Ask Us Anything.",
-                    "upvotes": 176,
+                    "upvotes": 175,
                     "url": "https://www.reddit.com/r/cybersecurity/comments/qao73j/we_are_a_security_team_with_20_years_of_ethical/"
                 }
             ],
@@ -1090,9 +1124,9 @@
             "tweets": [
                 {
                     "created_at": "2022-11-25 09:46",
-                    "likes": 13,
-                    "num_retweets": 4,
-                    "retweets": 5,
+                    "likes": 19,
+                    "num_retweets": 9,
+                    "retweets": 9,
                     "tweet_id": "1596077895226888193",
                     "tweet_text": "Cobalt Strike Beacon with CVE-2021-40444 and CVE-2022-30190 (Follina) exploits are being used in email phishing attacks on Ukrainian government organisations. #cybersecurityawareness #cyberwarfare #cyberespionage #cybersecurity #cobaltstrike #Ukraine #Russia #phishing #ITSec https://t.co/LknrkKXi94",
                     "twitter_user_handle": "AnonOpsRise",
@@ -1120,7 +1154,7 @@
         },
         {
             "assigner": "secure@microsoft.com",
-            "audience_size": 158463,
+            "audience_size": 164591,
             "cve": "CVE-2022-30190",
             "cve_urls": null,
             "cvssv2_base_score": 9.3,
@@ -1191,9 +1225,9 @@
                 }
             ],
             "lastModifiedDate": "2022-06-07T18:15Z",
-            "num_retweets": 4,
+            "num_retweets": 9,
             "num_tweets": 1,
-            "num_tweets_and_retweets": 5,
+            "num_tweets_and_retweets": 10,
             "publishedDate": "2022-06-01T20:15Z",
             "reddit_posts": [
                 {
@@ -1202,9 +1236,9 @@
                     "num_comments": 10,
                     "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/v1xmbh/exploiting_msdt_0day_cve202230190/",
                     "subreddit": "cybersecurity",
-                    "subreddit_subscribers": 418315,
+                    "subreddit_subscribers": 418406,
                     "title": "Exploiting MSDT 0-Day CVE-2022-30190",
-                    "upvotes": 248,
+                    "upvotes": 246,
                     "url": "https://www.youtube.com/watch?v=dGCOhORNKRk"
                 },
                 {
@@ -1213,9 +1247,9 @@
                     "num_comments": 81,
                     "reddit_url": "https://www.reddit.com/r/msp/comments/v0tuvs/ms_office_vuln_polite_warning_about_nearterm/",
                     "subreddit": "msp",
-                    "subreddit_subscribers": 139004,
+                    "subreddit_subscribers": 139012,
                     "title": "MS Office Vuln: Polite warning about near-term malicious attachments",
-                    "upvotes": 196,
+                    "upvotes": 199,
                     "url": "https://www.reddit.com/r/msp/comments/v0tuvs/ms_office_vuln_polite_warning_about_nearterm/"
                 },
                 {
@@ -1224,9 +1258,9 @@
                     "num_comments": 44,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/v0z7bx/another_week_another_0day/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 753088,
+                    "subreddit_subscribers": 753179,
                     "title": "Another week, another 0-Day",
-                    "upvotes": 145,
+                    "upvotes": 146,
                     "url": "https://www.reddit.com/r/sysadmin/comments/v0z7bx/another_week_another_0day/"
                 },
                 {
@@ -1235,9 +1269,9 @@
                     "num_comments": 18,
                     "reddit_url": "https://www.reddit.com/r/linux4noobs/comments/v94fhq/what_desktop_environment_the_op_of_the_youtube/",
                     "subreddit": "linux4noobs",
-                    "subreddit_subscribers": 201820,
+                    "subreddit_subscribers": 201846,
                     "title": "What desktop environment the OP of the YouTube video is using (Parrot OS)? Stolen from a YouTube channel about CVE 2022-30190 (msdt)",
-                    "upvotes": 121,
+                    "upvotes": 124,
                     "url": "https://i.redd.it/fmy3dq03qr491.jpg"
                 },
                 {
@@ -1246,9 +1280,9 @@
                     "num_comments": 16,
                     "reddit_url": "https://www.reddit.com/r/crowdstrike/comments/v1qrnz/hunting_follina_microsoft_code_execution/",
                     "subreddit": "crowdstrike",
-                    "subreddit_subscribers": 10956,
+                    "subreddit_subscribers": 10958,
                     "title": "Hunting Follina - Microsoft Code Execution Vulnerability",
-                    "upvotes": 89,
+                    "upvotes": 92,
                     "url": "https://www.reddit.com/r/crowdstrike/comments/v1qrnz/hunting_follina_microsoft_code_execution/"
                 }
             ],
@@ -1257,9 +1291,9 @@
             "tweets": [
                 {
                     "created_at": "2022-11-25 09:46",
-                    "likes": 13,
-                    "num_retweets": 4,
-                    "retweets": 5,
+                    "likes": 19,
+                    "num_retweets": 9,
+                    "retweets": 9,
                     "tweet_id": "1596077895226888193",
                     "tweet_text": "Cobalt Strike Beacon with CVE-2021-40444 and CVE-2022-30190 (Follina) exploits are being used in email phishing attacks on Ukrainian government organisations. #cybersecurityawareness #cyberwarfare #cyberespionage #cybersecurity #cobaltstrike #Ukraine #Russia #phishing #ITSec https://t.co/LknrkKXi94",
                     "twitter_user_handle": "AnonOpsRise",
@@ -1286,8 +1320,177 @@
             ]
         },
         {
+            "assigner": "security@atlassian.com",
+            "audience_size": 152025,
+            "cve": "CVE-2022-43781",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": 9.8,
+            "cvssv3_base_severity": "CRITICAL",
+            "cwes": [
+                {
+                    "cwe_description": "Improper Neutralization of Special Elements used in a Command ('Command Injection')",
+                    "cwe_id": "CWE-77"
+                }
+            ],
+            "description": "There is a command injection vulnerability using environment variables in Bitbucket Server and Data Center. An attacker with permission to control their username can exploit this issue to execute arbitrary code on the system. This vulnerability can be unauthenticated if the Bitbucket Server and Data Center instance has enabled \u201cAllow public signup\u201d.",
+            "epss_score": "0.0144",
+            "github_repos": [],
+            "lastModifiedDate": "2022-11-18T18:51Z",
+            "num_retweets": 14,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 25,
+            "publishedDate": "2022-11-17T00:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1669017941.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/spixnet_gmbh_official/comments/z0taba/atlassian_releases_patches_for_critical_flaws/",
+                    "subreddit": "spixnet_gmbh_official",
+                    "subreddit_subscribers": 2,
+                    "title": "Atlassian Releases Patches for Critical Flaws Affecting Crowd and Bitbucket Products",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/spixnet_gmbh_official/comments/z0taba/atlassian_releases_patches_for_critical_flaws/"
+                },
+                {
+                    "created": 1668645527.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/yxbgl4/cve202243781/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 109,
+                    "title": "CVE-2022-43781",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-43781"
+                }
+            ],
+            "score": 9.8,
+            "severity": "CRITICAL",
+            "tweets": [
+                {
+                    "created_at": "2022-11-25 17:00",
+                    "likes": 9,
+                    "num_retweets": 9,
+                    "retweets": 9,
+                    "tweet_id": "1596187027527335936",
+                    "tweet_text": "Detailed analysis blog CVE-2022-43781 https://t.co/EnQPIbSrwn #Pentesting #Vulnerability #CVE #CyberSecurity #Infosec https://t.co/kf0Rl3eUwG",
+                    "twitter_user_handle": "ptracesecurity",
+                    "twitter_user_name": "Ptrace Security GmbH",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/659444735791210500/XGvv9R-0_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "petrusviet.medium.com/cve-2022-43781\u2026",
+                            "expanded_url": "https://petrusviet.medium.com/cve-2022-43781-32bc29de8960",
+                            "url": "https://t.co/EnQPIbSrwn"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-25 14:00",
+                    "likes": 1,
+                    "num_retweets": 4,
+                    "retweets": 4,
+                    "tweet_id": "1596141669707022338",
+                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2022-4135: 1.5M (audience size)\nCVE-2022-32898: 266.4K\nCVE-2021-21551: 256.5K\n\nPast 7 days:\nCVE-2022-43781: 2.1M\nCVE-2022-43782: 1.5M\nCVE-2022-4135: 1.5M\n\nhttps://t.co/LhpwNP6xog",
+                    "twitter_user_handle": "CVEtrends",
+                    "twitter_user_name": "CVE Trends",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cvetrends.com",
+                            "expanded_url": "https://cvetrends.com",
+                            "url": "https://t.co/LhpwNP6xog"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-25 14:33",
+                    "likes": 2,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1596150200715956224",
+                    "tweet_text": "\u2728 Top 3 CVE last 12h\n\n1\ufe0f\u20e3CVE-2022-33942 : @PavloSergev https://t.co/25hfi14tHX\n2\ufe0f\u20e3CVE-2022-20465 : @payloadartist https://t.co/Qrpr9fhHPz\n3\ufe0f\u20e3CVE-2022-43781 : @VietPetrus https://t.co/av9qjNreJm\nFor more follow @cyber_advising @0Pi314 @0x0SojalSec",
+                    "twitter_user_handle": "top3cve",
+                    "twitter_user_name": "top3cve",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1592579140598759428/3o3sgv6T_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/twitter/status\u2026",
+                            "expanded_url": "https://twitter.com/twitter/statuses/1595809640238878722",
+                            "url": "https://t.co/25hfi14tHX"
+                        },
+                        {
+                            "display_url": "twitter.com/twitter/status\u2026",
+                            "expanded_url": "https://twitter.com/twitter/statuses/1595062042171359232",
+                            "url": "https://t.co/Qrpr9fhHPz"
+                        },
+                        {
+                            "display_url": "twitter.com/twitter/status\u2026",
+                            "expanded_url": "https://twitter.com/twitter/statuses/1593858510806056960",
+                            "url": "https://t.co/av9qjNreJm"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-25 12:18",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1596115990865383424",
+                    "tweet_text": "Here is the detailed analysis blog of the Command Execution bug in the Bitbucket Server and Data Center (CVE-2022-43781).\nhttps://t.co/bGdugw236y\nCredit: @VietPetrus",
+                    "twitter_user_handle": "cyberkendra",
+                    "twitter_user_name": "Cyber Kendra",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945545310775910400/zx-yLarD_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "petrusviet.medium.com/cve-2022-43781\u2026",
+                            "expanded_url": "https://petrusviet.medium.com/cve-2022-43781-32bc29de8960",
+                            "url": "https://t.co/bGdugw236y"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-11-25 22:08",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1596264469453209602",
+                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the third retweeted(24 times) tweet that contains CVE ID between Nov 24 2022 22:01 UTC and Nov 25 2022 22:00 UTC is:\nhttps://t.co/JuFyXok3ye\nIt has CVE-2022-43781. #l24_i25bbjguvjcpw",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/VietPetrus/sta\u2026",
+                            "expanded_url": "https://twitter.com/VietPetrus/status/1595988354989928448",
+                            "url": "https://t.co/JuFyXok3ye"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [
+                "https://confluence.atlassian.com/x/Y4hXRg",
+                "https://jira.atlassian.com/browse/BSERV-13522"
+            ],
+            "vendors": [
+                {
+                    "products": [
+                        {
+                            "product": "Bitbucket",
+                            "versions": [
+                                "*"
+                            ]
+                        }
+                    ],
+                    "vendor": "Atlassian"
+                }
+            ]
+        },
+        {
             "assigner": "PSIRT@sonicwall.com",
-            "audience_size": 137501,
+            "audience_size": 140109,
             "cve": "CVE-2021-20038",
             "cve_urls": null,
             "cvssv2_base_score": 7.5,
@@ -1308,13 +1511,13 @@
                     "description": "SonicWall SMA-100 Unauth RCE Exploit (CVE-2021-20038)",
                     "language": "Python",
                     "name": "badblood",
-                    "stars": 75,
+                    "stars": 76,
                     "topics": [
                         "cve-2021-20038",
                         "exploit",
                         "rce"
                     ],
-                    "updated": "2022-11-25T17:36:06Z",
+                    "updated": "2022-11-25T21:44:06Z",
                     "url": "https://github.com/jbaines-r7/badblood"
                 },
                 {
@@ -1345,9 +1548,9 @@
                 }
             ],
             "lastModifiedDate": "2022-05-13T14:54Z",
-            "num_retweets": 7,
-            "num_tweets": 1,
-            "num_tweets_and_retweets": 8,
+            "num_retweets": 14,
+            "num_tweets": 2,
+            "num_tweets_and_retweets": 16,
             "publishedDate": "2021-12-08T10:15Z",
             "reddit_posts": [
                 {
@@ -1356,9 +1559,9 @@
                     "num_comments": 26,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/rbylc2/sonicwall_strongly_urges_customers_to_patch/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 753088,
+                    "subreddit_subscribers": 753179,
                     "title": "SonicWall \u2018strongly urges\u2019 customers to patch critical SMA 100 bugs",
-                    "upvotes": 29,
+                    "upvotes": 32,
                     "url": "https://www.reddit.com/r/sysadmin/comments/rbylc2/sonicwall_strongly_urges_customers_to_patch/"
                 },
                 {
@@ -1367,7 +1570,7 @@
                     "num_comments": 15,
                     "reddit_url": "https://www.reddit.com/r/PowerShell/comments/s3wh8e/extract_regex_returns_to_many_options/",
                     "subreddit": "PowerShell",
-                    "subreddit_subscribers": 208838,
+                    "subreddit_subscribers": 208858,
                     "title": "extract regex returns to many options",
                     "upvotes": 19,
                     "url": "https://www.reddit.com/r/PowerShell/comments/s3wh8e/extract_regex_returns_to_many_options/"
@@ -1378,9 +1581,9 @@
                     "num_comments": 2,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/s1dtx2/writing_an_exploit_for_cve202120038_sonicwall_ssl/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 460990,
+                    "subreddit_subscribers": 461008,
                     "title": "Writing an Exploit for CVE-2021-20038 (SonicWall SSL VPN)",
-                    "upvotes": 16,
+                    "upvotes": 17,
                     "url": "https://attackerkb.com/topics/QyXRC1wbvC/cve-2021-20038/rapid7-analysis"
                 },
                 {
@@ -1389,9 +1592,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/s20j7z/sonicwall_sma100_unauth_rce_exploit_cve202120038/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 31177,
+                    "subreddit_subscribers": 31186,
                     "title": "SonicWall SMA-100 Unauth RCE Exploit (CVE-2021-20038) - full exploit - brace brace brace",
-                    "upvotes": 5,
+                    "upvotes": 6,
                     "url": "https://github.com/jbaines-r7/badblood"
                 },
                 {
@@ -1411,9 +1614,9 @@
             "tweets": [
                 {
                     "created_at": "2022-11-25 14:40",
-                    "likes": 14,
-                    "num_retweets": 7,
-                    "retweets": 8,
+                    "likes": 21,
+                    "num_retweets": 14,
+                    "retweets": 15,
                     "tweet_id": "1596151728726245382",
                     "tweet_text": "\"badblood: SonicWall SMA-100 Unauth RCE Exploit (CVE-2021-20038)\"\n\n#infosec #pentest #redteam\nhttps://t.co/R0EHjzSUwX https://t.co/ZxVtYkfjhO",
                     "twitter_user_handle": "CyberWarship",
@@ -1426,6 +1629,24 @@
                             "url": "https://t.co/R0EHjzSUwX"
                         }
                     ]
+                },
+                {
+                    "created_at": "2022-11-26 00:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1596294161723846656",
+                    "tweet_text": "The vuln CVE-2021-20038 has a tweet created 0 days ago and retweeted 10 times.\nhttps://t.co/Ge2OlphYFO\n#pow1rtrtwwcve",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/CyberWarship/s\u2026",
+                            "expanded_url": "https://twitter.com/CyberWarship/status/1596151728726245382",
+                            "url": "https://t.co/Ge2OlphYFO"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [
@@ -1435,7 +1656,7 @@
         },
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 98644,
+            "audience_size": 102146,
             "cve": "CVE-2022-37721",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1448,8 +1669,8 @@
             "github_repos": [],
             "lastModifiedDate": "2022-11-25T18:42Z",
             "num_retweets": 2,
-            "num_tweets": 8,
-            "num_tweets_and_retweets": 10,
+            "num_tweets": 10,
+            "num_tweets_and_retweets": 12,
             "publishedDate": "2022-11-25T17:15Z",
             "reddit_posts": [
                 {
@@ -1565,81 +1786,8 @@
             ],
             "vendor_advisories": [],
             "vendors": []
-        },
-        {
-            "assigner": "security-advisories@github.com",
-            "audience_size": 91927,
-            "cve": "CVE-2022-39224",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": 7.8,
-            "cvssv3_base_severity": "HIGH",
-            "cwes": [
-                {
-                    "cwe_description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
-                    "cwe_id": "CWE-78"
-                }
-            ],
-            "description": "Arr-pm is an RPM reader/writer library written in Ruby. Versions prior to 0.0.12 are subject to OS command injection resulting in shell execution if the RPM contains a malicious \"payload compressor\" field. This vulnerability impacts the `extract` and `files` methods of the `RPM::File` class of this library. Version 0.0.12 patches these issues. A workaround for this issue is to ensure any RPMs being processed contain valid/known payload compressor values such as gzip, bzip2, xz, zstd, and lzma. The payload compressor field in an rpm can be checked by using the rpm command line tool.",
-            "epss_score": "0.01559",
-            "github_repos": [],
-            "lastModifiedDate": "2022-09-26T13:41Z",
-            "num_retweets": 3,
-            "num_tweets": 1,
-            "num_tweets_and_retweets": 4,
-            "publishedDate": "2022-09-21T23:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1663807095.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/xkma88/cve202239224/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 109,
-                    "title": "CVE-2022-39224",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-39224"
-                }
-            ],
-            "score": 7.8,
-            "severity": "HIGH",
-            "tweets": [
-                {
-                    "created_at": "2022-11-24 22:23",
-                    "likes": 30,
-                    "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1595905890817052672",
-                    "tweet_text": "We just released another challenge on how to gain command execution by leveraging an RPM file via CVE-2022-39224:\n\nhttps://t.co/uGH4NGtKrJ",
-                    "twitter_user_handle": "PentesterLab",
-                    "twitter_user_name": "PentesterLab",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1110103138961223680/A1FJ5fJg_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "pentesterlab.com/exercises/cve-\u2026",
-                            "expanded_url": "https://pentesterlab.com/exercises/cve-2022-39224/course",
-                            "url": "https://t.co/uGH4NGtKrJ"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Ruby-Arr-Pm",
-                            "versions": [
-                                "*"
-                            ]
-                        }
-                    ],
-                    "vendor": "Ruby-Arr-Pm Project"
-                }
-            ]
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2022-11-25 20:15:42"
+    "updated": "2022-11-26 06:40:58"
 }
