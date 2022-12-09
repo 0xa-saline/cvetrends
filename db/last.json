@@ -1,1756 +1,2177 @@
 [
     {
-        "Modified": "2022-12-08T20:15:00",
-        "Published": "2022-12-08T20:15:00",
-        "access": {},
-        "assigner": "security@golang.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-41717",
-        "impact": {},
-        "last-modified": "2022-12-08T20:15:00",
-        "references": [
-            "https://groups.google.com/g/golang-announce/c/L_3rmdT0BMU/m/yZDrXjIiBQAJ",
-            "https://pkg.go.dev/vuln/GO-2022-1144",
-            "https://go.dev/cl/455717",
-            "https://go.dev/issue/56350",
-            "https://go.dev/cl/455635"
-        ],
-        "summary": "An attacker can cause excessive memory growth in a Go server accepting HTTP/2 requests. HTTP/2 server connections contain a cache of HTTP header keys sent by the client. While the total number of entries in this cache is capped, an attacker sending very large keys can cause the server to allocate approximately 64 MiB per open connection."
-    },
-    {
-        "Modified": "2022-12-08T20:15:00",
-        "Published": "2022-12-08T20:15:00",
+        "Modified": "2022-12-09T05:15:00",
+        "Published": "2022-12-07T01:15:00",
         "access": {},
         "assigner": "cve@mitre.org",
         "cvss": null,
         "cwe": "Unknown",
-        "id": "CVE-2022-44938",
+        "id": "CVE-2022-45915",
         "impact": {},
-        "last-modified": "2022-12-08T20:15:00",
+        "last-modified": "2022-12-09T05:15:00",
         "references": [
-            "https://pwnit.io/2022/11/23/weak-password-reset-token-leads-to-account-takeover-in-seeddms/"
+            "https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-ilias-elearning-platform/",
+            "http://seclists.org/fulldisclosure/2022/Dec/7"
         ],
-        "summary": "Weak reset token generation in SeedDMS v6.0.20 and v5.1.7 allows attackers to execute a full account takeover via a brute force attack."
+        "summary": "ILIAS before 7.16 allows OS Command Injection."
     },
     {
-        "Modified": "2022-12-08T20:14:00",
-        "Published": "2022-12-07T04:15:00",
+        "Modified": "2022-12-09T05:15:00",
+        "Published": "2022-12-07T01:15:00",
         "access": {},
-        "assigner": "f5sirt@f5.com",
+        "assigner": "cve@mitre.org",
         "cvss": null,
-        "cwe": "CWE-352",
-        "id": "CVE-2022-41622",
+        "cwe": "CWE-601",
+        "id": "CVE-2022-45917",
         "impact": {},
-        "last-modified": "2022-12-08T20:14:00",
+        "last-modified": "2022-12-09T05:15:00",
         "references": [
-            "https://support.f5.com/csp/article/K94221585"
+            "https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-ilias-elearning-platform/",
+            "http://seclists.org/fulldisclosure/2022/Dec/7"
         ],
-        "summary": "In all versions, BIG-IP and BIG-IQ are vulnerable to cross-site request forgery (CSRF) attacks through iControl SOAP. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+        "summary": "ILIAS before 7.16 has an Open Redirect."
     },
     {
-        "Modified": "2022-12-08T20:11:00",
-        "Published": "2022-12-07T04:15:00",
+        "Modified": "2022-12-09T05:15:00",
+        "Published": "2022-12-07T01:15:00",
         "access": {},
-        "assigner": "vultures@jpcert.or.jp",
+        "assigner": "cve@mitre.org",
         "cvss": null,
         "cwe": "CWE-79",
-        "id": "CVE-2022-37406",
+        "id": "CVE-2022-45916",
         "impact": {},
-        "last-modified": "2022-12-08T20:11:00",
+        "last-modified": "2022-12-09T05:15:00",
         "references": [
-            "https://jvn.jp/en/jp/JVN24659622/index.html",
-            "https://support.ricoh.com/bb/html/dr_ut_e/rc3/model/sp42/sp42.htm",
-            "https://support.ricoh.com/bbv2/html/dr_ut_d/ipsio/history/w/bb/pub_j/dr_ut_d/4101044/4101044791/V101/5236968/redirect_CLUTool_DOM/history.htm"
+            "https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-ilias-elearning-platform/",
+            "http://seclists.org/fulldisclosure/2022/Dec/7"
         ],
-        "summary": "Cross-site scripting vulnerability in Aficio SP 4210N firmware versions prior to Web Support 1.05 allows a remote authenticated attacker with an administrative privilege to inject an arbitrary script."
+        "summary": "ILIAS before 7.16 allows XSS."
     },
     {
-        "Modified": "2022-12-08T20:07:00",
-        "Published": "2022-12-07T02:15:00",
+        "Modified": "2022-12-09T05:15:00",
+        "Published": "2022-12-07T01:15:00",
         "access": {},
         "assigner": "cve@mitre.org",
         "cvss": null,
-        "cwe": "CWE-78",
-        "id": "CVE-2022-45026",
+        "cwe": "CWE-610",
+        "id": "CVE-2022-45918",
         "impact": {},
-        "last-modified": "2022-12-08T20:07:00",
+        "last-modified": "2022-12-09T05:15:00",
         "references": [
-            "https://github.com/shd101wyy/vscode-markdown-preview-enhanced/issues/640"
+            "https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-ilias-elearning-platform/",
+            "http://seclists.org/fulldisclosure/2022/Dec/7"
         ],
-        "summary": "An issue in Markdown Preview Enhanced v0.6.5 and v0.19.6 for VSCode and Atom allows attackers to execute arbitrary commands during the GFM export process."
+        "summary": "ILIAS before 7.16 allows External Control of File Name or Path."
     },
     {
-        "Modified": "2022-12-08T20:06:00",
-        "Published": "2022-12-07T02:15:00",
+        "Modified": "2022-12-09T05:15:00",
+        "Published": "2022-11-27T01:15:00",
         "access": {},
         "assigner": "cve@mitre.org",
         "cvss": null,
-        "cwe": "CWE-77",
-        "id": "CVE-2022-45025",
+        "cwe": "CWE-862",
+        "id": "CVE-2022-45914",
         "impact": {},
-        "last-modified": "2022-12-08T20:06:00",
+        "last-modified": "2022-12-09T05:15:00",
         "references": [
-            "https://github.com/shd101wyy/vscode-markdown-preview-enhanced/issues/639"
+            "https://www.youtube.com/watch?v=FQRMNjZVlHg",
+            "http://seclists.org/fulldisclosure/2022/Dec/6"
         ],
-        "summary": "Markdown Preview Enhanced v0.6.5 and v0.19.6 for VSCode and Atom was discovered to contain a command injection vulnerability via the PDF file import function."
+        "summary": "The ESL (Electronic Shelf Label) protocol, as implemented by (for example) the OV80e934802 RF transceiver on the ETAG-2130-V4.3 20190629 board, does not use authentication, which allows attackers to change label values via 433 MHz RF signals, as demonstrated by disrupting the organization of a hospital storage unit, or changing retail pricing."
     },
     {
-        "Modified": "2022-12-08T20:03:00",
-        "Published": "2022-12-06T18:15:00",
+        "Modified": "2022-12-09T05:15:00",
+        "Published": "2022-10-29T18:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "CWE-59",
+        "id": "CVE-2022-41973",
+        "impact": {},
+        "last-modified": "2022-12-09T05:15:00",
+        "references": [
+            "https://github.com/opensvc/multipath-tools/releases/tag/0.9.2",
+            "http://www.openwall.com/lists/oss-security/2022/10/24/2",
+            "https://bugzilla.suse.com/show_bug.cgi?id=1202739",
+            "http://seclists.org/fulldisclosure/2022/Oct/25",
+            "http://packetstormsecurity.com/files/169611/Leeloo-Multipath-Authorization-Bypass-Symlink-Attack.html",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QIGZM5NOOMFDCITOLQEJNNX5SCRQLQVV/",
+            "https://www.qualys.com/2022/10/24/leeloo-multipath/leeloo-multipath.txt",
+            "http://www.openwall.com/lists/oss-security/2022/11/30/2",
+            "http://seclists.org/fulldisclosure/2022/Dec/4"
+        ],
+        "summary": "multipath-tools 0.7.7 through 0.9.x before 0.9.2 allows local users to obtain root access, as exploited in conjunction with CVE-2022-41974. Local users able to access /dev/shm can change symlinks in multipathd due to incorrect symlink handling, which could lead to controlled file writes outside of the /dev/shm directory. This could be used indirectly for local privilege escalation to root."
+    },
+    {
+        "Modified": "2022-12-09T05:15:00",
+        "Published": "2022-10-29T19:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "CWE-269",
+        "id": "CVE-2022-41974",
+        "impact": {},
+        "last-modified": "2022-12-09T05:15:00",
+        "references": [
+            "https://github.com/opensvc/multipath-tools/releases/tag/0.9.2",
+            "http://www.openwall.com/lists/oss-security/2022/10/24/2",
+            "https://bugzilla.suse.com/show_bug.cgi?id=1202739",
+            "http://seclists.org/fulldisclosure/2022/Oct/25",
+            "http://packetstormsecurity.com/files/169611/Leeloo-Multipath-Authorization-Bypass-Symlink-Attack.html",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QIGZM5NOOMFDCITOLQEJNNX5SCRQLQVV/",
+            "https://www.qualys.com/2022/10/24/leeloo-multipath/leeloo-multipath.txt",
+            "http://www.openwall.com/lists/oss-security/2022/11/30/2",
+            "http://seclists.org/fulldisclosure/2022/Dec/4"
+        ],
+        "summary": "multipath-tools 0.7.0 through 0.9.x before 0.9.2 allows local users to obtain root access, as exploited alone or in conjunction with CVE-2022-41973. Local users able to write to UNIX domain sockets can bypass access controls and manipulate the multipath setup. This can lead to local privilege escalation to root. This occurs because an attacker can repeat a keyword, which is mishandled because arithmetic ADD is used instead of bitwise OR."
+    },
+    {
+        "Modified": "2022-12-09T05:15:00",
+        "Published": "2022-08-23T20:15:00",
+        "access": {},
+        "assigner": "secalert@redhat.com",
+        "cvss": null,
+        "cwe": "CWE-552",
+        "id": "CVE-2021-3995",
+        "impact": {},
+        "last-modified": "2022-12-09T05:15:00",
+        "references": [
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2024631https://access.redhat.com/security/cve/CVE-2021-3995",
+            "https://github.com/util-linux/util-linux/commit/57202f5713afa2af20ffbb6ab5331481d0396f8d",
+            "https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.37/v2.37.3-ReleaseNotes",
+            "https://www.openwall.com/lists/oss-security/2022/01/24/2",
+            "http://www.openwall.com/lists/oss-security/2022/11/30/2",
+            "http://seclists.org/fulldisclosure/2022/Dec/4"
+        ],
+        "summary": "A logic error was found in the libmount library of util-linux in the function that allows an unprivileged user to unmount a FUSE filesystem. This flaw allows an unprivileged local attacker to unmount FUSE filesystems that belong to certain other users who have a UID that is a prefix of the UID of the attacker in its string form. An attacker may use this flaw to cause a denial of service to applications that use the affected filesystems."
+    },
+    {
+        "Modified": "2022-12-09T05:15:00",
+        "Published": "2022-08-23T20:15:00",
+        "access": {},
+        "assigner": "secalert@redhat.com",
+        "cvss": null,
+        "cwe": "CWE-552",
+        "id": "CVE-2021-3996",
+        "impact": {},
+        "last-modified": "2022-12-09T05:15:00",
+        "references": [
+            "https://github.com/util-linux/util-linux/commit/166e87368ae88bf31112a30e078cceae637f4cdb",
+            "https://access.redhat.com/security/cve/CVE-2021-3996",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2024628",
+            "https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.37/v2.37.3-ReleaseNotes",
+            "https://www.openwall.com/lists/oss-security/2022/01/24/2",
+            "http://www.openwall.com/lists/oss-security/2022/11/30/2",
+            "http://seclists.org/fulldisclosure/2022/Dec/4"
+        ],
+        "summary": "A logic error was found in the libmount library of util-linux in the function that allows an unprivileged user to unmount a FUSE filesystem. This flaw allows a local user on a vulnerable system to unmount other users' filesystems that are either world-writable themselves (like /tmp) or mounted in a world-writable directory. An attacker may use this flaw to cause a denial of service to applications that use the affected filesystems."
+    },
+    {
+        "Modified": "2022-12-09T05:15:00",
+        "Published": "2022-08-18T20:15:00",
+        "access": {},
+        "assigner": "secure@intel.com",
+        "cvss": null,
+        "cwe": "NVD-CWE-Other",
+        "id": "CVE-2022-21225",
+        "impact": {},
+        "last-modified": "2022-12-09T05:15:00",
+        "references": [
+            "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00662.html",
+            "http://seclists.org/fulldisclosure/2022/Dec/1"
+        ],
+        "summary": "Improper neutralization in the Intel(R) Data Center Manager software before version 4.1 may allow an authenticated user to potentially enable escalation of privilege via adjacent access."
+    },
+    {
+        "Modified": "2022-12-09T05:15:00",
+        "Published": "2022-02-17T23:15:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "MEDIUM",
+            "vector": "LOCAL"
+        },
+        "assigner": "security@ubuntu.com",
+        "cvss": 6.9,
+        "cvss-time": "2022-12-09T05:15:00",
+        "cvss-vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+        "cwe": "CWE-362",
+        "id": "CVE-2021-44731",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T05:15:00",
+        "references": [
+            "https://ubuntu.com/security/notices/USN-5292-1",
+            "http://www.openwall.com/lists/oss-security/2022/02/18/2",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XCGHG6LJAVJJ72TMART6A7N4Z6MSTGI7/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3QTBN7LLZISXIA4KU4UKDR27Q5PXDS2U/",
+            "https://www.debian.org/security/2022/dsa-5080",
+            "http://www.openwall.com/lists/oss-security/2022/02/23/2",
+            "http://www.openwall.com/lists/oss-security/2022/02/23/1",
+            "http://www.openwall.com/lists/oss-security/2022/11/30/2",
+            "http://seclists.org/fulldisclosure/2022/Dec/4"
+        ],
+        "summary": "A race condition existed in the snapd 2.54.2 snap-confine binary when preparing a private mount namespace for a snap. This could allow a local attacker to gain root privileges by bind-mounting their own contents inside the snap's private mount namespace and causing snap-confine to execute arbitrary code and hence gain privilege escalation. Fixed in snapd versions 2.54.3+18.04, 2.54.3+20.04 and 2.54.3+21.10.1"
+    },
+    {
+        "Modified": "2022-12-09T05:15:00",
+        "Published": "2021-12-10T10:15:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "MEDIUM",
+            "vector": "NETWORK"
+        },
+        "assigner": "security@apache.org",
+        "cvss": 9.3,
+        "cvss-time": "2022-12-09T05:15:00",
+        "cvss-vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+        "cwe": "CWE-502",
+        "id": "CVE-2021-44228",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T05:15:00",
+        "references": [
+            "https://logging.apache.org/log4j/2.x/security.html",
+            "http://www.openwall.com/lists/oss-security/2021/12/10/1",
+            "http://www.openwall.com/lists/oss-security/2021/12/10/2",
+            "http://packetstormsecurity.com/files/165225/Apache-Log4j2-2.14.1-Remote-Code-Execution.html",
+            "https://security.netapp.com/advisory/ntap-20211210-0007/",
+            "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd",
+            "http://www.openwall.com/lists/oss-security/2021/12/10/3",
+            "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032",
+            "https://www.oracle.com/security-alerts/alert-cve-2021-44228.html",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VU57UJDCFIASIO35GC55JMKSRXJMCDFM/",
+            "http://www.openwall.com/lists/oss-security/2021/12/13/1",
+            "http://www.openwall.com/lists/oss-security/2021/12/13/2",
+            "https://twitter.com/kurtseifried/status/1469345530182455296",
+            "https://lists.debian.org/debian-lts-announce/2021/12/msg00007.html",
+            "https://www.debian.org/security/2021/dsa-5020",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf",
+            "http://packetstormsecurity.com/files/165270/Apache-Log4j2-2.14.1-Remote-Code-Execution.html",
+            "http://packetstormsecurity.com/files/165260/VMware-Security-Advisory-2021-0028.html",
+            "http://packetstormsecurity.com/files/165261/Apache-Log4j2-2.14.1-Information-Disclosure.html",
+            "http://www.openwall.com/lists/oss-security/2021/12/14/4",
+            "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html",
+            "https://www.kb.cert.org/vuls/id/930724",
+            "http://packetstormsecurity.com/files/165282/Log4j-Payload-Generator.html",
+            "http://packetstormsecurity.com/files/165281/Log4j2-Log4Shell-Regexes.html",
+            "http://packetstormsecurity.com/files/165306/L4sh-Log4j-Remote-Code-Execution.html",
+            "http://packetstormsecurity.com/files/165307/Log4j-Remote-Code-Execution-Word-Bypassing.html",
+            "http://packetstormsecurity.com/files/165311/log4j-scan-Extensive-Scanner.html",
+            "http://www.openwall.com/lists/oss-security/2021/12/15/3",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-714170.pdf",
+            "https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/",
+            "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-479842.pdf",
+            "http://packetstormsecurity.com/files/165371/VMware-Security-Advisory-2021-0028.4.html",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-397453.pdf",
+            "http://packetstormsecurity.com/files/165532/Log4Shell-HTTP-Header-Injection.html",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M5CSVUNV4HWZZXGOKNSK6L7RPM7BOKIB/",
+            "https://github.com/cisagov/log4j-affected-db/blob/develop/SOFTWARE-LIST.md",
+            "http://packetstormsecurity.com/files/165642/VMware-vCenter-Server-Unauthenticated-Log4Shell-JNDI-Injection-Remote-Code-Execution.html",
+            "http://packetstormsecurity.com/files/165673/UniFi-Network-Application-Unauthenticated-Log4Shell-Remote-Code-Execution.html",
+            "https://www.oracle.com/security-alerts/cpujan2022.html",
+            "https://github.com/cisagov/log4j-affected-db",
+            "https://www.bentley.com/en/common-vulnerability-exposure/be-2022-0001",
+            "https://support.apple.com/kb/HT213189",
+            "http://seclists.org/fulldisclosure/2022/Mar/23",
+            "https://www.oracle.com/security-alerts/cpuapr2022.html",
+            "https://github.com/nu11secur1ty/CVE-mitre/tree/main/CVE-2021-44228",
+            "https://www.nu11secur1ty.com/2021/12/cve-2021-44228.html",
+            "http://seclists.org/fulldisclosure/2022/Jul/11",
+            "http://packetstormsecurity.com/files/167794/Open-Xchange-App-Suite-7.10.x-Cross-Site-Scripting-Command-Injection.html",
+            "http://packetstormsecurity.com/files/167917/MobileIron-Log4Shell-Remote-Command-Execution.html",
+            "http://seclists.org/fulldisclosure/2022/Dec/2"
+        ],
+        "summary": "Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. From version 2.16.0 (along with 2.12.2, 2.12.3, and 2.3.1), this functionality has been completely removed. Note that this vulnerability is specific to log4j-core and does not affect log4net, log4cxx, or other Apache Logging Services projects."
+    },
+    {
+        "Modified": "2022-12-09T04:15:00",
+        "Published": "2022-11-25T19:15:00",
         "access": {},
         "assigner": "security-advisories@github.com",
         "cvss": null,
-        "cwe": "CWE-338",
-        "id": "CVE-2022-23472",
+        "cwe": "CWE-400",
+        "id": "CVE-2022-39346",
         "impact": {},
-        "last-modified": "2022-12-08T20:03:00",
+        "last-modified": "2022-12-09T04:15:00",
         "references": [
-            "https://github.com/ArjunSharda/Passeo/security/advisories/GHSA-mhhf-vgwh-fw9h",
-            "https://github.com/ArjunSharda/Passeo/commit/8caa798b6bc4647dca59b2376204b6dc6176361a",
-            "https://peps.python.org/pep-0506/"
+            "https://github.com/nextcloud/security-advisories/security/advisories/GHSA-6w9f-jgjx-4vj6",
+            "https://github.com/nextcloud/server/pull/33052",
+            "https://hackerone.com/reports/1588562",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/42TARDPRPBTI5TJRBYRVVQGTL6KWRCV5/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TRAER4DCCHHSUDFHQ6LTIH4JEJFF73IU/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R32L3P53AQKQQC652LA5U3AWFTZKPDK3/"
         ],
-        "summary": "Passeo is an open source python password generator. Versions prior to 1.0.5 rely on the python `random` library for random value selection. The python `random` library warns that it should not be used for security purposes due to its reliance on a non-cryptographically secure random number generator. As a result a motivated attacker may be able to guess generated passwords. This issue has been addressed in version 1.0.5. Users are advised to upgrade. There are no known workarounds for this vulnerability."
+        "summary": "Nextcloud server is an open source personal cloud server. Affected versions of nextcloud server did not properly limit user display names which could allow a malicious users to overload the backing database and cause a denial of service. It is recommended that the Nextcloud Server is upgraded to 22.2.10, 23.0.7 or 24.0.3. There are no known workarounds for this issue."
     },
     {
-        "Modified": "2022-12-08T20:03:00",
-        "Published": "2022-06-02T14:15:00",
+        "Modified": "2022-12-09T04:15:00",
+        "Published": "2022-11-18T23:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "CWE-436",
+        "id": "CVE-2021-33621",
+        "impact": {},
+        "last-modified": "2022-12-09T04:15:00",
+        "references": [
+            "https://www.ruby-lang.org/en/news/2022/11/22/http-response-splitting-in-cgi-cve-2021-33621/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YACE6ORF2QBXXBK2V2CM36D7TZMEJVAS/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DQR7LWED6VAPD5ATYOBZIGJQPCUBRJBX/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/THVTYHHEOVLQFCFHWURZYO7PVUPBHRZD/"
+        ],
+        "summary": "The cgi gem before 0.1.0.2, 0.2.x before 0.2.2, and 0.3.x before 0.3.5 for Ruby allows HTTP response splitting. This is relevant to applications that use untrusted user input either to generate an HTTP response or to create a CGI::Cookie object."
+    },
+    {
+        "Modified": "2022-12-09T04:15:00",
+        "Published": "2022-11-09T07:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "CWE-400",
+        "id": "CVE-2022-45061",
+        "impact": {},
+        "last-modified": "2022-12-09T04:15:00",
+        "references": [
+            "https://github.com/python/cpython/issues/98433",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/O67LRHDTJWH544KXB6KY4HMHQLYDXFPK/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4WBZJNSALFGMPYTINIF57HAAK46U72WQ/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTPVDZDATRQFE6KAT6B4BQIQ4GRHIIIJ/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RTN2OOLKYTG34DODUEJGT5MLC2PFGPBA/"
+        ],
+        "summary": "An issue was discovered in Python before 3.11.1. An unnecessary quadratic algorithm exists in one path when processing some inputs to the IDNA (RFC 3490) decoder, such that a crafted, unreasonably long name being presented to the decoder could lead to a CPU denial of service. Hostnames are often supplied by remote servers that could be controlled by a malicious actor; in such a scenario, they could trigger excessive CPU consumption on the client attempting to make use of an attacker-supplied supposed hostname. For example, the attack payload could be placed in the Location header of an HTTP response with status code 302. A fix is planned in 3.11.1, 3.10.9, 3.9.16, 3.8.16, and 3.7.16."
+    },
+    {
+        "Modified": "2022-12-09T02:40:00",
+        "Published": "2018-05-09T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 10.0,
+        "cvss-time": "2022-12-09T02:40:00",
+        "cvss-vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+        "cwe": "CWE-78",
+        "id": "CVE-2017-14475",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T02:40:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0501"
+        ],
+        "summary": "In the MMM::Agent::Helpers::Network::add_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Linux), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\\_agentd process. An attacker that can initiate a TCP session with mmm\\_agentd can trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T02:39:00",
+        "Published": "2018-05-09T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 10.0,
+        "cvss-time": "2022-12-09T02:39:00",
+        "cvss-vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+        "cwe": "CWE-78",
+        "id": "CVE-2017-14474",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T02:39:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0501"
+        ],
+        "summary": "In the MMM::Agent::Helpers::_execute function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1, a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\\_agentd process. An attacker that can initiate a TCP session with mmm\\_agentd can trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T02:39:00",
+        "Published": "2018-05-09T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 10.0,
+        "cvss-time": "2022-12-09T02:39:00",
+        "cvss-vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+        "cwe": "CWE-78",
+        "id": "CVE-2017-14476",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T02:39:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0501"
+        ],
+        "summary": "In the MMM::Agent::Helpers::Network::add_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Solaris), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\\_agentd process. An attacker that can initiate a TCP session with mmm\\_agentd can trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T02:38:00",
+        "Published": "2018-05-09T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 10.0,
+        "cvss-time": "2022-12-09T02:38:00",
+        "cvss-vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+        "cwe": "CWE-78",
+        "id": "CVE-2017-14477",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T02:38:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0501"
+        ],
+        "summary": "In the MMM::Agent::Helpers::Network::add_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for FreeBSD), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\\_agentd process. An attacker that can initiate a TCP session with mmm\\_agentd can trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T02:37:00",
+        "Published": "2018-05-09T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 10.0,
+        "cvss-time": "2022-12-09T02:37:00",
+        "cvss-vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+        "cwe": "CWE-78",
+        "id": "CVE-2017-14478",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T02:37:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0501"
+        ],
+        "summary": "In the MMM::Agent::Helpers::Network::clear_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Linux), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\\_agentd process. An attacker that can initiate a TCP session with mmm\\_agentd can trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T02:36:00",
+        "Published": "2018-05-09T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 10.0,
+        "cvss-time": "2022-12-09T02:36:00",
+        "cvss-vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+        "cwe": "CWE-78",
+        "id": "CVE-2017-14479",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T02:36:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0501"
+        ],
+        "summary": "In the MMM::Agent::Helpers::Network::clear_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Solaris), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\\_agentd process. An attacker that can initiate a TCP session with mmm\\_agentd can trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T02:35:00",
+        "Published": "2018-05-09T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 10.0,
+        "cvss-time": "2022-12-09T02:35:00",
+        "cvss-vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+        "cwe": "CWE-78",
+        "id": "CVE-2017-14480",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T02:35:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0501"
+        ],
+        "summary": "In the MMM::Agent::Helpers::Network::clear_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for FreeBSD), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\\_agentd process. An attacker that can initiate a TCP session with mmm\\_agentd can trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T02:35:00",
+        "Published": "2018-08-06T21:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 5.5,
+        "cvss-time": "2022-12-09T02:35:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:N/I:P/A:P",
+        "cwe": "CWE-787",
+        "id": "CVE-2017-16252",
+        "impact": {
+            "availability": "PARTIAL",
+            "confidentiality": "NONE",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T02:35:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0483"
+        ],
+        "summary": "Specially crafted commands sent through the PubNub service in Insteon Hub 2245-222 with firmware version 1012 can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability.At 0x9d014cc0 the value for the cmd key is copied using strcpy to the buffer at $sp+0x11c. This buffer is 20 bytes large, sending anything longer will cause a buffer overflow."
+    },
+    {
+        "Modified": "2022-12-09T02:33:00",
+        "Published": "2019-03-21T17:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 5.5,
+        "cvss-time": "2022-12-09T02:33:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:N/I:P/A:P",
+        "cwe": "CWE-787",
+        "id": "CVE-2017-16253",
+        "impact": {
+            "availability": "PARTIAL",
+            "confidentiality": "NONE",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T02:33:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2017-0483"
+        ],
+        "summary": "An exploitable buffer overflow vulnerability exists in the PubNub message handler Insteon Hub 2245-222 - Firmware version 1012 for the cc channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker can send an authenticated HTTP request At 0x9d014dd8 the value for the id key is copied using strcpy to the buffer at $sp+0x290. This buffer is 32 bytes large, sending anything longer will cause a buffer overflow."
+    },
+    {
+        "Modified": "2022-12-09T02:31:00",
+        "Published": "2019-03-21T17:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 5.5,
+        "cvss-time": "2022-12-09T02:31:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:N/I:P/A:P",
+        "cwe": "CWE-787",
+        "id": "CVE-2017-16254",
+        "impact": {
+            "availability": "PARTIAL",
+            "confidentiality": "NONE",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T02:31:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2017-0483"
+        ],
+        "summary": "An exploitable buffer overflow vulnerability exists in the PubNub message handler Insteon Hub 2245-222 - Firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker can send an authenticated HTTP request at 0x9d014e4c the value for the flg key is copied using strcpy to the buffer at $sp+0x270. This buffer is 16 bytes large, sending anything longer will cause a buffer overflow."
+    },
+    {
+        "Modified": "2022-12-09T02:30:00",
+        "Published": "2019-03-21T17:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 5.5,
+        "cvss-time": "2022-12-09T02:30:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:N/I:P/A:P",
+        "cwe": "CWE-120",
+        "id": "CVE-2017-16255",
+        "impact": {
+            "availability": "PARTIAL",
+            "confidentiality": "NONE",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T02:30:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2017-0483"
+        ],
+        "summary": "An exploitable buffer overflow vulnerability exists in the PubNub message handler Insteon Hub 2245-222 - Firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker can send an authenticated HTTP request at At 0x9d014e84 the value for the cmd1 key is copied using strcpy to the buffer at $sp+0x280. This buffer is 16 bytes large."
+    },
+    {
+        "Modified": "2022-12-09T02:29:00",
+        "Published": "2018-08-23T15:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 9.0,
+        "cvss-time": "2022-12-09T02:29:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+        "cwe": "CWE-120",
+        "id": "CVE-2017-16337",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T02:29:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0483"
+        ],
+        "summary": "On Insteon Hub 2245-222 devices with firmware version 1012, specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. At 0x9d01ef24 the value for the s_offset key is copied using strcpy to the buffer at $sp+0x2b0. This buffer is 32 bytes large, sending anything longer will cause a buffer overflow."
+    },
+    {
+        "Modified": "2022-12-09T02:28:00",
+        "Published": "2018-08-02T19:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 8.0,
+        "cvss-time": "2022-12-09T02:28:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:P/I:P/A:C",
+        "cwe": "CWE-120",
+        "id": "CVE-2017-16338",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "PARTIAL",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T02:28:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0484"
+        ],
+        "summary": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01bad0 the value for the host key is copied using strcpy to the buffer at 0xa00016e0. This buffer is 32 bytes large, sending anything longer will cause a buffer overflow."
+    },
+    {
+        "Modified": "2022-12-09T02:25:00",
+        "Published": "2018-08-02T19:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 8.0,
+        "cvss-time": "2022-12-09T02:25:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:P/I:P/A:C",
+        "cwe": "CWE-120",
+        "id": "CVE-2017-16339",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "PARTIAL",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T02:25:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0484"
+        ],
+        "summary": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01bb1c the value for the uri key is copied using strcpy to the buffer at 0xa00016a0. This buffer is 64 bytes large, sending anything longer will cause a buffer overflow."
+    },
+    {
+        "Modified": "2022-12-09T02:23:00",
+        "Published": "2018-08-02T19:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 8.0,
+        "cvss-time": "2022-12-09T02:23:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:P/I:P/A:C",
+        "cwe": "CWE-120",
+        "id": "CVE-2017-16341",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "PARTIAL",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T02:23:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0484"
+        ],
+        "summary": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c224 the value for the s_vol_play key is copied using strcpy to the buffer at 0xa0000418. This buffer is maximum 8 bytes large (this is the maximum size it could be, it is possible other global variables are stored between this variable and the next one that we could identify), sending anything longer will cause a buffer overflow."
+    },
+    {
+        "Modified": "2022-12-09T02:20:00",
+        "Published": "2018-08-02T19:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 8.0,
+        "cvss-time": "2022-12-09T02:20:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:P/I:P/A:C",
+        "cwe": "CWE-120",
+        "id": "CVE-2017-16345",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "PARTIAL",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T02:20:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0484"
+        ],
+        "summary": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c318 the value for the s_port key is copied using strcpy to the buffer at 0xa00017f4. This buffer is 6 bytes large, sending anything longer will cause a buffer overflow. The destination can also be shifted by using an sn_speaker parameter between \"0\" and \"3\"."
+    },
+    {
+        "Modified": "2022-12-09T02:20:00",
+        "Published": "2018-08-02T19:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 8.0,
+        "cvss-time": "2022-12-09T02:20:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:P/I:P/A:C",
+        "cwe": "CWE-120",
+        "id": "CVE-2017-16346",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "PARTIAL",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T02:20:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0484"
+        ],
+        "summary": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c368 the value for the s_mac key is copied using strcpy to the buffer at 0xa000170c. This buffer is 25 bytes large, sending anything longer will cause a buffer overflow. The destination can also be shifted by using an sn_speaker parameter between \"0\" and \"3\"."
+    },
+    {
+        "Modified": "2022-12-09T02:15:00",
+        "Published": "2022-12-09T02:15:00",
+        "access": {},
+        "assigner": "sirt@brocade.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-33187",
+        "impact": {},
+        "last-modified": "2022-12-09T02:15:00",
+        "references": [
+            "https://www.broadcom.com/support/fibre-channel-networking/security-advisories/brocade-security-advisory-2022-2122"
+        ],
+        "summary": "Brocade SANnav before v2.2.1 logs usernames and encoded passwords in debug-enabled logs. The vulnerability could allow an attacker with admin privilege to read sensitive information."
+    },
+    {
+        "Modified": "2022-12-09T02:14:00",
+        "Published": "2018-08-02T19:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 8.0,
+        "cvss-time": "2022-12-09T02:14:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:P/I:P/A:C",
+        "cwe": "CWE-119",
+        "id": "CVE-2017-16344",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "PARTIAL",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T02:14:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0484"
+        ],
+        "summary": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c2c8 the value for the s_url key is copied using strcpy to the buffer at 0xa0001a0c. This buffer is 16 bytes large, sending anything longer will cause a buffer overflow. The destination can also be shifted by using an sn_speaker parameter between \"0\" and \"3\"."
+    },
+    {
+        "Modified": "2022-12-09T02:13:00",
+        "Published": "2018-08-02T19:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 8.0,
+        "cvss-time": "2022-12-09T02:13:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:P/I:P/A:C",
+        "cwe": "CWE-119",
+        "id": "CVE-2017-16340",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "PARTIAL",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T02:13:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0484"
+        ],
+        "summary": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c0e8 the value for the s_dport key is copied using strcpy to the buffer at 0xa000180c. This buffer is 6 bytes large, sending anything longer will cause a buffer overflow."
+    },
+    {
+        "Modified": "2022-12-09T02:12:00",
+        "Published": "2018-08-02T19:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 8.0,
+        "cvss-time": "2022-12-09T02:12:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:P/I:P/A:C",
+        "cwe": "CWE-119",
+        "id": "CVE-2017-16347",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "PARTIAL",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T02:12:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0484"
+        ],
+        "summary": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01e7d4 the value for the s_vol key is copied using strcpy to the buffer at 0xa0001700. This buffer is maximum 12 bytes large (this is the maximum size it could be, it is possible other global variables are stored between this variable and the next one that we could identify), sending anything longer will cause a buffer overflow."
+    },
+    {
+        "Modified": "2022-12-09T02:10:00",
+        "Published": "2018-04-24T19:29:00",
         "access": {
             "authentication": "NONE",
             "complexity": "MEDIUM",
             "vector": "NETWORK"
         },
-        "assigner": "security@huntr.dev",
+        "assigner": "talos-cna@cisco.com",
         "cvss": 6.8,
-        "cvss-time": "2022-12-08T20:03:00",
+        "cvss-time": "2022-12-09T02:10:00",
         "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-416",
-        "id": "CVE-2022-1968",
+        "cwe": "CWE-119",
+        "id": "CVE-2017-14442",
         "impact": {
             "availability": "PARTIAL",
             "confidentiality": "PARTIAL",
             "integrity": "PARTIAL"
         },
-        "last-modified": "2022-12-08T20:03:00",
+        "last-modified": "2022-12-09T02:10:00",
         "references": [
-            "https://huntr.dev/bounties/949090e5-f4ea-4edf-bd79-cd98f0498a5b",
-            "https://github.com/vim/vim/commit/409510c588b1eec1ae33511ae97a21eb8e110895",
-            "https://lists.debian.org/debian-lts-announce/2022/06/msg00014.html",
-            "https://security.gentoo.org/glsa/202208-32",
-            "https://support.apple.com/kb/HT213488",
-            "http://seclists.org/fulldisclosure/2022/Oct/41",
-            "http://seclists.org/fulldisclosure/2022/Oct/28",
-            "https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html"
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0491",
+            "https://www.debian.org/security/2018/dsa-4177",
+            "https://lists.debian.org/debian-lts-announce/2018/04/msg00005.html",
+            "https://www.debian.org/security/2018/dsa-4184",
+            "https://security.gentoo.org/glsa/201903-17"
         ],
-        "summary": "Use After Free in GitHub repository vim/vim prior to 8.2."
+        "summary": "An exploitable code execution vulnerability exists in the BMP image rendering functionality of SDL2_image-2.0.2. A specially crafted BMP image can cause a stack overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability."
     },
     {
-        "Modified": "2022-12-08T20:02:00",
-        "Published": "2022-05-27T09:15:00",
+        "Modified": "2022-12-09T02:10:00",
+        "Published": "2018-04-24T19:29:00",
         "access": {
             "authentication": "NONE",
             "complexity": "MEDIUM",
             "vector": "NETWORK"
         },
-        "assigner": "security@huntr.dev",
+        "assigner": "talos-cna@cisco.com",
         "cvss": 6.8,
-        "cvss-time": "2022-12-08T20:02:00",
+        "cvss-time": "2022-12-09T02:10:00",
         "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-416",
-        "id": "CVE-2022-1898",
+        "cwe": "CWE-190",
+        "id": "CVE-2017-14441",
         "impact": {
             "availability": "PARTIAL",
             "confidentiality": "PARTIAL",
             "integrity": "PARTIAL"
         },
-        "last-modified": "2022-12-08T20:02:00",
+        "last-modified": "2022-12-09T02:10:00",
         "references": [
-            "https://github.com/vim/vim/commit/e2fa213cf571041dbd04ab0329303ffdc980678a",
-            "https://huntr.dev/bounties/45aad635-c2f1-47ca-a4f9-db5b25979cea",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QMFHBC5OQXDPV2SDYA2JUQGVCPYASTJB/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OZSLFIKFYU5Y2KM5EJKQNYHWRUBDQ4GJ/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TYNK6SDCMOLQJOI3B4AOE66P2G2IH4ZM/",
-            "https://lists.debian.org/debian-lts-announce/2022/06/msg00014.html",
-            "https://security.gentoo.org/glsa/202208-32",
-            "https://support.apple.com/kb/HT213488",
-            "http://seclists.org/fulldisclosure/2022/Oct/28",
-            "http://seclists.org/fulldisclosure/2022/Oct/41",
-            "https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html"
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0490",
+            "https://www.debian.org/security/2018/dsa-4177",
+            "https://lists.debian.org/debian-lts-announce/2018/04/msg00005.html",
+            "https://www.debian.org/security/2018/dsa-4184",
+            "https://security.gentoo.org/glsa/201903-17"
         ],
-        "summary": "Use After Free in GitHub repository vim/vim prior to 8.2."
+        "summary": "An exploitable code execution vulnerability exists in the ICO image rendering functionality of SDL2_image-2.0.2. A specially crafted ICO image can cause an integer overflow, cascading to a heap overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability."
     },
     {
-        "Modified": "2022-12-08T20:02:00",
-        "Published": "2022-05-25T13:15:00",
+        "Modified": "2022-12-09T02:08:00",
+        "Published": "2018-05-14T20:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 9.0,
+        "cvss-time": "2022-12-09T02:08:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+        "cwe": "CWE-78",
+        "id": "CVE-2017-14433",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T02:08:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0482"
+        ],
+        "summary": "An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation resulting in root shell. An attacker can inject OS commands into the remoteNetwork0= parameter in the \"/goform/net\\_Web\\_get_value\" uri to trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T02:07:00",
+        "Published": "2018-04-24T19:29:00",
         "access": {
             "authentication": "NONE",
             "complexity": "MEDIUM",
             "vector": "NETWORK"
         },
-        "assigner": "security@huntr.dev",
+        "assigner": "talos-cna@cisco.com",
         "cvss": 6.8,
-        "cvss-time": "2022-12-08T20:02:00",
+        "cvss-time": "2022-12-09T02:07:00",
         "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-125",
-        "id": "CVE-2022-1851",
+        "cwe": "CWE-787",
+        "id": "CVE-2017-14440",
         "impact": {
             "availability": "PARTIAL",
             "confidentiality": "PARTIAL",
             "integrity": "PARTIAL"
         },
-        "last-modified": "2022-12-08T20:02:00",
+        "last-modified": "2022-12-09T02:07:00",
         "references": [
-            "https://github.com/vim/vim/commit/78d52883e10d71f23ab72a3d8b9733b00da8c9ad",
-            "https://huntr.dev/bounties/f8af901a-9a46-440d-942a-8f815b59394d",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QMFHBC5OQXDPV2SDYA2JUQGVCPYASTJB/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OZSLFIKFYU5Y2KM5EJKQNYHWRUBDQ4GJ/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TYNK6SDCMOLQJOI3B4AOE66P2G2IH4ZM/",
-            "https://lists.debian.org/debian-lts-announce/2022/06/msg00014.html",
-            "https://security.gentoo.org/glsa/202208-32",
-            "https://support.apple.com/kb/HT213488",
-            "http://seclists.org/fulldisclosure/2022/Oct/41",
-            "http://seclists.org/fulldisclosure/2022/Oct/28",
-            "https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html"
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0489",
+            "https://www.debian.org/security/2018/dsa-4177",
+            "https://lists.debian.org/debian-lts-announce/2018/04/msg00005.html",
+            "https://www.debian.org/security/2018/dsa-4184",
+            "https://security.gentoo.org/glsa/201903-17"
         ],
-        "summary": "Out-of-bounds Read in GitHub repository vim/vim prior to 8.2."
+        "summary": "An exploitable code execution vulnerability exists in the ILBM image rendering functionality of SDL2_image-2.0.2. A specially crafted ILBM image can cause a stack overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability."
     },
     {
-        "Modified": "2022-12-08T20:02:00",
-        "Published": "2022-05-05T15:15:00",
+        "Modified": "2022-12-09T02:07:00",
+        "Published": "2018-05-14T20:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 9.0,
+        "cvss-time": "2022-12-09T02:07:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+        "cwe": "CWE-78",
+        "id": "CVE-2017-14434",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T02:07:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0482"
+        ],
+        "summary": "An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation resulting in root shell. An attacker can inject OS commands into the remoteNetmask0= parameter in the \"/goform/net\\_Web\\_get_value\" uri to trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T02:06:00",
+        "Published": "2018-08-02T19:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 8.0,
+        "cvss-time": "2022-12-09T02:06:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:P/I:P/A:C",
+        "cwe": "CWE-119",
+        "id": "CVE-2017-16343",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "PARTIAL",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T02:06:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0484"
+        ],
+        "summary": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c284 the value for the s_vol_brt_delta key is copied using strcpy to the buffer at 0xa0000510. This buffer is 4 bytes large, sending anything longer will cause a buffer overflow."
+    },
+    {
+        "Modified": "2022-12-09T02:05:00",
+        "Published": "2018-08-02T19:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 8.0,
+        "cvss-time": "2022-12-09T02:05:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:P/I:P/A:C",
+        "cwe": "CWE-119",
+        "id": "CVE-2017-16342",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "PARTIAL",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T02:05:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0484"
+        ],
+        "summary": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c254 the value for the s_vol_dim_delta key is copied using strcpy to the buffer at 0xa0000514. This buffer is 4 bytes large, sending anything longer will cause a buffer overflow."
+    },
+    {
+        "Modified": "2022-12-09T02:05:00",
+        "Published": "2018-05-14T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 5.0,
+        "cvss-time": "2022-12-09T02:05:00",
+        "cvss-vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+        "cwe": "CWE-476",
+        "id": "CVE-2017-14436",
+        "impact": {
+            "availability": "PARTIAL",
+            "confidentiality": "NONE",
+            "integrity": "NONE"
+        },
+        "last-modified": "2022-12-09T02:05:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0474"
+        ],
+        "summary": "An exploitable denial of service vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP URI can cause a null pointer dereference resulting in denial of service. An attacker can send a GET request to \"/MOXA\\_CFG2.ini\" without a cookie header to trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T02:04:00",
+        "Published": "2018-05-09T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 10.0,
+        "cvss-time": "2022-12-09T02:04:00",
+        "cvss-vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+        "cwe": "CWE-78",
+        "id": "CVE-2017-14481",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T02:04:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0501"
+        ],
+        "summary": "In the MMM::Agent::Helpers::Network::send_arp function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Solaris), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\\_agentd process. An attacker that can initiate a TCP session with mmm\\_agentd can trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T02:01:00",
+        "Published": "2022-11-01T18:15:00",
+        "access": {},
+        "assigner": "openssl-security@openssl.org",
+        "cvss": null,
+        "cwe": "CWE-120",
+        "id": "CVE-2022-3786",
+        "impact": {},
+        "last-modified": "2022-12-09T02:01:00",
+        "references": [
+            "https://www.openssl.org/news/secadv/20221101.txt",
+            "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=c42165b5706e42f67ef8ef4c351a9a4c5d21639a"
+        ],
+        "summary": "A buffer overrun can be triggered in X.509 certificate verification, specifically in name constraint checking. Note that this occurs after certificate chain signature verification and requires either a CA to have signed a malicious certificate or for an application to continue certificate verification despite failure to construct a path to a trusted issuer. An attacker can craft a malicious email address in a certificate to overflow an arbitrary number of bytes containing the `.' character (decimal 46) on the stack. This buffer overflow could result in a crash (causing a denial of service). In a TLS client, this can be triggered by connecting to a malicious server. In a TLS server, this can be triggered if the server requests client authentication and a malicious client connects."
+    },
+    {
+        "Modified": "2022-12-09T02:00:00",
+        "Published": "2018-05-14T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 5.0,
+        "cvss-time": "2022-12-09T02:00:00",
+        "cvss-vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+        "cwe": "CWE-476",
+        "id": "CVE-2017-14437",
+        "impact": {
+            "availability": "PARTIAL",
+            "confidentiality": "NONE",
+            "integrity": "NONE"
+        },
+        "last-modified": "2022-12-09T02:00:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0474"
+        ],
+        "summary": "An exploitable denial of service vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP URI can cause a null pointer dereference resulting in denial of service. An attacker can send a GET request to \"/MOXA\\_LOG.ini\" without a cookie header to trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T01:58:00",
+        "Published": "2018-05-14T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "LOW",
+            "vector": "ADJACENT_NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 3.3,
+        "cvss-time": "2022-12-09T01:58:00",
+        "cvss-vector": "AV:A/AC:L/Au:N/C:P/I:N/A:N",
+        "cwe": "CWE-522",
+        "id": "CVE-2017-12123",
+        "impact": {
+            "availability": "NONE",
+            "confidentiality": "PARTIAL",
+            "integrity": "NONE"
+        },
+        "last-modified": "2022-12-09T01:58:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0475"
+        ],
+        "summary": "An exploitable clear text transmission of password vulnerability exists in the web server and telnet functionality of Moxa EDR-810 V4.1 build 17030317. An attacker can look at network traffic to get the admin password for the device. The attacker can then use the credentials to login as admin."
+    },
+    {
+        "Modified": "2022-12-09T01:56:00",
+        "Published": "2018-05-14T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "MEDIUM",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 4.3,
+        "cvss-time": "2022-12-09T01:56:00",
+        "cvss-vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+        "cwe": "CWE-476",
+        "id": "CVE-2017-12124",
+        "impact": {
+            "availability": "PARTIAL",
+            "confidentiality": "NONE",
+            "integrity": "NONE"
+        },
+        "last-modified": "2022-12-09T01:56:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0476"
+        ],
+        "summary": "An exploitable denial of service vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP URI can cause a null pointer dereference resulting in the web server crashing. An attacker can send a crafted URI to trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T01:51:00",
+        "Published": "2018-05-14T20:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 9.0,
+        "cvss-time": "2022-12-09T01:51:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+        "cwe": "CWE-78",
+        "id": "CVE-2017-12125",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T01:51:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0477"
+        ],
+        "summary": "An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation resulting in root shell. An attacker can inject OS commands into the CN= parm in the \"/goform/net_WebCSRGen\" uri to trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T01:50:00",
+        "Published": "2018-05-14T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "MEDIUM",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 6.8,
+        "cvss-time": "2022-12-09T01:50:00",
+        "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+        "cwe": "CWE-352",
+        "id": "CVE-2017-12126",
+        "impact": {
+            "availability": "PARTIAL",
+            "confidentiality": "PARTIAL",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-09T01:50:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0478"
+        ],
+        "summary": "An exploitable cross-site request forgery vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP packet can cause cross-site request forgery. An attacker can create malicious HTML to trigger this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T01:49:00",
+        "Published": "2018-05-14T20:29:00",
         "access": {
             "authentication": "NONE",
             "complexity": "LOW",
             "vector": "LOCAL"
         },
-        "assigner": "secalert@redhat.com",
-        "cvss": 4.9,
-        "cvss-time": "2022-12-08T20:02:00",
-        "cvss-vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C",
-        "cwe": "CWE-416",
-        "id": "CVE-2022-1516",
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 2.1,
+        "cvss-time": "2022-12-09T01:49:00",
+        "cvss-vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+        "cwe": "CWE-522",
+        "id": "CVE-2017-12127",
         "impact": {
-            "availability": "COMPLETE",
+            "availability": "NONE",
+            "confidentiality": "PARTIAL",
+            "integrity": "NONE"
+        },
+        "last-modified": "2022-12-09T01:49:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0479"
+        ],
+        "summary": "A password storage vulnerability exists in the operating system functionality of Moxa EDR-810 V4.1 build 17030317. An attacker with shell access could extract passwords in clear text from the device."
+    },
+    {
+        "Modified": "2022-12-09T01:48:00",
+        "Published": "2018-05-14T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 5.0,
+        "cvss-time": "2022-12-09T01:48:00",
+        "cvss-vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+        "cwe": "CWE-476",
+        "id": "CVE-2017-14435",
+        "impact": {
+            "availability": "PARTIAL",
             "confidentiality": "NONE",
             "integrity": "NONE"
         },
-        "last-modified": "2022-12-08T20:02:00",
+        "last-modified": "2022-12-09T01:48:00",
         "references": [
-            "https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git/commit/?id=7781607938c8",
-            "http://www.openwall.com/lists/oss-security/2022/06/19/1",
-            "https://lists.debian.org/debian-lts-announce/2022/07/msg00000.html",
-            "https://www.debian.org/security/2022/dsa-5173"
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0474"
         ],
-        "summary": "A NULL pointer dereference flaw was found in the Linux kernel\u2019s X.25 set of standardized network protocols functionality in the way a user terminates their session using a simulated Ethernet card and continued usage of this connection. This flaw allows a local user to crash the system."
+        "summary": "An exploitable denial of service vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP URI can cause a null pointer dereference resulting in denial of service. An attacker can send a GET request to \"/MOXA\\_CFG.ini\" without a cookie header to trigger this vulnerability."
     },
     {
-        "Modified": "2022-12-08T20:00:00",
-        "Published": "2022-09-17T22:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-122",
-        "id": "CVE-2022-3234",
-        "impact": {},
-        "last-modified": "2022-12-08T20:00:00",
+        "Modified": "2022-12-09T01:48:00",
+        "Published": "2018-05-14T20:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 9.0,
+        "cvss-time": "2022-12-09T01:48:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+        "cwe": "CWE-78",
+        "id": "CVE-2017-14432",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T01:48:00",
         "references": [
-            "https://github.com/vim/vim/commit/c249913edc35c0e666d783bfc21595cf9f7d9e0d",
-            "https://huntr.dev/bounties/90fdf374-bf04-4386-8a23-38c83b88f0da",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/",
-            "https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/"
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0482"
         ],
-        "summary": "Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0483."
+        "summary": "An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation resulting in root shell. An attacker can inject OS commands into the openvpnServer0_tmp= parameter in the \"/goform/net\\_Web\\_get_value\" uri to trigger this vulnerability."
     },
     {
-        "Modified": "2022-12-08T20:00:00",
-        "Published": "2022-05-07T19:15:00",
+        "Modified": "2022-12-09T01:47:00",
+        "Published": "2018-05-14T20:29:00",
         "access": {
             "authentication": "NONE",
             "complexity": "MEDIUM",
+            "vector": "ADJACENT_NETWORK"
+        },
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 2.9,
+        "cvss-time": "2022-12-09T01:47:00",
+        "cvss-vector": "AV:A/AC:M/Au:N/C:P/I:N/A:N",
+        "cwe": "CWE-327",
+        "id": "CVE-2017-12129",
+        "impact": {
+            "availability": "NONE",
+            "confidentiality": "PARTIAL",
+            "integrity": "NONE"
+        },
+        "last-modified": "2022-12-09T01:47:00",
+        "references": [
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0481"
+        ],
+        "summary": "An exploitable Weak Cryptography for Passwords vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. An attacker could intercept weakly encrypted passwords and could brute force them."
+    },
+    {
+        "Modified": "2022-12-09T01:45:00",
+        "Published": "2022-07-12T21:15:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "MEDIUM",
+            "vector": "LOCAL"
+        },
+        "assigner": "security-advisories@github.com",
+        "cvss": 6.9,
+        "cvss-time": "2022-12-09T01:45:00",
+        "cvss-vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+        "cwe": "CWE-427",
+        "id": "CVE-2022-29187",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2022-12-09T01:45:00",
+        "references": [
+            "https://github.blog/2022-04-12-git-security-vulnerability-announced",
+            "https://lore.kernel.org/git/xmqqv8s2fefi.fsf@gitster.g/T/#u",
+            "https://github.com/git/git/security/advisories/GHSA-j342-m5hw-rr3v",
+            "http://www.openwall.com/lists/oss-security/2022/07/14/1",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TRZG5CDUQ27OWTPC5MQOR4UASNXHWEZS/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DDI325LOO2XBDDKLINOAQJEG6MHAURZE/",
+            "https://support.apple.com/kb/HT213496",
+            "http://seclists.org/fulldisclosure/2022/Nov/1"
+        ],
+        "summary": "Git is a distributed revision control system. Git prior to versions 2.37.1, 2.36.2, 2.35.4, 2.34.4, 2.33.4, 2.32.3, 2.31.4, and 2.30.5, is vulnerable to privilege escalation in all platforms. An unsuspecting user could still be affected by the issue reported in CVE-2022-24765, for example when navigating as root into a shared tmp directory that is owned by them, but where an attacker could create a git repository. Versions 2.37.1, 2.36.2, 2.35.4, 2.34.4, 2.33.4, 2.32.3, 2.31.4, and 2.30.5 contain a patch for this issue. The simplest way to avoid being affected by the exploit described in the example is to avoid running git as root (or an Administrator in Windows), and if needed to reduce its use to a minimum. While a generic workaround is not possible, a system could be hardened from the exploit described in the example by removing any such repository if it exists already and creating one as root to block any future attacks."
+    },
+    {
+        "Modified": "2022-12-09T01:45:00",
+        "Published": "2018-05-14T20:29:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "LOW",
             "vector": "NETWORK"
         },
-        "assigner": "security@huntr.dev",
-        "cvss": 6.8,
-        "cvss-time": "2022-12-08T20:00:00",
-        "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-416",
-        "id": "CVE-2022-1616",
+        "assigner": "talos-cna@cisco.com",
+        "cvss": 5.0,
+        "cvss-time": "2022-12-09T01:45:00",
+        "cvss-vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+        "cwe": "CWE-200",
+        "id": "CVE-2017-12128",
         "impact": {
-            "availability": "PARTIAL",
+            "availability": "NONE",
             "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
+            "integrity": "NONE"
         },
-        "last-modified": "2022-12-08T20:00:00",
+        "last-modified": "2022-12-09T01:45:00",
         "references": [
-            "https://github.com/vim/vim/commit/d88934406c5375d88f8f1b65331c9f0cab68cc6c",
-            "https://huntr.dev/bounties/40f1d75f-fb2f-4281-b585-a41017f217e2",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/A6BY5P7ERZS7KXSBCGFCOXLMLGWUUJIH/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JUN33257RUM4RS2I4GZETKFSAXPETATG/",
-            "https://lists.debian.org/debian-lts-announce/2022/05/msg00022.html",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HIP7KG7TVS5YF3QREAY2GOGUT3YUBZAI/",
-            "https://security.gentoo.org/glsa/202208-32",
-            "https://support.apple.com/kb/HT213488",
-            "http://seclists.org/fulldisclosure/2022/Oct/41",
-            "http://seclists.org/fulldisclosure/2022/Oct/28",
-            "https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html"
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0480"
         ],
-        "summary": "Use after free in append_command in GitHub repository vim/vim prior to 8.2.4895. This vulnerability is capable of crashing software, Bypass Protection Mechanism, Modify Memory, and possible remote execution"
+        "summary": "An exploitable information disclosure vulnerability exists in the Server Agent functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted TCP packet can cause information disclosure. An attacker can send a crafted TCP packet to trigger this vulnerability."
     },
     {
-        "Modified": "2022-12-08T19:59:00",
-        "Published": "2022-12-08T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-4366",
-        "impact": {},
-        "last-modified": "2022-12-08T19:59:00",
+        "Modified": "2022-12-09T01:40:00",
+        "Published": "2022-06-08T16:15:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "cve@mitre.org",
+        "cvss": 5.0,
+        "cvss-time": "2022-12-09T01:40:00",
+        "cvss-vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+        "cwe": "CWE-200",
+        "id": "CVE-2022-28382",
+        "impact": {
+            "availability": "NONE",
+            "confidentiality": "PARTIAL",
+            "integrity": "NONE"
+        },
+        "last-modified": "2022-12-09T01:40:00",
         "references": [
-            "https://huntr.dev/bounties/f225d69a-d971-410d-a8f9-b0026143aed8",
-            "https://github.com/lirantal/daloradius/commit/3d11f375a76ddb3741200296e15f81d82dfb80ce"
+            "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2022-010.txt",
+            "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2022-015.txt",
+            "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2022-002.txt",
+            "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2022-006.txt",
+            "http://seclists.org/fulldisclosure/2022/Jun/18",
+            "http://seclists.org/fulldisclosure/2022/Jun/24",
+            "http://seclists.org/fulldisclosure/2022/Jun/22",
+            "http://seclists.org/fulldisclosure/2022/Jun/9",
+            "http://packetstormsecurity.com/files/167500/Verbatim-Store-N-Go-Secure-Portable-HDD-GD25LK01-3637-C-VER4.0-Risky-Crypto.html",
+            "http://packetstormsecurity.com/files/167491/Verbatim-Keypad-Secure-USB-3.2-Gen-1-Drive-ECB-Issue.html",
+            "http://packetstormsecurity.com/files/167528/Verbatim-Executive-Fingerprint-Secure-SSD-GDMSFE01-INI3637-C-VER1.1-Risky-Crypto.html",
+            "http://packetstormsecurity.com/files/167532/Verbatim-Fingerprint-Secure-Portable-Hard-Drive-53650-Risky-Crypto.html",
+            "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2022-044.txt",
+            "http://seclists.org/fulldisclosure/2022/Oct/4"
         ],
-        "summary": "Exposure of Sensitive System Information to an Unauthorized Control Sphere in GitHub repository lirantal/daloradius prior to master branch."
+        "summary": "An issue was discovered in certain Verbatim drives through 2022-03-31. Due to the use of an insecure encryption AES mode (Electronic Codebook, aka ECB), an attacker may be able to extract information even from encrypted data, for example by observing repeating byte patterns. The firmware of the USB-to-SATA bridge controller INIC-3637EN uses AES-256 with the ECB mode. This operation mode of block ciphers (e.g., AES) always encrypts identical plaintext data, in this case blocks of 16 bytes, to identical ciphertext data. For some data, for instance bitmap images, the lack of the cryptographic property called diffusion, within ECB, can leak sensitive information even in encrypted data. Thus, the use of the ECB operation mode can put the confidentiality of specific information at risk, even in an encrypted form. This affects Keypad Secure USB 3.2 Gen 1 Drive Part Number #49428, Store 'n' Go Secure Portable HDD GD25LK01-3637-C VER4.0, Executive Fingerprint Secure SSD GDMSFE01-INI3637-C VER1.1, and Fingerprint Secure Portable Hard Drive Part Number #53650."
     },
     {
-        "Modified": "2022-12-08T19:59:00",
-        "Published": "2022-12-08T17:15:00",
+        "Modified": "2022-12-09T01:39:00",
+        "Published": "2022-12-07T19:15:00",
         "access": {},
         "assigner": "cve@mitre.org",
         "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-40939",
+        "cwe": "CWE-74",
+        "id": "CVE-2022-45550",
         "impact": {},
-        "last-modified": "2022-12-08T19:59:00",
+        "last-modified": "2022-12-09T01:39:00",
         "references": [
-            "http://220.161.30.125.dy.iij4u.or.jp:50001/web/index.html",
-            "https://cdsbz.gitbook.io/untitled/secustion-camera-vulnerability-recurrence"
+            "https://shimo.im/docs/KrkEVb29pwsxZ6AJ",
+            "https://github.com/loadream/AyaCMS/issues/8"
         ],
-        "summary": "In certain Secustation products the administrator account password can be read. This affects V2.5.5.3116-S50-SMA-B20171107A, V2.3.4.1301-M20-TSA-B20150617A, V2.5.5.3116-S50-RXA-B20180502A, V2.5.5.3116-S50-SMA-B20190723A, V2.5.5.3116-S50-SMB-B20161012A, V2.3.4.2103-S50-NTD-B20170508B, V2.5.5.3116-S50-SMB-B20160601A, V2.5.5.2601-S50-TSA-B20151229A, and V2.5.5.3116-S50-SMA-B20170217."
+        "summary": "AyaCMS 3.1.2 is vulnerable to Remote Code Execution (RCE)."
     },
     {
-        "Modified": "2022-12-08T19:59:00",
-        "Published": "2022-12-08T18:15:00",
-        "access": {},
-        "assigner": "security@jetbrains.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-46825",
-        "impact": {},
-        "last-modified": "2022-12-08T19:59:00",
-        "references": [
-            "https://www.jetbrains.com/privacy-security/issues-fixed/"
-        ],
-        "summary": "In JetBrains IntelliJ IDEA before 2022.3 the built-in web server leaked information about open projects."
-    },
-    {
-        "Modified": "2022-12-08T19:59:00",
-        "Published": "2022-12-08T18:15:00",
-        "access": {},
-        "assigner": "security@jetbrains.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-46826",
-        "impact": {},
-        "last-modified": "2022-12-08T19:59:00",
-        "references": [
-            "https://www.jetbrains.com/privacy-security/issues-fixed/"
-        ],
-        "summary": "In JetBrains IntelliJ IDEA before 2022.3 the built-in web server allowed an arbitrary file to be read by exploiting a path traversal vulnerability."
-    },
-    {
-        "Modified": "2022-12-08T19:59:00",
-        "Published": "2022-12-08T18:15:00",
-        "access": {},
-        "assigner": "security@jetbrains.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-46827",
-        "impact": {},
-        "last-modified": "2022-12-08T19:59:00",
-        "references": [
-            "https://www.jetbrains.com/privacy-security/issues-fixed/"
-        ],
-        "summary": "In JetBrains IntelliJ IDEA before 2022.3 an XXE attack leading to SSRF via requests to custom plugin repositories was possible."
-    },
-    {
-        "Modified": "2022-12-08T19:59:00",
-        "Published": "2022-12-08T18:15:00",
-        "access": {},
-        "assigner": "security@jetbrains.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-46828",
-        "impact": {},
-        "last-modified": "2022-12-08T19:59:00",
-        "references": [
-            "https://www.jetbrains.com/privacy-security/issues-fixed/"
-        ],
-        "summary": "In JetBrains IntelliJ IDEA before 2022.3 a DYLIB injection on macOS was possible."
-    },
-    {
-        "Modified": "2022-12-08T19:59:00",
-        "Published": "2022-12-08T18:15:00",
-        "access": {},
-        "assigner": "security@jetbrains.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-46829",
-        "impact": {},
-        "last-modified": "2022-12-08T19:59:00",
-        "references": [
-            "https://www.jetbrains.com/privacy-security/issues-fixed/"
-        ],
-        "summary": "In JetBrains JetBrains Gateway before 2022.3 a client could connect without a valid token if the host consented."
-    },
-    {
-        "Modified": "2022-12-08T19:59:00",
-        "Published": "2022-12-08T18:15:00",
-        "access": {},
-        "assigner": "security@jetbrains.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-46830",
-        "impact": {},
-        "last-modified": "2022-12-08T19:59:00",
-        "references": [
-            "https://www.jetbrains.com/privacy-security/issues-fixed/"
-        ],
-        "summary": "In JetBrains TeamCity between 2022.10 and 2022.10.1 a custom STS endpoint allowed internal port scanning."
-    },
-    {
-        "Modified": "2022-12-08T19:59:00",
-        "Published": "2022-12-08T18:15:00",
-        "access": {},
-        "assigner": "security@jetbrains.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-46831",
-        "impact": {},
-        "last-modified": "2022-12-08T19:59:00",
-        "references": [
-            "https://www.jetbrains.com/privacy-security/issues-fixed/"
-        ],
-        "summary": "In JetBrains TeamCity between 2022.10 and 2022.10.1 connecting to AWS using the \"Default Credential Provider Chain\" allowed TeamCity project administrators to access AWS resources normally limited to TeamCity system administrators."
-    },
-    {
-        "Modified": "2022-12-08T19:59:00",
-        "Published": "2022-12-08T17:15:00",
+        "Modified": "2022-12-09T01:36:00",
+        "Published": "2022-12-07T17:15:00",
         "access": {},
         "assigner": "cve@mitre.org",
         "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-38599",
+        "cwe": "CWE-89",
+        "id": "CVE-2022-44393",
         "impact": {},
-        "last-modified": "2022-12-08T19:59:00",
+        "last-modified": "2022-12-09T01:36:00",
         "references": [
-            "http://teleport.com",
-            "https://gist.github.com/arleyna/20d858e11c48984d00926fa8cc0c2722"
+            "https://github.com/Serces-X/vul_report/blob/main/vendors/oretnom23/Sanitization-Management-System/SQLi-1.md"
         ],
-        "summary": "Teleport v3.2.2, Teleport v3.5.6-rc6, and Teleport v3.6.3-b2 was discovered to contain an information leak via the /user/get-role-list web interface."
+        "summary": "Sanitization Management System v1.0 is vulnerable to SQL Injection via /php-sms/admin/?page=services/view_service&id=."
     },
     {
-        "Modified": "2022-12-08T19:59:00",
-        "Published": "2022-12-08T18:15:00",
+        "Modified": "2022-12-09T01:29:00",
+        "Published": "2022-12-07T04:15:00",
         "access": {},
-        "assigner": "security@jetbrains.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-46824",
-        "impact": {},
-        "last-modified": "2022-12-08T19:59:00",
-        "references": [
-            "https://www.jetbrains.com/privacy-security/issues-fixed/"
-        ],
-        "summary": "In JetBrains IntelliJ IDEA before 2022.2.4 a buffer overflow in the fsnotifier daemon on macOS was possible."
-    },
-    {
-        "Modified": "2022-12-08T19:59:00",
-        "Published": "2022-09-06T20:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
+        "assigner": "vultures@jpcert.or.jp",
         "cvss": null,
         "cwe": "CWE-416",
-        "id": "CVE-2022-3134",
+        "id": "CVE-2022-43508",
         "impact": {},
-        "last-modified": "2022-12-08T19:59:00",
+        "last-modified": "2022-12-09T01:29:00",
         "references": [
-            "https://github.com/vim/vim/commit/ccfde4d028e891a41e3548323c3d47b06fb0b83e",
-            "https://huntr.dev/bounties/6ec79e49-c7ab-4cd6-a517-e7934c2eb9dc",
-            "https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html"
+            "https://jvn.jp/vu/JVNVU92877622/index.html",
+            "https://jvn.jp/en/vu/JVNVU92877622/index.html"
         ],
-        "summary": "Use After Free in GitHub repository vim/vim prior to 9.0.0389."
+        "summary": "Use-after free vulnerability exists in CX-Programmer v.9.77 and earlier, which may lead to information disclosure and/or arbitrary code execution by having a user to open a specially crafted CXP file."
     },
     {
-        "Modified": "2022-12-08T19:59:00",
-        "Published": "2022-08-23T17:15:00",
+        "Modified": "2022-12-09T01:27:00",
+        "Published": "2022-12-07T04:15:00",
         "access": {},
-        "assigner": "security@huntr.dev",
+        "assigner": "vultures@jpcert.or.jp",
         "cvss": null,
-        "cwe": "CWE-416",
-        "id": "CVE-2022-2946",
+        "cwe": "CWE-787",
+        "id": "CVE-2022-43509",
         "impact": {},
-        "last-modified": "2022-12-08T19:59:00",
+        "last-modified": "2022-12-09T01:27:00",
         "references": [
-            "https://huntr.dev/bounties/5d389a18-5026-47df-a5d0-1548a9b555d5",
-            "https://github.com/vim/vim/commit/adce965162dd89bf29ee0e5baf53652e7515762c",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/C72HDIMR3KTTAO7QGTXWUMPBNFUFIBRD/",
-            "https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html"
+            "https://jvn.jp/vu/JVNVU92877622/index.html",
+            "https://jvn.jp/en/vu/JVNVU92877622/index.html"
         ],
-        "summary": "Use After Free in GitHub repository vim/vim prior to 9.0.0246."
+        "summary": "Out-of-bounds write vulnerability exists in CX-Programmer v.9.77 and earlier, which may lead to information disclosure and/or arbitrary code execution by having a user to open a specially crafted CXP file."
     },
     {
-        "Modified": "2022-12-08T19:59:00",
-        "Published": "2022-07-02T16:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "NETWORK"
-        },
-        "assigner": "security@huntr.dev",
-        "cvss": 6.8,
-        "cvss-time": "2022-12-08T19:59:00",
-        "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-190",
-        "id": "CVE-2022-2285",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2022-12-08T19:59:00",
-        "references": [
-            "https://github.com/vim/vim/commit/27efc62f5d86afcb2ecb7565587fe8dea4b036fe",
-            "https://huntr.dev/bounties/64574b28-1779-458d-a221-06c434042736",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UXPO5EHDV6J4B27E65DOQGZFELUFPRSK/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/43Y3VJPOTTY3NTREDIFUPITM2POG4ZLP/",
-            "https://security.gentoo.org/glsa/202208-32",
-            "https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html"
-        ],
-        "summary": "Integer Overflow or Wraparound in GitHub repository vim/vim prior to 9.0."
-    },
-    {
-        "Modified": "2022-12-08T19:58:00",
-        "Published": "2022-06-20T15:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "NETWORK"
-        },
-        "assigner": "security@huntr.dev",
-        "cvss": 6.8,
-        "cvss-time": "2022-12-08T19:58:00",
-        "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-126",
-        "id": "CVE-2022-1720",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2022-12-08T19:58:00",
-        "references": [
-            "https://github.com/vim/vim/commit/395bd1f6d3edc9f7edb5d1f2d7deaf5a9e3ab93c",
-            "https://huntr.dev/bounties/5ccfb386-7eb9-46e5-98e5-243ea4b358a8",
-            "https://lists.debian.org/debian-lts-announce/2022/06/msg00014.html",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GFD2A4YLBR7OIRHTL7CK6YNMEIQ264CN/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U743FMJGFQ35GBPCQ6OWMVZEJPDFVEWM/",
-            "https://security.gentoo.org/glsa/202208-32",
-            "https://support.apple.com/kb/HT213488",
-            "https://support.apple.com/kb/HT213443",
-            "https://support.apple.com/kb/HT213444",
-            "http://seclists.org/fulldisclosure/2022/Oct/41",
-            "http://seclists.org/fulldisclosure/2022/Oct/28",
-            "http://seclists.org/fulldisclosure/2022/Oct/43",
-            "http://seclists.org/fulldisclosure/2022/Oct/45",
-            "https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html"
-        ],
-        "summary": "Buffer Over-read in function grab_file_name in GitHub repository vim/vim prior to 8.2.4956. This vulnerability is capable of crashing the software, memory modification, and possible remote execution."
-    },
-    {
-        "Modified": "2022-12-08T19:55:00",
-        "Published": "2022-12-06T19:15:00",
+        "Modified": "2022-12-09T01:24:00",
+        "Published": "2022-12-07T04:15:00",
         "access": {},
-        "assigner": "security@tibco.com",
+        "assigner": "vultures@jpcert.or.jp",
         "cvss": null,
-        "cwe": "CWE-601",
-        "id": "CVE-2022-41559",
+        "cwe": "CWE-787",
+        "id": "CVE-2022-43667",
         "impact": {},
-        "last-modified": "2022-12-08T19:55:00",
+        "last-modified": "2022-12-09T01:24:00",
         "references": [
-            "https://www.tibco.com/services/support/advisories"
+            "https://jvn.jp/vu/JVNVU92877622/index.html",
+            "https://jvn.jp/en/vu/JVNVU92877622/index.html"
         ],
-        "summary": "The Web Client component of TIBCO Software Inc.'s TIBCO Nimbus contains an easily exploitable vulnerability that allows an unauthenticated attacker with network access to exploit an open redirect on the affected system. A successful attack using this vulnerability requires human interaction from a person other than the attacker. Affected releases are TIBCO Software Inc.'s TIBCO Nimbus: version 10.5.0."
+        "summary": "Stack-based buffer overflow vulnerability exists in CX-Programmer v.9.77 and earlier, which may lead to information disclosure and/or arbitrary code execution by having a user to open a specially crafted CXP file."
     },
     {
-        "Modified": "2022-12-08T19:47:00",
-        "Published": "2022-12-07T02:15:00",
+        "Modified": "2022-12-09T01:22:00",
+        "Published": "2022-12-07T17:15:00",
         "access": {},
         "assigner": "cve@mitre.org",
         "cvss": null,
         "cwe": "CWE-79",
-        "id": "CVE-2022-44153",
+        "id": "CVE-2022-44361",
         "impact": {},
-        "last-modified": "2022-12-08T19:47:00",
+        "last-modified": "2022-12-09T01:22:00",
         "references": [
-            "https://nitroteam.kz/index.php?action=researches&slug=CVE-2022-44153-Rapid-SCADA-ru"
+            "https://github.com/cri1stur/ZZcms/issues/1"
         ],
-        "summary": "Rapid Software LLC Rapid SCADA 5.8.4 is vulnerable to Cross Site Scripting (XSS)."
+        "summary": "An issue was discovered in ZZCMS 2022. There is a cross-site scripting (XSS) vulnerability in admin/ad_list.php."
     },
     {
-        "Modified": "2022-12-08T19:38:00",
-        "Published": "2022-12-05T22:15:00",
+        "Modified": "2022-12-09T01:19:00",
+        "Published": "2022-12-07T09:15:00",
         "access": {},
-        "assigner": "cve-assignments@hackerone.com",
+        "assigner": "tbd@nist.gov",
         "cvss": null,
-        "cwe": "CWE-444",
-        "id": "CVE-2022-35256",
+        "cwe": "CWE-94",
+        "id": "CVE-2022-46742",
         "impact": {},
-        "last-modified": "2022-12-08T19:38:00",
+        "last-modified": "2022-12-09T01:19:00",
         "references": [
-            "https://hackerone.com/reports/1675191"
+            "https://github.com/PaddlePaddle/Paddle/blob/develop/security/advisory/pdsa-2022-002.md"
         ],
-        "summary": "The llhttp parser in the http module in Node v18.7.0 does not correctly handle header fields that are not terminated with CLRF. This may result in HTTP Request Smuggling."
+        "summary": "Code injection in paddle.audio.functional.get_window in PaddlePaddle 2.4.0-rc0 allows arbitrary code execution."
     },
     {
-        "Modified": "2022-12-08T19:20:00",
-        "Published": "2022-12-05T22:15:00",
+        "Modified": "2022-12-09T01:15:00",
+        "Published": "2022-12-07T14:15:00",
         "access": {},
-        "assigner": "cve-assignments@hackerone.com",
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2022-45217",
+        "impact": {},
+        "last-modified": "2022-12-09T01:15:00",
+        "references": [
+            "https://github.com/sudoninja-noob/CVE-2022-45217/blob/main/CVE-2022-45217",
+            "https://www.sourcecodester.com/php/15748/book-store-management-system-project-using-php-codeigniter-3-free-source-code.html"
+        ],
+        "summary": "A cross-site scripting (XSS) vulnerability in Book Store Management System v1.0.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Level parameter under the Add New System User module."
+    },
+    {
+        "Modified": "2022-12-09T01:09:00",
+        "Published": "2022-12-07T08:15:00",
+        "access": {},
+        "assigner": "tbd@nist.gov",
+        "cvss": null,
+        "cwe": "CWE-125",
+        "id": "CVE-2022-46741",
+        "impact": {},
+        "last-modified": "2022-12-09T01:09:00",
+        "references": [
+            "https://github.com/PaddlePaddle/Paddle/blob/develop/security/advisory/pdsa-2022-001.md"
+        ],
+        "summary": "Out-of-bounds read in gather_tree in PaddlePaddle before 2.4."
+    },
+    {
+        "Modified": "2022-12-09T00:59:00",
+        "Published": "2022-12-07T07:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-89",
+        "id": "CVE-2022-4322",
+        "impact": {},
+        "last-modified": "2022-12-09T00:59:00",
+        "references": [
+            "https://vuldb.com/?id.215013",
+            "https://gitee.com/makunet/maku-boot/issues/I5ZUYI",
+            "https://gitee.com/makunet/maku-boot/commit/446eb7294332efca2bfd791bc37281cedac0d0ff"
+        ],
+        "summary": "A vulnerability, which was classified as critical, was found in maku-boot up to 2.2.0. This affects the function doExecute of the file AbstractScheduleJob.java of the component Scheduled Task Handler. The manipulation leads to injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The name of the patch is 446eb7294332efca2bfd791bc37281cedac0d0ff. It is recommended to apply a patch to fix this issue. The identifier VDB-215013 was assigned to this vulnerability."
+    },
+    {
+        "Modified": "2022-12-09T00:49:00",
+        "Published": "2022-12-07T04:15:00",
+        "access": {},
+        "assigner": "vultures@jpcert.or.jp",
         "cvss": null,
         "cwe": "CWE-400",
-        "id": "CVE-2022-35254",
+        "id": "CVE-2022-44608",
         "impact": {},
-        "last-modified": "2022-12-08T19:20:00",
+        "last-modified": "2022-12-09T00:49:00",
+        "references": [
+            "https://cs.cybozu.co.jp/2022/007754.html",
+            "https://jvn.jp/en/jp/JVN87895771/index.html"
+        ],
+        "summary": "Uncontrolled resource consumption vulnerability in Cybozu Remote Service 4.0.0 to 4.0.3 allows a remote authenticated attacker to consume huge storage space, which may result in a denial-of-service (DoS) condition."
+    },
+    {
+        "Modified": "2022-12-09T00:44:00",
+        "Published": "2022-11-30T23:15:00",
+        "access": {},
+        "assigner": "ics-cert@hq.dhs.gov",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2019-18265",
+        "impact": {},
+        "last-modified": "2022-12-09T00:44:00",
+        "references": [
+            "https://www.digitalalertsystems.com/security-advisory"
+        ],
+        "summary": "Digital Alert Systems\u2019 DASDEC software prior to version 4.1 contains a cross-site scripting (XSS) vulnerability that allows remote attackers to inject arbitrary web script or HTML via the SSH username, username field of the login page, or via the HTTP host header. The injected content is stored in logs and rendered when viewed in the web application."
+    },
+    {
+        "Modified": "2022-12-09T00:41:00",
+        "Published": "2022-12-01T00:15:00",
+        "access": {},
+        "assigner": "ics-cert@hq.dhs.gov",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2022-40204",
+        "impact": {},
+        "last-modified": "2022-12-09T00:41:00",
+        "references": [
+            "https://www.digitalalertsystems.com/security-advisory"
+        ],
+        "summary": "A cross-site scripting (XSS) vulnerability exists in all current versions of Digital Alert Systems DASDEC software via the Host Header in undisclosed pages after login."
+    },
+    {
+        "Modified": "2022-12-09T00:33:00",
+        "Published": "2022-12-05T22:15:00",
+        "access": {},
+        "assigner": "cve-assignments@hackerone.com",
+        "cvss": null,
+        "cwe": "CWE-682",
+        "id": "CVE-2022-35258",
+        "impact": {},
+        "last-modified": "2022-12-09T00:33:00",
         "references": [
             "https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA45520/?kA23Z000000GH5OSAW"
         ],
         "summary": "An unauthenticated attacker can cause a denial-of-service to the following products: Ivanti Connect Secure (ICS) in versions prior to 9.1R14.3, 9.1R15.2, 9.1R16.2, and 22.2R4, Ivanti Policy Secure (IPS) in versions prior to 9.1R17 and 22.3R1, and Ivanti Neurons for Zero-Trust Access in versions prior to 22.3R1."
     },
     {
-        "Modified": "2022-12-08T19:15:00",
-        "Published": "2022-12-07T01:15:00",
+        "Modified": "2022-12-09T00:32:00",
+        "Published": "2022-12-05T22:15:00",
         "access": {},
-        "assigner": "security@xen.org",
+        "assigner": "cybersecurity@bd.com",
         "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-42328",
+        "cwe": "CWE-287",
+        "id": "CVE-2022-43557",
         "impact": {},
-        "last-modified": "2022-12-08T19:15:00",
+        "last-modified": "2022-12-09T00:32:00",
         "references": [
-            "https://xenbits.xenproject.org/xsa/advisory-424.txt",
-            "http://www.openwall.com/lists/oss-security/2022/12/08/3",
-            "http://www.openwall.com/lists/oss-security/2022/12/08/2"
+            "https://www.bd.com/en-us/about-bd/cybersecurity/bulletin/bd-bodyguard-pumps-rs-232-interface-vulnerability"
         ],
-        "summary": "Guests can trigger deadlock in Linux netback driver T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] The patch for XSA-392 introduced another issue which might result in a deadlock when trying to free the SKB of a packet dropped due to the XSA-392 handling (CVE-2022-42328). Additionally when dropping packages for other reasons the same deadlock could occur in case of netpoll being active for the interface the xen-netback driver is connected to (CVE-2022-42329)."
+        "summary": "The BD BodyGuard\u2122 infusion pumps specified allow for access through the RS-232 (serial) port interface. If exploited, threat actors with physical access, specialized equipment and knowledge may be able to configure or disable the pump. No electronic protected health information (ePHI), protected health information (PHI) or personally identifiable information (PII) is stored in the pump."
     },
     {
-        "Modified": "2022-12-08T19:15:00",
-        "Published": "2022-12-07T01:15:00",
+        "Modified": "2022-12-09T00:28:00",
+        "Published": "2022-12-07T04:15:00",
         "access": {},
-        "assigner": "security@xen.org",
+        "assigner": "vultures@jpcert.or.jp",
         "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-42329",
+        "cwe": "CWE-665",
+        "id": "CVE-2022-43468",
         "impact": {},
-        "last-modified": "2022-12-08T19:15:00",
+        "last-modified": "2022-12-09T00:28:00",
         "references": [
-            "https://xenbits.xenproject.org/xsa/advisory-424.txt",
-            "http://www.openwall.com/lists/oss-security/2022/12/08/3",
-            "http://www.openwall.com/lists/oss-security/2022/12/08/2"
+            "https://github.com/cabrerahector/wordpress-popular-posts/",
+            "https://jvn.jp/en/jp/JVN13927745/index.html",
+            "https://wordpress.org/plugins/wordpress-popular-posts/"
         ],
-        "summary": "Guests can trigger deadlock in Linux netback driver T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] The patch for XSA-392 introduced another issue which might result in a deadlock when trying to free the SKB of a packet dropped due to the XSA-392 handling (CVE-2022-42328). Additionally when dropping packages for other reasons the same deadlock could occur in case of netpoll being active for the interface the xen-netback driver is connected to (CVE-2022-42329)."
+        "summary": "External initialization of trusted variables or data stores vulnerability exists in WordPress Popular Posts 6.0.5 and earlier, therefore the vulnerable product accepts untrusted external inputs to update certain internal variables. As a result, the number of views for an article may be manipulated through a crafted input."
     },
     {
-        "Modified": "2022-12-08T19:07:00",
-        "Published": "2022-12-06T23:15:00",
+        "Modified": "2022-12-09T00:15:00",
+        "Published": "2022-12-09T00:15:00",
         "access": {},
         "assigner": "cve@mitre.org",
         "cvss": null,
-        "cwe": "CWE-755",
-        "id": "CVE-2022-44030",
+        "cwe": "Unknown",
+        "id": "CVE-2022-38765",
         "impact": {},
-        "last-modified": "2022-12-08T19:07:00",
+        "last-modified": "2022-12-09T00:15:00",
         "references": [
-            "https://www.redmine.org/projects/redmine/wiki/Security_Advisories",
-            "https://www.redmine.org/news/139"
+            "https://www.vitalimages.com/customer-success-support-program/vital-images-software-security-updates/"
         ],
-        "summary": "Redmine 5.x before 5.0.4 allows downloading of file attachments of any Issue or any Wiki page due to insufficient permission checks. Depending on the configuration, this may require login as a registered user."
+        "summary": "Canon Medical Informatics Vitrea Vision 7.7.76.1 does not adequately enforce access controls. An authenticated user is able to gain unauthorized access to imaging records by tampering with the vitrea-view/studies/search patientId parameter."
     },
     {
-        "Modified": "2022-12-08T18:55:00",
-        "Published": "2021-04-06T13:15:00",
+        "Modified": "2022-12-09T00:15:00",
+        "Published": "2022-05-18T12:15:00",
         "access": {
             "authentication": "NONE",
             "complexity": "LOW",
             "vector": "NETWORK"
         },
         "assigner": "cve@mitre.org",
-        "cvss": 6.4,
-        "cvss-time": "2022-12-08T18:55:00",
-        "cvss-vector": "AV:N/AC:L/Au:N/C:P/I:N/A:P",
-        "cwe": "CWE-120",
-        "id": "CVE-2021-30045",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "NONE"
-        },
-        "last-modified": "2022-12-08T18:55:00",
-        "references": [
-            "https://github.com/SerenityOS/serenity/issues/5975",
-            "https://github.com/SerenityOS/serenity/commit/4317db7498eaa5a37068052bb0310fbc6a5f78e4",
-            "https://github.com/SerenityOS/serenity/pull/5977"
-        ],
-        "summary": "SerenityOS 2021-03-27 contains a buffer overflow vulnerability in the EndOfCentralDirectory::read() function."
-    },
-    {
-        "Modified": "2022-12-08T18:55:00",
-        "Published": "2021-04-06T13:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "NETWORK"
-        },
-        "assigner": "cve@mitre.org",
-        "cvss": 5.0,
-        "cvss-time": "2022-12-08T18:55:00",
-        "cvss-vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
-        "cwe": "CWE-120",
-        "id": "CVE-2021-27343",
-        "impact": {
-            "availability": "NONE",
-            "confidentiality": "PARTIAL",
-            "integrity": "NONE"
-        },
-        "last-modified": "2022-12-08T18:55:00",
-        "references": [
-            "https://github.com/SerenityOS/serenity/issues/5317",
-            "https://github.com/SerenityOS/serenity/commit/48fbf6a88d4822a1e5470cf08f29464511bd72c1",
-            "https://github.com/SerenityOS/serenity/pull/5344"
-        ],
-        "summary": "SerenityOS Unspecified is affected by: Buffer Overflow. The impact is: obtain sensitive information (context-dependent). The component is: /Userland/Libraries/LibCrypto/ASN1/DER.h Crypto::der_decode_sequence() function. The attack vector is: Parsing RSA Key ASN.1."
-    },
-    {
-        "Modified": "2022-12-08T18:55:00",
-        "Published": "2019-12-31T03:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "LOCAL"
-        },
-        "assigner": "cve@mitre.org",
-        "cvss": 4.6,
-        "cvss-time": "2022-12-08T18:55:00",
-        "cvss-vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-119",
-        "id": "CVE-2019-20172",
+        "cvss": 7.5,
+        "cvss-time": "2022-12-09T00:15:00",
+        "cvss-vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+        "cwe": "NVD-CWE-noinfo",
+        "id": "CVE-2022-28958",
         "impact": {
             "availability": "PARTIAL",
             "confidentiality": "PARTIAL",
             "integrity": "PARTIAL"
         },
-        "last-modified": "2022-12-08T18:55:00",
+        "last-modified": "2022-12-09T00:15:00",
         "references": [
-            "https://github.com/Fire30/CTF-WRITEUPS/tree/master/36c3_ctf/wisdom",
-            "https://github.com/SerenityOS/serenity/commit/0fc24fe2564736689859e7edfa177a86dac36bf9"
+            "https://www.dlink.com/en/security-bulletin/",
+            "https://github.com/shijin0925/IOT/blob/master/DIR816/3.md",
+            "https://vulncheck.com/blog/moobot-uses-fake-vulnerability"
         ],
-        "summary": "Kernel/VM/MemoryManager.cpp in SerenityOS before 2019-12-30 does not reject syscalls with pointers into the kernel-only virtual address space, which allows local users to gain privileges by overwriting a return address that was found on the kernel stack."
+        "summary": "** DISPUTED ** D-Link DIR816L_FW206b01 was discovered to contain a remote code execution (RCE) vulnerability via the value parameter at shareport.php. NOTE: this has been disputed by a third party."
     },
     {
-        "Modified": "2022-12-08T18:53:00",
-        "Published": "2022-09-27T23:15:00",
+        "Modified": "2022-12-08T23:15:00",
+        "Published": "2022-12-08T23:15:00",
         "access": {},
-        "assigner": "security@huntr.dev",
+        "assigner": "security-advisories@github.com",
         "cvss": null,
-        "cwe": "CWE-121",
-        "id": "CVE-2022-3324",
+        "cwe": "CWE-79",
+        "id": "CVE-2022-41947",
         "impact": {},
-        "last-modified": "2022-12-08T18:53:00",
+        "last-modified": "2022-12-08T23:15:00",
         "references": [
-            "https://huntr.dev/bounties/e414e55b-f332-491f-863b-c18dca97403c",
-            "https://github.com/vim/vim/commit/8279af514ca7e5fd3c31cf13b0864163d1a0bfeb",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/",
-            "https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/"
+            "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP",
+            "https://github.com/dhis2/dhis2-core/security/advisories/GHSA-763w-rm78-6xcg"
         ],
-        "summary": "Stack-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0598."
+        "summary": "DHIS 2 is an open source information system for data capture, management, validation, analytics and visualization. Through various features of DHIS2, an authenticated user may be able to upload a file which includes embedded javascript. The user could then potentially trick another authenticated user to open the malicious file in a browser which would trigger the javascript code, resulting in a cross-site scripting (XSS) attack. DHIS2 administrators should upgrade to the following hotfix releases: 2.36.12.1, 2.37.8.1, 2.38.2.1, 2.39.0.1. Users unable to upgrade may add the following simple CSP rule in your web proxy to the vulnerable endpoints: `script-src 'none'`. This workaround will prevent all javascript from running on those endpoints."
     },
     {
-        "Modified": "2022-12-08T18:42:00",
-        "Published": "2022-07-05T13:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "NETWORK"
-        },
-        "assigner": "security@huntr.dev",
-        "cvss": 6.8,
-        "cvss-time": "2022-12-08T18:42:00",
-        "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-787",
-        "id": "CVE-2022-2304",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2022-12-08T18:42:00",
-        "references": [
-            "https://github.com/vim/vim/commit/54e5fed6d27b747ff152cdb6edfb72ff60e70939",
-            "https://huntr.dev/bounties/eb7402f3-025a-402f-97a7-c38700d9548a",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UXPO5EHDV6J4B27E65DOQGZFELUFPRSK/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/43Y3VJPOTTY3NTREDIFUPITM2POG4ZLP/",
-            "https://security.gentoo.org/glsa/202208-32",
-            "https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html"
-        ],
-        "summary": "Stack-based Buffer Overflow in GitHub repository vim/vim prior to 9.0."
-    },
-    {
-        "Modified": "2022-12-08T18:41:00",
-        "Published": "2022-08-01T15:15:00",
+        "Modified": "2022-12-08T23:15:00",
+        "Published": "2022-12-08T23:15:00",
         "access": {},
-        "assigner": "security@huntr.dev",
+        "assigner": "security-advisories@github.com",
         "cvss": null,
-        "cwe": "NVD-CWE-Other",
-        "id": "CVE-2022-2598",
+        "cwe": "CWE-269",
+        "id": "CVE-2022-41948",
         "impact": {},
-        "last-modified": "2022-12-08T18:41:00",
+        "last-modified": "2022-12-08T23:15:00",
         "references": [
-            "https://github.com/vim/vim/commit/4e677b9c40ccbc5f090971b31dc2fe07bf05541d",
-            "https://huntr.dev/bounties/2f08363a-47a2-422d-a7de-ce96a89ad08e",
-            "https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html"
+            "https://github.com/dhis2/dhis2-core/security/advisories/GHSA-59fm-8432-2426"
         ],
-        "summary": "Undefined Behavior for Input to API in GitHub repository vim/vim prior to 9.0.0100."
+        "summary": "DHIS 2 is an open source information system for data capture, management, validation, analytics and visualization. Affected versions are subject to a privilege escalation vulnerability. A DHIS2 user with authority to manage users can assign superuser privileges to themself by manually crafting an HTTP PUT request. Only users with the following DHIS2 user role authorities can exploit this vulnerability. Note that in many systems the only users with user admin privileges are also superusers. In these cases, the escalation vulnerability does not exist. The vulnerability is only exploitable by attackers who can authenticate as users with the user admin authority. As this is usually a small and relatively trusted set of users, exploit vectors will often be limited. DHIS2 administrators should upgrade to the following hotfix releases: 2.36.12.1, 2.37.8.1, 2.38.2.1, 2.39.0.1. The only known workaround to this issue is to avoid the assignment of the user management authority to any users until the patch has been applied."
     },
     {
-        "Modified": "2022-12-08T18:38:00",
-        "Published": "2022-09-03T16:15:00",
+        "Modified": "2022-12-08T23:15:00",
+        "Published": "2022-10-09T23:15:00",
         "access": {},
-        "assigner": "security@huntr.dev",
+        "assigner": "cve@mitre.org",
         "cvss": null,
         "cwe": "CWE-416",
-        "id": "CVE-2022-3099",
+        "id": "CVE-2022-42703",
         "impact": {},
-        "last-modified": "2022-12-08T18:38:00",
+        "last-modified": "2022-12-08T23:15:00",
         "references": [
-            "https://huntr.dev/bounties/403210c7-6cc7-4874-8934-b57f88bd4f5e",
-            "https://github.com/vim/vim/commit/35d21c6830fc2d68aca838424a0e786821c5891c",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DVWBI4BVTBUMNW4NMB3WZZDQJBKIGXI3/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LLK2RMZEECKKWUQK7J46D2FQZOXFQLTC/",
-            "https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html"
+            "https://bugs.chromium.org/p/project-zero/issues/detail?id=2351",
+            "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=2555283eb40df89945557273121e9393ef9b542b",
+            "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.19.7",
+            "https://github.com/torvalds/linux/commit/2555283eb40df89945557273121e9393ef9b542b",
+            "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html"
         ],
-        "summary": "Use After Free in GitHub repository vim/vim prior to 9.0.0360."
+        "summary": "mm/rmap.c in the Linux kernel before 5.19.7 has a use-after-free related to leaf anon_vma double reuse."
     },
     {
-        "Modified": "2022-12-08T18:30:00",
-        "Published": "2021-09-14T11:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "ADJACENT_NETWORK"
-        },
-        "assigner": "productcert@siemens.com",
-        "cvss": 3.3,
-        "cvss-time": "2022-12-08T18:30:00",
-        "cvss-vector": "AV:A/AC:L/Au:N/C:P/I:N/A:N",
-        "cwe": "CWE-312",
-        "id": "CVE-2021-33716",
-        "impact": {
-            "availability": "NONE",
-            "confidentiality": "PARTIAL",
-            "integrity": "NONE"
-        },
-        "last-modified": "2022-12-08T18:30:00",
-        "references": [
-            "https://cert-portal.siemens.com/productcert/pdf/ssa-535997.pdf"
-        ],
-        "summary": "A vulnerability has been identified in SIMATIC CP 1543-1 (incl. SIPLUS variants) (All versions < V3.0), SIMATIC CP 1545-1 (All versions < V1.1). An attacker with access to the subnet of the affected device could retrieve sensitive information stored in cleartext."
-    },
-    {
-        "Modified": "2022-12-08T18:23:00",
-        "Published": "2022-12-06T19:15:00",
+        "Modified": "2022-12-08T23:08:00",
+        "Published": "2022-11-01T20:15:00",
         "access": {},
-        "assigner": "security@tibco.com",
+        "assigner": "product-security@apple.com",
         "cvss": null,
-        "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2022-41560",
+        "cwe": "CWE-1021",
+        "id": "CVE-2022-42799",
         "impact": {},
-        "last-modified": "2022-12-08T18:23:00",
+        "last-modified": "2022-12-08T23:08:00",
         "references": [
-            "https://www.tibco.com/services/support/advisories"
+            "https://support.apple.com/en-us/HT213488",
+            "https://support.apple.com/en-us/HT213495",
+            "https://support.apple.com/en-us/HT213492",
+            "https://support.apple.com/en-us/HT213491",
+            "https://support.apple.com/en-us/HT213489",
+            "http://www.openwall.com/lists/oss-security/2022/11/04/4",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5LF4LYP725XZ7RWOPFUV6DGPN4Q5DUU4/",
+            "https://www.debian.org/security/2022/dsa-5274",
+            "https://www.debian.org/security/2022/dsa-5273",
+            "https://lists.debian.org/debian-lts-announce/2022/11/msg00010.html",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AQKLEGJK3LHAKUQOLBHNR2DI3IUGLLTY/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JOFKX6BUEJFECSVFV6P5INQCOYQBB4NZ/"
         ],
-        "summary": "The Statement Set Upload via the Web Client component of TIBCO Software Inc.'s TIBCO Nimbus contains an easily exploitable vulnerability that allows a low privileged attacker with network access to execute a Denial of Service Attack on the affected system. Affected releases are TIBCO Software Inc.'s TIBCO Nimbus: version 10.5.0."
+        "summary": "The issue was addressed with improved UI handling. This issue is fixed in tvOS 16.1, macOS Ventura 13, watchOS 9.1, Safari 16.1, iOS 16.1 and iPadOS 16. Visiting a malicious website may lead to user interface spoofing."
     },
     {
-        "Modified": "2022-12-08T18:22:00",
-        "Published": "2019-04-30T21:29:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "NETWORK"
-        },
-        "assigner": "vulnreport@tenable.com",
-        "cvss": 5.0,
-        "cvss-time": "2022-12-08T18:22:00",
-        "cvss-vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
-        "cwe": "NVD-CWE-Other",
-        "id": "CVE-2019-3928",
-        "impact": {
-            "availability": "NONE",
-            "confidentiality": "PARTIAL",
-            "integrity": "NONE"
-        },
-        "last-modified": "2022-12-08T18:22:00",
-        "references": [
-            "https://www.tenable.com/security/research/tra-2019-20"
-        ],
-        "summary": "Crestron AM-100 with firmware 1.6.0.2 and AM-101 with firmware 2.7.0.2 allow any user to obtain the presentation passcode via the iso.3.6.1.4.1.3212.100.3.2.7.4 OIDs. A remote, unauthenticated attacker can use this vulnerability to access a restricted presentation or to become the presenter."
-    },
-    {
-        "Modified": "2022-12-08T18:19:00",
-        "Published": "2022-10-28T21:15:00",
+        "Modified": "2022-12-08T23:07:00",
+        "Published": "2022-11-08T22:15:00",
         "access": {},
-        "assigner": "cve@mitre.org",
+        "assigner": "cna@sap.com",
         "cvss": null,
-        "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2022-43284",
+        "cwe": "CWE-79",
+        "id": "CVE-2022-41260",
         "impact": {},
-        "last-modified": "2022-12-08T18:19:00",
+        "last-modified": "2022-12-08T23:07:00",
         "references": [
-            "https://github.com/nginx/njs/issues/470",
-            "https://github.com/nginx/njs/issues/529"
+            "https://launchpad.support.sap.com/#/notes/3260708",
+            "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html"
         ],
-        "summary": "** DISPUTED ** Nginx NJS v0.7.2 to v0.7.4 was discovered to contain a segmentation violation via njs_scope_valid_value at njs_scope.h. NOTE: the vendor disputes the significance of this report because NJS does not operate on untrusted input."
+        "summary": "SAP Financial Consolidation - version 1010, does not sufficiently encode user-controlled input which may allow an unauthenticated attacker to inject a web script via a GET request. On successful exploitation, an attacker can view or modify information causing a limited impact on confidentiality and integrity of the application."
     },
     {
-        "Modified": "2022-12-08T18:16:00",
-        "Published": "2022-12-06T19:15:00",
+        "Modified": "2022-12-08T22:51:00",
+        "Published": "2022-11-01T20:15:00",
         "access": {},
-        "assigner": "security-advisories@github.com",
+        "assigner": "product-security@apple.com",
         "cvss": null,
-        "cwe": "CWE-22",
-        "id": "CVE-2022-46154",
+        "cwe": "CWE-362",
+        "id": "CVE-2022-42791",
         "impact": {},
-        "last-modified": "2022-12-08T18:16:00",
+        "last-modified": "2022-12-08T22:51:00",
         "references": [
-            "https://github.com/kalcaddle/KodExplorer/security/advisories/GHSA-6f8p-4w5q-j5j2",
-            "https://github.com/kalcaddle/KodExplorer/commit/1f7072c0e12150686f10ee8cda82c004f04be98c"
+            "https://support.apple.com/en-us/HT213488",
+            "https://support.apple.com/kb/HT213446"
         ],
-        "summary": "Kodexplorer is a chinese language web based file manager and browser based code editor. Versions prior to 4.50 did not prevent unauthenticated users from requesting arbitrary files from the host OS file system. As a result any files available to the host process may be accessed by arbitrary users. This issue has been addressed in version 4.50. Users are advised to upgrade. There are no known workarounds for this issue."
+        "summary": "A race condition was addressed with improved state handling. This issue is fixed in macOS Ventura 13. An app may be able to execute arbitrary code with kernel privileges."
     },
     {
-        "Modified": "2022-12-08T18:15:00",
-        "Published": "2022-11-09T22:15:00",
+        "Modified": "2022-12-08T22:49:00",
+        "Published": "2022-11-08T22:15:00",
         "access": {},
-        "assigner": "secure@microsoft.com",
-        "cvss": null,
-        "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2022-41057",
-        "impact": {},
-        "last-modified": "2022-12-08T18:15:00",
-        "references": [
-            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41057",
-            "http://packetstormsecurity.com/files/170128/SentinelOne-sentinelagent-22.3.2.5-Privilege-Escalation.html",
-            "http://packetstormsecurity.com/files/170128/Windows-HTTP.SYS-Kerberos-PAC-Verification-Bypass-Privilege-Escalation.html"
-        ],
-        "summary": "Windows HTTP.sys Elevation of Privilege Vulnerability."
-    },
-    {
-        "Modified": "2022-12-08T18:04:00",
-        "Published": "2022-12-06T19:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
+        "assigner": "cna@sap.com",
         "cvss": null,
         "cwe": "CWE-94",
-        "id": "CVE-2022-46161",
+        "id": "CVE-2022-41205",
         "impact": {},
-        "last-modified": "2022-12-08T18:04:00",
+        "last-modified": "2022-12-08T22:49:00",
         "references": [
-            "https://securitylab.github.com/advisories/GHSL-2022-068_pdfmake/",
-            "https://github.com/bpampuch/pdfmake/blob/802813970ac6de68a0bd0931b74150b33da0dd18/dev-playground/server.js#L32"
+            "https://launchpad.support.sap.com/#/notes/3237251",
+            "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html"
         ],
-        "summary": "pdfmake is an open source client/server side PDF printing in pure JavaScript. In versions up to and including 0.2.5 pdfmake contains an unsafe evaluation of user controlled input. Users of pdfmake are thus subject to arbitrary code execution in the context of the process running the pdfmake code. There are no known fixes for this issue. Users are advised to restrict access to trusted user input."
+        "summary": "SAP GUI allows an authenticated attacker to execute scripts in the local network. On successful exploitation, the attacker can gain access to registries which can cause a limited impact on confidentiality and high impact on availability of the application."
     },
     {
-        "Modified": "2022-12-08T18:00:00",
-        "Published": "2022-12-06T18:15:00",
+        "Modified": "2022-12-08T22:49:00",
+        "Published": "2022-11-08T22:15:00",
         "access": {},
-        "assigner": "security-advisories@github.com",
+        "assigner": "cna@sap.com",
         "cvss": null,
-        "cwe": "CWE-22",
-        "id": "CVE-2022-23470",
+        "cwe": "CWE-787",
+        "id": "CVE-2022-41211",
         "impact": {},
-        "last-modified": "2022-12-08T18:00:00",
+        "last-modified": "2022-12-08T22:49:00",
         "references": [
-            "https://github.com/galaxyproject/galaxy/security/advisories/GHSA-grjf-2ghx-q77x",
-            "https://github.com/galaxyproject/galaxy/commit/e5e6bda4f014f807ca77ee0cf6af777a55918346"
+            "https://launchpad.support.sap.com/#/notes/3263436",
+            "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html"
         ],
-        "summary": "Galaxy is an open-source platform for data analysis. An arbitrary file read exists in Galaxy 22.01 and Galaxy 22.05 due to the switch to Gunicorn, which can be used to read any file accessible to the operating system user under which Galaxy is running. This vulnerability affects Galaxy 22.01 and higher, after the switch to gunicorn, which serve static contents directly. Additionally, the vulnerability is mitigated when using Nginx or Apache to serve /static/* contents, instead of Galaxy's internal middleware. This issue has been patched in commit `e5e6bda4f` and will be included in future releases. Users are advised to manually patch their installations. There are no known workarounds for this vulnerability."
+        "summary": "Due to lack of proper memory management, when a victim opens manipulated file received from untrusted sources in SAP 3D Visual Enterprise Author and SAP 3D Visual Enterprise Viewer, Arbitrary Code Execution can be triggered when payload forces:Re-use of dangling pointer which refers to overwritten space in memory. The accessed memory must be filled with code to execute the attack. Therefore, repeated success is unlikely.Stack-based buffer overflow. Since the memory overwritten is random, based on access rights of the memory, repeated success is not assured."
     },
     {
-        "Modified": "2022-12-08T18:00:00",
-        "Published": "2022-10-28T21:15:00",
+        "Modified": "2022-12-08T22:41:00",
+        "Published": "2022-10-10T00:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "CWE-347",
+        "id": "CVE-2022-42010",
+        "impact": {},
+        "last-modified": "2022-12-08T22:41:00",
+        "references": [
+            "https://www.openwall.com/lists/oss-security/2022/10/06/1",
+            "https://gitlab.freedesktop.org/dbus/dbus/-/issues/418",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SQCSLMCK2XGX23R2DKW2MSAICQAK6MT2/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E4CO7N226I3X5FNBR2MACCH6TS764VJP/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ND74SKN56BCYL3QLEAAB6E64UUBRA5UG/"
+        ],
+        "summary": "An issue was discovered in D-Bus before 1.12.24, 1.13.x and 1.14.x before 1.14.4, and 1.15.x before 1.15.2. An authenticated attacker can cause dbus-daemon and other programs that use libdbus to crash when receiving a message with certain invalid type signatures."
+    },
+    {
+        "Modified": "2022-12-08T22:40:00",
+        "Published": "2022-10-10T00:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "CWE-129",
+        "id": "CVE-2022-42011",
+        "impact": {},
+        "last-modified": "2022-12-08T22:40:00",
+        "references": [
+            "https://www.openwall.com/lists/oss-security/2022/10/06/1",
+            "https://gitlab.freedesktop.org/dbus/dbus/-/issues/413",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SQCSLMCK2XGX23R2DKW2MSAICQAK6MT2/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E4CO7N226I3X5FNBR2MACCH6TS764VJP/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ND74SKN56BCYL3QLEAAB6E64UUBRA5UG/"
+        ],
+        "summary": "An issue was discovered in D-Bus before 1.12.24, 1.13.x and 1.14.x before 1.14.4, and 1.15.x before 1.15.2. An authenticated attacker can cause dbus-daemon and other programs that use libdbus to crash when receiving a message where an array length is inconsistent with the size of the element type."
+    },
+    {
+        "Modified": "2022-12-08T22:40:00",
+        "Published": "2022-10-10T00:15:00",
         "access": {},
         "assigner": "cve@mitre.org",
         "cvss": null,
         "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2022-43285",
+        "id": "CVE-2022-42012",
         "impact": {},
-        "last-modified": "2022-12-08T18:00:00",
+        "last-modified": "2022-12-08T22:40:00",
         "references": [
-            "https://github.com/nginx/njs/issues/533"
+            "https://www.openwall.com/lists/oss-security/2022/10/06/1",
+            "https://gitlab.freedesktop.org/dbus/dbus/-/issues/417",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SQCSLMCK2XGX23R2DKW2MSAICQAK6MT2/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E4CO7N226I3X5FNBR2MACCH6TS764VJP/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ND74SKN56BCYL3QLEAAB6E64UUBRA5UG/"
         ],
-        "summary": "** DISPUTED ** Nginx NJS v0.7.4 was discovered to contain a segmentation violation in njs_promise_reaction_job. NOTE: the vendor disputes the significance of this report because NJS does not operate on untrusted input."
+        "summary": "An issue was discovered in D-Bus before 1.12.24, 1.13.x and 1.14.x before 1.14.4, and 1.15.x before 1.15.2. An authenticated attacker can cause dbus-daemon and other programs that use libdbus to crash by sending a message with attached file descriptors in an unexpected format."
     },
     {
-        "Modified": "2022-12-08T17:29:00",
-        "Published": "2022-12-06T16:15:00",
+        "Modified": "2022-12-08T22:37:00",
+        "Published": "2022-08-10T20:15:00",
         "access": {},
         "assigner": "cve@mitre.org",
         "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2022-43363",
+        "cwe": "CWE-674",
+        "id": "CVE-2022-28131",
         "impact": {},
-        "last-modified": "2022-12-08T17:29:00",
+        "last-modified": "2022-12-08T22:37:00",
         "references": [
-            "https://pastebin.com/72MRwNXW",
-            "https://bugs.telegram.org/c/17831"
+            "https://groups.google.com/g/golang-announce/c/nqrv9fbR0zE",
+            "https://groups.google.com/g/golang-announce",
+            "https://security.netapp.com/advisory/ntap-20221111-0009/"
         ],
-        "summary": "** DISPUTED ** Telegram Web 15.3.1 allows XSS via a certain payload derived from a Target Corporation website. NOTE: some third parties have been unable to discern any relationship between the Pastebin information and a possible XSS finding."
+        "summary": "In Decoder.Skip in encoding/xml in Go before 1.17.12 and 1.18.x before 1.18.4, stack exhaustion and a panic can occur via a deeply nested XML document."
     },
     {
-        "Modified": "2022-12-08T17:22:00",
-        "Published": "2022-12-06T16:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-434",
-        "id": "CVE-2022-44289",
-        "impact": {},
-        "last-modified": "2022-12-08T17:22:00",
-        "references": [
-            "https://github.com/top-think/framework/issues/2772"
-        ],
-        "summary": "Thinkphp 5.1.41 and 5.0.24 has a code logic error which causes file upload getshell."
-    },
-    {
-        "Modified": "2022-12-08T17:08:00",
-        "Published": "2022-12-06T18:15:00",
+        "Modified": "2022-12-08T22:35:00",
+        "Published": "2022-08-01T20:15:00",
         "access": {},
         "assigner": "security-advisories@github.com",
         "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2022-23466",
+        "cwe": "CWE-918",
+        "id": "CVE-2022-31188",
         "impact": {},
-        "last-modified": "2022-12-08T17:08:00",
+        "last-modified": "2022-12-08T22:35:00",
         "references": [
-            "https://github.com/kitabisa/teler/commit/20f59eda2420ac64e29f199a61230a0abc875e8e",
-            "https://github.com/kitabisa/teler/security/advisories/GHSA-xr7p-8q82-878q"
+            "https://github.com/cvat-ai/cvat/commit/6fad1764efd922d99dbcda28c4ee72d071aa5a07",
+            "https://github.com/cvat-ai/cvat/security/advisories/GHSA-7vpj-j5xv-29pr",
+            "http://packetstormsecurity.com/files/169814/CVAT-2.0-Server-Side-Request-Forgery.html"
         ],
-        "summary": "teler is an real-time intrusion detection and threat alert dashboard. teler prior to version 2.0.0-rc.4 is vulnerable to DOM-based cross-site scripting (XSS) in the teler dashboard. When teler requests messages from the event stream on the `/events` endpoint, the log data displayed on the dashboard are not sanitized. This only affects authenticated users and can only be exploited based on detected threats if the log contains a DOM scripting payload. This vulnerability has been fixed on version `v2.0.0-rc.4`. Users are advised to upgrade. There are no known workarounds for this vulnerability."
+        "summary": "CVAT is an opensource interactive video and image annotation tool for computer vision. Versions prior to 2.0.0 were found to be subject to a Server-side request forgery (SSRF) vulnerability. Validation has been added to urls used in the affected code path in version 2.0.0. Users are advised to upgrade. There are no known workarounds for this issue."
     },
     {
-        "Modified": "2022-12-08T17:02:00",
-        "Published": "2022-12-06T16:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-276",
-        "id": "CVE-2022-46382",
-        "impact": {},
-        "last-modified": "2022-12-08T17:02:00",
-        "references": [
-            "https://rackn.com/products/rebar/"
-        ],
-        "summary": "RackN Digital Rebar through 4.6.14, 4.7 through 4.7.22, 4.8 through 4.8.5, 4.9 through 4.9.12, and 4.10 through 4.10.8 has Insecure Permissions. After signing into Digital Rebar, users are issued authentication tokens tied to their account to perform actions within Digital Rebar. During the validation process of these tokens, Digital Rebar did not check if the user account still exists. Deleted Digital Rebar users could still use their tokens to perform actions within Digital Rebar."
-    },
-    {
-        "Modified": "2022-12-08T16:53:00",
-        "Published": "2022-12-06T15:15:00",
+        "Modified": "2022-12-08T22:35:00",
+        "Published": "2022-07-25T23:15:00",
         "access": {},
         "assigner": "cve@mitre.org",
         "cvss": null,
         "cwe": "NVD-CWE-Other",
-        "id": "CVE-2022-46383",
+        "id": "CVE-2022-34749",
         "impact": {},
-        "last-modified": "2022-12-08T16:53:00",
+        "last-modified": "2022-12-08T22:35:00",
         "references": [
-            "https://docs.rackn.io/en/latest/doc/security/cve_2022_46383.html",
-            "https://rackn.com/products/rebar/"
+            "https://github.com/lepture/mistune/commit/a6d43215132fe4f3d93f8d7e90ba83b16a0838b2",
+            "https://github.com/lepture/mistune/releases",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TQHXITQ2DSBYOILKHXBSBB7PFBPZHF63/"
         ],
-        "summary": "RackN Digital Rebar through 4.6.14, 4.7 through 4.7.22, 4.8 through 4.8.5, 4.9 through 4.9.12, and 4.10 through 4.10.8 has exposed a privileged token via a public API endpoint (Incorrect Access Control). The token can be used to escalate privileges within the Digital Rebar system and grant full administrative access."
+        "summary": "In mistune through 2.0.2, support of inline markup is implemented by using regular expressions that can involve a high amount of backtracking on certain edge cases. This behavior is commonly named catastrophic backtracking."
     },
     {
-        "Modified": "2022-12-08T16:47:00",
-        "Published": "2022-12-06T19:15:00",
-        "access": {},
-        "assigner": "psirt@us.ibm.com",
-        "cvss": null,
-        "cwe": "CWE-78",
-        "id": "CVE-2022-43867",
-        "impact": {},
-        "last-modified": "2022-12-08T16:47:00",
-        "references": [
-            "https://www.ibm.com/support/pages/node/6844771",
-            "https://exchange.xforce.ibmcloud.com/vulnerabilities/239437"
-        ],
-        "summary": "IBM Spectrum Scale 5.1.0.1 through 5.1.4.1 could allow a local attacker to execute arbitrary commands in the container. IBM X-Force ID: 239437."
-    },
-    {
-        "Modified": "2022-12-08T16:47:00",
-        "Published": "2022-12-06T18:15:00",
-        "access": {},
-        "assigner": "psirt@us.ibm.com",
-        "cvss": null,
-        "cwe": "CWE-327",
-        "id": "CVE-2022-34361",
-        "impact": {},
-        "last-modified": "2022-12-08T16:47:00",
-        "references": [
-            "https://exchange.xforce.ibmcloud.com/vulnerabilities/230522",
-            "https://www.ibm.com/support/pages/node/6844763"
-        ],
-        "summary": "IBM Sterling Secure Proxy 6.0.3 uses weaker than expected cryptographic algorithms that could allow an attacker to decrypt highly sensitive information. IBM X-Force ID: 230522."
-    },
-    {
-        "Modified": "2022-12-08T16:44:00",
-        "Published": "2022-12-06T16:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-190",
-        "id": "CVE-2022-41325",
-        "impact": {},
-        "last-modified": "2022-12-08T16:44:00",
-        "references": [
-            "https://www.videolan.org/security/sb-vlc3018.html",
-            "https://www.synacktiv.com/sites/default/files/2022-11/vlc_vnc_int_overflow-CVE-2022-41325.pdf",
-            "https://twitter.com/0xMitsurugi",
-            "https://www.debian.org/security/2022/dsa-5297"
-        ],
-        "summary": "An integer overflow in the VNC module in VideoLAN VLC Media Player through 3.0.17.4 allows attackers, by tricking a user into opening a crafted playlist or connecting to a rogue VNC server, to crash VLC or execute code under some conditions."
-    },
-    {
-        "Modified": "2022-12-08T16:41:00",
-        "Published": "2022-12-06T02:15:00",
-        "access": {},
-        "assigner": "security@zyxel.com.tw",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2022-40603",
-        "impact": {},
-        "last-modified": "2022-12-08T16:41:00",
-        "references": [
-            "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-xss-vulnerability-in-firewalls"
-        ],
-        "summary": "A cross-site scripting (XSS) vulnerability in the CGI program of Zyxel ZyWALL/USG series firmware versions 4.30 through 4.72, VPN series firmware versions 4.30 through 5.31, USG FLEX series firmware versions 4.50 through 5.31, and ATP series firmware versions 4.32 through 5.31, which could allow an attacker to trick a user into visiting a crafted URL with the XSS payload. Then, the attacker could gain access to some browser-based information if the malicious script is executed on the victim\u2019s browser."
-    },
-    {
-        "Modified": "2022-12-08T16:34:00",
-        "Published": "2022-12-06T17:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-611",
-        "id": "CVE-2022-45326",
-        "impact": {},
-        "last-modified": "2022-12-08T16:34:00",
-        "references": [
-            "https://www.navsec.net/2022/11/12/kwoksys-xxe.html",
-            "http://www.kwoksys.com/wiki/index.php?title=Release_Notes"
-        ],
-        "summary": "An XML external entity (XXE) injection vulnerability in Kwoksys Kwok Information Server before v2.9.5.SP31 allows remote authenticated users to conduct server-side request forgery (SSRF) attacks."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T15:15:00",
-        "access": {},
-        "assigner": "cna@vuldb.com",
-        "cvss": null,
-        "cwe": "CWE-707",
-        "id": "CVE-2022-4364",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://vuldb.com/?id.215118",
-            "https://github.com/siriuswhiter/VulnHub/blob/main/Flir/02-FLIR-AX8%20palette.php%20%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E/FLIR-AX8%20palette.php%20%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E1.md"
-        ],
-        "summary": "A vulnerability classified as critical has been found in Teledyne FLIR AX8 up to 1.46.16. Affected is an unknown function of the file palette.php of the component Web Service Handler. The manipulation of the argument palette leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-215118 is the identifier assigned to this vulnerability."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39902",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
-        ],
-        "summary": "Improper authorization in Exynos baseband prior to SMR DEC-2022 Release 1 allows remote attacker to get sensitive information including IMEI via emergency call."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "security-alert@hpe.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-37917",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://www.arubanetworks.com/assets/alert/ARUBA-PSA-2022-019.txt"
-        ],
-        "summary": "Vulnerabilities in the AirWave Management Platform web-based management interface exist which expose some URLs to a lack of proper access controls. These vulnerabilities could allow a remote attacker with limited privileges to gain access to sensitive information and/or change network configurations with privileges at a higher effective level in Aruba AirWave Management Platform version(s): 8.2.15.0 and below."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39904",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
-        ],
-        "summary": "Exposure of Sensitive Information vulnerability in Samsung Settings prior to SMR Dec-2022 Release 1 allows local attackers to access the Network Access Identifier via log."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39906",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
-        ],
-        "summary": "Improper access control vulnerability in SecTelephonyProvider prior to SMR Dec-2022 Release 1 allows attackers to access message information."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "security@microfocus.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-38754",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://marketplace.microfocus.com/itom/content/operations-bridge-manager-obm-2022-05-hotfixes",
-            "https://portal.microfocus.com/s/article/KM000012517?language=en_US",
-            "https://portal.microfocus.com/s/article/KM000012518?language=en_US"
-        ],
-        "summary": "A potential vulnerability has been identified in Micro Focus Operations Bridge - Containerized. The vulnerability could be exploited by a malicious authenticated OBM (Operations Bridge Manager) user to run Java Scripts in the browser context of another OBM user. Please note: The vulnerability is only applicable if the Operations Bridge Manager capability is deployed. A potential vulnerability has been identified in Micro Focus Operations Bridge Manager (OBM). The vulnerability could be exploited by a malicious authenticated OBM user to run Java Scripts in the browser context of another OBM user. This issue affects: Micro Focus Micro Focus Operations Bridge Manager versions prior to 2022.11. Micro Focus Micro Focus Operations Bridge- Containerized versions prior to 2022.11."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39894",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
-        ],
-        "summary": "Improper access control vulnerability in ContactListStartActivityHelper in Phone prior to SMR Dec-2022 Release 1 allows to access sensitive information via implicit intent."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "security-alert@hpe.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-37916",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://www.arubanetworks.com/assets/alert/ARUBA-PSA-2022-019.txt"
-        ],
-        "summary": "Vulnerabilities in the AirWave Management Platform web-based management interface exist which expose some URLs to a lack of proper access controls. These vulnerabilities could allow a remote attacker with limited privileges to gain access to sensitive information and/or change network configurations with privileges at a higher effective level in Aruba AirWave Management Platform version(s): 8.2.15.0 and below."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39909",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=12"
-        ],
-        "summary": "Insufficient verification of data authenticity vulnerability in Samsung Gear IconX PC Manager prior to version 2.1.221019.51 allows local attackers to create arbitrary file using symbolic link."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "security-alert@hpe.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-37918",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://www.arubanetworks.com/assets/alert/ARUBA-PSA-2022-019.txt"
-        ],
-        "summary": "Vulnerabilities in the AirWave Management Platform web-based management interface exist which expose some URLs to a lack of proper access controls. These vulnerabilities could allow a remote attacker with limited privileges to gain access to sensitive information and/or change network configurations with privileges at a higher effective level in Aruba AirWave Management Platform version(s): 8.2.15.0 and below."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39912",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=12"
-        ],
-        "summary": "Improper handling of insufficient permissions vulnerability in setSecureFolderPolicy in PersonaManagerService prior to Android T(13) allows local attackers to set some setting value in Secure folder."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39895",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
-        ],
-        "summary": "Improper access control vulnerability in ContactListUtils in Phone prior to SMR Dec-2022 Release 1 allows to access contact group information via implicit intent."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39897",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
-        ],
-        "summary": "Exposure of Sensitive Information vulnerability in kernel prior to SMR Dec-2022 Release 1 allows attackers to access the kernel address information via log."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39899",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
-        ],
-        "summary": "Improper authentication vulnerability in Samsung WindowManagerService prior to SMR Dec-2022 Release 1 allows attacker to send the input event using S Pen gesture."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39901",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
-        ],
-        "summary": "Improper authentication in Exynos baseband prior to SMR DEC-2022 Release 1 allows remote attacker to disable the network traffic encryption between UE and gNodeB."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39908",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
-        ],
-        "summary": "TOCTOU vulnerability in Samsung decoding library for video thumbnails prior to SMR Dec-2022 Release 1 allows local attacker to perform Out-Of-Bounds Write."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39910",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=12"
-        ],
-        "summary": "Improper access control vulnerability in Samsung Pass prior to version 4.0.06.7 allow physical attackers to access data of Samsung Pass on a certain state of an unlocked device using pop-up view."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
+        "Modified": "2022-12-08T22:34:00",
+        "Published": "2022-08-26T18:15:00",
         "access": {},
         "assigner": "secalert@redhat.com",
         "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-3260",
+        "cwe": "CWE-416",
+        "id": "CVE-2022-0216",
         "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
+        "last-modified": "2022-12-08T22:34:00",
         "references": [
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2106780"
+            "https://gitlab.com/qemu-project/qemu/-/commit/4367a20cc4",
+            "https://access.redhat.com/security/cve/CVE-2022-0216",
+            "https://starlabs.sg/advisories/22/22-0216/",
+            "https://gitlab.com/qemu-project/qemu/-/issues/972",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2036953",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZTY7TVHX62OJWF6IOBCIGLR2N5K4QN3E/"
         ],
-        "summary": "The response header has not enabled X-FRAME-OPTIONS, Which helps prevents against Clickjacking attack.. Some browsers would interpret these results incorrectly, allowing clickjacking attacks."
+        "summary": "A use-after-free vulnerability was found in the LSI53C895A SCSI Host Bus Adapter emulation of QEMU. The flaw occurs while processing repeated messages to cancel the current SCSI request via the lsi_do_msgout function. This flaw allows a malicious privileged user within the guest to crash the QEMU process on the host, resulting in a denial of service."
     },
     {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
+        "Modified": "2022-12-08T22:34:00",
+        "Published": "2022-08-25T20:15:00",
         "access": {},
-        "assigner": "mobile.security@samsung.com",
+        "assigner": "secalert@redhat.com",
         "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39896",
+        "cwe": "CWE-327",
+        "id": "CVE-2021-3979",
         "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
+        "last-modified": "2022-12-08T22:34:00",
         "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
+            "https://access.redhat.com/security/cve/CVE-2021-3979",
+            "https://tracker.ceph.com/issues/54006",
+            "https://github.com/ceph/ceph/pull/44765",
+            "https://github.com/ceph/ceph/commit/47c33179f9a15ae95cc1579a421be89378602656",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2024788",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BPOK44BESMIFW6BIOGCN452AKKOIIT6Q/"
         ],
-        "summary": "Improper access control vulnerabilities in Contacts prior to SMR Dec-2022 Release 1 allows to access sensitive information via implicit intent."
+        "summary": "A key length flaw was found in Red Hat Ceph Storage. An attacker can exploit the fact that the key length is incorrectly passed in an encryption algorithm to create a non random key, which is weaker and can be exploited for loss of confidentiality and integrity on encrypted disks."
     },
     {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "scy@openharmony.io",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-44455",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://gitee.com/openharmony/security/blob/master/en/security-disclosure/2022/2022-12.md"
-        ],
-        "summary": "The appspawn and nwebspawn services within OpenHarmony-v3.1.2 and prior versions were found to be vulnerable to buffer overflow vulnerability due to insufficient input validation. An unprivileged malicious application would be able to gain code execution within any application installed on the device or cause application crash."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39898",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
-        ],
-        "summary": "Improper access control vulnerability in IIccPhoneBook prior to SMR Dec-2022 Release 1 allows attackers to access some information of usim."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "scy@openharmony.io",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-44455",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://gitee.com/openharmony/security/blob/master/en/security-disclosure/2022/2022-12.md"
-        ],
-        "summary": "The appspawn and nwebspawn services within OpenHarmony-v3.1.2 and prior versions were found to be vulnerable to buffer overflow vulnerability due to insufficient input validation. An unprivileged malicious application would be able to gain code execution within any application installed on the device or cause application crash."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "scy@openharmony.io",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-41802",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://gitee.com/openharmony/security/blob/master/en/security-disclosure/2022/2022-12.md"
-        ],
-        "summary": "Kernel subsystem within OpenHarmony-v3.1.4 and prior versions in kernel_liteos_a has a kernel stack overflow vulnerability when call SysClockGetres. 4 bytes padding data from kernel stack are copied to user space incorrectly and leaked."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
+        "Modified": "2022-12-08T22:34:00",
+        "Published": "2022-08-10T20:15:00",
         "access": {},
         "assigner": "cve@mitre.org",
         "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-44932",
+        "cwe": "CWE-287",
+        "id": "CVE-2022-32429",
         "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
+        "last-modified": "2022-12-08T22:34:00",
         "references": [
-            "https://github.com/z1r00/IOT_Vul/blob/main/Tenda/A18/TendaTelnet/readme.md"
+            "https://elifulkerson.com/CVE-2022-32429/",
+            "http://packetstormsecurity.com/files/169819/MSNSwitch-Firmware-MNT.2408-Remote-Code-Execution.html"
         ],
-        "summary": "An access control issue in Tenda A18 v15.13.07.09 allows unauthenticated attackers to access the Telnet service."
+        "summary": "An authentication-bypass issue in the component http://MYDEVICEIP/cgi-bin-sdb/ExportSettings.sh of Mega System Technologies Inc MSNSwitch MNT.2408 allows unauthenticated attackers to arbitrarily configure settings within the application, leading to remote code execution."
     },
     {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "scy@openharmony.io",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-45118",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
+        "Modified": "2022-12-08T22:34:00",
+        "Published": "2022-05-24T15:15:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "security-advisories@github.com",
+        "cvss": 6.5,
+        "cvss-time": "2022-12-08T22:34:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+        "cwe": "CWE-94",
+        "id": "CVE-2022-29221",
+        "impact": {
+            "availability": "PARTIAL",
+            "confidentiality": "PARTIAL",
+            "integrity": "PARTIAL"
+        },
+        "last-modified": "2022-12-08T22:34:00",
         "references": [
-            "https://gitee.com/openharmony/security/blob/master/en/security-disclosure/2022/2022-12.md"
+            "https://github.com/smarty-php/smarty/releases/tag/v3.1.45",
+            "https://github.com/smarty-php/smarty/security/advisories/GHSA-634x-pc3q-cf4c",
+            "https://github.com/smarty-php/smarty/commit/64ad6442ca1da31cefdab5c9874262b702cccddd",
+            "https://github.com/smarty-php/smarty/releases/tag/v4.1.1",
+            "https://www.debian.org/security/2022/dsa-5151",
+            "https://lists.debian.org/debian-lts-announce/2022/05/msg00044.html",
+            "https://security.gentoo.org/glsa/202209-09",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/L777JIBIWJV34HS7LXPIDWASG7TT4LNI/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BRAJVDRGCIY5UZ2PQHKDTT7RMKG6WJQQ/"
         ],
-        "summary": "OpenHarmony-v3.1.2 and prior versions had a vulnerability that telephony in communication subsystem sends public events with personal data, but the permission is not set. Malicious apps could listen to public events and obtain information such as mobile numbers and SMS data without permissions."
+        "summary": "Smarty is a template engine for PHP, facilitating the separation of presentation (HTML/CSS) from application logic. Prior to versions 3.1.45 and 4.1.1, template authors could inject php code by choosing a malicious {block} name or {include} file name. Sites that cannot fully trust template authors should upgrade to versions 3.1.45 or 4.1.1 to receive a patch for this issue. There are currently no known workarounds."
     },
     {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
+        "Modified": "2022-12-08T22:30:00",
+        "Published": "2022-12-08T22:15:00",
         "access": {},
-        "assigner": "cve@mitre.org",
+        "assigner": "security-advisories@github.com",
         "cvss": null,
         "cwe": "Unknown",
-        "id": "CVE-2022-45499",
+        "id": "CVE-2022-46153",
         "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
+        "last-modified": "2022-12-08T22:30:00",
         "references": [
-            "https://github.com/z1r00/IOT_Vul/blob/main/Tenda/W6-S/WifiMacFilterGet/readme.md"
+            "https://github.com/traefik/traefik/releases/tag/v2.9.6",
+            "https://github.com/traefik/traefik/security/advisories/GHSA-468w-8x39-gj5v",
+            "https://doc.traefik.io/traefik/v2.9/https/tls/#tls-options",
+            "https://github.com/traefik/traefik/commit/7e3fe48b80083b41e9ff82a474a36484cabc701a"
         ],
-        "summary": "Tenda W6-S v1.0.0.4(510) was discovered to contain a stack overflow via the wl_radio parameter at /goform/WifiMacFilterGet."
+        "summary": "Traefik is an open source HTTP reverse proxy and load balancer. In affected versions there is a potential vulnerability in Traefik managing TLS connections. A router configured with a not well-formatted TLSOption is exposed with an empty TLSOption. For instance, a route secured using an mTLS connection set with a wrong CA file is exposed without verifying the client certificates. Users are advised to upgrade to version 2.9.6. Users unable to upgrade should check their logs to detect the error messages and fix your TLS options."
     },
     {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
+        "Modified": "2022-12-08T22:30:00",
+        "Published": "2022-12-08T22:15:00",
         "access": {},
-        "assigner": "cve@mitre.org",
+        "assigner": "security-advisories@github.com",
         "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-45504",
+        "cwe": "CWE-200",
+        "id": "CVE-2022-46158",
         "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
+        "last-modified": "2022-12-08T22:30:00",
         "references": [
-            "https://github.com/z1r00/IOT_Vul/blob/main/Tenda/W6-S/SysToolRestoreSet/readme.md"
+            "https://github.com/PrestaShop/PrestaShop/security/advisories/GHSA-9qgp-9wwc-v29r",
+            "https://github.com/PrestaShop/PrestaShop/commit/8684d429fb7c3bb51efb098e8b92a1fd2958f8cf"
         ],
-        "summary": "An issue in the component tpi_systool_handle(0) (/goform/SysToolRestoreSet) of Tenda W6-S v1.0.0.4(510) allows unauthenticated attackers to arbitrarily reboot the device."
+        "summary": "PrestaShop is an open-source e-commerce solution. Versions prior to 1.7.8.8 did not properly restrict host filesystem access for users. Users may have been able to view the contents of the upload directory without appropriate permissions. This issue has been addressed and users are advised to upgrade to version 1.7.8.8. There are no known workarounds for this issue."
     },
     {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
+        "Modified": "2022-12-08T22:30:00",
+        "Published": "2022-12-08T22:15:00",
         "access": {},
-        "assigner": "cve@mitre.org",
+        "assigner": "security-advisories@github.com",
         "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-45505",
+        "cwe": "CWE-200",
+        "id": "CVE-2022-23469",
         "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
+        "last-modified": "2022-12-08T22:30:00",
         "references": [
-            "https://github.com/z1r00/IOT_Vul/blob/main/Tenda/W30E/exeCommand/readme.md"
+            "https://github.com/traefik/traefik/pull/9574",
+            "https://github.com/traefik/traefik/releases/tag/v2.9.6",
+            "https://github.com/traefik/traefik/security/advisories/GHSA-h2ph-vhm7-g4hp"
         ],
-        "summary": "Tenda W30E V1.0.1.25(633) was discovered to contain a stack overflow via the cmdinput parameter at /goform/exeCommand."
+        "summary": "Traefik is an open source HTTP reverse proxy and load balancer. Versions prior to 2.9.6 are subject to a potential vulnerability in Traefik displaying the Authorization header in its debug logs. In certain cases, if the log level is set to DEBUG, credentials provided using the Authorization header are displayed in the debug logs. Attackers must have access to a users logging system in order for credentials to be stolen. This issue has been addressed in version 2.9.6. Users are advised to upgrade. Users unable to upgrade may set the log level to `INFO`, `WARN`, or `ERROR`."
     },
     {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
+        "Modified": "2022-12-08T22:30:00",
+        "Published": "2022-12-08T22:15:00",
         "access": {},
-        "assigner": "cve@mitre.org",
+        "assigner": "security-advisories@github.com",
         "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-45510",
+        "cwe": "CWE-79",
+        "id": "CVE-2022-23494",
         "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
+        "last-modified": "2022-12-08T22:30:00",
         "references": [
-            "https://github.com/z1r00/IOT_Vul/blob/main/Tenda/W30E/AdvSetWrlsafeset/readme.md"
+            "https://github.com/tinymce/tinymce/commit/6923d85eba6de3e08ebc9c5a387b5abdaa21150e",
+            "https://www.tiny.cloud/docs/tinymce/6/file-image-upload/#images_upload_handler",
+            "https://www.tiny.cloud/docs/release-notes/release-notes5107/#securityfixes",
+            "https://github.com/tinymce/tinymce/commit/8bb2d2646d4e1a718fce61a775fa22e9d317b32d",
+            "https://github.com/tinymce/tinymce/security/advisories/GHSA-gg8r-xjwq-4w92",
+            "https://www.tiny.cloud/docs/tinymce/6/6.3-release-notes/#security-fixes"
         ],
-        "summary": "Tenda W30E V1.0.1.25(633) was discovered to contain a stack overflow via the mit_ssid_index parameter at /goform/AdvSetWrlsafeset."
+        "summary": "tinymce is an open source rich text editor. A cross-site scripting (XSS) vulnerability was discovered in the alert and confirm dialogs when these dialogs were provided with malicious HTML content. This can occur in plugins that use the alert or confirm dialogs, such as in the `image` plugin, which presents these dialogs when certain errors occur. The vulnerability allowed arbitrary JavaScript execution when an alert presented in the TinyMCE UI for the current user. This vulnerability has been patched in TinyMCE 5.10.7 and TinyMCE 6.3.1 by ensuring HTML sanitization was still performed after unwrapping invalid elements. Users are advised to upgrade to either 5.10.7 or 6.3.1. Users unable to upgrade may ensure the the `images_upload_handler` returns a valid value as per the images_upload_handler documentation."
     },
     {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
+        "Modified": "2022-12-08T22:30:00",
+        "Published": "2022-12-08T22:15:00",
         "access": {},
-        "assigner": "cve@mitre.org",
+        "assigner": "security-advisories@github.com",
         "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-45511",
+        "cwe": "CWE-755",
+        "id": "CVE-2022-23495",
         "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
+        "last-modified": "2022-12-08T22:30:00",
         "references": [
-            "https://github.com/z1r00/IOT_Vul/blob/main/Tenda/W30E/QuickIndex/readme.md"
+            "https://github.com/ipfs/go-merkledag/releases/tag/v0.8.1",
+            "https://github.com/ipfs/go-merkledag/releases/tag/v0.8.0",
+            "https://github.com/ipfs/go-merkledag/pull/93",
+            "https://github.com/ipfs/go-merkledag/security/advisories/GHSA-x39j-h85h-3f46",
+            "https://github.com/ipfs/go-merkledag/pull/91",
+            "https://github.com/ipfs/kubo/issues/9297",
+            "https://github.com/ipfs/go-merkledag/pull/92",
+            "https://github.com/ipfs/go-merkledag/issues/90",
+            "https://en.wikipedia.org/wiki/Directed_acyclic_graph"
         ],
-        "summary": "Tenda W30E V1.0.1.25(633) was discovered to contain a stack overflow via the PPPOEPassword parameter at /goform/QuickIndex."
+        "summary": "go-merkledag implements the 'DAGService' interface and adds two ipld node types, Protobuf and Raw for the ipfs project. A `ProtoNode` may be modified in such a way as to cause various encode errors which will trigger a panic on common method calls that don't allow for error returns. A `ProtoNode` should only be able to encode to valid DAG-PB, attempting to encode invalid DAG-PB forms will result in an error from the codec. Manipulation of an existing (newly created or decoded) `ProtoNode` using the modifier methods did not account for certain states that would place the `ProtoNode` into an unencodeable form. Due to conformance with the [`github.com/ipfs/go-block-format#Block`](https://pkg.go.dev/github.com/ipfs/go-block-format#Block) and [`github.com/ipfs/go-ipld-format#Node`](https://pkg.go.dev/github.com/ipfs/go-ipld-format#Node) interfaces, certain methods, which internally require a re-encode if state has changed, will panic due to the inability to return an error. This issue has been addressed across a number of pull requests. Users are advised to upgrade to version 0.8.1 for a complete set of fixes. Users unable to upgrade may attempt to mitigate this issue by sanitising inputs when allowing user-input to set a new `CidBuilder` on a `ProtoNode` and by sanitising `Tsize` (`Link#Size`) values such that they are a reasonable byte-size for sub-DAGs where derived from user-input."
     },
     {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
+        "Modified": "2022-12-08T22:30:00",
+        "Published": "2022-12-08T22:15:00",
         "access": {},
-        "assigner": "mobile.security@samsung.com",
+        "assigner": "security-advisories@github.com",
         "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39900",
+        "cwe": "CWE-755",
+        "id": "CVE-2022-23496",
         "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
+        "last-modified": "2022-12-08T22:30:00",
         "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
+            "https://github.com/nielsbasjes/yauaa/commit/3017a866e2cff0d308f264b66fde4fa79e3beb9e",
+            "https://github.com/nielsbasjes/yauaa/security/advisories/GHSA-c4pm-63cg-9j7h"
         ],
-        "summary": "Improper access control vulnerability in Nice Catch prior to SMR Dec-2022 Release 1 allows physical attackers to access contents of all toast generated in the application installed in Secure Folder through Nice Catch."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-45516",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://github.com/z1r00/IOT_Vul/blob/main/Tenda/W30E/NatStaticSetting/readme.md"
-        ],
-        "summary": "Tenda W30E V1.0.1.25(633) was discovered to contain a stack overflow via the page parameter at /goform/NatStaticSetting."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39903",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
-        ],
-        "summary": "Improper access control vulnerability in RCS call prior to SMR Dec-2022 Release 1 allows local attackers to access RCS incoming call number."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39905",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
-        ],
-        "summary": "Implicit intent hijacking vulnerability in Telecom application prior to SMR Dec-2022 Release 1 allows attacker to access sensitive information via implicit intent."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39907",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=12"
-        ],
-        "summary": "Integer overflow vulnerability in Samsung decoding library for video thumbnails prior to SMR Dec-2022 Release 1 allows local attacker to perform Out-Of-Bounds Write."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39911",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=12"
-        ],
-        "summary": "Improper check or handling of exceptional conditions vulnerability in Samsung Pass prior to version 4.0.06.1 allows attacker to access Samsung Pass."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39913",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=12"
-        ],
-        "summary": "Exposure of Sensitive Information to an Unauthorized Actor in Persona Manager prior to Android T(13) allows local attacker to access user profiles information."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-45506",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://github.com/z1r00/IOT_Vul/blob/main/Tenda/W30E/delFileName/readme.md"
-        ],
-        "summary": "Tenda W30E v1.0.1.25(633) was discovered to contain a command injection vulnerability via the fileNameMit parameter at /goform/delFileName."
-    },
-    {
-        "Modified": "2022-12-08T16:29:00",
-        "Published": "2022-12-08T16:15:00",
-        "access": {},
-        "assigner": "mobile.security@samsung.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2022-39914",
-        "impact": {},
-        "last-modified": "2022-12-08T16:29:00",
-        "references": [
-            "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=12"
-        ],
-        "summary": "Exposure of Sensitive Information from an Unauthorized Actor vulnerability in Samsung DisplayManagerService prior to Android T(13) allows local attacker to access connected DLNA device information."
+        "summary": "Yet Another UserAgent Analyzer (Yauaa) is a java library that tries to parse and analyze the useragent string and extract as many relevant attributes as possible. Applications using the Client Hints analysis feature introduced with 7.0.0 can crash because the Yauaa library throws an ArrayIndexOutOfBoundsException. If uncaught the exception will result in a program crash. Applications that do not use this feature are not affected. Users are advised to upgrade to version 7.9.0. Users unable to upgrade may catch and discard any ArrayIndexOutOfBoundsException thrown by the Yauaa library."
     }
 ]
