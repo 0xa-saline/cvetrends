@@ -1,181 +1,188 @@
 {
     "data": [
         {
-            "assigner": "secure@microsoft.com",
-            "audience_size": 555545,
-            "cve": "CVE-2022-41128",
+            "assigner": "cve@mitre.org",
+            "audience_size": 293762,
+            "cve": "CVE-2022-42703",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
-            "cvssv3_base_score": 8.8,
-            "cvssv3_base_severity": "HIGH",
-            "cwes": [],
-            "description": "Windows Scripting Languages Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-41118.",
-            "epss_score": "0.01601",
-            "github_repos": [],
-            "lastModifiedDate": "2022-11-10T14:38Z",
-            "num_retweets": 94,
-            "num_tweets": 16,
-            "num_tweets_and_retweets": 110,
-            "publishedDate": "2022-11-09T22:15Z",
-            "reddit_posts": [
+            "cvssv3_base_score": 5.5,
+            "cvssv3_base_severity": "MEDIUM",
+            "cwes": [
                 {
-                    "created": 1668002282.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/yqjqfb/msisac_cybersecurity_advisory_critical_patches/",
-                    "subreddit": "k12cybersecurity",
-                    "subreddit_subscribers": 75,
-                    "title": "MS-ISAC CYBERSECURITY ADVISORY - Critical Patches Issued for Microsoft Products, November 8, 2022 - PATCH: NOW",
-                    "upvotes": 2,
-                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/yqjqfb/msisac_cybersecurity_advisory_critical_patches/"
-                },
-                {
-                    "created": 1668037122.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/yqz8hk/cve202241128/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 117,
-                    "title": "CVE-2022-41128",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-41128"
+                    "cwe_description": "Use After Free",
+                    "cwe_id": "CWE-416"
                 }
             ],
-            "score": 8.8,
-            "severity": "HIGH",
+            "description": "mm/rmap.c in the Linux kernel before 5.19.7 has a use-after-free related to leaf anon_vma double reuse.",
+            "epss_score": "0.0095",
+            "github_repos": [],
+            "lastModifiedDate": "2022-12-08T23:15Z",
+            "num_retweets": 27,
+            "num_tweets": 27,
+            "num_tweets_and_retweets": 54,
+            "publishedDate": "2022-10-09T23:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1670538540.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/UIC/comments/zge05s/exploiting_cve202242703_bringing_back_the_stack/",
+                    "subreddit": "UIC",
+                    "subreddit_subscribers": 3269,
+                    "title": "Exploiting CVE-2022-42703 - Bringing back the stack attack",
+                    "upvotes": 1,
+                    "url": "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html"
+                },
+                {
+                    "created": 1665362292.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/y00xuv/cve202242703/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 117,
+                    "title": "CVE-2022-42703",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-42703"
+                },
+                {
+                    "created": 1670538568.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/lowlevel/comments/zge0om/exploiting_cve202242703_bringing_back_the_stack/",
+                    "subreddit": "lowlevel",
+                    "subreddit_subscribers": 11741,
+                    "title": "Exploiting CVE-2022-42703 - Bringing back the stack attack",
+                    "upvotes": 0,
+                    "url": "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html"
+                }
+            ],
+            "score": 5.5,
+            "severity": "MEDIUM",
             "tweets": [
                 {
-                    "created_at": "2022-12-08 03:03",
-                    "likes": 180,
-                    "num_retweets": 69,
-                    "retweets": 75,
-                    "tweet_id": "1600687358554230786",
-                    "tweet_text": "Internet Explorer 0-day exploited by North Korean actor APT37\nhttps://t.co/Iq12SYGeUh\nhttps://t.co/rZ26BinJI4\nCVE-2022-41128: Type confusion in Internet Explorer's JScript9 engine\nhttps://t.co/WZrBFUNCp7\nSample\nhttps://t.co/ylMk9BwlTg https://t.co/Cxjc7oiDDB",
-                    "twitter_user_handle": "blackorbird",
-                    "twitter_user_name": "blackorbird",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1390264140908748806/I8nxLuzB_normal.jpg",
+                    "created_at": "2022-12-08 19:08",
+                    "likes": 74,
+                    "num_retweets": 24,
+                    "retweets": 24,
+                    "tweet_id": "1600930220680224768",
+                    "tweet_text": "Exploiting CVE-2022-42703 - Bringing back the stack attack https://t.co/77czbT71bU",
+                    "twitter_user_handle": "ProjectZeroBugs",
+                    "twitter_user_name": "Project Zero Bugs",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/703020678585253888/R24x4I_H_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "blog.google/threat-analysi\u2026",
-                            "expanded_url": "https://blog.google/threat-analysis-group/internet-explorer-0-day-exploited-by-north-korean-actor-apt37/",
-                            "url": "https://t.co/Iq12SYGeUh"
+                            "display_url": "googleprojectzero.blogspot.com/2022/12/exploi\u2026",
+                            "expanded_url": "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html",
+                            "url": "https://t.co/77czbT71bU"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-12-09 00:48",
+                    "likes": 1,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1601015778630844416",
+                    "tweet_text": "#ITSecurity #ITSec Project Zero: Exploiting CVE-2022-42703 - Bringing back the stack attack https://t.co/jYTDqyYq4r, see more https://t.co/9igfS2qk4s",
+                    "twitter_user_handle": "Pentest101MX",
+                    "twitter_user_name": "Pentest101",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/493017099124482048/SS3jmk4s_normal.jpeg",
+                    "urls": [
+                        {
+                            "display_url": "googleprojectzero.blogspot.com/2022/12/exploi\u2026",
+                            "expanded_url": "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html",
+                            "url": "https://t.co/jYTDqyYq4r"
                         },
                         {
-                            "display_url": "inews24.com/view/1534369",
-                            "expanded_url": "https://www.inews24.com/view/1534369",
-                            "url": "https://t.co/rZ26BinJI4"
-                        },
-                        {
-                            "display_url": "googleprojectzero.github.io/0days-in-the-w\u2026",
-                            "expanded_url": "https://googleprojectzero.github.io/0days-in-the-wild/0day-RCAs/2022/CVE-2022-41128.html",
-                            "url": "https://t.co/WZrBFUNCp7"
-                        },
-                        {
-                            "display_url": "github.com/blackorbird/AP\u2026",
-                            "expanded_url": "https://github.com/blackorbird/APT_REPORT/tree/master/group123/IEexploit202212sample",
-                            "url": "https://t.co/ylMk9BwlTg"
+                            "display_url": "tweetedtimes.com/Pentest101MX?s\u2026",
+                            "expanded_url": "https://tweetedtimes.com/Pentest101MX?s=tnp",
+                            "url": "https://t.co/9igfS2qk4s"
                         }
                     ]
                 },
                 {
-                    "created_at": "2022-12-08 03:14",
-                    "likes": 21,
-                    "num_retweets": 9,
-                    "retweets": 9,
-                    "tweet_id": "1600690222685032448",
-                    "tweet_text": "#APT #APT37 #CVE-2022-41128\nInternet Explorer 0-day exploited by North Korean actor APT37\nhttps://t.co/GpLZgNDFAt\nShow other iocs:\nfree-xmlformat[.]com",
-                    "twitter_user_handle": "Timele9527",
-                    "twitter_user_name": "Timele12138",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1418389635261075456/dbY6aPlT_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "blog.google/threat-analysi\u2026",
-                            "expanded_url": "https://blog.google/threat-analysis-group/internet-explorer-0-day-exploited-by-north-korean-actor-apt37/",
-                            "url": "https://t.co/GpLZgNDFAt"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-12-08 03:35",
-                    "likes": 20,
-                    "num_retweets": 9,
-                    "retweets": 9,
-                    "tweet_id": "1600695563749851138",
-                    "tweet_text": "Internet Explorer\u306e\u30bc\u30ed\u30c7\u30a4\u8106\u5f31\u6027\u3092\u5317\u671d\u9bae\u306e\u30cf\u30c3\u30ab\u30fc\u96c6\u56e3APT37\u304c\u60aa\u7528\u3057\u3066\u3044\u308b\u3002Google\u5831\u544a\u3002\u540c\u793e\u304c10\u6708\u672b\u306b\u767a\u898b\u3057\u3066\u3044\u305fJScript\u30a8\u30f3\u30b8\u30f3\u306e\u8106\u5f31\u6027(CVE-2022-41128)\u3002\u6709\u5bb3\u306a\u6587\u66f8\u306b\u7d44\u307f\u8fbc\u3093\u3067\u97d3\u56fd\u306e\u5229\u7528\u8005\u3092\u653b\u6483\u3002docx\u304b\u3089\u5916\u90e8RTF\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u3092\u8aad\u307f\u8fbc\u307f\u3001\u5916\u90e8HTML\u6587\u66f8\u3092\u53d6\u5f97\u3002 https://t.co/lI9cLtvXsV",
-                    "twitter_user_handle": "__kokumoto",
-                    "twitter_user_name": "kokum\u0585t\u0585",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1206941955545915392/ckNVyuEm_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "blog.google/threat-analysi\u2026",
-                            "expanded_url": "https://blog.google/threat-analysis-group/internet-explorer-0-day-exploited-by-north-korean-actor-apt37/",
-                            "url": "https://t.co/lI9cLtvXsV"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-12-08 10:29",
-                    "likes": 2,
-                    "num_retweets": 4,
-                    "retweets": 4,
-                    "tweet_id": "1600799782393597953",
-                    "tweet_text": "Reports that APT37 are actively exploiting CVE-2022-41128 to infect South Korean targets with malware. note this was patched \"during last month's Patch Tuesday, on November 8\" https://t.co/rWH6IZvM88 #malware #infosec #cybersecurity https://t.co/3b5mpyCxKp",
-                    "twitter_user_handle": "Raj_Samani",
-                    "twitter_user_name": "Raj Samani",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/911031738108923904/KYc0w4Rf_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "bleepingcomputer.com/news/security/\u2026",
-                            "expanded_url": "https://www.bleepingcomputer.com/news/security/google-state-hackers-still-exploiting-internet-explorer-zero-days/",
-                            "url": "https://t.co/rWH6IZvM88"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-12-08 16:43",
+                    "created_at": "2022-12-08 23:26",
                     "likes": 0,
                     "num_retweets": 1,
                     "retweets": 1,
-                    "tweet_id": "1600893746794856449",
-                    "tweet_text": "#NorthKorea uses Seoul Halloween tragedy to exploit #InternetExplorer #zeroday\nhttps://t.co/A3B7S0OTvA\n\nUnpatched #RCE bug #CVE-2022-41128 abused by #APT37.  Fix in November #PatchTueday\n#CyberSecurity #InfoSec #Vunerability #SouthKorea #Patch #0Day #Microsoft",
-                    "twitter_user_handle": "LaneSystems",
-                    "twitter_user_name": "LaneSystems Ltd",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1496426484038316037/WC5DxQ2V_normal.jpg",
+                    "tweet_id": "1600995347437961217",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2022-42703 \ud83d\udea8 mm/rmap.c in the Linux kernel before 5.19.7 has a use-after-free related to leaf anon_vma double reuse. Severity: MEDIUM https://t.co/qgSYQM7yXM",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "theregister.com/2022/12/08/nor\u2026",
-                            "expanded_url": "https://www.theregister.com/2022/12/08/north_korea_seoul_tragedy_exploit/",
-                            "url": "https://t.co/A3B7S0OTvA"
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42703",
+                            "url": "https://t.co/qgSYQM7yXM"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-12-08 19:15",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1600932021181812736",
+                    "tweet_text": "#cybersecurite\nProjectZero published \"Exploiting CVE-2022-42703 - Bringing back the stack attack\" \nLink: https://t.co/GUjDN4BHE6",
+                    "twitter_user_handle": "InfoSecPhysa",
+                    "twitter_user_name": "News Physa",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/982239870130077698/xzNK-Fsu_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "googleprojectzero.blogspot.com/2022/12/exploi\u2026",
+                            "expanded_url": "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html",
+                            "url": "https://t.co/GUjDN4BHE6"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-12-08 19:39",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1600938049881444362",
+                    "tweet_text": "Exploiting CVE-2022-42703 - Bringing back the stack attack https://t.co/JwPCs1Lw1B",
+                    "twitter_user_handle": "projectzero_rss",
+                    "twitter_user_name": "Project Zero RSS",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1469118326701912065/v1YOMi7z_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/KEqxT2r",
+                            "expanded_url": "https://ift.tt/KEqxT2r",
+                            "url": "https://t.co/JwPCs1Lw1B"
                         }
                     ]
                 }
             ],
             "vendor_advisories": [
-                "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41128"
+                "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=2555283eb40df89945557273121e9393ef9b542b",
+                "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.19.7"
             ],
             "vendors": [
                 {
                     "products": [
                         {
-                            "product": "Windows Server 2022",
+                            "product": "Linux Kernel",
                             "versions": [
-                                "-"
+                                "*"
                             ]
                         }
                     ],
-                    "vendor": "Microsoft"
+                    "vendor": "Linux"
                 }
             ]
         },
         {
-            "assigner": "chrome-cve-admin@google.com",
-            "audience_size": 236265,
-            "cve": "CVE-2021-38003",
+            "assigner": "security@google.com",
+            "audience_size": 132354,
+            "cve": "CVE-2021-22555",
             "cve_urls": null,
-            "cvssv2_base_score": 6.8,
+            "cvssv2_base_score": 4.6,
             "cvssv2_severity": "MEDIUM",
-            "cvssv3_base_score": 8.8,
+            "cvssv3_base_score": 7.8,
             "cvssv3_base_severity": "HIGH",
             "cwes": [
                 {
@@ -183,133 +190,223 @@
                     "cwe_id": "CWE-787"
                 }
             ],
-            "description": "Inappropriate implementation in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
-            "epss_score": "0.01213",
-            "github_repos": [],
-            "lastModifiedDate": "2022-02-18T21:15Z",
-            "num_retweets": 9,
-            "num_tweets": 2,
-            "num_tweets_and_retweets": 11,
-            "publishedDate": "2021-11-23T22:15Z",
-            "reddit_posts": [
+            "description": "A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in net/netfilter/x_tables.c. This allows an attacker to gain privileges or cause a DoS (via heap memory corruption) through user name space",
+            "epss_score": "0.16489",
+            "github_repos": [
                 {
-                    "created": 1635667816.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/KibernetinisSaugumas/comments/qjl0q1/nesavait\u0117_18_10_24_10_31/",
-                    "subreddit": "KibernetinisSaugumas",
-                    "subreddit_subscribers": 68,
-                    "title": "Nesavait\u0117 #18 10 24 \u2013 10 31",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/KibernetinisSaugumas/comments/qjl0q1/nesavait\u0117_18_10_24_10_31/"
+                    "created": "2022-04-05T06:35:25Z",
+                    "description": "CVE-2021-22555 exploit rewritten with pipe primitive",
+                    "language": "C",
+                    "name": "CVE-2021-22555-PipeVersion",
+                    "stars": 26,
+                    "topics": [],
+                    "updated": "2022-11-04T10:20:49Z",
+                    "url": "https://github.com/veritas501/CVE-2021-22555-PipeVersion"
                 },
                 {
-                    "created": 1635772560.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/qkdrga/msisac_cybersecurity_advisory_multiple/",
-                    "subreddit": "k12cybersecurity",
-                    "subreddit_subscribers": 75,
-                    "title": "MS-ISAC CYBERSECURITY ADVISORY - Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/qkdrga/msisac_cybersecurity_advisory_multiple/"
+                    "created": "2021-07-16T19:12:57Z",
+                    "description": null,
+                    "language": "C",
+                    "name": "container-cve-2021-22555",
+                    "stars": 4,
+                    "topics": [],
+                    "updated": "2021-12-01T15:38:51Z",
+                    "url": "https://github.com/cgwalters/container-cve-2021-22555"
                 },
                 {
-                    "created": 1670335857.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/ze7ry6/thehole_new_world_how_a_small_leak_will_sink_a/",
-                    "subreddit": "cybersecurity",
-                    "subreddit_subscribers": 422550,
-                    "title": "TheHole New World - how a small leak will sink a great browser (CVE-2021-38003)",
-                    "upvotes": 1,
-                    "url": "https://starlabs.sg/blog/2022/12-the-hole-new-world-how-a-small-leak-will-sink-a-great-browser-cve-2021-38003/"
+                    "created": "2021-07-16T01:54:01Z",
+                    "description": "CVE-2021-22555 Exploit",
+                    "language": null,
+                    "name": "CVE-2021-22555-Exploit",
+                    "stars": 3,
+                    "topics": [],
+                    "updated": "2022-11-04T10:21:13Z",
+                    "url": "https://github.com/xyjl-ly/CVE-2021-22555-Exploit"
+                },
+                {
+                    "created": "2021-07-15T10:17:42Z",
+                    "description": null,
+                    "language": null,
+                    "name": "cve-2021-22555",
+                    "stars": 1,
+                    "topics": [],
+                    "updated": "2022-02-16T11:36:19Z",
+                    "url": "https://github.com/JoneyJunior/cve-2021-22555"
+                },
+                {
+                    "created": "2021-10-01T02:18:45Z",
+                    "description": null,
+                    "language": null,
+                    "name": "CVE-2021-22555-esc-priv",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2021-10-01T02:19:18Z",
+                    "url": "https://github.com/daletoniris/CVE-2021-22555-esc-priv"
                 }
             ],
-            "score": 8.8,
+            "lastModifiedDate": "2022-03-31T19:15Z",
+            "num_retweets": 13,
+            "num_tweets": 3,
+            "num_tweets_and_retweets": 16,
+            "publishedDate": "2021-07-07T12:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1626336993.0,
+                    "is_self": false,
+                    "num_comments": 20,
+                    "reddit_url": "https://www.reddit.com/r/linuxadmin/comments/okogo2/cve202122555_turning_x00x00_into_10000_a_15_years/",
+                    "subreddit": "linuxadmin",
+                    "subreddit_subscribers": 189622,
+                    "title": "CVE-2021-22555: Turning \\x00\\x00 into 10000$ - a 15 years old heap out-of-bounds write vulnerability in Linux Netfilter that is powerful enough to bypass all modern security mitigations and achieve kernel code execution.",
+                    "upvotes": 162,
+                    "url": "https://google.github.io/security-research/pocs/linux/cve-2021-22555/writeup.html"
+                },
+                {
+                    "created": 1626348000.0,
+                    "is_self": false,
+                    "num_comments": 1,
+                    "reddit_url": "https://www.reddit.com/r/programming/comments/okqso9/cve202122555_turning_x00x00_into_10000/",
+                    "subreddit": "programming",
+                    "subreddit_subscribers": 4953227,
+                    "title": "CVE-2021-22555: Turning \\x00\\x00 into 10000$",
+                    "upvotes": 40,
+                    "url": "https://google.github.io/security-research/pocs/linux/cve-2021-22555/writeup.html"
+                },
+                {
+                    "created": 1626297516.0,
+                    "is_self": false,
+                    "num_comments": 1,
+                    "reddit_url": "https://www.reddit.com/r/lowlevel/comments/okdxrs/cve202122555_turning_x00x00_into_10000/",
+                    "subreddit": "lowlevel",
+                    "subreddit_subscribers": 11741,
+                    "title": "CVE-2021-22555: Turning \\x00\\x00 into 10000$",
+                    "upvotes": 19,
+                    "url": "https://google.github.io/security-research/pocs/linux/cve-2021-22555/writeup.html"
+                },
+                {
+                    "created": 1626354274.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/oksf61/cve202122555_turning_x00x00_into_10000/",
+                    "subreddit": "cybersecurity",
+                    "subreddit_subscribers": 422676,
+                    "title": "CVE-2021-22555: Turning \\x00\\x00 into 10000$",
+                    "upvotes": 6,
+                    "url": "https://google.github.io/security-research/pocs/linux/cve-2021-22555/writeup.html"
+                },
+                {
+                    "created": 1626846657.0,
+                    "is_self": true,
+                    "num_comments": 3,
+                    "reddit_url": "https://www.reddit.com/r/linuxquestions/comments/oojx1n/cve202122555_vulnerability_mitigation_suggestions/",
+                    "subreddit": "linuxquestions",
+                    "subreddit_subscribers": 219165,
+                    "title": "cve-2021-22555 vulnerability mitigation suggestions",
+                    "upvotes": 4,
+                    "url": "https://www.reddit.com/r/linuxquestions/comments/oojx1n/cve202122555_vulnerability_mitigation_suggestions/"
+                }
+            ],
+            "score": 7.8,
             "severity": "HIGH",
             "tweets": [
                 {
-                    "created_at": "2022-12-08 04:55",
-                    "likes": 18,
-                    "num_retweets": 9,
-                    "retweets": 9,
-                    "tweet_id": "1600715594650853376",
-                    "tweet_text": "TheHole New World - how a small leak will sink a great browser (CVE-2021-38003) https://t.co/qtte21RgeO  #Pentesting #CVE #CyberSecurity #Infosec https://t.co/8zzi3TiE9y",
+                    "created_at": "2022-12-08 21:00",
+                    "likes": 15,
+                    "num_retweets": 12,
+                    "retweets": 13,
+                    "tweet_id": "1600958536749547520",
+                    "tweet_text": "CVE-2021-22555: Turning \\x00\\x00 into 10000$ https://t.co/mR9kiQyJMR #Pentesting #CVE #CyberSecurity #Infosec https://t.co/loutvEpl1u",
                     "twitter_user_handle": "ptracesecurity",
                     "twitter_user_name": "Ptrace Security GmbH",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/659444735791210500/XGvv9R-0_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "starlabs.sg/blog/2022/12-t\u2026",
-                            "expanded_url": "https://starlabs.sg/blog/2022/12-the-hole-new-world-how-a-small-leak-will-sink-a-great-browser-cve-2021-38003/",
-                            "url": "https://t.co/qtte21RgeO"
+                            "display_url": "google.github.io/security-resea\u2026",
+                            "expanded_url": "https://google.github.io/security-research/pocs/linux/cve-2021-22555/writeup.html#achieving-a-better-use-after-free",
+                            "url": "https://t.co/mR9kiQyJMR"
                         }
                     ]
                 },
                 {
-                    "created_at": "2022-12-08 14:00",
-                    "likes": 1,
-                    "num_retweets": 0,
+                    "created_at": "2022-12-08 21:00",
+                    "likes": 0,
+                    "num_retweets": 1,
                     "retweets": 1,
-                    "tweet_id": "1600852714124099584",
-                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2022-41128: 761.9K (audience size)\nCVE-2022-4262: 328.2K\nCVE-2021-38003: 231.2K\n\nPast 7 days:\nCVE-2022-4262: 3.9M\nCVE-2022-23093: 3.3M\nCVE-2022-41120: 1.5M\n\nhttps://t.co/LhpwNP6xog",
-                    "twitter_user_handle": "CVEtrends",
-                    "twitter_user_name": "CVE Trends",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
+                    "tweet_id": "1600958564616511544",
+                    "tweet_text": "Emerging Vulnerability Found CVE-2021-22555 - A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in net/netfilter/x_tables.c. This allows an attacker to gain privileges or cause a DoS (via heap memory corruption) throu...\n\nSee https://t.co/tCPAjzWL2k",
+                    "twitter_user_handle": "ColorTokensInc",
+                    "twitter_user_name": "ColorTokens",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1505854942875365380/yihNDIfa_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "cvetrends.com",
-                            "expanded_url": "https://cvetrends.com",
-                            "url": "https://t.co/LhpwNP6xog"
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22555",
+                            "url": "https://t.co/tCPAjzWL2k"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-12-09 02:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1601035404345491456",
+                    "tweet_text": "The vuln CVE-2021-22555 has a tweet created 0 days ago and retweeted 10 times.\nhttps://t.co/MyK6RbY3cX\n#pow1rtrtwwcve",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/ptracesecurity\u2026",
+                            "expanded_url": "https://twitter.com/ptracesecurity/status/1600958536749547520",
+                            "url": "https://t.co/MyK6RbY3cX"
                         }
                     ]
                 }
             ],
             "vendor_advisories": [
-                "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_28.html",
-                "https://crbug.com/1263462"
+                "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/net/netfilter/x_tables.c?id=b29c457a6511435960115c0f548c4360d5f4801d",
+                "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/net/netfilter/x_tables.c?id=9fa492cdc160cd27ce1046cb36f47d3b2b1efa21"
             ],
             "vendors": [
                 {
                     "products": [
                         {
-                            "product": "Chrome",
+                            "product": "Linux Kernel",
                             "versions": [
                                 "*"
                             ]
                         }
                     ],
-                    "vendor": "Google"
+                    "vendor": "Linux"
                 },
                 {
                     "products": [
                         {
-                            "product": "Fedora",
+                            "product": "Fabric Operating System",
                             "versions": [
-                                "34"
+                                "-"
                             ]
                         }
                     ],
-                    "vendor": "Fedoraproject"
+                    "vendor": "Brocade"
                 },
                 {
                     "products": [
                         {
-                            "product": "Debian Linux",
+                            "product": "Hci Management Node",
                             "versions": [
-                                "10.0",
-                                "11.0"
+                                "-"
                             ]
                         }
                     ],
-                    "vendor": "Debian"
+                    "vendor": "Netapp"
                 }
             ]
         },
         {
             "assigner": null,
-            "audience_size": 109524,
+            "audience_size": 132032,
             "cve": "CVE-2022-3430",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -332,9 +429,9 @@
                 }
             ],
             "lastModifiedDate": null,
-            "num_retweets": 15,
+            "num_retweets": 24,
             "num_tweets": 3,
-            "num_tweets_and_retweets": 18,
+            "num_tweets_and_retweets": 27,
             "publishedDate": null,
             "reddit_posts": [],
             "score": null,
@@ -342,9 +439,9 @@
             "tweets": [
                 {
                     "created_at": "2022-12-08 20:01",
-                    "likes": 15,
-                    "num_retweets": 8,
-                    "retweets": 8,
+                    "likes": 27,
+                    "num_retweets": 16,
+                    "retweets": 17,
                     "tweet_id": "1600943575901929474",
                     "tweet_text": "\ud83d\udd25New REsearch: \"Firmware Patch Deep-Dive: Lenovo Patches Fail To Fix Underlying Vulnerabilities\"\n\n\u26d3\ufe0four investigation into Lenovo\u2019s LEN-94952 bulletin found that 2 vulnerabilities -- CVE-2022-3430 and CVE-2022-3431 -- remain unfixed 1 month after #FwHunt\n\nhttps://t.co/8EwmGZtIIh https://t.co/aDxz7AWeOj",
                     "twitter_user_handle": "binarly_io",
@@ -360,9 +457,9 @@
                 },
                 {
                     "created_at": "2022-12-08 20:10",
-                    "likes": 6,
-                    "num_retweets": 5,
-                    "retweets": 5,
+                    "likes": 7,
+                    "num_retweets": 6,
+                    "retweets": 6,
                     "tweet_id": "1600945897650548736",
                     "tweet_text": "Researchers at @binarly_io dig into Lenovo\u2019s LEN-94952 bulletin and find that two vulnerabilities (CVE-2022-3430 and CVE-2022-3431) remain unfixed one month after their official disclosure\n\nhttps://t.co/owT6PGVyGk",
                     "twitter_user_handle": "ryanaraine",
@@ -378,7 +475,7 @@
                 },
                 {
                     "created_at": "2022-12-08 19:57",
-                    "likes": 1,
+                    "likes": 2,
                     "num_retweets": 2,
                     "retweets": 2,
                     "tweet_id": "1600942627796398081",
@@ -400,7 +497,7 @@
         },
         {
             "assigner": null,
-            "audience_size": 109524,
+            "audience_size": 132032,
             "cve": "CVE-2022-3431",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -412,9 +509,9 @@
             "epss_score": null,
             "github_repos": [],
             "lastModifiedDate": null,
-            "num_retweets": 15,
+            "num_retweets": 24,
             "num_tweets": 3,
-            "num_tweets_and_retweets": 18,
+            "num_tweets_and_retweets": 27,
             "publishedDate": null,
             "reddit_posts": [],
             "score": null,
@@ -422,9 +519,9 @@
             "tweets": [
                 {
                     "created_at": "2022-12-08 20:01",
-                    "likes": 15,
-                    "num_retweets": 8,
-                    "retweets": 8,
+                    "likes": 27,
+                    "num_retweets": 16,
+                    "retweets": 17,
                     "tweet_id": "1600943575901929474",
                     "tweet_text": "\ud83d\udd25New REsearch: \"Firmware Patch Deep-Dive: Lenovo Patches Fail To Fix Underlying Vulnerabilities\"\n\n\u26d3\ufe0four investigation into Lenovo\u2019s LEN-94952 bulletin found that 2 vulnerabilities -- CVE-2022-3430 and CVE-2022-3431 -- remain unfixed 1 month after #FwHunt\n\nhttps://t.co/8EwmGZtIIh https://t.co/aDxz7AWeOj",
                     "twitter_user_handle": "binarly_io",
@@ -440,9 +537,9 @@
                 },
                 {
                     "created_at": "2022-12-08 20:10",
-                    "likes": 6,
-                    "num_retweets": 5,
-                    "retweets": 5,
+                    "likes": 7,
+                    "num_retweets": 6,
+                    "retweets": 6,
                     "tweet_id": "1600945897650548736",
                     "tweet_text": "Researchers at @binarly_io dig into Lenovo\u2019s LEN-94952 bulletin and find that two vulnerabilities (CVE-2022-3430 and CVE-2022-3431) remain unfixed one month after their official disclosure\n\nhttps://t.co/owT6PGVyGk",
                     "twitter_user_handle": "ryanaraine",
@@ -458,7 +555,7 @@
                 },
                 {
                     "created_at": "2022-12-08 19:57",
-                    "likes": 1,
+                    "likes": 2,
                     "num_retweets": 2,
                     "retweets": 2,
                     "tweet_id": "1600942627796398081",
@@ -471,6 +568,62 @@
                             "display_url": "binarly.io/posts/Firmware\u2026",
                             "expanded_url": "https://www.binarly.io/posts/Firmware_Patch_Deep_Dive_Lenovo_Patches_Fail_to_Fix_Underlying_Vulnerabilities/index.html",
                             "url": "https://t.co/pfTsdnrMIP"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": null,
+            "audience_size": 101932,
+            "cve": "CVE-2022-33268",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": null,
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": null,
+            "num_retweets": 4,
+            "num_tweets": 1,
+            "num_tweets_and_retweets": 5,
+            "publishedDate": null,
+            "reddit_posts": [
+                {
+                    "created": 1670336942.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/ze86ts/msisac_cybersecurity_advisory_multiple/",
+                    "subreddit": "k12cybersecurity",
+                    "subreddit_subscribers": 75,
+                    "title": "MS-ISAC CYBERSECURITY ADVISORY - Multiple Vulnerabilities in Google Android OS Could Allow for Arbitrary Code Execution - PATCH: NOW",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/ze86ts/msisac_cybersecurity_advisory_multiple/"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2022-12-08 22:07",
+                    "likes": 8,
+                    "num_retweets": 4,
+                    "retweets": 5,
+                    "tweet_id": "1600975433545441280",
+                    "tweet_text": "Android Bluetooth vulnerability in Qualcomm component CVE-2022-33268 - looks promising. https://t.co/X3dz3QXPZB",
+                    "twitter_user_handle": "hackerfantastic",
+                    "twitter_user_name": "hackerfantastic.crypto",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1569331520132743170/mXDgU3zS_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "git.codelinaro.org/clo/la/platfor\u2026",
+                            "expanded_url": "https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/system/bt/-/commit/7a09d0a2c093053e3c8f67de07933518d9137e22",
+                            "url": "https://t.co/X3dz3QXPZB"
                         }
                     ]
                 }
@@ -558,38 +711,20 @@
                     ]
                 },
                 {
-                    "created_at": "2022-12-08 06:24",
+                    "created_at": "2022-12-08 06:33",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1600738151093477378",
-                    "tweet_text": "New vulnerability on the NVD: CVE-2022-23475 https://t.co/uEuZOn4HhZ #exploit #toutatis #darknet #news",
-                    "twitter_user_handle": "ServiceToutatis",
-                    "twitter_user_name": "Toutatis InfoPost",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1029512326150586370/Z4fu43g3_normal.jpg",
+                    "tweet_id": "1600740323323412480",
+                    "tweet_text": "New vulnerability on the NVD: CVE-2022-23475 https://t.co/PoZNNvQt7d",
+                    "twitter_user_handle": "doogsineerg",
+                    "twitter_user_name": "Wes",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/456608413741350912/jdc3Y25D_normal.jpeg",
                     "urls": [
                         {
-                            "display_url": "ift.tt/0AWrnw4",
-                            "expanded_url": "https://ift.tt/0AWrnw4",
-                            "url": "https://t.co/uEuZOn4HhZ"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-12-08 06:40",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1600742135539572738",
-                    "tweet_text": "New vulnerability on the NVD: CVE-2022-23475 https://t.co/qygmHb9FZg",
-                    "twitter_user_handle": "workentin",
-                    "twitter_user_name": "Brandon Workentin @workentin on infosec.exchange",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/856910196345524225/1gfcFmS2_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/Ub5jDBQ",
-                            "expanded_url": "https://ift.tt/Ub5jDBQ",
-                            "url": "https://t.co/qygmHb9FZg"
+                            "display_url": "ift.tt/o1E9sCL",
+                            "expanded_url": "https://ift.tt/o1E9sCL",
+                            "url": "https://t.co/PoZNNvQt7d"
                         }
                     ]
                 },
@@ -610,6 +745,24 @@
                             "url": "https://t.co/ylIHCYb0wJ"
                         }
                     ]
+                },
+                {
+                    "created_at": "2022-12-08 09:23",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1600783199084462081",
+                    "tweet_text": "\ud83d\udde3 CVE-2022-23475: Account take over flaw in open source RADIUS web management app\nhttps://t.co/8RuUcAuxAD\n\n#security #cybernews #cybersecurity #fridaysecurity #linkedin #twitter #telegram",
+                    "twitter_user_handle": "fridaysecurity",
+                    "twitter_user_name": "Friday Security News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1525867150279311361/6JfVBZDl_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "securityonline.info/cve-2022-23475\u2026",
+                            "expanded_url": "https://securityonline.info/cve-2022-23475-account-take-over-flaw-in-open-source-radius-web-management-app/",
+                            "url": "https://t.co/8RuUcAuxAD"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [],
@@ -617,7 +770,7 @@
         },
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 84410,
+            "audience_size": 85021,
             "cve": "CVE-2022-41325",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -634,9 +787,9 @@
             "epss_score": "0.01549",
             "github_repos": [],
             "lastModifiedDate": "2022-12-08T16:44Z",
-            "num_retweets": 7,
+            "num_retweets": 9,
             "num_tweets": 5,
-            "num_tweets_and_retweets": 12,
+            "num_tweets_and_retweets": 14,
             "publishedDate": "2022-12-06T16:15Z",
             "reddit_posts": [
                 {
@@ -645,9 +798,9 @@
                     "num_comments": 11,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/zah3bn/vlc_integer_overflow_in_vnc_module_cve202241325/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 462007,
+                    "subreddit_subscribers": 462018,
                     "title": "VLC : Integer overflow in vnc module - CVE-2022-41325",
-                    "upvotes": 87,
+                    "upvotes": 91,
                     "url": "https://www.synacktiv.com/sites/default/files/2022-11/vlc_vnc_int_overflow-CVE-2022-41325.pdf"
                 },
                 {
@@ -678,9 +831,9 @@
             "tweets": [
                 {
                     "created_at": "2022-12-08 17:50",
-                    "likes": 16,
-                    "num_retweets": 5,
-                    "retweets": 6,
+                    "likes": 22,
+                    "num_retweets": 7,
+                    "retweets": 8,
                     "tweet_id": "1600910603069304832",
                     "tweet_text": "Disponible nueva versi\u00f3n del reproductor gratuito VLC 3.0.18 Vetinari que entre varias mejoras soluciona vulnerabilidad CVE-2022-41325\nhttps://t.co/0I4muSW0yj https://t.co/OpdCLWSGBl",
                     "twitter_user_handle": "elhackernet",
@@ -878,224 +1031,8 @@
             ]
         },
         {
-            "assigner": "cve@mitre.org",
-            "audience_size": 80346,
-            "cve": "CVE-2022-42703",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": 5.5,
-            "cvssv3_base_severity": "MEDIUM",
-            "cwes": [
-                {
-                    "cwe_description": "Use After Free",
-                    "cwe_id": "CWE-416"
-                }
-            ],
-            "description": "mm/rmap.c in the Linux kernel before 5.19.7 has a use-after-free related to leaf anon_vma double reuse.",
-            "epss_score": "0.0095",
-            "github_repos": [],
-            "lastModifiedDate": "2022-10-11T18:46Z",
-            "num_retweets": 12,
-            "num_tweets": 8,
-            "num_tweets_and_retweets": 20,
-            "publishedDate": "2022-10-09T23:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1665362292.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/y00xuv/cve202242703/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 117,
-                    "title": "CVE-2022-42703",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-42703"
-                }
-            ],
-            "score": 5.5,
-            "severity": "MEDIUM",
-            "tweets": [
-                {
-                    "created_at": "2022-12-08 19:08",
-                    "likes": 38,
-                    "num_retweets": 12,
-                    "retweets": 12,
-                    "tweet_id": "1600930220680224768",
-                    "tweet_text": "Exploiting CVE-2022-42703 - Bringing back the stack attack https://t.co/77czbT71bU",
-                    "twitter_user_handle": "ProjectZeroBugs",
-                    "twitter_user_name": "Project Zero Bugs",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/703020678585253888/R24x4I_H_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "googleprojectzero.blogspot.com/2022/12/exploi\u2026",
-                            "expanded_url": "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html",
-                            "url": "https://t.co/77czbT71bU"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-12-08 19:15",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1600932021181812736",
-                    "tweet_text": "#cybersecurite\nProjectZero published \"Exploiting CVE-2022-42703 - Bringing back the stack attack\" \nLink: https://t.co/GUjDN4BHE6",
-                    "twitter_user_handle": "InfoSecPhysa",
-                    "twitter_user_name": "News Physa",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/982239870130077698/xzNK-Fsu_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "googleprojectzero.blogspot.com/2022/12/exploi\u2026",
-                            "expanded_url": "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html",
-                            "url": "https://t.co/GUjDN4BHE6"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-12-08 19:39",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1600938049881444362",
-                    "tweet_text": "Exploiting CVE-2022-42703 - Bringing back the stack attack https://t.co/JwPCs1Lw1B",
-                    "twitter_user_handle": "projectzero_rss",
-                    "twitter_user_name": "Project Zero RSS",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1469118326701912065/v1YOMi7z_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/KEqxT2r",
-                            "expanded_url": "https://ift.tt/KEqxT2r",
-                            "url": "https://t.co/JwPCs1Lw1B"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-12-08 20:10",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1600946012604231680",
-                    "tweet_text": "Project Zero: Exploiting CVE-2022-42703 - Bringing back the stac... https://t.co/x70nyFt70D \n#security #linux #infosec",
-                    "twitter_user_handle": "cyberkendra",
-                    "twitter_user_name": "Cyber Kendra",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945545310775910400/zx-yLarD_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "googleprojectzero.blogspot.com/2022/12/exploi\u2026",
-                            "expanded_url": "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html",
-                            "url": "https://t.co/x70nyFt70D"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2022-12-08 20:14",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1600947047716323332",
-                    "tweet_text": "Exploiting CVE-2022-42703 - Bringing back the stack attack\nhttps://t.co/aIacIrnfuV\nhttps://t.co/8rpYJBB3Ms",
-                    "twitter_user_handle": "buaqbot",
-                    "twitter_user_name": "unSafe.sh Bot",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1422514037154226177/7ViYgn37_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/8SbCiOV",
-                            "expanded_url": "https://ift.tt/8SbCiOV",
-                            "url": "https://t.co/aIacIrnfuV"
-                        },
-                        {
-                            "display_url": "ift.tt/nTq42PY",
-                            "expanded_url": "https://ift.tt/nTq42PY",
-                            "url": "https://t.co/8rpYJBB3Ms"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [
-                "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=2555283eb40df89945557273121e9393ef9b542b",
-                "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.19.7"
-            ],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Linux Kernel",
-                            "versions": [
-                                "*"
-                            ]
-                        }
-                    ],
-                    "vendor": "Linux"
-                }
-            ]
-        },
-        {
-            "assigner": "cve@mitre.org",
-            "audience_size": 79240,
-            "cve": "CVE-2014-2589",
-            "cve_urls": null,
-            "cvssv2_base_score": 4.3,
-            "cvssv2_severity": "MEDIUM",
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [
-                {
-                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
-                    "cwe_id": "CWE-79"
-                }
-            ],
-            "description": "Cross-site scripting (XSS) vulnerability in the Dashboard Backend service (stats/dashboard.jsp) in SonicWall Network Security Appliance (NSA) 2400 allows remote attackers to inject arbitrary web script or HTML via the sn parameter.",
-            "epss_score": "0.01319",
-            "github_repos": [],
-            "lastModifiedDate": "2022-12-02T22:55Z",
-            "num_retweets": 2,
-            "num_tweets": 1,
-            "num_tweets_and_retweets": 3,
-            "publishedDate": "2014-03-24T16:39Z",
-            "reddit_posts": [],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2022-12-08 01:07",
-                    "likes": 0,
-                    "num_retweets": 2,
-                    "retweets": 2,
-                    "tweet_id": "1600658188570869766",
-                    "tweet_text": "#CyberSecurity #Security #CERT #CVE #Nist #Analysed #breach #vulnerability : CVE-2014-2589 (nsa_2400) https://t.co/SqobeCj3RD",
-                    "twitter_user_handle": "4ng3n01r3",
-                    "twitter_user_name": "Angenoire",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1566682883670118404/pHq2hcfz_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "web.nvd.nist.gov/view/vuln/deta\u2026",
-                            "expanded_url": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2589",
-                            "url": "https://t.co/SqobeCj3RD"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [
-                "http://secunia.com/advisories/57275"
-            ],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Nsa 2400",
-                            "versions": [
-                                "-"
-                            ]
-                        }
-                    ],
-                    "vendor": "Sonicwall"
-                }
-            ]
-        },
-        {
             "assigner": "security@golang.org",
-            "audience_size": 74070,
+            "audience_size": 71294,
             "cve": "CVE-2022-41717",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1106,10 +1043,10 @@
             "description": "An attacker can cause excessive memory growth in a Go server accepting HTTP/2 requests. HTTP/2 server connections contain a cache of HTTP header keys sent by the client. While the total number of entries in this cache is capped, an attacker sending very large keys can cause the server to allocate approximately 64 MiB per open connection.",
             "epss_score": null,
             "github_repos": [],
-            "lastModifiedDate": "2022-12-08T20:15Z",
+            "lastModifiedDate": "2022-12-08T22:30Z",
             "num_retweets": 2,
-            "num_tweets": 14,
-            "num_tweets_and_retweets": 16,
+            "num_tweets": 12,
+            "num_tweets_and_retweets": 14,
             "publishedDate": "2022-12-08T20:15Z",
             "reddit_posts": [
                 {
@@ -1118,9 +1055,9 @@
                     "num_comments": 17,
                     "reddit_url": "https://www.reddit.com/r/golang/comments/zehioy/go_1194_is_out_now/",
                     "subreddit": "golang",
-                    "subreddit_subscribers": 194877,
+                    "subreddit_subscribers": 194890,
                     "title": "Go 1.19.4 is out now",
-                    "upvotes": 152,
+                    "upvotes": 156,
                     "url": "https://www.reddit.com/r/golang/comments/zehioy/go_1194_is_out_now/"
                 },
                 {
@@ -1231,8 +1168,161 @@
             ],
             "vendor_advisories": [],
             "vendors": []
+        },
+        {
+            "assigner": "secure@microsoft.com",
+            "audience_size": 61072,
+            "cve": "CVE-2022-41128",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": 8.8,
+            "cvssv3_base_severity": "HIGH",
+            "cwes": [],
+            "description": "Windows Scripting Languages Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-41118.",
+            "epss_score": "0.01601",
+            "github_repos": [],
+            "lastModifiedDate": "2022-11-10T14:38Z",
+            "num_retweets": 11,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 22,
+            "publishedDate": "2022-11-09T22:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1668002282.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/yqjqfb/msisac_cybersecurity_advisory_critical_patches/",
+                    "subreddit": "k12cybersecurity",
+                    "subreddit_subscribers": 75,
+                    "title": "MS-ISAC CYBERSECURITY ADVISORY - Critical Patches Issued for Microsoft Products, November 8, 2022 - PATCH: NOW",
+                    "upvotes": 2,
+                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/yqjqfb/msisac_cybersecurity_advisory_critical_patches/"
+                },
+                {
+                    "created": 1668037122.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/yqz8hk/cve202241128/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 117,
+                    "title": "CVE-2022-41128",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-41128"
+                }
+            ],
+            "score": 8.8,
+            "severity": "HIGH",
+            "tweets": [
+                {
+                    "created_at": "2022-12-08 16:41",
+                    "likes": 3,
+                    "num_retweets": 5,
+                    "retweets": 5,
+                    "tweet_id": "1600893396071370752",
+                    "tweet_text": "#NorthKorea uses Seoul Halloween tragedy to exploit #InternetExplorer #zeroday\nhttps://t.co/A3B7S0OTvA\n\nUnpatched #RCE bug #CVE-2022-41128 abused by #APT37.  Fixed in November #PatchTueday\n#CyberSecurity #InfoSec #Vunerability #SouthKorea #Patch #0Day #GoogleTAG",
+                    "twitter_user_handle": "LaneSystems",
+                    "twitter_user_name": "LaneSystems Ltd",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1496426484038316037/WC5DxQ2V_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "theregister.com/2022/12/08/nor\u2026",
+                            "expanded_url": "https://www.theregister.com/2022/12/08/north_korea_seoul_tragedy_exploit/",
+                            "url": "https://t.co/A3B7S0OTvA"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-12-08 10:29",
+                    "likes": 2,
+                    "num_retweets": 4,
+                    "retweets": 4,
+                    "tweet_id": "1600799782393597953",
+                    "tweet_text": "Reports that APT37 are actively exploiting CVE-2022-41128 to infect South Korean targets with malware. note this was patched \"during last month's Patch Tuesday, on November 8\" https://t.co/rWH6IZvM88 #malware #infosec #cybersecurity https://t.co/3b5mpyCxKp",
+                    "twitter_user_handle": "Raj_Samani",
+                    "twitter_user_name": "Raj Samani",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/911031738108923904/KYc0w4Rf_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "bleepingcomputer.com/news/security/\u2026",
+                            "expanded_url": "https://www.bleepingcomputer.com/news/security/google-state-hackers-still-exploiting-internet-explorer-zero-days/",
+                            "url": "https://t.co/rWH6IZvM88"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-12-08 16:43",
+                    "likes": 0,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1600893746794856449",
+                    "tweet_text": "#NorthKorea uses Seoul Halloween tragedy to exploit #InternetExplorer #zeroday\nhttps://t.co/A3B7S0OTvA\n\nUnpatched #RCE bug #CVE-2022-41128 abused by #APT37.  Fix in November #PatchTueday\n#CyberSecurity #InfoSec #Vunerability #SouthKorea #Patch #0Day #Microsoft",
+                    "twitter_user_handle": "LaneSystems",
+                    "twitter_user_name": "LaneSystems Ltd",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1496426484038316037/WC5DxQ2V_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "theregister.com/2022/12/08/nor\u2026",
+                            "expanded_url": "https://www.theregister.com/2022/12/08/north_korea_seoul_tragedy_exploit/",
+                            "url": "https://t.co/A3B7S0OTvA"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-12-08 18:23",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1600918999440637952",
+                    "tweet_text": "CVE-2022-41128 https://t.co/3YYNOBmmZ9 #HarsiaInfo",
+                    "twitter_user_handle": "Har_sia",
+                    "twitter_user_name": "CVE Analysis",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1247376762910040064/tGL_ot6T_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "har-sia.info/CVE-2022-41128\u2026",
+                            "expanded_url": "https://har-sia.info/CVE-2022-41128.html",
+                            "url": "https://t.co/3YYNOBmmZ9"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2022-12-08 07:13",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1600750367335010304",
+                    "tweet_text": "North Korea has hit a new low, using the death of over 150 people to exploit a zero-day flaw in Internet Explorer.  Google\u2019s Threat Analysis Group on Wednesday spotted the flaw, CVE-2022-41128, an RCE bug in the JScript9 scripting language engine.  Micr... https://t.co/TqcHOjA7ag",
+                    "twitter_user_handle": "_TheRegister",
+                    "twitter_user_name": "The Register: Summary",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1125067983322116098/zeV48Lif_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "reg.cx/46H5?utm_sourc\u2026",
+                            "expanded_url": "https://reg.cx/46H5?utm_source=twitter&utm_medium=twitter&utm_campaign=auto&utm_content=article",
+                            "url": "https://t.co/TqcHOjA7ag"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [
+                "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41128"
+            ],
+            "vendors": [
+                {
+                    "products": [
+                        {
+                            "product": "Windows Server 2022",
+                            "versions": [
+                                "-"
+                            ]
+                        }
+                    ],
+                    "vendor": "Microsoft"
+                }
+            ]
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2022-12-08 21:49:51"
+    "updated": "2022-12-09 05:11:22"
 }
