@@ -2,7 +2,7 @@
     "data": [
         {
             "assigner": "security@ubuntu.com",
-            "audience_size": 175851,
+            "audience_size": 239898,
             "cve": "CVE-2021-25682",
             "cve_urls": null,
             "cvssv2_base_score": 7.2,
@@ -19,9 +19,9 @@
             "epss_score": "0.00885",
             "github_repos": [],
             "lastModifiedDate": "2022-08-01T12:43Z",
-            "num_retweets": 12,
-            "num_tweets": 2,
-            "num_tweets_and_retweets": 14,
+            "num_retweets": 24,
+            "num_tweets": 7,
+            "num_tweets_and_retweets": 31,
             "publishedDate": "2021-06-11T03:15Z",
             "reddit_posts": [
                 {
@@ -30,7 +30,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/ze86ts/msisac_cybersecurity_advisory_multiple/",
                     "subreddit": "k12cybersecurity",
-                    "subreddit_subscribers": 89,
+                    "subreddit_subscribers": 90,
                     "title": "MS-ISAC CYBERSECURITY ADVISORY - Multiple Vulnerabilities in Google Android OS Could Allow for Arbitrary Code Execution - PATCH: NOW",
                     "upvotes": 1,
                     "url": "https://www.reddit.com/r/k12cybersecurity/comments/ze86ts/msisac_cybersecurity_advisory_multiple/"
@@ -41,9 +41,9 @@
             "tweets": [
                 {
                     "created_at": "2023-01-07 19:30",
-                    "likes": 40,
-                    "num_retweets": 12,
-                    "retweets": 12,
+                    "likes": 73,
+                    "num_retweets": 23,
+                    "retweets": 23,
                     "tweet_id": "1611807395130253315",
                     "tweet_text": "Cool writeup by @Gr33nh4t on using Apport crash handler for privilege escalation in Ubuntu (CVE-2021-25682)\n\nhttps://t.co/cLhsDMMTTl \n\n#lpe #exploit #cve #infosec #cybersecurity https://t.co/7zQkGWO5wj",
                     "twitter_user_handle": "0xor0ne",
@@ -58,12 +58,66 @@
                     ]
                 },
                 {
+                    "created_at": "2023-01-07 22:08",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1611847147468513286",
+                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the third retweeted(11 times) tweet that contains CVE ID between Jan 6 2023 22:01 UTC and Jan 7 2023 22:00 UTC is:\nhttps://t.co/YGUe3XJcal\nIt has CVE-2021-25682. #l24_7vg4phnv2imji",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/0xor0ne/status\u2026",
+                            "expanded_url": "https://twitter.com/0xor0ne/status/1611807395130253315",
+                            "url": "https://t.co/YGUe3XJcal"
+                        }
+                    ]
+                },
+                {
                     "created_at": "2023-01-07 20:08",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
                     "tweet_id": "1611816946495807489",
                     "tweet_text": "I think that the third retweeted(8 times) tweet that contains CVE ID between Jan 6 2023 20:01 UTC and Jan 7 2023 20:00 UTC is:\nhttps://t.co/YGUe3XJcal\nIt has CVE-2021-25682. #l24_7vg4phnv2imji",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/0xor0ne/status\u2026",
+                            "expanded_url": "https://twitter.com/0xor0ne/status/1611807395130253315",
+                            "url": "https://t.co/YGUe3XJcal"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-07 22:06",
+                    "likes": 1,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611846643502153728",
+                    "tweet_text": "The vuln CVE-2021-25682 has a tweet created 0 days ago and retweeted 11 times.\nhttps://t.co/YGUe3XJJZT\n#pow1rtrtwwcve",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/0xor0ne/status\u2026",
+                            "expanded_url": "https://twitter.com/0xor0ne/status/1611807395130253315",
+                            "url": "https://t.co/YGUe3XJJZT"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-08 02:08",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611907558846898176",
+                    "tweet_text": "(third \u2192 most)\nI think that the most retweeted(20 times) tweet that contains CVE ID between Jan 7 2023 02:01 UTC and Jan 8 2023 02:00 UTC is:\nhttps://t.co/YGUe3XJcal\nIt has CVE-2021-25682. #l24_7vg4phnv2imji",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
@@ -93,7 +147,7 @@
         },
         {
             "assigner": "security-advisories@github.com",
-            "audience_size": 128880,
+            "audience_size": 167605,
             "cve": "CVE-2022-46169",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -172,32 +226,32 @@
                 }
             ],
             "lastModifiedDate": "2022-12-06T20:05Z",
-            "num_retweets": 14,
-            "num_tweets": 3,
-            "num_tweets_and_retweets": 17,
+            "num_retweets": 22,
+            "num_tweets": 6,
+            "num_tweets_and_retweets": 28,
             "publishedDate": "2022-12-05T21:15Z",
             "reddit_posts": [
-                {
-                    "created": 1670278313.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/zdloyy/cve202246169/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 136,
-                    "title": "CVE-2022-46169",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-46169"
-                },
                 {
                     "created": 1673110977.0,
                     "is_self": false,
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/105tubt/cve202246169_unauthenticated_command_injection_in/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32058,
+                    "subreddit_subscribers": 32062,
                     "title": "CVE-2022-46169: Unauthenticated Command Injection in Cacti detected as being exploited in the wild - see comments",
-                    "upvotes": 1,
+                    "upvotes": 3,
                     "url": "https://github.com/Cacti/cacti/security/advisories/GHSA-6p93-p743-35gf"
+                },
+                {
+                    "created": 1670278313.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/zdloyy/cve202246169/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 137,
+                    "title": "CVE-2022-46169",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-46169"
                 },
                 {
                     "created": 1670359102.0,
@@ -215,10 +269,28 @@
             "severity": "CRITICAL",
             "tweets": [
                 {
+                    "created_at": "2023-01-07 18:43",
+                    "likes": 36,
+                    "num_retweets": 12,
+                    "retweets": 13,
+                    "tweet_id": "1611795672356868097",
+                    "tweet_text": "Vulnerabilidad cr\u00edtica en Cacti \ud83c\udf35\n\u25feCVE-2022-46169 (CVSS 9.8 / 10)\nhttps://t.co/QUvnHVGM5Z https://t.co/W8nW35zUfE",
+                    "twitter_user_handle": "elhackernet",
+                    "twitter_user_name": "elhacker.NET",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1330969532/e-peq1_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "github.com/Cacti/cacti/se\u2026",
+                            "expanded_url": "https://github.com/Cacti/cacti/security/advisories/GHSA-6p93-p743-35gf",
+                            "url": "https://t.co/QUvnHVGM5Z"
+                        }
+                    ]
+                },
+                {
                     "created_at": "2023-01-07 12:26",
-                    "likes": 21,
-                    "num_retweets": 7,
-                    "retweets": 8,
+                    "likes": 45,
+                    "num_retweets": 10,
+                    "retweets": 11,
                     "tweet_id": "1611700723556786176",
                     "tweet_text": "Using Cacti? We started to pick up exploitation attempts for Cacti unauthenticated remote command injection CVE-2022-46169 including subsequent malware download. These started Jan 3rd. Make sure to patch &amp; not expose your Cacti instance to the Internet!\n\nhttps://t.co/tktMJp47Ld",
                     "twitter_user_handle": "Shadowserver",
@@ -233,20 +305,20 @@
                     ]
                 },
                 {
-                    "created_at": "2023-01-07 18:43",
-                    "likes": 20,
-                    "num_retweets": 7,
-                    "retweets": 7,
-                    "tweet_id": "1611795672356868097",
-                    "tweet_text": "Vulnerabilidad cr\u00edtica en Cacti \ud83c\udf35\n\u25feCVE-2022-46169 (CVSS 9.8 / 10)\nhttps://t.co/QUvnHVGM5Z https://t.co/W8nW35zUfE",
-                    "twitter_user_handle": "elhackernet",
-                    "twitter_user_name": "elhacker.NET",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1330969532/e-peq1_normal.png",
+                    "created_at": "2023-01-08 02:08",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611907542254342152",
+                    "tweet_text": "I think that the third retweeted(12 times) tweet that contains CVE ID between Jan 7 2023 02:01 UTC and Jan 8 2023 02:00 UTC is:\nhttps://t.co/Tc95Bb6idf\nIt has CVE-2022-46169. #l24_33y5wkbld5ucq",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
                     "urls": [
                         {
-                            "display_url": "github.com/Cacti/cacti/se\u2026",
-                            "expanded_url": "https://github.com/Cacti/cacti/security/advisories/GHSA-6p93-p743-35gf",
-                            "url": "https://t.co/QUvnHVGM5Z"
+                            "display_url": "twitter.com/elhackernet/st\u2026",
+                            "expanded_url": "https://twitter.com/elhackernet/status/1611795672356868097",
+                            "url": "https://t.co/Tc95Bb6idf"
                         }
                     ]
                 },
@@ -267,6 +339,24 @@
                             "url": "https://t.co/DBRrhyg6ij"
                         }
                     ]
+                },
+                {
+                    "created_at": "2023-01-08 00:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611876841534509057",
+                    "tweet_text": "The vuln CVE-2022-46169 has a tweet created 0 days ago and retweeted 10 times.\nhttps://t.co/Tc95Bb6idf\n#pow1rtrtwwcve",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/elhackernet/st\u2026",
+                            "expanded_url": "https://twitter.com/elhackernet/status/1611795672356868097",
+                            "url": "https://t.co/Tc95Bb6idf"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [],
@@ -285,147 +375,8 @@
             ]
         },
         {
-            "assigner": "cve@mitre.org",
-            "audience_size": 68112,
-            "cve": "CVE-2022-45913",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "An issue was discovered in Zimbra Collaboration (ZCS) 9.0. XSS can occur via one of attributes in webmail URLs to execute arbitrary JavaScript code, leading to information disclosure.",
-            "epss_score": "0.00885",
-            "github_repos": [
-                {
-                    "created": "2023-01-07T01:51:48Z",
-                    "description": "An issue was discovered in Zimbra Collaboration (ZCS) 9.0. XSS can occur via one of attributes in webmail URLs to execute arbitrary JavaScript code, leading to information disclosure. CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2022-45913",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-07T01:51:48Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-45913"
-                }
-            ],
-            "lastModifiedDate": "2023-01-06T23:15Z",
-            "num_retweets": 3,
-            "num_tweets": 14,
-            "num_tweets_and_retweets": 17,
-            "publishedDate": "2023-01-06T23:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1673048303.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/1059d7n/cve202245913/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 136,
-                    "title": "CVE-2022-45913",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-45913"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-01-07 01:42",
-                    "likes": 1,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1611538618027311104",
-                    "tweet_text": "CVE-2022-45913\n\nAn issue was discovered in Zimbra Collaboration (ZCS) 9.0. XSS can occur via one of attributes in webmail URLs to execute arbitrary JavaScript code, leading to information disclosure.\n\nhttps://t.co/CqtNsX3ljW",
-                    "twitter_user_handle": "VulmonFeeds",
-                    "twitter_user_name": "Vulmon Vulnerability Feed",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "vulmon.com/vulnerabilityd\u2026",
-                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2022-45913",
-                            "url": "https://t.co/CqtNsX3ljW"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-06 22:45",
-                    "likes": 4,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1611494136346976258",
-                    "tweet_text": "CVE-2022-45913 An issue was discovered in Zimbra Collaboration (ZCS) 9.0. XSS can occur via one of attributes in webmail URLs to execute arbitrary JavaScript code, leading to information disclosure. https://t.co/XBvSPA5siC",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45913",
-                            "url": "https://t.co/XBvSPA5siC"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-07 11:56",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1611693344513576962",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2022-45913 \ud83d\udea8 An issue was discovered in Zimbra Collaboration (ZCS) 9.0. XSS can occur via one of attributes in webmail URLs to execute arbitrary JavaScript code, leading to information disclosure. https://t.co/t9xx9qE2pB",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-45913",
-                            "url": "https://t.co/t9xx9qE2pB"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-07 07:56",
-                    "likes": 1,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1611632946984935425",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2022-45913 \ud83d\udea8 An issue was discovered in Zimbra Collaboration (ZCS) 9.0. XSS can occur via one of attributes in webmail URLs to execute arbitrary JavaScript code, leading to information disclosure. https://t.co/t9xx9qEAf9",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-45913",
-                            "url": "https://t.co/t9xx9qEAf9"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-07 08:45",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1611645109703159809",
-                    "tweet_text": "CVE-2022-45913 | Synacor Zimbra Collaboration Suite 9.0 Webmail URL cross site scripting https://t.co/d7uczRkKDl",
-                    "twitter_user_handle": "glytcher001",
-                    "twitter_user_name": "glytcher",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "dlvr.it/SgWDq3",
-                            "expanded_url": "http://dlvr.it/SgWDq3",
-                            "url": "https://t.co/d7uczRkKDl"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
             "assigner": "cna@vuldb.com",
-            "audience_size": 65668,
+            "audience_size": 66584,
             "cve": "CVE-2013-10009",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -454,8 +405,8 @@
             ],
             "lastModifiedDate": "2023-01-07T20:15Z",
             "num_retweets": 1,
-            "num_tweets": 16,
-            "num_tweets_and_retweets": 17,
+            "num_tweets": 17,
+            "num_tweets_and_retweets": 18,
             "publishedDate": "2023-01-07T20:15Z",
             "reddit_posts": [
                 {
@@ -464,7 +415,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/netcve/comments/1060gk9/cve201310009/",
                     "subreddit": "netcve",
-                    "subreddit_subscribers": 136,
+                    "subreddit_subscribers": 137,
                     "title": "CVE-2013-10009",
                     "upvotes": 1,
                     "url": "https://cve.report/CVE-2013-10009"
@@ -493,7 +444,7 @@
                 },
                 {
                     "created_at": "2023-01-07 20:45",
-                    "likes": 1,
+                    "likes": 2,
                     "num_retweets": 0,
                     "retweets": 0,
                     "tweet_id": "1611826326352060417",
@@ -569,7 +520,7 @@
         },
         {
             "assigner": "security@huntr.dev",
-            "audience_size": 61543,
+            "audience_size": 61058,
             "cve": "CVE-2023-0111",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -597,37 +548,14 @@
                 }
             ],
             "lastModifiedDate": "2023-01-07T04:15Z",
-            "num_retweets": 2,
-            "num_tweets": 12,
-            "num_tweets_and_retweets": 14,
+            "num_retweets": 1,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 12,
             "publishedDate": "2023-01-07T04:15Z",
             "reddit_posts": [],
             "score": null,
             "severity": null,
             "tweets": [
-                {
-                    "created_at": "2023-01-07 03:01",
-                    "likes": 13,
-                    "num_retweets": 1,
-                    "retweets": 2,
-                    "tweet_id": "1611558705111224327",
-                    "tweet_text": "usememos/memos disclosed a bug reported by @leo__rac (CVE-2023-0111) - Patch: https://t.co/9FoA3fqTTA\nhttps://t.co/D8ub2ofaIm #hunter #infosec #opensource https://t.co/P4RdOOLumY",
-                    "twitter_user_handle": "huntrHacktivity",
-                    "twitter_user_name": "huntr Hacktivity",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1459525598007545867/Zq8Fh2rM_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/usememos/memos\u2026",
-                            "expanded_url": "https://github.com/usememos/memos/commit/46c13a4b7f675b92d297df6dabb4441f13c7cd9c",
-                            "url": "https://t.co/9FoA3fqTTA"
-                        },
-                        {
-                            "display_url": "huntr.dev/bounties/70da2\u2026",
-                            "expanded_url": "https://huntr.dev/bounties/70da256c-977a-487e-8a6a-9ae22caedbe3/#bugbounty",
-                            "url": "https://t.co/D8ub2ofaIm"
-                        }
-                    ]
-                },
                 {
                     "created_at": "2023-01-07 06:51",
                     "likes": 0,
@@ -704,133 +632,14 @@
                             "url": "https://t.co/9K2hlYetNB"
                         }
                     ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "security@huntr.dev",
-            "audience_size": 58158,
-            "cve": "CVE-2023-0112",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [
-                {
-                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
-                    "cwe_id": "CWE-79"
-                }
-            ],
-            "description": "Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0.",
-            "epss_score": "0.00885",
-            "github_repos": [
-                {
-                    "created": "2023-01-07T06:23:07Z",
-                    "description": "Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0. CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2023-0112",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-07T06:23:07Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-0112"
-                }
-            ],
-            "lastModifiedDate": "2023-01-07T04:15Z",
-            "num_retweets": 0,
-            "num_tweets": 12,
-            "num_tweets_and_retweets": 12,
-            "publishedDate": "2023-01-07T04:15Z",
-            "reddit_posts": [],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-01-07 03:01",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1611558692217815044",
-                    "tweet_text": "usememos/memos disclosed a bug reported by benasin (CVE-2023-0112) - Patch: https://t.co/9FoA3fqTTA\nhttps://t.co/xVpxQX0Nso #hunter #infosec #opensource https://t.co/bUrzyWmmYU",
-                    "twitter_user_handle": "huntrHacktivity",
-                    "twitter_user_name": "huntr Hacktivity",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1459525598007545867/Zq8Fh2rM_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/usememos/memos\u2026",
-                            "expanded_url": "https://github.com/usememos/memos/commit/46c13a4b7f675b92d297df6dabb4441f13c7cd9c",
-                            "url": "https://t.co/9FoA3fqTTA"
-                        },
-                        {
-                            "display_url": "huntr.dev/bounties/ec2a2\u2026",
-                            "expanded_url": "https://huntr.dev/bounties/ec2a29dc-79a3-44bd-a58b-15f676934af6/#bugbounty",
-                            "url": "https://t.co/xVpxQX0Nso"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-07 03:59",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1611573126105554950",
-                    "tweet_text": "CVE-2023-0112 : Cross-site Scripting  #XSS  - Stored in GitHub repository usememos/memos prior to 0.10.0.... https://t.co/mgF0IlzoGp",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "cve.report/CVE-2023-0112",
-                            "expanded_url": "https://cve.report/CVE-2023-0112",
-                            "url": "https://t.co/mgF0IlzoGp"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-07 06:54",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1611617137054941184",
-                    "tweet_text": "CVE-2023-0112\n\nCross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0.\n\nhttps://t.co/zKXarMzMW0",
-                    "twitter_user_handle": "VulmonFeeds",
-                    "twitter_user_name": "Vulmon Vulnerability Feed",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "vulmon.com/vulnerabilityd\u2026",
-                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2023-0112",
-                            "url": "https://t.co/zKXarMzMW0"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-07 07:40",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1611628749476315136",
-                    "tweet_text": "Hi, I'm CVE-2023-0112.  I was never good with numbers though, so you can call me Neighboring Pollock\nhttps://t.co/zldVjYd9b3",
-                    "twitter_user_handle": "vulnonym",
-                    "twitter_user_name": "vulnonym",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0112",
-                            "url": "https://t.co/zldVjYd9b3"
-                        }
-                    ]
                 },
                 {
                     "created_at": "2023-01-07 09:45",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1611660398108762112",
-                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-0112 | usememos up to 0.9.x cross site scripting) has been published on https://t.co/aXhw6Ov8C0",
+                    "tweet_id": "1611660362562117632",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-0111 | usememos up to 0.9.x cross site scripting) has been published on https://t.co/KVUjgHNtH7",
                     "twitter_user_handle": "WolfgangSesin",
                     "twitter_user_name": "Wolfgang Sesin",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
@@ -842,8 +651,8 @@
                         },
                         {
                             "display_url": "sesin.at/2023/01/07/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/01/07/cve-2023-0112-usememos-up-to-0-9-x-cross-site-scripting/",
-                            "url": "https://t.co/aXhw6Ov8C0"
+                            "expanded_url": "https://www.sesin.at/2023/01/07/cve-2023-0111-usememos-up-to-0-9-x-cross-site-scripting/",
+                            "url": "https://t.co/KVUjgHNtH7"
                         }
                     ]
                 }
@@ -853,7 +662,7 @@
         },
         {
             "assigner": "security@huntr.dev",
-            "audience_size": 58158,
+            "audience_size": 57880,
             "cve": "CVE-2023-0108",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -882,36 +691,13 @@
             ],
             "lastModifiedDate": "2023-01-07T04:15Z",
             "num_retweets": 0,
-            "num_tweets": 12,
-            "num_tweets_and_retweets": 12,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 11,
             "publishedDate": "2023-01-07T04:15Z",
             "reddit_posts": [],
             "score": null,
             "severity": null,
             "tweets": [
-                {
-                    "created_at": "2023-01-07 03:02",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1611558746026655744",
-                    "tweet_text": "usememos/memos disclosed a bug reported by christynorl (CVE-2023-0108) - Patch: https://t.co/9FoA3fqTTA\nhttps://t.co/KBJSoCYj4V #hunter #infosec #opensource https://t.co/05AtxgV1N5",
-                    "twitter_user_handle": "huntrHacktivity",
-                    "twitter_user_name": "huntr Hacktivity",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1459525598007545867/Zq8Fh2rM_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/usememos/memos\u2026",
-                            "expanded_url": "https://github.com/usememos/memos/commit/46c13a4b7f675b92d297df6dabb4441f13c7cd9c",
-                            "url": "https://t.co/9FoA3fqTTA"
-                        },
-                        {
-                            "display_url": "huntr.dev/bounties/f66d3\u2026",
-                            "expanded_url": "https://huntr.dev/bounties/f66d33df-6588-4ab4-80a0-847451517944/#bugbounty",
-                            "url": "https://t.co/KBJSoCYj4V"
-                        }
-                    ]
-                },
                 {
                     "created_at": "2023-01-07 04:26",
                     "likes": 0,
@@ -993,6 +779,24 @@
                             "url": "https://t.co/24ZOAsL3ys"
                         }
                     ]
+                },
+                {
+                    "created_at": "2023-01-07 07:29",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611626056942854144",
+                    "tweet_text": "CVE-2023-0108 shall henceforth be named Prenuptial Lark\nhttps://t.co/8u1OygVsHf",
+                    "twitter_user_handle": "vulnonym",
+                    "twitter_user_name": "vulnonym",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0108",
+                            "url": "https://t.co/8u1OygVsHf"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [],
@@ -1000,7 +804,149 @@
         },
         {
             "assigner": "security@huntr.dev",
-            "audience_size": 58157,
+            "audience_size": 57880,
+            "cve": "CVE-2023-0112",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+                    "cwe_id": "CWE-79"
+                }
+            ],
+            "description": "Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0.",
+            "epss_score": "0.00885",
+            "github_repos": [
+                {
+                    "created": "2023-01-07T06:23:07Z",
+                    "description": "Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0. CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2023-0112",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2023-01-07T06:23:07Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-0112"
+                }
+            ],
+            "lastModifiedDate": "2023-01-07T04:15Z",
+            "num_retweets": 0,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 11,
+            "publishedDate": "2023-01-07T04:15Z",
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-01-07 06:54",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611617137054941184",
+                    "tweet_text": "CVE-2023-0112\n\nCross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0.\n\nhttps://t.co/zKXarMzMW0",
+                    "twitter_user_handle": "VulmonFeeds",
+                    "twitter_user_name": "Vulmon Vulnerability Feed",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "vulmon.com/vulnerabilityd\u2026",
+                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2023-0112",
+                            "url": "https://t.co/zKXarMzMW0"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-07 07:40",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611628749476315136",
+                    "tweet_text": "Hi, I'm CVE-2023-0112.  I was never good with numbers though, so you can call me Neighboring Pollock\nhttps://t.co/zldVjYd9b3",
+                    "twitter_user_handle": "vulnonym",
+                    "twitter_user_name": "vulnonym",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0112",
+                            "url": "https://t.co/zldVjYd9b3"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-07 23:12",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611863364791148545",
+                    "tweet_text": "CVE-2023-0112 Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0. (CVSS:0.0) (Last Update:2023-01-07) https://t.co/zBil2DqwdY",
+                    "twitter_user_handle": "threatmeter",
+                    "twitter_user_name": "ThreatMeter",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cvedetails.com/cve/CVE-2023-0\u2026",
+                            "expanded_url": "http://www.cvedetails.com/cve/CVE-2023-0112/",
+                            "url": "https://t.co/zBil2DqwdY"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-07 09:45",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611660398108762112",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-0112 | usememos up to 0.9.x cross site scripting) has been published on https://t.co/aXhw6Ov8C0",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/uXvPWJy6tj"
+                        },
+                        {
+                            "display_url": "sesin.at/2023/01/07/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2023/01/07/cve-2023-0112-usememos-up-to-0-9-x-cross-site-scripting/",
+                            "url": "https://t.co/aXhw6Ov8C0"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-07 09:45",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611660400726089728",
+                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2023-0112 | usememos up to 0.9.x cross site scripting) has been published on https://t.co/YZkQLmoSj1",
+                    "twitter_user_handle": "www_sesin_at",
+                    "twitter_user_name": "www.sesin.at",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/9KYxtdZjkl"
+                        },
+                        {
+                            "display_url": "sesin.at/2023/01/07/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2023/01/07/cve-2023-0112-usememos-up-to-0-9-x-cross-site-scripting/",
+                            "url": "https://t.co/YZkQLmoSj1"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "security@huntr.dev",
+            "audience_size": 57879,
             "cve": "CVE-2023-0107",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1029,31 +975,13 @@
             ],
             "lastModifiedDate": "2023-01-07T04:15Z",
             "num_retweets": 0,
-            "num_tweets": 12,
-            "num_tweets_and_retweets": 12,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 11,
             "publishedDate": "2023-01-07T04:15Z",
             "reddit_posts": [],
             "score": null,
             "severity": null,
             "tweets": [
-                {
-                    "created_at": "2023-01-07 03:36",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1611567500185026561",
-                    "tweet_text": "CVE-2023-0107 : Cross-site Scripting  #XSS  - Stored in GitHub repository usememos/memos prior to 0.10.0.... https://t.co/xB4CycAwLj",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "cve.report/CVE-2023-0107",
-                            "expanded_url": "https://cve.report/CVE-2023-0107",
-                            "url": "https://t.co/xB4CycAwLj"
-                        }
-                    ]
-                },
                 {
                     "created_at": "2023-01-07 04:26",
                     "likes": 0,
@@ -1114,6 +1042,24 @@
                     ]
                 },
                 {
+                    "created_at": "2023-01-07 23:12",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611863364719763458",
+                    "tweet_text": "CVE-2023-0107 Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0. (CVSS:0.0) (Last Update:2023-01-07) https://t.co/N06DSLvy4b",
+                    "twitter_user_handle": "threatmeter",
+                    "twitter_user_name": "ThreatMeter",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cvedetails.com/cve/CVE-2023-0\u2026",
+                            "expanded_url": "http://www.cvedetails.com/cve/CVE-2023-0107/",
+                            "url": "https://t.co/N06DSLvy4b"
+                        }
+                    ]
+                },
+                {
                     "created_at": "2023-01-07 09:45",
                     "likes": 0,
                     "num_retweets": 0,
@@ -1141,158 +1087,9 @@
             "vendors": []
         },
         {
-            "assigner": "cve@mitre.org",
-            "audience_size": 57546,
-            "cve": "CVE-2022-45911",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "An issue was discovered in Zimbra Collaboration (ZCS) 9.0. XSS can occur on the Classic UI login page by injecting arbitrary JavaScript code in the username field. This occurs before the user logs into the system, which means that even if the attacker executes arbitrary JavaScript, they will not get any sensitive information.",
-            "epss_score": "0.00885",
-            "github_repos": [
-                {
-                    "created": "2023-01-07T01:51:44Z",
-                    "description": "An issue was discovered in Zimbra Collaboration (ZCS) 9.0. XSS can occur on the Classic UI login page by injecting arbitrary JavaScript code in the username field. This occurs before the user logs into the system, which means that even if the attacker executes arbitrary JavaScript, they will not get any sensitive infor CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2022-45911",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-07T01:51:44Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-45911"
-                }
-            ],
-            "lastModifiedDate": "2023-01-06T23:15Z",
-            "num_retweets": 0,
-            "num_tweets": 11,
-            "num_tweets_and_retweets": 11,
-            "publishedDate": "2023-01-06T23:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1673048302.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/1059d7e/cve202245911/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 136,
-                    "title": "CVE-2022-45911",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-45911"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-01-07 08:45",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1611645264858648578",
-                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2022-45911 | Synacor Zimbra Collaboration Suite 9.0 Classic UI Login Page username cross site scripting) has been published on https://t.co/JvxHk0z1Bz",
-                    "twitter_user_handle": "WolfgangSesin",
-                    "twitter_user_name": "Wolfgang Sesin",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/uXvPWJy6tj"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/01/07/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/01/07/cve-2022-45911-synacor-zimbra-collaboration-suite-9-0-classic-ui-login-page-username-cross-site-scripting/",
-                            "url": "https://t.co/JvxHk0z1Bz"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-07 01:15",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1611531874123276289",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2022-45911) has been published on https://t.co/kGXQFTtNGO",
-                    "twitter_user_handle": "www_sesin_at",
-                    "twitter_user_name": "www.sesin.at",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/9KYxtdZjkl"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/01/07/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/01/07/cve-2022-45911/",
-                            "url": "https://t.co/kGXQFTtNGO"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-07 01:39",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1611537862578561024",
-                    "tweet_text": "CVE-2022-45911\n\nAn issue was discovered in Zimbra Collaboration (ZCS) 9.0. XSS can occur on the Classic UI login page by injecting arbitrary JavaScript code in the username field. This occurs before the user logs i...\n\nhttps://t.co/g20cqQVdLG",
-                    "twitter_user_handle": "VulmonFeeds",
-                    "twitter_user_name": "Vulmon Vulnerability Feed",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "vulmon.com/vulnerabilityd\u2026",
-                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2022-45911",
-                            "url": "https://t.co/g20cqQVdLG"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-07 03:26",
-                    "likes": 1,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1611564998849101825",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2022-45911 \ud83d\udea8 An issue was discovered in Zimbra Collaboration (ZCS) 9.0. XSS can occur on the Classic UI login page by injecting arbitrary JavaScript code in the username field. This occurs before the use... (click for more)  https://t.co/TTSib2HH5J",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-45911",
-                            "url": "https://t.co/TTSib2HH5J"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-07 03:27",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1611565188745936896",
-                    "tweet_text": "CVE-2022-45911 is called Infrequent Tasu\nhttps://t.co/xFB4fBBULe",
-                    "twitter_user_handle": "vulnonym",
-                    "twitter_user_name": "vulnonym",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-45911",
-                            "url": "https://t.co/xFB4fBBULe"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
             "assigner": "cna@vuldb.com",
-            "audience_size": 56106,
-            "cve": "CVE-2015-10022",
+            "audience_size": 57773,
+            "cve": "CVE-2014-125029",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
@@ -1304,48 +1101,257 @@
                     "cwe_id": "CWE-89"
                 }
             ],
-            "description": "A vulnerability was found in IISH nlgis2. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file scripts/etl/custom_import.pl. The manipulation leads to sql injection. The name of the patch is 8bdb6fcf7209584eaf1232437f0f53e735b2b34c. It is recommended to apply a patch to fix this issue. The identifier VDB-217609 was assigned to this vulnerability.",
+            "description": "A vulnerability was found in ttskch PaginationServiceProvider up to 0.x. It has been declared as critical. This vulnerability affects unknown code of the file demo/index.php of the component demo. The manipulation of the argument sort/id leads to sql injection. Upgrading to version 1.0.0 is able to address this issue. The name of the patch is 619de478efce17ece1a3b913ab16e40651e1ea7b. It is recommended to upgrade the affected component. VDB-217150 is the identifier assigned to this vulnerability.",
             "epss_score": null,
             "github_repos": [
                 {
-                    "created": "2023-01-07T14:00:17Z",
-                    "description": "A vulnerability was found in IISH nlgis2. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file scripts/etl/custom_import.pl. The manipulation leads to sql injection. The name of the patch is 8bdb6fcf7209584eaf1232437f0f53e735b2b34c. It is recommended to apply a patch  CVE project by @Sn0wAlice",
+                    "created": "2023-01-07T23:47:26Z",
+                    "description": "A vulnerability was found in ttskch PaginationServiceProvider up to 0.x. It has been declared as critical. This vulnerability affects unknown code of the file demo/index.php of the component demo. The manipulation of the argument sort/id leads to sql injection. Upgrading to version 1.0.0 is able to address this issue.  CVE project by @Sn0wAlice",
                     "language": null,
-                    "name": "CVE-2015-10022",
+                    "name": "CVE-2014-125029",
                     "stars": 0,
                     "topics": [],
-                    "updated": "2023-01-07T14:00:17Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2015-10022"
+                    "updated": "2023-01-07T23:47:26Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2014-125029"
                 }
             ],
-            "lastModifiedDate": "2023-01-07T12:15Z",
+            "lastModifiedDate": "2023-01-07T22:15Z",
             "num_retweets": 0,
-            "num_tweets": 11,
-            "num_tweets_and_retweets": 11,
-            "publishedDate": "2023-01-07T12:15Z",
+            "num_tweets": 15,
+            "num_tweets_and_retweets": 15,
+            "publishedDate": "2023-01-07T22:15Z",
             "reddit_posts": [
                 {
-                    "created": 1673098740.0,
+                    "created": 1673131101.0,
                     "is_self": false,
                     "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/105p8sw/cve201510022/",
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/1061w34/cve2014125029/",
                     "subreddit": "netcve",
-                    "subreddit_subscribers": 136,
-                    "title": "CVE-2015-10022",
+                    "subreddit_subscribers": 137,
+                    "title": "CVE-2014-125029",
                     "upvotes": 1,
-                    "url": "https://cve.report/CVE-2015-10022"
+                    "url": "https://cve.report/CVE-2014-125029"
                 }
             ],
             "score": null,
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-01-07 11:45",
+                    "created_at": "2023-01-07 22:45",
+                    "likes": 2,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611856517749215232",
+                    "tweet_text": "CVE-2014-125029 A vulnerability was found in ttskch PaginationServiceProvider up to 0.x. It has been declared as critical. This vulnerability affects unknown code of the file demo/index.php of the component demo. The manipulation of the argument s... https://t.co/wa6HyV57le",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-125029",
+                            "url": "https://t.co/wa6HyV57le"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-07 23:15",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1611690459402846210",
-                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2015-10022 | IISH nlgis2 custom_import.pl sql injection) has been published on https://t.co/TtVubdCYLl",
+                    "tweet_id": "1611864137599959041",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2014-125029) has been published on https://t.co/8e265aAyMt",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/uXvPWJy6tj"
+                        },
+                        {
+                            "display_url": "sesin.at/2023/01/08/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2023/01/08/cve-2014-125029/",
+                            "url": "https://t.co/8e265aAyMt"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-07 23:15",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611864194122481666",
+                    "tweet_text": "New vulnerability on the NVD: CVE-2014-125029 https://t.co/YNJerbNan6 A vulnerability was found in ttskch PaginationServiceProvider up to 0.x. It has been declared as critical. This vulnerability affects unknown code of the file demo/index.php of the component demo. The manipul\u2026",
+                    "twitter_user_handle": "VulnThreatRsrch",
+                    "twitter_user_name": "Debra M. Fezza Reed \ud83e\udde1\ud83c\uddfa\ud83c\uddf2 \ud83c\udf3b \ud83c\uddfa\ud83c\udde6",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1547358957429133313/ZRwWMNxZ_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/b3YzA2u",
+                            "expanded_url": "https://ift.tt/b3YzA2u",
+                            "url": "https://t.co/YNJerbNan6"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-07 23:22",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611865805393633287",
+                    "tweet_text": "New vulnerability on the NVD: CVE-2014-125029 https://t.co/fHF1vs6ctG #exploit #toutatis #darknet #news",
+                    "twitter_user_handle": "ServiceToutatis",
+                    "twitter_user_name": "Toutatis InfoPost",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1029512326150586370/Z4fu43g3_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/qoTfOsd",
+                            "expanded_url": "https://ift.tt/qoTfOsd",
+                            "url": "https://t.co/fHF1vs6ctG"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-07 23:23",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611866097623474176",
+                    "tweet_text": "CVE-2014-125029 https://t.co/6JpnCi44sa #CVE #Vulnerability",
+                    "twitter_user_handle": "Velletron",
+                    "twitter_user_name": "Velletron Seven",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/933369739904192513/6M049RIA_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/joSYbx6",
+                            "expanded_url": "https://ift.tt/joSYbx6",
+                            "url": "https://t.co/6JpnCi44sa"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "security@huntr.dev",
+            "audience_size": 57471,
+            "cve": "CVE-2023-0106",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+                    "cwe_id": "CWE-79"
+                }
+            ],
+            "description": "Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0.",
+            "epss_score": "0.00885",
+            "github_repos": [
+                {
+                    "created": "2023-01-07T06:22:46Z",
+                    "description": "Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0. CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2023-0106",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2023-01-07T06:22:46Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-0106"
+                }
+            ],
+            "lastModifiedDate": "2023-01-07T04:15Z",
+            "num_retweets": 1,
+            "num_tweets": 10,
+            "num_tweets_and_retweets": 11,
+            "publishedDate": "2023-01-07T04:15Z",
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-01-07 23:12",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1611863365529239552",
+                    "tweet_text": "CVE-2023-0106 Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0. (CVSS:0.0) (Last Update:2023-01-07) https://t.co/fVtSfW9hQQ",
+                    "twitter_user_handle": "threatmeter",
+                    "twitter_user_name": "ThreatMeter",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cvedetails.com/cve/CVE-2023-0\u2026",
+                            "expanded_url": "http://www.cvedetails.com/cve/CVE-2023-0106/",
+                            "url": "https://t.co/fVtSfW9hQQ"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-07 04:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611580123857276928",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-0106 \ud83d\udea8 Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0. https://t.co/wqiXRgRxcR",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0106",
+                            "url": "https://t.co/wqiXRgRxcR"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-07 04:45",
+                    "likes": 1,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611584717962223617",
+                    "tweet_text": "CVE-2023-0106 Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0. https://t.co/Nd4CeizuAo",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0106",
+                            "url": "https://t.co/Nd4CeizuAo"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-07 07:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611620383790096389",
+                    "tweet_text": "One night, CVE-2023-0106 wished upon a star, and today that wish has been granted. It now has a name, like a real, live vulnerability: Phlegmatic Approach\nhttps://t.co/K7o9aKUEhz",
+                    "twitter_user_handle": "vulnonym",
+                    "twitter_user_name": "vulnonym",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0106",
+                            "url": "https://t.co/K7o9aKUEhz"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-07 06:15",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611607447550021632",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-0106) has been published on https://t.co/hUqU1mAPFb",
                     "twitter_user_handle": "WolfgangSesin",
                     "twitter_user_name": "Wolfgang Sesin",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
@@ -1357,77 +1363,125 @@
                         },
                         {
                             "display_url": "sesin.at/2023/01/07/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/01/07/cve-2015-10022-iish-nlgis2-custom_import-pl-sql-injection/",
-                            "url": "https://t.co/TtVubdCYLl"
+                            "expanded_url": "https://www.sesin.at/2023/01/07/cve-2023-0106/",
+                            "url": "https://t.co/hUqU1mAPFb"
                         }
                     ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "cna@vuldb.com",
+            "audience_size": 56917,
+            "cve": "CVE-2014-125064",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+                    "cwe_id": "CWE-89"
+                }
+            ],
+            "description": "A vulnerability, which was classified as critical, has been found in elgs gosqljson. This issue affects the function QueryDbToArray/QueryDbToMap/ExecDb of the file gosqljson.go. The manipulation of the argument sqlStatement leads to sql injection. The name of the patch is 2740b331546cb88eb61771df4c07d389e9f0363a. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217631.",
+            "epss_score": null,
+            "github_repos": [
+                {
+                    "created": "2023-01-07T21:36:52Z",
+                    "description": "A vulnerability, which was classified as critical, has been found in elgs gosqljson. This issue affects the function QueryDbToArray/QueryDbToMap/ExecDb of the file gosqljson.go. The manipulation of the argument sqlStatement leads to sql injection. The name of the patch is 2740b331546cb88eb61771df4c07d389e9f0363a. It is CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2014-125064",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2023-01-07T21:36:52Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2014-125064"
+                }
+            ],
+            "lastModifiedDate": "2023-01-07T20:15Z",
+            "num_retweets": 1,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 12,
+            "publishedDate": "2023-01-07T20:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1673127520.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/1060gin/cve2014125064/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 137,
+                    "title": "CVE-2014-125064",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2014-125064"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-01-07 20:55",
+                    "likes": 1,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1611829002762653697",
+                    "tweet_text": "Potentially Critical CVE Detected!\nCVE-2014-125064\nA vulnerability, which was classified as critical, has been found in elgs gosqljson. This issue affects the function Que...\nCVSS: 8.73\n#CVE #CyberSecurity",
+                    "twitter_user_handle": "Robo_Alerts",
+                    "twitter_user_name": "Robo Shadow Alerts",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1439862150890237953/WjKa3G1I_normal.jpg",
+                    "urls": []
                 },
                 {
-                    "created_at": "2023-01-07 11:45",
+                    "created_at": "2023-01-07 19:57",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1611690461500002309",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2015-10022 | IISH nlgis2 custom_import.pl sql injection) has been published on https://t.co/RhUIFVtTRo",
-                    "twitter_user_handle": "www_sesin_at",
-                    "twitter_user_name": "www.sesin.at",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/9KYxtdZjkl"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/01/07/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/01/07/cve-2015-10022-iish-nlgis2-custom_import-pl-sql-injection/",
-                            "url": "https://t.co/RhUIFVtTRo"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-07 11:46",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1611690625203859461",
-                    "tweet_text": "CVE-2015-10022 | IISH nlgis2 custom_import.pl sql injection https://t.co/ZJYIa7Dsin",
+                    "tweet_id": "1611814213370138625",
+                    "tweet_text": "CVE-2014-125064 | elgs gosqljson gosqljson.go QueryDbToArray/QueryDbToMap/ExecDb sqlStatement sql injection https://t.co/oZnbsdlanK",
                     "twitter_user_handle": "glytcher001",
                     "twitter_user_name": "glytcher",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "dlvr.it/SgWWJ9",
-                            "expanded_url": "http://dlvr.it/SgWWJ9",
-                            "url": "https://t.co/ZJYIa7Dsin"
+                            "display_url": "dlvr.it/SgXK7V",
+                            "expanded_url": "http://dlvr.it/SgXK7V",
+                            "url": "https://t.co/oZnbsdlanK"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-07 12:26",
+                    "created_at": "2023-01-07 20:00",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1611700907690917890",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2015-10022 \ud83d\udea8 A vulnerability was found in IISH nlgis2. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file scripts/etl/custom_import.pl. The manipulat... (click for more)  https://t.co/ulcFJQFxs7",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "tweet_id": "1611815107608150019",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2014-125064 | elgs gosqljson gosqljson.go QueryDbToArray/QueryDbToMap/ExecDb sqlStatement sql injection) has been published on https://t.co/5SlJR32Fw7",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-10022",
-                            "url": "https://t.co/ulcFJQFxs7"
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/uXvPWJy6tj"
+                        },
+                        {
+                            "display_url": "sesin.at/2023/01/07/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2023/01/07/cve-2014-125064-elgs-gosqljson-gosqljson-go-querydbtoarray-querydbtomap-execdb-sqlstatement-sql-injection/",
+                            "url": "https://t.co/5SlJR32Fw7"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-07 13:15",
+                    "created_at": "2023-01-07 20:00",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1611713083524759553",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2015-10022) has been published on https://t.co/gZYcuzKFXK",
+                    "tweet_id": "1611815111693320192",
+                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2014-125064 | elgs gosqljson gosqljson.go QueryDbToArray/QueryDbToMap/ExecDb sqlStatement sql injection) has been published on https://t.co/RuAxgBHWrV",
                     "twitter_user_handle": "www_sesin_at",
                     "twitter_user_name": "www.sesin.at",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
@@ -1439,8 +1493,26 @@
                         },
                         {
                             "display_url": "sesin.at/2023/01/07/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/01/07/cve-2015-10022/",
-                            "url": "https://t.co/gZYcuzKFXK"
+                            "expanded_url": "https://www.sesin.at/2023/01/07/cve-2014-125064-elgs-gosqljson-gosqljson-go-querydbtoarray-querydbtomap-execdb-sqlstatement-sql-injection/",
+                            "url": "https://t.co/RuAxgBHWrV"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-07 20:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1611816536607539207",
+                    "tweet_text": "CVE-2014-125064 : A vulnerability, which was classified as critical, has been found in elgs gosqljson. This issue affects the function QueryDbToArray/QueryDbToMap/ExecDb of the file gosqljson.go. The manipulation of the argument sqlStatem... https://t.co/42myqD4bvO",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "cve.report/CVE-2014-125064",
+                            "expanded_url": "https://cve.report/CVE-2014-125064",
+                            "url": "https://t.co/42myqD4bvO"
                         }
                     ]
                 }
@@ -1450,5 +1522,5 @@
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2023-01-07 22:06:57"
+    "updated": "2023-01-08 04:12:42"
 }
