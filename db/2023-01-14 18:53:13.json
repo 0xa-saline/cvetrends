@@ -1,211 +1,8 @@
 {
     "data": [
         {
-            "assigner": "psirt@fortinet.com",
-            "audience_size": 1518731,
-            "cve": "CVE-2022-42475",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": 9.8,
-            "cvssv3_base_severity": "CRITICAL",
-            "cwes": [
-                {
-                    "cwe_description": "Out-of-bounds Write",
-                    "cwe_id": "CWE-787"
-                }
-            ],
-            "description": "A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN 7.2.0 through 7.2.2, 7.0.0 through 7.0.8, 6.4.0 through 6.4.10, 6.2.0 through 6.2.11, 6.0.15 and earlier and FortiProxy SSL-VPN 7.2.0 through 7.2.1, 7.0.7 and earlier may allow a remote unauthenticated attacker to execute arbitrary code or commands via specifically crafted requests.",
-            "epss_score": "0.01156",
-            "github_repos": [
-                {
-                    "created": "2023-01-02T12:08:28Z",
-                    "description": "A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN 7.2.0 through 7.2.2, 7.0.0 through 7.0.8, 6.4.0 through 6.4.10, 6.2.0 through 6.2.11, 6.0.15 and earlier and FortiProxy SSL-VPN 7.2.0 through 7.2.1, 7.0.7 and earlier may allow a remote unauthenticated attacker to execute arbitrary code or commands CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2022-42475",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-02T12:08:28Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-42475"
-                }
-            ],
-            "lastModifiedDate": "2023-01-09T17:30Z",
-            "num_retweets": 62,
-            "num_tweets": 60,
-            "num_tweets_and_retweets": 122,
-            "publishedDate": "2023-01-02T09:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1672609818.0,
-                    "is_self": true,
-                    "num_comments": 36,
-                    "reddit_url": "https://www.reddit.com/r/fortinet/comments/100uib7/ssl_vpn_failed_from_18573124227_user_test/",
-                    "subreddit": "fortinet",
-                    "subreddit_subscribers": 35846,
-                    "title": "SSL VPN Failed From 185.73.124.227 User: Test",
-                    "upvotes": 19,
-                    "url": "https://www.reddit.com/r/fortinet/comments/100uib7/ssl_vpn_failed_from_18573124227_user_test/"
-                },
-                {
-                    "created": 1671175321.0,
-                    "is_self": false,
-                    "num_comments": 33,
-                    "reddit_url": "https://www.reddit.com/r/fortinet/comments/zn8vzr/fortios_6016_released_with_cve202242475_fixed/",
-                    "subreddit": "fortinet",
-                    "subreddit_subscribers": 35846,
-                    "title": "FortiOS 6.0.16 released with CVE-2022-42475 fixed.",
-                    "upvotes": 12,
-                    "url": "https://docs.fortinet.com/document/fortigate/6.0.16/fortios-release-notes/565064/resolved-issues"
-                },
-                {
-                    "created": 1670881081.0,
-                    "is_self": false,
-                    "num_comments": 1,
-                    "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/zkcctr/faillevpnsslfortigate_0_day_fortigate_vpnssl_flaw/",
-                    "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32203,
-                    "title": "Faille-VPN-SSL-Fortigate - 0 day FortiGate VPN-SSL flaw - CVE-2022-42475",
-                    "upvotes": 7,
-                    "url": "https://olympecyberdefense-fr.translate.goog/vpn-ssl-fortigate/?_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=en-US&amp;_x_tr_pto=wapp"
-                },
-                {
-                    "created": 1670966034.0,
-                    "is_self": true,
-                    "num_comments": 18,
-                    "reddit_url": "https://www.reddit.com/r/fortinet/comments/zl75as/cve202242475_fortios_6016/",
-                    "subreddit": "fortinet",
-                    "subreddit_subscribers": 35846,
-                    "title": "CVE-2022-42475 - FortiOS 6.0.16?",
-                    "upvotes": 8,
-                    "url": "https://www.reddit.com/r/fortinet/comments/zl75as/cve202242475_fortios_6016/"
-                },
-                {
-                    "created": 1671047445.0,
-                    "is_self": true,
-                    "num_comments": 14,
-                    "reddit_url": "https://www.reddit.com/r/fortinet/comments/zm0e9a/cve202242475/",
-                    "subreddit": "fortinet",
-                    "subreddit_subscribers": 35846,
-                    "title": "CVE-2022-42475",
-                    "upvotes": 7,
-                    "url": "https://www.reddit.com/r/fortinet/comments/zm0e9a/cve202242475/"
-                }
-            ],
-            "score": 9.8,
-            "severity": "CRITICAL",
-            "tweets": [
-                {
-                    "created_at": "2023-01-13 14:04",
-                    "likes": 61,
-                    "num_retweets": 32,
-                    "retweets": 36,
-                    "tweet_id": "1613899793897488384",
-                    "tweet_text": "A #vulnerability (CVE-2022-42475) in FortiOS SSL-VPN was exploited by hackers as a \"zero-day\" to attack governments and large organizations before #Fortinet fixed it.\n\nDetails: https://t.co/OPRoYajGGQ\n\n#infosec #cyberattack #cybersecurity #hacking",
-                    "twitter_user_handle": "TheHackersNews",
-                    "twitter_user_name": "The Hacker News",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1597647879811657728/FLgHrLHy_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "thehackernews.com/2023/01/fortio\u2026",
-                            "expanded_url": "https://thehackernews.com/2023/01/fortios-flaw-exploited-as-zero-day-in.html",
-                            "url": "https://t.co/OPRoYajGGQ"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-13 15:08",
-                    "likes": 8,
-                    "num_retweets": 6,
-                    "retweets": 6,
-                    "tweet_id": "1613915912205406214",
-                    "tweet_text": "Faille-VPN-SSL-Fortigate - 0 day FortiGate VPN-SSL flaw - CVE-2022-42475 https://t.co/XSyy2v51IM #cyber #threathunting #infosec",
-                    "twitter_user_handle": "blueteamsec1",
-                    "twitter_user_name": "Blue Team News",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1106654860458553349/jM-z3b7f_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "dlvr.it/SgqjtK",
-                            "expanded_url": "http://dlvr.it/SgqjtK",
-                            "url": "https://t.co/XSyy2v51IM"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-13 17:04",
-                    "likes": 9,
-                    "num_retweets": 5,
-                    "retweets": 5,
-                    "tweet_id": "1613945092569534483",
-                    "tweet_text": "A #vulnerability (CVE-2022-42475) in FortiOS SSL-VPN was exploited by hackers as a \"zero-day\" to attack governments and large organizations before #Fortinet fixed it.\n\nDetails: https://t.co/poWN9CyESZ\n\n#infosec #cyberattack #cybersecurity #hacking",
-                    "twitter_user_handle": "security_wang",
-                    "twitter_user_name": "Wang Wei",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/3023866949/a9092492e690a9b69ecd930477cc51cf_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "thehackernews.com/2023/01/fortio\u2026",
-                            "expanded_url": "https://thehackernews.com/2023/01/fortios-flaw-exploited-as-zero-day-in.html",
-                            "url": "https://t.co/poWN9CyESZ"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-13 15:14",
-                    "likes": 6,
-                    "num_retweets": 4,
-                    "retweets": 4,
-                    "tweet_id": "1613917509161308162",
-                    "tweet_text": "Threat actors target govt networks exploiting #Fortinet SSL-VPN CVE-2022-42475 bug\nhttps://t.co/Jx54rEDf0H\n#securityaffairs #hacking",
-                    "twitter_user_handle": "securityaffairs",
-                    "twitter_user_name": "Pierluigi Paganini - Security Affairs",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/3703513695/4ae724ea6ed248d871bc9d523ae1c24e_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "securityaffairs.com/140721/hacking\u2026",
-                            "expanded_url": "https://securityaffairs.com/140721/hacking/fortinet-ssl-vpn-cve-2022-42475-attacks.html",
-                            "url": "https://t.co/Jx54rEDf0H"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-13 13:03",
-                    "likes": 5,
-                    "num_retweets": 3,
-                    "retweets": 4,
-                    "tweet_id": "1613884317003825159",
-                    "tweet_text": "A #vulnerability (CVE-2022-42475) in FortiOS SSL-VPN was exploited by hackers as a \"zero-day\" to attack governments and large organizations before #Fortinet fixed it.\n\nDetails: https://t.co/483LjS0AKS\n\n#infosec #cyberattack #cybersecurity #hacking",
-                    "twitter_user_handle": "unix_root",
-                    "twitter_user_name": "Mohit Kumar",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1595089203418628098/w5E4iShA_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "thehackernews.com/2023/01/fortio\u2026",
-                            "expanded_url": "https://thehackernews.com/2023/01/fortios-flaw-exploited-as-zero-day-in.html",
-                            "url": "https://t.co/483LjS0AKS"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [
-                "https://fortiguard.com/psirt/FG-IR-22-398"
-            ],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Fortiproxy",
-                            "versions": [
-                                "*",
-                                "7.2.0"
-                            ]
-                        }
-                    ],
-                    "vendor": "Fortinet"
-                }
-            ]
-        },
-        {
             "assigner": "security-advisories@github.com",
-            "audience_size": 1329793,
+            "audience_size": 2294806,
             "cve": "CVE-2022-46169",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -226,9 +23,9 @@
                     "description": "CVE-2022-46169 Cacti remote_agent.php Unauthenticated Command Injection.",
                     "language": null,
                     "name": "CVE-2022-46169",
-                    "stars": 40,
+                    "stars": 41,
                     "topics": [],
-                    "updated": "2023-01-11T03:33:44Z",
+                    "updated": "2023-01-14T15:18:49Z",
                     "url": "https://github.com/0xf4n9x/CVE-2022-46169"
                 },
                 {
@@ -284,9 +81,9 @@
                 }
             ],
             "lastModifiedDate": "2022-12-06T20:05Z",
-            "num_retweets": 39,
-            "num_tweets": 15,
-            "num_tweets_and_retweets": 54,
+            "num_retweets": 72,
+            "num_tweets": 22,
+            "num_tweets_and_retweets": 94,
             "publishedDate": "2022-12-05T21:15Z",
             "reddit_posts": [
                 {
@@ -295,9 +92,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/108pg3s/cacti_unauthenticated_remote_code_execution/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 464475,
+                    "subreddit_subscribers": 464487,
                     "title": "Cacti: Unauthenticated Remote Code Execution (CVE-2022-46169)",
-                    "upvotes": 20,
+                    "upvotes": 18,
                     "url": "https://www.sonarsource.com/blog/cacti-unauthenticated-remote-code-execution/"
                 },
                 {
@@ -306,7 +103,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/websecurityresearch/comments/108pgjm/cacti_unauthenticated_remote_code_execution/",
                     "subreddit": "websecurityresearch",
-                    "subreddit_subscribers": 6185,
+                    "subreddit_subscribers": 6186,
                     "title": "Cacti: Unauthenticated Remote Code Execution (CVE-2022-46169)",
                     "upvotes": 8,
                     "url": "https://www.sonarsource.com/blog/cacti-unauthenticated-remote-code-execution/"
@@ -317,7 +114,7 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/105tubt/cve202246169_unauthenticated_command_injection_in/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32203,
+                    "subreddit_subscribers": 32207,
                     "title": "CVE-2022-46169: Unauthenticated Command Injection in Cacti detected as being exploited in the wild - see comments",
                     "upvotes": 4,
                     "url": "https://github.com/Cacti/cacti/security/advisories/GHSA-6p93-p743-35gf"
@@ -350,9 +147,9 @@
             "tweets": [
                 {
                     "created_at": "2023-01-14 08:12",
-                    "likes": 52,
-                    "num_retweets": 34,
-                    "retweets": 35,
+                    "likes": 71,
+                    "num_retweets": 35,
+                    "retweets": 37,
                     "tweet_id": "1614173559844409345",
                     "tweet_text": "If you use Cacti for web-based monitoring, be sure to patch ASAP!\n\nA critical #vulnerability [CVE-2022-46169] is being actively exploited in the wild and a majority of internet-exposed servers have not been patched yet.\n\nRead: https://t.co/tlbSlqhRgc\n\n#infosec #cybersecurity",
                     "twitter_user_handle": "TheHackersNews",
@@ -367,10 +164,28 @@
                     ]
                 },
                 {
+                    "created_at": "2023-01-14 16:32",
+                    "likes": 40,
+                    "num_retweets": 27,
+                    "retweets": 27,
+                    "tweet_id": "1614299426985484289",
+                    "tweet_text": "If you use Cacti for web-based monitoring, be sure to patch ASAP!\n\nA critical #vulnerability [CVE-2022-46169] is being actively exploited in the wild and a majority of internet-exposed servers have not been patched yet.\n\nRead: https://t.co/tlbSlqhjqE\n\n#infosec #cybersecurity",
+                    "twitter_user_handle": "TheHackersNews",
+                    "twitter_user_name": "The Hacker News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1597647879811657728/FLgHrLHy_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "thehackernews.com/2023/01/cacti-\u2026",
+                            "expanded_url": "https://thehackernews.com/2023/01/cacti-servers-under-attack-as-majority.html",
+                            "url": "https://t.co/tlbSlqhjqE"
+                        }
+                    ]
+                },
+                {
                     "created_at": "2023-01-14 11:02",
                     "likes": 0,
-                    "num_retweets": 2,
-                    "retweets": 2,
+                    "num_retweets": 3,
+                    "retweets": 3,
                     "tweet_id": "1614216253979197441",
                     "tweet_text": "Most Cacti Installations Unpatched Against Exploited Vulnerability CVE-2022-46169 https://t.co/Y3s5UWZUr7",
                     "twitter_user_handle": "SecurityWeek",
@@ -385,28 +200,10 @@
                     ]
                 },
                 {
-                    "created_at": "2023-01-14 08:51",
-                    "likes": 2,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1614183359743397889",
-                    "tweet_text": "\u30af\u30e9\u30a4\u30a2\u30f3\u30c8\u76e3\u8996\u30c4\u30fc\u30eb #Cacti \u8106\u5f31\u6027 \u8a8d\u8a3c\u30d0\u30a4\u30d1\u30b9\u3068\u30b3\u30de\u30f3\u30c9 \u30a4\u30f3\u30b8\u30a7\u30af\u30b7\u30e7\u30f3 CVE-2022-46169 ( CVSS \u30b9\u30b3\u30a2: 9.8 ) \u306b\u3064\u3044\u3066\n\u904e\u53bb\u306bWindows Server \u3084 Linux \u306bCacti \u5c0e\u5165\u3057\u305f\u899a\u3048\u304c\u3042\u308b\u65b9\u3078\n\u60aa\u7528\u3082\u78ba\u8a8d\u3055\u308c\u3001\u65e2\u306b\u30a8\u30af\u30b9\u30d7\u30ed\u30a4\u30c8\u30b3\u30fc\u30c9\u304c github\u4e0a\u306b\u516c\u958b\u3055\u308c\u3066\u304a\u308a\u307e\u3059\u3002\nhttps://t.co/tlusDoOtjl",
-                    "twitter_user_handle": "t_nihonmatsu",
-                    "twitter_user_name": "\u4e8c\u672c\u677e\u54f2\u4e5f \u2662 qualias.eth",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1437738711756595200/xY4ZPYD6_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cacti.net",
-                            "expanded_url": "https://www.cacti.net/",
-                            "url": "https://t.co/tlusDoOtjl"
-                        }
-                    ]
-                },
-                {
                     "created_at": "2023-01-14 11:15",
-                    "likes": 3,
-                    "num_retweets": 1,
-                    "retweets": 1,
+                    "likes": 5,
+                    "num_retweets": 2,
+                    "retweets": 2,
                     "tweet_id": "1614219546625196032",
                     "tweet_text": "CVE-2022-46169\n\nExploit to CVE-2022-46169 vulnerability on Cacti 1.2.19\n\nhttps://t.co/e9mfrm5auB\n\n#cve #exploit https://t.co/bf90BCYkEs https://t.co/wKiIzz5m6B",
                     "twitter_user_handle": "hack_git",
@@ -426,20 +223,20 @@
                     ]
                 },
                 {
-                    "created_at": "2023-01-14 08:12",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1614173619516473347",
-                    "tweet_text": "If you use Cacti for web-based monitoring, be sure to patch ASAP!\n\nA critical #vulnerability [CVE-2022-46169] is being actively exploited in the wild and a majority of internet-exposed servers have not been patched yet.\n\nRead: https://t.co/RXsHYBETLW\n\n#infosec #cybersecurity",
-                    "twitter_user_handle": "_DrFrusci",
-                    "twitter_user_name": "Dr. Joseph Frusci",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1354343790060969990/Fqw5w_P0_normal.jpg",
+                    "created_at": "2023-01-14 08:51",
+                    "likes": 2,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1614183359743397889",
+                    "tweet_text": "\u30af\u30e9\u30a4\u30a2\u30f3\u30c8\u76e3\u8996\u30c4\u30fc\u30eb #Cacti \u8106\u5f31\u6027 \u8a8d\u8a3c\u30d0\u30a4\u30d1\u30b9\u3068\u30b3\u30de\u30f3\u30c9 \u30a4\u30f3\u30b8\u30a7\u30af\u30b7\u30e7\u30f3 CVE-2022-46169 ( CVSS \u30b9\u30b3\u30a2: 9.8 ) \u306b\u3064\u3044\u3066\n\u904e\u53bb\u306bWindows Server \u3084 Linux \u306bCacti \u5c0e\u5165\u3057\u305f\u899a\u3048\u304c\u3042\u308b\u65b9\u3078\n\u60aa\u7528\u3082\u78ba\u8a8d\u3055\u308c\u3001\u65e2\u306b\u30a8\u30af\u30b9\u30d7\u30ed\u30a4\u30c8\u30b3\u30fc\u30c9\u304c github\u4e0a\u306b\u516c\u958b\u3055\u308c\u3066\u304a\u308a\u307e\u3059\u3002\nhttps://t.co/tlusDoOtjl",
+                    "twitter_user_handle": "t_nihonmatsu",
+                    "twitter_user_name": "\u4e8c\u672c\u677e\u54f2\u4e5f \u2662 qualias.eth",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1437738711756595200/xY4ZPYD6_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "thehackernews.com/2023/01/cacti-\u2026",
-                            "expanded_url": "https://thehackernews.com/2023/01/cacti-servers-under-attack-as-majority.html",
-                            "url": "https://t.co/RXsHYBETLW"
+                            "display_url": "cacti.net",
+                            "expanded_url": "https://www.cacti.net/",
+                            "url": "https://t.co/tlusDoOtjl"
                         }
                     ]
                 }
@@ -461,7 +258,7 @@
         },
         {
             "assigner": "product-security@apple.com",
-            "audience_size": 590951,
+            "audience_size": 665606,
             "cve": "CVE-2022-46689",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -482,9 +279,9 @@
                     "description": "Proof-of-concept app to overwrite fonts on iOS using CVE-2022-46689.",
                     "language": "Swift",
                     "name": "WDBFontOverwrite",
-                    "stars": 607,
+                    "stars": 609,
                     "topics": [],
-                    "updated": "2023-01-14T10:29:02Z",
+                    "updated": "2023-01-14T18:12:57Z",
                     "url": "https://github.com/ginsudev/WDBFontOverwrite"
                 },
                 {
@@ -531,31 +328,31 @@
                 }
             ],
             "lastModifiedDate": "2023-01-09T16:48Z",
-            "num_retweets": 85,
-            "num_tweets": 17,
-            "num_tweets_and_retweets": 102,
+            "num_retweets": 110,
+            "num_tweets": 22,
+            "num_tweets_and_retweets": 132,
             "publishedDate": "2022-12-15T19:15Z",
             "reddit_posts": [
                 {
                     "created": 1673661217.0,
                     "is_self": true,
-                    "num_comments": 31,
+                    "num_comments": 36,
                     "reddit_url": "https://www.reddit.com/r/jailbreak/comments/10bc8qm/news_ian_beer_releases_poc_for_cve202246689_aka/",
                     "subreddit": "jailbreak",
-                    "subreddit_subscribers": 664398,
+                    "subreddit_subscribers": 664417,
                     "title": "[News] Ian Beer releases PoC for CVE-2022-46689 aka the MacDirtyCow exploit",
-                    "upvotes": 155,
+                    "upvotes": 202,
                     "url": "https://www.reddit.com/r/jailbreak/comments/10bc8qm/news_ian_beer_releases_poc_for_cve202246689_aka/"
                 },
                 {
                     "created": 1673113570.0,
                     "is_self": true,
-                    "num_comments": 76,
+                    "num_comments": 77,
                     "reddit_url": "https://www.reddit.com/r/jailbreak/comments/105uvnv/free_release_cowabunga_macdirtycow_toolbox_for/",
                     "subreddit": "jailbreak",
-                    "subreddit_subscribers": 664398,
+                    "subreddit_subscribers": 664417,
                     "title": "[Free Release] Cowabunga - MacDirtyCow ToolBox for iOS 14.0-16.1.2",
-                    "upvotes": 129,
+                    "upvotes": 126,
                     "url": "https://www.reddit.com/r/jailbreak/comments/105uvnv/free_release_cowabunga_macdirtycow_toolbox_for/"
                 },
                 {
@@ -564,21 +361,10 @@
                     "num_comments": 20,
                     "reddit_url": "https://www.reddit.com/r/jailbreak/comments/zvbz68/discussion_what_is_actually_possible_with/",
                     "subreddit": "jailbreak",
-                    "subreddit_subscribers": 664398,
+                    "subreddit_subscribers": 664417,
                     "title": "[Discussion] What is actually possible with MacDirtyCow and what isn't possible wit it?",
-                    "upvotes": 85,
+                    "upvotes": 87,
                     "url": "https://www.reddit.com/r/jailbreak/comments/zvbz68/discussion_what_is_actually_possible_with/"
-                },
-                {
-                    "created": 1673661299.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/iOS_Jailbreak/comments/10bc9q3/news_ian_beer_releases_poc_for_cve202246689_aka/",
-                    "subreddit": "iOS_Jailbreak",
-                    "subreddit_subscribers": 2048,
-                    "title": "[News] Ian Beer releases PoC for CVE-2022-46689 aka the MacDirtyCow exploit",
-                    "upvotes": 1,
-                    "url": "http://reddit.com/r/jailbreak/comments/10bc8qm/news_ian_beer_releases_poc_for_cve202246689_aka/"
                 },
                 {
                     "created": 1671031238.0,
@@ -590,6 +376,17 @@
                     "title": "MS-ISAC CYBERSECURITY ADVISORY - Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution - PATCH: NOW",
                     "upvotes": 1,
                     "url": "https://www.reddit.com/r/k12cybersecurity/comments/zltpz7/msisac_cybersecurity_advisory_multiple/"
+                },
+                {
+                    "created": 1673661299.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/iOS_Jailbreak/comments/10bc9q3/news_ian_beer_releases_poc_for_cve202246689_aka/",
+                    "subreddit": "iOS_Jailbreak",
+                    "subreddit_subscribers": 2047,
+                    "title": "[News] Ian Beer releases PoC for CVE-2022-46689 aka the MacDirtyCow exploit",
+                    "upvotes": 1,
+                    "url": "http://reddit.com/r/jailbreak/comments/10bc8qm/news_ian_beer_releases_poc_for_cve202246689_aka/"
                 }
             ],
             "score": 7.0,
@@ -597,9 +394,9 @@
             "tweets": [
                 {
                     "created_at": "2023-01-14 01:23",
-                    "likes": 177,
-                    "num_retweets": 52,
-                    "retweets": 55,
+                    "likes": 235,
+                    "num_retweets": 62,
+                    "retweets": 65,
                     "tweet_id": "1614070658308231169",
                     "tweet_text": "Ian Beer released his proof-of-concept for CVE-2022-46689 (MacDirtyCow):\nhttps://t.co/pOC8Ss9SW5\nHis exploit accomplishes two things I didn't know was possible:\n- writing the last byte in a 16k page\n- take over system daemons\nhttps://t.co/u5cxdjm6nH",
                     "twitter_user_handle": "zhuowei",
@@ -620,9 +417,9 @@
                 },
                 {
                     "created_at": "2023-01-14 07:47",
-                    "likes": 135,
-                    "num_retweets": 22,
-                    "retweets": 23,
+                    "likes": 203,
+                    "num_retweets": 30,
+                    "retweets": 33,
                     "tweet_id": "1614167351003607041",
                     "tweet_text": "Ian Beer releases PoC for CVE-2022-46689 aka the MacDirtyCow exploit \ud83d\udd25\n\nhttps://t.co/FOxfNK9GnC https://t.co/LMuJALTuyV",
                     "twitter_user_handle": "iFenixx",
@@ -638,9 +435,9 @@
                 },
                 {
                     "created_at": "2023-01-14 08:03",
-                    "likes": 83,
-                    "num_retweets": 11,
-                    "retweets": 13,
+                    "likes": 119,
+                    "num_retweets": 16,
+                    "retweets": 19,
                     "tweet_id": "1614171439887966209",
                     "tweet_text": "Ian Beer has released his proof-of-concept for CVE-2022-46689 (MacDirtyCow):\nhttps://t.co/rXh9zEuI8X https://t.co/cX05hqajYW",
                     "twitter_user_handle": "Yalujb",
@@ -651,6 +448,24 @@
                             "display_url": "bugs.chromium.org/p/project-zero\u2026",
                             "expanded_url": "https://bugs.chromium.org/p/project-zero/issues/detail?id=2361",
                             "url": "https://t.co/rXh9zEuI8X"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-14 12:30",
+                    "likes": 12,
+                    "num_retweets": 2,
+                    "retweets": 1,
+                    "tweet_id": "1614238477104685057",
+                    "tweet_text": "[News] Ian Beer releases PoC for CVE-2022-46689 aka the MacDirtyCow exploit https://t.co/MFrsUAQQyN",
+                    "twitter_user_handle": "iM4CH3T3",
+                    "twitter_user_name": "#WeAlliPhoneFamily",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1600672523292639235/TSafAXYW_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "reddit.com/r/jailbreak/co\u2026",
+                            "expanded_url": "https://reddit.com/r/jailbreak/comments/10bc8qm/news_ian_beer_releases_poc_for_cve202246689_aka/",
+                            "url": "https://t.co/MFrsUAQQyN"
                         }
                     ]
                 },
@@ -669,24 +484,6 @@
                             "display_url": "redd.it/10bc8qm",
                             "expanded_url": "https://redd.it/10bc8qm",
                             "url": "https://t.co/u6tij1zcpC"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-14 08:26",
-                    "likes": 1,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1614177072284585984",
-                    "tweet_text": "Ian Beer has released PoC\n@i41nbeer \ud83d\udc4b\n\nproof-of-concept for CVE-2022-46689 #MacDirtyCow Bug \ud83d\udc1e \n\n\ud83d\udc49 https://t.co/E4Ig7vTnZx https://t.co/oJzuN65FcE",
-                    "twitter_user_handle": "senumy_jb",
-                    "twitter_user_name": "Senumy",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1603694444091277312/EWBb430Y_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "bugs.chromium.org/p/project-zero\u2026",
-                            "expanded_url": "https://bugs.chromium.org/p/project-zero/issues/detail?id=2361",
-                            "url": "https://t.co/E4Ig7vTnZx"
                         }
                     ]
                 }
@@ -716,7 +513,7 @@
         },
         {
             "assigner": "secure@microsoft.com",
-            "audience_size": 474468,
+            "audience_size": 503289,
             "cve": "CVE-2022-41099",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -749,18 +546,18 @@
                 }
             ],
             "lastModifiedDate": "2022-11-14T16:54Z",
-            "num_retweets": 38,
+            "num_retweets": 47,
             "num_tweets": 4,
-            "num_tweets_and_retweets": 42,
+            "num_tweets_and_retweets": 51,
             "publishedDate": "2022-11-09T22:15Z",
             "reddit_posts": [
                 {
                     "created": 1673534942.0,
                     "is_self": true,
-                    "num_comments": 66,
+                    "num_comments": 68,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/10a1enh/how_are_you_updating_winre_to_address_cve202241099/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 765444,
+                    "subreddit_subscribers": 765508,
                     "title": "How are you updating WinRE to address CVE-2022-41099?",
                     "upvotes": 64,
                     "url": "https://www.reddit.com/r/sysadmin/comments/10a1enh/how_are_you_updating_winre_to_address_cve202241099/"
@@ -768,21 +565,21 @@
                 {
                     "created": 1673612986.0,
                     "is_self": true,
-                    "num_comments": 64,
+                    "num_comments": 67,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/10atdqe/is_bitlocker_forever_compromised/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 765444,
+                    "subreddit_subscribers": 765508,
                     "title": "Is Bitlocker Forever Compromised?",
-                    "upvotes": 56,
+                    "upvotes": 58,
                     "url": "https://www.reddit.com/r/sysadmin/comments/10atdqe/is_bitlocker_forever_compromised/"
                 },
                 {
                     "created": 1673398514.0,
                     "is_self": true,
-                    "num_comments": 36,
+                    "num_comments": 40,
                     "reddit_url": "https://www.reddit.com/r/SCCM/comments/108qsob/winre_patching_is_this_new/",
                     "subreddit": "SCCM",
-                    "subreddit_subscribers": 62908,
+                    "subreddit_subscribers": 62913,
                     "title": "WinRE Patching - Is This New?",
                     "upvotes": 9,
                     "url": "https://www.reddit.com/r/SCCM/comments/108qsob/winre_patching_is_this_new/"
@@ -804,9 +601,9 @@
             "tweets": [
                 {
                     "created_at": "2023-01-13 20:36",
-                    "likes": 110,
-                    "num_retweets": 38,
-                    "retweets": 39,
+                    "likes": 127,
+                    "num_retweets": 47,
+                    "retweets": 48,
                     "tweet_id": "1613998333319647244",
                     "tweet_text": "If your firm uses Bitlocker there are special steps for this patch. Alert your IT team this is easy to miss...\nBitLocker Security Feature Bypass Vulnerability\nCVE-2022-41099 https://t.co/V6I9mTSju2 https://t.co/UO5zyFPW6S",
                     "twitter_user_handle": "SwiftOnSecurity",
@@ -893,129 +690,199 @@
             ]
         },
         {
-            "assigner": null,
-            "audience_size": 413432,
-            "cve": "CVE-2022-47966",
+            "assigner": "psirt@fortinet.com",
+            "audience_size": 396263,
+            "cve": "CVE-2022-42475",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": null,
-            "epss_score": null,
-            "github_repos": [],
-            "lastModifiedDate": null,
-            "num_retweets": 48,
-            "num_tweets": 19,
-            "num_tweets_and_retweets": 67,
-            "publishedDate": null,
-            "reddit_posts": [],
-            "score": null,
-            "severity": null,
+            "cvssv3_base_score": 9.8,
+            "cvssv3_base_severity": "CRITICAL",
+            "cwes": [
+                {
+                    "cwe_description": "Out-of-bounds Write",
+                    "cwe_id": "CWE-787"
+                }
+            ],
+            "description": "A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN 7.2.0 through 7.2.2, 7.0.0 through 7.0.8, 6.4.0 through 6.4.10, 6.2.0 through 6.2.11, 6.0.15 and earlier and FortiProxy SSL-VPN 7.2.0 through 7.2.1, 7.0.7 and earlier may allow a remote unauthenticated attacker to execute arbitrary code or commands via specifically crafted requests.",
+            "epss_score": "0.01156",
+            "github_repos": [
+                {
+                    "created": "2023-01-02T12:08:28Z",
+                    "description": "A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN 7.2.0 through 7.2.2, 7.0.0 through 7.0.8, 6.4.0 through 6.4.10, 6.2.0 through 6.2.11, 6.0.15 and earlier and FortiProxy SSL-VPN 7.2.0 through 7.2.1, 7.0.7 and earlier may allow a remote unauthenticated attacker to execute arbitrary code or commands CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2022-42475",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2023-01-02T12:08:28Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-42475"
+                }
+            ],
+            "lastModifiedDate": "2023-01-09T17:30Z",
+            "num_retweets": 12,
+            "num_tweets": 42,
+            "num_tweets_and_retweets": 54,
+            "publishedDate": "2023-01-02T09:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1672609818.0,
+                    "is_self": true,
+                    "num_comments": 36,
+                    "reddit_url": "https://www.reddit.com/r/fortinet/comments/100uib7/ssl_vpn_failed_from_18573124227_user_test/",
+                    "subreddit": "fortinet",
+                    "subreddit_subscribers": 35850,
+                    "title": "SSL VPN Failed From 185.73.124.227 User: Test",
+                    "upvotes": 20,
+                    "url": "https://www.reddit.com/r/fortinet/comments/100uib7/ssl_vpn_failed_from_18573124227_user_test/"
+                },
+                {
+                    "created": 1671175321.0,
+                    "is_self": false,
+                    "num_comments": 33,
+                    "reddit_url": "https://www.reddit.com/r/fortinet/comments/zn8vzr/fortios_6016_released_with_cve202242475_fixed/",
+                    "subreddit": "fortinet",
+                    "subreddit_subscribers": 35850,
+                    "title": "FortiOS 6.0.16 released with CVE-2022-42475 fixed.",
+                    "upvotes": 13,
+                    "url": "https://docs.fortinet.com/document/fortigate/6.0.16/fortios-release-notes/565064/resolved-issues"
+                },
+                {
+                    "created": 1670881081.0,
+                    "is_self": false,
+                    "num_comments": 1,
+                    "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/zkcctr/faillevpnsslfortigate_0_day_fortigate_vpnssl_flaw/",
+                    "subreddit": "blueteamsec",
+                    "subreddit_subscribers": 32207,
+                    "title": "Faille-VPN-SSL-Fortigate - 0 day FortiGate VPN-SSL flaw - CVE-2022-42475",
+                    "upvotes": 8,
+                    "url": "https://olympecyberdefense-fr.translate.goog/vpn-ssl-fortigate/?_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=en-US&amp;_x_tr_pto=wapp"
+                },
+                {
+                    "created": 1670966034.0,
+                    "is_self": true,
+                    "num_comments": 18,
+                    "reddit_url": "https://www.reddit.com/r/fortinet/comments/zl75as/cve202242475_fortios_6016/",
+                    "subreddit": "fortinet",
+                    "subreddit_subscribers": 35850,
+                    "title": "CVE-2022-42475 - FortiOS 6.0.16?",
+                    "upvotes": 7,
+                    "url": "https://www.reddit.com/r/fortinet/comments/zl75as/cve202242475_fortios_6016/"
+                },
+                {
+                    "created": 1671047445.0,
+                    "is_self": true,
+                    "num_comments": 14,
+                    "reddit_url": "https://www.reddit.com/r/fortinet/comments/zm0e9a/cve202242475/",
+                    "subreddit": "fortinet",
+                    "subreddit_subscribers": 35850,
+                    "title": "CVE-2022-42475",
+                    "upvotes": 8,
+                    "url": "https://www.reddit.com/r/fortinet/comments/zm0e9a/cve202242475/"
+                }
+            ],
+            "score": 9.8,
+            "severity": "CRITICAL",
             "tweets": [
                 {
-                    "created_at": "2023-01-13 15:52",
-                    "likes": 116,
-                    "num_retweets": 36,
-                    "retweets": 40,
-                    "tweet_id": "1613927091426451456",
-                    "tweet_text": "Indicators of Compromise for #ManageEngine CVE-2022-47966:\n\ud83d\udd3aLog File Entries\n\ud83d\udd3aShodan Exposure\n\ud83d\udd3aPotential Post-Exploitation Activities\n\nDeep-dive blog and POC will be released next week.\n\nhttps://t.co/0MQvvozGgQ\n\nAwesome effort by @JamesHorseman2, Naveen, and @hacks_zach",
-                    "twitter_user_handle": "Horizon3Attack",
-                    "twitter_user_name": "Horizon3 Attack Team",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1468939182055862279/F76_PFKN_normal.jpg",
+                    "created_at": "2023-01-14 11:27",
+                    "likes": 17,
+                    "num_retweets": 3,
+                    "retweets": 3,
+                    "tweet_id": "1614222562749288449",
+                    "tweet_text": "Les VPN Fortinet ont une vuln\u00e9rabilit\u00e9 critique 9.8 et sont activement exploit\u00e9e par les acteurs de la menaces qui ciblent les gouvernements et institutions publiques; La CVE-2022-42475 est proche d'une autre qui avait leaker plus de 500K de compte fortinet pendant la pand\u00e9mie https://t.co/j02p3oigVq",
+                    "twitter_user_handle": "HaboubiAnis",
+                    "twitter_user_name": "Anis Haboubi |\u20bf|",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1605351862626050057/_-MWZxhp_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-01-13 21:10",
+                    "likes": 8,
+                    "num_retweets": 3,
+                    "retweets": 3,
+                    "tweet_id": "1614006874310934528",
+                    "tweet_text": "A #vulnerability (CVE-2022-42475) in FortiOS SSL-VPN was exploited by hackers as a \"zero-day\" to attack governments and large organizations before #Fortinet fixed it.\n\n https://t.co/qu7JdQvZvR\n\n#infosec #cyberattack #cybersecurity #hacking",
+                    "twitter_user_handle": "YourAnonRiots",
+                    "twitter_user_name": "Anonymous\ud83d\udc3e\ud83d\udc31\ud83c\udf75\u2615",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1344109363804450816/9oQ_zVst_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "horizon3.ai/manageengine-c\u2026",
-                            "expanded_url": "https://www.horizon3.ai/manageengine-cve-2022-47966-iocs/",
-                            "url": "https://t.co/0MQvvozGgQ"
+                            "display_url": "thehackernews.com/2023/01/fortio\u2026",
+                            "expanded_url": "https://thehackernews.com/2023/01/fortios-flaw-exploited-as-zero-day-in.html",
+                            "url": "https://t.co/qu7JdQvZvR"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-13 17:38",
-                    "likes": 28,
-                    "num_retweets": 6,
-                    "retweets": 6,
-                    "tweet_id": "1613953556901498902",
-                    "tweet_text": "\u0627\u0644\u0645\u0647\u0627\u062c\u0645\u064a\u0646 \u0648\u0627\u0633\u062a\u063a\u0644\u0627\u0644\u0647\u0645 \u0644\u0627\u0646\u0638\u0645\u0629 ManageEngine \u0627\u0644\u0645\u062a\u0635\u0644\u0629 \u0628\u0627\u0644\u0627\u0646\u062a\u0631\u0646\u062a \u0648\u0627\u0644\u0645\u0635\u0627\u0628\u0629 \u0628\u062b\u063a\u0631\u0629 CVE-2022-47966.\n\u0645\u0624\u0634\u0631\u0627\u062a \u0627\u0644\u0627\u062e\u062a\u0631\u0627\u0642 \u0648\u0627\u0644\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0641\u0646\u064a\u0629: https://t.co/4hoAY8WfwY\n#\u0627\u0644\u0627\u0645\u0646_\u0627\u0644\u0633\u064a\u0628\u0631\u0627\u0646\u064a #cybersecurity",
-                    "twitter_user_handle": "MAlajab",
-                    "twitter_user_name": "\u0645\u0627\u0644\u0643 \u0627\u0644\u062f\u0648\u0633\u0631\u064a/Malek Aldossary",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1408029455503839235/PYOMijJE_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "horizon3.ai/manageengine-c\u2026",
-                            "expanded_url": "https://www.horizon3.ai/manageengine-cve-2022-47966-iocs/",
-                            "url": "https://t.co/4hoAY8WfwY"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-13 17:24",
-                    "likes": 9,
-                    "num_retweets": 4,
-                    "retweets": 4,
-                    "tweet_id": "1613950168348463140",
-                    "tweet_text": "GreyNoise tag for CVE-2022-47966 Zoho ManageEngine pre-authentication remote code execution vulnerability is live an available to all users (Thanks Horizon3!) . No activity observed at this time, but you can continue to easily monitor for changes here:\nhttps://t.co/i7iyZOSrp6 https://t.co/UH3FBtO8kp",
-                    "twitter_user_handle": "_mattata",
-                    "twitter_user_name": "remy\ud83d\udc00",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1398027528707715073/n5VyCt6b_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "viz.greynoise.io/tag/zoho-manag\u2026",
-                            "expanded_url": "https://viz.greynoise.io/tag/zoho-manageengine-rce-cve-2022-47966-attempt?days=3",
-                            "url": "https://t.co/i7iyZOSrp6"
-                        },
-                        {
-                            "display_url": "twitter.com/Horizon3Attack\u2026",
-                            "expanded_url": "https://twitter.com/Horizon3Attack/status/1613927091426451456",
-                            "url": "https://t.co/UH3FBtO8kp"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-13 18:00",
+                    "created_at": "2023-01-14 01:19",
                     "likes": 0,
                     "num_retweets": 2,
                     "retweets": 2,
-                    "tweet_id": "1613959264611012608",
-                    "tweet_text": "ManageEngine CVE-2022-47966 IOCs https://t.co/adlpM7lVrE #cyber  #awareness #threatintell #CTI #intelligence #detect_and_response #EDR #XDR #CyberThreat #CyberThreatIntelligence #Zeroday #Vulnerability #RiskManagement #VulnerabilityAssesment #Thirdparty",
-                    "twitter_user_handle": "SK_Expert",
-                    "twitter_user_name": "SK",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1598563656727404545/pntj_aa7_normal.jpg",
+                    "tweet_id": "1614069720197566465",
+                    "tweet_text": "security_wang: A #vulnerability (CVE-2022-42475) in FortiOS SSL-VPN was exploited by hackers as a \"zero-day\" to attack governments and large organizations before #Fortinet fixed it.\n\nDetails:\n\n#infosec #cyberattack #cybersecurity #hacking\nhttps://t.co/SLZV3OX8Nv",
+                    "twitter_user_handle": "DFIRTraining",
+                    "twitter_user_name": "DFIR Training",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1255931029245706240/sCChGx1q_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "ift.tt/rDBdRQi",
-                            "expanded_url": "https://ift.tt/rDBdRQi",
-                            "url": "https://t.co/adlpM7lVrE"
+                            "display_url": "twitter.com/security_wang/\u2026",
+                            "expanded_url": "https://twitter.com/security_wang/status/1613945092569534483",
+                            "url": "https://t.co/SLZV3OX8Nv"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-13 17:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1613950518812094464",
-                    "tweet_text": "ManageEngine CVE-2022-47966 IOCs: Introduction The recent\u00a0ManageEngine CVE-2022-47966 is a pre-authentication remote code execution vulnerability. Depending on the specific ManageEngine product, this vulnerability is exploitable if SAML single-sign-on is\u2026 https://t.co/6Wc5SIJaDO https://t.co/O7aewvUEOX",
-                    "twitter_user_handle": "cipherstorm",
-                    "twitter_user_name": "CS Threat Intel",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/788272143049953281/dF5xOGC3_normal.jpg",
+                    "created_at": "2023-01-13 19:55",
+                    "likes": 1,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1613988141265784845",
+                    "tweet_text": "FortiOS flaw was exploited to compromise governmental targets (CVE-2022-42475) https://t.co/jp5p5aObGU",
+                    "twitter_user_handle": "TheCyberSecHub",
+                    "twitter_user_name": "The Cyber Security Hub\u2122",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1572191181689294848/fT9V8jLs_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "securityboulevard.com/2023/01/manage\u2026",
-                            "expanded_url": "https://securityboulevard.com/2023/01/manageengine-cve-2022-47966-iocs/?utm_source=dlvr.it&utm_medium=twitter",
-                            "url": "https://t.co/6Wc5SIJaDO"
+                            "display_url": "helpnetsecurity.com/2023/01/13/cve\u2026",
+                            "expanded_url": "https://www.helpnetsecurity.com/2023/01/13/cve-2022-42475-exploited/",
+                            "url": "https://t.co/jp5p5aObGU"
                         }
                     ]
+                },
+                {
+                    "created_at": "2023-01-13 19:58",
+                    "likes": 2,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1613988906579656711",
+                    "tweet_text": "\u300cFortinet \u306b\u3088\u308b\u3068\u3001\u672a\u77e5\u306e\u653b\u6483\u8005\u304c\u3001\u5148\u6708\u30d1\u30c3\u30c1\u304c\u9069\u7528\u3055\u308c\u305f FortiOS SSL-VPN \u306e\u30bc\u30ed\u30c7\u30a4\u8106\u5f31\u6027\u3092\u4f7f\u7528\u3057\u3066\u3001\u653f\u5e9c\u6a5f\u95a2\u304a\u3088\u3073\u653f\u5e9c\u95a2\u9023\u306e\u6a19\u7684\u3078\u306e\u653b\u6483\u3092\u884c\u3063\u305f. \u60aa\u7528\u3055\u308c\u305f\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306e\u554f\u984c (CVE-2022-42475) \u306f\u3001FortiOS SSLVPNd \u306b\u898b\u3089\u308c\u308b\u30d2\u30fc\u30d7\u30d9\u30fc\u30b9\u306e\u30d0\u30c3\u30d5\u30a1 \u30aa\u30fc\u30d0\u30fc\u30d5\u30ed\u30fc\u306e\u8106\u5f31\u6027\u3067\u3042\u308a\u3001",
+                    "twitter_user_handle": "foxbook",
+                    "twitter_user_name": "\u30ad\u30bf\u304d\u3064\u306d",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/356907502/fox_normal.jpg",
+                    "urls": []
                 }
             ],
-            "vendor_advisories": [],
-            "vendors": []
+            "vendor_advisories": [
+                "https://fortiguard.com/psirt/FG-IR-22-398"
+            ],
+            "vendors": [
+                {
+                    "products": [
+                        {
+                            "product": "Fortiproxy",
+                            "versions": [
+                                "*",
+                                "7.2.0"
+                            ]
+                        }
+                    ],
+                    "vendor": "Fortinet"
+                }
+            ]
         },
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 319082,
+            "audience_size": 115293,
             "cve": "CVE-2022-44877",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1063,9 +930,9 @@
                 }
             ],
             "lastModifiedDate": "2023-01-11T21:55Z",
-            "num_retweets": 20,
+            "num_retweets": 3,
             "num_tweets": 25,
-            "num_tweets_and_retweets": 45,
+            "num_tweets_and_retweets": 28,
             "publishedDate": "2023-01-05T23:15Z",
             "reddit_posts": [
                 {
@@ -1074,9 +941,9 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/10454f0/centos_web_panel_7_unauthenticated_remote_code/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 464476,
+                    "subreddit_subscribers": 464487,
                     "title": "Centos Web Panel 7 Unauthenticated Remote Code Execution - CVE-2022-44877",
-                    "upvotes": 30,
+                    "upvotes": 27,
                     "url": "https://github.com/numanturle/CVE-2022-44877"
                 },
                 {
@@ -1096,7 +963,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/10530vq/centos_web_panel_7_unauthenticated_remote_code/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32203,
+                    "subreddit_subscribers": 32207,
                     "title": "Centos Web Panel 7 Unauthenticated Remote Code Execution - CVE-2022-44877 exploit",
                     "upvotes": 1,
                     "url": "https://github.com/numanturle/CVE-2022-44877"
@@ -1106,20 +973,20 @@
             "severity": "CRITICAL",
             "tweets": [
                 {
-                    "created_at": "2023-01-13 13:51",
-                    "likes": 32,
-                    "num_retweets": 19,
-                    "retweets": 21,
-                    "tweet_id": "1613896502669348864",
-                    "tweet_text": "Grave vulnerabilidad CVE-2022-44877 explotada activamente en Control Web Panel (CWP), CentOS Web Panel, una herramienta de administraci\u00f3n de servidores\nhttps://t.co/VSfiUFS6j2 https://t.co/Ir4c69UYLL",
-                    "twitter_user_handle": "elhackernet",
-                    "twitter_user_name": "elhacker.NET",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1330969532/e-peq1_normal.png",
+                    "created_at": "2023-01-14 12:46",
+                    "likes": 1,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1614242447185383426",
+                    "tweet_text": "Control Web Panel Vulnerability, CVE-2022-44877, Actively Exploited in the Wild - Security Boulevard https://t.co/4nR4q5eZsE #cyber  #awareness #threatintell #CTI #intelligence #detect_and_response #EDR #XDR #CyberThreat #CyberThreatIntelligence #Zeroday #Vulnerability #RiskMan\u2026",
+                    "twitter_user_handle": "SK_Expert",
+                    "twitter_user_name": "SK",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1598563656727404545/pntj_aa7_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "bleepingcomputer.com/news/security/\u2026",
-                            "expanded_url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-control-web-panel-flaw-to-open-reverse-shells/",
-                            "url": "https://t.co/VSfiUFS6j2"
+                            "display_url": "ift.tt/EAY3VUu",
+                            "expanded_url": "https://ift.tt/EAY3VUu",
+                            "url": "https://t.co/4nR4q5eZsE"
                         }
                     ]
                 },
@@ -1127,7 +994,7 @@
                     "created_at": "2023-01-13 19:17",
                     "likes": 2,
                     "num_retweets": 1,
-                    "retweets": 0,
+                    "retweets": 1,
                     "tweet_id": "1613978558132805632",
                     "tweet_text": "Malicious minds started  to exploit a highly critical vulnerability with 9.8 severity in Control Web Panel is under active exploit (CVE-2022-44877) https://t.co/dvskCLzy1m",
                     "twitter_user_handle": "MariaRusanova88",
@@ -1138,24 +1005,6 @@
                             "display_url": "arstechnica.com/?post_type=pos\u2026",
                             "expanded_url": "https://arstechnica.com/?post_type=post&p=1909755",
                             "url": "https://t.co/dvskCLzy1m"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-13 17:31",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1613951945533788168",
-                    "tweet_text": "(CWP) Control Web Panel flaw CVE-2022-44877 | Web Hosting Talk: Hackers are actively exploiting a critical vulnerability patched recently in Control Web Panel (CWP), a tool for managing servers formerly known as CentOS Web Panel. https://t.co/vYCu8UHBRV #vulnerability #CVE",
-                    "twitter_user_handle": "webhostingtalk",
-                    "twitter_user_name": "Web Hosting Talk",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/2919835076/299e422e7503e233673a0c1a876e7ec6_normal.jpeg",
-                    "urls": [
-                        {
-                            "display_url": "webhostingtalk.com/showthread.php\u2026",
-                            "expanded_url": "https://www.webhostingtalk.com/showthread.php?t=1888689",
-                            "url": "https://t.co/vYCu8UHBRV"
                         }
                     ]
                 },
@@ -1194,6 +1043,29 @@
                             "url": "https://t.co/ccfZgKiOsX"
                         }
                     ]
+                },
+                {
+                    "created_at": "2023-01-14 00:02",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1614050162325741570",
+                    "tweet_text": "It's new to me that proofpoint has a protection/signature/rule for the vulnerability CVE-2022-44877.\nhttps://t.co/zTXLKOQh5X\nhttps://t.co/ZJHDsj8UXW\nThe vuln was published 8 days ago by NIST.\n#Sqndsnbcnzsgui",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "proofpoint.com/us/daily-rules\u2026",
+                            "expanded_url": "https://www.proofpoint.com/us/daily-ruleset-update-summary-20230113",
+                            "url": "https://t.co/zTXLKOQh5X"
+                        },
+                        {
+                            "display_url": "twitter.com/search?src=spr\u2026",
+                            "expanded_url": "https://twitter.com/search?src=sprv&q=CVE-2022-44877",
+                            "url": "https://t.co/ZJHDsj8UXW"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [],
@@ -1213,7 +1085,7 @@
         },
         {
             "assigner": "secure@microsoft.com",
-            "audience_size": 106313,
+            "audience_size": 99011,
             "cve": "CVE-2022-41080",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1229,7 +1101,7 @@
                     "description": "PoC for the CVE-2022-41080 , CVE-2022-41082 and CVE-2022-41076 Vulnerabilities Affecting Microsoft Exchange Servers",
                     "language": "Python",
                     "name": "OWASSRF-CVE-2022-41082-POC",
-                    "stars": 32,
+                    "stars": 33,
                     "topics": [
                         "cve-2022-41076",
                         "cve-2022-41080",
@@ -1239,7 +1111,7 @@
                         "microsoft",
                         "vulnerability"
                     ],
-                    "updated": "2023-01-13T14:38:55Z",
+                    "updated": "2023-01-14T13:34:37Z",
                     "url": "https://github.com/balki97/OWASSRF-CVE-2022-41082-POC"
                 },
                 {
@@ -1274,8 +1146,8 @@
                 }
             ],
             "lastModifiedDate": "2022-11-10T06:26Z",
-            "num_retweets": 0,
-            "num_tweets": 6,
+            "num_retweets": 3,
+            "num_tweets": 3,
             "num_tweets_and_retweets": 6,
             "publishedDate": "2022-11-09T22:15Z",
             "reddit_posts": [
@@ -1285,9 +1157,9 @@
                     "num_comments": 79,
                     "reddit_url": "https://www.reddit.com/r/msp/comments/zt04qb/critical_vulnerability_microsoft_exchange_remote/",
                     "subreddit": "msp",
-                    "subreddit_subscribers": 141281,
+                    "subreddit_subscribers": 141293,
                     "title": "Critical Vulnerability: Microsoft Exchange Remote Code Execution",
-                    "upvotes": 149,
+                    "upvotes": 148,
                     "url": "https://www.reddit.com/r/msp/comments/zt04qb/critical_vulnerability_microsoft_exchange_remote/"
                 },
                 {
@@ -1296,9 +1168,9 @@
                     "num_comments": 19,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/zrz9qo/for_those_who_have_not_installed_the_november/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 765444,
+                    "subreddit_subscribers": 765508,
                     "title": "For those who have not installed the November Exchange update.. do it now",
-                    "upvotes": 29,
+                    "upvotes": 30,
                     "url": "https://www.reddit.com/r/sysadmin/comments/zrz9qo/for_those_who_have_not_installed_the_november/"
                 },
                 {
@@ -1307,7 +1179,7 @@
                     "num_comments": 25,
                     "reddit_url": "https://www.reddit.com/r/rackspace/comments/104z7if/final_update_on_incident_from_rackspace/",
                     "subreddit": "rackspace",
-                    "subreddit_subscribers": 972,
+                    "subreddit_subscribers": 971,
                     "title": "Final Update on Incident from Rackspace",
                     "upvotes": 5,
                     "url": "https://www.reddit.com/r/rackspace/comments/104z7if/final_update_on_incident_from_rackspace/"
@@ -1318,9 +1190,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/zs0f17/cve202241080_cve202241082_observed_exploitation/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32203,
+                    "subreddit_subscribers": 32207,
                     "title": "CVE-2022-41080, CVE-2022-41082: Observed Exploitation of `OWASSRF` in Exchange for RCE",
-                    "upvotes": 4,
+                    "upvotes": 3,
                     "url": "https://www.rapid7.com/blog/post/2022/12/21/cve-2022-41080-cve-2022-41082-rapid7-observed-exploitation-of-owassrf-in-exchange-for-rce/"
                 },
                 {
@@ -1339,28 +1211,10 @@
             "severity": "CRITICAL",
             "tweets": [
                 {
-                    "created_at": "2023-01-13 15:17",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1613918038650150914",
-                    "tweet_text": "US CISA adds MS Exchange bug CVE-2022-41080 to its\u00a0Known Exploited Vulnerabilities Catalog https://t.co/9eZKZXYXUe",
-                    "twitter_user_handle": "CwealthSentinel",
-                    "twitter_user_name": "Commonwealth Sentinel",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1611103014336581642/_07JofHL_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "bit.ly/3k9FW0J",
-                            "expanded_url": "https://bit.ly/3k9FW0J",
-                            "url": "https://t.co/9eZKZXYXUe"
-                        }
-                    ]
-                },
-                {
                     "created_at": "2023-01-14 12:41",
-                    "likes": 7,
-                    "num_retweets": 0,
-                    "retweets": 1,
+                    "likes": 26,
+                    "num_retweets": 3,
+                    "retweets": 4,
                     "tweet_id": "1614241392527540226",
                     "tweet_text": "\u0627\u0644\u0645\u0633\u0624\u0648\u0644\u064a\u0646 \u0639\u0646 \u0628\u0631\u0645\u062c\u064a\u0629 #\u0627\u0644\u0641\u062f\u064a\u0629 Cuba \u062a\u0633\u062a\u0645\u0631 \u0628\u0627\u0633\u062a\u0647\u062f\u0627\u0641 \u062e\u0648\u0627\u062f\u0645 \u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0627\u0644\u0643\u062a\u0631\u0648\u0646\u064a \u0627\u0644\u0645\u062a\u0623\u062b\u0631\u0629 \u0628\u062b\u063a\u0631\u0629 OWASSRF CVE-2022-41080  \u0628\u062a\u0634\u0641\u064a\u0631 \u0627\u0644\u0645\u0644\u0641\u0627\u062a\u060c \u0648\u0635\u0644 \u0639\u062f\u062f \u0627\u0644\u0645\u0635\u0627\u0628\u064a\u0646 \u0628\u0627\u0644\u0628\u0631\u0645\u062c\u0629 \u0641\u0648\u0642 \u0661\u0660\u0660 \u062d\u0648\u0644 \u0627\u0644\u0639\u0627\u0644\u0645.\n#\u0627\u0644\u0627\u0645\u0646_\u0627\u0644\u0633\u064a\u0628\u0631\u0627\u0646\u064a \nhttps://t.co/sZce2fBZv3 https://t.co/3kC6795OZa",
                     "twitter_user_handle": "MAlajab",
@@ -1371,42 +1225,6 @@
                             "display_url": "bleepingcomputer.com/news/security/\u2026",
                             "expanded_url": "https://www.bleepingcomputer.com/news/security/microsoft-cuba-ransomware-hacking-exchange-servers-via-owassrf-flaw/",
                             "url": "https://t.co/sZce2fBZv3"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-13 14:00",
-                    "likes": 1,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1613898676358860800",
-                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2022-42475: 2.1M (audience size)\nCVE-2022-3656: 841.8K\nCVE-2022-44877: 413.6K\n\nPast 7 days:\nCVE-2022-23529: 5.5M\nCVE-2022-41080: 2.3M\nCVE-2022-42475: 2.1M\n\nhttps://t.co/LhpwNP6xog",
-                    "twitter_user_handle": "CVEtrends",
-                    "twitter_user_name": "CVE Trends",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cvetrends.com",
-                            "expanded_url": "https://cvetrends.com",
-                            "url": "https://t.co/LhpwNP6xog"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-13 14:01",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1613898917673943043",
-                    "tweet_text": "CVEtrends: Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2022-42475: 2.1M (audience size)\nCVE-2022-3656: 841.8K\nCVE-2022-44877: 413.6K\n\nPast 7 days:\nCVE-2022-23529: 5.5M\nCVE-2022-41080: 2.3M\nCVE-2022-42475: 2.1M\n\nhttps://t.co/0GtLQNn4Mj",
-                    "twitter_user_handle": "bryanseah234",
-                    "twitter_user_name": "b",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1552220823351689216/1syxDo1T_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "cvetrends.com",
-                            "expanded_url": "https://cvetrends.com",
-                            "url": "https://t.co/0GtLQNn4Mj"
                         }
                     ]
                 },
@@ -1425,6 +1243,24 @@
                             "display_url": "rapid7.com/blog/post/2022\u2026",
                             "expanded_url": "https://www.rapid7.com/blog/post/2022/12/21/cve-2022-41080-cve-2022-41082-rapid7-observed-exploitation-of-owassrf-in-exchange-for-rce/",
                             "url": "https://t.co/zemK8YbDKr"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-14 07:56",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1614169560969527306",
+                    "tweet_text": "CVE-2022-41080, CVE-2022-41082: Rapid7 Observed Exploitation of `OWASSRF` in Exchange for RCE https://t.co/p1KebYDJRU",
+                    "twitter_user_handle": "Luicito56221084",
+                    "twitter_user_name": "Luicito",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1606100440046718976/9naCpG5b_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "rapid7.com/blog/post/2022\u2026",
+                            "expanded_url": "https://www.rapid7.com/blog/post/2022/12/21/cve-2022-41080-cve-2022-41082-rapid7-observed-exploitation-of-owassrf-in-exchange-for-rce/",
+                            "url": "https://t.co/p1KebYDJRU"
                         }
                     ]
                 }
@@ -1450,8 +1286,8 @@
         },
         {
             "assigner": "security@huntr.dev",
-            "audience_size": 100592,
-            "cve": "CVE-2023-0288",
+            "audience_size": 94705,
+            "cve": "CVE-2023-0300",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
@@ -1459,141 +1295,366 @@
             "cvssv3_base_severity": null,
             "cwes": [
                 {
-                    "cwe_description": "Heap-based Buffer Overflow",
-                    "cwe_id": "CWE-122"
+                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+                    "cwe_id": "CWE-79"
                 }
             ],
-            "description": "Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1189.",
-            "epss_score": "0.00885",
-            "github_repos": [
-                {
-                    "created": "2023-01-13T17:15:35Z",
-                    "description": "Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1189. CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2023-0288",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-13T17:15:35Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-0288"
-                }
-            ],
-            "lastModifiedDate": "2023-01-13T18:23Z",
+            "description": "Cross-site Scripting (XSS) - Reflected in GitHub repository alfio-event/alf.io prior to 2.0-M4-2301.",
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": "2023-01-14T18:15Z",
             "num_retweets": 1,
-            "num_tweets": 12,
-            "num_tweets_and_retweets": 13,
-            "publishedDate": "2023-01-13T16:15Z",
+            "num_tweets": 4,
+            "num_tweets_and_retweets": 5,
+            "publishedDate": "2023-01-14T18:15Z",
             "reddit_posts": [],
             "score": null,
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-01-13 15:02",
+                    "created_at": "2023-01-14 17:01",
                     "likes": 0,
                     "num_retweets": 1,
                     "retweets": 1,
-                    "tweet_id": "1613914271129407490",
-                    "tweet_text": "vim/vim disclosed a bug reported by jieyongma (CVE-2023-0288) - Patch: https://t.co/7uvv91l5Yr\nhttps://t.co/Iv8tfKflMV #hunter #infosec #opensource https://t.co/8x9AdNLNF8",
+                    "tweet_id": "1614306777624989697",
+                    "tweet_text": "alfio-event/alf.io disclosed a bug reported by rezaduty (CVE-2023-0300) - Patch: https://t.co/rvtlxCPEfZ\nhttps://t.co/DP1raQ769J #hunter #infosec #opensource https://t.co/c69CO02rQZ",
                     "twitter_user_handle": "huntrHacktivity",
                     "twitter_user_name": "huntr Hacktivity",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1459525598007545867/Zq8Fh2rM_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "github.com/vim/vim/commit\u2026",
-                            "expanded_url": "https://github.com/vim/vim/commit/232bdaaca98c34a99ffadf27bf6ee08be6cc8f6a",
-                            "url": "https://t.co/7uvv91l5Yr"
+                            "display_url": "github.com/alfio-event/al\u2026",
+                            "expanded_url": "https://github.com/alfio-event/alf.io/commit/c1ae54ac84f1c7a5ec2831876f6445cb79be96fc",
+                            "url": "https://t.co/rvtlxCPEfZ"
                         },
                         {
-                            "display_url": "huntr.dev/bounties/550a0\u2026",
-                            "expanded_url": "https://huntr.dev/bounties/550a0852-9be0-4abe-906c-f803b34e41d3/#bugbounty",
-                            "url": "https://t.co/Iv8tfKflMV"
+                            "display_url": "huntr.dev/bounties/0a91f\u2026",
+                            "expanded_url": "https://huntr.dev/bounties/0a91fec7-a76e-4ca3-80ba-81de1f10d59d/#bugbounty",
+                            "url": "https://t.co/DP1raQ769J"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-13 15:31",
+                    "created_at": "2023-01-14 17:59",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1613921612234883072",
-                    "tweet_text": "CVE-2023-0288 : Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1189.... https://t.co/Q3ih3UQKii",
+                    "tweet_id": "1614321294543028226",
+                    "tweet_text": "CVE-2023-0300 : Cross-site Scripting  #XSS  - Reflected in GitHub repository alfio-event/alf.io prior to 2.0-M4-2301.... https://t.co/IkHA2861oP",
                     "twitter_user_handle": "CVEreport",
                     "twitter_user_name": "CVE.report",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
                     "urls": [
                         {
-                            "display_url": "cve.report/CVE-2023-0288",
-                            "expanded_url": "https://cve.report/CVE-2023-0288",
-                            "url": "https://t.co/Q3ih3UQKii"
+                            "display_url": "cve.report/CVE-2023-0300",
+                            "expanded_url": "https://cve.report/CVE-2023-0300",
+                            "url": "https://t.co/IkHA2861oP"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-13 16:45",
+                    "created_at": "2023-01-14 18:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1614328209390145536",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-0300 \ud83d\udea8 Cross-site Scripting (XSS) - Reflected in GitHub repository alfio-event/alf.io prior to 2.0-M4-2301. https://t.co/TqDZqASVYZ",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0300",
+                            "url": "https://t.co/TqDZqASVYZ"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-14 18:45",
                     "likes": 1,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1613940245619249170",
-                    "tweet_text": "CVE-2023-0288 Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1189. https://t.co/cZJift2rhP",
+                    "tweet_id": "1614332845975130112",
+                    "tweet_text": "CVE-2023-0300 Cross-site Scripting (XSS) - Reflected in GitHub repository alfio-event/alf.io prior to 2.0-M4-2301. https://t.co/rFgHnzoZ8J",
                     "twitter_user_handle": "CVEnew",
                     "twitter_user_name": "CVE",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
                     "urls": [
                         {
                             "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0288",
-                            "url": "https://t.co/cZJift2rhP"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-13 19:36",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1613983464667205632",
-                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-0288 | vim prior 9.0.1189 heap-based overflow) has been published on https://t.co/qrBnJnHkAF",
-                    "twitter_user_handle": "WolfgangSesin",
-                    "twitter_user_name": "Wolfgang Sesin",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/uXvPWJy6tj"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/01/13/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/01/13/cve-2023-0288-vim-prior-9-0-1189-heap-based-overflow/",
-                            "url": "https://t.co/qrBnJnHkAF"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-13 19:36",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1613983467095613440",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2023-0288 | vim prior 9.0.1189 heap-based overflow) has been published on https://t.co/C2OvP5RZAw",
-                    "twitter_user_handle": "www_sesin_at",
-                    "twitter_user_name": "www.sesin.at",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/9KYxtdZjkl"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/01/13/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/01/13/cve-2023-0288-vim-prior-9-0-1189-heap-based-overflow/",
-                            "url": "https://t.co/C2OvP5RZAw"
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0300",
+                            "url": "https://t.co/rFgHnzoZ8J"
                         }
                     ]
                 }
             ],
             "vendor_advisories": [],
             "vendors": []
+        },
+        {
+            "assigner": "security@huntr.dev",
+            "audience_size": 94705,
+            "cve": "CVE-2023-0301",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+                    "cwe_id": "CWE-79"
+                }
+            ],
+            "description": "Cross-site Scripting (XSS) - Stored in GitHub repository alfio-event/alf.io prior to Alf.io 2.0-M4-2301.",
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": "2023-01-14T18:15Z",
+            "num_retweets": 1,
+            "num_tweets": 4,
+            "num_tweets_and_retweets": 5,
+            "publishedDate": "2023-01-14T18:15Z",
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-01-14 18:01",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1614321869028757504",
+                    "tweet_text": "alfio-event/alf.io disclosed a bug reported by rezaduty (CVE-2023-0301) - Patch: https://t.co/SQDkK3tI7R\nhttps://t.co/dunNbYkDeZ #hunter #infosec #opensource https://t.co/sLGETbjfou",
+                    "twitter_user_handle": "huntrHacktivity",
+                    "twitter_user_name": "huntr Hacktivity",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1459525598007545867/Zq8Fh2rM_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/alfio-event/al\u2026",
+                            "expanded_url": "https://github.com/alfio-event/alf.io/commit/21cb2866e5f58b4a2b4a2cb0066479bbb26f7b39",
+                            "url": "https://t.co/SQDkK3tI7R"
+                        },
+                        {
+                            "display_url": "huntr.dev/bounties/8a91e\u2026",
+                            "expanded_url": "https://huntr.dev/bounties/8a91e127-2903-4c6b-9a66-e4d2e30f8dec/#bugbounty",
+                            "url": "https://t.co/dunNbYkDeZ"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-14 18:45",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1614332848185507842",
+                    "tweet_text": "CVE-2023-0301 Cross-site Scripting (XSS) - Stored in GitHub repository alfio-event/alf.io prior to https://t.co/D68nta6jR1 2.0-M4-2301. https://t.co/WaxtIGJAKY",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "Alf.io",
+                            "expanded_url": "http://Alf.io",
+                            "url": "https://t.co/D68nta6jR1"
+                        },
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0301",
+                            "url": "https://t.co/WaxtIGJAKY"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-14 18:09",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1614323795249995776",
+                    "tweet_text": "CVE-2023-0301 : Cross-site Scripting  #XSS  - Stored in GitHub repository alfio-event/alf.io prior to https://t.co/KCQeUusTdR 2.0-M4-2301.... https://t.co/frs8J74TZW",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "Alf.io",
+                            "expanded_url": "http://Alf.io",
+                            "url": "https://t.co/KCQeUusTdR"
+                        },
+                        {
+                            "display_url": "cve.report/CVE-2023-0301",
+                            "expanded_url": "https://cve.report/CVE-2023-0301",
+                            "url": "https://t.co/frs8J74TZW"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-14 18:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1614328209385848832",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-0301 \ud83d\udea8 Cross-site Scripting (XSS) - Stored in GitHub repository alfio-event/alf.io prior to https://t.co/wJBuM5zjXt 2.0-M4-2301. https://t.co/5S6hxaUd0q",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "Alf.io",
+                            "expanded_url": "http://Alf.io",
+                            "url": "https://t.co/wJBuM5zjXt"
+                        },
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0301",
+                            "url": "https://t.co/5S6hxaUd0q"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "secure@microsoft.com",
+            "audience_size": 87223,
+            "cve": "CVE-2022-41049",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": 5.4,
+            "cvssv3_base_severity": "MEDIUM",
+            "cwes": [],
+            "description": "Windows Mark of the Web Security Feature Bypass Vulnerability. This CVE ID is unique from CVE-2022-41091.",
+            "epss_score": "0.09127",
+            "github_repos": [
+                {
+                    "created": "2022-11-30T15:19:43Z",
+                    "description": "POC of Microcorp vuln",
+                    "language": "Python",
+                    "name": "CVE-2022-41049-POC",
+                    "stars": 3,
+                    "topics": [],
+                    "updated": "2022-12-12T08:21:19Z",
+                    "url": "https://github.com/NathanScottGithub/CVE-2022-41049-POC"
+                },
+                {
+                    "created": "2022-12-28T09:33:51Z",
+                    "description": "Windows Mark of the Web Security Feature Bypass Vulnerability. This CVE ID is unique from CVE-2022-41091. CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2022-41049",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2022-12-28T09:33:51Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-41049"
+                },
+                {
+                    "created": "2022-12-28T10:08:56Z",
+                    "description": "Windows Mark of the Web Security Feature Bypass Vulnerability. This CVE ID is unique from CVE-2022-41049. CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2022-41091",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2022-12-28T10:08:56Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-41091"
+                }
+            ],
+            "lastModifiedDate": "2022-11-15T16:31Z",
+            "num_retweets": 20,
+            "num_tweets": 2,
+            "num_tweets_and_retweets": 22,
+            "publishedDate": "2022-11-09T22:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1667983795.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netsec/comments/yqd1pa/exploring_zip_markoftheweb_bypass_vulnerability/",
+                    "subreddit": "netsec",
+                    "subreddit_subscribers": 464487,
+                    "title": "Exploring ZIP Mark-of-the-Web Bypass Vulnerability (CVE-2022-41049)",
+                    "upvotes": 90,
+                    "url": "https://breakdev.org/zip-motw-bug-analysis/"
+                },
+                {
+                    "created": 1667972260.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/yq9ttf/exploring_zip_markoftheweb_bypass_vulnerability/",
+                    "subreddit": "blueteamsec",
+                    "subreddit_subscribers": 32207,
+                    "title": "Exploring ZIP Mark-of-the-Web Bypass Vulnerability (CVE-2022-41049)",
+                    "upvotes": 8,
+                    "url": "https://breakdev.org/zip-motw-bug-analysis/"
+                },
+                {
+                    "created": 1668273647.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/bag_o_news/comments/ytd3ih/exploring_zip_markoftheweb_bypass_vulnerability/",
+                    "subreddit": "bag_o_news",
+                    "subreddit_subscribers": 356,
+                    "title": "Exploring ZIP Mark-of-the-Web Bypass Vulnerability (CVE-2022-41049)",
+                    "upvotes": 2,
+                    "url": "https://breakdev.org/zip-motw-bug-analysis/"
+                }
+            ],
+            "score": 5.4,
+            "severity": "MEDIUM",
+            "tweets": [
+                {
+                    "created_at": "2023-01-14 01:00",
+                    "likes": 49,
+                    "num_retweets": 20,
+                    "retweets": 22,
+                    "tweet_id": "1614064821674151939",
+                    "tweet_text": "Exploring ZIP Mark-of-the-Web Bypass Vulnerability (CVE-2022-41049)  https://t.co/wAjM0HtDpk  #Pentesting #Bypass #Vulnerability #CyberSecurity #Infosec https://t.co/SlutsqR5Sq",
+                    "twitter_user_handle": "ptracesecurity",
+                    "twitter_user_name": "Ptrace Security GmbH",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/659444735791210500/XGvv9R-0_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "breakdev.org/zip-motw-bug-a\u2026",
+                            "expanded_url": "https://breakdev.org/zip-motw-bug-analysis/",
+                            "url": "https://t.co/wAjM0HtDpk"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-14 12:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1614232360857346048",
+                    "tweet_text": "The vuln CVE-2022-41049 has a tweet created 0 days ago and retweeted 13 times.\nhttps://t.co/6Ad7Vyia3h\n#pow1rtrtwwcve",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/ptracesecurity\u2026",
+                            "expanded_url": "https://twitter.com/ptracesecurity/status/1614064821674151939",
+                            "url": "https://t.co/6Ad7Vyia3h"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [
+                "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41049"
+            ],
+            "vendors": [
+                {
+                    "products": [
+                        {
+                            "product": "Windows 10",
+                            "versions": [
+                                "22h2"
+                            ]
+                        }
+                    ],
+                    "vendor": "Microsoft"
+                }
+            ]
         },
         {
             "assigner": "cve@mitre.org",
@@ -1641,24 +1702,6 @@
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-01-13 20:09",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1613991689210761225",
-                    "tweet_text": "CVE-2022-46956 : Dynamic Transaction Queuing System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/manage_user.php.... https://t.co/9ejVaxeqNm",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "cve.report/CVE-2022-46956",
-                            "expanded_url": "https://cve.report/CVE-2022-46956",
-                            "url": "https://t.co/9ejVaxeqNm"
-                        }
-                    ]
-                },
-                {
                     "created_at": "2023-01-13 22:14",
                     "likes": 1,
                     "num_retweets": 1,
@@ -1677,193 +1720,86 @@
                     ]
                 },
                 {
-                    "created_at": "2023-01-13 20:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1613996022946009124",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2022-46956 \ud83d\udea8 Dynamic Transaction Queuing System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/manage_user.php. https://t.co/Hj6XKhQHDV",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-46956",
-                            "url": "https://t.co/Hj6XKhQHDV"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-13 20:45",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1614000704175095810",
-                    "tweet_text": "CVE-2022-46956 Dynamic Transaction Queuing System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/manage_user.php. https://t.co/iCzHsANGGa",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-46956",
-                            "url": "https://t.co/iCzHsANGGa"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-13 20:56",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1614003353050140677",
-                    "tweet_text": "Potentially Critical CVE Detected!\nCVE-2022-46956\nDynamic Transaction Queuing System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at...\nCVSS: 9.49\n#CashierQueuing #CVE #CyberSecurity",
-                    "twitter_user_handle": "Robo_Alerts",
-                    "twitter_user_name": "Robo Shadow Alerts",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1439862150890237953/WjKa3G1I_normal.jpg",
-                    "urls": []
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "security@huntr.dev",
-            "audience_size": 65190,
-            "cve": "CVE-2023-0297",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [
-                {
-                    "cwe_description": "Improper Control of Generation of Code ('Code Injection')",
-                    "cwe_id": "CWE-94"
-                }
-            ],
-            "description": "Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.",
-            "epss_score": "0.09029",
-            "github_repos": [
-                {
-                    "created": "2023-01-14T06:31:25Z",
-                    "description": "Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31. CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2023-0297",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-14T06:31:25Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-0297"
-                },
-                {
-                    "created": "2023-01-09T11:44:09Z",
-                    "description": "CVE-2023-0297: The Story of Finding Pre-auth RCE in pyLoad",
-                    "language": null,
-                    "name": "CVE-2023-0297_Pre-auth_RCE_in_pyLoad",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-14T04:42:52Z",
-                    "url": "https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad"
-                }
-            ],
-            "lastModifiedDate": "2023-01-14T03:15Z",
-            "num_retweets": 3,
-            "num_tweets": 9,
-            "num_tweets_and_retweets": 12,
-            "publishedDate": "2023-01-14T03:15Z",
-            "reddit_posts": [],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-01-14 03:45",
-                    "likes": 2,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1614106354540486658",
-                    "tweet_text": "CVE-2023-0297 Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31. https://t.co/20V4YcSQtT",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0297",
-                            "url": "https://t.co/20V4YcSQtT"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-14 05:06",
+                    "created_at": "2023-01-13 20:09",
                     "likes": 0,
                     "num_retweets": 1,
                     "retweets": 1,
-                    "tweet_id": "1614126821242437632",
-                    "tweet_text": "CVE-2023-0297\n\nCVE-2023-0297: Pre-auth RCE in pyLoad\nThe Story of Finding Pre-aut...\n\nhttps://t.co/0XOaPTA6by\n\nCustomizable Vulnerability Alerts: https://t.co/U7998fz7yk",
-                    "twitter_user_handle": "VulmonFeeds",
-                    "twitter_user_name": "Vulmon Vulnerability Feed",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "vulmon.com/vulnerabilityd\u2026",
-                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2023-0297",
-                            "url": "https://t.co/0XOaPTA6by"
-                        },
-                        {
-                            "display_url": "alerts.vulmon.com/?utm_source=tw\u2026",
-                            "expanded_url": "https://alerts.vulmon.com/?utm_source=twitter&utm_medium=social&utm_campaign=2102281&utm_content=4",
-                            "url": "https://t.co/U7998fz7yk"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-14 02:57",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1614094249766658048",
-                    "tweet_text": "CVE-2023-0297 :  Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.... https://t.co/kRIxDcmFn1",
+                    "tweet_id": "1613991689210761225",
+                    "tweet_text": "CVE-2022-46956 : Dynamic Transaction Queuing System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/manage_user.php.... https://t.co/9ejVaxeqNm",
                     "twitter_user_handle": "CVEreport",
                     "twitter_user_name": "CVE.report",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
                     "urls": [
                         {
-                            "display_url": "cve.report/CVE-2023-0297",
-                            "expanded_url": "https://cve.report/CVE-2023-0297",
-                            "url": "https://t.co/kRIxDcmFn1"
+                            "display_url": "cve.report/CVE-2022-46956",
+                            "expanded_url": "https://cve.report/CVE-2022-46956",
+                            "url": "https://t.co/9ejVaxeqNm"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-14 03:26",
+                    "created_at": "2023-01-13 22:35",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1614101719293591552",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-0297 \ud83d\udea8 Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31. https://t.co/aiYtnTZPY9",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "tweet_id": "1614028378918502403",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2022-46956) has been published on https://t.co/hVREWHcbRM",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0297",
-                            "url": "https://t.co/aiYtnTZPY9"
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/uXvPWJy6tj"
+                        },
+                        {
+                            "display_url": "sesin.at/2023/01/13/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2023/01/13/cve-2022-46956/",
+                            "url": "https://t.co/hVREWHcbRM"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-14 03:56",
+                    "created_at": "2023-01-13 22:35",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1614109050416910336",
-                    "tweet_text": "Potentially Critical CVE Detected!\nCVE-2023-0297\nCode Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31....\nCVSS: 8.77\n#AdInjectionProject #CVE #CyberSecurity",
-                    "twitter_user_handle": "Robo_Alerts",
-                    "twitter_user_name": "Robo Shadow Alerts",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1439862150890237953/WjKa3G1I_normal.jpg",
-                    "urls": []
+                    "tweet_id": "1614028380877332483",
+                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2022-46956) has been published on https://t.co/M7wxqXVPuR",
+                    "twitter_user_handle": "www_sesin_at",
+                    "twitter_user_name": "www.sesin.at",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/9KYxtdZjkl"
+                        },
+                        {
+                            "display_url": "sesin.at/2023/01/13/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2023/01/13/cve-2022-46956/",
+                            "url": "https://t.co/M7wxqXVPuR"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-13 22:51",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1614032459733291009",
+                    "tweet_text": "CVE-2022-46956 | Dynamic Transaction Queuing System 1.0 /admin/manage_user.php id sql injection https://t.co/qZ5RvUpLvi",
+                    "twitter_user_handle": "glytcher001",
+                    "twitter_user_name": "glytcher",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "dlvr.it/Sgrjz1",
+                            "expanded_url": "http://dlvr.it/Sgrjz1",
+                            "url": "https://t.co/qZ5RvUpLvi"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [],
@@ -1871,5 +1807,5 @@
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2023-01-14 12:46:59"
+    "updated": "2023-01-14 18:53:13"
 }
