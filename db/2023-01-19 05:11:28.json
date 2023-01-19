@@ -2,7 +2,7 @@
     "data": [
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 530965,
+            "audience_size": 600398,
             "cve": "CVE-2023-22809",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -12,33 +12,44 @@
             "cwes": [],
             "description": "In Sudo before 1.9.12p2, the sudoedit (aka -e) feature mishandles extra arguments passed in the user-provided environment variables (SUDO_EDITOR, VISUAL, and EDITOR), allowing a local attacker to append arbitrary entries to the list of files to process. This can lead to privilege escalation. Affected versions are 1.8.0 through 1.9.12.p1. The problem exists because a user-specified editor may contain a \"--\" argument that defeats a protection mechanism, e.g., an EDITOR='vim -- /path/to/extra/file' value.",
             "epss_score": null,
-            "github_repos": [],
-            "lastModifiedDate": "2023-01-18T19:46Z",
-            "num_retweets": 80,
-            "num_tweets": 25,
-            "num_tweets_and_retweets": 105,
+            "github_repos": [
+                {
+                    "created": "2023-01-19T02:09:12Z",
+                    "description": "In Sudo before 1.9.12p2, the sudoedit (aka -e) feature mishandles extra arguments passed in the user-provided environment variables (SUDO_EDITOR, VISUAL, and EDITOR), allowing a local attacker to append arbitrary entries to the list of files to process. This can lead to privilege escalation. Affected versions are 1.8.0 CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2023-22809",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2023-01-19T02:09:12Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-22809"
+                }
+            ],
+            "lastModifiedDate": "2023-01-19T00:15Z",
+            "num_retweets": 103,
+            "num_tweets": 37,
+            "num_tweets_and_retweets": 140,
             "publishedDate": "2023-01-18T17:15Z",
             "reddit_posts": [
                 {
                     "created": 1674073762.0,
                     "is_self": false,
-                    "num_comments": 3,
+                    "num_comments": 12,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/10fhsfu/sudoedit_can_edit_arbitrary_files_cve202322809/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 464739,
+                    "subreddit_subscribers": 464762,
                     "title": "Sudoedit can edit arbitrary files (CVE-2023-22809)",
-                    "upvotes": 5,
+                    "upvotes": 57,
                     "url": "https://www.sudo.ws/security/advisories/sudoedit_any/"
                 },
                 {
                     "created": 1674063609.0,
                     "is_self": false,
-                    "num_comments": 0,
+                    "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/netcve/comments/10fdgas/cve202322809/",
                     "subreddit": "netcve",
-                    "subreddit_subscribers": 143,
+                    "subreddit_subscribers": 144,
                     "title": "CVE-2023-22809",
-                    "upvotes": 1,
+                    "upvotes": 0,
                     "url": "https://cve.report/CVE-2023-22809"
                 }
             ],
@@ -47,9 +58,9 @@
             "tweets": [
                 {
                     "created_at": "2023-01-18 15:28",
-                    "likes": 120,
-                    "num_retweets": 60,
-                    "retweets": 61,
+                    "likes": 151,
+                    "num_retweets": 73,
+                    "retweets": 76,
                     "tweet_id": "1615732821070315521",
                     "tweet_text": "Watchout! CVE-2023-22809 on Sudo was patched today to prevent a privilege escalation on sudoedit. Read the security advisory by @aevy__ and @v1csec: https://t.co/w2uco4PGhh https://t.co/NPkWJYq74X",
                     "twitter_user_handle": "Synacktiv",
@@ -64,10 +75,28 @@
                     ]
                 },
                 {
+                    "created_at": "2023-01-18 17:11",
+                    "likes": 27,
+                    "num_retweets": 6,
+                    "retweets": 7,
+                    "tweet_id": "1615758729038942210",
+                    "tweet_text": "#CVE-2023-22809 #SUDO_KILLER\nA new disclosed vuln in sudo,  the flaw in exists in sudo\u2019s -e option (aka sudoedit) that allows a malicious user with sudoedit privileges to edit arbitrary files.\n\nSUDO_KILLER can help you to know whether you are concern. https://t.co/Z59N07k3xg",
+                    "twitter_user_handle": "TH3xACE",
+                    "twitter_user_name": "TH3xACE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1224643197357494273/1pI5gHYZ_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/TH3xACE/SUDO_K\u2026",
+                            "expanded_url": "https://github.com/TH3xACE/SUDO_KILLER",
+                            "url": "https://t.co/Z59N07k3xg"
+                        }
+                    ]
+                },
+                {
                     "created_at": "2023-01-18 15:54",
-                    "likes": 7,
-                    "num_retweets": 4,
-                    "retweets": 4,
+                    "likes": 9,
+                    "num_retweets": 5,
+                    "retweets": 5,
                     "tweet_id": "1615739376679505920",
                     "tweet_text": "#Sudo version 1.9.12p2 is now available which includes a fix for CVE-2023-22809, a bug that could allow a user with \"sudoedit\" privileges to edit arbitrary files.\nhttps://t.co/OvFHfdaf5s",
                     "twitter_user_handle": "SudoProject",
@@ -83,9 +112,9 @@
                 },
                 {
                     "created_at": "2023-01-18 20:43",
-                    "likes": 7,
+                    "likes": 10,
                     "num_retweets": 4,
-                    "retweets": 4,
+                    "retweets": 5,
                     "tweet_id": "1615812044258955264",
                     "tweet_text": "Sudoedit can edit arbitrary files (CVE-2023-22809) https://t.co/z8tmlNGyyw",
                     "twitter_user_handle": "_r_netsec",
@@ -96,24 +125,6 @@
                             "display_url": "sudo.ws/security/advis\u2026",
                             "expanded_url": "https://www.sudo.ws/security/advisories/sudoedit_any/",
                             "url": "https://t.co/z8tmlNGyyw"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-18 17:11",
-                    "likes": 15,
-                    "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1615758729038942210",
-                    "tweet_text": "#CVE-2023-22809 #SUDO_KILLER\nA new disclosed vuln in sudo,  the flaw in exists in sudo\u2019s -e option (aka sudoedit) that allows a malicious user with sudoedit privileges to edit arbitrary files.\n\nSUDO_KILLER can help you to know whether you are concern. https://t.co/Z59N07k3xg",
-                    "twitter_user_handle": "TH3xACE",
-                    "twitter_user_name": "TH3xACE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1224643197357494273/1pI5gHYZ_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/TH3xACE/SUDO_K\u2026",
-                            "expanded_url": "https://github.com/TH3xACE/SUDO_KILLER",
-                            "url": "https://t.co/Z59N07k3xg"
                         }
                     ]
                 },
@@ -141,7 +152,7 @@
         },
         {
             "assigner": "cert@cert.org",
-            "audience_size": 324296,
+            "audience_size": 350377,
             "cve": "CVE-2022-4873",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -153,9 +164,9 @@
             "epss_score": "0.00885",
             "github_repos": [],
             "lastModifiedDate": "2023-01-12T13:56Z",
-            "num_retweets": 5,
-            "num_tweets": 21,
-            "num_tweets_and_retweets": 26,
+            "num_retweets": 12,
+            "num_tweets": 26,
+            "num_tweets_and_retweets": 38,
             "publishedDate": "2023-01-11T21:15Z",
             "reddit_posts": [
                 {
@@ -164,7 +175,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/netcve/comments/109ibq3/cve20224873/",
                     "subreddit": "netcve",
-                    "subreddit_subscribers": 143,
+                    "subreddit_subscribers": 144,
                     "title": "CVE-2022-4873",
                     "upvotes": 1,
                     "url": "https://cve.report/CVE-2022-4873"
@@ -210,112 +221,38 @@
                     ]
                 },
                 {
-                    "created_at": "2023-01-18 15:36",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1615734780246773761",
-                    "tweet_text": "Vulnerable NetComm routers and a public PoC exploit (CVE-2022-4873, CVE-2022-4874) https://t.co/gVrmSm0pSY #PoseidonTPA #HelpNetSecurity #Cybersecurity https://t.co/sDzqxVfdQd",
-                    "twitter_user_handle": "PoseidonTPA",
-                    "twitter_user_name": "Poseidon",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1538171234613067777/5j_PZREA_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "news.poseidon-us.com/Sh4PG7",
-                            "expanded_url": "http://news.poseidon-us.com/Sh4PG7",
-                            "url": "https://t.co/gVrmSm0pSY"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-18 15:38",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1615735281302503424",
-                    "tweet_text": "Vulnerable NetComm routers and a public PoC exploit (CVE-2022-4873, CVE-2022-4874): Two vulnerabilities (CVE-2022-4873, CVE-2022-4874) found in three NetComm router models could be exploited to achieve remote code execution on vulnerable devices, and\u2026 https://t.co/y2QvqTlnlE https://t.co/KORsmY8edm",
-                    "twitter_user_handle": "cipherstorm",
-                    "twitter_user_name": "CS Threat Intel",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/788272143049953281/dF5xOGC3_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "helpnetsecurity.com/2023/01/18/cve\u2026",
-                            "expanded_url": "https://www.helpnetsecurity.com/2023/01/18/cve-2022-4873-cve-2022-4874/?utm_source=dlvr.it&utm_medium=twitter",
-                            "url": "https://t.co/y2QvqTlnlE"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-18 15:45",
-                    "likes": 1,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1615737074585567232",
-                    "tweet_text": "Vulnerable NetComm routers and a public PoC #exploit (CVE-2022-4873, CVE-2022-4874) https://t.co/hRknZIPDEC #HelpNetSecurity",
-                    "twitter_user_handle": "SecurityNewsbot",
-                    "twitter_user_name": "Security News Bot",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/462655505765126144/pvX4XDcy_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "helpnetsecurity.com/2023/01/18/cve\u2026",
-                            "expanded_url": "https://www.helpnetsecurity.com/2023/01/18/cve-2022-4873-cve-2022-4874/",
-                            "url": "https://t.co/hRknZIPDEC"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "cert@cert.org",
-            "audience_size": 276035,
-            "cve": "CVE-2022-4874",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "Authentication bypass in Netcomm router models NF20MESH, NF20, and NL1902 allows an unauthenticated user to access content. In order to serve static content, the application performs a check for the existence of specific characters in the URL (.css, .png etc). If it exists, it performs a \"fake login\" to give the request an active session to load the file and not redirect to the login page.",
-            "epss_score": "0.00885",
-            "github_repos": [],
-            "lastModifiedDate": "2023-01-12T13:56Z",
-            "num_retweets": 3,
-            "num_tweets": 19,
-            "num_tweets_and_retweets": 22,
-            "publishedDate": "2023-01-11T21:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1673476761.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/109ibqo/cve20224874/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 143,
-                    "title": "CVE-2022-4874",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-4874"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-01-18 14:12",
+                    "created_at": "2023-01-18 23:17",
                     "likes": 1,
                     "num_retweets": 2,
-                    "retweets": 2,
-                    "tweet_id": "1615713865819455489",
-                    "tweet_text": "Vulnerable NetComm routers and a public PoC exploit (CVE-2022-4873, CVE-2022-4874) - https://t.co/uQ4iF6DYeR - @SEI_CMU @Casa_Systems #NetComm #Router #vulnerability #PoC #SmallOffice #Consumer #Cybersecurity #CybersecurityNews #InfoSec https://t.co/dSt06qSq3a",
-                    "twitter_user_handle": "helpnetsecurity",
-                    "twitter_user_name": "Help Net Security",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1602979161932455937/3RwfWo0d_normal.jpg",
+                    "retweets": 3,
+                    "tweet_id": "1615851007262744578",
+                    "tweet_text": "Netcomm\u793e\u53ca\u3073TP-Link\u793e\u306e\u30eb\u30fc\u30bf\u3067\u6df1\u523b\u306a\u8106\u5f31\u6027\u304c\u767a\u898b\u3055\u308c\u305f\u3002TP-Link\u306f\u73fe\u6642\u70b9\u3067\u89e3\u6c7a\u7b56\u4e0d\u660e\u3002Netcomm\u306f\u30b9\u30bf\u30c3\u30af\u30d9\u30fc\u30b9\u306e\u30d0\u30c3\u30d5\u30a1\u30aa\u30fc\u30d0\u30fc\u30d5\u30ed\u30fc(CVE-2022-4873)\u3068\u8a8d\u8a3c\u56de\u907f(CVE-2022-4874)\u3001TP-Link\u306f\u60c5\u5831\u6f0f\u6d29(CVE-2022-4499)\u3068\u9060\u9694\u30b3\u30fc\u30c9\u5b9f\u884c(CVE-2022-4498)\u3002 https://t.co/mcpT8OCtfr",
+                    "twitter_user_handle": "__kokumoto",
+                    "twitter_user_name": "kokum\u0585t\u0585",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1612504196720492544/T_-s-6OP_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "helpnetsecurity.com/2023/01/18/cve\u2026",
-                            "expanded_url": "https://www.helpnetsecurity.com/2023/01/18/cve-2022-4873-cve-2022-4874/",
-                            "url": "https://t.co/uQ4iF6DYeR"
+                            "display_url": "thehackernews.com/2023/01/critic\u2026",
+                            "expanded_url": "https://thehackernews.com/2023/01/critical-security-vulnerabilities.html",
+                            "url": "https://t.co/mcpT8OCtfr"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-18 18:35",
+                    "likes": 2,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1615779914887884800",
+                    "tweet_text": "The vulnerabilities discovered in the Netcomm routers are a a stack based buffer overflow and an authentication bypass, respectively tracked as\u00a0CVE-2022-4873\u00a0and\u00a0CVE-2022-4874.  \u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f\n\nA couple of bugs can be chained to hack Netcomm routers https://t.co/M7RKQiOL2X",
+                    "twitter_user_handle": "ciberconsejo",
+                    "twitter_user_name": "Ciberconsejo",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1222924940195893249/Al0FbBvE_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "securityaffairs.com/140967/iot/net\u2026",
+                            "expanded_url": "https://securityaffairs.com/140967/iot/netcomm-tp-link-routers-critical-flaws.html",
+                            "url": "https://t.co/M7RKQiOL2X"
                         }
                     ]
                 },
@@ -336,60 +273,6 @@
                             "url": "https://t.co/gVrmSm0pSY"
                         }
                     ]
-                },
-                {
-                    "created_at": "2023-01-18 15:38",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1615735281302503424",
-                    "tweet_text": "Vulnerable NetComm routers and a public PoC exploit (CVE-2022-4873, CVE-2022-4874): Two vulnerabilities (CVE-2022-4873, CVE-2022-4874) found in three NetComm router models could be exploited to achieve remote code execution on vulnerable devices, and\u2026 https://t.co/y2QvqTlnlE https://t.co/KORsmY8edm",
-                    "twitter_user_handle": "cipherstorm",
-                    "twitter_user_name": "CS Threat Intel",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/788272143049953281/dF5xOGC3_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "helpnetsecurity.com/2023/01/18/cve\u2026",
-                            "expanded_url": "https://www.helpnetsecurity.com/2023/01/18/cve-2022-4873-cve-2022-4874/?utm_source=dlvr.it&utm_medium=twitter",
-                            "url": "https://t.co/y2QvqTlnlE"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-18 15:45",
-                    "likes": 1,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1615737074585567232",
-                    "tweet_text": "Vulnerable NetComm routers and a public PoC #exploit (CVE-2022-4873, CVE-2022-4874) https://t.co/hRknZIPDEC #HelpNetSecurity",
-                    "twitter_user_handle": "SecurityNewsbot",
-                    "twitter_user_name": "Security News Bot",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/462655505765126144/pvX4XDcy_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "helpnetsecurity.com/2023/01/18/cve\u2026",
-                            "expanded_url": "https://www.helpnetsecurity.com/2023/01/18/cve-2022-4873-cve-2022-4874/",
-                            "url": "https://t.co/hRknZIPDEC"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-18 15:46",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1615737360557170688",
-                    "tweet_text": "Vulnerable NetComm routers and a public PoC exploit (CVE-2022-4873, CVE-2022-4874) https://t.co/ST5nuSdBu0 #cyber  #awareness #threatintell #CTI #intelligence #detect_and_response #EDR #XDR #CyberThreat #CyberThreatIntelligence #Zeroday #Vulnerability #RiskManagement #Vulnerabi\u2026",
-                    "twitter_user_handle": "SK_Expert",
-                    "twitter_user_name": "SK",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1598563656727404545/pntj_aa7_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/LpdgovF",
-                            "expanded_url": "https://ift.tt/LpdgovF",
-                            "url": "https://t.co/ST5nuSdBu0"
-                        }
-                    ]
                 }
             ],
             "vendor_advisories": [],
@@ -397,101 +280,7 @@
         },
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 266989,
-            "cve": "CVE-2007-4559",
-            "cve_urls": null,
-            "cvssv2_base_score": 6.8,
-            "cvssv2_severity": "MEDIUM",
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [
-                {
-                    "cwe_description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
-                    "cwe_id": "CWE-22"
-                }
-            ],
-            "description": "Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.",
-            "epss_score": "0.09187",
-            "github_repos": [
-                {
-                    "created": "2022-09-20T17:03:57Z",
-                    "description": "Creosote is our solution to searching for the tarfile vulnerability described by CVE-2007-4559.",
-                    "language": "Python",
-                    "name": "Creosote",
-                    "stars": 79,
-                    "topics": [],
-                    "updated": "2023-01-13T11:23:48Z",
-                    "url": "https://github.com/advanced-threat-research/Creosote"
-                },
-                {
-                    "created": "2022-10-21T06:38:41Z",
-                    "description": "CVE-2007-4559 - Polemarch exploit",
-                    "language": "C",
-                    "name": "MALW",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2022-12-11T20:33:31Z",
-                    "url": "https://github.com/Ooscaar/MALW"
-                }
-            ],
-            "lastModifiedDate": "2011-03-08T02:58Z",
-            "num_retweets": 0,
-            "num_tweets": 1,
-            "num_tweets_and_retweets": 1,
-            "publishedDate": "2007-08-28T01:17Z",
-            "reddit_posts": [
-                {
-                    "created": 1663838827.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/u_hisnoill/comments/xkwkqt/unpatched_15year_old_python_bug_allows_code/",
-                    "subreddit": "u_hisnoill",
-                    "subreddit_subscribers": 0,
-                    "title": "Unpatched 15-year old Python bug allows code execution in 350k projects (CVE-2007-4559)",
-                    "upvotes": 1,
-                    "url": "https://www.bleepingcomputer.com/news/security/unpatched-15-year-old-python-bug-allows-code-execution-in-350k-projects/"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-01-17 22:34",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1615477611936743424",
-                    "tweet_text": "It\u2019s almost time for @shmoocon! \ud83e\udd29 Join us in D.C. for Kasimir Schulz\u2019s (@Abraxus7331) session exploring how @TrellixARC discovered the extent of CVE-2007-4559\u2019s potential impact and the tool they developed to address it. Find out more. https://t.co/oKBN7DdBr6 https://t.co/WVVSRUhnd8",
-                    "twitter_user_handle": "Trellix",
-                    "twitter_user_name": "Trellix",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1542599606185259008/BfX-m-bi_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "bit.ly/3ZuDcLS",
-                            "expanded_url": "https://bit.ly/3ZuDcLS",
-                            "url": "https://t.co/oKBN7DdBr6"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Python",
-                            "versions": [
-                                "*"
-                            ]
-                        }
-                    ],
-                    "vendor": "Python Software Foundation"
-                }
-            ]
-        },
-        {
-            "assigner": "cve@mitre.org",
-            "audience_size": 246940,
+            "audience_size": 349959,
             "cve": "CVE-2022-44877",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -540,8 +329,8 @@
             ],
             "lastModifiedDate": "2023-01-11T21:55Z",
             "num_retweets": 14,
-            "num_tweets": 17,
-            "num_tweets_and_retweets": 31,
+            "num_tweets": 13,
+            "num_tweets_and_retweets": 27,
             "publishedDate": "2023-01-05T23:15Z",
             "reddit_posts": [
                 {
@@ -550,9 +339,9 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/10454f0/centos_web_panel_7_unauthenticated_remote_code/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 464739,
+                    "subreddit_subscribers": 464762,
                     "title": "Centos Web Panel 7 Unauthenticated Remote Code Execution - CVE-2022-44877",
-                    "upvotes": 26,
+                    "upvotes": 28,
                     "url": "https://github.com/numanturle/CVE-2022-44877"
                 },
                 {
@@ -561,7 +350,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/netcve/comments/104fl6r/cve202244877/",
                     "subreddit": "netcve",
-                    "subreddit_subscribers": 143,
+                    "subreddit_subscribers": 144,
                     "title": "CVE-2022-44877",
                     "upvotes": 1,
                     "url": "https://cve.report/CVE-2022-44877"
@@ -572,7 +361,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/10530vq/centos_web_panel_7_unauthenticated_remote_code/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32288,
+                    "subreddit_subscribers": 32294,
                     "title": "Centos Web Panel 7 Unauthenticated Remote Code Execution - CVE-2022-44877 exploit",
                     "upvotes": 1,
                     "url": "https://github.com/numanturle/CVE-2022-44877"
@@ -581,6 +370,24 @@
             "score": 9.8,
             "severity": "CRITICAL",
             "tweets": [
+                {
+                    "created_at": "2023-01-18 19:00",
+                    "likes": 2,
+                    "num_retweets": 5,
+                    "retweets": 5,
+                    "tweet_id": "1615786164262158355",
+                    "tweet_text": "Exploited Control Web Panel Flaw Added to CISA 'Must-Patch' List - https://t.co/EXogR4Gae3 (CVE-2022-44877)",
+                    "twitter_user_handle": "SecurityWeek",
+                    "twitter_user_name": "SecurityWeek",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1466073453572890643/gaGjrZRw_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "securityweek.com/exploited-cont\u2026",
+                            "expanded_url": "https://www.securityweek.com/exploited-control-web-panel-flaw-added-cisa-must-patch-list",
+                            "url": "https://t.co/EXogR4Gae3"
+                        }
+                    ]
+                },
                 {
                     "created_at": "2023-01-18 12:33",
                     "likes": 3,
@@ -618,26 +425,8 @@
                     ]
                 },
                 {
-                    "created_at": "2023-01-18 03:35",
-                    "likes": 1,
-                    "num_retweets": 2,
-                    "retweets": 2,
-                    "tweet_id": "1615553339059494912",
-                    "tweet_text": "Fletch Top Threat Alert: Vulnerability With 9.8 Severity In Control Web Panel Under Active Exploit - #CVE-2022-44877\n\n#FletchScore = Critical/Mainstream\n\n#CyberSecurity #ThreatIntel #InfoSec CVE-2022-44877\n\nhttps://t.co/bqaY96qomI",
-                    "twitter_user_handle": "fletch_ai",
-                    "twitter_user_name": "fletch",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1410323546165833728/NuguMAm2_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "bit.ly/3XDaNBv",
-                            "expanded_url": "https://bit.ly/3XDaNBv",
-                            "url": "https://t.co/bqaY96qomI"
-                        }
-                    ]
-                },
-                {
                     "created_at": "2023-01-18 09:00",
-                    "likes": 3,
+                    "likes": 4,
                     "num_retweets": 2,
                     "retweets": 2,
                     "tweet_id": "1615635113366228992",
@@ -693,8 +482,368 @@
             ]
         },
         {
+            "assigner": "cert@cert.org",
+            "audience_size": 293484,
+            "cve": "CVE-2022-4874",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": "Authentication bypass in Netcomm router models NF20MESH, NF20, and NL1902 allows an unauthenticated user to access content. In order to serve static content, the application performs a check for the existence of specific characters in the URL (.css, .png etc). If it exists, it performs a \"fake login\" to give the request an active session to load the file and not redirect to the login page.",
+            "epss_score": "0.00885",
+            "github_repos": [],
+            "lastModifiedDate": "2023-01-12T13:56Z",
+            "num_retweets": 9,
+            "num_tweets": 23,
+            "num_tweets_and_retweets": 32,
+            "publishedDate": "2023-01-11T21:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1673476761.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/109ibqo/cve20224874/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 144,
+                    "title": "CVE-2022-4874",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-4874"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-01-18 14:12",
+                    "likes": 1,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1615713865819455489",
+                    "tweet_text": "Vulnerable NetComm routers and a public PoC exploit (CVE-2022-4873, CVE-2022-4874) - https://t.co/uQ4iF6DYeR - @SEI_CMU @Casa_Systems #NetComm #Router #vulnerability #PoC #SmallOffice #Consumer #Cybersecurity #CybersecurityNews #InfoSec https://t.co/dSt06qSq3a",
+                    "twitter_user_handle": "helpnetsecurity",
+                    "twitter_user_name": "Help Net Security",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1602979161932455937/3RwfWo0d_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "helpnetsecurity.com/2023/01/18/cve\u2026",
+                            "expanded_url": "https://www.helpnetsecurity.com/2023/01/18/cve-2022-4873-cve-2022-4874/",
+                            "url": "https://t.co/uQ4iF6DYeR"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-18 23:17",
+                    "likes": 1,
+                    "num_retweets": 2,
+                    "retweets": 3,
+                    "tweet_id": "1615851007262744578",
+                    "tweet_text": "Netcomm\u793e\u53ca\u3073TP-Link\u793e\u306e\u30eb\u30fc\u30bf\u3067\u6df1\u523b\u306a\u8106\u5f31\u6027\u304c\u767a\u898b\u3055\u308c\u305f\u3002TP-Link\u306f\u73fe\u6642\u70b9\u3067\u89e3\u6c7a\u7b56\u4e0d\u660e\u3002Netcomm\u306f\u30b9\u30bf\u30c3\u30af\u30d9\u30fc\u30b9\u306e\u30d0\u30c3\u30d5\u30a1\u30aa\u30fc\u30d0\u30fc\u30d5\u30ed\u30fc(CVE-2022-4873)\u3068\u8a8d\u8a3c\u56de\u907f(CVE-2022-4874)\u3001TP-Link\u306f\u60c5\u5831\u6f0f\u6d29(CVE-2022-4499)\u3068\u9060\u9694\u30b3\u30fc\u30c9\u5b9f\u884c(CVE-2022-4498)\u3002 https://t.co/mcpT8OCtfr",
+                    "twitter_user_handle": "__kokumoto",
+                    "twitter_user_name": "kokum\u0585t\u0585",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1612504196720492544/T_-s-6OP_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "thehackernews.com/2023/01/critic\u2026",
+                            "expanded_url": "https://thehackernews.com/2023/01/critical-security-vulnerabilities.html",
+                            "url": "https://t.co/mcpT8OCtfr"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-18 18:35",
+                    "likes": 2,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1615779914887884800",
+                    "tweet_text": "The vulnerabilities discovered in the Netcomm routers are a a stack based buffer overflow and an authentication bypass, respectively tracked as\u00a0CVE-2022-4873\u00a0and\u00a0CVE-2022-4874.  \u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f\n\nA couple of bugs can be chained to hack Netcomm routers https://t.co/M7RKQiOL2X",
+                    "twitter_user_handle": "ciberconsejo",
+                    "twitter_user_name": "Ciberconsejo",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1222924940195893249/Al0FbBvE_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "securityaffairs.com/140967/iot/net\u2026",
+                            "expanded_url": "https://securityaffairs.com/140967/iot/netcomm-tp-link-routers-critical-flaws.html",
+                            "url": "https://t.co/M7RKQiOL2X"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-18 15:36",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1615734780246773761",
+                    "tweet_text": "Vulnerable NetComm routers and a public PoC exploit (CVE-2022-4873, CVE-2022-4874) https://t.co/gVrmSm0pSY #PoseidonTPA #HelpNetSecurity #Cybersecurity https://t.co/sDzqxVfdQd",
+                    "twitter_user_handle": "PoseidonTPA",
+                    "twitter_user_name": "Poseidon",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1538171234613067777/5j_PZREA_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "news.poseidon-us.com/Sh4PG7",
+                            "expanded_url": "http://news.poseidon-us.com/Sh4PG7",
+                            "url": "https://t.co/gVrmSm0pSY"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-18 22:04",
+                    "likes": 2,
+                    "num_retweets": 1,
+                    "retweets": 0,
+                    "tweet_id": "1615832644159426560",
+                    "tweet_text": "Vulnerable NetComm routers and a public PoC exploit (CVE-2022-4873, CVE-2022-4874) https://t.co/OO1l2Kqx7l",
+                    "twitter_user_handle": "TheCyberSecHub",
+                    "twitter_user_name": "The Cyber Security Hub\u2122",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1572191181689294848/fT9V8jLs_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "helpnetsecurity.com/2023/01/18/cve\u2026",
+                            "expanded_url": "https://www.helpnetsecurity.com/2023/01/18/cve-2022-4873-cve-2022-4874/",
+                            "url": "https://t.co/OO1l2Kqx7l"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "chrome-cve-admin@google.com",
+            "audience_size": 177283,
+            "cve": "CVE-2022-3656",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": 8.8,
+            "cvssv3_base_severity": "HIGH",
+            "cwes": [
+                {
+                    "cwe_description": "Improper Input Validation",
+                    "cwe_id": "CWE-20"
+                }
+            ],
+            "description": "Insufficient data validation in File System in Google Chrome prior to 107.0.5304.62 allowed a remote attacker to bypass file system restrictions via a crafted HTML page. (Chromium security severity: Medium)",
+            "epss_score": "0.05246",
+            "github_repos": [
+                {
+                    "created": "2023-01-13T03:26:14Z",
+                    "description": null,
+                    "language": "HTML",
+                    "name": "CVE-2022-3656",
+                    "stars": 34,
+                    "topics": [],
+                    "updated": "2023-01-18T12:46:41Z",
+                    "url": "https://github.com/momika233/CVE-2022-3656"
+                },
+                {
+                    "created": "2022-12-29T23:07:11Z",
+                    "description": "Tenda AC9 V15.03.05.19 was discovered to contain a stack overflow via the deviceList parameter at /goform/setMacFilterCfg. CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2022-36569",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2022-12-29T23:07:11Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-36569"
+                },
+                {
+                    "created": "2022-12-29T22:26:16Z",
+                    "description": "Incorrect access control in the install directory (C:\\RailsInstaller) of Rubyinstaller2 v3.1.2 and below allows authenticated attackers to execute arbitrary code via overwriting binaries located in the directory. CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2022-36563",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2022-12-29T22:26:16Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-36563"
+                },
+                {
+                    "created": "2022-12-29T23:08:11Z",
+                    "description": "Tenda AC9 V15.03.05.19 was discovered to contain a stack overflow via the list parameter at /goform/setPptpUserList. CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2022-36568",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2022-12-29T23:08:11Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-36568"
+                },
+                {
+                    "created": "2022-12-29T23:10:08Z",
+                    "description": "Seiko SkyBridge MB-A200 v01.00.04 and below was discovered to contain multiple hard-coded passcodes for root. Attackers are able to access the passcodes at /etc/srapi/config/system.conf and /usr/sbin/ssol-sshd.sh. CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2022-36560",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2022-12-29T23:10:08Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-36560"
+                }
+            ],
+            "lastModifiedDate": "2022-12-09T15:07Z",
+            "num_retweets": 68,
+            "num_tweets": 10,
+            "num_tweets_and_retweets": 78,
+            "publishedDate": "2022-11-01T23:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1673590215.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/AICoinViews/comments/10an2l0/the_imperva_red_team_recently_disclosed_a/",
+                    "subreddit": "AICoinViews",
+                    "subreddit_subscribers": 15,
+                    "title": "The Imperva Red Team recently disclosed a vulnerability, dubbed CVE-2022-3656, affecting over 2.5 billion users of Google Chrome and Chromium-based browsers. This vulnerability allowed for the theft of sensitive files, such as crypto wallets and cloud provider credentials.",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/AICoinViews/comments/10an2l0/the_imperva_red_team_recently_disclosed_a/"
+                },
+                {
+                    "created": 1667251642.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/yipgvg/updated_msisac_cybersecurity_advisory_multiple/",
+                    "subreddit": "k12cybersecurity",
+                    "subreddit_subscribers": 96,
+                    "title": "UPDATED MS-ISAC CYBERSECURITY ADVISORY \u2013 Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution \u2013 PATCH: NOW",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/yipgvg/updated_msisac_cybersecurity_advisory_multiple/"
+                },
+                {
+                    "created": 1666789235.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/ydxjxn/msisac_cybersecurity_advisory_multiple/",
+                    "subreddit": "k12cybersecurity",
+                    "subreddit_subscribers": 96,
+                    "title": "MS-ISAC CYBERSECURITY ADVISORY \u2013 Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution \u2013 PATCH: NOW",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/ydxjxn/msisac_cybersecurity_advisory_multiple/"
+                },
+                {
+                    "created": 1667349525.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/yjqjvm/cve20223656/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 144,
+                    "title": "CVE-2022-3656",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-3656"
+                }
+            ],
+            "score": 8.8,
+            "severity": "HIGH",
+            "tweets": [
+                {
+                    "created_at": "2023-01-18 13:40",
+                    "likes": 100,
+                    "num_retweets": 63,
+                    "retweets": 73,
+                    "tweet_id": "1615705682673795072",
+                    "tweet_text": "\ud83d\udea8 Grave vulnerabilidad afecta usuarios de Google Chrome\n\n\u27a1\ufe0f CVE-2022-3656 permite el robo de archivos confidenciales, como billeteras criptogr\u00e1ficas y credenciales de proveedores de la nube, dice Imperva Red, gracias un enlace simb\u00f3lico malicioso \nhttps://t.co/Eln99lr0Jh",
+                    "twitter_user_handle": "elhackernet",
+                    "twitter_user_name": "elhacker.NET",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1330969532/e-peq1_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "livemint.com/technology/tec\u2026",
+                            "expanded_url": "https://www.livemint.com/technology/tech-news/security-alert-data-of-2-5-billion-google-chrome-users-is-at-risk/amp-11673762110571.html",
+                            "url": "https://t.co/Eln99lr0Jh"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-18 17:20",
+                    "likes": 1,
+                    "num_retweets": 5,
+                    "retweets": 6,
+                    "tweet_id": "1615761082001260581",
+                    "tweet_text": "Google Chrome is the most widely and commonly used browser in the world. But with popularity comes great risk, and it's called CVE-2022-3656.\n\nFix the vulnerability that affects more than 2.5 billion Google Chrome and Chromium-based browser users &gt;&gt; https://t.co/oZW4hpan28",
+                    "twitter_user_handle": "VulcanCyber",
+                    "twitter_user_name": "Vulcan Cyber",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1595076376213831680/5UoBgTFA_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "vulcan.io/blog/how-to-fi\u2026",
+                            "expanded_url": "https://vulcan.io/blog/how-to-fix-cve-2022-3656-affecting-google-chrome",
+                            "url": "https://t.co/oZW4hpan28"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-18 17:34",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1615764560429842433",
+                    "tweet_text": "CVE-2022-3656: Protect your sensitive files from theft now #infosec #infosecurity #cybersecurity #threatintel #threatintelligence #hacking #cybernews #cyberattack #cloudsecurity #malware #ransomware #cyber #threathunting #ZeroTrust #CISA\nhttps://t.co/Hu1tkKH4cQ",
+                    "twitter_user_handle": "CyberIQs_",
+                    "twitter_user_name": "CyberIQs",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1343113218399600641/p04QylMY_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cyberiqs.com/latestnews",
+                            "expanded_url": "http://cyberiqs.com/latestnews",
+                            "url": "https://t.co/Hu1tkKH4cQ"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-19 02:08",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1615893813918146561",
+                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the second retweeted(66 times) tweet that contains CVE ID between Jan 18 2023 02:01 UTC and Jan 19 2023 02:00 UTC is:\nhttps://t.co/oaTPgTLCJW\nIt has CVE-2022-3656. #l24_ve4iklfex3kau",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/elhackernet/st\u2026",
+                            "expanded_url": "https://twitter.com/elhackernet/status/1615705682673795072",
+                            "url": "https://t.co/oaTPgTLCJW"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-18 17:19",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1615760731130953732",
+                    "tweet_text": "@googlechrome is the most widely and commonly used browser in the world. But with popularity comes great risk, and it's called CVE-2022-3656.\n\nFix the vulnerability that affects more than 2.5 billion Google Chrome and Chromium-based browser users &gt;&gt; https://t.co/oZW4hpan28",
+                    "twitter_user_handle": "VulcanCyber",
+                    "twitter_user_name": "Vulcan Cyber",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1595076376213831680/5UoBgTFA_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "vulcan.io/blog/how-to-fi\u2026",
+                            "expanded_url": "https://vulcan.io/blog/how-to-fix-cve-2022-3656-affecting-google-chrome",
+                            "url": "https://t.co/oZW4hpan28"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [
+                "https://chromereleases.googleblog.com/2022/10/stable-channel-update-for-desktop_25.html",
+                "https://crbug.com/1345275"
+            ],
+            "vendors": [
+                {
+                    "products": [
+                        {
+                            "product": "Chrome",
+                            "versions": [
+                                "*"
+                            ]
+                        }
+                    ],
+                    "vendor": "Google"
+                }
+            ]
+        },
+        {
             "assigner": "security-advisories@github.com",
-            "audience_size": 244034,
+            "audience_size": 174136,
             "cve": "CVE-2022-41903",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -711,9 +860,9 @@
             "epss_score": "0.02509",
             "github_repos": [],
             "lastModifiedDate": "2023-01-18T13:54Z",
-            "num_retweets": 21,
-            "num_tweets": 43,
-            "num_tweets_and_retweets": 64,
+            "num_retweets": 17,
+            "num_tweets": 32,
+            "num_tweets_and_retweets": 49,
             "publishedDate": "2023-01-17T23:15Z",
             "reddit_posts": [
                 {
@@ -722,9 +871,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/10enx0h/x41_audit_git_security_vulnerabilities_announced/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32288,
+                    "subreddit_subscribers": 32294,
                     "title": "X41 Audit - Git security vulnerabilities announced CVE-2022-41903 and CVE-2022-23521, affects versions 2.39 and older",
-                    "upvotes": 4,
+                    "upvotes": 3,
                     "url": "https://x41-dsec.de/security/research/news/2023/01/17/git-security-audit-ostif/"
                 },
                 {
@@ -733,7 +882,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/netcve/comments/10eswgr/cve202241903/",
                     "subreddit": "netcve",
-                    "subreddit_subscribers": 143,
+                    "subreddit_subscribers": 144,
                     "title": "CVE-2022-41903",
                     "upvotes": 1,
                     "url": "https://cve.report/CVE-2022-41903"
@@ -755,9 +904,9 @@
             "tweets": [
                 {
                     "created_at": "2023-01-18 11:22",
-                    "likes": 14,
-                    "num_retweets": 7,
-                    "retweets": 7,
+                    "likes": 15,
+                    "num_retweets": 8,
+                    "retweets": 8,
                     "tweet_id": "1615671020190588929",
                     "tweet_text": "Git\u306b\u304a\u3051\u308b\u91cd\u5927\u306a\u9060\u9694\u30b3\u30fc\u30c9\u5b9f\u884c\u306e\u6b20\u9665\u30922\u4ef6\u3092\u30d1\u30c3\u30c1\u3002\u3044\u305a\u308c\u3082\u30d2\u30fc\u30d7\u30d9\u30fc\u30b9\u306e\u30d0\u30c3\u30d5\u30a1\u30aa\u30fc\u30d0\u30fc\u30d5\u30ed\u30fc(CVE-2022-41903, CVE-2022-23521)\u3067\u3001\u30d0\u30fc\u30b8\u30e7\u30f32.30.7\u307e\u3067\u9061\u3063\u3066\u30d1\u30c3\u30c1\u3055\u308c\u3066\u3044\u308b\u3002\u3000https://t.co/YmPh10AVcK",
                     "twitter_user_handle": "__kokumoto",
@@ -768,42 +917,6 @@
                             "display_url": "bleepingcomputer.com/news/security/\u2026",
                             "expanded_url": "https://www.bleepingcomputer.com/news/security/git-patches-two-critical-remote-code-execution-security-flaws/",
                             "url": "https://t.co/YmPh10AVcK"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-18 01:02",
-                    "likes": 7,
-                    "num_retweets": 5,
-                    "retweets": 5,
-                    "tweet_id": "1615514985538506753",
-                    "tweet_text": "git\u306e\u8106\u5f31\u6027 CVE-2022-41903\u3068CVE-2022-23521\u306f\u4e21\u65b9\u3068\u3082\u30b9\u30b3\u30a29.8\u3067Critical\u306a\u3084\u3064\u306a\u306e\u3067\u307f\u306a\u3055\u3093\u30a2\u30c3\u30d7\u30c7\u30fc\u30c8\u3057\u307e\u3057\u3087\u3046\nhttps://t.co/ChEFaiRr4f",
-                    "twitter_user_handle": "minamijoyo",
-                    "twitter_user_name": "\u57ce\u967d\u4eba",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/780477605/kfstudiom_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "github.blog/2023-01-17-git\u2026",
-                            "expanded_url": "https://github.blog/2023-01-17-git-security-vulnerabilities-announced-2/",
-                            "url": "https://t.co/ChEFaiRr4f"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-17 23:40",
-                    "likes": 3,
-                    "num_retweets": 2,
-                    "retweets": 2,
-                    "tweet_id": "1615494384837079040",
-                    "tweet_text": "#CVE-2022-41903 affecting `git` Patch released today, 01-17-2023. Not yet analyzed - given an initial score of 9.8 CRITICAL. Possibility of \"arbitrary heap writes\" leading to RCE (show us a POC please, that sounds insane) due to an integer overflow.\n\nhttps://t.co/U1qAUcDiIJ https://t.co/I2HiHatzmK",
-                    "twitter_user_handle": "BlockMageSec",
-                    "twitter_user_name": "BLOCKMAGE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1614040757286969345/vELLM-7G_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-41903",
-                            "url": "https://t.co/U1qAUcDiIJ"
                         }
                     ]
                 },
@@ -826,6 +939,24 @@
                     ]
                 },
                 {
+                    "created_at": "2023-01-18 10:34",
+                    "likes": 1,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1615658808432279554",
+                    "tweet_text": "CVE-2022-41903 &amp; CVE-2022-23521: Critical RCE flaws in Git https://t.co/nZkoZC3PTW #security #opensource #cybersecurity #malware #cyber #pentesting #malwareanalysis #infosec #redteam #malwarehunting #hacking #infosec #threathunting #bugbounty #tools #offensivesecurity",
+                    "twitter_user_handle": "FilipiPires",
+                    "twitter_user_name": "Filipi Pires",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1531334436800831488/evf2wJ4z_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/t0sdogK",
+                            "expanded_url": "https://ift.tt/t0sdogK",
+                            "url": "https://t.co/nZkoZC3PTW"
+                        }
+                    ]
+                },
+                {
                     "created_at": "2023-01-18 13:47",
                     "likes": 1,
                     "num_retweets": 1,
@@ -836,6 +967,24 @@
                     "twitter_user_name": "Fadis",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1199796678/__3_normal.png",
                     "urls": []
+                },
+                {
+                    "created_at": "2023-01-18 10:01",
+                    "likes": 1,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1615650660921360390",
+                    "tweet_text": "Git integer overflow | CVE-2022-41903 - https://t.co/b9K9h4DUHF\n\n#CVE #Vulnerability #OSINT #ThreatIntel #Cyber",
+                    "twitter_user_handle": "RedPacketSec",
+                    "twitter_user_name": "RedPacket Security",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1557095801272373248/RmJX2gB4_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "redpacketsecurity.com/git-integer-ov\u2026",
+                            "expanded_url": "https://www.redpacketsecurity.com/git-integer-overflow-cve-2022-41903/",
+                            "url": "https://t.co/b9K9h4DUHF"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [],
@@ -843,7 +992,7 @@
         },
         {
             "assigner": "security-advisories@github.com",
-            "audience_size": 234931,
+            "audience_size": 172078,
             "cve": "CVE-2022-23521",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -871,9 +1020,9 @@
                 }
             ],
             "lastModifiedDate": "2023-01-18T13:54Z",
-            "num_retweets": 21,
-            "num_tweets": 44,
-            "num_tweets_and_retweets": 65,
+            "num_retweets": 19,
+            "num_tweets": 35,
+            "num_tweets_and_retweets": 54,
             "publishedDate": "2023-01-17T23:15Z",
             "reddit_posts": [
                 {
@@ -882,21 +1031,10 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/10enx0h/x41_audit_git_security_vulnerabilities_announced/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32288,
+                    "subreddit_subscribers": 32294,
                     "title": "X41 Audit - Git security vulnerabilities announced CVE-2022-41903 and CVE-2022-23521, affects versions 2.39 and older",
                     "upvotes": 3,
                     "url": "https://x41-dsec.de/security/research/news/2023/01/17/git-security-audit-ostif/"
-                },
-                {
-                    "created": 1674002311.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10eswgf/cve202223521/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 143,
-                    "title": "CVE-2022-23521",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-23521"
                 },
                 {
                     "created": 1674029631.0,
@@ -908,6 +1046,17 @@
                     "title": "Git 2.39.1 (and more) released (CVE-2022-41903, CVE-2022-23521)",
                     "upvotes": 1,
                     "url": "https://lwn.net/Articles/920256/"
+                },
+                {
+                    "created": 1674002311.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10eswgf/cve202223521/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 144,
+                    "title": "CVE-2022-23521",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-23521"
                 }
             ],
             "score": null,
@@ -915,9 +1064,9 @@
             "tweets": [
                 {
                     "created_at": "2023-01-18 11:22",
-                    "likes": 14,
-                    "num_retweets": 7,
-                    "retweets": 7,
+                    "likes": 15,
+                    "num_retweets": 8,
+                    "retweets": 8,
                     "tweet_id": "1615671020190588929",
                     "tweet_text": "Git\u306b\u304a\u3051\u308b\u91cd\u5927\u306a\u9060\u9694\u30b3\u30fc\u30c9\u5b9f\u884c\u306e\u6b20\u9665\u30922\u4ef6\u3092\u30d1\u30c3\u30c1\u3002\u3044\u305a\u308c\u3082\u30d2\u30fc\u30d7\u30d9\u30fc\u30b9\u306e\u30d0\u30c3\u30d5\u30a1\u30aa\u30fc\u30d0\u30fc\u30d5\u30ed\u30fc(CVE-2022-41903, CVE-2022-23521)\u3067\u3001\u30d0\u30fc\u30b8\u30e7\u30f32.30.7\u307e\u3067\u9061\u3063\u3066\u30d1\u30c3\u30c1\u3055\u308c\u3066\u3044\u308b\u3002\u3000https://t.co/YmPh10AVcK",
                     "twitter_user_handle": "__kokumoto",
@@ -932,26 +1081,8 @@
                     ]
                 },
                 {
-                    "created_at": "2023-01-18 01:02",
-                    "likes": 7,
-                    "num_retweets": 5,
-                    "retweets": 5,
-                    "tweet_id": "1615514985538506753",
-                    "tweet_text": "git\u306e\u8106\u5f31\u6027 CVE-2022-41903\u3068CVE-2022-23521\u306f\u4e21\u65b9\u3068\u3082\u30b9\u30b3\u30a29.8\u3067Critical\u306a\u3084\u3064\u306a\u306e\u3067\u307f\u306a\u3055\u3093\u30a2\u30c3\u30d7\u30c7\u30fc\u30c8\u3057\u307e\u3057\u3087\u3046\nhttps://t.co/ChEFaiRr4f",
-                    "twitter_user_handle": "minamijoyo",
-                    "twitter_user_name": "\u57ce\u967d\u4eba",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/780477605/kfstudiom_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "github.blog/2023-01-17-git\u2026",
-                            "expanded_url": "https://github.blog/2023-01-17-git-security-vulnerabilities-announced-2/",
-                            "url": "https://t.co/ChEFaiRr4f"
-                        }
-                    ]
-                },
-                {
                     "created_at": "2023-01-18 15:46",
-                    "likes": 7,
+                    "likes": 10,
                     "num_retweets": 2,
                     "retweets": 2,
                     "tweet_id": "1615737439942856707",
@@ -996,6 +1127,24 @@
                             "url": "https://t.co/U0Uyn1XGrV"
                         }
                     ]
+                },
+                {
+                    "created_at": "2023-01-18 10:34",
+                    "likes": 1,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1615658808432279554",
+                    "tweet_text": "CVE-2022-41903 &amp; CVE-2022-23521: Critical RCE flaws in Git https://t.co/nZkoZC3PTW #security #opensource #cybersecurity #malware #cyber #pentesting #malwareanalysis #infosec #redteam #malwarehunting #hacking #infosec #threathunting #bugbounty #tools #offensivesecurity",
+                    "twitter_user_handle": "FilipiPires",
+                    "twitter_user_name": "Filipi Pires",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1531334436800831488/evf2wJ4z_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/t0sdogK",
+                            "expanded_url": "https://ift.tt/t0sdogK",
+                            "url": "https://t.co/nZkoZC3PTW"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [],
@@ -1003,7 +1152,7 @@
         },
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 231134,
+            "audience_size": 171694,
             "cve": "CVE-2022-47966",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1026,9 +1175,9 @@
                 }
             ],
             "lastModifiedDate": "2023-01-18T19:46Z",
-            "num_retweets": 22,
-            "num_tweets": 43,
-            "num_tweets_and_retweets": 65,
+            "num_retweets": 14,
+            "num_tweets": 32,
+            "num_tweets_and_retweets": 46,
             "publishedDate": "2023-01-18T18:15Z",
             "reddit_posts": [
                 {
@@ -1043,6 +1192,17 @@
                     "url": "https://www.reddit.com/r/breachtracecom/comments/10eiw4i/lexploit_poc_de_zoho_manageengine_sera_bient\u00f4t/"
                 },
                 {
+                    "created": 1674067100.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10fez4b/cve202247966/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 144,
+                    "title": "CVE-2022-47966",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-47966"
+                },
+                {
                     "created": 1673953275.0,
                     "is_self": false,
                     "num_comments": 0,
@@ -1054,23 +1214,12 @@
                     "url": "https://www.redpacketsecurity.com/multiple-manageengine-products-code-execution-cve-2022-47966/"
                 },
                 {
-                    "created": 1674067100.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10fez4b/cve202247966/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 143,
-                    "title": "CVE-2022-47966",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-47966"
-                },
-                {
                     "created": 1673973988.0,
                     "is_self": false,
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/SecOpsDaily/comments/10egvbg/manageengine_cve202247966_iocs/",
                     "subreddit": "SecOpsDaily",
-                    "subreddit_subscribers": 910,
+                    "subreddit_subscribers": 912,
                     "title": "ManageEngine CVE-2022-47966 IOCs",
                     "upvotes": 1,
                     "url": "https://www.horizon3.ai/manageengine-cve-2022-47966-iocs/"
@@ -1126,61 +1275,56 @@
                     ]
                 },
                 {
-                    "created_at": "2023-01-17 22:32",
-                    "likes": 4,
-                    "num_retweets": 2,
-                    "retweets": 3,
-                    "tweet_id": "1615477218678816770",
-                    "tweet_text": "The recently discovered #ManageEngine CVE-2022-47966 #IOC is an easy to exploit #vulnerability because attackers can utilize a classic \u2018spray and pray\u2019 tactic across the internet.\n \nFor more info on this #IOC &amp; patching recommendations, look at this #blog: https://t.co/uXWUfm9G1Q https://t.co/U1XZMVsXJQ",
-                    "twitter_user_handle": "Horizon3ai",
-                    "twitter_user_name": "Horizon3.ai",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1546951790561636352/Lzeou9ak_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "horizon3.ai/manageengine-c\u2026",
-                            "expanded_url": "https://www.horizon3.ai/manageengine-cve-2022-47966-iocs/",
-                            "url": "https://t.co/uXWUfm9G1Q"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-18 01:39",
-                    "likes": 0,
-                    "num_retweets": 2,
-                    "retweets": 2,
-                    "tweet_id": "1615524274348908544",
-                    "tweet_text": "CVE-2022-47966\nPatch YOUR ManageEngine RCE NOW! PoC for critical ManageEngine bug to be released.\nDork \ud83d\udc49\ud83c\udfff product[.]name=\"ManageEngine ServiceDesk Plus\"\nLink to search \ud83d\udc49\ud83c\udffc https://t.co/mOkhB8D8HB\nRefer to \ud83d\udc49 https://t.co/eJSjCcdNtq\n#infosec #BlackTechTwitter #ManageEngine https://t.co/4ruQViVwXu",
-                    "twitter_user_handle": "HunterMapping",
-                    "twitter_user_name": "Hunter",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1585566872103096320/xj1YaerS_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "hunter.how/list?searchVal\u2026",
-                            "expanded_url": "https://hunter.how/list?searchValue=product.name%3D%22ManageEngine%20ServiceDesk%20Plus%22",
-                            "url": "https://t.co/mOkhB8D8HB"
-                        },
-                        {
-                            "display_url": "thehackernews.com/2023/01/zoho-m\u2026",
-                            "expanded_url": "https://thehackernews.com/2023/01/zoho-manageengine-poc-exploit-to-be.html",
-                            "url": "https://t.co/eJSjCcdNtq"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-18 02:35",
+                    "created_at": "2023-01-18 10:20",
                     "likes": 1,
                     "num_retweets": 2,
                     "retweets": 2,
-                    "tweet_id": "1615538238722121732",
-                    "tweet_text": "Fletch Top Threat Alert: Researchers: Brace for Zoho ManageEngine 'Spray and Pray' Attacks - #CVE-2022-47966\n\n#FletchScore = Critical/Mainstream\n\n#CyberSecurity #ThreatIntel #InfoSec CVE-2022-47966 CVE-2022-35405\n\nhttps://t.co/svgwmM5ZKw",
-                    "twitter_user_handle": "fletch_ai",
-                    "twitter_user_name": "fletch",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1410323546165833728/NuguMAm2_normal.jpg",
+                    "tweet_id": "1615655371724709890",
+                    "tweet_text": "PoC pubblico per lo sfruttamento della CVE-2022-47966 (AL02/230118/CSIRT-ITA) https://t.co/72daRMGOT9",
+                    "twitter_user_handle": "nicolaferrini",
+                    "twitter_user_name": "Nicola Ferrini",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/745638592320507904/QXGrDHfx_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "bit.ly/3XqlrMo",
-                            "expanded_url": "https://bit.ly/3XqlrMo",
-                            "url": "https://t.co/svgwmM5ZKw"
+                            "display_url": "csirt.gov.it/contenuti/poc-\u2026",
+                            "expanded_url": "https://www.csirt.gov.it/contenuti/poc-pubblico-per-lo-sfruttamento-della-cve-2022-47966-al02-230118-csirt-ita",
+                            "url": "https://t.co/72daRMGOT9"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-18 18:45",
+                    "likes": 1,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1615782403405930496",
+                    "tweet_text": "CVE-2022-47966 Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache xmlsec (aka XML Security for Java) 1.4.1, because the xmlsec XSLT features, by design in that v... https://t.co/WmIR9vg4V1",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-47966",
+                            "url": "https://t.co/WmIR9vg4V1"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-18 07:00",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1615604975375159296",
+                    "tweet_text": "Find Arctic Wolf's recommendations for CVE-2022-47966. #cybersecurity #EndCyberRisk #arcticwolf https://t.co/QdixXTiajd",
+                    "twitter_user_handle": "ervik",
+                    "twitter_user_name": "Alexander Ervik Johnsen",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/737622372748910592/EYebbHBh_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "livesocial.seismic.com/tkZ7p3",
+                            "expanded_url": "https://livesocial.seismic.com/tkZ7p3",
+                            "url": "https://t.co/QdixXTiajd"
                         }
                     ]
                 }
@@ -1277,7 +1421,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/ytwfcm/cobaltstrike_xss2rce_cve202239197_analysis_and/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32288,
+                    "subreddit_subscribers": 32294,
                     "title": "CobaltStrike Xss2Rce CVE-2022-39197 Analysis and Reproduction",
                     "upvotes": 3,
                     "url": "https://lorexxar-cn.translate.goog/2022/11/02/cs-xss2rce/?_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"
@@ -1288,7 +1432,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/y8w9eq/\u6700\u65b0cs_rcecve202239197\u590d\u73b0\u5fc3\u5f97\u5206\u4eab_the_latest_cs_rce/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32288,
+                    "subreddit_subscribers": 32294,
                     "title": "\u6700\u65b0CS RCE\uff08CVE-2022-39197\uff09\u590d\u73b0\u5fc3\u5f97\u5206\u4eab - The latest CS RCE (CVE-2022-39197) recurrence experience sharing",
                     "upvotes": 2,
                     "url": "https://translate.google.com/translate?sl=auto&amp;tl=en&amp;hl=en&amp;u=https://mp.weixin.qq.com/s/89wXyPaSn3TYn4pmVdr-Mw&amp;client=webapp"
@@ -1299,7 +1443,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/netcve/comments/xkp0em/cve202239197/",
                     "subreddit": "netcve",
-                    "subreddit_subscribers": 143,
+                    "subreddit_subscribers": 144,
                     "title": "CVE-2022-39197",
                     "upvotes": 1,
                     "url": "https://cve.report/CVE-2022-39197"
@@ -1321,7 +1465,7 @@
             "tweets": [
                 {
                     "created_at": "2023-01-18 15:08",
-                    "likes": 17,
+                    "likes": 23,
                     "num_retweets": 6,
                     "retweets": 7,
                     "tweet_id": "1615727736676548610",
@@ -1351,238 +1495,145 @@
             ]
         },
         {
-            "assigner": "chrome-cve-admin@google.com",
-            "audience_size": 168737,
-            "cve": "CVE-2022-3656",
+            "assigner": "cve@mitre.org",
+            "audience_size": 143621,
+            "cve": "CVE-2022-46891",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
-            "cvssv3_base_score": 8.8,
-            "cvssv3_base_severity": "HIGH",
-            "cwes": [
-                {
-                    "cwe_description": "Improper Input Validation",
-                    "cwe_id": "CWE-20"
-                }
-            ],
-            "description": "Insufficient data validation in File System in Google Chrome prior to 107.0.5304.62 allowed a remote attacker to bypass file system restrictions via a crafted HTML page. (Chromium security severity: Medium)",
-            "epss_score": "0.05246",
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": "An issue was discovered in the Arm Mali GPU Kernel Driver. There is a use-after-free. A non-privileged user can make improper GPU processing operations to gain access to already freed memory. This affects Midgard r13p0 through r32p0, Bifrost r1p0 through r40p0, and Valhall r19p0 through r40p0.",
+            "epss_score": "0.00885",
             "github_repos": [
                 {
-                    "created": "2023-01-13T03:26:14Z",
-                    "description": null,
-                    "language": "HTML",
-                    "name": "CVE-2022-3656",
-                    "stars": 34,
-                    "topics": [],
-                    "updated": "2023-01-18T12:46:41Z",
-                    "url": "https://github.com/momika233/CVE-2022-3656"
-                },
-                {
-                    "created": "2022-12-29T23:07:11Z",
-                    "description": "Tenda AC9 V15.03.05.19 was discovered to contain a stack overflow via the deviceList parameter at /goform/setMacFilterCfg. CVE project by @Sn0wAlice",
+                    "created": "2023-01-17T11:31:50Z",
+                    "description": "An issue was discovered in the Arm Mali GPU Kernel Driver. There is a use-after-free. A non-privileged user can make improper GPU processing operations to gain access to already freed memory. This affects Midgard r13p0 through r32p0, Bifrost r1p0 through r40p0, and Valhall r19p0 through r40p0. CVE project by @Sn0wAlice",
                     "language": null,
-                    "name": "CVE-2022-36569",
+                    "name": "CVE-2022-46891",
                     "stars": 0,
                     "topics": [],
-                    "updated": "2022-12-29T23:07:11Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-36569"
-                },
-                {
-                    "created": "2022-12-29T23:08:11Z",
-                    "description": "Tenda AC9 V15.03.05.19 was discovered to contain a stack overflow via the list parameter at /goform/setPptpUserList. CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2022-36568",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2022-12-29T23:08:11Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-36568"
-                },
-                {
-                    "created": "2022-12-29T22:26:16Z",
-                    "description": "Incorrect access control in the install directory (C:\\RailsInstaller) of Rubyinstaller2 v3.1.2 and below allows authenticated attackers to execute arbitrary code via overwriting binaries located in the directory. CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2022-36563",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2022-12-29T22:26:16Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-36563"
-                },
-                {
-                    "created": "2022-12-27T20:24:05Z",
-                    "description": "Insufficient data validation in File System in Google Chrome prior to 107.0.5304.62 allowed a remote attacker to bypass file system restrictions via a crafted HTML page. (Chromium security severity: Medium) CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2022-3656",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2022-12-27T20:24:05Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-3656"
+                    "updated": "2023-01-17T11:31:50Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-46891"
                 }
             ],
-            "lastModifiedDate": "2022-12-09T15:07Z",
-            "num_retweets": 53,
-            "num_tweets": 8,
-            "num_tweets_and_retweets": 61,
-            "publishedDate": "2022-11-01T23:15Z",
+            "lastModifiedDate": "2023-01-17T13:24Z",
+            "num_retweets": 8,
+            "num_tweets": 7,
+            "num_tweets_and_retweets": 15,
+            "publishedDate": "2023-01-17T08:15Z",
             "reddit_posts": [
                 {
-                    "created": 1673590215.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/AICoinViews/comments/10an2l0/the_imperva_red_team_recently_disclosed_a/",
-                    "subreddit": "AICoinViews",
-                    "subreddit_subscribers": 15,
-                    "title": "The Imperva Red Team recently disclosed a vulnerability, dubbed CVE-2022-3656, affecting over 2.5 billion users of Google Chrome and Chromium-based browsers. This vulnerability allowed for the theft of sensitive files, such as crypto wallets and cloud provider credentials.",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/AICoinViews/comments/10an2l0/the_imperva_red_team_recently_disclosed_a/"
-                },
-                {
-                    "created": 1667251642.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/yipgvg/updated_msisac_cybersecurity_advisory_multiple/",
-                    "subreddit": "k12cybersecurity",
-                    "subreddit_subscribers": 94,
-                    "title": "UPDATED MS-ISAC CYBERSECURITY ADVISORY \u2013 Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution \u2013 PATCH: NOW",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/yipgvg/updated_msisac_cybersecurity_advisory_multiple/"
-                },
-                {
-                    "created": 1667349525.0,
+                    "created": 1673944721.0,
                     "is_self": false,
                     "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/yjqjvm/cve20223656/",
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10e78j1/cve202246891/",
                     "subreddit": "netcve",
-                    "subreddit_subscribers": 143,
-                    "title": "CVE-2022-3656",
+                    "subreddit_subscribers": 144,
+                    "title": "CVE-2022-46891",
                     "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-3656"
-                },
-                {
-                    "created": 1666789235.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/ydxjxn/msisac_cybersecurity_advisory_multiple/",
-                    "subreddit": "k12cybersecurity",
-                    "subreddit_subscribers": 94,
-                    "title": "MS-ISAC CYBERSECURITY ADVISORY \u2013 Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution \u2013 PATCH: NOW",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/ydxjxn/msisac_cybersecurity_advisory_multiple/"
+                    "url": "https://cve.report/CVE-2022-46891"
                 }
             ],
-            "score": 8.8,
-            "severity": "HIGH",
+            "score": null,
+            "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-01-18 13:40",
-                    "likes": 78,
-                    "num_retweets": 48,
-                    "retweets": 55,
-                    "tweet_id": "1615705682673795072",
-                    "tweet_text": "\ud83d\udea8 Grave vulnerabilidad afecta usuarios de Google Chrome\n\n\u27a1\ufe0f CVE-2022-3656 permite el robo de archivos confidenciales, como billeteras criptogr\u00e1ficas y credenciales de proveedores de la nube, dice Imperva Red, gracias un enlace simb\u00f3lico malicioso \nhttps://t.co/Eln99lr0Jh",
-                    "twitter_user_handle": "elhackernet",
-                    "twitter_user_name": "elhacker.NET",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1330969532/e-peq1_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "livemint.com/technology/tec\u2026",
-                            "expanded_url": "https://www.livemint.com/technology/tech-news/security-alert-data-of-2-5-billion-google-chrome-users-is-at-risk/amp-11673762110571.html",
-                            "url": "https://t.co/Eln99lr0Jh"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-18 17:20",
-                    "likes": 1,
-                    "num_retweets": 5,
+                    "created_at": "2023-01-18 06:16",
+                    "likes": 20,
+                    "num_retweets": 6,
                     "retweets": 6,
-                    "tweet_id": "1615761082001260581",
-                    "tweet_text": "Google Chrome is the most widely and commonly used browser in the world. But with popularity comes great risk, and it's called CVE-2022-3656.\n\nFix the vulnerability that affects more than 2.5 billion Google Chrome and Chromium-based browser users &gt;&gt; https://t.co/oZW4hpan28",
-                    "twitter_user_handle": "VulcanCyber",
-                    "twitter_user_name": "Vulcan Cyber",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1595076376213831680/5UoBgTFA_normal.jpg",
+                    "tweet_id": "1615594032930906112",
+                    "tweet_text": "CVE-2022-46891: High-Severity Vulnerability in Arm Mali GPU Kernel Driver https://t.co/vpF7qOp400",
+                    "twitter_user_handle": "Dinosn",
+                    "twitter_user_name": "Nicolas Krassas",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1292159799141060610/CLgtH-wo_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "vulcan.io/blog/how-to-fi\u2026",
-                            "expanded_url": "https://vulcan.io/blog/how-to-fix-cve-2022-3656-affecting-google-chrome",
-                            "url": "https://t.co/oZW4hpan28"
+                            "display_url": "securityonline.info/cve-2022-46891\u2026",
+                            "expanded_url": "https://securityonline.info/cve-2022-46891-high-severity-vulnerability-in-arm-mali-gpu-kernel-driver/",
+                            "url": "https://t.co/vpF7qOp400"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-18 17:34",
+                    "created_at": "2023-01-18 05:33",
                     "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1615764560429842433",
-                    "tweet_text": "CVE-2022-3656: Protect your sensitive files from theft now #infosec #infosecurity #cybersecurity #threatintel #threatintelligence #hacking #cybernews #cyberattack #cloudsecurity #malware #ransomware #cyber #threathunting #ZeroTrust #CISA\nhttps://t.co/Hu1tkKH4cQ",
-                    "twitter_user_handle": "CyberIQs_",
-                    "twitter_user_name": "CyberIQs",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1343113218399600641/p04QylMY_normal.jpg",
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1615583183327694851",
+                    "tweet_text": "CVE-2022-46891: High-Severity Vulnerability in Arm Mali GPU Kernel Driver https://t.co/vXVLcVeRHT #security #opensource #cybersecurity #malware #cyber #pentesting #malwareanalysis #infosec #redteam #malwarehunting #hacking #infosec #threathunting #bugbounty #tools #offensivesec\u2026",
+                    "twitter_user_handle": "FilipiPires",
+                    "twitter_user_name": "Filipi Pires",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1531334436800831488/evf2wJ4z_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "cyberiqs.com/latestnews",
-                            "expanded_url": "http://cyberiqs.com/latestnews",
-                            "url": "https://t.co/Hu1tkKH4cQ"
+                            "display_url": "ift.tt/F6LqN7C",
+                            "expanded_url": "https://ift.tt/F6LqN7C",
+                            "url": "https://t.co/vXVLcVeRHT"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-18 01:19",
+                    "created_at": "2023-01-18 05:54",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1615519111194312705",
-                    "tweet_text": "Fletch Top Threat Alert: This flaw in Google Chrome &amp; Chromium-based browsers enabled data theft of information such as crypt..\n\n#FletchScore = Critical/Mainstream\n\n#CyberSecurity #ThreatIntel #InfoSec CVE-2022-3656\n\nhttps://t.co/xpRqf7tQoB",
-                    "twitter_user_handle": "fletch_ai",
-                    "twitter_user_name": "fletch",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1410323546165833728/NuguMAm2_normal.jpg",
+                    "tweet_id": "1615588306271735808",
+                    "tweet_text": "#Vulnerability #ArmMaliGPUKernelDriver CVE-2022-46891: High-Severity Vulnerability in Arm Mali GPU Kernel Driver https://t.co/Ndlte8kr45",
+                    "twitter_user_handle": "Komodosec",
+                    "twitter_user_name": "Komodo Cyber Consulting",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/532759052397207552/LGMpfmcr_normal.png",
                     "urls": [
                         {
-                            "display_url": "bit.ly/3vWzQ6F",
-                            "expanded_url": "https://bit.ly/3vWzQ6F",
-                            "url": "https://t.co/xpRqf7tQoB"
+                            "display_url": "securityonline.info/cve-2022-46891\u2026",
+                            "expanded_url": "https://securityonline.info/cve-2022-46891-high-severity-vulnerability-in-arm-mali-gpu-kernel-driver/?utm_source=dlvr.it&utm_medium=twitter",
+                            "url": "https://t.co/Ndlte8kr45"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-18 17:19",
+                    "created_at": "2023-01-18 06:48",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1615760731130953732",
-                    "tweet_text": "@googlechrome is the most widely and commonly used browser in the world. But with popularity comes great risk, and it's called CVE-2022-3656.\n\nFix the vulnerability that affects more than 2.5 billion Google Chrome and Chromium-based browser users &gt;&gt; https://t.co/oZW4hpan28",
-                    "twitter_user_handle": "VulcanCyber",
-                    "twitter_user_name": "Vulcan Cyber",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1595076376213831680/5UoBgTFA_normal.jpg",
+                    "tweet_id": "1615602102096510976",
+                    "tweet_text": "CVE-2022-46891: High-Severity Vulnerability in Arm Mali GPU Kernel Driver. https://t.co/0GlmIEQEzr",
+                    "twitter_user_handle": "IbtissemOuni4",
+                    "twitter_user_name": "Ibtissem Ouni",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1542795506312773632/k3KHBJjj_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "vulcan.io/blog/how-to-fi\u2026",
-                            "expanded_url": "https://vulcan.io/blog/how-to-fix-cve-2022-3656-affecting-google-chrome",
-                            "url": "https://t.co/oZW4hpan28"
+                            "display_url": "lnkd.in/dNQ43CGy",
+                            "expanded_url": "https://lnkd.in/dNQ43CGy",
+                            "url": "https://t.co/0GlmIEQEzr"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-18 09:19",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1615639940888412161",
+                    "tweet_text": "CVE-2022-46891: High-Severity Vulnerability in Arm Mali GPU Kernel Driver\n\nhttps://t.co/f0BJU5OcEY",
+                    "twitter_user_handle": "PentestingN",
+                    "twitter_user_name": "Pentesting News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1473953427126370307/3MoIVS8I_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "securityonline.info/cve-2022-46891\u2026",
+                            "expanded_url": "https://securityonline.info/cve-2022-46891-high-severity-vulnerability-in-arm-mali-gpu-kernel-driver/",
+                            "url": "https://t.co/f0BJU5OcEY"
                         }
                     ]
                 }
             ],
-            "vendor_advisories": [
-                "https://chromereleases.googleblog.com/2022/10/stable-channel-update-for-desktop_25.html",
-                "https://crbug.com/1345275"
-            ],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Chrome",
-                            "versions": [
-                                "*"
-                            ]
-                        }
-                    ],
-                    "vendor": "Google"
-                }
-            ]
+            "vendor_advisories": [],
+            "vendors": []
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2023-01-18 22:08:02"
+    "updated": "2023-01-19 05:11:28"
 }
