@@ -1,225 +1,8 @@
 {
     "data": [
         {
-            "assigner": "cve@mitre.org",
-            "audience_size": 2598902,
-            "cve": "CVE-2022-47966",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache xmlsec (aka XML Security for Java) 1.4.1, because the xmlsec XSLT features, by design in that version, make the application responsible for certain security protections, and the ManageEngine applications did not provide those protections.",
-            "epss_score": "0.12717",
-            "github_repos": [
-                {
-                    "created": "2023-01-17T21:26:28Z",
-                    "description": "POC for CVE-2022-47966 affecting multiple ManageEngine products",
-                    "language": "Python",
-                    "name": "CVE-2022-47966",
-                    "stars": 50,
-                    "topics": [],
-                    "updated": "2023-01-20T22:43:21Z",
-                    "url": "https://github.com/horizon3ai/CVE-2022-47966"
-                },
-                {
-                    "created": "2023-01-19T11:41:05Z",
-                    "description": "PoC for cve-2022-47966",
-                    "language": null,
-                    "name": "PoC-for-ME-SAML-Vulnerability",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-19T11:41:05Z",
-                    "url": "https://github.com/shameem-testing/PoC-for-ME-SAML-Vulnerability"
-                },
-                {
-                    "created": "2023-01-19T16:06:56Z",
-                    "description": "Multiple Zoho ManageEngine on-premise products",
-                    "language": "Python",
-                    "name": "CVE-2022-47966",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-19T16:15:20Z",
-                    "url": "https://github.com/p33d/CVE-2022-47966"
-                },
-                {
-                    "created": "2023-01-18T19:34:34Z",
-                    "description": "Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache xmlsec (aka XML Security for Java) 1.4.1, because the xmlsec XSLT features, by design in that version, make the application responsible for certain security protections, and the Manag CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2022-47966",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-18T19:34:34Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-47966"
-                }
-            ],
-            "lastModifiedDate": "2023-01-18T19:46Z",
-            "num_retweets": 181,
-            "num_tweets": 108,
-            "num_tweets_and_retweets": 289,
-            "publishedDate": "2023-01-18T18:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1674134544.0,
-                    "is_self": false,
-                    "num_comments": 1,
-                    "reddit_url": "https://www.reddit.com/r/netsec/comments/10g1kpp/poc_exploit_for_cve202247966_affecting_multiple/",
-                    "subreddit": "netsec",
-                    "subreddit_subscribers": 464877,
-                    "title": "POC Exploit for CVE-2022-47966 affecting multiple ManageEngine products",
-                    "upvotes": 37,
-                    "url": "https://github.com/horizon3ai/CVE-2022-47966"
-                },
-                {
-                    "created": 1674146433.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/10g6cij/manageengine_cve202247966_iocs_preauth_rce/",
-                    "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32327,
-                    "title": "ManageEngine CVE-2022-47966 IOCs - pre-auth RCE",
-                    "upvotes": 13,
-                    "url": "https://www.horizon3.ai/manageengine-cve-2022-47966-iocs/"
-                },
-                {
-                    "created": 1674162720.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/atera/comments/10gdehw/are_there_any_manageengine_components_used_by/",
-                    "subreddit": "atera",
-                    "subreddit_subscribers": 1323,
-                    "title": "Are there any ManageEngine components used by Atera?",
-                    "upvotes": 4,
-                    "url": "https://www.reddit.com/r/atera/comments/10gdehw/are_there_any_manageengine_components_used_by/"
-                },
-                {
-                    "created": 1674147378.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/UIC/comments/10g6qut/manageengine_cve202247966_technical_deep_dive/",
-                    "subreddit": "UIC",
-                    "subreddit_subscribers": 3297,
-                    "title": "ManageEngine CVE-2022-47966 Technical Deep Dive",
-                    "upvotes": 2,
-                    "url": "https://www.horizon3.ai/manageengine-cve-2022-47966-technical-deep-dive/"
-                },
-                {
-                    "created": 1674163750.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/10gdum6/hackers_exploiting_vulnerability_affecting_zoho/",
-                    "subreddit": "cybersecurity",
-                    "subreddit_subscribers": 438309,
-                    "title": "Hackers exploiting vulnerability affecting Zoho ManageEngine products: Rapid7",
-                    "upvotes": 2,
-                    "url": "https://www.reddit.com/r/cybersecurity/comments/10gdum6/hackers_exploiting_vulnerability_affecting_zoho/"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-01-20 04:54",
-                    "likes": 102,
-                    "num_retweets": 26,
-                    "retweets": 27,
-                    "tweet_id": "1616298119301599232",
-                    "tweet_text": "\ud83e\udde8 RCE in ManageEngine\n\nRemote Code Execution Vulnerability in ManageEngine products (CVE-2022-47966) due to the use of an outdated version of Apache Santuario.\n\nDork for Shodan:\ntitle:\"ManageEngine\"\n\nLink to template for Nuclei ( https://t.co/frUopqbbbq ) \n\n #rce #cve #BugBounty https://t.co/iKRiFM3ct9",
-                    "twitter_user_handle": "TodayCyberNews",
-                    "twitter_user_name": "Today Cyber News",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1417192567418998785/wyUpZalF_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/projectdiscove\u2026",
-                            "expanded_url": "https://github.com/projectdiscovery/nuclei-templates/pull/6564/files",
-                            "url": "https://t.co/frUopqbbbq"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-20 03:22",
-                    "likes": 47,
-                    "num_retweets": 25,
-                    "retweets": 26,
-                    "tweet_id": "1616274902402871297",
-                    "tweet_text": "UPDATE \u2014 Horizon3 releases PoC exploit for critical security flaw affecting #Zoho ManageEngine products.\n\nRapid7 reports active weaponization of CVE-2022-47966 exploit by threat actors.\n\nRead: https://t.co/jQeNXIUDAx\n\nUpdate your systems and check for signs of compromise.",
-                    "twitter_user_handle": "TheHackersNews",
-                    "twitter_user_name": "The Hacker News",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1597647879811657728/FLgHrLHy_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "thehackernews.com/2023/01/zoho-m\u2026",
-                            "expanded_url": "https://thehackernews.com/2023/01/zoho-manageengine-poc-exploit-to-be.html#update-poc-exploit-released",
-                            "url": "https://t.co/jQeNXIUDAx"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-20 07:53",
-                    "likes": 35,
-                    "num_retweets": 15,
-                    "retweets": 17,
-                    "tweet_id": "1616343188570083334",
-                    "tweet_text": "CVE-2022-47966\n\nPOC for CVE-2022-47966 affecting multiple ManageEngine products\n\nhttps://t.co/O5DJfreQOM\n\nNuclei templates:\nhttps://t.co/XKLgH8kyFb https://t.co/qRFSPuN1je https://t.co/gGR1yk4Bzx",
-                    "twitter_user_handle": "hack_git",
-                    "twitter_user_name": "HackGit",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1430451138277556224/yDiqSjga_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/horizon3ai/CVE\u2026",
-                            "expanded_url": "https://github.com/horizon3ai/CVE-2022-47966",
-                            "url": "https://t.co/O5DJfreQOM"
-                        },
-                        {
-                            "display_url": "github.com/projectdiscove\u2026",
-                            "expanded_url": "https://github.com/projectdiscovery/nuclei-templates/pull/6564/files",
-                            "url": "https://t.co/XKLgH8kyFb"
-                        },
-                        {
-                            "display_url": "t.me/hackgit/7222",
-                            "expanded_url": "https://t.me/hackgit/7222",
-                            "url": "https://t.co/qRFSPuN1je"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-20 08:17",
-                    "likes": 32,
-                    "num_retweets": 14,
-                    "retweets": 15,
-                    "tweet_id": "1616349268603801600",
-                    "tweet_text": "Here are some detection ideas for ManageEngine RCE CVE-2022-47966\ud83e\uddf5:\n1. According to the report, Java's RuntimeExec() executes the arbitrary command. \n2. A quick search on Google shows that Java runs the command in a separate process. 1/2\n#ThreatHunting \nhttps://t.co/YRtxyn98V8 https://t.co/sZ0snwwkO4",
-                    "twitter_user_handle": "Cyb3rMonk",
-                    "twitter_user_name": "Mehmet Ergene",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1380612222498570246/sn1_sbIo_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "tutorialspoint.com/java/lang/runt\u2026",
-                            "expanded_url": "https://www.tutorialspoint.com/java/lang/runtime_exec_envp.htm",
-                            "url": "https://t.co/YRtxyn98V8"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-20 12:02",
-                    "likes": 73,
-                    "num_retweets": 14,
-                    "retweets": 17,
-                    "tweet_id": "1616405741912588289",
-                    "tweet_text": "CVE-2022-47966: ManageEngine RCE PoC:\n\n#BugBounty https://t.co/kW3AVYaPKX",
-                    "twitter_user_handle": "sheikhrishad0",
-                    "twitter_user_name": "Sheikh Rishad",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1477609223663996930/FdD6FR7F_normal.jpg",
-                    "urls": []
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
             "assigner": "psirt@fortinet.com",
-            "audience_size": 2477828,
+            "audience_size": 2798812,
             "cve": "CVE-2022-42475",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -261,9 +44,9 @@
                 }
             ],
             "lastModifiedDate": "2023-01-09T17:30Z",
-            "num_retweets": 96,
-            "num_tweets": 54,
-            "num_tweets_and_retweets": 150,
+            "num_retweets": 117,
+            "num_tweets": 49,
+            "num_tweets_and_retweets": 166,
             "publishedDate": "2023-01-02T09:15Z",
             "reddit_posts": [
                 {
@@ -272,7 +55,7 @@
                     "num_comments": 36,
                     "reddit_url": "https://www.reddit.com/r/fortinet/comments/100uib7/ssl_vpn_failed_from_18573124227_user_test/",
                     "subreddit": "fortinet",
-                    "subreddit_subscribers": 35980,
+                    "subreddit_subscribers": 35988,
                     "title": "SSL VPN Failed From 185.73.124.227 User: Test",
                     "upvotes": 20,
                     "url": "https://www.reddit.com/r/fortinet/comments/100uib7/ssl_vpn_failed_from_18573124227_user_test/"
@@ -283,7 +66,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/10g5fpo/suspected_chinese_threat_actors_exploiting/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32327,
+                    "subreddit_subscribers": 32335,
                     "title": "Suspected Chinese Threat Actors Exploiting FortiOS Vulnerability (CVE-2022-42475)",
                     "upvotes": 16,
                     "url": "https://www.mandiant.com/resources/blog/chinese-actors-exploit-fortios-flaw"
@@ -294,7 +77,7 @@
                     "num_comments": 33,
                     "reddit_url": "https://www.reddit.com/r/fortinet/comments/zn8vzr/fortios_6016_released_with_cve202242475_fixed/",
                     "subreddit": "fortinet",
-                    "subreddit_subscribers": 35980,
+                    "subreddit_subscribers": 35988,
                     "title": "FortiOS 6.0.16 released with CVE-2022-42475 fixed.",
                     "upvotes": 13,
                     "url": "https://docs.fortinet.com/document/fortigate/6.0.16/fortios-release-notes/565064/resolved-issues"
@@ -305,21 +88,21 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/zkcctr/faillevpnsslfortigate_0_day_fortigate_vpnssl_flaw/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32327,
+                    "subreddit_subscribers": 32335,
                     "title": "Faille-VPN-SSL-Fortigate - 0 day FortiGate VPN-SSL flaw - CVE-2022-42475",
-                    "upvotes": 7,
+                    "upvotes": 9,
                     "url": "https://olympecyberdefense-fr.translate.goog/vpn-ssl-fortigate/?_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=en-US&amp;_x_tr_pto=wapp"
                 },
                 {
-                    "created": 1671047445.0,
+                    "created": 1670966034.0,
                     "is_self": true,
-                    "num_comments": 14,
-                    "reddit_url": "https://www.reddit.com/r/fortinet/comments/zm0e9a/cve202242475/",
+                    "num_comments": 18,
+                    "reddit_url": "https://www.reddit.com/r/fortinet/comments/zl75as/cve202242475_fortios_6016/",
                     "subreddit": "fortinet",
-                    "subreddit_subscribers": 35980,
-                    "title": "CVE-2022-42475",
-                    "upvotes": 7,
-                    "url": "https://www.reddit.com/r/fortinet/comments/zm0e9a/cve202242475/"
+                    "subreddit_subscribers": 35988,
+                    "title": "CVE-2022-42475 - FortiOS 6.0.16?",
+                    "upvotes": 6,
+                    "url": "https://www.reddit.com/r/fortinet/comments/zl75as/cve202242475_fortios_6016/"
                 }
             ],
             "score": 9.8,
@@ -327,9 +110,9 @@
             "tweets": [
                 {
                     "created_at": "2023-01-20 07:00",
-                    "likes": 62,
-                    "num_retweets": 37,
-                    "retweets": 41,
+                    "likes": 69,
+                    "num_retweets": 45,
+                    "retweets": 49,
                     "tweet_id": "1616329885194260480",
                     "tweet_text": "Researchers are warning of a new Chinese #malware called \"BOLDMOVE\" that exploited a recently discovered #vulnerability in #Fortinet FortiOS SSL-VPN (CVE-2022-42475) as a zero-day to attack government entities &amp; managed service providers.\n\nhttps://t.co/OyUr9Tp6vw\n\n#cybersecurity",
                     "twitter_user_handle": "TheHackersNews",
@@ -345,9 +128,9 @@
                 },
                 {
                     "created_at": "2023-01-20 13:30",
-                    "likes": 30,
-                    "num_retweets": 23,
-                    "retweets": 25,
+                    "likes": 36,
+                    "num_retweets": 27,
+                    "retweets": 29,
                     "tweet_id": "1616427827934494721",
                     "tweet_text": "Researchers are warning of a new Chinese #malware called \"BOLDMOVE\" that exploited a recently discovered #vulnerability in #Fortinet FortiOS SSL-VPN (CVE-2022-42475) as a zero-day to attack government entities &amp; managed service providers.\n\nhttps://t.co/OyUr9ToyFY\n\n#cybersecurity",
                     "twitter_user_handle": "TheHackersNews",
@@ -363,9 +146,9 @@
                 },
                 {
                     "created_at": "2023-01-20 09:16",
-                    "likes": 23,
-                    "num_retweets": 10,
-                    "retweets": 10,
+                    "likes": 25,
+                    "num_retweets": 11,
+                    "retweets": 11,
                     "tweet_id": "1616364126229479424",
                     "tweet_text": "THN: Pesquisadores alertam para um novo # malware chin\u00eas chamado\" BOLDMOVE \" que explorou uma vulnerabilidade recentemente descoberta no Fortinet FortiOS SSL-VPN (CVE-2022-42475) como um dia zero para atacar entidades governamentais e provedores de servi\u00e7os gerenciados.",
                     "twitter_user_handle": "franmito22",
@@ -374,38 +157,38 @@
                     "urls": []
                 },
                 {
-                    "created_at": "2023-01-19 23:34",
-                    "likes": 20,
-                    "num_retweets": 4,
-                    "retweets": 5,
-                    "tweet_id": "1616217537389416448",
-                    "tweet_text": "Suspected Chinese Threat Actors Exploiting FortiOS Vulnerability (CVE-2022-42475) https://t.co/p8n0Qd2ZQ3",
-                    "twitter_user_handle": "piyokango",
-                    "twitter_user_name": "piyokango",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1036056679970877440/_Hs-EYLQ_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "mandiant.com/resources/blog\u2026",
-                            "expanded_url": "https://www.mandiant.com/resources/blog/chinese-actors-exploit-fortios-flaw",
-                            "url": "https://t.co/p8n0Qd2ZQ3"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-20 07:21",
-                    "likes": 3,
-                    "num_retweets": 4,
-                    "retweets": 4,
-                    "tweet_id": "1616334964403879936",
-                    "tweet_text": "Researchers are warning of a new Chinese #malware called \"BOLDMOVE\" that exploited a recently discovered #vulnerability in #Fortinet FortiOS SSL-VPN (CVE-2022-42475) as a zero-day to attack government entities &amp; managed service providers.\n\nhttps://t.co/AVu27K6Ggv\n\n#cybersecurity",
-                    "twitter_user_handle": "Swati_THN",
-                    "twitter_user_name": "Swati Khandelwal",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1167522933482196992/a5LZk63J_normal.jpg",
+                    "created_at": "2023-01-20 22:35",
+                    "likes": 17,
+                    "num_retweets": 11,
+                    "retweets": 12,
+                    "tweet_id": "1616564980102402051",
+                    "tweet_text": "Researchers are warning of a new Chinese #malware called \"BOLDMOVE\" that exploited a recently discovered #vulnerability in #Fortinet FortiOS SSL-VPN (CVE-2022-42475) as a zero-day to attack government entities &amp; managed service providers.\n\nhttps://t.co/9riEmveKH5\n\n#cybersecurity",
+                    "twitter_user_handle": "YourAnonRiots",
+                    "twitter_user_name": "Anonymous\ud83d\udc3e\ud83d\udc31\ud83c\udf75\u2615",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1344109363804450816/9oQ_zVst_normal.jpg",
                     "urls": [
                         {
                             "display_url": "thehackernews.com/2023/01/new-ch\u2026",
                             "expanded_url": "https://thehackernews.com/2023/01/new-chinese-malware-spotted-exploiting.html",
-                            "url": "https://t.co/AVu27K6Ggv"
+                            "url": "https://t.co/9riEmveKH5"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-20 09:50",
+                    "likes": 17,
+                    "num_retweets": 6,
+                    "retweets": 9,
+                    "tweet_id": "1616372499335507968",
+                    "tweet_text": "\u4e2d\u56fd\u767a\u3068\u7591\u308f\u308c\u308b\u8105\u5a01\u4e3b\u4f53\u304cFortiOS\u306e\u8106\u5f31\u6027(CVE-2022-42475)\u3092\u30bc\u30ed\u30c7\u30a4\u3067\u60aa\u7528\u3057\u3066\u3044\u305f\u3002Mandiant\u5831\u544a\u3002Fortinet\u304b\u3089\u306e\u60c5\u5831\u516c\u958b2022/12/12\u3060\u3063\u305f\u304c\u30012022\u5e7410\u6708\u304b\u3089\u60aa\u7528\u3002\u30de\u30eb\u30a6\u30a7\u30a2\u306fUTC+8\u306e\u30de\u30b7\u30f3\u3067\u30b3\u30f3\u30d1\u30a4\u30eb\u3055\u308c\u3066\u304a\u308a\u3001\u6587\u5b57\u30b3\u30fc\u30c9\u3092\u6307\u3059\u53ef\u80fd\u6027\u304c\u3042\u308b\u7b87\u6240\u3067gbk\u306e\u6587\u5b57\u5217\u3002 https://t.co/7lUytdVZXy",
+                    "twitter_user_handle": "__kokumoto",
+                    "twitter_user_name": "kokum\u0585t\u0585",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1612504196720492544/T_-s-6OP_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "mandiant.com/resources/blog\u2026",
+                            "expanded_url": "https://www.mandiant.com/resources/blog/chinese-actors-exploit-fortios-flaw",
+                            "url": "https://t.co/7lUytdVZXy"
                         }
                     ]
                 }
@@ -429,8 +212,225 @@
             ]
         },
         {
+            "assigner": "cve@mitre.org",
+            "audience_size": 1566810,
+            "cve": "CVE-2022-47966",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": "Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache xmlsec (aka XML Security for Java) 1.4.1, because the xmlsec XSLT features, by design in that version, make the application responsible for certain security protections, and the ManageEngine applications did not provide those protections.",
+            "epss_score": "0.12717",
+            "github_repos": [
+                {
+                    "created": "2023-01-17T21:26:28Z",
+                    "description": "POC for CVE-2022-47966 affecting multiple ManageEngine products",
+                    "language": "Python",
+                    "name": "CVE-2022-47966",
+                    "stars": 53,
+                    "topics": [],
+                    "updated": "2023-01-21T05:26:47Z",
+                    "url": "https://github.com/horizon3ai/CVE-2022-47966"
+                },
+                {
+                    "created": "2023-01-19T11:41:05Z",
+                    "description": "PoC for cve-2022-47966",
+                    "language": null,
+                    "name": "PoC-for-ME-SAML-Vulnerability",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2023-01-19T11:41:05Z",
+                    "url": "https://github.com/shameem-testing/PoC-for-ME-SAML-Vulnerability"
+                },
+                {
+                    "created": "2023-01-18T19:34:34Z",
+                    "description": "Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache xmlsec (aka XML Security for Java) 1.4.1, because the xmlsec XSLT features, by design in that version, make the application responsible for certain security protections, and the Manag CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2022-47966",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2023-01-18T19:34:34Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-47966"
+                },
+                {
+                    "created": "2023-01-19T16:06:56Z",
+                    "description": "Multiple Zoho ManageEngine on-premise products",
+                    "language": "Python",
+                    "name": "CVE-2022-47966",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2023-01-19T16:15:20Z",
+                    "url": "https://github.com/p33d/CVE-2022-47966"
+                }
+            ],
+            "lastModifiedDate": "2023-01-18T19:46Z",
+            "num_retweets": 133,
+            "num_tweets": 81,
+            "num_tweets_and_retweets": 214,
+            "publishedDate": "2023-01-18T18:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1674134544.0,
+                    "is_self": false,
+                    "num_comments": 1,
+                    "reddit_url": "https://www.reddit.com/r/netsec/comments/10g1kpp/poc_exploit_for_cve202247966_affecting_multiple/",
+                    "subreddit": "netsec",
+                    "subreddit_subscribers": 464893,
+                    "title": "POC Exploit for CVE-2022-47966 affecting multiple ManageEngine products",
+                    "upvotes": 34,
+                    "url": "https://github.com/horizon3ai/CVE-2022-47966"
+                },
+                {
+                    "created": 1674146433.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/10g6cij/manageengine_cve202247966_iocs_preauth_rce/",
+                    "subreddit": "blueteamsec",
+                    "subreddit_subscribers": 32335,
+                    "title": "ManageEngine CVE-2022-47966 IOCs - pre-auth RCE",
+                    "upvotes": 16,
+                    "url": "https://www.horizon3.ai/manageengine-cve-2022-47966-iocs/"
+                },
+                {
+                    "created": 1674162720.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/atera/comments/10gdehw/are_there_any_manageengine_components_used_by/",
+                    "subreddit": "atera",
+                    "subreddit_subscribers": 1325,
+                    "title": "Are there any ManageEngine components used by Atera?",
+                    "upvotes": 2,
+                    "url": "https://www.reddit.com/r/atera/comments/10gdehw/are_there_any_manageengine_components_used_by/"
+                },
+                {
+                    "created": 1674163750.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/10gdum6/hackers_exploiting_vulnerability_affecting_zoho/",
+                    "subreddit": "cybersecurity",
+                    "subreddit_subscribers": 438409,
+                    "title": "Hackers exploiting vulnerability affecting Zoho ManageEngine products: Rapid7",
+                    "upvotes": 2,
+                    "url": "https://www.reddit.com/r/cybersecurity/comments/10gdum6/hackers_exploiting_vulnerability_affecting_zoho/"
+                },
+                {
+                    "created": 1674147378.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/UIC/comments/10g6qut/manageengine_cve202247966_technical_deep_dive/",
+                    "subreddit": "UIC",
+                    "subreddit_subscribers": 3296,
+                    "title": "ManageEngine CVE-2022-47966 Technical Deep Dive",
+                    "upvotes": 2,
+                    "url": "https://www.horizon3.ai/manageengine-cve-2022-47966-technical-deep-dive/"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-01-20 12:02",
+                    "likes": 97,
+                    "num_retweets": 20,
+                    "retweets": 22,
+                    "tweet_id": "1616405741912588289",
+                    "tweet_text": "CVE-2022-47966: ManageEngine RCE PoC:\n\n#BugBounty https://t.co/kW3AVYaPKX",
+                    "twitter_user_handle": "sheikhrishad0",
+                    "twitter_user_name": "Sheikh Rishad",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1477609223663996930/FdD6FR7F_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-01-20 07:53",
+                    "likes": 41,
+                    "num_retweets": 18,
+                    "retweets": 20,
+                    "tweet_id": "1616343188570083334",
+                    "tweet_text": "CVE-2022-47966\n\nPOC for CVE-2022-47966 affecting multiple ManageEngine products\n\nhttps://t.co/O5DJfreQOM\n\nNuclei templates:\nhttps://t.co/XKLgH8kyFb https://t.co/qRFSPuN1je https://t.co/gGR1yk4Bzx",
+                    "twitter_user_handle": "hack_git",
+                    "twitter_user_name": "HackGit",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1430451138277556224/yDiqSjga_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/horizon3ai/CVE\u2026",
+                            "expanded_url": "https://github.com/horizon3ai/CVE-2022-47966",
+                            "url": "https://t.co/O5DJfreQOM"
+                        },
+                        {
+                            "display_url": "github.com/projectdiscove\u2026",
+                            "expanded_url": "https://github.com/projectdiscovery/nuclei-templates/pull/6564/files",
+                            "url": "https://t.co/XKLgH8kyFb"
+                        },
+                        {
+                            "display_url": "t.me/hackgit/7222",
+                            "expanded_url": "https://t.me/hackgit/7222",
+                            "url": "https://t.co/qRFSPuN1je"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-20 08:17",
+                    "likes": 34,
+                    "num_retweets": 15,
+                    "retweets": 16,
+                    "tweet_id": "1616349268603801600",
+                    "tweet_text": "Here are some detection ideas for ManageEngine RCE CVE-2022-47966\ud83e\uddf5:\n1. According to the report, Java's RuntimeExec() executes the arbitrary command. \n2. A quick search on Google shows that Java runs the command in a separate process. 1/2\n#ThreatHunting \nhttps://t.co/YRtxyn98V8 https://t.co/sZ0snwwkO4",
+                    "twitter_user_handle": "Cyb3rMonk",
+                    "twitter_user_name": "Mehmet Ergene",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1380612222498570246/sn1_sbIo_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "tutorialspoint.com/java/lang/runt\u2026",
+                            "expanded_url": "https://www.tutorialspoint.com/java/lang/runtime_exec_envp.htm",
+                            "url": "https://t.co/YRtxyn98V8"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-20 19:08",
+                    "likes": 29,
+                    "num_retweets": 14,
+                    "retweets": 15,
+                    "tweet_id": "1616512995026210823",
+                    "tweet_text": "Attackers are now actively exploiting a critical Zoho ManageEngine RCE vulnerability (CVE-2022-47966) with public exploit code to open reverse shells on compromised devices - @serghei\nhttps://t.co/winJyEOM7Z",
+                    "twitter_user_handle": "BleepinComputer",
+                    "twitter_user_name": "BleepingComputer",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/542789702365892608/is5mSep2_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "bleepingcomputer.com/news/security/\u2026",
+                            "expanded_url": "https://www.bleepingcomputer.com/news/security/critical-manageengine-rce-bug-now-exploited-to-open-reverse-shells/",
+                            "url": "https://t.co/winJyEOM7Z"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-20 06:31",
+                    "likes": 18,
+                    "num_retweets": 9,
+                    "retweets": 11,
+                    "tweet_id": "1616322538111483905",
+                    "tweet_text": "Our latest @rapid7 analysis details CVE-2022-47966 a pre-authentication remote code execution (RCE) vulnerability where we are seeing active exploitation: https://t.co/8BBkIND1lR H/T @NTKramer #infosec #cybersecurity https://t.co/G35JCuyt3r",
+                    "twitter_user_handle": "Raj_Samani",
+                    "twitter_user_name": "Raj Samani",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/911031738108923904/KYc0w4Rf_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "rapid7.com/blog/post/2023\u2026",
+                            "expanded_url": "https://www.rapid7.com/blog/post/2023/01/19/etr-cve-2022-47966-rapid7-observed-exploitation-of-critical-manageengine-vulnerability/",
+                            "url": "https://t.co/8BBkIND1lR"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
             "assigner": "secure@microsoft.com",
-            "audience_size": 738955,
+            "audience_size": 847838,
             "cve": "CVE-2022-34718",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -446,7 +446,7 @@
                     "description": ":palm_tree:Kernel privilege escalation vulnerability collection, with compilation environment, demo GIF map, vulnerability details, executable file  (\u63d0\u6743\u6f0f\u6d1e\u5408\u96c6) ",
                     "language": "C",
                     "name": "Kernelhub",
-                    "stars": 2397,
+                    "stars": 2398,
                     "topics": [
                         "cve",
                         "cve-2021-1732",
@@ -469,7 +469,7 @@
                         "tool",
                         "windows"
                     ],
-                    "updated": "2023-01-18T09:51:07Z",
+                    "updated": "2023-01-21T03:37:03Z",
                     "url": "https://github.com/Ascotbe/Kernelhub"
                 },
                 {
@@ -494,9 +494,9 @@
                 }
             ],
             "lastModifiedDate": "2022-09-17T01:22Z",
-            "num_retweets": 91,
-            "num_tweets": 5,
-            "num_tweets_and_retweets": 96,
+            "num_retweets": 146,
+            "num_tweets": 12,
+            "num_tweets_and_retweets": 158,
             "publishedDate": "2022-09-13T19:15Z",
             "reddit_posts": [
                 {
@@ -505,9 +505,9 @@
                     "num_comments": 6,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/yfcpfe/tcpip_vulnerability_cve202234718_poc_restoration/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 464877,
+                    "subreddit_subscribers": 464893,
                     "title": "TCP/IP Vulnerability CVE-2022\u201334718 PoC Restoration and Analysis",
-                    "upvotes": 105,
+                    "upvotes": 107,
                     "url": "https://medium.com/numen-cyber-labs/analysis-and-summary-of-tcp-ip-protocol-remote-code-execution-vulnerability-cve-2022-34718-8fcc28538acf"
                 },
                 {
@@ -516,9 +516,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/yew37w/analysis_and_summary_of_microsoft_tcpip_protocol/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32327,
+                    "subreddit_subscribers": 32335,
                     "title": "Analysis and Summary of Microsoft TCP/IP Protocol Remote Code Execution Vulnerability CVE-2022\u201334718",
-                    "upvotes": 4,
+                    "upvotes": 6,
                     "url": "https://medium.com/@numencyberlabs/analysis-and-summary-of-tcp-ip-protocol-remote-code-execution-vulnerability-cve-2022-34718-8fcc28538acf"
                 },
                 {
@@ -538,9 +538,9 @@
             "tweets": [
                 {
                     "created_at": "2023-01-20 18:51",
-                    "likes": 341,
-                    "num_retweets": 90,
-                    "retweets": 96,
+                    "likes": 548,
+                    "num_retweets": 145,
+                    "retweets": 153,
                     "tweet_id": "1616508780061298689",
                     "tweet_text": "My new blog post! Dissecting and Exploiting TCP/IP RCE Vulnerability \u201cEvilESP\u201d. Reverse engineering CVE-2022-34718 + write a remote Denial of Service exploit. Covers IPsec and IPv6 fragmentation in the Windows kernel, bin-diffing, and making weird packets https://t.co/XR8qhoq1ub",
                     "twitter_user_handle": "chompie1337",
@@ -610,7 +610,7 @@
                 },
                 {
                     "created_at": "2023-01-20 22:08",
-                    "likes": 0,
+                    "likes": 1,
                     "num_retweets": 0,
                     "retweets": 0,
                     "tweet_id": "1616558192896495629",
@@ -646,7 +646,7 @@
         },
         {
             "assigner": "secure@microsoft.com",
-            "audience_size": 427709,
+            "audience_size": 432613,
             "cve": "CVE-2022-41033",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -669,9 +669,9 @@
                 }
             ],
             "lastModifiedDate": "2022-10-13T15:26Z",
-            "num_retweets": 28,
-            "num_tweets": 1,
-            "num_tweets_and_retweets": 29,
+            "num_retweets": 34,
+            "num_tweets": 2,
+            "num_tweets_and_retweets": 36,
             "publishedDate": "2022-10-11T19:15Z",
             "reddit_posts": [
                 {
@@ -680,9 +680,9 @@
                     "num_comments": 11,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/z9jlel/kb5019959_wont_install_on_20h2_or_21h2/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 767063,
+                    "subreddit_subscribers": 767119,
                     "title": "KB5019959 won't install on 20h2 or 21h2",
-                    "upvotes": 1,
+                    "upvotes": 2,
                     "url": "https://www.reddit.com/r/sysadmin/comments/z9jlel/kb5019959_wont_install_on_20h2_or_21h2/"
                 },
                 {
@@ -691,7 +691,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/netcve/comments/y1jqwk/cve202241033/",
                     "subreddit": "netcve",
-                    "subreddit_subscribers": 145,
+                    "subreddit_subscribers": 146,
                     "title": "CVE-2022-41033",
                     "upvotes": 1,
                     "url": "https://cve.report/CVE-2022-41033"
@@ -702,7 +702,7 @@
                     "num_comments": 5,
                     "reddit_url": "https://www.reddit.com/r/WindowsHelp/comments/z9jk3l/kb5019959_not_installing_dism_and_wusa_keep/",
                     "subreddit": "WindowsHelp",
-                    "subreddit_subscribers": 15135,
+                    "subreddit_subscribers": 15146,
                     "title": "Kb5019959 not installing. Dism and wusa keep failing install",
                     "upvotes": 1,
                     "url": "https://www.reddit.com/r/WindowsHelp/comments/z9jk3l/kb5019959_not_installing_dism_and_wusa_keep/"
@@ -724,9 +724,9 @@
             "tweets": [
                 {
                     "created_at": "2023-01-20 16:39",
-                    "likes": 88,
-                    "num_retweets": 28,
-                    "retweets": 31,
+                    "likes": 106,
+                    "num_retweets": 34,
+                    "retweets": 38,
                     "tweet_id": "1616475500377145344",
                     "tweet_text": "\ud83d\udc40 New RCA up for CVE-2022-41033, a type confusion in Windows COM+ Event System Service by @tiraniddo!\n#itw0days\n\nhttps://t.co/yLIny2CZwG https://t.co/IVBwjYBUZI",
                     "twitter_user_handle": "maddiestone",
@@ -737,6 +737,34 @@
                             "display_url": "googleprojectzero.github.io/0days-in-the-w\u2026",
                             "expanded_url": "https://googleprojectzero.github.io/0days-in-the-wild//0day-RCAs/2022/CVE-2022-41033.html",
                             "url": "https://t.co/yLIny2CZwG"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-21 04:56",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1616660967487586304",
+                    "tweet_text": "#exploit\n1. CVE-2022-41033:\nType confusion in Windows COM+ Event System Service\nhttps://t.co/mL1vvDuLPL\n\n2. CVE-2022-34718:\nDissecting and Exploiting TCP/IP RCE Vulnerability \"EvilESP\"\nhttps://t.co/A7LR6pzdqf\n\n3. CVE-2023-0297:\nPre-auth RCE in pyLoad\nhttps://t.co/GVEyoXANzU",
+                    "twitter_user_handle": "ksg93rd",
+                    "twitter_user_name": "Mr. OS",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/862706447020326912/ZiPZWTZ4_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "googleprojectzero.github.io/0days-in-the-w\u2026",
+                            "expanded_url": "https://googleprojectzero.github.io/0days-in-the-wild//0day-RCAs/2022/CVE-2022-41033.html",
+                            "url": "https://t.co/mL1vvDuLPL"
+                        },
+                        {
+                            "display_url": "securityintelligence.com/posts/dissecti\u2026",
+                            "expanded_url": "https://securityintelligence.com/posts/dissecting-exploiting-tcp-ip-rce-vulnerability-evilesp",
+                            "url": "https://t.co/A7LR6pzdqf"
+                        },
+                        {
+                            "display_url": "github.com/bAuh0lz/CVE-20\u2026",
+                            "expanded_url": "https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad",
+                            "url": "https://t.co/GVEyoXANzU"
                         }
                     ]
                 }
@@ -760,123 +788,7 @@
         },
         {
             "assigner": null,
-            "audience_size": 211777,
-            "cve": "CVE-2023-22794",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": null,
-            "epss_score": null,
-            "github_repos": [],
-            "lastModifiedDate": null,
-            "num_retweets": 10,
-            "num_tweets": 9,
-            "num_tweets_and_retweets": 19,
-            "publishedDate": null,
-            "reddit_posts": [],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-01-20 04:35",
-                    "likes": 1,
-                    "num_retweets": 4,
-                    "retweets": 4,
-                    "tweet_id": "1616293235768303616",
-                    "tweet_text": "CVE-2023-22794: RubyGems ActiveRecord SQL Injection Vulnerability https://t.co/sC8mjOvhVC #security #opensource #cybersecurity #malware #cyber #pentesting #malwareanalysis #infosec #redteam #malwarehunting #hacking #infosec #threathunting #bugbounty #tools #offensivesecurity",
-                    "twitter_user_handle": "FilipiPires",
-                    "twitter_user_name": "Filipi Pires",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1531334436800831488/evf2wJ4z_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/UfI1Wi9",
-                            "expanded_url": "https://ift.tt/UfI1Wi9",
-                            "url": "https://t.co/sC8mjOvhVC"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-20 06:35",
-                    "likes": 6,
-                    "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1616323536372764674",
-                    "tweet_text": "CVE-2023-22794: RubyGems ActiveRecord SQL Injection Vulnerability https://t.co/2XZR2BOeSI",
-                    "twitter_user_handle": "Dinosn",
-                    "twitter_user_name": "Nicolas Krassas",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1292159799141060610/CLgtH-wo_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "securityonline.info/cve-2023-22794\u2026",
-                            "expanded_url": "https://securityonline.info/cve-2023-22794-rubygems-activerecord-sql-injection-vulnerability/",
-                            "url": "https://t.co/2XZR2BOeSI"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-20 04:09",
-                    "likes": 1,
-                    "num_retweets": 2,
-                    "retweets": 2,
-                    "tweet_id": "1616286805002797058",
-                    "tweet_text": "CVE-2023-22794: RubyGems ActiveRecord SQL Injection Vulnerability https://t.co/tZBSeNUWdm #opensource #infosec #security #pentesting",
-                    "twitter_user_handle": "the_yellow_fall",
-                    "twitter_user_name": "Gray Hats",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/419147954344058880/bTW9Gx7T_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "securityonline.info/cve-2023-22794\u2026",
-                            "expanded_url": "https://securityonline.info/cve-2023-22794-rubygems-activerecord-sql-injection-vulnerability/",
-                            "url": "https://t.co/tZBSeNUWdm"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-20 09:16",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1616363909165768704",
-                    "tweet_text": "CVE-2023-22794: RubyGems ActiveRecord SQL Injection Vulnerability\n\nhttps://t.co/0UF8bGWZ9z",
-                    "twitter_user_handle": "PentestingN",
-                    "twitter_user_name": "Pentesting News",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1473953427126370307/3MoIVS8I_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "securityonline.info/cve-2023-22794\u2026",
-                            "expanded_url": "https://securityonline.info/cve-2023-22794-rubygems-activerecord-sql-injection-vulnerability/",
-                            "url": "https://t.co/0UF8bGWZ9z"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-20 03:20",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1616274419847991296",
-                    "tweet_text": "RubySec \u279c CVE-2023-22794 (activerecord): SQL Injection Vulnerability via ActiveRecord comments https://t.co/Fx9jDG2cFC",
-                    "twitter_user_handle": "rubylandnews",
-                    "twitter_user_name": "RUBYLAND",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/802374927055802368/aYBntYo1_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "rubysec.com/advisories/CVE\u2026",
-                            "expanded_url": "https://rubysec.com/advisories/CVE-2023-22794/",
-                            "url": "https://t.co/Fx9jDG2cFC"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": null,
-            "audience_size": 207145,
+            "audience_size": 338976,
             "cve": "CVE-2021-4428",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -920,8 +832,8 @@
             ],
             "lastModifiedDate": null,
             "num_retweets": 0,
-            "num_tweets": 11,
-            "num_tweets_and_retweets": 11,
+            "num_tweets": 18,
+            "num_tweets_and_retweets": 18,
             "publishedDate": null,
             "reddit_posts": [
                 {
@@ -930,9 +842,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/msp/comments/rfp45e/log4j_rce_cve20214428_for_syncromsp_specific/",
                     "subreddit": "msp",
-                    "subreddit_subscribers": 141670,
+                    "subreddit_subscribers": 141680,
                     "title": "Log4j RCE (CVE-2021-4428) - For SyncroMSP Specific",
-                    "upvotes": 21,
+                    "upvotes": 20,
                     "url": "https://www.reddit.com/r/msp/comments/rfp45e/log4j_rce_cve20214428_for_syncromsp_specific/"
                 },
                 {
@@ -943,7 +855,7 @@
                     "subreddit": "syncro",
                     "subreddit_subscribers": 1058,
                     "title": "Log4J Update",
-                    "upvotes": 12,
+                    "upvotes": 11,
                     "url": "https://www.reddit.com/r/syncro/comments/rfici2/log4j_update/"
                 },
                 {
@@ -974,7 +886,7 @@
                     "num_comments": 7,
                     "reddit_url": "https://www.reddit.com/r/netapp/comments/rku352/activeiq_unified_manager_97p1_log4j_workarounds/",
                     "subreddit": "netapp",
-                    "subreddit_subscribers": 4236,
+                    "subreddit_subscribers": 4237,
                     "title": "ActiveIQ Unified Manager 9.7P1 - log4j Workarounds",
                     "upvotes": 3,
                     "url": "https://www.reddit.com/r/netapp/comments/rku352/activeiq_unified_manager_97p1_log4j_workarounds/"
@@ -1003,7 +915,7 @@
                 },
                 {
                     "created_at": "2023-01-20 19:02",
-                    "likes": 0,
+                    "likes": 1,
                     "num_retweets": 0,
                     "retweets": 0,
                     "tweet_id": "1616511485752053768",
@@ -1056,20 +968,20 @@
                     ]
                 },
                 {
-                    "created_at": "2023-01-20 18:53",
+                    "created_at": "2023-01-21 00:52",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1616509250393587712",
-                    "tweet_text": "@smrtrcms re: https://t.co/tI3IqxtxSQ You use CVE-2021-4428 at the top, that should be CVE-2021-44228 as used below",
+                    "tweet_id": "1616599457402871808",
+                    "tweet_text": "@FujiElectricFEA re: https://t.co/7y9TlwJEpN  This advisory uses CVE-2021-4428 in section 1, that should be 2021-44228.",
                     "twitter_user_handle": "attritionorg",
                     "twitter_user_name": "jericho",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/492031274/squirrel-mascot-iconR_normal.gif",
                     "urls": [
                         {
-                            "display_url": "smrtrsolution.com/log4j-vulnerab\u2026",
-                            "expanded_url": "https://smrtrsolution.com/log4j-vulnerability-cve-2021-4428/",
-                            "url": "https://t.co/tI3IqxtxSQ"
+                            "display_url": "monitouch.fujielectric.com/site/download-\u2026",
+                            "expanded_url": "https://monitouch.fujielectric.com/site/download-e/other/NVD%20CVE-2021-44228_en.pdf",
+                            "url": "https://t.co/7y9TlwJEpN"
                         }
                     ]
                 }
@@ -1079,99 +991,7 @@
         },
         {
             "assigner": null,
-            "audience_size": 167295,
-            "cve": "CVE-2023-21433",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": null,
-            "epss_score": null,
-            "github_repos": [],
-            "lastModifiedDate": null,
-            "num_retweets": 4,
-            "num_tweets": 4,
-            "num_tweets_and_retweets": 8,
-            "publishedDate": null,
-            "reddit_posts": [],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-01-20 17:10",
-                    "likes": 0,
-                    "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1616483279925805073",
-                    "tweet_text": "Technical Advisory \u2013 Multiple Vulnerabilities in the Galaxy App Store (CVE-2023-21433, CVE-2023-21434) https://t.co/Pd5EszuTrf #cyber  #awareness #threatintell #CTI #intelligence #detect_and_response #EDR #XDR #CyberThreat #CyberThreatIntelligence #Zeroday #Vulnerability #RiskM\u2026",
-                    "twitter_user_handle": "SK_Expert",
-                    "twitter_user_name": "SK",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1598563656727404545/pntj_aa7_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/yeQAJ3f",
-                            "expanded_url": "https://ift.tt/yeQAJ3f",
-                            "url": "https://t.co/Pd5EszuTrf"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-20 16:28",
-                    "likes": 1,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1616472635772399617",
-                    "tweet_text": "New Blog: Technical Advisory \u2013 Multiple Vulnerabilities in the Galaxy App Store (CVE-2023-21433, CVE-2023-21434)\nhttps://t.co/CjC5mq36L7",
-                    "twitter_user_handle": "NCCsecurityUS",
-                    "twitter_user_name": "NCC Group North America InfoSec",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1583097074077388800/Jz1-2-sK_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "research.nccgroup.com/2023/01/20/tec\u2026",
-                            "expanded_url": "https://research.nccgroup.com/2023/01/20/technical-advisory-multiple-vulnerabilities-in-the-galaxy-app-store-cve-2023-21433-cve-2023-21434/",
-                            "url": "https://t.co/CjC5mq36L7"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-20 22:08",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1616558252384309286",
-                    "tweet_text": "@Yogehi Can you clarify what the \"changes made to Android 13\" were that fix CVE-2023-21433?",
-                    "twitter_user_handle": "MishaalRahman",
-                    "twitter_user_name": "Mishaal Rahman",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447362441990524937/9vAhIJbN_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-01-20 22:42",
-                    "likes": 3,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1616566837361389568",
-                    "tweet_text": "The 2nd exploit was fixed with version 4.5.49.8 of the Galaxy Store app.\n\nYou can read about these vulnerabilities on @NCCGroupInfosec's website. These vulnerabilities are identified as CVE-2023-21433 and CVE-2023-21434 respectively.\n\nhttps://t.co/Eh5ThZJioq",
-                    "twitter_user_handle": "MishaalRahman",
-                    "twitter_user_name": "Mishaal Rahman",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447362441990524937/9vAhIJbN_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "research.nccgroup.com/2023/01/20/tec\u2026",
-                            "expanded_url": "https://research.nccgroup.com/2023/01/20/technical-advisory-multiple-vulnerabilities-in-the-galaxy-app-store-cve-2023-21433-cve-2023-21434/",
-                            "url": "https://t.co/Eh5ThZJioq"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": null,
-            "audience_size": 150049,
+            "audience_size": 243362,
             "cve": "CVE-2022-25637",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1183,20 +1003,20 @@
             "epss_score": null,
             "github_repos": [],
             "lastModifiedDate": null,
-            "num_retweets": 5,
-            "num_tweets": 5,
-            "num_tweets_and_retweets": 10,
+            "num_retweets": 6,
+            "num_tweets": 7,
+            "num_tweets_and_retweets": 13,
             "publishedDate": null,
             "reddit_posts": [
                 {
                     "created": 1674244036.0,
                     "is_self": false,
-                    "num_comments": 0,
+                    "num_comments": 9,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/10h6aio/cve202225637_multiple_toctou_vulns_in_peripheral/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 464877,
+                    "subreddit_subscribers": 464893,
                     "title": "CVE-2022-25637 - Multiple TOCTOU vulns in peripheral devices (Razer, EVGA, MSI, AMI)",
-                    "upvotes": 27,
+                    "upvotes": 86,
                     "url": "https://www.cyberark.com/resources/threat-research-blog/inglourious-drivers-a-journey-of-finding-vulnerabilities-in-drivers"
                 },
                 {
@@ -1207,7 +1027,7 @@
                     "subreddit": "CyberARk",
                     "subreddit_subscribers": 4997,
                     "title": "CyberArk Labs Blog: CVE-2022-25637 - Multiple TOCTOU vulns in peripheral devices (Razer, EVGA, MSI, AMI)",
-                    "upvotes": 1,
+                    "upvotes": 2,
                     "url": "https://www.cyberark.com/resources/threat-research-blog/inglourious-drivers-a-journey-of-finding-vulnerabilities-in-drivers"
                 }
             ],
@@ -1216,9 +1036,9 @@
             "tweets": [
                 {
                     "created_at": "2023-01-20 19:39",
-                    "likes": 1,
-                    "num_retweets": 2,
-                    "retweets": 2,
+                    "likes": 2,
+                    "num_retweets": 3,
+                    "retweets": 3,
                     "tweet_id": "1616520847702777858",
                     "tweet_text": "Read all about how @OmerTsarfati discovered multiple bugs in peripheral devices (Razer, EVGA, MSI, AMI). \n\nFor more details on the TOCTOU vulnerability (CVE-2022-25637) and trivial exploitation found in the WinIO/WinRing0 driver, check out the blog. \n\nhttps://t.co/6MooKOVQjn",
                     "twitter_user_handle": "CyberarkLabs",
@@ -1269,38 +1089,38 @@
                     ]
                 },
                 {
-                    "created_at": "2023-01-20 19:49",
+                    "created_at": "2023-01-21 03:00",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1616523288729067520",
-                    "tweet_text": "New post: \"CVE-2022-25637 - Multiple TOCTOU vulns in peripheral devices (Razer, EVGA, MSI, AMI)\" https://t.co/f4SgCzVPJq",
-                    "twitter_user_handle": "Myinfosecfeed",
-                    "twitter_user_name": "Dave B",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/378800000834987179/082fedc9b3306f849715f3738684baf8_normal.jpeg",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/PxFt5UW",
-                            "expanded_url": "https://ift.tt/PxFt5UW",
-                            "url": "https://t.co/f4SgCzVPJq"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-20 19:58",
-                    "likes": 5,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1616525496778620931",
-                    "tweet_text": "CVE-2022-25637 - Multiple TOCTOU vulns in peripheral devices (Razer, EVGA, MSI, AMI) https://t.co/oWinWRzvYL",
-                    "twitter_user_handle": "_r_netsec",
-                    "twitter_user_name": "@_r_netsec@infosec.exchange",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/990624384636219393/PpOkRWSi_normal.jpg",
+                    "tweet_id": "1616631684014772224",
+                    "tweet_text": "CVE-2022-25637 - Multiple TOCTOU vulns in peripheral devices (Razer, EVGA, MSI, AMI) https://t.co/M7Wbq7u85J",
+                    "twitter_user_handle": "AlexaChenowith",
+                    "twitter_user_name": "Alexa Chenowith",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1156312060545961985/VrqQe1u8_normal.jpg",
                     "urls": [
                         {
                             "display_url": "cyberark.com/resources/thre\u2026",
                             "expanded_url": "https://www.cyberark.com/resources/threat-research-blog/inglourious-drivers-a-journey-of-finding-vulnerabilities-in-drivers",
-                            "url": "https://t.co/oWinWRzvYL"
+                            "url": "https://t.co/M7Wbq7u85J"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-21 05:39",
+                    "likes": 2,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1616671768374120449",
+                    "tweet_text": "CVE-2022-25637 - Multiple TOCTOU vulns in peripheral devices (Razer, EVGA, MSI, AMI) https://t.co/bBEujAYoSt",
+                    "twitter_user_handle": "Dinosn",
+                    "twitter_user_name": "Nicolas Krassas",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1292159799141060610/CLgtH-wo_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "reddit.com/r/netsec/comme\u2026",
+                            "expanded_url": "https://www.reddit.com/r/netsec/comments/10h6aio/cve202225637_multiple_toctou_vulns_in_peripheral/",
+                            "url": "https://t.co/bBEujAYoSt"
                         }
                     ]
                 }
@@ -1309,130 +1129,262 @@
             "vendors": []
         },
         {
-            "assigner": "security-advisories@github.com",
-            "audience_size": 134539,
-            "cve": "CVE-2022-41903",
+            "assigner": "security@google.com",
+            "audience_size": 199591,
+            "cve": "CVE-2022-2347",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": 7.1,
+            "cvssv3_base_severity": "HIGH",
+            "cwes": [
+                {
+                    "cwe_description": "Out-of-bounds Write",
+                    "cwe_id": "CWE-787"
+                }
+            ],
+            "description": "There exists an unchecked length field in UBoot. The U-Boot DFU implementation does not bound the length field in USB DFU download setup packets, and it does not verify that the transfer direction corresponds to the specified command. Consequently, if a physical attacker crafts a USB DFU download setup packet with a `wLength` greater than 4096 bytes, they can write beyond the heap-allocated request buffer.",
+            "epss_score": "0.00885",
+            "github_repos": [
+                {
+                    "created": "2022-12-27T19:33:59Z",
+                    "description": "containerd is an open source container runtime. A bug was found in containerd's CRI implementation where a user can exhaust memory on the host. In the CRI stream server, a goroutine is launched to handle terminal resize events if a TTY is requested. If the user's process fails to launch due to, for example, a faulty co CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2022-23471",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2022-12-27T19:33:59Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-23471"
+                },
+                {
+                    "created": "2022-12-27T19:37:33Z",
+                    "description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP). xrdp < v0.9.21 contain a buffer over flow in xrdp_mm_chan_data_in() function. There are no known workarounds for this issue. Users are advised to upgrade. CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2022-23479",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2022-12-27T19:37:33Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-23479"
+                },
+                {
+                    "created": "2022-12-27T16:07:43Z",
+                    "description": "Tuleap is an Open Source Suite to improve management of software developments and collaboration. In versions prior to 14.2.99.148, Authorizations are not properly verified when accessing MediaWiki standalone resources. Users with read only permissions for pages are able to also edit them. This only affects the MediaWik CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2022-23473",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2022-12-27T16:07:43Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-23473"
+                },
+                {
+                    "created": "2022-12-27T21:37:39Z",
+                    "description": "Galaxy is an open-source platform for data analysis. An arbitrary file read exists in Galaxy 22.01 and Galaxy 22.05 due to the switch to Gunicorn, which can be used to read any file accessible to the operating system user under which Galaxy is running. This vulnerability affects Galaxy 22.01 and higher, after the switc CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2022-23470",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2022-12-27T21:37:39Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-23470"
+                },
+                {
+                    "created": "2022-12-27T13:33:58Z",
+                    "description": "Editor.js is a block-style editor with clean JSON output. Versions prior to 2.26.0 are vulnerable to Code Injection via pasted input. The processHTML method passes pasted input into wrapper\u2019s innerHTML. This issue is patched in version 2.26.0. CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2022-23474",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2022-12-27T13:33:58Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-23474"
+                }
+            ],
+            "lastModifiedDate": "2022-09-29T13:51Z",
+            "num_retweets": 3,
+            "num_tweets": 3,
+            "num_tweets_and_retweets": 6,
+            "publishedDate": "2022-09-23T13:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1663940327.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/xlxve5/cve20222347/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 146,
+                    "title": "CVE-2022-2347",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-2347"
+                },
+                {
+                    "created": 1674277546.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netsec/comments/10hj9ot/uboot_unchecked_download_size_and_direction_in/",
+                    "subreddit": "netsec",
+                    "subreddit_subscribers": 464893,
+                    "title": "U-Boot \u2013 Unchecked Download Size and Direction in USB DFU (CVE-2022-2347)",
+                    "upvotes": 0,
+                    "url": "https://research.nccgroup.com/2023/01/20/technical-advisory-u-boot-unchecked-download-size-and-direction-in-usb-dfu-cve-2022-2347/"
+                }
+            ],
+            "score": 7.1,
+            "severity": "HIGH",
+            "tweets": [
+                {
+                    "created_at": "2023-01-21 05:31",
+                    "likes": 0,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1616669775924445190",
+                    "tweet_text": "U-Boot: tama\u00f1o y direcci\u00f3n de descarga sin marcar en USB DFU (CVE-2022-2347) -  https://t.co/W3e5KcvlC4 #netsec #cybersecurity",
+                    "twitter_user_handle": "luiscosio",
+                    "twitter_user_name": "Luis Cosio",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1149809022679375873/A_74659G_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "research.nccgroup.com/2023/01/20/tec\u2026",
+                            "expanded_url": "https://research.nccgroup.com/2023/01/20/technical-advisory-u-boot-unchecked-download-size-and-direction-in-usb-dfu-cve-2022-2347/",
+                            "url": "https://t.co/W3e5KcvlC4"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-21 05:13",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1616665167013777409",
+                    "tweet_text": "U-Boot \u2013 Unchecked Download Size and Direction in USB DFU (CVE-2022-2347) https://t.co/PKmlYppnKN",
+                    "twitter_user_handle": "_r_netsec",
+                    "twitter_user_name": "@_r_netsec@infosec.exchange",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/990624384636219393/PpOkRWSi_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "research.nccgroup.com/2023/01/20/tec\u2026",
+                            "expanded_url": "https://research.nccgroup.com/2023/01/20/technical-advisory-u-boot-unchecked-download-size-and-direction-in-usb-dfu-cve-2022-2347/",
+                            "url": "https://t.co/PKmlYppnKN"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-21 05:39",
+                    "likes": 2,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1616671844479926273",
+                    "tweet_text": "Technical Advisory \u2013 U-Boot \u2013 Unchecked Download Size and Direction in USB DFU (CVE-2022-2347) https://t.co/pf7UkO23Xb",
+                    "twitter_user_handle": "Dinosn",
+                    "twitter_user_name": "Nicolas Krassas",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1292159799141060610/CLgtH-wo_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "research.nccgroup.com/2023/01/20/tec\u2026",
+                            "expanded_url": "https://research.nccgroup.com/2023/01/20/technical-advisory-u-boot-unchecked-download-size-and-direction-in-usb-dfu-cve-2022-2347/",
+                            "url": "https://t.co/pf7UkO23Xb"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": [
+                {
+                    "products": [
+                        {
+                            "product": "U-Boot",
+                            "versions": [
+                                "*"
+                            ]
+                        }
+                    ],
+                    "vendor": "Denx"
+                }
+            ]
+        },
+        {
+            "assigner": null,
+            "audience_size": 167301,
+            "cve": "CVE-2023-21433",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
             "cvssv3_base_score": null,
             "cvssv3_base_severity": null,
-            "cwes": [
-                {
-                    "cwe_description": "Integer Overflow or Wraparound",
-                    "cwe_id": "CWE-190"
-                }
-            ],
-            "description": "Git is distributed revision control system. `git log` can display commits in an arbitrary format using its `--format` specifiers. This functionality is also exposed to `git archive` via the `export-subst` gitattribute. When processing the padding operators, there is a integer overflow in `pretty.c::format_and_pad_commit()` where a `size_t` is stored improperly as an `int`, and then added as an offset to a `memcpy()`. This overflow can be triggered directly by a user running a command which invokes the commit formatting machinery (e.g., `git log --format=...`). It may also be triggered indirectly through git archive via the export-subst mechanism, which expands format specifiers inside of files within the repository during a git archive. This integer overflow can result in arbitrary heap writes, which may result in arbitrary code execution. The problem has been patched in the versions published on 2023-01-17, going back to v2.30.7. Users are advised to upgrade. Users who are unable to upgrade should disable `git archive` in untrusted repositories. If you expose git archive via `git daemon`, disable it by running `git config --global daemon.uploadArch false`.",
-            "epss_score": "0.02509",
+            "cwes": [],
+            "description": null,
+            "epss_score": null,
             "github_repos": [],
-            "lastModifiedDate": "2023-01-18T13:54Z",
-            "num_retweets": 0,
-            "num_tweets": 6,
-            "num_tweets_and_retweets": 6,
-            "publishedDate": "2023-01-17T23:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1673990460.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/10enx0h/x41_audit_git_security_vulnerabilities_announced/",
-                    "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32327,
-                    "title": "X41 Audit - Git security vulnerabilities announced CVE-2022-41903 and CVE-2022-23521, affects versions 2.39 and older",
-                    "upvotes": 5,
-                    "url": "https://x41-dsec.de/security/research/news/2023/01/17/git-security-audit-ostif/"
-                },
-                {
-                    "created": 1674002312.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10eswgr/cve202241903/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 145,
-                    "title": "CVE-2022-41903",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-41903"
-                },
-                {
-                    "created": 1674029631.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/CKsTechNews/comments/10f20u9/git_2391_and_more_released_cve202241903/",
-                    "subreddit": "CKsTechNews",
-                    "subreddit_subscribers": 571,
-                    "title": "Git 2.39.1 (and more) released (CVE-2022-41903, CVE-2022-23521)",
-                    "upvotes": 1,
-                    "url": "https://lwn.net/Articles/920256/"
-                }
-            ],
+            "lastModifiedDate": null,
+            "num_retweets": 5,
+            "num_tweets": 4,
+            "num_tweets_and_retweets": 9,
+            "publishedDate": null,
+            "reddit_posts": [],
             "score": null,
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-01-20 17:37",
+                    "created_at": "2023-01-20 17:10",
                     "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1616490042771259393",
-                    "tweet_text": "#cybersecurity Critical RCE vulnerabilities found in git (CVE-2022-41903, CVE-2022-23251) https://t.co/JySpLAMVJD",
-                    "twitter_user_handle": "Abhaykottur",
-                    "twitter_user_name": "Abhay S.K",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1468482656136413184/a6yWRqnR_normal.jpg",
+                    "num_retweets": 3,
+                    "retweets": 3,
+                    "tweet_id": "1616483279925805073",
+                    "tweet_text": "Technical Advisory \u2013 Multiple Vulnerabilities in the Galaxy App Store (CVE-2023-21433, CVE-2023-21434) https://t.co/Pd5EszuTrf #cyber  #awareness #threatintell #CTI #intelligence #detect_and_response #EDR #XDR #CyberThreat #CyberThreatIntelligence #Zeroday #Vulnerability #RiskM\u2026",
+                    "twitter_user_handle": "SK_Expert",
+                    "twitter_user_name": "SK",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1598563656727404545/pntj_aa7_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "helpnetsecurity.com/2023/01/19/git\u2026",
-                            "expanded_url": "https://www.helpnetsecurity.com/2023/01/19/git-critical-vulnerabilities/",
-                            "url": "https://t.co/JySpLAMVJD"
+                            "display_url": "ift.tt/yeQAJ3f",
+                            "expanded_url": "https://ift.tt/yeQAJ3f",
+                            "url": "https://t.co/Pd5EszuTrf"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-20 18:34",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1616504468874399748",
-                    "tweet_text": "CVEs involved: CVE-2022-41930, CVE-2022-23521, and CVE-2022-41903.",
-                    "twitter_user_handle": "BlackpointUS",
-                    "twitter_user_name": "Blackpoint Cyber",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1497937299589455872/WYEXmkr8_normal.jpg",
-                    "urls": []
+                    "created_at": "2023-01-20 16:28",
+                    "likes": 1,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1616472635772399617",
+                    "tweet_text": "New Blog: Technical Advisory \u2013 Multiple Vulnerabilities in the Galaxy App Store (CVE-2023-21433, CVE-2023-21434)\nhttps://t.co/CjC5mq36L7",
+                    "twitter_user_handle": "NCCsecurityUS",
+                    "twitter_user_name": "NCC Group North America InfoSec",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1583097074077388800/Jz1-2-sK_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "research.nccgroup.com/2023/01/20/tec\u2026",
+                            "expanded_url": "https://research.nccgroup.com/2023/01/20/technical-advisory-multiple-vulnerabilities-in-the-galaxy-app-store-cve-2023-21433-cve-2023-21434/",
+                            "url": "https://t.co/CjC5mq36L7"
+                        }
+                    ]
                 },
                 {
-                    "created_at": "2023-01-20 19:20",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1616516065143492634",
-                    "tweet_text": "Git Users Urged to Update Software to Prevent Remote Code Execution Attacks. The flaws, tracked as CVE-2022-23521 and CVE-2022-41903, impacts the following versions of Git: v2.30.6, v2.31.5, v2.32.4, v2.33.5, v2.34.5, v2.35.5, v2.36.3, v2.37.4, v2.38.2, and v2.39.0. Updates out! https://t.co/4Q7w4AW261",
-                    "twitter_user_handle": "ShibaxSpacex",
-                    "twitter_user_name": "ShibaX_SpaceX\ud83e\udd76",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1577000215948759040/vSstKdtm_normal.jpg",
-                    "urls": []
+                    "created_at": "2023-01-20 22:42",
+                    "likes": 15,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1616566837361389568",
+                    "tweet_text": "The 2nd exploit was fixed with version 4.5.49.8 of the Galaxy Store app.\n\nYou can read about these vulnerabilities on @NCCGroupInfosec's website. These vulnerabilities are identified as CVE-2023-21433 and CVE-2023-21434 respectively.\n\nhttps://t.co/Eh5ThZJioq",
+                    "twitter_user_handle": "MishaalRahman",
+                    "twitter_user_name": "Mishaal Rahman",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447362441990524937/9vAhIJbN_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "research.nccgroup.com/2023/01/20/tec\u2026",
+                            "expanded_url": "https://research.nccgroup.com/2023/01/20/technical-advisory-multiple-vulnerabilities-in-the-galaxy-app-store-cve-2023-21433-cve-2023-21434/",
+                            "url": "https://t.co/Eh5ThZJioq"
+                        }
+                    ]
                 },
                 {
-                    "created_at": "2023-01-19 22:54",
-                    "likes": 0,
+                    "created_at": "2023-01-20 22:08",
+                    "likes": 4,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1616207549669249049",
-                    "tweet_text": "2/6 The following Git versions are affected by the flaws: v2.30.6, v2.31.5, v2.32.4, v2.33.5, v2.34.5, v2.35.5, v2.36.3, v2.37.4, v2.38.2, and v2.39.0. They are tracked as CVE-2022-23521 and CVE-2022-41903, respectively.",
-                    "twitter_user_handle": "Paradoxinfosec",
-                    "twitter_user_name": "Paradox Infosec S.R.O. | Cyber Security Firm",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1581427322762268672/W_yKTjzW_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-01-19 22:54",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1616207554501087257",
-                    "tweet_text": "4/6 CVE-2022-41903, a significant vulnerability as well, is activated during an archive process and permits code execution via an integer overflow fault that develops during commit log formatting.",
-                    "twitter_user_handle": "Paradoxinfosec",
-                    "twitter_user_name": "Paradox Infosec S.R.O. | Cyber Security Firm",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1581427322762268672/W_yKTjzW_normal.jpg",
+                    "tweet_id": "1616558252384309286",
+                    "tweet_text": "@Yogehi Can you clarify what the \"changes made to Android 13\" were that fix CVE-2023-21433?",
+                    "twitter_user_handle": "MishaalRahman",
+                    "twitter_user_name": "Mishaal Rahman",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447362441990524937/9vAhIJbN_normal.jpg",
                     "urls": []
                 }
             ],
@@ -1441,7 +1393,7 @@
         },
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 133362,
+            "audience_size": 157487,
             "cve": "CVE-2022-32250",
             "cve_urls": null,
             "cvssv2_base_score": 7.2,
@@ -1462,9 +1414,9 @@
                     "description": null,
                     "language": "C",
                     "name": "CVE-2022-32250-exploit",
-                    "stars": 123,
+                    "stars": 125,
                     "topics": [],
-                    "updated": "2023-01-10T06:36:39Z",
+                    "updated": "2023-01-21T04:36:50Z",
                     "url": "https://github.com/theori-io/CVE-2022-32250-exploit"
                 },
                 {
@@ -1489,9 +1441,9 @@
                 }
             ],
             "lastModifiedDate": "2022-09-09T20:39Z",
-            "num_retweets": 53,
-            "num_tweets": 4,
-            "num_tweets_and_retweets": 57,
+            "num_retweets": 67,
+            "num_tweets": 7,
+            "num_tweets_and_retweets": 74,
             "publishedDate": "2022-06-02T21:15Z",
             "reddit_posts": [
                 {
@@ -1500,9 +1452,9 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/x32qyf/settlers_of_netlink_exploiting_a_limited_use/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 464877,
+                    "subreddit_subscribers": 464893,
                     "title": "SETTLERS OF NETLINK: Exploiting a limited Use After Free in nf_tables (CVE-2022-32250) against the latest Ubuntu (22.04) and Linux kernel 5.15 -",
-                    "upvotes": 93,
+                    "upvotes": 95,
                     "url": "https://research.nccgroup.com/2022/09/01/settlers-of-netlink-exploiting-a-limited-uaf-in-nf_tables-cve-2022-32250/"
                 },
                 {
@@ -1522,7 +1474,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/Information_Security/comments/x36hyx/settlers_of_netlink_exploiting_a_limited_uaf_in/",
                     "subreddit": "Information_Security",
-                    "subreddit_subscribers": 20759,
+                    "subreddit_subscribers": 20760,
                     "title": "SETTLERS OF NETLINK: Exploiting a limited UAF in nf_tables (CVE-2022-32250)",
                     "upvotes": 2,
                     "url": "https://research.nccgroup.com/2022/09/01/settlers-of-netlink-exploiting-a-limited-uaf-in-nf_tables-cve-2022-32250/"
@@ -1533,7 +1485,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/netcve/comments/v3jm7i/cve202232250/",
                     "subreddit": "netcve",
-                    "subreddit_subscribers": 145,
+                    "subreddit_subscribers": 146,
                     "title": "CVE-2022-32250",
                     "upvotes": 1,
                     "url": "https://cve.report/CVE-2022-32250"
@@ -1555,9 +1507,9 @@
             "tweets": [
                 {
                     "created_at": "2023-01-20 08:00",
-                    "likes": 181,
-                    "num_retweets": 52,
-                    "retweets": 57,
+                    "likes": 214,
+                    "num_retweets": 65,
+                    "retweets": 70,
                     "tweet_id": "1616344915520241672",
                     "tweet_text": "CVE-2022-32250 : use-after-free in Linux kernel\nExploitation writeup by @ExodusIntel targeting Linux kernel 5.18.1\n\nhttps://t.co/W6U8j5bZtq \n\n#Linux #kernel #exploit #cve #infosec #cybersecurity https://t.co/rm0FV9O52n",
                     "twitter_user_handle": "0xor0ne",
@@ -1568,6 +1520,24 @@
                             "display_url": "blog.exodusintel.com/2022/12/19/lin\u2026",
                             "expanded_url": "https://blog.exodusintel.com/2022/12/19/linux-kernel-exploiting-a-netfilter-use-after-free-in-kmalloc-cg/",
                             "url": "https://t.co/W6U8j5bZtq"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-21 02:08",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1616618585136287746",
+                    "tweet_text": "(Same from about 6 hours ago.)\nI think that the third retweeted(63 times) tweet that contains CVE ID between Jan 20 2023 02:01 UTC and Jan 21 2023 02:00 UTC is:\nhttps://t.co/XnvmMquRvv\nIt has CVE-2022-32250. #l24_3xtfiy3pok7r4",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/0xor0ne/status\u2026",
+                            "expanded_url": "https://twitter.com/0xor0ne/status/1616344915520241672",
+                            "url": "https://t.co/XnvmMquRvv"
                         }
                     ]
                 },
@@ -1590,12 +1560,12 @@
                     ]
                 },
                 {
-                    "created_at": "2023-01-20 20:08",
+                    "created_at": "2023-01-21 00:08",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1616527990560620549",
-                    "tweet_text": "I think that the third retweeted(50 times) tweet that contains CVE ID between Jan 19 2023 20:01 UTC and Jan 20 2023 20:00 UTC is:\nhttps://t.co/XnvmMquRvv\nIt has CVE-2022-32250. #l24_3xtfiy3pok7r4",
+                    "tweet_id": "1616588388227743747",
+                    "tweet_text": "(Same from about 4 hours ago.)\nI think that the third retweeted(59 times) tweet that contains CVE ID between Jan 20 2023 00:01 UTC and Jan 21 2023 00:00 UTC is:\nhttps://t.co/XnvmMquRvv\nIt has CVE-2022-32250. #l24_3xtfiy3pok7r4",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
@@ -1608,12 +1578,12 @@
                     ]
                 },
                 {
-                    "created_at": "2023-01-20 22:08",
+                    "created_at": "2023-01-21 04:08",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1616558187313876998",
-                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the third retweeted(53 times) tweet that contains CVE ID between Jan 19 2023 22:01 UTC and Jan 20 2023 22:00 UTC is:\nhttps://t.co/XnvmMquRvv\nIt has CVE-2022-32250. #l24_3xtfiy3pok7r4",
+                    "tweet_id": "1616648785668542464",
+                    "tweet_text": "(Same from about 8 hours ago.)\nI think that the third retweeted(68 times) tweet that contains CVE ID between Jan 20 2023 04:01 UTC and Jan 21 2023 04:00 UTC is:\nhttps://t.co/XnvmMquRvv\nIt has CVE-2022-32250. #l24_3xtfiy3pok7r4",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
@@ -1666,8 +1636,151 @@
                     "vendor": "Debian"
                 }
             ]
+        },
+        {
+            "assigner": "security-advisories@github.com",
+            "audience_size": 153251,
+            "cve": "CVE-2022-41903",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Integer Overflow or Wraparound",
+                    "cwe_id": "CWE-190"
+                }
+            ],
+            "description": "Git is distributed revision control system. `git log` can display commits in an arbitrary format using its `--format` specifiers. This functionality is also exposed to `git archive` via the `export-subst` gitattribute. When processing the padding operators, there is a integer overflow in `pretty.c::format_and_pad_commit()` where a `size_t` is stored improperly as an `int`, and then added as an offset to a `memcpy()`. This overflow can be triggered directly by a user running a command which invokes the commit formatting machinery (e.g., `git log --format=...`). It may also be triggered indirectly through git archive via the export-subst mechanism, which expands format specifiers inside of files within the repository during a git archive. This integer overflow can result in arbitrary heap writes, which may result in arbitrary code execution. The problem has been patched in the versions published on 2023-01-17, going back to v2.30.7. Users are advised to upgrade. Users who are unable to upgrade should disable `git archive` in untrusted repositories. If you expose git archive via `git daemon`, disable it by running `git config --global daemon.uploadArch false`.",
+            "epss_score": "0.02509",
+            "github_repos": [],
+            "lastModifiedDate": "2023-01-18T13:54Z",
+            "num_retweets": 17,
+            "num_tweets": 5,
+            "num_tweets_and_retweets": 22,
+            "publishedDate": "2023-01-17T23:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1673990460.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/10enx0h/x41_audit_git_security_vulnerabilities_announced/",
+                    "subreddit": "blueteamsec",
+                    "subreddit_subscribers": 32335,
+                    "title": "X41 Audit - Git security vulnerabilities announced CVE-2022-41903 and CVE-2022-23521, affects versions 2.39 and older",
+                    "upvotes": 4,
+                    "url": "https://x41-dsec.de/security/research/news/2023/01/17/git-security-audit-ostif/"
+                },
+                {
+                    "created": 1674002312.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10eswgr/cve202241903/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 146,
+                    "title": "CVE-2022-41903",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-41903"
+                },
+                {
+                    "created": 1674029631.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/CKsTechNews/comments/10f20u9/git_2391_and_more_released_cve202241903/",
+                    "subreddit": "CKsTechNews",
+                    "subreddit_subscribers": 571,
+                    "title": "Git 2.39.1 (and more) released (CVE-2022-41903, CVE-2022-23521)",
+                    "upvotes": 1,
+                    "url": "https://lwn.net/Articles/920256/"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-01-21 01:06",
+                    "likes": 12,
+                    "num_retweets": 17,
+                    "retweets": 22,
+                    "tweet_id": "1616602990462513153",
+                    "tweet_text": "Git \ubcf4\uc548 \ucde8\uc57d\uc810 \ubc1c\ud45c https://t.co/h7OoMYJEL1 \n- `git archive`\ub97c \uc0ac\uc6a9\uc911\uc774\ub77c\uba74 \ucd5c\uc2e0 \ubc84\uc804\uc73c\ub85c \uc5c5\ub370\uc774\ud2b8 \ud560 \uac83\uc744 \uad8c\uc7a5   \n- CVE-2022-41903, CVE-2022-23521 \uc73c\ub85c git 2.39 \uc774\uc804 \ubc84\uc804\ub4e4 \ubaa8\ub450\uc5d0 \uc601\ud5a5",
+                    "twitter_user_handle": "GeekNewsBot",
+                    "twitter_user_name": "GeekNews",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1149438560795107329/F1-aa31C_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "news.hada.io/topic?id=8295",
+                            "expanded_url": "https://news.hada.io/topic?id=8295",
+                            "url": "https://t.co/h7OoMYJEL1"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-20 17:37",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1616490042771259393",
+                    "tweet_text": "#cybersecurity Critical RCE vulnerabilities found in git (CVE-2022-41903, CVE-2022-23251) https://t.co/JySpLAMVJD",
+                    "twitter_user_handle": "Abhaykottur",
+                    "twitter_user_name": "Abhay S.K",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1468482656136413184/a6yWRqnR_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "helpnetsecurity.com/2023/01/19/git\u2026",
+                            "expanded_url": "https://www.helpnetsecurity.com/2023/01/19/git-critical-vulnerabilities/",
+                            "url": "https://t.co/JySpLAMVJD"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-20 18:34",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1616504468874399748",
+                    "tweet_text": "CVEs involved: CVE-2022-41930, CVE-2022-23521, and CVE-2022-41903.",
+                    "twitter_user_handle": "BlackpointUS",
+                    "twitter_user_name": "Blackpoint Cyber",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1497937299589455872/WYEXmkr8_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-01-20 19:20",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1616516065143492634",
+                    "tweet_text": "Git Users Urged to Update Software to Prevent Remote Code Execution Attacks. The flaws, tracked as CVE-2022-23521 and CVE-2022-41903, impacts the following versions of Git: v2.30.6, v2.31.5, v2.32.4, v2.33.5, v2.34.5, v2.35.5, v2.36.3, v2.37.4, v2.38.2, and v2.39.0. Updates out! https://t.co/4Q7w4AW261",
+                    "twitter_user_handle": "ShibaxSpacex",
+                    "twitter_user_name": "ShibaX_SpaceX\ud83e\udd76",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1577000215948759040/vSstKdtm_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-01-20 16:53",
+                    "likes": 3,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1616479118127763457",
+                    "tweet_text": "Critical RCE vulnerabilities found in git (CVE-2022-41903, CVE-2022-23251) https://t.co/dhe2KVQBK0",
+                    "twitter_user_handle": "TheCyberSecHub",
+                    "twitter_user_name": "The Cyber Security Hub\u2122",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1572191181689294848/fT9V8jLs_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "helpnetsecurity.com/2023/01/19/git\u2026",
+                            "expanded_url": "https://www.helpnetsecurity.com/2023/01/19/git-critical-vulnerabilities/",
+                            "url": "https://t.co/dhe2KVQBK0"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2023-01-20 22:50:27"
+    "updated": "2023-01-21 05:44:46"
 }
