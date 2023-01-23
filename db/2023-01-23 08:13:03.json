@@ -2,7 +2,7 @@
     "data": [
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 446708,
+            "audience_size": 554892,
             "cve": "CVE-2023-24059",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -25,20 +25,20 @@
                 }
             ],
             "lastModifiedDate": "2023-01-22T07:15Z",
-            "num_retweets": 132,
-            "num_tweets": 31,
-            "num_tweets_and_retweets": 163,
+            "num_retweets": 37,
+            "num_tweets": 46,
+            "num_tweets_and_retweets": 83,
             "publishedDate": "2023-01-22T07:15Z",
             "reddit_posts": [
                 {
                     "created": 1674413628.0,
                     "is_self": true,
-                    "num_comments": 13,
+                    "num_comments": 19,
                     "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/10ir1fa/cve202324059_rce_vulnerability_for_gta_online/",
                     "subreddit": "cybersecurity",
-                    "subreddit_subscribers": 439087,
+                    "subreddit_subscribers": 439175,
                     "title": "CVE-2023-24059 : RCE Vulnerability for GTA Online being actively exploited in the wild. Allows for modification of files on client PCs by an attacker. Scores pending. Any thoughts or analysis on this one yet?",
-                    "upvotes": 57,
+                    "upvotes": 118,
                     "url": "https://www.reddit.com/r/cybersecurity/comments/10ir1fa/cve202324059_rce_vulnerability_for_gta_online/"
                 },
                 {
@@ -57,20 +57,43 @@
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-01-22 07:45",
-                    "likes": 526,
-                    "num_retweets": 127,
-                    "retweets": 145,
-                    "tweet_id": "1617065846743990272",
-                    "tweet_text": "CVE-2023-24059 Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023. https://t.co/xNNqxxuUSJ",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "created_at": "2023-01-23 06:41",
+                    "likes": 106,
+                    "num_retweets": 27,
+                    "retweets": 31,
+                    "tweet_id": "1617412298817130500",
+                    "tweet_text": "Grand Theft Auto V has been assigned CVE-2023-24059 for containing a partial Remote Code Execution exploit\n\nMore information: https://t.co/Cwxt6gDmpY\n\nGrand Theft Auto Online community discussion: https://t.co/JrcEhESlu3",
+                    "twitter_user_handle": "vxunderground",
+                    "twitter_user_name": "vx-underground",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1284217861318344706/m__Wj5eV_normal.jpg",
                     "urls": [
                         {
                             "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
                             "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24059",
-                            "url": "https://t.co/xNNqxxuUSJ"
+                            "url": "https://t.co/Cwxt6gDmpY"
+                        },
+                        {
+                            "display_url": "reddit.com/r/gtaonline/co\u2026",
+                            "expanded_url": "https://www.reddit.com/r/gtaonline/comments/10hsosu/mass_reporting_the_dangerous_pc_exploit/",
+                            "url": "https://t.co/JrcEhESlu3"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-23 03:19",
+                    "likes": 42,
+                    "num_retweets": 3,
+                    "retweets": 2,
+                    "tweet_id": "1617361460187000832",
+                    "tweet_text": "CVE-2023-24059\n\nGrand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023.\n\nhttps://t.co/WKNwZJRDgO",
+                    "twitter_user_handle": "WholeMarsBlog",
+                    "twitter_user_name": "Whole Mars Catalog",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1593688242771017728/1Ocz0cvu_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24059",
+                            "url": "https://t.co/WKNwZJRDgO"
                         }
                     ]
                 },
@@ -93,50 +116,38 @@
                     ]
                 },
                 {
-                    "created_at": "2023-01-22 07:55",
+                    "created_at": "2023-01-22 19:56",
                     "likes": 0,
                     "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1617068526870708224",
-                    "tweet_text": "Potentially Critical CVE Detected!\nCVE-2023-24059\nGrand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploite...\nCVSS: 9.20\n#CVE #CyberSecurity",
-                    "twitter_user_handle": "Robo_Alerts",
-                    "twitter_user_name": "Robo Shadow Alerts",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1439862150890237953/WjKa3G1I_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-01-22 08:32",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1617077818655150082",
-                    "tweet_text": "@CVEnew: CVE-2023-24059 Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023. https://t.co/XaM56H6AeL\n\n#cybersecurity #infosec @0reoSec",
-                    "twitter_user_handle": "0reoSec",
-                    "twitter_user_name": "Lewis",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1611746652670365696/RStyd501_normal.jpg",
+                    "retweets": 0,
+                    "tweet_id": "1617249971908009985",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-24059 \ud83d\udea8 Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023. https://t.co/zaXiiJYFs8",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24059",
-                            "url": "https://t.co/XaM56H6AeL"
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24059",
+                            "url": "https://t.co/zaXiiJYFs8"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-22 14:51",
+                    "created_at": "2023-01-23 05:37",
                     "likes": 0,
                     "num_retweets": 1,
                     "retweets": 1,
-                    "tweet_id": "1617173047982653440",
-                    "tweet_text": "CVE-2023-24059\n\nGrand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023.\n\nhttps://t.co/rLwgDqJpN7",
-                    "twitter_user_handle": "VulmonFeeds",
-                    "twitter_user_name": "Vulmon Vulnerability Feed",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
+                    "tweet_id": "1617396004831088640",
+                    "tweet_text": "CVE-2023-24059: 0-day bug in Riot Games Grand Theft Auto V for PC https://t.co/D0BN21HhOW #security #opensource #cybersecurity #malware #cyber #pentesting #malwareanalysis #infosec #redteam #malwarehunting #hacking #infosec #threathunting #bugbounty #tools #offensivesecurity",
+                    "twitter_user_handle": "FilipiPires",
+                    "twitter_user_name": "Filipi Pires",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1531334436800831488/evf2wJ4z_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "vulmon.com/vulnerabilityd\u2026",
-                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2023-24059",
-                            "url": "https://t.co/rLwgDqJpN7"
+                            "display_url": "ift.tt/zIVW81j",
+                            "expanded_url": "https://ift.tt/zIVW81j",
+                            "url": "https://t.co/D0BN21HhOW"
                         }
                     ]
                 }
@@ -146,7 +157,7 @@
         },
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 303356,
+            "audience_size": 327100,
             "cve": "CVE-2022-47966",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -162,9 +173,9 @@
                     "description": "POC for CVE-2022-47966 affecting multiple ManageEngine products",
                     "language": "Python",
                     "name": "CVE-2022-47966",
-                    "stars": 61,
+                    "stars": 62,
                     "topics": [],
-                    "updated": "2023-01-22T21:16:27Z",
+                    "updated": "2023-01-23T02:37:32Z",
                     "url": "https://github.com/horizon3ai/CVE-2022-47966"
                 },
                 {
@@ -199,9 +210,9 @@
                 }
             ],
             "lastModifiedDate": "2023-01-18T19:46Z",
-            "num_retweets": 16,
-            "num_tweets": 18,
-            "num_tweets_and_retweets": 34,
+            "num_retweets": 21,
+            "num_tweets": 22,
+            "num_tweets_and_retweets": 43,
             "publishedDate": "2023-01-18T18:15Z",
             "reddit_posts": [
                 {
@@ -210,7 +221,7 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/10g1kpp/poc_exploit_for_cve202247966_affecting_multiple/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 464998,
+                    "subreddit_subscribers": 465027,
                     "title": "POC Exploit for CVE-2022-47966 affecting multiple ManageEngine products",
                     "upvotes": 35,
                     "url": "https://github.com/horizon3ai/CVE-2022-47966"
@@ -221,9 +232,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/10g6cij/manageengine_cve202247966_iocs_preauth_rce/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32356,
+                    "subreddit_subscribers": 32365,
                     "title": "ManageEngine CVE-2022-47966 IOCs - pre-auth RCE",
-                    "upvotes": 15,
+                    "upvotes": 13,
                     "url": "https://www.horizon3.ai/manageengine-cve-2022-47966-iocs/"
                 },
                 {
@@ -243,7 +254,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/UIC/comments/10g6qut/manageengine_cve202247966_technical_deep_dive/",
                     "subreddit": "UIC",
-                    "subreddit_subscribers": 3298,
+                    "subreddit_subscribers": 3299,
                     "title": "ManageEngine CVE-2022-47966 Technical Deep Dive",
                     "upvotes": 2,
                     "url": "https://www.horizon3.ai/manageengine-cve-2022-47966-technical-deep-dive/"
@@ -254,7 +265,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/10gdum6/hackers_exploiting_vulnerability_affecting_zoho/",
                     "subreddit": "cybersecurity",
-                    "subreddit_subscribers": 439086,
+                    "subreddit_subscribers": 439175,
                     "title": "Hackers exploiting vulnerability affecting Zoho ManageEngine products: Rapid7",
                     "upvotes": 2,
                     "url": "https://www.reddit.com/r/cybersecurity/comments/10gdum6/hackers_exploiting_vulnerability_affecting_zoho/"
@@ -265,9 +276,9 @@
             "tweets": [
                 {
                     "created_at": "2023-01-22 17:00",
-                    "likes": 27,
-                    "num_retweets": 9,
-                    "retweets": 11,
+                    "likes": 32,
+                    "num_retweets": 10,
+                    "retweets": 12,
                     "tweet_id": "1617205627792592897",
                     "tweet_text": "CVE-2022-47966 https://t.co/lsw2YzeTrj https://t.co/V811DoqpCK",
                     "twitter_user_handle": "ptracesecurity",
@@ -300,10 +311,28 @@
                     ]
                 },
                 {
+                    "created_at": "2023-01-23 07:37",
+                    "likes": 2,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1617426328524922880",
+                    "tweet_text": "We have posted a comprehensive analysis of CVE-2022-47966 \"an unauthenticated remote code execution vulnerability that affects two dozen Zoho ManageEngine products\" via @AttackerKb https://t.co/dJiCzu2zgo H/T @iagox86 @stephenfewer #infosec #cybersecurity https://t.co/ZfV53ZSMTG",
+                    "twitter_user_handle": "Raj_Samani",
+                    "twitter_user_name": "Raj Samani",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/911031738108923904/KYc0w4Rf_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "attackerkb.com/topics/gvs0Gv8\u2026",
+                            "expanded_url": "https://attackerkb.com/topics/gvs0Gv8BID/cve-2022-47966/rapid7-analysis",
+                            "url": "https://t.co/dJiCzu2zgo"
+                        }
+                    ]
+                },
+                {
                     "created_at": "2023-01-22 14:00",
                     "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
+                    "num_retweets": 2,
+                    "retweets": 2,
                     "tweet_id": "1617160167770013696",
                     "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2022-47966: 481.8K (audience size)\nCVE-2022-21587: 200.1K\nCVE-2022-42475: 157.1K\n\nPast 7 days:\nCVE-2022-47966: 9.5M\nCVE-2022-42475: 3.9M\nCVE-2022-44877: 1.4M\n\nhttps://t.co/LhpwNP6xog",
                     "twitter_user_handle": "CVEtrends",
@@ -318,48 +347,20 @@
                     ]
                 },
                 {
-                    "created_at": "2023-01-22 02:06",
+                    "created_at": "2023-01-22 16:45",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1616980470452948993",
-                    "tweet_text": "The vuln CVE-2022-47966 has a tweet created 0 days ago and retweeted 10 times.\nhttps://t.co/J6sUaZc3WG\n#pow1rtrtwwcve",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "tweet_id": "1617201676938608640",
+                    "tweet_text": "Attackers Exploiting ManageEngine CVE-2022-47966 Flaw https://t.co/6ZzORDwgjR",
+                    "twitter_user_handle": "PatrickCMiller",
+                    "twitter_user_name": "Patrick C Miller is on Mastodon",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1559969665283022848/7fLITZke_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "twitter.com/pdnuclei/statu\u2026",
-                            "expanded_url": "https://twitter.com/pdnuclei/status/1616851070411763712",
-                            "url": "https://t.co/J6sUaZc3WG"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-22 02:33",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1616987504195796995",
-                    "tweet_text": "\u2728 Top 3 CVE last 12h\n\n1\ufe0f\u20e3CVE-2022-34718 : @saminu_farouq https://t.co/Fh3eXw1Jx7\n2\ufe0f\u20e3CVE-2022-47966 : @Likhithkumar_S https://t.co/NsS37uDUQS\n3\ufe0f\u20e3CVE-2023-0179 : @RabbitPro https://t.co/J56hSPu6zk\nFor more follow @0xor0ne @huangzhenyuan",
-                    "twitter_user_handle": "top3cve",
-                    "twitter_user_name": "top3cve",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1592579140598759428/3o3sgv6T_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "twitter.com/twitter/status\u2026",
-                            "expanded_url": "https://twitter.com/twitter/statuses/1616702730378133504",
-                            "url": "https://t.co/Fh3eXw1Jx7"
-                        },
-                        {
-                            "display_url": "twitter.com/twitter/status\u2026",
-                            "expanded_url": "https://twitter.com/twitter/statuses/1616671838163337216",
-                            "url": "https://t.co/NsS37uDUQS"
-                        },
-                        {
-                            "display_url": "twitter.com/twitter/status\u2026",
-                            "expanded_url": "https://twitter.com/twitter/statuses/1614964626059399169",
-                            "url": "https://t.co/J56hSPu6zk"
+                            "display_url": "duo.com/decipher/attac\u2026",
+                            "expanded_url": "https://duo.com/decipher/attackers-exploiting-manageengine-cve-2022-47966-flaw",
+                            "url": "https://t.co/6ZzORDwgjR"
                         }
                     ]
                 }
@@ -429,7 +430,7 @@
             "tweets": [
                 {
                     "created_at": "2023-01-22 16:00",
-                    "likes": 2,
+                    "likes": 3,
                     "num_retweets": 0,
                     "retweets": 0,
                     "tweet_id": "1617190470622355458",
@@ -502,9 +503,9 @@
                     "num_comments": 34,
                     "reddit_url": "https://www.reddit.com/r/Citrix/comments/yplvfo/security_bulletins_for_netscaler_adcgateway/",
                     "subreddit": "Citrix",
-                    "subreddit_subscribers": 13578,
+                    "subreddit_subscribers": 13580,
                     "title": "Security Bulletins for NetScaler ADC/Gateway - CVE-2022-27510 CVE-2022-27513 and CVE-2022-27516",
-                    "upvotes": 30,
+                    "upvotes": 29,
                     "url": "https://support.citrix.com/article/CTX463706/citrix-gateway-and-citrix-adc-security-bulletin-for-cve202227510-cve202227513-and-cve202227516"
                 },
                 {
@@ -513,9 +514,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/zxkprm/cve202227510_cve202227518_measuring_citrix_adc/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32356,
+                    "subreddit_subscribers": 32365,
                     "title": "CVE-2022-27510, CVE-2022-27518 \u2013 Measuring Citrix ADC &amp; Gateway version adoption on the Internet",
-                    "upvotes": 5,
+                    "upvotes": 4,
                     "url": "https://blog.fox-it.com/2022/12/28/cve-2022-27510-cve-2022-27518-measuring-citrix-adc-gateway-version-adoption-on-the-internet/"
                 },
                 {
@@ -524,21 +525,10 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/InfoSecNews/comments/zyi5ty/thousands_of_citrix_servers_still_vulnerable_to/",
                     "subreddit": "InfoSecNews",
-                    "subreddit_subscribers": 14259,
+                    "subreddit_subscribers": 14261,
                     "title": "Thousands of Citrix servers still vulnerable to CVE-2022-27510 and CVE-2022-27518",
                     "upvotes": 4,
                     "url": "https://securityaffairs.com/140112/hacking/citrix-servers-vulnerable-online.html"
-                },
-                {
-                    "created": 1668025031.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/yqua41/citrix_gateway_and_citrix_adc_security_bulletin/",
-                    "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32356,
-                    "title": "Citrix Gateway and Citrix ADC Security Bulletin for CVE-2022-27510 CVE-2022-27513 and CVE-2022-27516: Unauthorized access to Gateway user capabilities",
-                    "upvotes": 1,
-                    "url": "https://support.citrix.com/article/CTX463706/citrix-gateway-and-citrix-adc-security-bulletin-for-cve202227510-cve202227513-and-cve202227516"
                 },
                 {
                     "created": 1668084902.0,
@@ -550,6 +540,17 @@
                     "title": "MS-ISAC CYBERSECURITY ADVISORY - Multiple Vulnerabilities in Citrix ADC and Gateway Could Allow for Authentication Bypass - PATCH: NOW",
                     "upvotes": 1,
                     "url": "https://www.reddit.com/r/k12cybersecurity/comments/yre3hg/msisac_cybersecurity_advisory_multiple/"
+                },
+                {
+                    "created": 1667947117.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/yq0w4d/cve202227510/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 147,
+                    "title": "CVE-2022-27510",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-27510"
                 }
             ],
             "score": 9.8,
@@ -557,7 +558,7 @@
             "tweets": [
                 {
                     "created_at": "2023-01-22 18:05",
-                    "likes": 1,
+                    "likes": 2,
                     "num_retweets": 3,
                     "retweets": 3,
                     "tweet_id": "1617221957207867394",
@@ -592,8 +593,141 @@
             ]
         },
         {
+            "assigner": "security-advisories@github.com",
+            "audience_size": 140773,
+            "cve": "CVE-2023-22727",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+                    "cwe_id": "CWE-89"
+                }
+            ],
+            "description": "CakePHP is a development framework for PHP web apps. In affected versions the `Cake\\Database\\Query::limit()` and `Cake\\Database\\Query::offset()` methods are vulnerable to SQL injection if passed un-sanitized user request data. This issue has been fixed in 4.2.12, 4.3.11, 4.4.10. Users are advised to upgrade. Users unable to upgrade may mitigate this issue by using CakePHP's Pagination library. Manually validating or casting parameters to these methods will also mitigate the issue.",
+            "epss_score": "0.00954",
+            "github_repos": [],
+            "lastModifiedDate": "2023-01-17T23:01Z",
+            "num_retweets": 4,
+            "num_tweets": 6,
+            "num_tweets_and_retweets": 10,
+            "publishedDate": "2023-01-17T21:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1673995136.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10epxuk/cve202322727/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 147,
+                    "title": "CVE-2023-22727",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2023-22727"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-01-23 07:01",
+                    "likes": 7,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1617417095016501248",
+                    "tweet_text": "CVE-2023-22727: Critical SQLi Flaw Patched in CakePHP https://t.co/ZnslSMjRhY",
+                    "twitter_user_handle": "Dinosn",
+                    "twitter_user_name": "Nicolas Krassas",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1292159799141060610/CLgtH-wo_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "securityonline.info/cve-2023-22727\u2026",
+                            "expanded_url": "https://securityonline.info/cve-2023-22727-critical-sqli-flaw-patched-in-cakephp/",
+                            "url": "https://t.co/ZnslSMjRhY"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-23 05:01",
+                    "likes": 1,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1617386950532517890",
+                    "tweet_text": "CVE-2023-22727: Critical SQLi Flaw Patched in CakePHP https://t.co/TGcfS6XuFD #opensource #infosec #security #pentesting",
+                    "twitter_user_handle": "the_yellow_fall",
+                    "twitter_user_name": "Gray Hats",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/419147954344058880/bTW9Gx7T_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "securityonline.info/cve-2023-22727\u2026",
+                            "expanded_url": "https://securityonline.info/cve-2023-22727-critical-sqli-flaw-patched-in-cakephp/",
+                            "url": "https://t.co/TGcfS6XuFD"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-23 05:08",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1617388669471686656",
+                    "tweet_text": "#Vulnerability #CakePHP CVE-2023-22727: Critical SQLi Flaw Patched in CakePHP https://t.co/t7OGCeqeyM",
+                    "twitter_user_handle": "Komodosec",
+                    "twitter_user_name": "Komodo Cyber Consulting",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/532759052397207552/LGMpfmcr_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "securityonline.info/cve-2023-22727\u2026",
+                            "expanded_url": "https://securityonline.info/cve-2023-22727-critical-sqli-flaw-patched-in-cakephp/?utm_source=dlvr.it&utm_medium=twitter",
+                            "url": "https://t.co/t7OGCeqeyM"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-23 05:37",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1617396000628375552",
+                    "tweet_text": "CVE-2023-22727: Critical SQLi Flaw Patched in CakePHP https://t.co/eOgxuitThn #security #opensource #cybersecurity #malware #cyber #pentesting #malwareanalysis #infosec #redteam #malwarehunting #hacking #infosec #threathunting #bugbounty #tools #offensivesecurity",
+                    "twitter_user_handle": "FilipiPires",
+                    "twitter_user_name": "Filipi Pires",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1531334436800831488/evf2wJ4z_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/ear3sWM",
+                            "expanded_url": "https://ift.tt/ear3sWM",
+                            "url": "https://t.co/eOgxuitThn"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-23 07:53",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1617430185023873024",
+                    "tweet_text": "CVE-2023-22727: Critical SQLi Flaw Patched in CakePHP\n\nhttps://t.co/PHXadZRKUp",
+                    "twitter_user_handle": "PentestingN",
+                    "twitter_user_name": "Pentesting News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1473953427126370307/3MoIVS8I_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "securityonline.info/cve-2023-22727\u2026",
+                            "expanded_url": "https://securityonline.info/cve-2023-22727-critical-sqli-flaw-patched-in-cakephp/",
+                            "url": "https://t.co/PHXadZRKUp"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
             "assigner": "cve@mitre.org",
-            "audience_size": 115345,
+            "audience_size": 116123,
             "cve": "CVE-2020-36109",
             "cve_urls": null,
             "cvssv2_base_score": 7.5,
@@ -614,9 +748,9 @@
                     "description": "CVE-2020-36109  PoC causing DoS",
                     "language": "Python",
                     "name": "CVE-2020-36109-POC",
-                    "stars": 6,
+                    "stars": 7,
                     "topics": [],
-                    "updated": "2023-01-22T22:04:13Z",
+                    "updated": "2023-01-23T02:08:39Z",
                     "url": "https://github.com/sunn1day/CVE-2020-36109-POC"
                 },
                 {
@@ -631,20 +765,20 @@
                 }
             ],
             "lastModifiedDate": "2021-02-05T21:29Z",
-            "num_retweets": 5,
+            "num_retweets": 7,
             "num_tweets": 6,
-            "num_tweets_and_retweets": 11,
+            "num_tweets_and_retweets": 13,
             "publishedDate": "2021-02-01T14:15Z",
             "reddit_posts": [
                 {
                     "created": 1674406742.0,
                     "is_self": false,
-                    "num_comments": 2,
+                    "num_comments": 4,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/10io9nq/cve202036109_poc_asus_routers_stack_overflow/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 464998,
+                    "subreddit_subscribers": 465027,
                     "title": "CVE-2020-36109 POC - ASUS routers stack overflow",
-                    "upvotes": 29,
+                    "upvotes": 53,
                     "url": "https://github.com/sunn1day/CVE-2020-36109-POC"
                 },
                 {
@@ -663,6 +797,24 @@
             "severity": "CRITICAL",
             "tweets": [
                 {
+                    "created_at": "2023-01-22 17:13",
+                    "likes": 7,
+                    "num_retweets": 4,
+                    "retweets": 4,
+                    "tweet_id": "1617208747348082689",
+                    "tweet_text": "CVE-2020-36109 POC - ASUS routers stack overflow https://t.co/OsFE1vxWDK",
+                    "twitter_user_handle": "_r_netsec",
+                    "twitter_user_name": "@_r_netsec@infosec.exchange",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/990624384636219393/PpOkRWSi_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/sunn1day/CVE-2\u2026",
+                            "expanded_url": "https://github.com/sunn1day/CVE-2020-36109-POC",
+                            "url": "https://t.co/OsFE1vxWDK"
+                        }
+                    ]
+                },
+                {
                     "created_at": "2023-01-22 17:00",
                     "likes": 1,
                     "num_retweets": 2,
@@ -677,24 +829,6 @@
                             "display_url": "github.com/sunn1day/CVE-2\u2026",
                             "expanded_url": "https://github.com/sunn1day/CVE-2020-36109-POC",
                             "url": "https://t.co/A2OyBle8Fs"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-22 17:13",
-                    "likes": 7,
-                    "num_retweets": 2,
-                    "retweets": 2,
-                    "tweet_id": "1617208747348082689",
-                    "tweet_text": "CVE-2020-36109 POC - ASUS routers stack overflow https://t.co/OsFE1vxWDK",
-                    "twitter_user_handle": "_r_netsec",
-                    "twitter_user_name": "@_r_netsec@infosec.exchange",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/990624384636219393/PpOkRWSi_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/sunn1day/CVE-2\u2026",
-                            "expanded_url": "https://github.com/sunn1day/CVE-2020-36109-POC",
-                            "url": "https://t.co/OsFE1vxWDK"
                         }
                     ]
                 },
@@ -764,429 +898,309 @@
             "vendors": []
         },
         {
-            "assigner": "cve@mitre.org",
-            "audience_size": 65797,
-            "cve": "CVE-2023-24058",
+            "assigner": "product-security@apple.com",
+            "audience_size": 106829,
+            "cve": "CVE-2022-42864",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "Booked Scheduler 2.5.5 allows authenticated users to create and schedule events for any other user via a modified userId value to reservation_save.php. NOTE: 2.5.5 is a version from 2014; the latest version of Booked Scheduler is not affected. However, LabArchives Scheduler (Sep 6, 2022 Feature Release) is affected.",
-            "epss_score": "0.0095",
+            "cvssv3_base_score": 7.0,
+            "cvssv3_base_severity": "HIGH",
+            "cwes": [
+                {
+                    "cwe_description": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')",
+                    "cwe_id": "CWE-362"
+                }
+            ],
+            "description": "A race condition was addressed with improved state handling. This issue is fixed in tvOS 16.2, macOS Monterey 12.6.2, macOS Ventura 13.1, macOS Big Sur 11.7.2, iOS 15.7.2 and iPadOS 15.7.2, iOS 16.2 and iPadOS 16.2, watchOS 9.2. An app may be able to execute arbitrary code with kernel privileges.",
+            "epss_score": "0.04955",
             "github_repos": [
                 {
-                    "created": "2023-01-22T11:39:04Z",
-                    "description": "Booked Scheduler 2.5.5 allows authenticated users to create and schedule events for any other user via a modified userId value to reservation_save.php. NOTE: 2.5.5 is a version from 2014. CVE project by @Sn0wAlice",
+                    "created": "2023-01-19T20:36:49Z",
+                    "description": "Proof-of-concept for the CVE-2022-42864 IOHIDFamily race condition",
+                    "language": "Objective-C",
+                    "name": "CVE-2022-42864",
+                    "stars": 20,
+                    "topics": [],
+                    "updated": "2023-01-22T17:21:09Z",
+                    "url": "https://github.com/Muirey03/CVE-2022-42864"
+                },
+                {
+                    "created": "2022-12-27T12:46:12Z",
+                    "description": "A race condition was addressed with improved state handling. This issue is fixed in tvOS 16.2, macOS Monterey 12.6.2, macOS Ventura 13.1, macOS Big Sur 11.7.2, iOS 15.7.2 and iPadOS 15.7.2, iOS 16.2 and iPadOS 16.2, watchOS 9.2. An app may be able to execute arbitrary code with kernel privileges. CVE project by @Sn0wAlice",
                     "language": null,
-                    "name": "CVE-2023-24058",
+                    "name": "CVE-2022-42864",
                     "stars": 0,
                     "topics": [],
-                    "updated": "2023-01-22T11:39:04Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-24058"
+                    "updated": "2022-12-27T12:46:13Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-42864"
                 }
             ],
-            "lastModifiedDate": "2023-01-22T19:15Z",
-            "num_retweets": 0,
-            "num_tweets": 16,
-            "num_tweets_and_retweets": 16,
-            "publishedDate": "2023-01-22T06:15Z",
+            "lastModifiedDate": "2023-01-09T16:46Z",
+            "num_retweets": 6,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 17,
+            "publishedDate": "2022-12-15T19:15Z",
             "reddit_posts": [
                 {
-                    "created": 1674369596.0,
+                    "created": 1674308094.0,
+                    "is_self": false,
+                    "num_comments": 1,
+                    "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/10hrdlk/cve202242864_diabolical_cookies/",
+                    "subreddit": "cybersecurity",
+                    "subreddit_subscribers": 439175,
+                    "title": "CVE-2022-42864 - Diabolical Cookies",
+                    "upvotes": 2,
+                    "url": "https://muirey03.blogspot.com/2023/01/cve-2022-42864-diabolical-cookies.html"
+                },
+                {
+                    "created": 1671136953.0,
                     "is_self": false,
                     "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10id6y7/cve202324058/",
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/zmvidl/cve202242864/",
                     "subreddit": "netcve",
                     "subreddit_subscribers": 147,
-                    "title": "CVE-2023-24058",
+                    "title": "CVE-2022-42864",
                     "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-24058"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-01-22 05:45",
-                    "likes": 2,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1617035657200766978",
-                    "tweet_text": "CVE-2023-24058 Booked Scheduler 2.5.5 allows authenticated users to create and schedule events for any other user via a modified userId value to reservation_save.php. NOTE: 2.5.5 is a version from 2014. https://t.co/nd6cHgQ1nv",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24058",
-                            "url": "https://t.co/nd6cHgQ1nv"
-                        }
-                    ]
+                    "url": "https://cve.report/CVE-2022-42864"
                 },
                 {
-                    "created_at": "2023-01-22 06:15",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1617043175188709377",
-                    "tweet_text": "CVEnew: CVE-2023-24058 Booked Scheduler 2.5.5 allows authenticated users to create and schedule events for any other user via a modified userId value to reservation_save.php. NOTE: 2.5.5 is a version from 2014. https://t.co/GFXCdFMow7",
-                    "twitter_user_handle": "hernanespinoza",
-                    "twitter_user_name": "Hernan Espinoza",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1547685026636017665/VkgyrG2V_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24058",
-                            "url": "https://t.co/GFXCdFMow7"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-22 06:31",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1617047270720937984",
-                    "tweet_text": "CVE-2023-24058 Booked Scheduler 2.5.5 allows authenticated users to create and schedule events for any other user via a modified userId value to reservation_save.php. NOTE: 2.5.5 is a version from 2014. https://t.co/iJ2Wtd7IJi",
-                    "twitter_user_handle": "eyeTSystems",
-                    "twitter_user_name": "\ud835\udc9f\ud835\udcb6\ud835\udcc3\ud835\udcbe\ud835\udc52\ud835\udcc1",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/733144294278582272/6tkqfYMy_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24058",
-                            "url": "https://t.co/iJ2Wtd7IJi"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-22 20:21",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1617256247606054913",
-                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-24058 | Booked Scheduler 2.5.5 reservation_save.php userId access control) has been published on https://t.co/Zz4UxAVmKj",
-                    "twitter_user_handle": "WolfgangSesin",
-                    "twitter_user_name": "Wolfgang Sesin",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/uXvPWJy6tj"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/01/22/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/01/22/cve-2023-24058-booked-scheduler-2-5-5-reservation_save-php-userid-access-control/",
-                            "url": "https://t.co/Zz4UxAVmKj"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-23 01:00",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1617326376025034754",
-                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-24058) has been published on https://t.co/RhQuW36Pbr",
-                    "twitter_user_handle": "WolfgangSesin",
-                    "twitter_user_name": "Wolfgang Sesin",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/uXvPWJy6tj"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/01/23/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/01/23/cve-2023-24058/",
-                            "url": "https://t.co/RhQuW36Pbr"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "cve@mitre.org",
-            "audience_size": 65796,
-            "cve": "CVE-2023-24056",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "In pkgconf through 1.9.3, variable duplication can cause unbounded string expansion due to incorrect checks in libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc file containing a few hundred bytes can expand to one billion bytes.",
-            "epss_score": "0.0089",
-            "github_repos": [
-                {
-                    "created": "2023-01-22T06:12:48Z",
-                    "description": "In pkgconf through 1.9.3, variable duplication can cause unbounded string expansion due to incorrect checks in libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc file containing a few hundred bytes can expand to one billion bytes. CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2023-24056",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-22T06:12:48Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-24056"
-                }
-            ],
-            "lastModifiedDate": "2023-01-22T04:15Z",
-            "num_retweets": 0,
-            "num_tweets": 16,
-            "num_tweets_and_retweets": 16,
-            "publishedDate": "2023-01-22T04:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1674362299.0,
-                    "is_self": false,
+                    "created": 1671031238.0,
+                    "is_self": true,
                     "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10ib4vq/cve202324056/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 147,
-                    "title": "CVE-2023-24056",
+                    "reddit_url": "https://www.reddit.com/r/k12cybersecurity/comments/zltpz7/msisac_cybersecurity_advisory_multiple/",
+                    "subreddit": "k12cybersecurity",
+                    "subreddit_subscribers": 97,
+                    "title": "MS-ISAC CYBERSECURITY ADVISORY - Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution - PATCH: NOW",
                     "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-24056"
+                    "url": "https://www.reddit.com/r/k12cybersecurity/comments/zltpz7/msisac_cybersecurity_advisory_multiple/"
                 }
             ],
-            "score": null,
-            "severity": null,
+            "score": 7.0,
+            "severity": "HIGH",
             "tweets": [
                 {
-                    "created_at": "2023-01-22 04:07",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1617011081259401218",
-                    "tweet_text": "CVE-2023-24056 : In pkgconf through 1.9.3, variable duplication can cause unbounded string expansion due to incorrect checks in libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc file containing a few hundred bytes can expand to ... https://t.co/5r6wGaJ1sa",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "created_at": "2023-01-23 07:01",
+                    "likes": 9,
+                    "num_retweets": 4,
+                    "retweets": 5,
+                    "tweet_id": "1617417124024320001",
+                    "tweet_text": "PoC Code for iOS 16.2/macOS Ventura code execution (CVE-2022-42864) Published https://t.co/HeNz0Dw36N",
+                    "twitter_user_handle": "Dinosn",
+                    "twitter_user_name": "Nicolas Krassas",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1292159799141060610/CLgtH-wo_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "cve.report/CVE-2023-24056",
-                            "expanded_url": "https://cve.report/CVE-2023-24056",
-                            "url": "https://t.co/5r6wGaJ1sa"
+                            "display_url": "securityonline.info/poc-code-for-i\u2026",
+                            "expanded_url": "https://securityonline.info/poc-code-for-ios-16-2-macos-ventura-code-execution-cve-2022-42864-published/",
+                            "url": "https://t.co/HeNz0Dw36N"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-22 04:45",
-                    "likes": 1,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1617020557232427011",
-                    "tweet_text": "CVE-2023-24056 In pkgconf through 1.9.3, variable duplication can cause unbounded string expansion due to incorrect checks in libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc file containing a few hundred bytes ... https://t.co/yxw16YcuYR",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24056",
-                            "url": "https://t.co/yxw16YcuYR"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-22 06:50",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1617051977766010880",
-                    "tweet_text": "CVE-2023-24056\n\nIn pkgconf through 1.9.3, variable duplication can cause unbounded string expansion due to incorrect checks in libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc file containing a few hundre...\n\nhttps://t.co/ogkc1bpyVm",
-                    "twitter_user_handle": "VulmonFeeds",
-                    "twitter_user_name": "Vulmon Vulnerability Feed",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "vulmon.com/vulnerabilityd\u2026",
-                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2023-24056",
-                            "url": "https://t.co/ogkc1bpyVm"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-22 07:13",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1617057822411313152",
-                    "tweet_text": "CVE-2023-24056 is called Sealed Spadefish\nhttps://t.co/nDBg2gcNZE",
-                    "twitter_user_handle": "vulnonym",
-                    "twitter_user_name": "vulnonym",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24056",
-                            "url": "https://t.co/nDBg2gcNZE"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-22 20:21",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1617256064843407363",
-                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-24056 | pkgconf up to 1.9.3 PC File libpkgconf/tuple.c pkgconf_tuple_parse denial of service) has been published on https://t.co/C2RLjcz5Gh",
-                    "twitter_user_handle": "WolfgangSesin",
-                    "twitter_user_name": "Wolfgang Sesin",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/uXvPWJy6tj"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/01/22/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/01/22/cve-2023-24056-pkgconf-up-to-1-9-3-pc-file-libpkgconf-tuple-c-pkgconf_tuple_parse-denial-of-service/",
-                            "url": "https://t.co/C2RLjcz5Gh"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "cve@mitre.org",
-            "audience_size": 65370,
-            "cve": "CVE-2023-24055",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "** DISPUTED ** KeePass through 2.53 (in a default installation) allows an attacker, who has write access to the XML configuration file, to obtain the cleartext passwords by adding an export trigger. NOTE: the vendor's position is that the password database is not intended to be secure against an attacker who has that level of access to the local PC.",
-            "epss_score": "0.00885",
-            "github_repos": [
-                {
-                    "created": "2023-01-22T06:12:45Z",
-                    "description": "** DISPUTED ** KeePass through 2.53 (in a default installation) allows an attacker, who has write access to the XML configuration file, to obtain the cleartext passwords by adding an export trigger. NOTE: the vendor's position is that the password database is not intended to be secure against an attacker who has that l CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2023-24055",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-22T06:12:45Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-24055"
-                }
-            ],
-            "lastModifiedDate": "2023-01-22T04:15Z",
-            "num_retweets": 7,
-            "num_tweets": 13,
-            "num_tweets_and_retweets": 20,
-            "publishedDate": "2023-01-22T04:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1674362298.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10ib4vf/cve202324055/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 147,
-                    "title": "CVE-2023-24055",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-24055"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-01-22 03:45",
-                    "likes": 12,
-                    "num_retweets": 6,
-                    "retweets": 6,
-                    "tweet_id": "1617005457180135424",
-                    "tweet_text": "CVE-2023-24055 ** DISPUTED ** KeePass through 2.53 (in a default installation) allows an attacker, who has write access to the XML configuration file, to obtain the cleartext passwords by adding an export trigger. NOTE: the vendor's position is th... https://t.co/fIy3FGiyB9",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24055",
-                            "url": "https://t.co/fIy3FGiyB9"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-22 12:22",
+                    "created_at": "2023-01-23 05:09",
                     "likes": 1,
                     "num_retweets": 1,
                     "retweets": 1,
-                    "tweet_id": "1617135599030530054",
-                    "tweet_text": "#KeePass through 2.53 (in a default installation) allows an attacker, who has write access to the XML configuration file, to obtain the cleartext passwords by adding an export trigger.\n\n#CVE-2023-24055 https://t.co/mP0kuIRyj3",
-                    "twitter_user_handle": "vomanc",
-                    "twitter_user_name": "El Dis",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1396469881126768644/M0Pdt-KD_normal.jpg",
-                    "urls": []
+                    "tweet_id": "1617388929916731393",
+                    "tweet_text": "PoC Code for iOS 16.2/macOS Ventura code execution (CVE-2022-42864) Published https://t.co/HvdNDnOB1Z #opensource #infosec #security #pentesting",
+                    "twitter_user_handle": "the_yellow_fall",
+                    "twitter_user_name": "Gray Hats",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/419147954344058880/bTW9Gx7T_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "securityonline.info/poc-code-for-i\u2026",
+                            "expanded_url": "https://securityonline.info/poc-code-for-ios-16-2-macos-ventura-code-execution-cve-2022-42864-published/",
+                            "url": "https://t.co/HvdNDnOB1Z"
+                        }
+                    ]
                 },
                 {
-                    "created_at": "2023-01-22 04:26",
+                    "created_at": "2023-01-22 16:14",
+                    "likes": 1,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1617193990687703043",
+                    "tweet_text": "#exploit\n1. CVE-2022-42864:\nConcurrent Execution using Shared Resource with Improper Synchronization (\"Race Condition\")\nhttps://t.co/QZMXjYlFnW\n\n2. CVE-2022-25637:\nMultiple TOCTOU vulns in peripheral devices (Razer, EVGA, MSI, AMI)\nhttps://t.co/s6JoAT0IRM",
+                    "twitter_user_handle": "ksg93rd",
+                    "twitter_user_name": "Mr. OS",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/862706447020326912/ZiPZWTZ4_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "muirey03.blogspot.com/2023/01/cve-20\u2026",
+                            "expanded_url": "https://muirey03.blogspot.com/2023/01/cve-2022-42864-diabolical-cookies.html",
+                            "url": "https://t.co/QZMXjYlFnW"
+                        },
+                        {
+                            "display_url": "cyberark.com/resources/thre\u2026",
+                            "expanded_url": "https://www.cyberark.com/resources/threat-research-blog/inglourious-drivers-a-journey-of-finding-vulnerabilities-in-drivers",
+                            "url": "https://t.co/s6JoAT0IRM"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-23 07:53",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1617015919171043328",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-24055 \ud83d\udea8 ** DISPUTED ** KeePass through 2.53 (in a default installation) allows an attacker, who has write access to the XML configuration file, to obtain the cleartext passwords by adding an export ... (click for more)  https://t.co/B99eESW23O",
+                    "tweet_id": "1617430186852601856",
+                    "tweet_text": "PoC Code for iOS 16.2/macOS Ventura code execution (CVE-2022-42864) Published\n\nhttps://t.co/iqptu3vFYC",
+                    "twitter_user_handle": "PentestingN",
+                    "twitter_user_name": "Pentesting News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1473953427126370307/3MoIVS8I_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "securityonline.info/poc-code-for-i\u2026",
+                            "expanded_url": "https://securityonline.info/poc-code-for-ios-16-2-macos-ventura-code-execution-cve-2022-42864-published/",
+                            "url": "https://t.co/iqptu3vFYC"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-23 08:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1617433468400734210",
+                    "tweet_text": "#Vulnerability #Apple PoC Code for iOS 16.2/macOS Ventura code execution (CVE-2022-42864) Published https://t.co/tvgsFyFv2Z",
+                    "twitter_user_handle": "Komodosec",
+                    "twitter_user_name": "Komodo Cyber Consulting",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/532759052397207552/LGMpfmcr_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "securityonline.info/poc-code-for-i\u2026",
+                            "expanded_url": "https://securityonline.info/poc-code-for-ios-16-2-macos-ventura-code-execution-cve-2022-42864-published/?utm_source=dlvr.it&utm_medium=twitter",
+                            "url": "https://t.co/tvgsFyFv2Z"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [
+                "https://support.apple.com/en-us/HT213531",
+                "https://support.apple.com/en-us/HT213532",
+                "https://support.apple.com/en-us/HT213530",
+                "https://support.apple.com/en-us/HT213535",
+                "https://support.apple.com/en-us/HT213536",
+                "https://support.apple.com/en-us/HT213533",
+                "https://support.apple.com/en-us/HT213534"
+            ],
+            "vendors": [
+                {
+                    "products": [
+                        {
+                            "product": "Macos",
+                            "versions": [
+                                "*"
+                            ]
+                        }
+                    ],
+                    "vendor": "Apple"
+                }
+            ]
+        },
+        {
+            "assigner": "cve@mitre.org",
+            "audience_size": 93527,
+            "cve": "CVE-2023-24069",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": "Signal Desktop before 6.2.0 on Windows, Linux, and macOS allows an attacker to obtain potentially sensitive attachments sent in messages from the attachments.noindex directory. Cached attachments are not effectively cleared. In some cases, even after a self-initiated file deletion, an attacker can still recover the file if it was previously replied to in a conversation. (Local filesystem access is needed by the attacker.)",
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": "2023-01-23T07:15Z",
+            "num_retweets": 1,
+            "num_tweets": 4,
+            "num_tweets_and_retweets": 5,
+            "publishedDate": "2023-01-23T07:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1674459535.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10j6xhy/cve202324069/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 147,
+                    "title": "CVE-2023-24069",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2023-24069"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-01-23 07:45",
+                    "likes": 2,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1617428250577223680",
+                    "tweet_text": "CVE-2023-24069 Signal Desktop before 6.2.0 on Windows, Linux, and macOS allows an attacker to obtain potentially sensitive attachments sent in messages from the attachments.noindex directory. Cached attachments are not effectively cleare... https://t.co/DazZQiAb2m",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24069",
+                            "url": "https://t.co/DazZQiAb2m"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-23 07:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1617418354456682496",
+                    "tweet_text": "CVE-2023-24069 : Signal Desktop before 6.2.0 on #Windows, #Linux, and macOS allows an attacker to obtain potentially sensitive attachments sent in messages from the attachments.noindex directory. Cached attachments are not effectively clea... https://t.co/rskNUMPdz9",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "cve.report/CVE-2023-24069",
+                            "expanded_url": "https://cve.report/CVE-2023-24069",
+                            "url": "https://t.co/rskNUMPdz9"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-23 07:48",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1617429076561592320",
+                    "tweet_text": "CVE-2023-24068 &amp;&amp; CVE-2023-24069: Abusing Signal Desktop Client for fun and #infosec #infosecurity #cybersecurity #threatintel #threatintelligence #hacking #cybernews #cyberattack #cloudsecurity #malware #ransomware #cyber #threathunting #ZeroTrust #CISA\nhttps://t.co/Hu1tkKH4cQ",
+                    "twitter_user_handle": "CyberIQs_",
+                    "twitter_user_name": "CyberIQs",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1343113218399600641/p04QylMY_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cyberiqs.com/latestnews",
+                            "expanded_url": "http://cyberiqs.com/latestnews",
+                            "url": "https://t.co/Hu1tkKH4cQ"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-23 07:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1617423610569793538",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-24069 \ud83d\udea8 Signal Desktop before 6.2.0 on Windows, Linux, and macOS allows an attacker to obtain potentially sensitive attachments sent in messages from the attachments.noindex directory. Cached attach... (click for more)  https://t.co/nMhrIGHD0i",
                     "twitter_user_handle": "threatintelctr",
                     "twitter_user_name": "Threat Intel Center",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
                     "urls": [
                         {
                             "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24055",
-                            "url": "https://t.co/B99eESW23O"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-22 07:35",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1617063349702852608",
-                    "tweet_text": "Hi, I'm CVE-2023-24055.  I was never good with numbers though, so you can call me Silenced Shelduck\nhttps://t.co/orWSByAxrf",
-                    "twitter_user_handle": "vulnonym",
-                    "twitter_user_name": "vulnonym",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24055",
-                            "url": "https://t.co/orWSByAxrf"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-23 01:00",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1617326415174565889",
-                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-24055) has been published on https://t.co/Gs7aIZV84a",
-                    "twitter_user_handle": "WolfgangSesin",
-                    "twitter_user_name": "Wolfgang Sesin",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/uXvPWJy6tj"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/01/23/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/01/23/cve-2023-24055/",
-                            "url": "https://t.co/Gs7aIZV84a"
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24069",
+                            "url": "https://t.co/nMhrIGHD0i"
                         }
                     ]
                 }
@@ -1196,136 +1210,107 @@
         },
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 62631,
-            "cve": "CVE-2023-24044",
+            "audience_size": 93527,
+            "cve": "CVE-2023-24068",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
             "cvssv3_base_score": null,
             "cvssv3_base_severity": null,
             "cwes": [],
-            "description": "A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header.",
-            "epss_score": "0.00885",
-            "github_repos": [
-                {
-                    "created": "2023-01-22T06:13:00Z",
-                    "description": "A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2023-24044",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-22T06:13:00Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-24044"
-                }
-            ],
-            "lastModifiedDate": "2023-01-22T03:15Z",
-            "num_retweets": 0,
-            "num_tweets": 15,
-            "num_tweets_and_retweets": 15,
-            "publishedDate": "2023-01-22T03:15Z",
+            "description": "Signal Desktop before 6.2.0 on Windows, Linux, and macOS allows an attacker to modify conversation attachments within the attachments.noindex directory. Client mechanisms fail to validate modifications of existing cached files, resulting in an attacker's ability to insert malicious code into pre-existing attachments or replace them completely. A threat actor can forward the existing attachment in the corresponding conversation to external groups, and the name and size of the file will not change, allowing the malware to masquerade as another file.",
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": "2023-01-23T07:15Z",
+            "num_retweets": 1,
+            "num_tweets": 4,
+            "num_tweets_and_retweets": 5,
+            "publishedDate": "2023-01-23T07:15Z",
             "reddit_posts": [
                 {
-                    "created": 1674358742.0,
+                    "created": 1674459534.0,
                     "is_self": false,
                     "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10ia1yq/cve202324044/",
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10j6xhr/cve202324068/",
                     "subreddit": "netcve",
                     "subreddit_subscribers": 147,
-                    "title": "CVE-2023-24044",
+                    "title": "CVE-2023-24068",
                     "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-24044"
+                    "url": "https://cve.report/CVE-2023-24068"
                 }
             ],
             "score": null,
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-01-22 03:06",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1616995595964522499",
-                    "tweet_text": "CVE-2023-24044 : A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header.... https://t.co/QNC5VjKQkp",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "cve.report/CVE-2023-24044",
-                            "expanded_url": "https://cve.report/CVE-2023-24044",
-                            "url": "https://t.co/QNC5VjKQkp"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-22 03:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1617000832137838595",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-24044 \ud83d\udea8 A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. https://t.co/K73pkYKpj2",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24044",
-                            "url": "https://t.co/K73pkYKpj2"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-01-22 03:45",
+                    "created_at": "2023-01-23 07:45",
                     "likes": 3,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1617005454772543488",
-                    "tweet_text": "CVE-2023-24044 A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. https://t.co/Oz0FbbKL2P",
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1617428247993540611",
+                    "tweet_text": "CVE-2023-24068 Signal Desktop before 6.2.0 on Windows, Linux, and macOS allows an attacker to modify conversation attachments within the attachments.noindex directory. Client mechanisms fail to validate modifications of existing cached f... https://t.co/R1xJnaCYOj",
                     "twitter_user_handle": "CVEnew",
                     "twitter_user_name": "CVE",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
                     "urls": [
                         {
                             "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24044",
-                            "url": "https://t.co/Oz0FbbKL2P"
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24068",
+                            "url": "https://t.co/R1xJnaCYOj"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-22 04:11",
+                    "created_at": "2023-01-23 07:26",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1617012111795798016",
-                    "tweet_text": "CVEnew: CVE-2023-24044 A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. https://t.co/t9D6FEFA60",
-                    "twitter_user_handle": "hernanespinoza",
-                    "twitter_user_name": "Hernan Espinoza",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1547685026636017665/VkgyrG2V_normal.jpg",
+                    "tweet_id": "1617423610573950976",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-24068 \ud83d\udea8 Signal Desktop before 6.2.0 on Windows, Linux, and macOS allows an attacker to modify conversation attachments within the attachments.noindex directory. Client mechanisms fail to validate mo... (click for more)  https://t.co/dVjmNi9uxU",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24044",
-                            "url": "https://t.co/t9D6FEFA60"
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24068",
+                            "url": "https://t.co/dVjmNi9uxU"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-01-22 04:29",
+                    "created_at": "2023-01-23 07:48",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1617016484206727170",
-                    "tweet_text": "CVE-2023-24044 A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. https://t.co/zsW9eiLSpu",
-                    "twitter_user_handle": "eyeTSystems",
-                    "twitter_user_name": "\ud835\udc9f\ud835\udcb6\ud835\udcc3\ud835\udcbe\ud835\udc52\ud835\udcc1",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/733144294278582272/6tkqfYMy_normal.jpg",
+                    "tweet_id": "1617429076561592320",
+                    "tweet_text": "CVE-2023-24068 &amp;&amp; CVE-2023-24069: Abusing Signal Desktop Client for fun and #infosec #infosecurity #cybersecurity #threatintel #threatintelligence #hacking #cybernews #cyberattack #cloudsecurity #malware #ransomware #cyber #threathunting #ZeroTrust #CISA\nhttps://t.co/Hu1tkKH4cQ",
+                    "twitter_user_handle": "CyberIQs_",
+                    "twitter_user_name": "CyberIQs",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1343113218399600641/p04QylMY_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24044",
-                            "url": "https://t.co/zsW9eiLSpu"
+                            "display_url": "cyberiqs.com/latestnews",
+                            "expanded_url": "http://cyberiqs.com/latestnews",
+                            "url": "https://t.co/Hu1tkKH4cQ"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-01-23 07:05",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1617418269517926401",
+                    "tweet_text": "CVE-2023-24068 : Signal Desktop before 6.2.0 on #Windows, #Linux, and macOS allows an attacker to modify conversation attachments within the attachments.noindex directory. Client mechanisms fail to validate modifications of existing cached... https://t.co/H2SS6ux9Xs",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "cve.report/CVE-2023-24068",
+                            "expanded_url": "https://cve.report/CVE-2023-24068",
+                            "url": "https://t.co/H2SS6ux9Xs"
                         }
                     ]
                 }
@@ -1335,7 +1320,7 @@
         },
         {
             "assigner": "security@huntr.dev",
-            "audience_size": 59515,
+            "audience_size": 61725,
             "cve": "CVE-2023-0435",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1364,8 +1349,8 @@
             ],
             "lastModifiedDate": "2023-01-22T22:15Z",
             "num_retweets": 3,
-            "num_tweets": 10,
-            "num_tweets_and_retweets": 13,
+            "num_tweets": 14,
+            "num_tweets_and_retweets": 17,
             "publishedDate": "2023-01-22T22:15Z",
             "reddit_posts": [],
             "score": null,
@@ -1373,7 +1358,7 @@
             "tweets": [
                 {
                     "created_at": "2023-01-22 22:45",
-                    "likes": 0,
+                    "likes": 1,
                     "num_retweets": 2,
                     "retweets": 2,
                     "tweet_id": "1617292347397574657",
@@ -1472,5 +1457,5 @@
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2023-01-23 02:02:58"
+    "updated": "2023-01-23 08:13:03"
 }
