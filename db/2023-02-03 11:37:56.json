@@ -1,234 +1,148 @@
 {
     "data": [
         {
-            "assigner": null,
-            "audience_size": 1857090,
-            "cve": "CVE-2022-44268",
+            "assigner": "security@atlassian.com",
+            "audience_size": 1356889,
+            "cve": "CVE-2023-22501",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
             "cvssv3_base_score": null,
             "cvssv3_base_severity": null,
             "cwes": [],
-            "description": null,
-            "epss_score": null,
+            "description": "An authentication vulnerability was discovered in Jira Service Management Server and Data Center which allows an attacker to impersonate another user and gain access to a Jira Service Management instance under certain circumstances_._ With write access to a User Directory and outgoing email enabled on a Jira Service Management instance, an attacker could gain access to signup tokens sent to users with accounts that have never been logged into. Access to these tokens can be obtained in two cases: * If the attacker is included on Jira issues or requests with these users, or * If the attacker is forwarded or otherwise gains access to emails containing a \u201cView Request\u201d link from these users. Bot accounts are particularly susceptible to this scenario. On instances with single sign-on, external customer accounts can be affected in projects where anyone can create their own account.",
+            "epss_score": "0.00885",
             "github_repos": [
                 {
-                    "created": "2023-02-02T15:34:28Z",
-                    "description": "CVE-2022-44268 ImageMagick Arbitrary File Read - Payload Generator",
+                    "created": "2023-02-01T21:28:54Z",
+                    "description": "An authentication vulnerability was discovered in Jira Service Management Server and Data Center which allows an attacker to impersonate another user and gain access to a Jira Service Management instance under certain circumstances_._ With write access to a User Directory and outgoing email enabled on a Jira Service Ma CVE project by @Sn0wAlice",
                     "language": null,
-                    "name": "CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC",
-                    "stars": 28,
+                    "name": "CVE-2023-22501",
+                    "stars": 0,
                     "topics": [],
-                    "updated": "2023-02-03T05:20:51Z",
-                    "url": "https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC"
+                    "updated": "2023-02-01T21:28:54Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-22501"
                 }
             ],
-            "lastModifiedDate": null,
-            "num_retweets": 183,
-            "num_tweets": 43,
-            "num_tweets_and_retweets": 226,
-            "publishedDate": null,
-            "reddit_posts": [],
+            "lastModifiedDate": "2023-02-01T20:24Z",
+            "num_retweets": 43,
+            "num_tweets": 38,
+            "num_tweets_and_retweets": 81,
+            "publishedDate": "2023-02-01T19:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1675280448.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10r3wzy/cve202322501/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 156,
+                    "title": "CVE-2023-22501",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2023-22501"
+                },
+                {
+                    "created": 1675419994.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/SecOpsDaily/comments/10sh4t5/jira_service_management_server_and_data_center/",
+                    "subreddit": "SecOpsDaily",
+                    "subreddit_subscribers": 927,
+                    "title": "Jira Service Management Server and Data Center Advisory (CVE-2023-22501) | Atlassian Support | Atlassian Documentation",
+                    "upvotes": 1,
+                    "url": "https://confluence.atlassian.com/jira/jira-service-management-server-and-data-center-advisory-cve-2023-22501-1188786458.html"
+                }
+            ],
             "score": null,
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-02-02 13:30",
-                    "likes": 285,
-                    "num_retweets": 62,
-                    "retweets": 68,
-                    "tweet_id": "1621138934393901060",
-                    "tweet_text": "\ud83e\uddd9\u200d\u2642\ufe0f CVE-2022-44268 - a vulnerability in ImageMagick that could lead to an arbitrary file read.\n\nHow does it work? See here \ud83d\udc47 https://t.co/JXVw9KPF6T",
-                    "twitter_user_handle": "ptswarm",
-                    "twitter_user_name": "PT SWARM",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1280533914352857092/jdiJ_BkE_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-02-02 10:22",
-                    "likes": 48,
-                    "num_retweets": 37,
-                    "retweets": 40,
-                    "tweet_id": "1621091556680949761",
-                    "tweet_text": "Researchers discover new vulnerabilities in the ImageMagick image processing program that could lead to DoS (CVE-2022-44267) or arbitrary remote file leaks (CVE-2022-44268).\n\nRead: https://t.co/qwptfon56o\n\n#infosec #cybersecurity",
+                    "created_at": "2023-02-03 07:57",
+                    "likes": 51,
+                    "num_retweets": 33,
+                    "retweets": 34,
+                    "tweet_id": "1621417589502263298",
+                    "tweet_text": "A new critical authentication #vulnerability (CVE-2023-22501) has been discovered in #Atlassian's Jira Service Management Server and Data Center products that could allow attackers to gain unauthorized access to vulnerable instances.\n\n#cybersecurity #tech\n\nhttps://t.co/T5C2OvAYMq",
                     "twitter_user_handle": "TheHackersNews",
                     "twitter_user_name": "The Hacker News",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1597647879811657728/FLgHrLHy_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "thehackernews.com/2023/02/resear\u2026",
-                            "expanded_url": "https://thehackernews.com/2023/02/researchers-uncover-new-bugs-in-popular.html",
-                            "url": "https://t.co/qwptfon56o"
+                            "display_url": "thehackernews.com/2023/02/atlass\u2026",
+                            "expanded_url": "https://thehackernews.com/2023/02/atlassians-jira-software-found.html",
+                            "url": "https://t.co/T5C2OvAYMq"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-02-02 15:49",
-                    "likes": 126,
-                    "num_retweets": 27,
-                    "retweets": 32,
-                    "tweet_id": "1621174084339122180",
-                    "tweet_text": "So, here is another gift for you about ImageMagick Arbitrary File Read PoC. This CVE-2022-44268 was found by MetabaseQ team \ud83d\ude4c\ud83d\ude0e. Awesome work.\n\nhttps://t.co/Kmr9CcBq4c\n\n#imagemagick #ArbitraryFileRead https://t.co/y282hO4RPK",
-                    "twitter_user_handle": "ducnt_",
-                    "twitter_user_name": "Nguyen The Duc",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1229409486277771264/Mr4e9-4F_normal.jpg",
+                    "created_at": "2023-02-02 15:37",
+                    "likes": 3,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1621170941798617089",
+                    "tweet_text": "Atlassian Jira Service Management Server and Data Center Broken Authentication Vulnerability (CVE-2023-22501) https://t.co/ZJ85NQU0Pz",
+                    "twitter_user_handle": "qualys",
+                    "twitter_user_name": "Qualys",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1593374581577818112/OocckNks_normal.png",
                     "urls": [
                         {
-                            "display_url": "github.com/duc-nt/CVE-202\u2026",
-                            "expanded_url": "https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC",
-                            "url": "https://t.co/Kmr9CcBq4c"
+                            "display_url": "threatprotect.qualys.com/2023/02/02/atl\u2026",
+                            "expanded_url": "https://threatprotect.qualys.com/2023/02/02/atlassian-jira-service-management-server-and-data-center-broken-authentication-vulnerability-cve-2023-22501/",
+                            "url": "https://t.co/ZJ85NQU0Pz"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-02-02 17:08",
-                    "likes": 168,
-                    "num_retweets": 24,
-                    "retweets": 28,
-                    "tweet_id": "1621193760385163266",
-                    "tweet_text": "CVE-2022-44268 ImageMagick Arbitrary File Read \nhttps://t.co/oZv2RCNfoh https://t.co/YOLMn7ckqc",
-                    "twitter_user_handle": "h4x0r_dz",
-                    "twitter_user_name": "H4x0r.DZ\ud83c\udde9\ud83c\uddff",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1611859215290695682/o_qCz6HR_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "metabaseq.com/imagemagick-ze\u2026",
-                            "expanded_url": "https://www.metabaseq.com/imagemagick-zero-days/",
-                            "url": "https://t.co/oZv2RCNfoh"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-02 20:08",
-                    "likes": 15,
-                    "num_retweets": 7,
-                    "retweets": 8,
-                    "tweet_id": "1621239142053978112",
-                    "tweet_text": "CVE-2022-44268\n\nImageMagick Arbitrary File Read - Payload Generator.\n\nhttps://t.co/DR3AN3veC3\n\n#cve https://t.co/uh3vxsBM7a https://t.co/qnrBZnoFES",
-                    "twitter_user_handle": "hack_git",
-                    "twitter_user_name": "HackGit",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1430451138277556224/yDiqSjga_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/duc-nt/CVE-202\u2026",
-                            "expanded_url": "https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC",
-                            "url": "https://t.co/DR3AN3veC3"
-                        },
-                        {
-                            "display_url": "t.me/hackgit/7410",
-                            "expanded_url": "https://t.me/hackgit/7410",
-                            "url": "https://t.co/uh3vxsBM7a"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": null,
-            "audience_size": 1311661,
-            "cve": "CVE-2022-44267",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": null,
-            "epss_score": null,
-            "github_repos": [],
-            "lastModifiedDate": null,
-            "num_retweets": 55,
-            "num_tweets": 15,
-            "num_tweets_and_retweets": 70,
-            "publishedDate": null,
-            "reddit_posts": [],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-02-02 10:22",
-                    "likes": 48,
-                    "num_retweets": 37,
-                    "retweets": 40,
-                    "tweet_id": "1621091556680949761",
-                    "tweet_text": "Researchers discover new vulnerabilities in the ImageMagick image processing program that could lead to DoS (CVE-2022-44267) or arbitrary remote file leaks (CVE-2022-44268).\n\nRead: https://t.co/qwptfon56o\n\n#infosec #cybersecurity",
-                    "twitter_user_handle": "TheHackersNews",
-                    "twitter_user_name": "The Hacker News",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1597647879811657728/FLgHrLHy_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "thehackernews.com/2023/02/resear\u2026",
-                            "expanded_url": "https://thehackernews.com/2023/02/researchers-uncover-new-bugs-in-popular.html",
-                            "url": "https://t.co/qwptfon56o"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-02 20:50",
-                    "likes": 11,
-                    "num_retweets": 7,
-                    "retweets": 7,
-                    "tweet_id": "1621249598344859648",
-                    "tweet_text": "Researchers discover new vulnerabilities in the ImageMagick image processing program that could lead to DoS (CVE-2022-44267) or arbitrary remote file leaks (CVE-2022-44268).\n\nhttps://t.co/lNKS9nvZn0\n\n#infosec #cybersecurity",
-                    "twitter_user_handle": "YourAnonRiots",
-                    "twitter_user_name": "Anonymous\ud83d\udc3e\ud83d\udc31\ud83c\udf75\u2615",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1344109363804450816/9oQ_zVst_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "thehackernews.com/2023/02/resear\u2026",
-                            "expanded_url": "https://thehackernews.com/2023/02/researchers-uncover-new-bugs-in-popular.html",
-                            "url": "https://t.co/lNKS9nvZn0"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-02 09:06",
-                    "likes": 25,
-                    "num_retweets": 5,
-                    "retweets": 5,
-                    "tweet_id": "1621072526045749248",
-                    "tweet_text": "Pesquisadores descobrem novas vulnerabilidades no Programa de processamento de imagens ImageMagick que podem levar a DoS (CVE-2022-44267) ou vazamentos arbitr\u00e1rios de arquivos remotos (CVE-2022-44268). *thn",
-                    "twitter_user_handle": "franmito22",
-                    "twitter_user_name": "Francisco.",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1579942578304196613/atGXQeKo_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-02-02 06:21",
+                    "created_at": "2023-02-03 08:21",
                     "likes": 2,
                     "num_retweets": 2,
                     "retweets": 2,
-                    "tweet_id": "1621030906994753537",
-                    "tweet_text": "Researchers discover new vulnerabilities in the ImageMagick image processing program that could lead to DoS (CVE-2022-44267) or arbitrary remote file leaks (CVE-2022-44268).\n\nRead: https://t.co/nlpnmBAmPN\n\n#infosec #cybersecurity",
-                    "twitter_user_handle": "security_wang",
-                    "twitter_user_name": "Wang Wei",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/3023866949/a9092492e690a9b69ecd930477cc51cf_normal.png",
+                    "tweet_id": "1621423494138576896",
+                    "tweet_text": "A new critical authentication #vulnerability (CVE-2023-22501) has been discovered in #Atlassian's Jira Service Management Server and Data Center products that could allow attackers to gain unauthorized access to vulnerable instances.\n\nhttps://t.co/jYmJmsq2wY\n\n#cybersecurity",
+                    "twitter_user_handle": "Swati_THN",
+                    "twitter_user_name": "Swati Khandelwal",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1167522933482196992/a5LZk63J_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "thehackernews.com/2023/02/resear\u2026",
-                            "expanded_url": "https://thehackernews.com/2023/02/researchers-uncover-new-bugs-in-popular.html",
-                            "url": "https://t.co/nlpnmBAmPN"
+                            "display_url": "thehackernews.com/2023/02/atlass\u2026",
+                            "expanded_url": "https://thehackernews.com/2023/02/atlassians-jira-software-found.html",
+                            "url": "https://t.co/jYmJmsq2wY"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-02-02 12:38",
-                    "likes": 0,
-                    "num_retweets": 2,
-                    "retweets": 2,
-                    "tweet_id": "1621126008236814342",
-                    "tweet_text": "CVE-2022-44267: Denial of service\nCVE-2022-44268: Arbitrary Remote Leak\nImageMagick: The hidden vulnerability behind your online images\nhttps://t.co/xZnWVst5oL",
-                    "twitter_user_handle": "autumn_good_35",
-                    "twitter_user_name": "Autumn Good",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/753613417236172800/eRXIGCi1_normal.jpg",
+                    "created_at": "2023-02-03 09:21",
+                    "likes": 1,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1621438593351966720",
+                    "tweet_text": "A new critical authentication #vulnerability (CVE-2023-22501) has been discovered in #Atlassian's Jira Service Management Server and Data Center products that could allow attackers to gain unauthorized access to vulnerable instances.\n\nhttps://t.co/cni7i4BKm8\n\n#cybersecurity",
+                    "twitter_user_handle": "unix_root",
+                    "twitter_user_name": "Mohit Kumar",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1595089203418628098/w5E4iShA_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "metabaseq.com/imagemagick-ze\u2026",
-                            "expanded_url": "https://www.metabaseq.com/imagemagick-zero-days/",
-                            "url": "https://t.co/xZnWVst5oL"
+                            "display_url": "thehackernews.com/2023/02/atlass\u2026",
+                            "expanded_url": "https://thehackernews.com/2023/02/atlassians-jira-software-found.html",
+                            "url": "https://t.co/cni7i4BKm8"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-03 10:55",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1621462499189981185",
+                    "tweet_text": "Patch your Jira Service Management Server and Data Center and check for compromise! (CVE-2023-22501) https://t.co/GM2UuVOrdp #cyber  #awareness #threatintell #CTI #intelligence #detect_and_response #EDR #XDR #CyberThreat #CyberThreatIntelligence #Zeroday #Vulnerability #RiskMan\u2026",
+                    "twitter_user_handle": "SK_Expert",
+                    "twitter_user_name": "SK",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1598563656727404545/pntj_aa7_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/GJ20ysV",
+                            "expanded_url": "https://ift.tt/GJ20ysV",
+                            "url": "https://t.co/GM2UuVOrdp"
                         }
                     ]
                 }
@@ -238,7 +152,7 @@
         },
         {
             "assigner": "secalert_us@oracle.com",
-            "audience_size": 980468,
+            "audience_size": 1304527,
             "cve": "CVE-2022-21587",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -261,9 +175,9 @@
                 }
             ],
             "lastModifiedDate": "2022-10-20T16:54Z",
-            "num_retweets": 9,
-            "num_tweets": 12,
-            "num_tweets_and_retweets": 21,
+            "num_retweets": 51,
+            "num_tweets": 24,
+            "num_tweets_and_retweets": 75,
             "publishedDate": "2022-10-18T21:15Z",
             "reddit_posts": [
                 {
@@ -283,9 +197,9 @@
             "tweets": [
                 {
                     "created_at": "2023-02-03 05:26",
-                    "likes": 3,
-                    "num_retweets": 4,
-                    "retweets": 7,
+                    "likes": 81,
+                    "num_retweets": 41,
+                    "retweets": 45,
                     "tweet_id": "1621379509198163968",
                     "tweet_text": "Attention: Cyber criminals are actively exploiting known vulnerabilities in #Oracle E-Business Suite (CVE-2022-21587) and SugarCRM (CVE-2023-22952) systems. \n\nUpdate now!\n\n#infosec #cyberattacks #cybersecuritytips #informationsecurity \n\nhttps://t.co/NtcjU6GalC",
                     "twitter_user_handle": "TheHackersNews",
@@ -301,7 +215,7 @@
                 },
                 {
                     "created_at": "2023-02-03 03:33",
-                    "likes": 3,
+                    "likes": 6,
                     "num_retweets": 3,
                     "retweets": 3,
                     "tweet_id": "1621351101118177281",
@@ -336,31 +250,34 @@
                     ]
                 },
                 {
-                    "created_at": "2023-02-02 17:38",
+                    "created_at": "2023-02-03 08:51",
                     "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621201416952897536",
-                    "tweet_text": "CVE-2022-21587\nOracle E-Business Suite Unspecified Vulnerability\nhttps://t.co/Wa7tm7IZsu\n#Oracle #E-Business Suite #cisabot",
-                    "twitter_user_handle": "cisaCatalogBot",
-                    "twitter_user_name": "cisaCatalogBot",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1548862231974117376/Pdm2H3dS_normal.jpg",
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1621431043608969216",
+                    "tweet_text": "Attention: Cyber criminals are actively exploiting known vulnerabilities in #Oracle E-Business Suite (CVE-2022-21587) and SugarCRM (CVE-2023-22952) systems. Update now!\n\nRead: https://t.co/tvZgILmuP2\n\n#infosec #cyberattacks #cybersecuritytips #informationsecurity",
+                    "twitter_user_handle": "unix_root",
+                    "twitter_user_name": "Mohit Kumar",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1595089203418628098/w5E4iShA_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "oracle.com/security-alert\u2026",
-                            "expanded_url": "https://www.oracle.com/security-alerts/cpuoct2022.html",
-                            "url": "https://t.co/Wa7tm7IZsu"
+                            "display_url": "thehackernews.com/2023/02/cisa-a\u2026",
+                            "expanded_url": "https://thehackernews.com/2023/02/cisa-alert-oracle-e-business-suite-and.html",
+                            "url": "https://t.co/tvZgILmuP2"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-02-02 18:11",
-                    "num_retweets": 0,
-                    "tweet_id": "1621209612740599808",
-                    "tweet_text": "CVE-2022-21587 added to CISA's known exploited list\n\nOracle E-Business Suite contains an unspecified vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Web Applications Desktop Integrator.\n\nImpacting Oracle \u2013 E-Business Suite",
-                    "twitter_user_handle": "VulneraBot",
-                    "twitter_user_name": "Vulnera Security",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png"
+                    "created_at": "2023-02-03 06:22",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1621393664386760705",
+                    "tweet_text": "RT TheHackersNews \"Attention: Cyber criminals are actively exploiting known vulnerabilities in #Oracle E-Business Suite (CVE-2022-21587) and SugarCRM (CVE-2023-22952) systems. \n\nUpdate now!\n\n#infosec #cyberattacks #cybersecuritytips #informationsecurity \n\n\u2026",
+                    "twitter_user_handle": "AusRealNews",
+                    "twitter_user_name": "Australian Real News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/883226557497487361/sHxTjKgi_normal.jpg",
+                    "urls": []
                 }
             ],
             "vendor_advisories": [
@@ -382,7 +299,7 @@
         },
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 975873,
+            "audience_size": 1277737,
             "cve": "CVE-2023-22952",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -410,9 +327,9 @@
                 }
             ],
             "lastModifiedDate": "2023-01-18T21:32Z",
-            "num_retweets": 9,
-            "num_tweets": 10,
-            "num_tweets_and_retweets": 19,
+            "num_retweets": 50,
+            "num_tweets": 22,
+            "num_tweets_and_retweets": 72,
             "publishedDate": "2023-01-11T09:15Z",
             "reddit_posts": [
                 {
@@ -432,9 +349,9 @@
             "tweets": [
                 {
                     "created_at": "2023-02-03 05:26",
-                    "likes": 3,
-                    "num_retweets": 4,
-                    "retweets": 7,
+                    "likes": 81,
+                    "num_retweets": 41,
+                    "retweets": 45,
                     "tweet_id": "1621379509198163968",
                     "tweet_text": "Attention: Cyber criminals are actively exploiting known vulnerabilities in #Oracle E-Business Suite (CVE-2022-21587) and SugarCRM (CVE-2023-22952) systems. \n\nUpdate now!\n\n#infosec #cyberattacks #cybersecuritytips #informationsecurity \n\nhttps://t.co/NtcjU6GalC",
                     "twitter_user_handle": "TheHackersNews",
@@ -450,7 +367,7 @@
                 },
                 {
                     "created_at": "2023-02-03 03:33",
-                    "likes": 3,
+                    "likes": 6,
                     "num_retweets": 3,
                     "retweets": 3,
                     "tweet_id": "1621351101118177281",
@@ -485,40 +402,34 @@
                     ]
                 },
                 {
-                    "created_at": "2023-02-02 17:38",
+                    "created_at": "2023-02-03 08:51",
                     "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621201418416799744",
-                    "tweet_text": "CVE-2023-22952\nMultiple SugarCRM Products Remote Code Execution Vulnerability\nhttps://t.co/1uA5BeGLbx\n#SugarCRM #Multiple Products #cisabot",
-                    "twitter_user_handle": "cisaCatalogBot",
-                    "twitter_user_name": "cisaCatalogBot",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1548862231974117376/Pdm2H3dS_normal.jpg",
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1621431043608969216",
+                    "tweet_text": "Attention: Cyber criminals are actively exploiting known vulnerabilities in #Oracle E-Business Suite (CVE-2022-21587) and SugarCRM (CVE-2023-22952) systems. Update now!\n\nRead: https://t.co/tvZgILmuP2\n\n#infosec #cyberattacks #cybersecuritytips #informationsecurity",
+                    "twitter_user_handle": "unix_root",
+                    "twitter_user_name": "Mohit Kumar",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1595089203418628098/w5E4iShA_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "support.sugarcrm.com/Resources/Secu\u2026",
-                            "expanded_url": "https://support.sugarcrm.com/Resources/Security/sugarcrm-sa-2023-001/",
-                            "url": "https://t.co/1uA5BeGLbx"
+                            "display_url": "thehackernews.com/2023/02/cisa-a\u2026",
+                            "expanded_url": "https://thehackernews.com/2023/02/cisa-alert-oracle-e-business-suite-and.html",
+                            "url": "https://t.co/tvZgILmuP2"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-02-03 00:30",
-                    "likes": 1,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621304981667340290",
-                    "tweet_text": "\u3010\u8106\u5f31\u6027\u60c5\u5831\u3011\n2\u67082\u65e5\u3001\u7c73CISA\u304c\u300c\u60aa\u7528\u3055\u308c\u3066\u3044\u308b\u65e2\u77e5\u306e\u8106\u5f31\u6027\u300d\u30ea\u30b9\u30c8\u3092\u66f4\u65b0\u3057\u307e\u3057\u305f\u3002\n\n1. CVE-2022-21587 Oracle E-Business Suite\u306e\u8106\u5f31\u6027\n2. CVE-2023-22952 SugarCRM\u8907\u6570\u88fd\u54c1\u306e\u8106\u5f31\u6027\n\n\u7c73CISA\u306f\u3001\u30d9\u30f3\u30c0\u30fc\u60c5\u5831\u306b\u57fa\u3065\u304f\u30a2\u30c3\u30d7\u30c7\u30fc\u30c8\u3092\u6307\u793a\u3057\u3066\u3044\u307e\u3059\u3002\n#\u8106\u5f31\u6027 https://t.co/eJU3pT6W1p",
-                    "twitter_user_handle": "SompoCyber",
-                    "twitter_user_name": "SOMPO CYBER SECURITY",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1590252217537531905/30JcdF64_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "twitter.com/CISACyber/stat\u2026",
-                            "expanded_url": "https://twitter.com/CISACyber/status/1621196278670426114",
-                            "url": "https://t.co/eJU3pT6W1p"
-                        }
-                    ]
+                    "created_at": "2023-02-03 06:22",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1621393664386760705",
+                    "tweet_text": "RT TheHackersNews \"Attention: Cyber criminals are actively exploiting known vulnerabilities in #Oracle E-Business Suite (CVE-2022-21587) and SugarCRM (CVE-2023-22952) systems. \n\nUpdate now!\n\n#infosec #cyberattacks #cybersecuritytips #informationsecurity \n\n\u2026",
+                    "twitter_user_handle": "AusRealNews",
+                    "twitter_user_name": "Australian Real News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/883226557497487361/sHxTjKgi_normal.jpg",
+                    "urls": []
                 }
             ],
             "vendor_advisories": [
@@ -539,8 +450,154 @@
             ]
         },
         {
+            "assigner": null,
+            "audience_size": 1185337,
+            "cve": "CVE-2022-44268",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": null,
+            "epss_score": null,
+            "github_repos": [
+                {
+                    "created": "2023-02-02T15:34:28Z",
+                    "description": "CVE-2022-44268 ImageMagick Arbitrary File Read - Payload Generator",
+                    "language": null,
+                    "name": "CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC",
+                    "stars": 74,
+                    "topics": [],
+                    "updated": "2023-02-03T11:26:44Z",
+                    "url": "https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC"
+                },
+                {
+                    "created": "2023-02-03T08:02:28Z",
+                    "description": "The vulnerable recurrence docker environment for CVE-2022-44268",
+                    "language": "Dockerfile",
+                    "name": "CVE-2022-44268-ImageMagick-Vulnerable-Docker-Environment",
+                    "stars": 2,
+                    "topics": [],
+                    "updated": "2023-02-03T10:00:37Z",
+                    "url": "https://github.com/y1nglamore/CVE-2022-44268-ImageMagick-Vulnerable-Docker-Environment"
+                },
+                {
+                    "created": "2023-02-03T11:33:27Z",
+                    "description": "An information disclosure vulnerability that could be exploited to read arbitrary files from a server when parsing an image in Image Magic.",
+                    "language": null,
+                    "name": "CVE-2022-44268-automated-poc",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2023-02-03T11:33:27Z",
+                    "url": "https://github.com/Ashifcoder/CVE-2022-44268-automated-poc"
+                }
+            ],
+            "lastModifiedDate": null,
+            "num_retweets": 206,
+            "num_tweets": 55,
+            "num_tweets_and_retweets": 261,
+            "publishedDate": null,
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-02-02 13:30",
+                    "likes": 347,
+                    "num_retweets": 79,
+                    "retweets": 86,
+                    "tweet_id": "1621138934393901060",
+                    "tweet_text": "\ud83e\uddd9\u200d\u2642\ufe0f CVE-2022-44268 - a vulnerability in ImageMagick that could lead to an arbitrary file read.\n\nHow does it work? See here \ud83d\udc47 https://t.co/JXVw9KPF6T",
+                    "twitter_user_handle": "ptswarm",
+                    "twitter_user_name": "PT SWARM",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1280533914352857092/jdiJ_BkE_normal.png",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-02-02 15:49",
+                    "likes": 197,
+                    "num_retweets": 52,
+                    "retweets": 60,
+                    "tweet_id": "1621174084339122180",
+                    "tweet_text": "So, here is another gift for you about ImageMagick Arbitrary File Read PoC. This CVE-2022-44268 was found by MetabaseQ team \ud83d\ude4c\ud83d\ude0e. Awesome work.\n\nhttps://t.co/Kmr9CcBq4c\n\n#imagemagick #ArbitraryFileRead https://t.co/y282hO4RPK",
+                    "twitter_user_handle": "ducnt_",
+                    "twitter_user_name": "Nguyen The Duc",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1229409486277771264/Mr4e9-4F_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/duc-nt/CVE-202\u2026",
+                            "expanded_url": "https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC",
+                            "url": "https://t.co/Kmr9CcBq4c"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-02 17:08",
+                    "likes": 227,
+                    "num_retweets": 34,
+                    "retweets": 40,
+                    "tweet_id": "1621193760385163266",
+                    "tweet_text": "CVE-2022-44268 ImageMagick Arbitrary File Read \nhttps://t.co/oZv2RCNfoh https://t.co/YOLMn7ckqc",
+                    "twitter_user_handle": "h4x0r_dz",
+                    "twitter_user_name": "H4x0r.DZ\ud83c\udde9\ud83c\uddff",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1611859215290695682/o_qCz6HR_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "metabaseq.com/imagemagick-ze\u2026",
+                            "expanded_url": "https://www.metabaseq.com/imagemagick-zero-days/",
+                            "url": "https://t.co/oZv2RCNfoh"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-02 20:08",
+                    "likes": 36,
+                    "num_retweets": 12,
+                    "retweets": 13,
+                    "tweet_id": "1621239142053978112",
+                    "tweet_text": "CVE-2022-44268\n\nImageMagick Arbitrary File Read - Payload Generator.\n\nhttps://t.co/DR3AN3veC3\n\n#cve https://t.co/uh3vxsBM7a https://t.co/qnrBZnoFES",
+                    "twitter_user_handle": "hack_git",
+                    "twitter_user_name": "HackGit",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1430451138277556224/yDiqSjga_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/duc-nt/CVE-202\u2026",
+                            "expanded_url": "https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC",
+                            "url": "https://t.co/DR3AN3veC3"
+                        },
+                        {
+                            "display_url": "t.me/hackgit/7410",
+                            "expanded_url": "https://t.me/hackgit/7410",
+                            "url": "https://t.co/uh3vxsBM7a"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-02 20:50",
+                    "likes": 12,
+                    "num_retweets": 7,
+                    "retweets": 7,
+                    "tweet_id": "1621249598344859648",
+                    "tweet_text": "Researchers discover new vulnerabilities in the ImageMagick image processing program that could lead to DoS (CVE-2022-44267) or arbitrary remote file leaks (CVE-2022-44268).\n\nhttps://t.co/lNKS9nvZn0\n\n#infosec #cybersecurity",
+                    "twitter_user_handle": "YourAnonRiots",
+                    "twitter_user_name": "Anonymous\ud83d\udc3e\ud83d\udc31\ud83c\udf75\u2615",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1344109363804450816/9oQ_zVst_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "thehackernews.com/2023/02/resear\u2026",
+                            "expanded_url": "https://thehackernews.com/2023/02/researchers-uncover-new-bugs-in-popular.html",
+                            "url": "https://t.co/lNKS9nvZn0"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
             "assigner": "psirt@adobe.com",
-            "audience_size": 585839,
+            "audience_size": 862953,
             "cve": "CVE-2023-21608",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -554,14 +611,14 @@
                 }
             ],
             "description": "Adobe Acrobat Reader versions 22.003.20282 (and earlier), 22.003.20281 (and earlier) and 20.005.30418 (and earlier) are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
-            "epss_score": "0.01223",
+            "epss_score": "0.07947",
             "github_repos": [
                 {
                     "created": "2023-01-30T12:57:48Z",
                     "description": "Adobe Acrobat Reader - CVE-2023-21608 - Remote Code Execution Exploit",
                     "language": "JavaScript",
                     "name": "CVE-2023-21608",
-                    "stars": 25,
+                    "stars": 42,
                     "topics": [
                         "adobe",
                         "adobe-reader",
@@ -573,14 +630,14 @@
                         "rce",
                         "use-after-free"
                     ],
-                    "updated": "2023-02-03T05:03:13Z",
+                    "updated": "2023-02-03T11:15:29Z",
                     "url": "https://github.com/hacksysteam/CVE-2023-21608"
                 }
             ],
             "lastModifiedDate": "2023-01-26T18:17Z",
-            "num_retweets": 50,
-            "num_tweets": 30,
-            "num_tweets_and_retweets": 80,
+            "num_retweets": 133,
+            "num_tweets": 37,
+            "num_tweets_and_retweets": 170,
             "publishedDate": "2023-01-18T19:15Z",
             "reddit_posts": [
                 {
@@ -589,9 +646,9 @@
                     "num_comments": 3,
                     "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/10l36b3/several_adobe_reader_exploit_listed_in_012023/",
                     "subreddit": "cybersecurity",
-                    "subreddit_subscribers": 443646,
+                    "subreddit_subscribers": 443701,
                     "title": "Several adobe reader exploit listed in 01/2023",
-                    "upvotes": 5,
+                    "upvotes": 6,
                     "url": "https://www.reddit.com/r/cybersecurity/comments/10l36b3/several_adobe_reader_exploit_listed_in_012023/"
                 },
                 {
@@ -611,7 +668,7 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/CyberSecurityAdvice/comments/10l37cm/several_adobe_reader_exploit_listed_in_012023/",
                     "subreddit": "CyberSecurityAdvice",
-                    "subreddit_subscribers": 9034,
+                    "subreddit_subscribers": 9040,
                     "title": "Several adobe reader exploit listed in 01/2023",
                     "upvotes": 1,
                     "url": "https://www.reddit.com/r/CyberSecurityAdvice/comments/10l37cm/several_adobe_reader_exploit_listed_in_012023/"
@@ -633,7 +690,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/10s95yz/adobe_acrobat_reader_resetform_cagg_uaf_rce/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 465799,
+                    "subreddit_subscribers": 465805,
                     "title": "Adobe Acrobat Reader - resetForm - CAgg UaF - RCE Exploit - CVE-2023-21608",
                     "upvotes": 1,
                     "url": "https://hacksys.io/blogs/adobe-reader-resetform-cagg-rce-cve-2023-21608"
@@ -644,9 +701,9 @@
             "tweets": [
                 {
                     "created_at": "2023-02-02 15:38",
-                    "likes": 21,
-                    "num_retweets": 11,
-                    "retweets": 14,
+                    "likes": 67,
+                    "num_retweets": 34,
+                    "retweets": 39,
                     "tweet_id": "1621171115631706113",
                     "tweet_text": "GitHub - hacksysteam/CVE-2023-21608: Adobe Acrobat Reader - CVE-2023-21608 - Remote Code Execution Exploit - https://t.co/xVfZvBgsfC",
                     "twitter_user_handle": "piedpiper1616",
@@ -661,46 +718,10 @@
                     ]
                 },
                 {
-                    "created_at": "2023-02-02 17:44",
-                    "likes": 15,
-                    "num_retweets": 8,
-                    "retweets": 10,
-                    "tweet_id": "1621202925828689920",
-                    "tweet_text": "Adobe Acrobat Reader - resetForm - CAgg UaF - RCE Exploit - CVE-2023-21608\n\nhttps://t.co/F2ZmgZHbGa",
-                    "twitter_user_handle": "cyb3rops",
-                    "twitter_user_name": "Florian Roth \u26a1",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1600601668151873537/Zpa502np_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "hacksys.io/blogs/adobe-re\u2026",
-                            "expanded_url": "https://hacksys.io/blogs/adobe-reader-resetform-cagg-rce-CVE-2023-21608",
-                            "url": "https://t.co/F2ZmgZHbGa"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-03 03:04",
-                    "likes": 11,
-                    "num_retweets": 6,
-                    "retweets": 6,
-                    "tweet_id": "1621343726621675520",
-                    "tweet_text": "Apologies had to delete the last tweet with Adobe blog post URL due to a typo in the URL. The URL has been updated and you can find the blog post here: \n\nAdobe Acrobat Reader - resetForm - CAgg UaF - RCE Exploit - CVE-2023-21608\n\nhttps://t.co/r2vLpCBL74",
-                    "twitter_user_handle": "HackSysTeam",
-                    "twitter_user_name": "HackSys Team",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/2650360783/29d04d32f96fbfcee08bb665379053c8_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "hacksys.io/blogs/adobe-re\u2026",
-                            "expanded_url": "https://hacksys.io/blogs/adobe-reader-resetform-cagg-rce-cve-2023-21608",
-                            "url": "https://t.co/r2vLpCBL74"
-                        }
-                    ]
-                },
-                {
                     "created_at": "2023-02-03 04:41",
-                    "likes": 9,
-                    "num_retweets": 4,
-                    "retweets": 4,
+                    "likes": 55,
+                    "num_retweets": 23,
+                    "retweets": 27,
                     "tweet_id": "1621368313270996993",
                     "tweet_text": "PoC Exploit for Adobe Acrobat Reader DC RCE Vulnerability (CVE-2023-21608) Released https://t.co/dTLD1buxcq",
                     "twitter_user_handle": "Dinosn",
@@ -715,30 +736,56 @@
                     ]
                 },
                 {
-                    "created_at": "2023-02-02 17:06",
-                    "likes": 11,
-                    "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1621193321749118977",
-                    "tweet_text": "CVE-2023-21608\n\nAdobe Acrobat Reader Remote Code Execution Exploit\n\nThis bug was Use after Free caused during resetForm operation while handling object memory references.\n\nhttps://t.co/Zup8K8rQhm\n\nDetails:\nhttps://t.co/aA5oqgFv36\n\n#cve https://t.co/b1BscwswMC https://t.co/P4WJ54Xyv2",
-                    "twitter_user_handle": "hack_git",
-                    "twitter_user_name": "HackGit",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1430451138277556224/yDiqSjga_normal.jpg",
+                    "created_at": "2023-02-03 03:04",
+                    "likes": 24,
+                    "num_retweets": 13,
+                    "retweets": 13,
+                    "tweet_id": "1621343726621675520",
+                    "tweet_text": "Apologies had to delete the last tweet with Adobe blog post URL due to a typo in the URL. The URL has been updated and you can find the blog post here: \n\nAdobe Acrobat Reader - resetForm - CAgg UaF - RCE Exploit - CVE-2023-21608\n\nhttps://t.co/r2vLpCBL74",
+                    "twitter_user_handle": "HackSysTeam",
+                    "twitter_user_name": "HackSys Team",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/2650360783/29d04d32f96fbfcee08bb665379053c8_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "hacksys.io/blogs/adobe-re\u2026",
+                            "expanded_url": "https://hacksys.io/blogs/adobe-reader-resetform-cagg-rce-cve-2023-21608",
+                            "url": "https://t.co/r2vLpCBL74"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-02 17:44",
+                    "likes": 17,
+                    "num_retweets": 9,
+                    "retweets": 11,
+                    "tweet_id": "1621202925828689920",
+                    "tweet_text": "Adobe Acrobat Reader - resetForm - CAgg UaF - RCE Exploit - CVE-2023-21608\n\nhttps://t.co/F2ZmgZHbGa",
+                    "twitter_user_handle": "cyb3rops",
+                    "twitter_user_name": "Florian Roth \u26a1",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1600601668151873537/Zpa502np_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "hacksys.io/blogs/adobe-re\u2026",
+                            "expanded_url": "https://hacksys.io/blogs/adobe-reader-resetform-cagg-rce-CVE-2023-21608",
+                            "url": "https://t.co/F2ZmgZHbGa"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-03 05:47",
+                    "likes": 4,
+                    "num_retweets": 4,
+                    "retweets": 4,
+                    "tweet_id": "1621384918688309248",
+                    "tweet_text": "CVE-2023-21608 Adobe Acrobat Reader - resetForm - CAgg UaF - RCE Exploit\n\nhttps://t.co/9teETk4nk0",
+                    "twitter_user_handle": "S0ufi4n3",
+                    "twitter_user_name": "Soufiane Tahiri",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1168826150757588992/XkDv4yj2_normal.jpg",
                     "urls": [
                         {
                             "display_url": "github.com/hacksysteam/CV\u2026",
                             "expanded_url": "https://github.com/hacksysteam/CVE-2023-21608",
-                            "url": "https://t.co/Zup8K8rQhm"
-                        },
-                        {
-                            "display_url": "hacksys.io/blogs/adobe-re\u2026",
-                            "expanded_url": "https://hacksys.io/blogs/adobe-reader-resetform-cagg-rce-CVE-2023-21608",
-                            "url": "https://t.co/aA5oqgFv36"
-                        },
-                        {
-                            "display_url": "t.me/hackgit/7409",
-                            "expanded_url": "https://t.me/hackgit/7409",
-                            "url": "https://t.co/b1BscwswMC"
+                            "url": "https://t.co/9teETk4nk0"
                         }
                     ]
                 }
@@ -750,7 +797,7 @@
         },
         {
             "assigner": null,
-            "audience_size": 424637,
+            "audience_size": 480522,
             "cve": "CVE-2023-20076",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -762,9 +809,9 @@
             "epss_score": null,
             "github_repos": [],
             "lastModifiedDate": null,
-            "num_retweets": 9,
-            "num_tweets": 15,
-            "num_tweets_and_retweets": 24,
+            "num_retweets": 10,
+            "num_tweets": 17,
+            "num_tweets_and_retweets": 27,
             "publishedDate": null,
             "reddit_posts": [],
             "score": null,
@@ -789,38 +836,20 @@
                     ]
                 },
                 {
-                    "created_at": "2023-02-02 11:00",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1621101182113705984",
-                    "tweet_text": "\u300cCisco \u7523\u696d\u7528\u30a2\u30d7\u30e9\u30a4\u30a2\u30f3\u30b9\u306e\u8106\u5f31\u6027\u306f\u6f5c\u5728\u7684\u306a\u60aa\u5922\u3067\u3059 (CVE-2023-20076)\u300d\nhttps://t.co/g06Z4AvKn0",
-                    "twitter_user_handle": "foxbook",
-                    "twitter_user_name": "\u30ad\u30bf\u304d\u3064\u306d",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/356907502/fox_normal.jpg",
+                    "created_at": "2023-02-02 21:09",
+                    "likes": 5,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1621254408322392065",
+                    "tweet_text": "Command injection CVE-2023-20076 impacts Cisco networking devices, but the big picture is potential hardware supply chain risks. This is why @TrellixARC researchers take their work so seriously. \n\nLearn more about their recent discoveries via @sdxcentral. https://t.co/q3GaqUNCRQ https://t.co/mr7GrBUmLT",
+                    "twitter_user_handle": "Trellix",
+                    "twitter_user_name": "Trellix",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1542599606185259008/BfX-m-bi_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "helpnetsecurity.com/2023/02/01/cve\u2026",
-                            "expanded_url": "https://www.helpnetsecurity.com/2023/02/01/cve-2023-20076/",
-                            "url": "https://t.co/g06Z4AvKn0"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-02 14:00",
-                    "likes": 4,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1621146428801454088",
-                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2022-44268: 2.8M (audience size)\nCVE-2022-44267: 2.5M\nCVE-2023-20076: 754.6K\n\nPast 7 days:\nCVE-2022-27596: 3.4M\nCVE-2022-44268: 2.8M\nCVE-2022-44267: 2.5M\n\nhttps://t.co/LhpwNP75dO",
-                    "twitter_user_handle": "CVEtrends",
-                    "twitter_user_name": "CVE Trends",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cvetrends.com",
-                            "expanded_url": "https://cvetrends.com",
-                            "url": "https://t.co/LhpwNP75dO"
+                            "display_url": "bit.ly/3Yaucd6",
+                            "expanded_url": "https://bit.ly/3Yaucd6",
+                            "url": "https://t.co/q3GaqUNCRQ"
                         }
                     ]
                 },
@@ -843,20 +872,38 @@
                     ]
                 },
                 {
-                    "created_at": "2023-02-02 14:47",
+                    "created_at": "2023-02-03 08:19",
                     "likes": 0,
                     "num_retweets": 1,
                     "retweets": 1,
-                    "tweet_id": "1621158401408663553",
-                    "tweet_text": "This just in \u2014 new research from @TrellixARC (led by @eAyeP &amp; @Abraxus7331) reveals CVE-2023-20076, a new vuln found in @Cisco industrial gear. @DarkReading dives in https://t.co/AWQfh3i1pv",
-                    "twitter_user_handle": "CsmTonya",
-                    "twitter_user_name": "Tonya_Trellix_CSM",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1549798772611330048/z_N7-y2a_normal.jpg",
+                    "tweet_id": "1621423116718116865",
+                    "tweet_text": "#F5 BIG-IP and #CISCO IOS patch #vulnerabilities that could lead to denial-of-service (DoS) or arbitrary code execution. If you have these devices don't forget to patch today!\n\n#CVE-2023-22374 (F5)\nCVE-2023-20076 (Cisco)\n\nhttps://t.co/CKWIajqG7N",
+                    "twitter_user_handle": "securestep9",
+                    "twitter_user_name": "Sam Stepanyan",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1114515035865399296/V6nLLbjK_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "darkreading.com/ics-ot/command\u2026",
-                            "expanded_url": "https://www.darkreading.com/ics-ot/command-injection-bug-cisco-industrial-gear-devices-complete-takeover?eid=6D51GUQV&smcid=LNO&utm_campaign=employee&utm_source=employee&utm_medium=organic&blaid=4107881",
-                            "url": "https://t.co/AWQfh3i1pv"
+                            "display_url": "thehackernews.com/2023/02/new-hi\u2026",
+                            "expanded_url": "https://thehackernews.com/2023/02/new-high-severity-vulnerabilities.html",
+                            "url": "https://t.co/CKWIajqG7N"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-02 14:00",
+                    "likes": 4,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1621146428801454088",
+                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2022-44268: 2.8M (audience size)\nCVE-2022-44267: 2.5M\nCVE-2023-20076: 754.6K\n\nPast 7 days:\nCVE-2022-27596: 3.4M\nCVE-2022-44268: 2.8M\nCVE-2022-44267: 2.5M\n\nhttps://t.co/LhpwNP75dO",
+                    "twitter_user_handle": "CVEtrends",
+                    "twitter_user_name": "CVE Trends",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cvetrends.com",
+                            "expanded_url": "https://cvetrends.com",
+                            "url": "https://t.co/LhpwNP75dO"
                         }
                     ]
                 }
@@ -865,92 +912,78 @@
             "vendors": []
         },
         {
-            "assigner": "security@qnap.com",
-            "audience_size": 410706,
-            "cve": "CVE-2022-27596",
+            "assigner": null,
+            "audience_size": 290046,
+            "cve": "CVE-2022-44267",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
-            "cvssv3_base_score": 9.8,
-            "cvssv3_base_severity": "CRITICAL",
-            "cwes": [
-                {
-                    "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
-                    "cwe_id": "CWE-89"
-                }
-            ],
-            "description": "A vulnerability has been reported to affect QNAP device running QuTS hero, QTS. If exploited, this vulnerability allows remote attackers to inject malicious code. We have already fixed this vulnerability in the following versions of QuTS hero, QTS: QuTS hero h5.0.1.2248 build 20221215 and later QTS 5.0.1.2234 build 20221201 and later",
-            "epss_score": "0.01055",
-            "github_repos": [
-                {
-                    "created": "2023-01-30T06:39:18Z",
-                    "description": "A vulnerability has been reported to affect QNAP device running QuTS hero, QTS. If exploited, this vulnerability allows remote attackers to inject malicious code. We have already fixed this vulnerability in the following versions of QuTS hero, QTS: QuTS hero h5.0.1.2248 build 20221215 and later QTS 5.0.1.2234 build 202 CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2022-27596",
-                    "stars": 1,
-                    "topics": [],
-                    "updated": "2023-02-02T00:52:37Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-27596"
-                }
-            ],
-            "lastModifiedDate": "2023-02-01T14:40Z",
-            "num_retweets": 10,
-            "num_tweets": 29,
-            "num_tweets_and_retweets": 39,
-            "publishedDate": "2023-01-30T02:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1675366684.0,
-                    "is_self": true,
-                    "num_comments": 3,
-                    "reddit_url": "https://www.reddit.com/r/sysadmin/comments/10ryo9k/new_qnap_98_severity_rce_cve202227596/",
-                    "subreddit": "sysadmin",
-                    "subreddit_subscribers": 770196,
-                    "title": "New QNAP 9.8 Severity RCE CVE-2022-27596",
-                    "upvotes": 14,
-                    "url": "https://www.reddit.com/r/sysadmin/comments/10ryo9k/new_qnap_98_severity_rce_cve202227596/"
-                },
-                {
-                    "created": 1675273298.0,
-                    "is_self": true,
-                    "num_comments": 27,
-                    "reddit_url": "https://www.reddit.com/r/qnap/comments/10r0sb3/patch_now_qsa2301_over_29000_qnap_devices/",
-                    "subreddit": "qnap",
-                    "subreddit_subscribers": 22022,
-                    "title": "Patch now (QSA-23-01): Over 29,000 QNAP devices vulnerable and reachable over the internet!",
-                    "upvotes": 11,
-                    "url": "https://www.reddit.com/r/qnap/comments/10r0sb3/patch_now_qsa2301_over_29000_qnap_devices/"
-                },
-                {
-                    "created": 1675046346.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10oqffy/cve202227596/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 156,
-                    "title": "CVE-2022-27596",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-27596"
-                }
-            ],
-            "score": 9.8,
-            "severity": "CRITICAL",
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": null,
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": null,
+            "num_retweets": 13,
+            "num_tweets": 10,
+            "num_tweets_and_retweets": 23,
+            "publishedDate": null,
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-02-02 07:28",
-                    "likes": 1,
-                    "num_retweets": 3,
-                    "retweets": 3,
-                    "tweet_id": "1621047945817722880",
-                    "tweet_text": "https://t.co/tScPxhRldd .. Over 30k Internet-Exposed QNAP NAS hosts impacted by CVE-2022-27596 flaw #news #tech #nsa #FBI #intelligence #DFIR #digitalforensics #SIEM",
-                    "twitter_user_handle": "daveDFIR",
-                    "twitter_user_name": "daveSmith",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1219336380582465543/OK6UxbZ5_normal.jpg",
+                    "created_at": "2023-02-02 20:50",
+                    "likes": 12,
+                    "num_retweets": 7,
+                    "retweets": 7,
+                    "tweet_id": "1621249598344859648",
+                    "tweet_text": "Researchers discover new vulnerabilities in the ImageMagick image processing program that could lead to DoS (CVE-2022-44267) or arbitrary remote file leaks (CVE-2022-44268).\n\nhttps://t.co/lNKS9nvZn0\n\n#infosec #cybersecurity",
+                    "twitter_user_handle": "YourAnonRiots",
+                    "twitter_user_name": "Anonymous\ud83d\udc3e\ud83d\udc31\ud83c\udf75\u2615",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1344109363804450816/9oQ_zVst_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "ift.tt/0j7rOX6",
-                            "expanded_url": "https://ift.tt/0j7rOX6",
-                            "url": "https://t.co/tScPxhRldd"
+                            "display_url": "thehackernews.com/2023/02/resear\u2026",
+                            "expanded_url": "https://thehackernews.com/2023/02/researchers-uncover-new-bugs-in-popular.html",
+                            "url": "https://t.co/lNKS9nvZn0"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-03 11:17",
+                    "likes": 1,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1621467840422494208",
+                    "tweet_text": "ImageMagick \u4efb\u610f\u6587\u4ef6\u8bfb\u53d6\u6f0f\u6d1e\n\uff08CVE-2022-44268\uff09 \uff0c\u4ece\u6f0f\u6d1e\u5f62\u6210\u539f\u7406\u6765\u770b\uff0cCVE-2022-44267\u3001CVE-2022-44268 \u5b9e\u9645\u4e0a\u662f\u540c\u4e00\u4e2a\u6f0f\u6d1e\uff0c\u5747\u662f\u7531\u4e8e ImageMagick \u5728\u89e3\u6790 PNG \u56fe\u50cf\u65f6\u4ee3\u7801\u5904\u7406\u4e0d\u5f53\u800c\u5bfc\u81f4\u7684\u3002 \npoc\uff1ahttps://t.co/Ezc8PFbT0x https://t.co/XMnLILnsIx",
+                    "twitter_user_handle": "Herdwolfman",
+                    "twitter_user_name": "\u7267\u72fc\u4eba",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1229968206237814786/fracSeIA_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/duc-nt/CVE-202\u2026",
+                            "expanded_url": "https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC",
+                            "url": "https://t.co/Ezc8PFbT0x"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-02 12:38",
+                    "likes": 0,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1621126008236814342",
+                    "tweet_text": "CVE-2022-44267: Denial of service\nCVE-2022-44268: Arbitrary Remote Leak\nImageMagick: The hidden vulnerability behind your online images\nhttps://t.co/xZnWVst5oL",
+                    "twitter_user_handle": "autumn_good_35",
+                    "twitter_user_name": "Autumn Good",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/753613417236172800/eRXIGCi1_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "metabaseq.com/imagemagick-ze\u2026",
+                            "expanded_url": "https://www.metabaseq.com/imagemagick-zero-days/",
+                            "url": "https://t.co/xZnWVst5oL"
                         }
                     ]
                 },
@@ -973,80 +1006,21 @@
                     ]
                 },
                 {
-                    "created_at": "2023-02-02 14:01",
-                    "likes": 1,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1621146679000043525",
-                    "tweet_text": "Over 30k Internet-Exposed QNAP NAS hosts impacted by CVE-2022-27596 flaw\nhttps://t.co/kjOg9ysJ7u\n\n#Infosec #Secinfo #Security #CeptBiro #Cybersecurity #QNAP #NAS",
-                    "twitter_user_handle": "ReneRobichaud",
-                    "twitter_user_name": "Rene Robichaud",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/858762561004634112/QKrnif1X_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "securityaffairs.com/141705/hacking\u2026",
-                            "expanded_url": "https://securityaffairs.com/141705/hacking/qnap-nas-vulnerable-cve-2022-27596.html",
-                            "url": "https://t.co/kjOg9ysJ7u"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-02 06:42",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1621036211296165888",
-                    "tweet_text": "Over 30k Internet-Exposed QNAP NAS hosts impacted by CVE-2022-27596 flaw: Censys found 30,000 internet-facing QNAP appliances potentially impacted by a recently disclosed critical code injection flaw. On January 30, Taiwanese vendor QNAP released QTS and\u2026 https://t.co/hCRXWwwgY4 https://t.co/E5xayAsEHx",
-                    "twitter_user_handle": "shah_sheikh",
-                    "twitter_user_name": "Shah Sheikh",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1045681989095960577/kl5G4rq7_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "securityaffairs.com/141705/hacking\u2026",
-                            "expanded_url": "https://securityaffairs.com/141705/hacking/qnap-nas-vulnerable-cve-2022-27596.html?utm_source=dlvr.it&utm_medium=twitter",
-                            "url": "https://t.co/hCRXWwwgY4"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-02 06:45",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1621037163432353794",
-                    "tweet_text": "Over 30k Internet-Exposed QNAP NAS hosts impacted by CVE-2022-27596 flaw: https://t.co/qLBCiGZi7z by Security Affairs  #infosec #software #technology",
-                    "twitter_user_handle": "Alevskey",
-                    "twitter_user_name": "Infosec Alevski \ud83d\udcbb\ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1387107156709691394/R2Q868bO_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/8WO3mKk",
-                            "expanded_url": "https://ift.tt/8WO3mKk",
-                            "url": "https://t.co/qLBCiGZi7z"
-                        }
-                    ]
+                    "created_at": "2023-02-02 18:17",
+                    "num_retweets": 0,
+                    "tweet_id": "1621211225316024321",
+                    "tweet_text": "ImageMagick version 7.1.0-49 is vulnerable to just by uploading an a malicious image to a website.\n\ud83d\udca5 CVE-2022-44267: DoS\n\ud83d\udca5 CVE-2022-44268: Information disclosure.\nMore details here \ud83d\udc47\nhttps://t.co/oPzhGk1zEK",
+                    "twitter_user_handle": "ciphersweet",
+                    "twitter_user_name": "Ali Dalhouss",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1614029646403719168/gok0HUci_normal.jpg"
                 }
             ],
-            "vendor_advisories": [
-                "https://www.qnap.com/en/security-advisory/qsa-23-01"
-            ],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Quts Hero",
-                            "versions": [
-                                "*"
-                            ]
-                        }
-                    ],
-                    "vendor": "Qnap"
-                }
-            ]
+            "vendor_advisories": [],
+            "vendors": []
         },
         {
             "assigner": null,
-            "audience_size": 190323,
+            "audience_size": 213377,
             "cve": "CVE-2023-0179",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1062,16 +1036,16 @@
                     "description": null,
                     "language": "C",
                     "name": "CVE-2023-0179-PoC",
-                    "stars": 39,
+                    "stars": 54,
                     "topics": [],
-                    "updated": "2023-02-03T04:11:07Z",
+                    "updated": "2023-02-03T11:34:10Z",
                     "url": "https://github.com/TurtleARM/CVE-2023-0179-PoC"
                 }
             ],
             "lastModifiedDate": null,
-            "num_retweets": 7,
-            "num_tweets": 6,
-            "num_tweets_and_retweets": 13,
+            "num_retweets": 23,
+            "num_tweets": 10,
+            "num_tweets_and_retweets": 33,
             "publishedDate": null,
             "reddit_posts": [
                 {
@@ -1080,7 +1054,7 @@
                     "num_comments": 13,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/10d98w1/cve20230179_linux_kernel_stack_buffer_overflow_in/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 465799,
+                    "subreddit_subscribers": 465805,
                     "title": "[CVE-2023-0179] Linux kernel stack buffer overflow in nftables: PoC and writeup",
                     "upvotes": 183,
                     "url": "https://seclists.org/oss-sec/2023/q1/20"
@@ -1091,9 +1065,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/Information_Security/comments/10f6wi5/cve20230179_linux_kernel_stack_buffer_overflow_in/",
                     "subreddit": "Information_Security",
-                    "subreddit_subscribers": 20825,
+                    "subreddit_subscribers": 20827,
                     "title": "CVE-2023-0179: Linux kernel stack buffer overflow in nftables: PoC and writeup",
-                    "upvotes": 14,
+                    "upvotes": 13,
                     "url": "https://seclists.org/oss-sec/2023/q1/20"
                 },
                 {
@@ -1102,7 +1076,7 @@
                     "num_comments": 23,
                     "reddit_url": "https://www.reddit.com/r/openwrt/comments/10e8b2y/cve20230179_relevant_to_openwrt/",
                     "subreddit": "openwrt",
-                    "subreddit_subscribers": 23687,
+                    "subreddit_subscribers": 23690,
                     "title": "CVE-2023-0179 relevant to Openwrt",
                     "upvotes": 7,
                     "url": "https://www.reddit.com/r/openwrt/comments/10e8b2y/cve20230179_relevant_to_openwrt/"
@@ -1134,28 +1108,10 @@
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-02-03 04:33",
-                    "likes": 2,
-                    "num_retweets": 4,
-                    "retweets": 4,
-                    "tweet_id": "1621366253561552900",
-                    "tweet_text": "Researcher Publishes PoC Exploit for Privilege Escalation Flaw (CVE-2023-0179) in Linux Kernel https://t.co/uVo2cFylHf #security #opensource #cybersecurity #malware #cyber #pentesting #malwareanalysis #infosec #redteam #malwarehunting #hacking #infosec #threathunting #bugbounty\u2026",
-                    "twitter_user_handle": "FilipiPires",
-                    "twitter_user_name": "Filipi Pires",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1531334436800831488/evf2wJ4z_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/yIcaLAg",
-                            "expanded_url": "https://ift.tt/yIcaLAg",
-                            "url": "https://t.co/uVo2cFylHf"
-                        }
-                    ]
-                },
-                {
                     "created_at": "2023-02-03 04:41",
-                    "likes": 6,
-                    "num_retweets": 2,
-                    "retweets": 2,
+                    "likes": 17,
+                    "num_retweets": 12,
+                    "retweets": 13,
                     "tweet_id": "1621368172145254403",
                     "tweet_text": "Researcher Publishes PoC Exploit for Privilege Escalation Flaw (CVE-2023-0179) in Linux Kernel https://t.co/GHMb6k1ut6",
                     "twitter_user_handle": "Dinosn",
@@ -1170,10 +1126,28 @@
                     ]
                 },
                 {
+                    "created_at": "2023-02-03 04:33",
+                    "likes": 3,
+                    "num_retweets": 6,
+                    "retweets": 6,
+                    "tweet_id": "1621366253561552900",
+                    "tweet_text": "Researcher Publishes PoC Exploit for Privilege Escalation Flaw (CVE-2023-0179) in Linux Kernel https://t.co/uVo2cFylHf #security #opensource #cybersecurity #malware #cyber #pentesting #malwareanalysis #infosec #redteam #malwarehunting #hacking #infosec #threathunting #bugbounty\u2026",
+                    "twitter_user_handle": "FilipiPires",
+                    "twitter_user_name": "Filipi Pires",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1531334436800831488/evf2wJ4z_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/yIcaLAg",
+                            "expanded_url": "https://ift.tt/yIcaLAg",
+                            "url": "https://t.co/uVo2cFylHf"
+                        }
+                    ]
+                },
+                {
                     "created_at": "2023-02-03 01:43",
-                    "likes": 4,
-                    "num_retweets": 1,
-                    "retweets": 1,
+                    "likes": 19,
+                    "num_retweets": 5,
+                    "retweets": 6,
                     "tweet_id": "1621323334678970371",
                     "tweet_text": "LPE for CVE-2023-0179 is live! Compatibility with other versions should be just a matter of offsets. It was nice not having to deal with stack offset randomization. \nhttps://t.co/DvqIyXaerr",
                     "twitter_user_handle": "TurtleARM97",
@@ -1229,7 +1203,7 @@
         },
         {
             "assigner": "chrome-cve-admin@google.com",
-            "audience_size": 159815,
+            "audience_size": 160252,
             "cve": "CVE-2022-4135",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1304,9 +1278,9 @@
                 }
             ],
             "lastModifiedDate": "2022-11-29T17:22Z",
-            "num_retweets": 20,
+            "num_retweets": 21,
             "num_tweets": 3,
-            "num_tweets_and_retweets": 23,
+            "num_tweets_and_retweets": 24,
             "publishedDate": "2022-11-25T01:15Z",
             "reddit_posts": [
                 {
@@ -1315,9 +1289,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/z50nx3/stable_channel_update_for_chrome_desktop_google/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32675,
+                    "subreddit_subscribers": 32679,
                     "title": "Stable Channel Update for Chrome Desktop - Google is aware that an exploit for CVE-2022-4135 exists in the wild.",
-                    "upvotes": 14,
+                    "upvotes": 13,
                     "url": "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop_24.html?m=1"
                 },
                 {
@@ -1370,9 +1344,9 @@
             "tweets": [
                 {
                     "created_at": "2023-02-02 16:42",
-                    "likes": 82,
-                    "num_retweets": 20,
-                    "retweets": 23,
+                    "likes": 96,
+                    "num_retweets": 21,
+                    "retweets": 25,
                     "tweet_id": "1621187417662455808",
                     "tweet_text": "\ud83c\udfaf New RCA up for CVE-2022-4135, a Chrome itw 0-day that was patched in November!! The bug was discovered by @_clem1 and the RCA authored by Sergei.\n\nhttps://t.co/R7HKqVI8NB https://t.co/tjmZBLJj0v",
                     "twitter_user_handle": "maddiestone",
@@ -1452,129 +1426,147 @@
             ]
         },
         {
-            "assigner": "security-officer@isc.org",
-            "audience_size": 86956,
-            "cve": "CVE-2022-3488",
+            "assigner": "cve@mitre.org",
+            "audience_size": 107673,
+            "cve": "CVE-2023-25135",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
             "cvssv3_base_score": null,
             "cvssv3_base_severity": null,
             "cwes": [],
-            "description": "Processing of repeated responses to the same query, where both responses contain ECS pseudo-options, but where the first is broken in some way, can cause BIND to exit with an assertion failure. 'Broken' in this context is anything that would cause the resolver to reject the query response, such as a mismatch between query and answer name. This issue affects BIND 9 versions 9.11.4-S1 through 9.11.37-S1 and 9.16.8-S1 through 9.16.36-S1.",
-            "epss_score": "0.00885",
+            "description": "vBulletin before 5.6.9 PL1 allows an unauthenticated remote attacker to execute arbitrary code via a crafted HTTP request that triggers deserialization. This occurs because verify_serialized checks that a value is serialized by calling unserialize and then checking for errors. The fixed versions are 5.6.7 PL1, 5.6.8 PL1, and 5.6.9 PL1.",
+            "epss_score": "0.03948",
             "github_repos": [
                 {
-                    "created": "2023-01-31T00:05:27Z",
-                    "description": "The Remote Mount feature can potentially be abused by valid, authenticated users to make connections to internal services that may not normally be accessible to users. Internal service access controls, as applicable, remain in effect. CVE project by @Sn0wAlice",
+                    "created": "2023-02-03T06:36:50Z",
+                    "description": "vBulletin before 5.6.9 PL1 allows an unauthenticated remote attacker to execute arbitrary code via a crafted HTTP request that triggers deserialization. This occurs because verify_serialized checks that a value is serialized by calling unserialize and then checking for errors. The fixed versions are 5.6.7 PL1, 5.6.8 PL CVE project by @Sn0wAlice",
                     "language": null,
-                    "name": "CVE-2022-34888",
+                    "name": "CVE-2023-25135",
                     "stars": 0,
                     "topics": [],
-                    "updated": "2023-01-31T00:05:27Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-34888"
-                },
-                {
-                    "created": "2023-01-31T00:05:23Z",
-                    "description": "A buffer overflow exists in the Remote Presence subsystem which can potentially allow valid, authenticated users to cause a recoverable subsystem denial of service. CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2022-34884",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-31T00:05:23Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-34884"
-                },
-                {
-                    "created": "2022-12-29T20:12:23Z",
-                    "description": "Information Exposure Through an Error Message vulnerability in Hitachi RAID Manager Storage Replication Adapter allows remote authenticated users to gain sensitive information. This issue affects: Hitachi RAID Manager Storage Replication Adapter 02.01.04 versions prior to 02.03.02 on Windows; 02.05.00 versions prior to CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2022-34882",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2022-12-29T20:12:23Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-34882"
-                },
-                {
-                    "created": "2022-12-29T20:12:19Z",
-                    "description": "OS Command Injection vulnerability in Hitachi RAID Manager Storage Replication Adapter allows remote authenticated users to execute arbitrary OS commands. This issue affects: Hitachi RAID Manager Storage Replication Adapter 02.01.04 versions prior to 02.03.02 on Windows; 02.05.00 versions prior to 02.05.01 on Windows a CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2022-34883",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2022-12-29T20:12:19Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-34883"
-                },
-                {
-                    "created": "2023-01-31T00:04:53Z",
-                    "description": "An improper input sanitization vulnerability in the Motorola MR2600 router could allow a local user with elevated permissions to execute arbitrary code. CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2022-34885",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-01-31T00:04:53Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-34885"
+                    "updated": "2023-02-03T06:36:50Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-25135"
                 }
             ],
-            "lastModifiedDate": "2023-01-27T14:03Z",
-            "num_retweets": 14,
-            "num_tweets": 3,
-            "num_tweets_and_retweets": 17,
-            "publishedDate": "2023-01-26T21:15Z",
-            "reddit_posts": [],
+            "lastModifiedDate": "2023-02-03T05:15Z",
+            "num_retweets": 2,
+            "num_tweets": 16,
+            "num_tweets_and_retweets": 18,
+            "publishedDate": "2023-02-03T05:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1675406331.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10sdhp9/cve202325135/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 156,
+                    "title": "CVE-2023-25135",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2023-25135"
+                }
+            ],
             "score": null,
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-02-02 18:35",
-                    "likes": 29,
-                    "num_retweets": 14,
-                    "retweets": 14,
-                    "tweet_id": "1621215624151318528",
-                    "tweet_text": "Parches de seguridad ya disponibles para vulnerabilidades del software BIND DNS\n\n\u23e9CVE-2022-3094\n\u23e9CVE-2022-3488\n\u23e9CVE-2022-3736\n\u23e9CVE-2022-3924\n\nhttps://t.co/Heu4ggDcBW https://t.co/6W6W0soaAD",
-                    "twitter_user_handle": "elhackernet",
-                    "twitter_user_name": "elhacker.NET",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1330969532/e-peq1_normal.png",
+                    "created_at": "2023-02-03 10:34",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1621457042492768257",
+                    "tweet_text": "CVE-2023-25135: Pre-authentication RCE Vulnerability on vBulletin https://t.co/qGcnlVai1s #opensource #infosec #security #pentesting",
+                    "twitter_user_handle": "the_yellow_fall",
+                    "twitter_user_name": "Gray Hats",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/419147954344058880/bTW9Gx7T_normal.png",
                     "urls": [
                         {
-                            "display_url": "isc.org/bind/",
-                            "expanded_url": "https://www.isc.org/bind/",
-                            "url": "https://t.co/Heu4ggDcBW"
+                            "display_url": "securityonline.info/cve-2023-25135\u2026",
+                            "expanded_url": "https://securityonline.info/cve-2023-25135-pre-authentication-rce-vulnerability-on-vbulletin/",
+                            "url": "https://t.co/qGcnlVai1s"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-02-03 00:04",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621298425525420033",
-                    "tweet_text": "I know no IPS that has a protection/signature/rule for the vulnerability CVE-2022-3488.\nThe vuln was published 7 days ago by NIST.\nhttps://t.co/xfMVGmRwEx\n#Shs3keymypb3l4",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "created_at": "2023-02-03 11:34",
+                    "likes": 1,
+                    "num_retweets": 1,
+                    "retweets": 3,
+                    "tweet_id": "1621472166008029185",
+                    "tweet_text": "CVE-2023-25135: Pre-authentication RCE Vulnerability on vBulletin https://t.co/Z9V4vCJWJH #security #opensource #cybersecurity #malware #cyber #pentesting #malwareanalysis #infosec #redteam #malwarehunting #hacking #infosec #threathunting #bugbounty #tools #offensivesecurity",
+                    "twitter_user_handle": "FilipiPires",
+                    "twitter_user_name": "Filipi Pires",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1531334436800831488/evf2wJ4z_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "twitter.com/search?src=spr\u2026",
-                            "expanded_url": "https://twitter.com/search?src=sprv&q=CVE-2022-3488",
-                            "url": "https://t.co/xfMVGmRwEx"
+                            "display_url": "ift.tt/s0lXIY8",
+                            "expanded_url": "https://ift.tt/s0lXIY8",
+                            "url": "https://t.co/Z9V4vCJWJH"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-02-03 00:04",
+                    "created_at": "2023-02-03 06:40",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1621298426414522368",
-                    "tweet_text": "The vuln CVE-2022-3488 has a tweet created 0 days ago and retweeted 13 times.\nhttps://t.co/fxmaEr3567\n#Shs3keymypb3l4",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "tweet_id": "1621398122420117505",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-25135) has been published on https://t.co/U1PwoZdVrT",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "twitter.com/elhackernet/st\u2026",
-                            "expanded_url": "https://twitter.com/elhackernet/status/1621215624151318528",
-                            "url": "https://t.co/fxmaEr3567"
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/uXvPWJy6tj"
+                        },
+                        {
+                            "display_url": "sesin.at/2023/02/03/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2023/02/03/cve-2023-25135/",
+                            "url": "https://t.co/U1PwoZdVrT"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-03 06:40",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1621398124542525440",
+                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2023-25135) has been published on https://t.co/aoVscmvzW1",
+                    "twitter_user_handle": "www_sesin_at",
+                    "twitter_user_name": "www.sesin.at",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/9KYxtdZjkl"
+                        },
+                        {
+                            "display_url": "sesin.at/2023/02/03/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2023/02/03/cve-2023-25135/",
+                            "url": "https://t.co/aoVscmvzW1"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-03 07:41",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1621413455587676161",
+                    "tweet_text": "I declare CVE-2023-25135 to be named Shaded Coo\nhttps://t.co/7LSv5R29iq",
+                    "twitter_user_handle": "vulnonym",
+                    "twitter_user_name": "vulnonym",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25135",
+                            "url": "https://t.co/7LSv5R29iq"
                         }
                     ]
                 }
@@ -1584,5 +1576,5 @@
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2023-02-03 05:30:52"
+    "updated": "2023-02-03 11:37:56"
 }
