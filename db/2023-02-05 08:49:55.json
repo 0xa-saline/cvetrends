@@ -2,7 +2,7 @@
     "data": [
         {
             "assigner": "security@vmware.com",
-            "audience_size": 1440897,
+            "audience_size": 1372481,
             "cve": "CVE-2021-21974",
             "cve_urls": null,
             "cvssv2_base_score": 5.8,
@@ -31,18 +31,18 @@
                 {
                     "created": "2023-02-04T21:23:20Z",
                     "description": "Analysis of the ransom demands from Shodan results",
-                    "language": "Shell",
+                    "language": "Python",
                     "name": "Feb2023-CVE-2021-21974-OSINT",
-                    "stars": 0,
+                    "stars": 1,
                     "topics": [],
-                    "updated": "2023-02-04T21:25:37Z",
+                    "updated": "2023-02-05T08:32:29Z",
                     "url": "https://github.com/n2x4/Feb2023-CVE-2021-21974-OSINT"
                 }
             ],
             "lastModifiedDate": "2022-06-02T14:41Z",
-            "num_retweets": 340,
-            "num_tweets": 92,
-            "num_tweets_and_retweets": 432,
+            "num_retweets": 364,
+            "num_tweets": 93,
+            "num_tweets_and_retweets": 457,
             "publishedDate": "2021-02-24T17:15Z",
             "reddit_posts": [
                 {
@@ -51,9 +51,9 @@
                     "num_comments": 207,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/ltomo0/patch_now_hackers_are_massscanning_the_internet/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 770512,
+                    "subreddit_subscribers": 770555,
                     "title": "PATCH NOW - Hackers are mass-scanning the Internet in search of VMware servers with a newly disclosed code-execution vulnerability that has a severity rating of 9.8 out of a possible 10. CVE-2021-21974",
-                    "upvotes": 1677,
+                    "upvotes": 1682,
                     "url": "https://www.reddit.com/r/sysadmin/comments/ltomo0/patch_now_hackers_are_massscanning_the_internet/"
                 },
                 {
@@ -62,9 +62,9 @@
                     "num_comments": 55,
                     "reddit_url": "https://www.reddit.com/r/homelab/comments/lu206r/patch_now_hackers_are_massscanning_the_internet/",
                     "subreddit": "homelab",
-                    "subreddit_subscribers": 549690,
+                    "subreddit_subscribers": 549737,
                     "title": "PATCH NOW - Hackers are mass-scanning the Internet in search of VMware servers with a newly disclosed code-execution vulnerability that has a severity rating of 9.8 out of a possible 10. CVE-2021-21974",
-                    "upvotes": 367,
+                    "upvotes": 374,
                     "url": "/r/sysadmin/comments/ltomo0/patch_now_hackers_are_massscanning_the_internet/"
                 },
                 {
@@ -73,7 +73,7 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/nksnhk/rce_poc_walkthrough_for_cve202121974_vmware_esxi/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 465905,
+                    "subreddit_subscribers": 465915,
                     "title": "RCE PoC walkthrough for (CVE-2021\u201321974) VMware ESXi OpenSLP heap-overflow vulnerability",
                     "upvotes": 83,
                     "url": "https://straightblast.medium.com/my-poc-walkthrough-for-cve-2021-21974-a266bcad14b9"
@@ -84,7 +84,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/nkpa4o/vmware_esxi_exploit_for_cve202121974_which_is_a/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32712,
+                    "subreddit_subscribers": 32716,
                     "title": "VMWare ESXi exploit for CVE-2021-21974 which is a heap overflow leading to remote code execution",
                     "upvotes": 39,
                     "url": "https://github.com/straightblast/My-PoC-Exploits/blob/master/CVE-2021-21974.py"
@@ -92,12 +92,12 @@
                 {
                     "created": 1675503241.0,
                     "is_self": true,
-                    "num_comments": 16,
+                    "num_comments": 19,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/10tbmve/ransomware_attack_on_vmware_esxi/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 770512,
+                    "subreddit_subscribers": 770555,
                     "title": "Ransomware Attack on VMware ESXi",
-                    "upvotes": 23,
+                    "upvotes": 34,
                     "url": "https://www.reddit.com/r/sysadmin/comments/10tbmve/ransomware_attack_on_vmware_esxi/"
                 }
             ],
@@ -106,9 +106,9 @@
             "tweets": [
                 {
                     "created_at": "2023-02-04 09:04",
-                    "likes": 320,
-                    "num_retweets": 161,
-                    "retweets": 184,
+                    "likes": 432,
+                    "num_retweets": 212,
+                    "retweets": 244,
                     "tweet_id": "1621796724712017921",
                     "tweet_text": "ESXiArgs\u3068\u547c\u3070\u308c\u308bVMware ESXi\u306b\u5bfe\u3059\u308b\u5927\u898f\u6a21\u306a\u30e9\u30f3\u30b5\u30e0\u653b\u6483\u304c\u767a\u751f\u4e2d\u26a0\ufe0f \u653b\u6483\u958b\u59cb1\u65e5\u3067265\u53f0\u304c\u88ab\u5bb3\u306b\u5408\u3063\u3066\u3044\u307e\u3059\n\n\u653b\u6483\u306f2\u5e74\u524d\u306eCVE-2021-21974\u3092\u60aa\u7528\u306e\u53ef\u80fd\u6027\u304c\u3042\u308a\u8a72\u5f53\u3057\u305d\u3046\u306a\u516c\u958b\u30b5\u30fc\u30d0\u304c\u30b0\u30ed\u30fc\u30d0\u30eb\u30677\u4e07\u53f0\u3001\u56fd\u5185\u3067464\u53f0\u3068\u304b\u306a\u308a\u591a\u3044\u3067\u3059\n\n\u9577\u671f\u5316\u3057\u305d\u3046\u306a\u306e\u3067\u30b9\u30ec\u30c3\u30c9\u306b\u60c5\u5831\u3092\u8ffd\u52a0\u3057\u3066\u3044\u304d\u307e\u3059 https://t.co/AkL6fvDiZr",
                     "twitter_user_handle": "nekono_naha",
@@ -117,22 +117,10 @@
                     "urls": []
                 },
                 {
-                    "created_at": "2023-02-04 07:01",
-                    "likes": 163,
-                    "num_retweets": 49,
-                    "retweets": 54,
-                    "tweet_id": "1621765872539795457",
-                    "tweet_text": "The Ransomware infecting ESXi hosts prone to CVE-2021-21974 is spreading.\n\n- Check if your ESXi is reachable over the internet\n- The latests patches are applied\n- Disable or restrict access to the OpenSLP service\n- Check for IOCs\n\nPossible recovery steps if affected:\n1/3 https://t.co/Vo3q7afpHX",
-                    "twitter_user_handle": "theluemmel",
-                    "twitter_user_name": "ADCluemmelSec",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1570649933065199617/H2K3T97z_normal.jpg",
-                    "urls": []
-                },
-                {
                     "created_at": "2023-02-04 14:24",
-                    "likes": 144,
-                    "num_retweets": 36,
-                    "retweets": 40,
+                    "likes": 171,
+                    "num_retweets": 40,
+                    "retweets": 44,
                     "tweet_id": "1621877385791414274",
                     "tweet_text": "The #ESXi mass exploitations is almost 100% NOT: CVE-2021-21974\n\n CVE-2021-21974 attacks SLP on TCP 427.\n\nThe affected hosts DO NOT have this exposed based on shodan scans. I'll look at some port scan data to double check this but @shodan does scan this port and see below #vmware https://t.co/ifS7nOlOdS",
                     "twitter_user_handle": "UK_Daniel_Card",
@@ -142,9 +130,9 @@
                 },
                 {
                     "created_at": "2023-02-04 14:43",
-                    "likes": 32,
-                    "num_retweets": 17,
-                    "retweets": 17,
+                    "likes": 44,
+                    "num_retweets": 21,
+                    "retweets": 21,
                     "tweet_id": "1621882225519218690",
                     "tweet_text": "\u203c\ufe0fUpozor\u0148ujeme na ransomware \u00fatoky\u203c\ufe0f\n\n\u00dato\u010dn\u00edci se po cel\u00e9m sv\u011bt\u011b pomoc\u00ed nov\u00e9 metody aktivn\u011b zam\u011b\u0159uj\u00ed na servery VMware ESXi neopraven\u00e9 proti dva roky star\u00e9 zranitelnosti. Vyu\u017e\u00edvaj\u00ed p\u0159i tom zranitelnost s ozna\u010den\u00edm CVE-2021-21974, pro kterou existuje od 21. \u00fanora 2021 z\u00e1plata. https://t.co/zUuoHwLKPw https://t.co/6xv8gM8gnV",
                     "twitter_user_handle": "NUKIB_CZ",
@@ -159,8 +147,26 @@
                     ]
                 },
                 {
+                    "created_at": "2023-02-04 17:31",
+                    "likes": 66,
+                    "num_retweets": 10,
+                    "retweets": 11,
+                    "tweet_id": "1621924357185441792",
+                    "tweet_text": "\u0627\u0633\u062a\u063a\u0644\u0627\u0644 \u0645\u0646 \u0642\u0628\u0644 \u0639\u0635\u0627\u0628\u0627\u062a #\u0628\u0631\u0645\u062c\u064a\u0627\u062a_\u0627\u0644\u0641\u062f\u064a\u0629 \u0644\u0627\u062b\u063a\u0631\u0629  CVE-2021-21974 \u0648\u0647\u064a \u062e\u0627\u0635\u0629 \u0644\u0627\u0646\u0638\u0645\u0629 VMware ESXi\u061b \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0643\u062b\u0631 https://t.co/h5FQkjlPX1\n#\u0627\u0644\u0627\u0645\u0646_\u0627\u0644\u0633\u064a\u0628\u0631\u0627\u0646\u064a https://t.co/87L4ELxX12",
+                    "twitter_user_handle": "MAlajab",
+                    "twitter_user_name": "\u0645\u0627\u0644\u0643 \u0627\u0644\u062f\u0648\u0633\u0631\u064a/Malek Aldossary",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1408029455503839235/PYOMijJE_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "bleepingcomputer.com/news/security/\u2026",
+                            "expanded_url": "https://www.bleepingcomputer.com/news/security/massive-esxiargs-ransomware-attack-targets-vmware-esxi-servers-worldwide/",
+                            "url": "https://t.co/h5FQkjlPX1"
+                        }
+                    ]
+                },
+                {
                     "created_at": "2023-02-04 11:10",
-                    "likes": 54,
+                    "likes": 65,
                     "num_retweets": 9,
                     "retweets": 9,
                     "tweet_id": "1621828446597910528",
@@ -198,7 +204,7 @@
         },
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 176176,
+            "audience_size": 194890,
             "cve": "CVE-2022-47949",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -226,9 +232,9 @@
                 }
             ],
             "lastModifiedDate": "2023-01-06T20:17Z",
-            "num_retweets": 19,
+            "num_retweets": 33,
             "num_tweets": 2,
-            "num_tweets_and_retweets": 21,
+            "num_tweets_and_retweets": 35,
             "publishedDate": "2022-12-24T23:15Z",
             "reddit_posts": [
                 {
@@ -237,9 +243,9 @@
                     "num_comments": 45,
                     "reddit_url": "https://www.reddit.com/r/nintendo/comments/zub5vs/severe_vulnerability_enlbufferpwn_found_in_many/",
                     "subreddit": "nintendo",
-                    "subreddit_subscribers": 2176173,
+                    "subreddit_subscribers": 2176191,
                     "title": "Severe vulnerability \"ENLBufferPwn\" found in many first party Nintendo games for the 3DS, Wii U and Switch",
-                    "upvotes": 163,
+                    "upvotes": 164,
                     "url": "https://www.reddit.com/r/nintendo/comments/zub5vs/severe_vulnerability_enlbufferpwn_found_in_many/"
                 },
                 {
@@ -259,7 +265,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/netcve/comments/zumu7d/cve202247949/",
                     "subreddit": "netcve",
-                    "subreddit_subscribers": 156,
+                    "subreddit_subscribers": 157,
                     "title": "CVE-2022-47949",
                     "upvotes": 1,
                     "url": "https://cve.report/CVE-2022-47949"
@@ -270,9 +276,9 @@
             "tweets": [
                 {
                     "created_at": "2023-02-04 19:30",
-                    "likes": 82,
-                    "num_retweets": 19,
-                    "retweets": 22,
+                    "likes": 146,
+                    "num_retweets": 33,
+                    "retweets": 40,
                     "tweet_id": "1621954295233974272",
                     "tweet_text": "CVE-2022-47949: analysis and exploitation of a buffer overflow vulnerability in Nintendo games network code by @Pablomf6 \n\nhttps://t.co/bMdPnwjzhk \n\n#nintendo #cve #exploit #infosec #cybersecurity https://t.co/vCw0Pr2Pba",
                     "twitter_user_handle": "0xor0ne",
@@ -322,7 +328,7 @@
         },
         {
             "assigner": null,
-            "audience_size": 163529,
+            "audience_size": 162697,
             "cve": "CVE-2022-44268",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -388,9 +394,9 @@
                 }
             ],
             "lastModifiedDate": null,
-            "num_retweets": 10,
-            "num_tweets": 20,
-            "num_tweets_and_retweets": 30,
+            "num_retweets": 15,
+            "num_tweets": 14,
+            "num_tweets_and_retweets": 29,
             "publishedDate": null,
             "reddit_posts": [],
             "score": null,
@@ -398,9 +404,9 @@
             "tweets": [
                 {
                     "created_at": "2023-02-04 23:00",
-                    "likes": 2,
-                    "num_retweets": 4,
-                    "retweets": 4,
+                    "likes": 8,
+                    "num_retweets": 9,
+                    "retweets": 10,
                     "tweet_id": "1622007132064305154",
                     "tweet_text": "CVE-2022-44268 ImageMagick Arbitrary File Read - Payload Generator https://t.co/xSfQFG1BWZ  #Pentesting #CVE #ImageMagick  #CyberSecurity #Infosec https://t.co/G534Oi1lfK",
                     "twitter_user_handle": "ptracesecurity",
@@ -416,7 +422,7 @@
                 },
                 {
                     "created_at": "2023-02-04 14:00",
-                    "likes": 16,
+                    "likes": 22,
                     "num_retweets": 3,
                     "retweets": 3,
                     "tweet_id": "1621871207233511424",
@@ -429,24 +435,6 @@
                             "display_url": "cvetrends.com",
                             "expanded_url": "https://cvetrends.com",
                             "url": "https://t.co/LhpwNP6xog"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-04 11:08",
-                    "likes": 2,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1621828123321843712",
-                    "tweet_text": "For all the lazy bug hunters I created a test image for CVE-2022-44268 #ImageMagick . \nhttps://t.co/3knQ2Qb6Ao\nI tested it on a Ruby on Rails and PHP application.\nHappy hunting\n#bugbountytips",
-                    "twitter_user_handle": "Baikuya3",
-                    "twitter_user_name": "Baikuya",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1196205654471516160/by5t7eUy_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/Baikuya/CVE-20\u2026",
-                            "expanded_url": "https://github.com/Baikuya/CVE-2022-44268-PoC",
-                            "url": "https://t.co/3knQ2Qb6Ao"
                         }
                     ]
                 },
@@ -465,6 +453,24 @@
                             "display_url": "github.com/duc-nt/CVE-202\u2026",
                             "expanded_url": "https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC",
                             "url": "https://t.co/VjH3cKP5lN"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-04 11:08",
+                    "likes": 2,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1621828123321843712",
+                    "tweet_text": "For all the lazy bug hunters I created a test image for CVE-2022-44268 #ImageMagick . \nhttps://t.co/3knQ2Qb6Ao\nI tested it on a Ruby on Rails and PHP application.\nHappy hunting\n#bugbountytips",
+                    "twitter_user_handle": "Baikuya3",
+                    "twitter_user_name": "Baikuya",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1196205654471516160/by5t7eUy_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/Baikuya/CVE-20\u2026",
+                            "expanded_url": "https://github.com/Baikuya/CVE-2022-44268-PoC",
+                            "url": "https://t.co/3knQ2Qb6Ao"
                         }
                     ]
                 },
@@ -551,145 +557,8 @@
             "vendors": []
         },
         {
-            "assigner": "cna@vuldb.com",
-            "audience_size": 70903,
-            "cve": "CVE-2023-0675",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [
-                {
-                    "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
-                    "cwe_id": "CWE-89"
-                }
-            ],
-            "description": "A vulnerability, which was classified as critical, was found in Calendar Event Management System 2.3.0. This affects an unknown part. The manipulation of the argument start/end leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-220197 was assigned to this vulnerability.",
-            "epss_score": "0.0089",
-            "github_repos": [
-                {
-                    "created": "2023-02-04T11:26:33Z",
-                    "description": "A vulnerability, which was classified as critical, was found in Calendar Event Management System 2.3.0. This affects an unknown part. The manipulation of the argument start/end leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The ident CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2023-0675",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-02-04T11:26:33Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-0675"
-                }
-            ],
-            "lastModifiedDate": "2023-02-04T08:15Z",
-            "num_retweets": 2,
-            "num_tweets": 15,
-            "num_tweets_and_retweets": 17,
-            "publishedDate": "2023-02-04T08:15Z",
-            "reddit_posts": [],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-02-04 08:51",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1621793439183474688",
-                    "tweet_text": "CVE-2023-0675 | Calendar Event Management System 2.3.0 start/end sql injection A vulnerability, which was classified as critical, was found in Calendar Event Management System 2.3.0. This affects an unknown part. The manipulation of the argument start/en\u2026 https://t.co/ndrZQSAwYu",
-                    "twitter_user_handle": "threatmeter",
-                    "twitter_user_name": "ThreatMeter",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/l4OdRWc",
-                            "expanded_url": "https://ift.tt/l4OdRWc",
-                            "url": "https://t.co/ndrZQSAwYu"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-04 11:42",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1621836485715435521",
-                    "tweet_text": "CVE-2023-0675\n\nA vulnerability, which was classified as critical, was found in Calendar Event Management System 2.3.0. This affects an unknown part. The manipulation of the argument start/end leads to sql injection...\n\nhttps://t.co/dX340Vc449",
-                    "twitter_user_handle": "VulmonFeeds",
-                    "twitter_user_name": "Vulmon Vulnerability Feed",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "vulmon.com/vulnerabilityd\u2026",
-                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2023-0675",
-                            "url": "https://t.co/dX340Vc449"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-04 08:05",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621781973697024000",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2023-0675 | Calendar Event Management System 2.3.0 start/end sql injection) has been published on https://t.co/z8bUxZEkWT",
-                    "twitter_user_handle": "www_sesin_at",
-                    "twitter_user_name": "www.sesin.at",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/9KYxtdZjkl"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/02/04/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/02/04/cve-2023-0675-calendar-event-management-system-2-3-0-start-end-sql-injection/",
-                            "url": "https://t.co/z8bUxZEkWT"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-04 08:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621787361603457024",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-0675 \ud83d\udea8 A vulnerability, which was classified as critical, was found in Calendar Event Management System 2.3.0. This affects an unknown part. The manipulation of the argument start/end leads to sql ... (click for more)  https://t.co/jkhO0Zr4i8",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0675",
-                            "url": "https://t.co/jkhO0Zr4i8"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-04 08:45",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621791987388092416",
-                    "tweet_text": "CVE-2023-0675 A vulnerability, which was classified as critical, was found in Calendar Event Management System 2.3.0. This affects an unknown part. The manipulation of the argument start/end leads to sql injection. It is possible to initiate the a... https://t.co/87s5FfMbqL",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0675",
-                            "url": "https://t.co/87s5FfMbqL"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
             "assigner": "security@apache.org",
-            "audience_size": 66075,
+            "audience_size": 69853,
             "cve": "CVE-2022-45786",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -718,8 +587,8 @@
             ],
             "lastModifiedDate": "2023-02-04T21:15Z",
             "num_retweets": 1,
-            "num_tweets": 12,
-            "num_tweets_and_retweets": 13,
+            "num_tweets": 16,
+            "num_tweets_and_retweets": 17,
             "publishedDate": "2023-02-04T21:15Z",
             "reddit_posts": [
                 {
@@ -728,7 +597,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/netcve/comments/10ts2fm/cve202245786/",
                     "subreddit": "netcve",
-                    "subreddit_subscribers": 156,
+                    "subreddit_subscribers": 157,
                     "title": "CVE-2022-45786",
                     "upvotes": 1,
                     "url": "https://cve.report/CVE-2022-45786"
@@ -838,7 +707,7 @@
         },
         {
             "assigner": "security@huntr.dev",
-            "audience_size": 64416,
+            "audience_size": 67596,
             "cve": "CVE-2023-0676",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -867,8 +736,8 @@
             ],
             "lastModifiedDate": "2023-02-04T13:15Z",
             "num_retweets": 1,
-            "num_tweets": 13,
-            "num_tweets_and_retweets": 14,
+            "num_tweets": 14,
+            "num_tweets_and_retweets": 15,
             "publishedDate": "2023-02-04T13:15Z",
             "reddit_posts": [],
             "score": null,
@@ -889,47 +758,6 @@
                             "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
                             "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0676",
                             "url": "https://t.co/d3BKp6v6KE"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-04 12:01",
-                    "likes": 1,
-                    "num_retweets": 0,
-                    "retweets": 1,
-                    "tweet_id": "1621841477587329025",
-                    "tweet_text": "phpipam/phpipam disclosed a bug reported by @zenalarifin_ (CVE-2023-0676) - Patch: https://t.co/Kf42aVq57x\nhttps://t.co/LUMnd0Kv5v #hunter #infosec #opensource https://t.co/bToZ0WB80g",
-                    "twitter_user_handle": "huntrHacktivity",
-                    "twitter_user_name": "huntr Hacktivity",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1459525598007545867/Zq8Fh2rM_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/phpipam/phpipa\u2026",
-                            "expanded_url": "https://github.com/phpipam/phpipam/commit/94ec73ff1d33926b75b811ded6f0b4a46088a7ec",
-                            "url": "https://t.co/Kf42aVq57x"
-                        },
-                        {
-                            "display_url": "huntr.dev/bounties/b72d4\u2026",
-                            "expanded_url": "https://huntr.dev/bounties/b72d4f0c-8a96-4b40-a031-7d469c6ab93b/#bugbounty",
-                            "url": "https://t.co/LUMnd0Kv5v"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-04 12:37",
-                    "likes": 1,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621850331066810370",
-                    "tweet_text": "CVE-2023-0676 : Cross-site Scripting  #XSS  - Reflected in GitHub repository phpipam/phpipam prior to 1.5.1.... https://t.co/zTRnmFiqSX",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "cve.report/CVE-2023-0676",
-                            "expanded_url": "https://cve.report/CVE-2023-0676",
-                            "url": "https://t.co/zTRnmFiqSX"
                         }
                     ]
                 },
@@ -968,253 +796,14 @@
                             "url": "https://t.co/A5NfTqO2yW"
                         }
                     ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "cna@vuldb.com",
-            "audience_size": 63796,
-            "cve": "CVE-2023-0673",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [
-                {
-                    "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
-                    "cwe_id": "CWE-89"
-                }
-            ],
-            "description": "A vulnerability classified as critical was found in SourceCodester Online Eyewear Shop 1.0. Affected by this vulnerability is an unknown functionality of the file oews/products/view_product.php. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The associated identifier of this vulnerability is VDB-220195.",
-            "epss_score": "0.00885",
-            "github_repos": [
-                {
-                    "created": "2023-02-04T11:26:26Z",
-                    "description": "A vulnerability classified as critical was found in SourceCodester Online Eyewear Shop 1.0. Affected by this vulnerability is an unknown functionality of the file oews/products/view_product.php. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The associated identifier of CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2023-0673",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-02-04T11:26:26Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-0673"
-                }
-            ],
-            "lastModifiedDate": "2023-02-04T08:15Z",
-            "num_retweets": 1,
-            "num_tweets": 14,
-            "num_tweets_and_retweets": 15,
-            "publishedDate": "2023-02-04T08:15Z",
-            "reddit_posts": [],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-02-04 08:03",
-                    "likes": 1,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1621781528362483712",
-                    "tweet_text": "CVE-2023-0673 : A vulnerability classified as critical was found in SourceCodester Online Eyewear Shop 1.0. Affected by this vulnerability is an unknown functionality of the file oews/products/view_product.php. The manipulation of the a... https://t.co/zhVzFBIjWy",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "cve.report/CVE-2023-0673",
-                            "expanded_url": "https://cve.report/CVE-2023-0673",
-                            "url": "https://t.co/zhVzFBIjWy"
-                        }
-                    ]
                 },
                 {
-                    "created_at": "2023-02-04 08:26",
+                    "created_at": "2023-02-04 17:30",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1621787361569902593",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-0673 \ud83d\udea8 A vulnerability classified as critical was found in SourceCodester Online Eyewear Shop 1.0. Affected by this vulnerability is an unknown functionality of the file oews/products/view_product.... (click for more)  https://t.co/y87ztZVAJU",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0673",
-                            "url": "https://t.co/y87ztZVAJU"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-04 08:45",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621791981650206722",
-                    "tweet_text": "CVE-2023-0673 A vulnerability classified as critical was found in SourceCodester Online Eyewear Shop 1.0. Affected by this vulnerability is an unknown functionality of the file oews/products/view_product.php. The manipulation of the argument id le... https://t.co/PtUr85mSaf",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0673",
-                            "url": "https://t.co/PtUr85mSaf"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-04 08:56",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621794691384500225",
-                    "tweet_text": "Potentially Critical CVE Detected!\nCVE-2023-0673\nA vulnerability classified as critical was found in SourceCodester Online Eyewear Shop 1.0. Affected by this vulnerabili...\nCVSS: 8.70\n#Sourcecodester #CVE #CyberSecurity",
-                    "twitter_user_handle": "Robo_Alerts",
-                    "twitter_user_name": "Robo Shadow Alerts",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1439862150890237953/WjKa3G1I_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-02-04 11:15",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621829763919749120",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2023-0673) has been published on https://t.co/Ta4FArNkZH",
-                    "twitter_user_handle": "www_sesin_at",
-                    "twitter_user_name": "www.sesin.at",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/9KYxtdZjkl"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/02/04/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/02/04/cve-2023-0673/",
-                            "url": "https://t.co/Ta4FArNkZH"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "cna@vuldb.com",
-            "audience_size": 63607,
-            "cve": "CVE-2018-25080",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [
-                {
-                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
-                    "cwe_id": "CWE-79"
-                }
-            ],
-            "description": "A vulnerability, which was classified as problematic, has been found in MobileDetect 2.8.31. This issue affects the function initLayoutType of the file examples/session_example.php of the component Example. The manipulation of the argument $_SERVER['PHP_SELF'] leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 2.8.32 is able to address this issue. The name of the patch is 31818a441b095bdc4838602dbb17b8377d1e5cce. It is recommended to upgrade the affected component. The identifier VDB-220061 was assigned to this vulnerability.",
-            "epss_score": "0.0095",
-            "github_repos": [
-                {
-                    "created": "2023-02-04T11:26:19Z",
-                    "description": "A vulnerability, which was classified as problematic, has been found in MobileDetect 2.8.31. This issue affects the function initLayoutType of the file examples/session_example.php of the component Example. The manipulation of the argument $_SERVER['PHP_SELF'] leads to cross site scripting. The attack may be initiated  CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2018-25080",
-                    "stars": 0,
-                    "topics": [],
-                    "updated": "2023-02-04T11:26:19Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2018-25080"
-                }
-            ],
-            "lastModifiedDate": "2023-02-04T08:15Z",
-            "num_retweets": 1,
-            "num_tweets": 16,
-            "num_tweets_and_retweets": 17,
-            "publishedDate": "2023-02-04T08:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1675499891.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10t9xl4/cve201825080/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 157,
-                    "title": "CVE-2018-25080",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2018-25080"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-02-04 08:02",
-                    "likes": 1,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1621781329326080001",
-                    "tweet_text": "CVE-2018-25080 : A vulnerability, which was classified as problematic, has been found in MobileDetect 2.8.31. This issue affects the function initLayoutType of the file examples/session_example.php of the component Example. The manipulat... https://t.co/CcE7jWFpIZ",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "cve.report/CVE-2018-25080",
-                            "expanded_url": "https://cve.report/CVE-2018-25080",
-                            "url": "https://t.co/CcE7jWFpIZ"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-04 08:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621787361582391299",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2018-25080 \ud83d\udea8 A vulnerability, which was classified as problematic, has been found in MobileDetect 2.8.31. This issue affects the function initLayoutType of the file examples/session_example.php of the co... (click for more)  https://t.co/m0XEZj1XoX",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25080",
-                            "url": "https://t.co/m0XEZj1XoX"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-04 11:11",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621828737657454592",
-                    "tweet_text": "New vulnerability on the NVD: CVE-2018-25080 https://t.co/EHjYQdV1FB",
-                    "twitter_user_handle": "JohnJasonFallow",
-                    "twitter_user_name": "John Jason Fallows",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1403145676234571777/UjpiX3r__normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/FxjB9gT",
-                            "expanded_url": "https://ift.tt/FxjB9gT",
-                            "url": "https://t.co/EHjYQdV1FB"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-04 11:15",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621829879384739841",
-                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2018-25080) has been published on https://t.co/GbndfOtTyc",
+                    "tweet_id": "1621924165878939648",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-0676 | phpipam up to 1.5.0 cross site scripting) has been published on https://t.co/JmoDM4tvOF",
                     "twitter_user_handle": "WolfgangSesin",
                     "twitter_user_name": "Wolfgang Sesin",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
@@ -1226,18 +815,165 @@
                         },
                         {
                             "display_url": "sesin.at/2023/02/04/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/02/04/cve-2018-25080/",
-                            "url": "https://t.co/GbndfOtTyc"
+                            "expanded_url": "https://www.sesin.at/2023/02/04/cve-2023-0676-phpipam-up-to-1-5-0-cross-site-scripting/",
+                            "url": "https://t.co/JmoDM4tvOF"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-02-04 11:15",
+                    "created_at": "2023-02-04 12:01",
+                    "likes": 1,
+                    "num_retweets": 0,
+                    "retweets": 1,
+                    "tweet_id": "1621841477587329025",
+                    "tweet_text": "phpipam/phpipam disclosed a bug reported by @zenalarifin_ (CVE-2023-0676) - Patch: https://t.co/Kf42aVq57x\nhttps://t.co/LUMnd0Kv5v #hunter #infosec #opensource https://t.co/bToZ0WB80g",
+                    "twitter_user_handle": "huntrHacktivity",
+                    "twitter_user_name": "huntr Hacktivity",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1459525598007545867/Zq8Fh2rM_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "github.com/phpipam/phpipa\u2026",
+                            "expanded_url": "https://github.com/phpipam/phpipam/commit/94ec73ff1d33926b75b811ded6f0b4a46088a7ec",
+                            "url": "https://t.co/Kf42aVq57x"
+                        },
+                        {
+                            "display_url": "huntr.dev/bounties/b72d4\u2026",
+                            "expanded_url": "https://huntr.dev/bounties/b72d4f0c-8a96-4b40-a031-7d469c6ab93b/#bugbounty",
+                            "url": "https://t.co/LUMnd0Kv5v"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "security@huntr.dev",
+            "audience_size": 63981,
+            "cve": "CVE-2023-0677",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+                    "cwe_id": "CWE-79"
+                }
+            ],
+            "description": "Cross-site Scripting (XSS) - Reflected in GitHub repository phpipam/phpipam prior to v1.5.1.",
+            "epss_score": null,
+            "github_repos": [
+                {
+                    "created": "2023-02-04T15:50:27Z",
+                    "description": "Cross-site Scripting (XSS) - Reflected in GitHub repository phpipam/phpipam prior to v1.5.1. CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2023-0677",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2023-02-04T15:50:27Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-0677"
+                }
+            ],
+            "lastModifiedDate": "2023-02-04T13:15Z",
+            "num_retweets": 0,
+            "num_tweets": 14,
+            "num_tweets_and_retweets": 14,
+            "publishedDate": "2023-02-04T13:15Z",
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-02-04 12:47",
+                    "likes": 1,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1621852876665507848",
+                    "tweet_text": "CVE-2023-0677 : Cross-site Scripting  #XSS  - Reflected in GitHub repository phpipam/phpipam prior to v1.5.1.... https://t.co/ICPgyeZQ0r",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "cve.report/CVE-2023-0677",
+                            "expanded_url": "https://cve.report/CVE-2023-0677",
+                            "url": "https://t.co/ICPgyeZQ0r"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-04 15:15",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1621829885650952193",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2018-25080) has been published on https://t.co/Y4IGYAjDAj",
+                    "tweet_id": "1621890125616521219",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-0677) has been published on https://t.co/YjtZlPwDqJ",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/uXvPWJy6tj"
+                        },
+                        {
+                            "display_url": "sesin.at/2023/02/04/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2023/02/04/cve-2023-0677/",
+                            "url": "https://t.co/YjtZlPwDqJ"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-04 15:42",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1621896885010137088",
+                    "tweet_text": "CVE-2023-0677\n\nCross-site Scripting (XSS) - Reflected in GitHub repository phpipam/phpip...\n\nhttps://t.co/S2PCroZwzE\n\nVulnerability Notification: https://t.co/xhLrNnfyrO",
+                    "twitter_user_handle": "VulmonFeeds",
+                    "twitter_user_name": "Vulmon Vulnerability Feed",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "vulmon.com/vulnerabilityd\u2026",
+                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2023-0677",
+                            "url": "https://t.co/S2PCroZwzE"
+                        },
+                        {
+                            "display_url": "alerts.vulmon.com/?utm_source=tw\u2026",
+                            "expanded_url": "https://alerts.vulmon.com/?utm_source=twitter&utm_medium=social&utm_campaign=2102281&utm_content=3",
+                            "url": "https://t.co/xhLrNnfyrO"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-04 17:21",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1621921926137671681",
+                    "tweet_text": "CVE-2023-0677 | phpipam up to 1.5.0 cross site scripting https://t.co/z970P45UW4",
+                    "twitter_user_handle": "glytcher001",
+                    "twitter_user_name": "glytcher",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "dlvr.it/ShxJjt",
+                            "expanded_url": "http://dlvr.it/ShxJjt",
+                            "url": "https://t.co/z970P45UW4"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-04 17:30",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1621924182396133377",
+                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2023-0677 | phpipam up to 1.5.0 cross site scripting) has been published on https://t.co/lJCek4kE10",
                     "twitter_user_handle": "www_sesin_at",
                     "twitter_user_name": "www.sesin.at",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
@@ -1249,8 +985,8 @@
                         },
                         {
                             "display_url": "sesin.at/2023/02/04/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/02/04/cve-2018-25080/",
-                            "url": "https://t.co/Y4IGYAjDAj"
+                            "expanded_url": "https://www.sesin.at/2023/02/04/cve-2023-0677-phpipam-up-to-1-5-0-cross-site-scripting/",
+                            "url": "https://t.co/lJCek4kE10"
                         }
                     ]
                 }
@@ -1260,7 +996,7 @@
         },
         {
             "assigner": "security@huntr.dev",
-            "audience_size": 62415,
+            "audience_size": 62435,
             "cve": "CVE-2023-0678",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1289,36 +1025,13 @@
             ],
             "lastModifiedDate": "2023-02-04T13:15Z",
             "num_retweets": 0,
-            "num_tweets": 14,
-            "num_tweets_and_retweets": 14,
+            "num_tweets": 15,
+            "num_tweets_and_retweets": 15,
             "publishedDate": "2023-02-04T13:15Z",
             "reddit_posts": [],
             "score": null,
             "severity": null,
             "tweets": [
-                {
-                    "created_at": "2023-02-04 12:01",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1621841449024212992",
-                    "tweet_text": "phpipam/phpipam disclosed a bug reported by ovprophet (CVE-2023-0678) - Patch: https://t.co/8YYPWM7yNv\nhttps://t.co/c3ZArcvdsO #hunter #infosec #opensource https://t.co/BT9qVHvsXX",
-                    "twitter_user_handle": "huntrHacktivity",
-                    "twitter_user_name": "huntr Hacktivity",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1459525598007545867/Zq8Fh2rM_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/phpipam/phpipa\u2026",
-                            "expanded_url": "https://github.com/phpipam/phpipam/commit/1960bd24e8a55796da066237cf11272c44bb1cc4",
-                            "url": "https://t.co/8YYPWM7yNv"
-                        },
-                        {
-                            "display_url": "huntr.dev/bounties/8d299\u2026",
-                            "expanded_url": "https://huntr.dev/bounties/8d299377-be00-46dc-bebe-3d439127982f/#bugbounty",
-                            "url": "https://t.co/c3ZArcvdsO"
-                        }
-                    ]
-                },
                 {
                     "created_at": "2023-02-04 13:45",
                     "likes": 0,
@@ -1400,6 +1113,332 @@
                             "url": "https://t.co/gtdwMvuhLp"
                         }
                     ]
+                },
+                {
+                    "created_at": "2023-02-04 15:45",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1621897640437850112",
+                    "tweet_text": "CVE-2023-0678\n\nImproper Authorization in GitHub repository phpipam/phpipam prior to v1.5.1.\n\nhttps://t.co/Lxq3vvDrNA",
+                    "twitter_user_handle": "VulmonFeeds",
+                    "twitter_user_name": "Vulmon Vulnerability Feed",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "vulmon.com/vulnerabilityd\u2026",
+                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2023-0678",
+                            "url": "https://t.co/Lxq3vvDrNA"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "cve@mitre.org",
+            "audience_size": 60156,
+            "cve": "CVE-2023-25193",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": "hb-ot-layout-gsubgpos.hh in HarfBuzz through 6.0.0 allows attackers to trigger O(n^2) growth via consecutive marks during the process of looking back for base glyphs when attaching marks.",
+            "epss_score": null,
+            "github_repos": [
+                {
+                    "created": "2023-02-04T21:19:30Z",
+                    "description": "hb-ot-layout-gsubgpos.hh in HarfBuzz through 6.0.0 allows attackers to trigger O(n^2) growth via consecutive marks during the process of looking back for base glyphs when attaching marks. CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2023-25193",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2023-02-04T21:19:30Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-25193"
+                }
+            ],
+            "lastModifiedDate": "2023-02-04T20:15Z",
+            "num_retweets": 0,
+            "num_tweets": 12,
+            "num_tweets_and_retweets": 12,
+            "publishedDate": "2023-02-04T20:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1675543143.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10tqngq/cve202325193/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 157,
+                    "title": "CVE-2023-25193",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2023-25193"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-02-04 20:05",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1621963145479704576",
+                    "tweet_text": "CVE-2023-25193 : hb-ot-layout-gsubgpos.hh in HarfBuzz through 6.0.0 allows attackers to trigger O n^2  growth via consecutive marks during the process of looking back for base glyphs when attaching marks.... https://t.co/x1vMGZvk9T",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "cve.report/CVE-2023-25193",
+                            "expanded_url": "https://cve.report/CVE-2023-25193",
+                            "url": "https://t.co/x1vMGZvk9T"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-04 20:45",
+                    "likes": 3,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1621973172869275648",
+                    "tweet_text": "CVE-2023-25193 hb-ot-layout-gsubgpos.hh in HarfBuzz through 6.0.0 allows attackers to trigger O(n^2) growth via consecutive marks during the process of looking back for base glyphs when attaching marks. https://t.co/uwmMy7fIJQ",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25193",
+                            "url": "https://t.co/uwmMy7fIJQ"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-04 21:15",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1621980705214406656",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-25193) has been published on https://t.co/lztRQd74Cv",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/uXvPWJy6tj"
+                        },
+                        {
+                            "display_url": "sesin.at/2023/02/04/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2023/02/04/cve-2023-25193/",
+                            "url": "https://t.co/lztRQd74Cv"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-04 21:15",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1621980707311558658",
+                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2023-25193) has been published on https://t.co/afb5Nbk5Il",
+                    "twitter_user_handle": "www_sesin_at",
+                    "twitter_user_name": "www.sesin.at",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/9KYxtdZjkl"
+                        },
+                        {
+                            "display_url": "sesin.at/2023/02/04/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2023/02/04/cve-2023-25193/",
+                            "url": "https://t.co/afb5Nbk5Il"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-04 21:39",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1621986726930534401",
+                    "tweet_text": "CVE-2023-25193\n\nhb-ot-layout-gsubgpos.hh in HarfBuzz through 6.0.0 allows...\n\nhttps://t.co/aKfXj7Wyrq\n\nDon't wait vulnerability scanning results: https://t.co/oh1APvMMnd",
+                    "twitter_user_handle": "VulmonFeeds",
+                    "twitter_user_name": "Vulmon Vulnerability Feed",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "vulmon.com/vulnerabilityd\u2026",
+                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2023-25193",
+                            "url": "https://t.co/aKfXj7Wyrq"
+                        },
+                        {
+                            "display_url": "alerts.vulmon.com/?utm_source=tw\u2026",
+                            "expanded_url": "https://alerts.vulmon.com/?utm_source=twitter&utm_medium=social&utm_campaign=2102281&utm_content=2",
+                            "url": "https://t.co/oh1APvMMnd"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "security@apache.org",
+            "audience_size": 59696,
+            "cve": "CVE-2023-22849",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+                    "cwe_id": "CWE-79"
+                }
+            ],
+            "description": "An improper neutralization of input during web page generation ('Cross-site Scripting') [CWE-79] vulnerability in Sling App CMS version 1.1.4 and prior may allow an authenticated remote attacker to perform a reflected cross-site scripting (XSS) attack in multiple features. Upgrade to Apache Sling App CMS >= 1.1.6",
+            "epss_score": null,
+            "github_repos": [
+                {
+                    "created": "2023-02-04T23:33:13Z",
+                    "description": "An improper neutralization of input during web page generation ('Cross-site Scripting') [CWE-79] vulnerability in Sling App CMS version 1.1.4 and prior may allow an authenticated remote attacker to perform a reflected cross-site scripting (XSS) attack in multiple features. Upgrade to Apache Sling App CMS >= 1.1.6 CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2023-22849",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2023-02-04T23:33:13Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-22849"
+                }
+            ],
+            "lastModifiedDate": "2023-02-04T21:15Z",
+            "num_retweets": 0,
+            "num_tweets": 12,
+            "num_tweets_and_retweets": 12,
+            "publishedDate": "2023-02-04T21:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1675546732.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10ts2g4/cve202322849/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 157,
+                    "title": "CVE-2023-22849",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2023-22849"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-02-04 21:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1621983654971858946",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-22849 \ud83d\udea8 An improper neutralization of input during web page generation ('Cross-site Scripting') [CWE-79] vulnerability in Sling App CMS version 1.1.4 and prior may allow an authenticated remote atta... (click for more)  https://t.co/xIbZanf7HD",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22849",
+                            "url": "https://t.co/xIbZanf7HD"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-04 21:45",
+                    "likes": 1,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1621988275668885507",
+                    "tweet_text": "CVE-2023-22849 An improper neutralization of input during web page generation ('Cross-site Scripting') [CWE-79] vulnerability in Sling App CMS version 1.1.4 and prior may allow an authenticated remote attacker to perform a reflected cross-site scr... https://t.co/TNNKbQDdKd",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22849",
+                            "url": "https://t.co/TNNKbQDdKd"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-04 23:42",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1622017680487112706",
+                    "tweet_text": "CVE-2023-22849\n\nAn improper neutralization of input during web page generation (&amp;...\n\nhttps://t.co/xLuaDFFT5I\n\nCustomizable Vulnerability Alerts: https://t.co/U7998fz7yk",
+                    "twitter_user_handle": "VulmonFeeds",
+                    "twitter_user_name": "Vulmon Vulnerability Feed",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "vulmon.com/vulnerabilityd\u2026",
+                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2023-22849",
+                            "url": "https://t.co/xLuaDFFT5I"
+                        },
+                        {
+                            "display_url": "alerts.vulmon.com/?utm_source=tw\u2026",
+                            "expanded_url": "https://alerts.vulmon.com/?utm_source=twitter&utm_medium=social&utm_campaign=2102281&utm_content=4",
+                            "url": "https://t.co/U7998fz7yk"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-05 07:42",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1622138470444720128",
+                    "tweet_text": "CVE-2023-22849 | Apache Sling App CMS up to 1.1.4 cross site scripting https://t.co/sOWJmjGppb",
+                    "twitter_user_handle": "glytcher001",
+                    "twitter_user_name": "glytcher",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "dlvr.it/ShyHZs",
+                            "expanded_url": "http://dlvr.it/ShyHZs",
+                            "url": "https://t.co/sOWJmjGppb"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-05 07:45",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1622139294000324609",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-22849 | Apache Sling App CMS up to 1.1.4 cross site scripting) has been published on https://t.co/fx6sdLnm5m",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/uXvPWJy6tj"
+                        },
+                        {
+                            "display_url": "sesin.at/2023/02/05/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2023/02/05/cve-2023-22849-apache-sling-app-cms-up-to-1-1-4-cross-site-scripting/",
+                            "url": "https://t.co/fx6sdLnm5m"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [],
@@ -1407,5 +1446,5 @@
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2023-02-05 01:31:21"
+    "updated": "2023-02-05 08:49:55"
 }
