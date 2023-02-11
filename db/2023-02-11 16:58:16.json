@@ -2,7 +2,7 @@
     "data": [
         {
             "assigner": "cve@rapid7.com",
-            "audience_size": 391973,
+            "audience_size": 447192,
             "cve": "CVE-2023-0669",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -18,9 +18,9 @@
                     "description": "CVE-2023-0669 GoAnywhere MFT suffers from a pre-authentication command injection vulnerability in the License Response Servlet due to deserializing an arbitrary attacker-controlled object.",
                     "language": "Java",
                     "name": "CVE-2023-0669",
-                    "stars": 3,
+                    "stars": 6,
                     "topics": [],
-                    "updated": "2023-02-11T09:51:03Z",
+                    "updated": "2023-02-11T15:57:17Z",
                     "url": "https://github.com/0xf4n9x/CVE-2023-0669"
                 },
                 {
@@ -35,9 +35,9 @@
                 }
             ],
             "lastModifiedDate": "2023-02-08T23:15Z",
-            "num_retweets": 11,
-            "num_tweets": 16,
-            "num_tweets_and_retweets": 27,
+            "num_retweets": 19,
+            "num_tweets": 17,
+            "num_tweets_and_retweets": 36,
             "publishedDate": "2023-02-06T20:15Z",
             "reddit_posts": [
                 {
@@ -46,7 +46,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/10xo1kx/fortra_deserialization_rce_cve20230669_etr_by/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32891,
+                    "subreddit_subscribers": 32897,
                     "title": "Fortra deserialization RCE CVE-2023-0669 (ETR) by rbowes-r7 \u00b7 Pull Request #17607 \u00b7 rapid7/metasploit-framework - as exploited in the wild",
                     "upvotes": 1,
                     "url": "https://github.com/rapid7/metasploit-framework/pull/17607"
@@ -56,20 +56,20 @@
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-02-10 16:34",
-                    "likes": 3,
-                    "num_retweets": 4,
-                    "retweets": 5,
-                    "tweet_id": "1624084403151568896",
-                    "tweet_text": "\u7c73\u56fd\u653f\u5e9cCISA\u00b9\u304c\u57fa\u5730\u306e\u60aa\u7528\u3055\u308c\u305f\u8106\u5f31\u6027\u30ab\u30bf\u30ed\u30b0\u306b3\u4ef6\u306e\u8106\u5f31\u6027\u3092\u8ffd\u52a0\u3002Windows \u7528 Intel Ethernet \u8a3a\u65ad\u30c9\u30e9\u30a4\u30d0\u306eDoS\u00b2(CVE-2015-2291)\u3001TerraMaster OS \u306e\u9060\u9694\u30b3\u30de\u30f3\u30c9\u5b9f\u884c(CVE-2022-24990)\u3001FortraGoAnywhere MFT\u306e\u9060\u9694\u30b3\u30fc\u30c9\u5b9f\u884c(CVE-2023-0669)\u3002\u5bfe\u5fdc\u671f\u96503/3\u3002 https://t.co/OOBXNJGJwS",
-                    "twitter_user_handle": "__kokumoto",
-                    "twitter_user_name": "kokum\u0585t\u0585",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1612504196720492544/T_-s-6OP_normal.jpg",
+                    "created_at": "2023-02-11 07:26",
+                    "likes": 27,
+                    "num_retweets": 14,
+                    "retweets": 15,
+                    "tweet_id": "1624308803960438791",
+                    "tweet_text": "CVE-2023-0669 GoAnywhere MFT Deserialization #RCE Vulnerability.\n\n#EXP:\nhttps://t.co/I3oFkUykrS https://t.co/JPcn4ZsRyJ",
+                    "twitter_user_handle": "_0xf4n9x_",
+                    "twitter_user_name": "_0xf4n9x_",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1379740616368656384/e8bp9OGT_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "kev.kokumoto.com/#/dateAdded:20\u2026",
-                            "expanded_url": "https://kev.kokumoto.com/#/dateAdded:2023-02-10",
-                            "url": "https://t.co/OOBXNJGJwS"
+                            "display_url": "github.com/0xf4n9x/CVE-20\u2026",
+                            "expanded_url": "https://github.com/0xf4n9x/CVE-2023-0669",
+                            "url": "https://t.co/I3oFkUykrS"
                         }
                     ]
                 },
@@ -88,24 +88,6 @@
                             "display_url": "bleepingcomputer.com/news/security/\u2026",
                             "expanded_url": "https://www.bleepingcomputer.com/news/security/global-accellion-data-breaches-linked-to-clop-ransomware-gang/",
                             "url": "https://t.co/nBCffrhUZF"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-11 07:26",
-                    "likes": 4,
-                    "num_retweets": 2,
-                    "retweets": 2,
-                    "tweet_id": "1624308803960438791",
-                    "tweet_text": "CVE-2023-0669 GoAnywhere MFT Deserialization #RCE Vulnerability.\n\n#EXP:\nhttps://t.co/I3oFkUykrS https://t.co/JPcn4ZsRyJ",
-                    "twitter_user_handle": "_0xf4n9x_",
-                    "twitter_user_name": "_0xf4n9x_",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1379740616368656384/e8bp9OGT_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "github.com/0xf4n9x/CVE-20\u2026",
-                            "expanded_url": "https://github.com/0xf4n9x/CVE-2023-0669",
-                            "url": "https://t.co/I3oFkUykrS"
                         }
                     ]
                 },
@@ -129,177 +111,32 @@
                     "twitter_user_name": "BleepingComputer",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/542789702365892608/is5mSep2_normal.png",
                     "urls": []
+                },
+                {
+                    "created_at": "2023-02-10 23:39",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624191397476564997",
+                    "tweet_text": "a @rapid7 writeup which rendered SIDs 2044143-2044144 for CVE-2023-0669, alerting on Fortra pre-authentication deserialization attempts for GET and POST activity: https://t.co/AquSwmFcM0",
+                    "twitter_user_handle": "ET_Labs",
+                    "twitter_user_name": "ET Labs",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1532196845618876416/Xpe46eru_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "attackerkb.com/topics/mg883Nb\u2026",
+                            "expanded_url": "https://attackerkb.com/topics/mg883Nbeva/cve-2023-0669/rapid7-analysis",
+                            "url": "https://t.co/AquSwmFcM0"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [],
             "vendors": []
         },
         {
-            "assigner": "secalert_us@oracle.com",
-            "audience_size": 382907,
-            "cve": "CVE-2022-21587",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": 9.8,
-            "cvssv3_base_severity": "CRITICAL",
-            "cwes": [],
-            "description": "Vulnerability in the Oracle Web Applications Desktop Integrator product of Oracle E-Business Suite (component: Upload). Supported versions that are affected are 12.2.3-12.2.11. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Web Applications Desktop Integrator. Successful attacks of this vulnerability can result in takeover of Oracle Web Applications Desktop Integrator. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
-            "epss_score": "0.27895",
-            "github_repos": [
-                {
-                    "created": "2023-02-06T04:18:24Z",
-                    "description": "CVE-2022-21587 POC ",
-                    "language": "Python",
-                    "name": "CVE-2022-21587-POC",
-                    "stars": 5,
-                    "topics": [],
-                    "updated": "2023-02-10T11:00:33Z",
-                    "url": "https://github.com/hieuminhnv/CVE-2022-21587-POC"
-                },
-                {
-                    "created": "2022-12-29T01:23:51Z",
-                    "description": "Vulnerability in the Oracle Web Applications Desktop Integrator product of Oracle E-Business Suite (component: Upload). Supported versions that are affected are 12.2.3-12.2.11. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Web Applications Desktop Int CVE project by @Sn0wAlice",
-                    "language": null,
-                    "name": "CVE-2022-21587",
-                    "stars": 1,
-                    "topics": [],
-                    "updated": "2023-02-10T05:58:25Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2022-21587"
-                }
-            ],
-            "lastModifiedDate": "2022-10-20T16:54Z",
-            "num_retweets": 20,
-            "num_tweets": 8,
-            "num_tweets_and_retweets": 28,
-            "publishedDate": "2022-10-18T21:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1666602057.0,
-                    "is_self": false,
-                    "num_comments": 2,
-                    "reddit_url": "https://www.reddit.com/r/RedPacketSecurity/comments/yc6bt8/oracle_ebusiness_suite_web_applications_desktop/",
-                    "subreddit": "RedPacketSecurity",
-                    "subreddit_subscribers": 628,
-                    "title": "Oracle E-Business Suite Web Applications Desktop Integrator Application Service unspecified | CVE-2022-21587",
-                    "upvotes": 1,
-                    "url": "https://www.redpacketsecurity.com/oracle-e-business-suite-web-applications-desktop-integrator-application-service-unspecified-cve-2022-21587/"
-                }
-            ],
-            "score": 9.8,
-            "severity": "CRITICAL",
-            "tweets": [
-                {
-                    "created_at": "2023-02-10 15:13",
-                    "likes": 52,
-                    "num_retweets": 16,
-                    "retweets": 17,
-                    "tweet_id": "1624064134814789633",
-                    "tweet_text": "My @rapid7 technical analysis of CVE-2022-21587 for Oracle E-business Suite is out. An arbitrary file upload vuln can be used to drop malicious JSP payloads, and we now have a @metasploit exploit for this in the pull queue too:  https://t.co/cc2RILXcnT",
-                    "twitter_user_handle": "stephenfewer",
-                    "twitter_user_name": "Stephen Fewer",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1512418933495799809/VrHtjHwl_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "attackerkb.com/topics/Bkij5kK\u2026",
-                            "expanded_url": "https://attackerkb.com/topics/Bkij5kK1qK/cve-2022-21587/rapid7-analysis",
-                            "url": "https://t.co/cc2RILXcnT"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 16:33",
-                    "likes": 7,
-                    "num_retweets": 4,
-                    "retweets": 5,
-                    "tweet_id": "1624084147898646532",
-                    "tweet_text": "Stellar analysis plus an exploit from @stephenfewer on the Oracle E-Business Suite vuln (CVE-2022-21587) that got added to CISA KEV last week. https://t.co/UOrnahbFbJ",
-                    "twitter_user_handle": "catc0n",
-                    "twitter_user_name": "Caitlin Condon",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/817225516952457216/Al4Wjt9x_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "twitter.com/stephenfewer/s\u2026",
-                            "expanded_url": "https://twitter.com/stephenfewer/status/1624064134814789633",
-                            "url": "https://t.co/UOrnahbFbJ"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-11 02:08",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624228730724917249",
-                    "tweet_text": "I think that the third retweeted(11 times) tweet that contains CVE ID between Feb 10 2023 02:01 UTC and Feb 11 2023 02:00 UTC is:\nhttps://t.co/DYFGPWfEdD\nIt has CVE-2022-21587. #l24_w3rn4goksceos",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "twitter.com/stephenfewer/s\u2026",
-                            "expanded_url": "https://twitter.com/stephenfewer/status/1624064134814789633",
-                            "url": "https://t.co/DYFGPWfEdD"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-11 04:08",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624258943340904449",
-                    "tweet_text": "(third \u2192 second)\nI think that the second retweeted(13 times) tweet that contains CVE ID between Feb 10 2023 04:01 UTC and Feb 11 2023 04:00 UTC is:\nhttps://t.co/DYFGPWfEdD\nIt has CVE-2022-21587. #l24_w3rn4goksceos",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "twitter.com/stephenfewer/s\u2026",
-                            "expanded_url": "https://twitter.com/stephenfewer/status/1624064134814789633",
-                            "url": "https://t.co/DYFGPWfEdD"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-11 06:08",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624289135845421059",
-                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the second retweeted(14 times) tweet that contains CVE ID between Feb 10 2023 06:01 UTC and Feb 11 2023 06:00 UTC is:\nhttps://t.co/DYFGPWfEdD\nIt has CVE-2022-21587. #l24_w3rn4goksceos",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "twitter.com/stephenfewer/s\u2026",
-                            "expanded_url": "https://twitter.com/stephenfewer/status/1624064134814789633",
-                            "url": "https://t.co/DYFGPWfEdD"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [
-                "https://www.oracle.com/security-alerts/cpuoct2022.html"
-            ],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "E-Business Suite",
-                            "versions": [
-                                "*"
-                            ]
-                        }
-                    ],
-                    "vendor": "Oracle"
-                }
-            ]
-        },
-        {
             "assigner": "security@vmware.com",
-            "audience_size": 177987,
+            "audience_size": 276641,
             "cve": "CVE-2021-21974",
             "cve_urls": null,
             "cvssv2_base_score": 5.8,
@@ -364,9 +201,9 @@
                 }
             ],
             "lastModifiedDate": "2022-06-02T14:41Z",
-            "num_retweets": 8,
-            "num_tweets": 15,
-            "num_tweets_and_retweets": 23,
+            "num_retweets": 6,
+            "num_tweets": 24,
+            "num_tweets_and_retweets": 30,
             "publishedDate": "2021-02-24T17:15Z",
             "reddit_posts": [
                 {
@@ -375,9 +212,9 @@
                     "num_comments": 207,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/ltomo0/patch_now_hackers_are_massscanning_the_internet/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 772251,
+                    "subreddit_subscribers": 772280,
                     "title": "PATCH NOW - Hackers are mass-scanning the Internet in search of VMware servers with a newly disclosed code-execution vulnerability that has a severity rating of 9.8 out of a possible 10. CVE-2021-21974",
-                    "upvotes": 1680,
+                    "upvotes": 1676,
                     "url": "https://www.reddit.com/r/sysadmin/comments/ltomo0/patch_now_hackers_are_massscanning_the_internet/"
                 },
                 {
@@ -386,9 +223,9 @@
                     "num_comments": 55,
                     "reddit_url": "https://www.reddit.com/r/homelab/comments/lu206r/patch_now_hackers_are_massscanning_the_internet/",
                     "subreddit": "homelab",
-                    "subreddit_subscribers": 550993,
+                    "subreddit_subscribers": 551051,
                     "title": "PATCH NOW - Hackers are mass-scanning the Internet in search of VMware servers with a newly disclosed code-execution vulnerability that has a severity rating of 9.8 out of a possible 10. CVE-2021-21974",
-                    "upvotes": 364,
+                    "upvotes": 373,
                     "url": "/r/sysadmin/comments/ltomo0/patch_now_hackers_are_massscanning_the_internet/"
                 },
                 {
@@ -397,9 +234,9 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/nksnhk/rce_poc_walkthrough_for_cve202121974_vmware_esxi/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 466358,
+                    "subreddit_subscribers": 466380,
                     "title": "RCE PoC walkthrough for (CVE-2021\u201321974) VMware ESXi OpenSLP heap-overflow vulnerability",
-                    "upvotes": 81,
+                    "upvotes": 84,
                     "url": "https://straightblast.medium.com/my-poc-walkthrough-for-cve-2021-21974-a266bcad14b9"
                 },
                 {
@@ -408,9 +245,9 @@
                     "num_comments": 30,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/10tbmve/ransomware_attack_on_vmware_esxi/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 772251,
+                    "subreddit_subscribers": 772280,
                     "title": "Ransomware Attack on VMware ESXi",
-                    "upvotes": 45,
+                    "upvotes": 40,
                     "url": "https://www.reddit.com/r/sysadmin/comments/10tbmve/ransomware_attack_on_vmware_esxi/"
                 },
                 {
@@ -419,9 +256,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/nkpa4o/vmware_esxi_exploit_for_cve202121974_which_is_a/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32891,
+                    "subreddit_subscribers": 32897,
                     "title": "VMWare ESXi exploit for CVE-2021-21974 which is a heap overflow leading to remote code execution",
-                    "upvotes": 39,
+                    "upvotes": 38,
                     "url": "https://github.com/straightblast/My-PoC-Exploits/blob/master/CVE-2021-21974.py"
                 }
             ],
@@ -430,7 +267,7 @@
             "tweets": [
                 {
                     "created_at": "2023-02-11 05:37",
-                    "likes": 0,
+                    "likes": 1,
                     "num_retweets": 3,
                     "retweets": 3,
                     "tweet_id": "1624281572844220418",
@@ -447,20 +284,20 @@
                     ]
                 },
                 {
-                    "created_at": "2023-02-10 14:00",
-                    "likes": 1,
+                    "created_at": "2023-02-11 10:35",
+                    "likes": 0,
                     "num_retweets": 2,
                     "retweets": 2,
-                    "tweet_id": "1624045534104223744",
-                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2021-21974: 605.6K (audience size)\nCVE-2023-0286: 397.3K\nCVE-2019-5736: 174.8K\n\nPast 7 days:\nCVE-2021-21974: 7.2M\nCVE-2023-25136: 3.3M\nCVE-2023-0286: 2.2M\n\nhttps://t.co/LhpwNP6xog",
-                    "twitter_user_handle": "CVEtrends",
-                    "twitter_user_name": "CVE Trends",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
+                    "tweet_id": "1624356501576945666",
+                    "tweet_text": "VMware ESXi OpenSLP Heap-Overflow Vulnerability (CVE-2021-21974) https://t.co/lyP5bXuQK3 #cyber  #awareness #threatintell #CTI #intelligence #detect_and_response #EDR #XDR #CyberThreat #CyberThreatIntelligence #Zeroday #Vulnerability #RiskManagement #VulnerabilityAssesment #Thi\u2026",
+                    "twitter_user_handle": "SK_Expert",
+                    "twitter_user_name": "SK",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1598563656727404545/pntj_aa7_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "cvetrends.com",
-                            "expanded_url": "https://cvetrends.com",
-                            "url": "https://t.co/LhpwNP6xog"
+                            "display_url": "ift.tt/24RMKTW",
+                            "expanded_url": "https://ift.tt/24RMKTW",
+                            "url": "https://t.co/lyP5bXuQK3"
                         }
                     ]
                 },
@@ -484,7 +321,7 @@
                 },
                 {
                     "created_at": "2023-02-10 23:34",
-                    "likes": 1,
+                    "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
                     "tweet_id": "1624190007492632577",
@@ -535,6 +372,93 @@
                         }
                     ],
                     "vendor": "Vmware"
+                }
+            ]
+        },
+        {
+            "assigner": "secure@microsoft.com",
+            "audience_size": 124366,
+            "cve": "CVE-2022-34689",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": 7.5,
+            "cvssv3_base_severity": "HIGH",
+            "cwes": [
+                {
+                    "cwe_description": "Authentication Bypass by Spoofing",
+                    "cwe_id": "CWE-290"
+                }
+            ],
+            "description": "Windows CryptoAPI Spoofing Vulnerability.",
+            "epss_score": "0.02251",
+            "github_repos": [],
+            "lastModifiedDate": "2022-10-12T14:44Z",
+            "num_retweets": 1,
+            "num_tweets": 1,
+            "num_tweets_and_retweets": 2,
+            "publishedDate": "2022-10-11T19:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1665550876.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/y1upi3/cve202234689_windows_cryptoapi_spoofing/",
+                    "subreddit": "blueteamsec",
+                    "subreddit_subscribers": 32897,
+                    "title": "CVE-2022-34689: Windows CryptoAPI Spoofing Vulnerability - found by the UK National Cyber Security Centre (NCSC) and the National Security Agency (NSA)",
+                    "upvotes": 23,
+                    "url": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-34689"
+                },
+                {
+                    "created": 1665517140.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/y1i82c/cve202234689/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 164,
+                    "title": "CVE-2022-34689",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-34689"
+                }
+            ],
+            "score": 7.5,
+            "severity": "HIGH",
+            "tweets": [
+                {
+                    "created_at": "2023-02-11 14:02",
+                    "likes": 3,
+                    "num_retweets": 1,
+                    "retweets": 2,
+                    "tweet_id": "1624408500959866882",
+                    "tweet_text": "Akamai researchers discovered that CVE-2022-34689 allows attackers to spoof the target certificate and masquerade as any website. Learn more: https://t.co/LFfLjS2xMs https://t.co/QQ5Oy9FXHo",
+                    "twitter_user_handle": "Akamai",
+                    "twitter_user_name": "Akamai Technologies",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1458127684379291652/2nWEKc2r_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ow.ly/Wv9m50MNC6K",
+                            "expanded_url": "http://ow.ly/Wv9m50MNC6K",
+                            "url": "https://t.co/LFfLjS2xMs"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [
+                "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-34689"
+            ],
+            "vendors": [
+                {
+                    "products": [
+                        {
+                            "product": "Windows 10",
+                            "versions": [
+                                "21h1",
+                                "21h2"
+                            ]
+                        }
+                    ],
+                    "vendor": "Microsoft"
                 }
             ]
         },
@@ -614,9 +538,9 @@
                     "num_comments": 15,
                     "reddit_url": "https://www.reddit.com/r/archlinux/comments/u7t9wd/cve202221449_critical_java_update_to_jdkopenjdk/",
                     "subreddit": "archlinux",
-                    "subreddit_subscribers": 228232,
+                    "subreddit_subscribers": 228249,
                     "title": "CVE-2022-21449: Critical Java update to jdk-openjdk",
-                    "upvotes": 155,
+                    "upvotes": 157,
                     "url": "https://www.reddit.com/r/archlinux/comments/u7t9wd/cve202221449_critical_java_update_to_jdkopenjdk/"
                 },
                 {
@@ -625,9 +549,9 @@
                     "num_comments": 8,
                     "reddit_url": "https://www.reddit.com/r/ProgrammerHumor/comments/u89ww9/check_out_my_elliptic_curves_cve202221449/",
                     "subreddit": "ProgrammerHumor",
-                    "subreddit_subscribers": 2745995,
+                    "subreddit_subscribers": 2749417,
                     "title": "Check out my elliptic curves CVE-2022-21449",
-                    "upvotes": 154,
+                    "upvotes": 152,
                     "url": "https://i.redd.it/luwsvj4gtru81.png"
                 },
                 {
@@ -636,9 +560,9 @@
                     "num_comments": 16,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/u8ihc9/cve202221449_poc_demonstrating_tls_mitm/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 466358,
+                    "subreddit_subscribers": 466380,
                     "title": "CVE-2022-21449 PoC demonstrating TLS MITM",
-                    "upvotes": 134,
+                    "upvotes": 133,
                     "url": "https://github.com/khalednassar/CVE-2022-21449-TLS-PoC"
                 },
                 {
@@ -647,9 +571,9 @@
                     "num_comments": 4,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/u97dgz/null_ecdsa_signatures_proof_of_concept_for/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 466358,
+                    "subreddit_subscribers": 466380,
                     "title": "Null ECDSA Signatures - Proof of concept for bypassing JWT signature checks using CVE-2022-21449",
-                    "upvotes": 96,
+                    "upvotes": 101,
                     "url": "https://github.com/DataDog/security-labs-pocs/tree/main/proof-of-concept-exploits/jwt-null-signature-vulnerable-app"
                 },
                 {
@@ -658,7 +582,7 @@
                     "num_comments": 7,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/u7lg8n/cve202221449_psychic_signatures_in_java/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 466358,
+                    "subreddit_subscribers": 466380,
                     "title": "CVE-2022-21449: Psychic Signatures in Java",
                     "upvotes": 90,
                     "url": "https://neilmadden.blog/2022/04/19/psychic-signatures-in-java/"
@@ -720,7 +644,7 @@
         },
         {
             "assigner": null,
-            "audience_size": 78754,
+            "audience_size": 79016,
             "cve": "CVE-2022-23529",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -763,9 +687,9 @@
                 }
             ],
             "lastModifiedDate": null,
-            "num_retweets": 7,
+            "num_retweets": 8,
             "num_tweets": 3,
-            "num_tweets_and_retweets": 10,
+            "num_tweets_and_retweets": 11,
             "publishedDate": null,
             "reddit_posts": [
                 {
@@ -774,9 +698,9 @@
                     "num_comments": 8,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/108jk6s/cve202223529_jsonwebtoken_has_insecure_input/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 32891,
+                    "subreddit_subscribers": 32897,
                     "title": "CVE-2022-23529 - jsonwebtoken has insecure input validation in jwt.verify function - used by over 22,000 projects and downloaded over 36 million times per month on NPM - Exploiting the flaw could enable attackers to bypass authentication mechanisms, access confidential information etc.",
-                    "upvotes": 35,
+                    "upvotes": 36,
                     "url": "https://github.com/advisories/GHSA-27h2-hvpr-p74q"
                 },
                 {
@@ -818,9 +742,9 @@
             "tweets": [
                 {
                     "created_at": "2023-02-11 00:32",
-                    "likes": 9,
-                    "num_retweets": 7,
-                    "retweets": 7,
+                    "likes": 10,
+                    "num_retweets": 8,
+                    "retweets": 8,
                     "tweet_id": "1624204711112110080",
                     "tweet_text": "CVE-2022-23529 - jsonwebtoken has insecure input validation in jwt.verify function - used by over 22,000 projects and downloaded over 36 million times per month on NPM - Exploiting the flaw could enable attackers to bypass\u2026 https://t.co/qcS6Gs2sdW #cyber #threathunting #infosec",
                     "twitter_user_handle": "blueteamsec1",
@@ -853,517 +777,157 @@
                     ]
                 },
                 {
-                    "created_at": "2023-02-10 15:46",
+                    "created_at": "2023-02-11 12:08",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1624072355676065792",
-                    "tweet_text": "CVE-2022-23529\u53d6\u308a\u6d88\u3055\u308c\u305f\u306e\u304b\u3088\u304b\u3063\u305f",
-                    "twitter_user_handle": "miz0fumi",
-                    "twitter_user_name": "\u307f\u305e",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1591957569584652288/n7MVL9ws_normal.png",
-                    "urls": []
+                    "tweet_id": "1624379727963205635",
+                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the third retweeted(7 times) tweet that contains CVE ID between Feb 10 2023 12:01 UTC and Feb 11 2023 12:00 UTC is:\nhttps://t.co/Yu8uiA4kOT\nIt has CVE-2022-23529. #l24_ugez5cggwkkjy",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/blueteamsec1/s\u2026",
+                            "expanded_url": "https://twitter.com/blueteamsec1/status/1624204711112110080",
+                            "url": "https://t.co/Yu8uiA4kOT"
+                        }
+                    ]
                 }
             ],
             "vendor_advisories": [],
             "vendors": []
         },
         {
-            "assigner": "psirt@huawei.com",
-            "audience_size": 62798,
-            "cve": "CVE-2018-7935",
+            "assigner": "security@huntr.dev",
+            "audience_size": 55490,
+            "cve": "CVE-2023-0780",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
             "cvssv3_base_score": null,
             "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote attackers could exploit this vulnerability to make the network where the E5573Cs-322 is running temporarily unavailable.",
-            "epss_score": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Restriction of Rendered UI Layers or Frames",
+                    "cwe_id": "CWE-1021"
+                }
+            ],
+            "description": "Improper Restriction of Rendered UI Layers or Frames in GitHub repository cockpit-hq/cockpit prior to 2.3.9-dev.",
+            "epss_score": "0.00885",
             "github_repos": [
                 {
-                    "created": "2018-09-21T11:17:59Z",
-                    "description": null,
-                    "language": "Python",
-                    "name": "CVE-2018-7935",
-                    "stars": 2,
-                    "topics": [],
-                    "updated": "2019-11-19T20:27:40Z",
-                    "url": "https://github.com/lawrenceamer/CVE-2018-7935"
-                },
-                {
-                    "created": "2023-02-10T16:30:51Z",
-                    "description": "There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote attackers could exploit this vulnerability to make the network where the E5573Cs-322 is running temporarily unavailable. CVE project by @Sn0wAlice",
+                    "created": "2023-02-11T13:12:09Z",
+                    "description": "Improper Restriction of Rendered UI Layers or Frames in GitHub repository cockpit-hq/cockpit prior to 2.3.9-dev. CVE project by @Sn0wAlice",
                     "language": null,
-                    "name": "CVE-2018-7935",
+                    "name": "CVE-2023-0780",
                     "stars": 0,
                     "topics": [],
-                    "updated": "2023-02-10T16:30:51Z",
-                    "url": "https://github.com/Live-Hack-CVE/CVE-2018-7935"
+                    "updated": "2023-02-11T13:12:09Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-0780"
                 }
             ],
-            "lastModifiedDate": "2023-02-10T16:02Z",
-            "num_retweets": 0,
-            "num_tweets": 16,
-            "num_tweets_and_retweets": 16,
-            "publishedDate": "2023-02-10T12:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1554238937.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/subreddit_stats/comments/b8ovou/subreddit_stats_warshipporn_top_posts_from/",
-                    "subreddit": "subreddit_stats",
-                    "subreddit_subscribers": 7967,
-                    "title": "Subreddit Stats: WarshipPorn top posts from 2019-03-03 to 2019-04-02 05:10 PDT",
-                    "upvotes": 2,
-                    "url": "https://www.reddit.com/r/subreddit_stats/comments/b8ovou/subreddit_stats_warshipporn_top_posts_from/"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-02-10 16:22",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624081388508004353",
-                    "tweet_text": "New vulnerability on the NVD: CVE-2018-7935 https://t.co/75o7PmzJjK #exploit #toutatis #darknet #news",
-                    "twitter_user_handle": "ServiceToutatis",
-                    "twitter_user_name": "Toutatis InfoPost",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1029512326150586370/Z4fu43g3_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/8TOJB1a",
-                            "expanded_url": "https://ift.tt/8TOJB1a",
-                            "url": "https://t.co/75o7PmzJjK"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 16:52",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624088939433758720",
-                    "tweet_text": "CVE-2018-7935 https://t.co/Yct0NrKoCq",
-                    "twitter_user_handle": "xanadulinux",
-                    "twitter_user_name": "Xanadu GNU/Linux",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/466955855892455424/BAnnwGhT_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "ift.tt/sV6Ua4p",
-                            "expanded_url": "https://ift.tt/sV6Ua4p",
-                            "url": "https://t.co/Yct0NrKoCq"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 23:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624188041651752962",
-                    "tweet_text": "CVE-2018-7935 There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote attackers could exploit this vulnerability to make the network where the E5573Cs-322 is running temporarily unavailable. (CVSS:0.0) (Last Update:2023-02-10) https://t.co/JC53CHF098",
-                    "twitter_user_handle": "threatmeter",
-                    "twitter_user_name": "ThreatMeter",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cvedetails.com/cve/CVE-2018-7\u2026",
-                            "expanded_url": "http://www.cvedetails.com/cve/CVE-2018-7935/",
-                            "url": "https://t.co/JC53CHF098"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 12:03",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624016217680891904",
-                    "tweet_text": "CVE-2018-7935 : There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote attackers could exploit this vulnerability to make the network where the E5573Cs-322 is running temporarily unavailable.... https://t.co/H3AVVdWtt2",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "cve.report/CVE-2018-7935",
-                            "expanded_url": "https://cve.report/CVE-2018-7935",
-                            "url": "https://t.co/H3AVVdWtt2"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 12:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624022089341493248",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2018-7935 \ud83d\udea8 There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote attackers could exploit this vulnerability to make the network where the E5573Cs-322 is running temporarily una... (click for more)  https://t.co/RPNzyKIL9Y",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-7935",
-                            "url": "https://t.co/RPNzyKIL9Y"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "cve@mitre.org",
-            "audience_size": 58231,
-            "cve": "CVE-2023-24351",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the FILECODE parameter at /goform/formLogin.",
-            "epss_score": null,
-            "github_repos": [],
-            "lastModifiedDate": "2023-02-10T16:02Z",
-            "num_retweets": 0,
-            "num_tweets": 10,
-            "num_tweets_and_retweets": 10,
-            "publishedDate": "2023-02-10T15:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1676047129.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10ywhsa/cve202324351/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 164,
-                    "title": "CVE-2023-24351",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-24351"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-02-10 15:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624067391121510403",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-24351 \ud83d\udea8 D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the FILECODE parameter at /goform/formLogin. https://t.co/dbIIg3eRcr",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24351",
-                            "url": "https://t.co/dbIIg3eRcr"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 15:56",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624074718478311425",
-                    "tweet_text": "Potentially Critical CVE Detected!\nCVE-2023-24351\nD-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the FILECODE parameter at /gof...\nCVSS: 8.75\n#D-link #CVE #CyberSecurity",
-                    "twitter_user_handle": "Robo_Alerts",
-                    "twitter_user_name": "Robo Shadow Alerts",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1439862150890237953/WjKa3G1I_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-02-10 17:47",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624102834445893632",
-                    "tweet_text": "CVE-2023-24351 | D-Link DIR-605L 2.13B01 /goform/formLogin FILECODE stack-based overflow https://t.co/Mnxkupn51Y",
-                    "twitter_user_handle": "glytcher001",
-                    "twitter_user_name": "glytcher",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "dlvr.it/SjDdHL",
-                            "expanded_url": "http://dlvr.it/SjDdHL",
-                            "url": "https://t.co/Mnxkupn51Y"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 18:10",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624108681179676672",
-                    "tweet_text": "CVE-2023-24351\n\nD-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the FILECODE parameter at /goform/formLogin.\n\nhttps://t.co/s0LIbEnUFT",
-                    "twitter_user_handle": "VulmonFeeds",
-                    "twitter_user_name": "Vulmon Vulnerability Feed",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "vulmon.com/vulnerabilityd\u2026",
-                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2023-24351",
-                            "url": "https://t.co/s0LIbEnUFT"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 23:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624188043270791168",
-                    "tweet_text": "CVE-2023-24351 D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the FILECODE parameter at /goform/formLogin. (CVSS:0.0) (Last Update:2023-02-10) https://t.co/6rsKYz5H9Y",
-                    "twitter_user_handle": "threatmeter",
-                    "twitter_user_name": "ThreatMeter",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cvedetails.com/cve/CVE-2023-2\u2026",
-                            "expanded_url": "http://www.cvedetails.com/cve/CVE-2023-24351/",
-                            "url": "https://t.co/6rsKYz5H9Y"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "cve@mitre.org",
-            "audience_size": 58231,
-            "cve": "CVE-2023-24348",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the curTime parameter at /goform/formSetACLFilter.",
-            "epss_score": null,
-            "github_repos": [],
-            "lastModifiedDate": "2023-02-10T16:02Z",
-            "num_retweets": 0,
-            "num_tweets": 10,
-            "num_tweets_and_retweets": 10,
-            "publishedDate": "2023-02-10T15:15Z",
+            "lastModifiedDate": "2023-02-11T02:20Z",
+            "num_retweets": 1,
+            "num_tweets": 6,
+            "num_tweets_and_retweets": 7,
+            "publishedDate": "2023-02-11T02:20Z",
             "reddit_posts": [],
             "score": null,
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-02-10 15:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624067391125614592",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-24348 \ud83d\udea8 D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the curTime parameter at /goform/formSetACLFilter. https://t.co/ibHs7ALFjq",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24348",
-                            "url": "https://t.co/ibHs7ALFjq"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 17:47",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624102818444619778",
-                    "tweet_text": "CVE-2023-24348 | D-Link DIR-605L 2.13B01 /goform/formSetACLFilter curTime stack-based overflow https://t.co/48tei66tcY",
-                    "twitter_user_handle": "glytcher001",
-                    "twitter_user_name": "glytcher",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "dlvr.it/SjDdH6",
-                            "expanded_url": "http://dlvr.it/SjDdH6",
-                            "url": "https://t.co/48tei66tcY"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 17:52",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624104147120160787",
-                    "tweet_text": "CVE-2023-24348\n\nD-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the curTime parameter at /goform/formSetACLFilter.\n\nhttps://t.co/SAKjM4w37X",
-                    "twitter_user_handle": "VulmonFeeds",
-                    "twitter_user_name": "Vulmon Vulnerability Feed",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "vulmon.com/vulnerabilityd\u2026",
-                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2023-24348",
-                            "url": "https://t.co/SAKjM4w37X"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 23:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624188042041860096",
-                    "tweet_text": "CVE-2023-24348 D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the curTime parameter at /goform/formSetACLFilter. (CVSS:0.0) (Last Update:2023-02-10) https://t.co/WmsOg4JihP",
-                    "twitter_user_handle": "threatmeter",
-                    "twitter_user_name": "ThreatMeter",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cvedetails.com/cve/CVE-2023-2\u2026",
-                            "expanded_url": "http://www.cvedetails.com/cve/CVE-2023-24348/",
-                            "url": "https://t.co/WmsOg4JihP"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 15:04",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624061843995082755",
-                    "tweet_text": "CVE-2023-24348 : D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the curTime parameter at /goform/formSetACLFilter.... https://t.co/owvI2ETJ28",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "cve.report/CVE-2023-24348",
-                            "expanded_url": "https://cve.report/CVE-2023-24348",
-                            "url": "https://t.co/owvI2ETJ28"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "cve@mitre.org",
-            "audience_size": 57848,
-            "cve": "CVE-2023-24343",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the curTime parameter at /goform/formSchedule.",
-            "epss_score": null,
-            "github_repos": [],
-            "lastModifiedDate": "2023-02-10T16:02Z",
-            "num_retweets": 0,
-            "num_tweets": 9,
-            "num_tweets_and_retweets": 9,
-            "publishedDate": "2023-02-10T15:15Z",
-            "reddit_posts": [],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-02-10 15:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624067391138283523",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-24343 \ud83d\udea8 D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the curTime parameter at /goform/formSchedule. https://t.co/YG9WnPOMBA",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24343",
-                            "url": "https://t.co/YG9WnPOMBA"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 23:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624188043233034246",
-                    "tweet_text": "CVE-2023-24343 D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the curTime parameter at /goform/formSchedule. (CVSS:0.0) (Last Update:2023-02-10) https://t.co/6ePCBAPsyM",
-                    "twitter_user_handle": "threatmeter",
-                    "twitter_user_name": "ThreatMeter",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cvedetails.com/cve/CVE-2023-2\u2026",
-                            "expanded_url": "http://www.cvedetails.com/cve/CVE-2023-24343/",
-                            "url": "https://t.co/6ePCBAPsyM"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 15:03",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624061436048580608",
-                    "tweet_text": "CVE-2023-24343 : D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the curTime parameter at /goform/formSchedule.... https://t.co/4IZQ2QF6cn",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": [
-                        {
-                            "display_url": "cve.report/CVE-2023-24343",
-                            "expanded_url": "https://cve.report/CVE-2023-24343",
-                            "url": "https://t.co/4IZQ2QF6cn"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-02-10 15:45",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1624072055011393542",
-                    "tweet_text": "CVE-2023-24343 D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the curTime parameter at /goform/formSchedule. https://t.co/4vVUsFCkyt",
+                    "created_at": "2023-02-11 02:45",
+                    "likes": 1,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1624238116092485633",
+                    "tweet_text": "CVE-2023-0780 Improper Restriction of Rendered UI Layers or Frames in GitHub repository cockpit-hq/cockpit prior to 2.3.9-dev. https://t.co/8FXjQpMHrz",
                     "twitter_user_handle": "CVEnew",
                     "twitter_user_name": "CVE",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
                     "urls": [
                         {
                             "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24343",
-                            "url": "https://t.co/4vVUsFCkyt"
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0780",
+                            "url": "https://t.co/8FXjQpMHrz"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-02-10 16:11",
+                    "created_at": "2023-02-11 01:53",
+                    "likes": 1,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624224969272991746",
+                    "tweet_text": "CVE-2023-0780 : Improper Restriction of Rendered UI Layers or Frames in GitHub repository cockpit-hq/cockpit prior to 2.3.9-dev.... https://t.co/7elnIsr8vf",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "cve.report/CVE-2023-0780",
+                            "expanded_url": "https://cve.report/CVE-2023-0780",
+                            "url": "https://t.co/7elnIsr8vf"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-11 01:28",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1624078528105807873",
-                    "tweet_text": "CVEnew: CVE-2023-24343 D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the curTime parameter at /goform/formSchedule. https://t.co/DiC94SSc96",
-                    "twitter_user_handle": "hernanespinoza",
-                    "twitter_user_name": "Hernan Espinoza",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1547685026636017665/VkgyrG2V_normal.jpg",
+                    "tweet_id": "1624218716220317697",
+                    "tweet_text": "cockpit-hq/cockpit disclosed a bug reported by @popc0rn94 (CVE-2023-0780) - Patch: https://t.co/XbPbgIH2Nv\nhttps://t.co/uy16Ympoml #hunter #infosec #opensource https://t.co/uC57GPdC8W",
+                    "twitter_user_handle": "huntrHacktivity",
+                    "twitter_user_name": "huntr Hacktivity",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1459525598007545867/Zq8Fh2rM_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24343",
-                            "url": "https://t.co/DiC94SSc96"
+                            "display_url": "github.com/cockpit-hq/coc\u2026",
+                            "expanded_url": "https://github.com/cockpit-hq/cockpit/commit/8450bdf7e1dc23e9d88adf30a2aa9101c0c41720",
+                            "url": "https://t.co/XbPbgIH2Nv"
+                        },
+                        {
+                            "display_url": "huntr.dev/bounties/801ef\u2026",
+                            "expanded_url": "https://huntr.dev/bounties/801efd0b-404b-4670-961a-12a986252fa4/#bugbounty",
+                            "url": "https://t.co/uy16Ympoml"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-11 08:33",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624325770612207616",
+                    "tweet_text": "CVE-2023-0780 | cockpit up to 2.3.8 improper restriction of rendered ui layers https://t.co/Hv4hP6UDz8",
+                    "twitter_user_handle": "glytcher001",
+                    "twitter_user_name": "glytcher",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "dlvr.it/SjFvdy",
+                            "expanded_url": "http://dlvr.it/SjFvdy",
+                            "url": "https://t.co/Hv4hP6UDz8"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-11 02:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624233481067761665",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-0780 \ud83d\udea8 Improper Restriction of Rendered UI Layers or Frames in GitHub repository cockpit-hq/cockpit prior to 2.3.9-dev. https://t.co/GFNIOr9AMp",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0780",
+                            "url": "https://t.co/GFNIOr9AMp"
                         }
                     ]
                 }
@@ -1372,126 +936,488 @@
             "vendors": []
         },
         {
-            "assigner": "cve@mitre.org",
-            "audience_size": 57848,
-            "cve": "CVE-2023-24352",
+            "assigner": "secure@dell.com",
+            "audience_size": 54804,
+            "cve": "CVE-2022-45104",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
             "cvssv3_base_score": null,
             "cvssv3_base_severity": null,
             "cwes": [],
-            "description": "D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the webpage parameter at /goform/formWPS.",
-            "epss_score": null,
+            "description": "Dell Unisphere for PowerMax vApp, VASA Provider vApp, and Solution Enabler vApp version 9.2.3.x contain a command execution vulnerability. A low privileged remote attacker could potentially exploit this vulnerability, leading to execute arbitrary commands on the underlying system.",
+            "epss_score": "0.01156",
             "github_repos": [],
-            "lastModifiedDate": "2023-02-10T16:02Z",
-            "num_retweets": 0,
-            "num_tweets": 9,
-            "num_tweets_and_retweets": 9,
-            "publishedDate": "2023-02-10T15:15Z",
+            "lastModifiedDate": "2023-02-11T01:23Z",
+            "num_retweets": 1,
+            "num_tweets": 6,
+            "num_tweets_and_retweets": 7,
+            "publishedDate": "2023-02-11T01:23Z",
             "reddit_posts": [
                 {
-                    "created": 1676047129.0,
+                    "created": 1676072323.0,
                     "is_self": false,
                     "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10ywhsf/cve202324352/",
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/10z6f0a/cve202245104/",
                     "subreddit": "netcve",
                     "subreddit_subscribers": 164,
-                    "title": "CVE-2023-24352",
+                    "title": "CVE-2022-45104",
                     "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-24352"
+                    "url": "https://cve.report/CVE-2022-45104"
                 }
             ],
             "score": null,
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-02-10 15:26",
+                    "created_at": "2023-02-10 21:45",
+                    "likes": 4,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1624162660039139328",
+                    "tweet_text": "CVE-2022-45104 Dell Unisphere for PowerMax vApp, VASA Provider vApp, and Solution Enabler vApp version 9.2.3.x contain a command execution vulnerability. A low privileged remote attacker could potentially exploit this vulnerability, leading to exe... https://t.co/lUjpVpRVA6",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45104",
+                            "url": "https://t.co/lUjpVpRVA6"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-11 01:26",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1624067391125684224",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-24352 \ud83d\udea8 D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the webpage parameter at /goform/formWPS. https://t.co/z4OIKzaXPs",
+                    "tweet_id": "1624218383632801794",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2022-45104 \ud83d\udea8 Dell Unisphere for PowerMax vApp, VASA Provider vApp, and Solution Enabler vApp version 9.2.3.x contain a command execution vulnerability. A low privileged remote attacker could potentially ... (click for more)  https://t.co/dxWBRc8kzb",
                     "twitter_user_handle": "threatintelctr",
                     "twitter_user_name": "Threat Intel Center",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
                     "urls": [
                         {
                             "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24352",
-                            "url": "https://t.co/z4OIKzaXPs"
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-45104",
+                            "url": "https://t.co/dxWBRc8kzb"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-02-10 19:33",
+                    "created_at": "2023-02-11 09:50",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1624129545098985473",
-                    "tweet_text": "CVE-2023-24352 shall henceforth be named Median Burmese\nhttps://t.co/EAv1P24xyE",
+                    "tweet_id": "1624345155787448320",
+                    "tweet_text": "CVE-2022-45104 | Dell Unisphere for PowerMax vApp 9.2.3.x command injection (dsa-2022-340) A vulnerability was found in Dell Unisphere for PowerMax vApp, VASA Provider vApp and Solution Enabler vApp 9.2.3.x and classified as critical. This issue affects \u2026 https://t.co/SCqtGRBG3Z",
+                    "twitter_user_handle": "threatmeter",
+                    "twitter_user_name": "ThreatMeter",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/4riDpTB",
+                            "expanded_url": "https://ift.tt/4riDpTB",
+                            "url": "https://t.co/SCqtGRBG3Z"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-11 13:32",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624400958603100160",
+                    "tweet_text": "Let the annals of the day show that CVE-2022-45104... has been granted the moniker Wiggly Collare Meerkat\nhttps://t.co/vkpRophcaA",
                     "twitter_user_handle": "vulnonym",
                     "twitter_user_name": "vulnonym",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
                     "urls": [
                         {
                             "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24352",
-                            "url": "https://t.co/EAv1P24xyE"
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-45104",
+                            "url": "https://t.co/vkpRophcaA"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-02-10 23:26",
+                    "created_at": "2023-02-10 21:56",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1624188042620575744",
-                    "tweet_text": "CVE-2023-24352 D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the webpage parameter at /goform/formWPS. (CVSS:0.0) (Last Update:2023-02-10) https://t.co/3Xs2X6kXur",
-                    "twitter_user_handle": "threatmeter",
-                    "twitter_user_name": "ThreatMeter",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
+                    "tweet_id": "1624165314677071886",
+                    "tweet_text": "Potentially Critical CVE Detected!\nCVE-2022-45104\nDell Unisphere for PowerMax vApp, VASA Provider vApp, and Solution Enabler vApp version 9.2.3.x contain a command execut...\nCVSS: 8.74\n#Dell #CVE #CyberSecurity",
+                    "twitter_user_handle": "Robo_Alerts",
+                    "twitter_user_name": "Robo Shadow Alerts",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1439862150890237953/WjKa3G1I_normal.jpg",
+                    "urls": []
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "cna@vuldb.com",
+            "audience_size": 54569,
+            "cve": "CVE-2023-0781",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+                    "cwe_id": "CWE-89"
+                }
+            ],
+            "description": "A vulnerability was found in SourceCodester Canteen Management System 1.0. It has been declared as critical. This vulnerability affects the function query of the file removeOrder.php. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-220624.",
+            "epss_score": null,
+            "github_repos": [
+                {
+                    "created": "2023-02-11T15:25:04Z",
+                    "description": "A vulnerability was found in SourceCodester Canteen Management System 1.0. It has been declared as critical. This vulnerability affects the function query of the file removeOrder.php. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the  CVE project by @Sn0wAlice",
+                    "language": null,
+                    "name": "CVE-2023-0781",
+                    "stars": 0,
+                    "topics": [],
+                    "updated": "2023-02-11T15:25:04Z",
+                    "url": "https://github.com/Live-Hack-CVE/CVE-2023-0781"
+                }
+            ],
+            "lastModifiedDate": "2023-02-11T13:15Z",
+            "num_retweets": 0,
+            "num_tweets": 7,
+            "num_tweets_and_retweets": 7,
+            "publishedDate": "2023-02-11T13:15Z",
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-02-11 11:03",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624363409260044288",
+                    "tweet_text": "CVE-2023-0781 : A vulnerability was found in SourceCodester Canteen Management System 1.0. It has been declared as critical. This vulnerability affects the function query of the file removeOrder.php. The manipulation of the argument id ... https://t.co/qwTbu4pYUb",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
                     "urls": [
                         {
-                            "display_url": "cvedetails.com/cve/CVE-2023-2\u2026",
-                            "expanded_url": "http://www.cvedetails.com/cve/CVE-2023-24352/",
-                            "url": "https://t.co/3Xs2X6kXur"
+                            "display_url": "cve.report/CVE-2023-0781",
+                            "expanded_url": "https://cve.report/CVE-2023-0781",
+                            "url": "https://t.co/qwTbu4pYUb"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-02-11 08:06",
+                    "created_at": "2023-02-11 11:09",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1624318880717094913",
-                    "tweet_text": "CVE-2023-24352 | D-Link DIR-605L 2.13B01 /goform/formWPS webpage stack-based overflow https://t.co/W48BwnsQqR",
-                    "twitter_user_handle": "glytcher001",
-                    "twitter_user_name": "glytcher",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
+                    "tweet_id": "1624365104518111234",
+                    "tweet_text": "[Exploit] We have added exploits for CVE-2019-25102 and CVE-2023-0781 https://t.co/lVvylW4Lfl #exploit #exploits #poc",
+                    "twitter_user_handle": "vuldb",
+                    "twitter_user_name": "VulDB \ud83d\udee1",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1466019089407741959/dkElb81A_normal.png",
                     "urls": [
                         {
-                            "display_url": "dlvr.it/SjFrr1",
-                            "expanded_url": "http://dlvr.it/SjFrr1",
-                            "url": "https://t.co/W48BwnsQqR"
+                            "display_url": "vuldb.com/?exploits.2023\u2026",
+                            "expanded_url": "https://vuldb.com/?exploits.202302",
+                            "url": "https://t.co/lVvylW4Lfl"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-02-10 15:45",
-                    "likes": 0,
+                    "created_at": "2023-02-11 11:45",
+                    "likes": 1,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1624072076431659012",
-                    "tweet_text": "CVE-2023-24352 D-Link N300 WI-FI Router DIR-605L v2.13B01 was discovered to contain a stack overflow via the webpage parameter at /goform/formWPS. https://t.co/yMzTIXKQbq",
+                    "tweet_id": "1624374016252190720",
+                    "tweet_text": "CVE-2023-0781 A vulnerability was found in SourceCodester Canteen Management System 1.0. It has been declared as critical. This vulnerability affects the function query of the file removeOrder.php. The manipulation of the argument id... https://t.co/BPPsoVd065",
                     "twitter_user_handle": "CVEnew",
                     "twitter_user_name": "CVE",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
                     "urls": [
                         {
                             "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24352",
-                            "url": "https://t.co/yMzTIXKQbq"
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0781",
+                            "url": "https://t.co/BPPsoVd065"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-11 13:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624399575468462082",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-0781 \ud83d\udea8 A vulnerability was found in SourceCodester Canteen Management System 1.0. It has been declared as critical. This vulnerability affects the function query of the file removeOrder.php. The ma... (click for more)  https://t.co/McEhDJhS6s",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0781",
+                            "url": "https://t.co/McEhDJhS6s"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-11 11:56",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624376704964632576",
+                    "tweet_text": "Potentially Critical CVE Detected!\nCVE-2023-0781\nA vulnerability was found in SourceCodester Canteen Management System 1.0. It has been declared as critical. This vulner...\nCVSS: 9.38\n#CanteenManagement #CVE #CyberSecurity",
+                    "twitter_user_handle": "Robo_Alerts",
+                    "twitter_user_name": "Robo Shadow Alerts",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1439862150890237953/WjKa3G1I_normal.jpg",
+                    "urls": []
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "security-advisories@github.com",
+            "audience_size": 54040,
+            "cve": "CVE-2023-25561",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Handling of Exceptional Conditions",
+                    "cwe_id": "CWE-755"
+                }
+            ],
+            "description": "DataHub is an open-source metadata platform. In the event a system is using Java Authentication and Authorization Service (JAAS) authentication and that system is given a configuration which contains an error, the authentication for the system will fail open and allow an attacker to login using any username and password. The reason for this is that while an error is thrown in the `authenticateJaasUser` method it is swallowed without propagating the error. As a result of this issue unauthenticated users may gain access to the system. Users are advised to upgrade. There are no known workarounds for this issue. This vulnerability was discovered and reported by the GitHub Security lab and is tracked as GHSL-2022-081.",
+            "epss_score": "0.00885",
+            "github_repos": [],
+            "lastModifiedDate": "2023-02-11T01:23Z",
+            "num_retweets": 0,
+            "num_tweets": 7,
+            "num_tweets_and_retweets": 7,
+            "publishedDate": "2023-02-11T01:23Z",
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-02-11 01:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624218383628509184",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-25561 \ud83d\udea8 DataHub is an open-source metadata platform. In the event a system is using Java Authentication and Authorization Service (JAAS) authentication and that system is given a configuration which... (click for more)  https://t.co/NRMzqv0Cz0",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25561",
+                            "url": "https://t.co/NRMzqv0Cz0"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-10 23:09",
+                    "likes": 1,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624183827873558531",
+                    "tweet_text": "CVE-2023-25561 : DataHub is an open-source metadata platform. In the event a system is using Java Authentication and Authorization Service  JAAS  authentication and that system is given a configuration which contains an error, the authen... https://t.co/HcVALFX0Gt",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "cve.report/CVE-2023-25561",
+                            "expanded_url": "https://cve.report/CVE-2023-25561",
+                            "url": "https://t.co/HcVALFX0Gt"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-11 07:34",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624310919668056064",
+                    "tweet_text": "CVE-2023-25561 | DataHub authenticateJaasUser improper authentication (GHSA-7wc6-p6c4-522c) https://t.co/JFaOCRcJnE",
+                    "twitter_user_handle": "glytcher001",
+                    "twitter_user_name": "glytcher",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "dlvr.it/SjFpsD",
+                            "expanded_url": "http://dlvr.it/SjFpsD",
+                            "url": "https://t.co/JFaOCRcJnE"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-11 08:50",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624329994422870016",
+                    "tweet_text": "CVE-2023-25561 | DataHub authenticateJaasUser improper authentication (GHSA-7wc6-p6c4-522c) A vulnerability, which was classified as critical, has been found in DataHub. This issue affects the function authenticateJaasUser. The manipulation leads to impr\u2026 https://t.co/jD4bGFjtfI",
+                    "twitter_user_handle": "threatmeter",
+                    "twitter_user_name": "ThreatMeter",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/Q5bFepM",
+                            "expanded_url": "https://ift.tt/Q5bFepM",
+                            "url": "https://t.co/jD4bGFjtfI"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-11 13:52",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624405965205274626",
+                    "tweet_text": "I declare CVE-2023-25561 to be named Middling Calipers\nhttps://t.co/O4EYxx3j49",
+                    "twitter_user_handle": "vulnonym",
+                    "twitter_user_name": "vulnonym",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25561",
+                            "url": "https://t.co/O4EYxx3j49"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "security-advisories@github.com",
+            "audience_size": 54040,
+            "cve": "CVE-2023-25558",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Deserialization of Untrusted Data",
+                    "cwe_id": "CWE-502"
+                }
+            ],
+            "description": "DataHub is an open-source metadata platform. When the DataHub frontend is configured to authenticate via SSO, it will leverage the pac4j library. The processing of the `id_token` is done in an unsafe manner which is not properly accounted for by the DataHub frontend. Specifically, if any of the id_token claims value start with the {#sb64} prefix, pac4j considers the value to be a serialized Java object and will deserialize it. This issue may lead to Remote Code Execution (RCE) in the worst case. Although a `RestrictedObjectInputStream` is in place, that puts some restriction on what classes can be deserialized, it still allows a broad range of java packages and potentially exploitable with different gadget chains. Users are advised to upgrade. There are no known workarounds. This vulnerability was discovered and reported by the GitHub Security lab and is tracked as GHSL-2022-086.",
+            "epss_score": "0.01978",
+            "github_repos": [],
+            "lastModifiedDate": "2023-02-11T01:23Z",
+            "num_retweets": 0,
+            "num_tweets": 7,
+            "num_tweets_and_retweets": 7,
+            "publishedDate": "2023-02-11T01:23Z",
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-02-11 01:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624218383519563779",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-25558 \ud83d\udea8 DataHub is an open-source metadata platform. When the DataHub frontend is configured to authenticate via SSO, it will leverage the pac4j library. The processing of the `id_token` is done in ... (click for more)  https://t.co/iaVbheyYrg",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25558",
+                            "url": "https://t.co/iaVbheyYrg"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-11 08:50",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624329987519049729",
+                    "tweet_text": "CVE-2023-25558 | DataHub SSO id_token deserialization (GHSA-hrwp-2q5c-86wv) A vulnerability classified as problematic has been found in DataHub. This affects an unknown part of the component SSO. The manipulation of the argument id_token leads to deseria\u2026 https://t.co/dpj49EGQul",
+                    "twitter_user_handle": "threatmeter",
+                    "twitter_user_name": "ThreatMeter",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/r9qs7bm",
+                            "expanded_url": "https://ift.tt/r9qs7bm",
+                            "url": "https://t.co/dpj49EGQul"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-10 22:45",
+                    "likes": 1,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624177729254961154",
+                    "tweet_text": "CVE-2023-25558 DataHub is an open-source metadata platform. When the DataHub frontend is configured to authenticate via SSO, it will leverage the pac4j library. The processing of the `id_token` is done in an unsafe manner which is not properly acc... https://t.co/ciIN12tQxV",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25558",
+                            "url": "https://t.co/ciIN12tQxV"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-10 23:08",
+                    "likes": 1,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624183480719400962",
+                    "tweet_text": "CVE-2023-25558 : DataHub is an open-source metadata platform. When the DataHub frontend is configured to authenticate via SSO, it will leverage the pac4j library. The processing of the `id_token` is done in an unsafe manner which is not ... https://t.co/1fOjzvm9I9",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "cve.report/CVE-2023-25558",
+                            "expanded_url": "https://cve.report/CVE-2023-25558",
+                            "url": "https://t.co/1fOjzvm9I9"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-02-11 07:34",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1624310908859351041",
+                    "tweet_text": "CVE-2023-25558 | DataHub SSO id_token deserialization (GHSA-hrwp-2q5c-86wv) https://t.co/LVb5ygiYkr",
+                    "twitter_user_handle": "glytcher001",
+                    "twitter_user_name": "glytcher",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "dlvr.it/SjFppZ",
+                            "expanded_url": "http://dlvr.it/SjFppZ",
+                            "url": "https://t.co/LVb5ygiYkr"
                         }
                     ]
                 }
@@ -1501,5 +1427,5 @@
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2023-02-11 10:15:02"
+    "updated": "2023-02-11 16:58:16"
 }
