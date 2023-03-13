@@ -2,7 +2,7 @@
     "data": [
         {
             "assigner": "psirt@cisco.com",
-            "audience_size": 252568,
+            "audience_size": 293419,
             "cve": "CVE-2023-20049",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -14,21 +14,21 @@
             "epss_score": "0.00048",
             "github_repos": [],
             "lastModifiedDate": "2023-03-10T13:53Z",
-            "num_retweets": 10,
-            "num_tweets": 27,
-            "num_tweets_and_retweets": 37,
+            "num_retweets": 12,
+            "num_tweets": 32,
+            "num_tweets_and_retweets": 44,
             "publishedDate": "2023-03-09T22:15Z",
             "reddit_posts": [
                 {
-                    "created": 1678450487.0,
-                    "is_self": true,
-                    "num_comments": 1,
-                    "reddit_url": "https://www.reddit.com/r/AJsBotPlayground/comments/11nnjtj/high_cve_report_on_march_10_2023_1214/",
-                    "subreddit": "AJsBotPlayground",
-                    "subreddit_subscribers": 2,
-                    "title": "[HIGH] CVE Report on March 10, 2023 12:14",
+                    "created": 1678401534.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/11n6ah3/cve202320049/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 182,
+                    "title": "CVE-2023-20049",
                     "upvotes": 1,
-                    "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11nnjtj/high_cve_report_on_march_10_2023_1214/"
+                    "url": "https://cve.report/CVE-2023-20049"
                 },
                 {
                     "created": 1678612862.0,
@@ -42,28 +42,6 @@
                     "url": "https://securityaffairs.com/143366/security/cisco-cve-2023-20049-dos.html"
                 },
                 {
-                    "created": 1678621542.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/InfoSecNews/comments/11pcmn5/cisco_fixed_cve202320049_dos_flaw_affecting/",
-                    "subreddit": "InfoSecNews",
-                    "subreddit_subscribers": 14537,
-                    "title": "Cisco fixed CVE-2023-20049 DoS flaw affecting enterprise routers",
-                    "upvotes": 1,
-                    "url": "https://securityaffairs.com/143366/security/cisco-cve-2023-20049-dos.html"
-                },
-                {
-                    "created": 1678401534.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/11n6ah3/cve202320049/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 182,
-                    "title": "CVE-2023-20049",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-20049"
-                },
-                {
                     "created": 1678449564.0,
                     "is_self": true,
                     "num_comments": 1,
@@ -73,6 +51,28 @@
                     "title": "[HIGH] CVE Report on March 10, 2023 11:59",
                     "upvotes": 1,
                     "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11nn7kw/high_cve_report_on_march_10_2023_1159/"
+                },
+                {
+                    "created": 1678612862.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/THECYBERSECURITYHUB/comments/11pa7w9/cisco_fixed_cve202320049_dos_flaw_affecting/",
+                    "subreddit": "THECYBERSECURITYHUB",
+                    "subreddit_subscribers": 16,
+                    "title": "Cisco fixed CVE-2023-20049 DoS flaw affecting enterprise routers",
+                    "upvotes": 1,
+                    "url": "https://securityaffairs.com/143366/security/cisco-cve-2023-20049-dos.html"
+                },
+                {
+                    "created": 1678450487.0,
+                    "is_self": true,
+                    "num_comments": 1,
+                    "reddit_url": "https://www.reddit.com/r/AJsBotPlayground/comments/11nnjtj/high_cve_report_on_march_10_2023_1214/",
+                    "subreddit": "AJsBotPlayground",
+                    "subreddit_subscribers": 2,
+                    "title": "[HIGH] CVE Report on March 10, 2023 12:14",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11nnjtj/high_cve_report_on_march_10_2023_1214/"
                 }
             ],
             "score": null,
@@ -93,6 +93,24 @@
                             "display_url": "securityaffairs.com/143366/securit\u2026",
                             "expanded_url": "https://securityaffairs.com/143366/security/cisco-cve-2023-20049-dos.html",
                             "url": "https://t.co/8YnqEAkECn"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-03-12 09:21",
+                    "likes": 2,
+                    "num_retweets": 2,
+                    "retweets": 2,
+                    "tweet_id": "1634846952318967809",
+                    "tweet_text": "Cisco fixed CVE-2023-20049 DoS flaw affecting enterprise routers https://t.co/NB86dWSU4S",
+                    "twitter_user_handle": "TheCyberSecHub",
+                    "twitter_user_name": "The Cyber Security Hub\u2122",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1572191181689294848/fT9V8jLs_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "dlvr.it/SklxPZ",
+                            "expanded_url": "http://dlvr.it/SklxPZ",
+                            "url": "https://t.co/NB86dWSU4S"
                         }
                     ]
                 },
@@ -149,24 +167,6 @@
                             "url": "https://t.co/d3YyWmCXc1"
                         }
                     ]
-                },
-                {
-                    "created_at": "2023-03-12 10:15",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1634860536931434496",
-                    "tweet_text": "Cisco fixed CVE-2023-20049 DoS flaw affecting enterprise routers #infosec #infosecurity #cybersecurity #threatintel #threatintelligence #hacking #cybernews #cyberattack #cloudsecurity #malware #ransomware #cyber #threathunting #ZeroTrust #CISA\nhttps://t.co/Hu1tkKHC2o",
-                    "twitter_user_handle": "CyberIQs_",
-                    "twitter_user_name": "CyberIQs",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1343113218399600641/p04QylMY_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cyberiqs.com/latestnews",
-                            "expanded_url": "http://cyberiqs.com/latestnews",
-                            "url": "https://t.co/Hu1tkKHC2o"
-                        }
-                    ]
                 }
             ],
             "vendor_advisories": [],
@@ -174,7 +174,7 @@
         },
         {
             "assigner": "secure@microsoft.com",
-            "audience_size": 102029,
+            "audience_size": 114312,
             "cve": "CVE-2022-34689",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -191,9 +191,9 @@
             "epss_score": "0.00274",
             "github_repos": [],
             "lastModifiedDate": "2022-10-12T14:44Z",
-            "num_retweets": 36,
-            "num_tweets": 6,
-            "num_tweets_and_retweets": 42,
+            "num_retweets": 47,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 58,
             "publishedDate": "2022-10-11T19:15Z",
             "reddit_posts": [
                 {
@@ -202,9 +202,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/y1upi3/cve202234689_windows_cryptoapi_spoofing/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 33480,
+                    "subreddit_subscribers": 33488,
                     "title": "CVE-2022-34689: Windows CryptoAPI Spoofing Vulnerability - found by the UK National Cyber Security Centre (NCSC) and the National Security Agency (NSA)",
-                    "upvotes": 23,
+                    "upvotes": 21,
                     "url": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-34689"
                 },
                 {
@@ -224,9 +224,9 @@
             "tweets": [
                 {
                     "created_at": "2023-03-12 08:30",
-                    "likes": 112,
-                    "num_retweets": 36,
-                    "retweets": 42,
+                    "likes": 145,
+                    "num_retweets": 47,
+                    "retweets": 54,
                     "tweet_id": "1634834137013002240",
                     "tweet_text": "Great analysis of Windows CryptoAPI Vulnerability (CVE-2022-34689) by @akamai_research\n(MD5 collision)\n\nhttps://t.co/t7EQosWgTk\n\n#cryptography #infosec #cybersecurity #cve https://t.co/TiUkwixocH",
                     "twitter_user_handle": "0xor0ne",
@@ -241,12 +241,12 @@
                     ]
                 },
                 {
-                    "created_at": "2023-03-12 10:08",
+                    "created_at": "2023-03-13 00:08",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1634858776548323330",
-                    "tweet_text": "I think that the third retweeted(11 times) tweet that contains CVE ID between Mar 11 2023 10:01 UTC and Mar 12 2023 10:00 UTC is:\nhttps://t.co/fXvm4d4vkH\nIt has CVE-2022-34689. #l24_2wcuaz5cxiztc",
+                    "tweet_id": "1635070179699830785",
+                    "tweet_text": "(Same from about 10 hours ago.)\nI think that the most retweeted(48 times) tweet that contains CVE ID between Mar 11 2023 22:01 UTC and Mar 13 2023 00:00 UTC is:\nhttps://t.co/fXvm4d4vkH\nIt has CVE-2022-34689. #l24_2wcuaz5cxiztc",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
@@ -259,12 +259,12 @@
                     ]
                 },
                 {
-                    "created_at": "2023-03-12 12:08",
+                    "created_at": "2023-03-13 02:08",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1634888978426896384",
-                    "tweet_text": "(third \u2192 second)\nI think that the second retweeted(20 times) tweet that contains CVE ID between Mar 11 2023 12:01 UTC and Mar 12 2023 12:00 UTC is:\nhttps://t.co/fXvm4d4vkH\nIt has CVE-2022-34689. #l24_2wcuaz5cxiztc",
+                    "tweet_id": "1635100379095474176",
+                    "tweet_text": "(Same from about 12 hours ago.)\nI think that the most retweeted(49 times) tweet that contains CVE ID between Mar 12 2023 02:01 UTC and Mar 13 2023 02:00 UTC is:\nhttps://t.co/fXvm4d4vkH\nIt has CVE-2022-34689. #l24_2wcuaz5cxiztc",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
@@ -277,12 +277,12 @@
                     ]
                 },
                 {
-                    "created_at": "2023-03-12 14:08",
-                    "likes": 0,
+                    "created_at": "2023-03-13 04:08",
+                    "likes": 1,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1634919184898625539",
-                    "tweet_text": "(second \u2192 most)\nI think that the most retweeted(28 times) tweet that contains CVE ID between Mar 11 2023 14:01 UTC and Mar 12 2023 14:00 UTC is:\nhttps://t.co/fXvm4d53af\nIt has CVE-2022-34689. #l24_2wcuaz5cxiztc",
+                    "tweet_id": "1635130575551086592",
+                    "tweet_text": "(Same from about 14 hours ago.)\nI think that the most retweeted(50 times) tweet that contains CVE ID between Mar 12 2023 04:01 UTC and Mar 13 2023 04:00 UTC is:\nhttps://t.co/fXvm4d53af\nIt has CVE-2022-34689. #l24_2wcuaz5cxiztc",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
@@ -295,12 +295,12 @@
                     ]
                 },
                 {
-                    "created_at": "2023-03-12 16:08",
+                    "created_at": "2023-03-12 12:08",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1634949381609644034",
-                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the most retweeted(33 times) tweet that contains CVE ID between Mar 11 2023 16:01 UTC and Mar 12 2023 16:00 UTC is:\nhttps://t.co/fXvm4d4vkH\nIt has CVE-2022-34689. #l24_2wcuaz5cxiztc",
+                    "tweet_id": "1634888978426896384",
+                    "tweet_text": "(third \u2192 second)\nI think that the second retweeted(20 times) tweet that contains CVE ID between Mar 11 2023 12:01 UTC and Mar 12 2023 12:00 UTC is:\nhttps://t.co/fXvm4d4vkH\nIt has CVE-2022-34689. #l24_2wcuaz5cxiztc",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
@@ -332,161 +332,8 @@
             ]
         },
         {
-            "assigner": "product-security@apple.com",
-            "audience_size": 77274,
-            "cve": "CVE-2016-4622",
-            "cve_urls": null,
-            "cvssv2_base_score": 6.8,
-            "cvssv2_severity": "MEDIUM",
-            "cvssv3_base_score": 8.8,
-            "cvssv3_base_severity": "HIGH",
-            "cwes": [
-                {
-                    "cwe_description": "Improper Restriction of Operations within the Bounds of a Memory Buffer",
-                    "cwe_id": "CWE-119"
-                }
-            ],
-            "description": "WebKit in Apple iOS before 9.3.3, Safari before 9.1.2, and tvOS before 9.2.2 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, a different vulnerability than CVE-2016-4589, CVE-2016-4623, and CVE-2016-4624.",
-            "epss_score": "0.00539",
-            "github_repos": [
-                {
-                    "created": "2016-10-09T15:22:06Z",
-                    "description": "PoC exploit for CVE-2016-4622",
-                    "language": "JavaScript",
-                    "name": "jscpwn",
-                    "stars": 96,
-                    "topics": [
-                        "exploit",
-                        "vulnerability"
-                    ],
-                    "updated": "2023-02-22T05:29:39Z",
-                    "url": "https://github.com/saelo/jscpwn"
-                },
-                {
-                    "created": "2020-04-07T00:46:19Z",
-                    "description": "My journey through WebKit CVE-2016-4622 Exploitation process",
-                    "language": "JavaScript",
-                    "name": "WebKit-CVE-2016-4622",
-                    "stars": 13,
-                    "topics": [],
-                    "updated": "2023-02-21T04:45:58Z",
-                    "url": "https://github.com/hdbreaker/WebKit-CVE-2016-4622"
-                }
-            ],
-            "lastModifiedDate": "2019-03-25T17:04Z",
-            "num_retweets": 9,
-            "num_tweets": 1,
-            "num_tweets_and_retweets": 10,
-            "publishedDate": "2016-07-22T02:59Z",
-            "reddit_posts": [
-                {
-                    "created": 1477582838.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netsec/comments/59onl0/attacking_javascript_engines_a_case_study_of/",
-                    "subreddit": "netsec",
-                    "subreddit_subscribers": 468483,
-                    "title": "Attacking JavaScript Engines: A case study of JavaScriptCore and CVE-2016-4622",
-                    "upvotes": 362,
-                    "url": "http://www.phrack.org/papers/attacking_javascript_engines.html"
-                },
-                {
-                    "created": 1600303200.0,
-                    "is_self": true,
-                    "num_comments": 2,
-                    "reddit_url": "https://www.reddit.com/r/ExploitDev/comments/iu8olm/what_are_some_instructive_nonjit_javascript/",
-                    "subreddit": "ExploitDev",
-                    "subreddit_subscribers": 10286,
-                    "title": "What are some instructive non-JIT JavaScript engine bugs?",
-                    "upvotes": 14,
-                    "url": "https://www.reddit.com/r/ExploitDev/comments/iu8olm/what_are_some_instructive_nonjit_javascript/"
-                },
-                {
-                    "created": 1600302959.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/AskNetsec/comments/iu8m5t/what_are_some_instructive_nonjit_javascript/",
-                    "subreddit": "AskNetsec",
-                    "subreddit_subscribers": 177034,
-                    "title": "What are some instructive non-JIT JavaScript engine bugs?",
-                    "upvotes": 4,
-                    "url": "https://www.reddit.com/r/AskNetsec/comments/iu8m5t/what_are_some_instructive_nonjit_javascript/"
-                },
-                {
-                    "created": 1470168231.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/CVEWatch/comments/4vuian/cve20164623_apple_tv_iphone_os_safari/",
-                    "subreddit": "CVEWatch",
-                    "subreddit_subscribers": 626,
-                    "title": "CVE-2016-4623 (apple_tv, iphone_os, safari)",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/CVEWatch/comments/4vuian/cve20164623_apple_tv_iphone_os_safari/"
-                },
-                {
-                    "created": 1470168225.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/CVEWatch/comments/4vui9z/cve20164622_apple_tv_iphone_os_safari/",
-                    "subreddit": "CVEWatch",
-                    "subreddit_subscribers": 626,
-                    "title": "CVE-2016-4622 (apple_tv, iphone_os, safari)",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/CVEWatch/comments/4vui9z/cve20164622_apple_tv_iphone_os_safari/"
-                }
-            ],
-            "score": 8.8,
-            "severity": "HIGH",
-            "tweets": [
-                {
-                    "created_at": "2023-03-12 09:12",
-                    "likes": 49,
-                    "num_retweets": 9,
-                    "retweets": 10,
-                    "tweet_id": "1634844920145125377",
-                    "tweet_text": "These #Phrack articles by @5aelo are the best primers on attacking #JavaScript engines\n\nA case study of JavaScriptCore and CVE-2016-4622\nhttps://t.co/Wkj0e1UwRO\n\n#Exploiting Logic #Bugs in JavaScript JIT Engines\nhttps://t.co/0Nbxq6cNOh https://t.co/mcvoMW2yEK",
-                    "twitter_user_handle": "0xdea",
-                    "twitter_user_name": "raptor@infosec.exchange",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/936167035628900352/wwPEmXra_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "phrack.org/issues/70/3.ht\u2026",
-                            "expanded_url": "http://www.phrack.org/issues/70/3.html#article",
-                            "url": "https://t.co/Wkj0e1UwRO"
-                        },
-                        {
-                            "display_url": "phrack.org/issues/70/9.ht\u2026",
-                            "expanded_url": "http://www.phrack.org/issues/70/9.html#article",
-                            "url": "https://t.co/0Nbxq6cNOh"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [
-                "http://lists.apple.com/archives/security-announce/2016/Jul/msg00001.html",
-                "http://lists.apple.com/archives/security-announce/2016/Jul/msg00003.html",
-                "https://support.apple.com/HT206905",
-                "https://support.apple.com/HT206902",
-                "http://lists.apple.com/archives/security-announce/2016/Jul/msg00004.html",
-                "https://support.apple.com/HT206900"
-            ],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Tvos",
-                            "versions": [
-                                "*"
-                            ]
-                        }
-                    ],
-                    "vendor": "Apple"
-                }
-            ]
-        },
-        {
             "assigner": "cna@vuldb.com",
-            "audience_size": 76600,
+            "audience_size": 84678,
             "cve": "CVE-2023-1359",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -504,8 +351,8 @@
             "github_repos": [],
             "lastModifiedDate": "2023-03-12T08:15Z",
             "num_retweets": 2,
-            "num_tweets": 17,
-            "num_tweets_and_retweets": 19,
+            "num_tweets": 20,
+            "num_tweets_and_retweets": 22,
             "publishedDate": "2023-03-12T08:15Z",
             "reddit_posts": [
                 {
@@ -518,6 +365,17 @@
                     "title": "[LOW] CVE Report on March 12, 2023 08:47[2/16553]",
                     "upvotes": 1,
                     "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11p9oyy/low_cve_report_on_march_12_2023_0847216553/"
+                },
+                {
+                    "created": 1678613984.0,
+                    "is_self": true,
+                    "num_comments": 1,
+                    "reddit_url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pairo/low_cve_report_on_march_12_2023_0939216553/",
+                    "subreddit": "AJsBotPlayground",
+                    "subreddit_subscribers": 2,
+                    "title": "[LOW] CVE Report on March 12, 2023 09:39[2/16553]",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pairo/low_cve_report_on_march_12_2023_0939216553/"
                 },
                 {
                     "created": 1678610817.0,
@@ -540,17 +398,6 @@
                     "title": "CVE-2023-1359",
                     "upvotes": 1,
                     "url": "https://cve.report/CVE-2023-1359"
-                },
-                {
-                    "created": 1678613984.0,
-                    "is_self": true,
-                    "num_comments": 1,
-                    "reddit_url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pairo/low_cve_report_on_march_12_2023_0939216553/",
-                    "subreddit": "AJsBotPlayground",
-                    "subreddit_subscribers": 2,
-                    "title": "[LOW] CVE Report on March 12, 2023 09:39[2/16553]",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pairo/low_cve_report_on_march_12_2023_0939216553/"
                 },
                 {
                     "created": 1678610946.0,
@@ -673,7 +520,7 @@
         },
         {
             "assigner": "cna@vuldb.com",
-            "audience_size": 74366,
+            "audience_size": 82446,
             "cve": "CVE-2023-1357",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -691,10 +538,21 @@
             "github_repos": [],
             "lastModifiedDate": "2023-03-12T08:15Z",
             "num_retweets": 1,
-            "num_tweets": 19,
-            "num_tweets_and_retweets": 20,
+            "num_tweets": 22,
+            "num_tweets_and_retweets": 23,
             "publishedDate": "2023-03-12T08:15Z",
             "reddit_posts": [
+                {
+                    "created": 1678610948.0,
+                    "is_self": true,
+                    "num_comments": 1,
+                    "reddit_url": "https://www.reddit.com/r/AJsBotPlayground/comments/11p9pko/high_cve_report_on_march_12_2023_084822470/",
+                    "subreddit": "AJsBotPlayground",
+                    "subreddit_subscribers": 2,
+                    "title": "[HIGH] CVE Report on March 12, 2023 08:48[2/2470]",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11p9pko/high_cve_report_on_march_12_2023_084822470/"
+                },
                 {
                     "created": 1678610819.0,
                     "is_self": true,
@@ -707,15 +565,15 @@
                     "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11p9oh0/high_cve_report_on_march_12_2023_084622470/"
                 },
                 {
-                    "created": 1678610312.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/11p9jz3/cve20231357/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 182,
-                    "title": "CVE-2023-1357",
+                    "created": 1678610879.0,
+                    "is_self": true,
+                    "num_comments": 1,
+                    "reddit_url": "https://www.reddit.com/r/AJsBotPlayground/comments/11p9ozh/high_cve_report_on_march_12_2023_084722470/",
+                    "subreddit": "AJsBotPlayground",
+                    "subreddit_subscribers": 2,
+                    "title": "[HIGH] CVE Report on March 12, 2023 08:47[2/2470]",
                     "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-1357"
+                    "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11p9ozh/high_cve_report_on_march_12_2023_084722470/"
                 },
                 {
                     "created": 1678629363.0,
@@ -738,17 +596,6 @@
                     "title": "[HIGH] CVE Report on March 12, 2023 11:50[2/2470]",
                     "upvotes": 1,
                     "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pcpzp/high_cve_report_on_march_12_2023_115022470/"
-                },
-                {
-                    "created": 1678610948.0,
-                    "is_self": true,
-                    "num_comments": 1,
-                    "reddit_url": "https://www.reddit.com/r/AJsBotPlayground/comments/11p9pko/high_cve_report_on_march_12_2023_084822470/",
-                    "subreddit": "AJsBotPlayground",
-                    "subreddit_subscribers": 2,
-                    "title": "[HIGH] CVE Report on March 12, 2023 08:48[2/2470]",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11p9pko/high_cve_report_on_march_12_2023_084822470/"
                 }
             ],
             "score": null,
@@ -854,8 +701,161 @@
             "vendors": []
         },
         {
+            "assigner": "product-security@apple.com",
+            "audience_size": 81713,
+            "cve": "CVE-2016-4622",
+            "cve_urls": null,
+            "cvssv2_base_score": 6.8,
+            "cvssv2_severity": "MEDIUM",
+            "cvssv3_base_score": 8.8,
+            "cvssv3_base_severity": "HIGH",
+            "cwes": [
+                {
+                    "cwe_description": "Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                    "cwe_id": "CWE-119"
+                }
+            ],
+            "description": "WebKit in Apple iOS before 9.3.3, Safari before 9.1.2, and tvOS before 9.2.2 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, a different vulnerability than CVE-2016-4589, CVE-2016-4623, and CVE-2016-4624.",
+            "epss_score": "0.00539",
+            "github_repos": [
+                {
+                    "created": "2016-10-09T15:22:06Z",
+                    "description": "PoC exploit for CVE-2016-4622",
+                    "language": "JavaScript",
+                    "name": "jscpwn",
+                    "stars": 96,
+                    "topics": [
+                        "exploit",
+                        "vulnerability"
+                    ],
+                    "updated": "2023-02-22T05:29:39Z",
+                    "url": "https://github.com/saelo/jscpwn"
+                },
+                {
+                    "created": "2020-04-07T00:46:19Z",
+                    "description": "My journey through WebKit CVE-2016-4622 Exploitation process",
+                    "language": "JavaScript",
+                    "name": "WebKit-CVE-2016-4622",
+                    "stars": 13,
+                    "topics": [],
+                    "updated": "2023-02-21T04:45:58Z",
+                    "url": "https://github.com/hdbreaker/WebKit-CVE-2016-4622"
+                }
+            ],
+            "lastModifiedDate": "2019-03-25T17:04Z",
+            "num_retweets": 21,
+            "num_tweets": 1,
+            "num_tweets_and_retweets": 22,
+            "publishedDate": "2016-07-22T02:59Z",
+            "reddit_posts": [
+                {
+                    "created": 1477582838.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netsec/comments/59onl0/attacking_javascript_engines_a_case_study_of/",
+                    "subreddit": "netsec",
+                    "subreddit_subscribers": 468502,
+                    "title": "Attacking JavaScript Engines: A case study of JavaScriptCore and CVE-2016-4622",
+                    "upvotes": 361,
+                    "url": "http://www.phrack.org/papers/attacking_javascript_engines.html"
+                },
+                {
+                    "created": 1600303200.0,
+                    "is_self": true,
+                    "num_comments": 2,
+                    "reddit_url": "https://www.reddit.com/r/ExploitDev/comments/iu8olm/what_are_some_instructive_nonjit_javascript/",
+                    "subreddit": "ExploitDev",
+                    "subreddit_subscribers": 10287,
+                    "title": "What are some instructive non-JIT JavaScript engine bugs?",
+                    "upvotes": 17,
+                    "url": "https://www.reddit.com/r/ExploitDev/comments/iu8olm/what_are_some_instructive_nonjit_javascript/"
+                },
+                {
+                    "created": 1600302959.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/AskNetsec/comments/iu8m5t/what_are_some_instructive_nonjit_javascript/",
+                    "subreddit": "AskNetsec",
+                    "subreddit_subscribers": 177046,
+                    "title": "What are some instructive non-JIT JavaScript engine bugs?",
+                    "upvotes": 4,
+                    "url": "https://www.reddit.com/r/AskNetsec/comments/iu8m5t/what_are_some_instructive_nonjit_javascript/"
+                },
+                {
+                    "created": 1470168237.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/CVEWatch/comments/4vuibi/cve20164624_apple_tv_iphone_os_safari/",
+                    "subreddit": "CVEWatch",
+                    "subreddit_subscribers": 626,
+                    "title": "CVE-2016-4624 (apple_tv, iphone_os, safari)",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/CVEWatch/comments/4vuibi/cve20164624_apple_tv_iphone_os_safari/"
+                },
+                {
+                    "created": 1470168225.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/CVEWatch/comments/4vui9z/cve20164622_apple_tv_iphone_os_safari/",
+                    "subreddit": "CVEWatch",
+                    "subreddit_subscribers": 626,
+                    "title": "CVE-2016-4622 (apple_tv, iphone_os, safari)",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/CVEWatch/comments/4vui9z/cve20164622_apple_tv_iphone_os_safari/"
+                }
+            ],
+            "score": 8.8,
+            "severity": "HIGH",
+            "tweets": [
+                {
+                    "created_at": "2023-03-12 09:12",
+                    "likes": 74,
+                    "num_retweets": 21,
+                    "retweets": 22,
+                    "tweet_id": "1634844920145125377",
+                    "tweet_text": "These #Phrack articles by @5aelo are the best primers on attacking #JavaScript engines\n\nA case study of JavaScriptCore and CVE-2016-4622\nhttps://t.co/Wkj0e1UwRO\n\n#Exploiting Logic #Bugs in JavaScript JIT Engines\nhttps://t.co/0Nbxq6cNOh https://t.co/mcvoMW2yEK",
+                    "twitter_user_handle": "0xdea",
+                    "twitter_user_name": "raptor@infosec.exchange",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/936167035628900352/wwPEmXra_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "phrack.org/issues/70/3.ht\u2026",
+                            "expanded_url": "http://www.phrack.org/issues/70/3.html#article",
+                            "url": "https://t.co/Wkj0e1UwRO"
+                        },
+                        {
+                            "display_url": "phrack.org/issues/70/9.ht\u2026",
+                            "expanded_url": "http://www.phrack.org/issues/70/9.html#article",
+                            "url": "https://t.co/0Nbxq6cNOh"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [
+                "http://lists.apple.com/archives/security-announce/2016/Jul/msg00001.html",
+                "http://lists.apple.com/archives/security-announce/2016/Jul/msg00003.html",
+                "https://support.apple.com/HT206905",
+                "https://support.apple.com/HT206902",
+                "http://lists.apple.com/archives/security-announce/2016/Jul/msg00004.html",
+                "https://support.apple.com/HT206900"
+            ],
+            "vendors": [
+                {
+                    "products": [
+                        {
+                            "product": "Tvos",
+                            "versions": [
+                                "*"
+                            ]
+                        }
+                    ],
+                    "vendor": "Apple"
+                }
+            ]
+        },
+        {
             "assigner": "cna@vuldb.com",
-            "audience_size": 68146,
+            "audience_size": 73002,
             "cve": "CVE-2023-1360",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -873,20 +873,20 @@
             "github_repos": [],
             "lastModifiedDate": "2023-03-12T09:15Z",
             "num_retweets": 0,
-            "num_tweets": 18,
-            "num_tweets_and_retweets": 18,
+            "num_tweets": 20,
+            "num_tweets_and_retweets": 20,
             "publishedDate": "2023-03-12T09:15Z",
             "reddit_posts": [
                 {
-                    "created": 1678621869.0,
+                    "created": 1678613985.0,
                     "is_self": true,
                     "num_comments": 1,
-                    "reddit_url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pcpzb/medium_cve_report_on_march_12_2023_115029209/",
+                    "reddit_url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pairv/medium_cve_report_on_march_12_2023_093929865/",
                     "subreddit": "AJsBotPlayground",
                     "subreddit_subscribers": 2,
-                    "title": "[MEDIUM] CVE Report on March 12, 2023 11:50[2/9209]",
+                    "title": "[MEDIUM] CVE Report on March 12, 2023 09:39[2/9865]",
                     "upvotes": 1,
-                    "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pcpzb/medium_cve_report_on_march_12_2023_115029209/"
+                    "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pairv/medium_cve_report_on_march_12_2023_093929865/"
                 },
                 {
                     "created": 1678613925.0,
@@ -900,15 +900,15 @@
                     "url": "https://cve.report/CVE-2023-1360"
                 },
                 {
-                    "created": 1678613985.0,
+                    "created": 1678621869.0,
                     "is_self": true,
                     "num_comments": 1,
-                    "reddit_url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pairv/medium_cve_report_on_march_12_2023_093929865/",
+                    "reddit_url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pcpzb/medium_cve_report_on_march_12_2023_115029209/",
                     "subreddit": "AJsBotPlayground",
                     "subreddit_subscribers": 2,
-                    "title": "[MEDIUM] CVE Report on March 12, 2023 09:39[2/9865]",
+                    "title": "[MEDIUM] CVE Report on March 12, 2023 11:50[2/9209]",
                     "upvotes": 1,
-                    "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pairv/medium_cve_report_on_march_12_2023_093929865/"
+                    "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pcpzb/medium_cve_report_on_march_12_2023_115029209/"
                 },
                 {
                     "created": 1678629362.0,
@@ -1024,279 +1024,8 @@
             "vendors": []
         },
         {
-            "assigner": "cve@mitre.org",
-            "audience_size": 64973,
-            "cve": "CVE-2021-46875",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "An issue was discovered in eZ Platform Ibexa Kernel before 1.3.1.1. An XSS attack can occur because JavaScript code can be uploaded in a .html or .js file.",
-            "epss_score": "0.00043",
-            "github_repos": [],
-            "lastModifiedDate": "2023-03-12T05:15Z",
-            "num_retweets": 1,
-            "num_tweets": 14,
-            "num_tweets_and_retweets": 15,
-            "publishedDate": "2023-03-12T05:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1678603098.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/11p7m29/cve202146875/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 182,
-                    "title": "CVE-2021-46875",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2021-46875"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-03-12 08:26",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 1,
-                    "tweet_id": "1634833331568402432",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2021-46875 \ud83d\udea8 An issue was discovered in eZ Platform Ibexa Kernel before 1.3.1.1. An XSS attack can occur because JavaScript code can be uploaded in a .html or .js file. https://t.co/jzhXmydKnH",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2021-46875",
-                            "url": "https://t.co/jzhXmydKnH"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-03-12 06:31",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1634804330321592320",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2021-46875) has been published on https://t.co/NeIRnwf0Jq",
-                    "twitter_user_handle": "www_sesin_at",
-                    "twitter_user_name": "www.sesin.at",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/9KYxtdZjkl"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/03/12/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/03/12/cve-2021-46875/",
-                            "url": "https://t.co/NeIRnwf0Jq"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-03-12 07:15",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1634815273508425728",
-                    "tweet_text": "CVE-2021-46875 | eZ Platform Ibexa Kernel up to 1.3.1.0 File Upload cross site scripting (GHSA-mrvj-7q4f-5p42) https://t.co/6GQLUVFPpA",
-                    "twitter_user_handle": "glytcher001",
-                    "twitter_user_name": "glytcher",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "dlvr.it/SkllJQ",
-                            "expanded_url": "http://dlvr.it/SkllJQ",
-                            "url": "https://t.co/6GQLUVFPpA"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-03-12 17:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1634969226241818625",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2021-46875 \ud83d\udea8 An issue was discovered in eZ Platform Ibexa Kernel before 1.3.1.1. An XSS attack can occur because JavaScript code can be uploaded in a .html or .js file. https://t.co/jzhXmydcy9",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2021-46875",
-                            "url": "https://t.co/jzhXmydcy9"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-03-12 05:45",
-                    "likes": 1,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1634792636002230274",
-                    "tweet_text": "CVE-2021-46875 An issue was discovered in eZ Platform Ibexa Kernel before 1.3.1.1. An XSS attack can occur because JavaScript code can be uploaded in a .html or .js file. https://t.co/BzChgCgbWe",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
-                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46875",
-                            "url": "https://t.co/BzChgCgbWe"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "cve@mitre.org",
-            "audience_size": 64772,
-            "cve": "CVE-2022-48365",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "An issue was discovered in eZ Platform Ibexa Kernel before 1.3.26. The Company admin role gives excessive privileges.",
-            "epss_score": "0.00045",
-            "github_repos": [],
-            "lastModifiedDate": "2023-03-12T05:15Z",
-            "num_retweets": 0,
-            "num_tweets": 15,
-            "num_tweets_and_retweets": 15,
-            "publishedDate": "2023-03-12T05:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1678603097.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/11p7m1i/cve202248365/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 182,
-                    "title": "CVE-2022-48365",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-48365"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-03-12 07:15",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1634815251949715457",
-                    "tweet_text": "CVE-2022-48365 | eZ Platform Ibexa Kernel prior 1.3.26 access control (GHSA-8h83-chh2-fchp) https://t.co/sc9vDNOiNf",
-                    "twitter_user_handle": "glytcher001",
-                    "twitter_user_name": "glytcher",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "dlvr.it/SkllGd",
-                            "expanded_url": "http://dlvr.it/SkllGd",
-                            "url": "https://t.co/sc9vDNOiNf"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-03-12 07:15",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1634815359659175938",
-                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2022-48365 | eZ Platform Ibexa Kernel prior 1.3.26 access control (GHSA-8h83-chh2-fchp)) has been published on https://t.co/7lBYdZiVqa",
-                    "twitter_user_handle": "WolfgangSesin",
-                    "twitter_user_name": "Wolfgang Sesin",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/uXvPWJy6tj"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/03/12/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/03/12/cve-2022-48365-ez-platform-ibexa-kernel-prior-1-3-26-access-control-ghsa-8h83-chh2-fchp/",
-                            "url": "https://t.co/7lBYdZiVqa"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-03-12 07:15",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1634815361798291456",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2022-48365 | eZ Platform Ibexa Kernel prior 1.3.26 access control (GHSA-8h83-chh2-fchp)) has been published on https://t.co/3oe6FZhgaR",
-                    "twitter_user_handle": "www_sesin_at",
-                    "twitter_user_name": "www.sesin.at",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/9KYxtdZjkl"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/03/12/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/03/12/cve-2022-48365-ez-platform-ibexa-kernel-prior-1-3-26-access-control-ghsa-8h83-chh2-fchp/",
-                            "url": "https://t.co/3oe6FZhgaR"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-03-12 08:46",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1634838321707794433",
-                    "tweet_text": "My real name is CVE-2022-48365 but all my friends call me Minimal Gadfly\nhttps://t.co/GKQ1BgzEQh",
-                    "twitter_user_handle": "vulnonym",
-                    "twitter_user_name": "vulnonym",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-48365",
-                            "url": "https://t.co/GKQ1BgzEQh"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-03-12 17:56",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1634976776580374530",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2022-48365 \ud83d\udea8 An issue was discovered in eZ Platform Ibexa Kernel before 1.3.26. The Company admin role gives excessive privileges. https://t.co/NUrc5MH582",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-48365",
-                            "url": "https://t.co/NUrc5MH582"
-                        }
-                    ]
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
             "assigner": "cna@vuldb.com",
-            "audience_size": 64746,
+            "audience_size": 72825,
             "cve": "CVE-2023-1358",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1314,21 +1043,10 @@
             "github_repos": [],
             "lastModifiedDate": "2023-03-12T08:15Z",
             "num_retweets": 0,
-            "num_tweets": 16,
-            "num_tweets_and_retweets": 16,
+            "num_tweets": 19,
+            "num_tweets_and_retweets": 19,
             "publishedDate": "2023-03-12T08:15Z",
             "reddit_posts": [
-                {
-                    "created": 1678610312.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/11p9jzg/cve20231358/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 182,
-                    "title": "CVE-2023-1358",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-1358"
-                },
                 {
                     "created": 1678621869.0,
                     "is_self": true,
@@ -1339,17 +1057,6 @@
                     "title": "[MEDIUM] CVE Report on March 12, 2023 11:50[2/9209]",
                     "upvotes": 1,
                     "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pcpzb/medium_cve_report_on_march_12_2023_115029209/"
-                },
-                {
-                    "created": 1678610878.0,
-                    "is_self": true,
-                    "num_comments": 1,
-                    "reddit_url": "https://www.reddit.com/r/AJsBotPlayground/comments/11p9oz3/medium_cve_report_on_march_12_2023_084729314/",
-                    "subreddit": "AJsBotPlayground",
-                    "subreddit_subscribers": 2,
-                    "title": "[MEDIUM] CVE Report on March 12, 2023 08:47[2/9314]",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11p9oz3/medium_cve_report_on_march_12_2023_084729314/"
                 },
                 {
                     "created": 1678610818.0,
@@ -1363,6 +1070,17 @@
                     "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11p9ogq/medium_cve_report_on_march_12_2023_084629314/"
                 },
                 {
+                    "created": 1678610878.0,
+                    "is_self": true,
+                    "num_comments": 1,
+                    "reddit_url": "https://www.reddit.com/r/AJsBotPlayground/comments/11p9oz3/medium_cve_report_on_march_12_2023_084729314/",
+                    "subreddit": "AJsBotPlayground",
+                    "subreddit_subscribers": 2,
+                    "title": "[MEDIUM] CVE Report on March 12, 2023 08:47[2/9314]",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11p9oz3/medium_cve_report_on_march_12_2023_084729314/"
+                },
+                {
                     "created": 1678613985.0,
                     "is_self": true,
                     "num_comments": 1,
@@ -1372,6 +1090,17 @@
                     "title": "[MEDIUM] CVE Report on March 12, 2023 09:39[2/9865]",
                     "upvotes": 1,
                     "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pairv/medium_cve_report_on_march_12_2023_093929865/"
+                },
+                {
+                    "created": 1678629362.0,
+                    "is_self": true,
+                    "num_comments": 1,
+                    "reddit_url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pf44n/medium_cve_report_on_march_12_2023_135528707/",
+                    "subreddit": "AJsBotPlayground",
+                    "subreddit_subscribers": 2,
+                    "title": "[MEDIUM] CVE Report on March 12, 2023 13:55[2/8707]",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/AJsBotPlayground/comments/11pf44n/medium_cve_report_on_march_12_2023_135528707/"
                 }
             ],
             "score": null,
@@ -1420,7 +1149,7 @@
                 },
                 {
                     "created_at": "2023-03-12 08:07",
-                    "likes": 3,
+                    "likes": 5,
                     "num_retweets": 0,
                     "retweets": 0,
                     "tweet_id": "1634828474190819329",
@@ -1478,130 +1207,391 @@
         },
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 64368,
-            "cve": "CVE-2022-48366",
+            "audience_size": 68050,
+            "cve": "CVE-2021-46875",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
             "cvssv3_base_score": null,
             "cvssv3_base_severity": null,
             "cwes": [],
-            "description": "An issue was discovered in eZ Platform Ibexa Kernel before 1.3.19. It allows determining account existence via a timing attack.",
-            "epss_score": "0.00045",
+            "description": "An issue was discovered in eZ Platform Ibexa Kernel before 1.3.1.1. An XSS attack can occur because JavaScript code can be uploaded in a .html or .js file.",
+            "epss_score": "0.00043",
             "github_repos": [],
             "lastModifiedDate": "2023-03-12T05:15Z",
-            "num_retweets": 0,
-            "num_tweets": 14,
-            "num_tweets_and_retweets": 14,
+            "num_retweets": 3,
+            "num_tweets": 15,
+            "num_tweets_and_retweets": 18,
             "publishedDate": "2023-03-12T05:15Z",
             "reddit_posts": [
                 {
-                    "created": 1678603097.0,
+                    "created": 1678603098.0,
                     "is_self": false,
                     "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/11p7m1p/cve202248366/",
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/11p7m29/cve202146875/",
                     "subreddit": "netcve",
                     "subreddit_subscribers": 182,
-                    "title": "CVE-2022-48366",
+                    "title": "CVE-2021-46875",
                     "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-48366"
+                    "url": "https://cve.report/CVE-2021-46875"
                 }
             ],
             "score": null,
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-03-12 06:59",
+                    "created_at": "2023-03-13 00:09",
                     "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1634811250486960128",
-                    "tweet_text": "CVE-2022-48366\n\nAn issue was discovered in eZ Platform Ibexa Kernel before 1.3.19. It allows determining account existence via a timing attack.\n\nhttps://t.co/IFLhCUbfoX",
-                    "twitter_user_handle": "VulmonFeeds",
-                    "twitter_user_name": "Vulmon Vulnerability Feed",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1635070648467742722",
+                    "tweet_text": "CVE-2021-46875 An issue was discovered in eZ Platform Ibexa Kernel before 1.3.1.1. An XSS attack can occur because JavaScript code can be uploaded in a .html or .js file. (CVSS:0.0) (Last Update:2023-03-12) https://t.co/fVuPAhtqmw",
+                    "twitter_user_handle": "threatmeter",
+                    "twitter_user_name": "ThreatMeter",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
                     "urls": [
                         {
-                            "display_url": "vulmon.com/vulnerabilityd\u2026",
-                            "expanded_url": "http://vulmon.com/vulnerabilitydetails?qid=CVE-2022-48366",
-                            "url": "https://t.co/IFLhCUbfoX"
+                            "display_url": "ift.tt/TGNKgFJ",
+                            "expanded_url": "https://ift.tt/TGNKgFJ",
+                            "url": "https://t.co/fVuPAhtqmw"
                         }
                     ]
                 },
                 {
-                    "created_at": "2023-03-12 07:15",
+                    "created_at": "2023-03-12 08:26",
                     "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1634815257318416385",
-                    "tweet_text": "CVE-2022-48366 | eZ Platform Ibexa Kernel prior 1.3.19 timing discrepancy (GHSA-342c-vcff-2ff2) https://t.co/svSIuXKgKq",
-                    "twitter_user_handle": "glytcher001",
-                    "twitter_user_name": "glytcher",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "dlvr.it/SkllHX",
-                            "expanded_url": "http://dlvr.it/SkllHX",
-                            "url": "https://t.co/svSIuXKgKq"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-03-12 07:15",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1634815376662970370",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2022-48366 | eZ Platform Ibexa Kernel prior 1.3.19 timing discrepancy (GHSA-342c-vcff-2ff2)) has been published on https://t.co/opo0xsIzsJ",
-                    "twitter_user_handle": "www_sesin_at",
-                    "twitter_user_name": "www.sesin.at",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "sesin.at",
-                            "expanded_url": "http://www.sesin.at",
-                            "url": "https://t.co/9KYxtdZjkl"
-                        },
-                        {
-                            "display_url": "sesin.at/2023/03/12/cve\u2026",
-                            "expanded_url": "https://www.sesin.at/2023/03/12/cve-2022-48366-ez-platform-ibexa-kernel-prior-1-3-19-timing-discrepancy-ghsa-342c-vcff-2ff2/",
-                            "url": "https://t.co/opo0xsIzsJ"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-03-12 08:43",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1634837547867045889",
-                    "tweet_text": "I declare CVE-2022-48366 to be named Humid Edh\nhttps://t.co/qa0t4rRp8l",
-                    "twitter_user_handle": "vulnonym",
-                    "twitter_user_name": "vulnonym",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
-                    "urls": [
-                        {
-                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-48366",
-                            "url": "https://t.co/qa0t4rRp8l"
-                        }
-                    ]
-                },
-                {
-                    "created_at": "2023-03-12 13:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1634908829157855236",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2022-48366 \ud83d\udea8 An issue was discovered in eZ Platform Ibexa Kernel before 1.3.19. It allows determining account existence via a timing attack. https://t.co/gxLT1P3sr5",
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1634833331568402432",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2021-46875 \ud83d\udea8 An issue was discovered in eZ Platform Ibexa Kernel before 1.3.1.1. An XSS attack can occur because JavaScript code can be uploaded in a .html or .js file. https://t.co/jzhXmydKnH",
                     "twitter_user_handle": "threatintelctr",
                     "twitter_user_name": "Threat Intel Center",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
                     "urls": [
                         {
                             "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
-                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2022-48366",
-                            "url": "https://t.co/gxLT1P3sr5"
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2021-46875",
+                            "url": "https://t.co/jzhXmydKnH"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-03-12 23:02",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 1,
+                    "tweet_id": "1635053642947391498",
+                    "tweet_text": "CVE-2021-46875 An issue was discovered in eZ Platform Ibexa Kernel before 1.3.1.1. An XSS attack can occur because JavaScript code can be uploaded in a .html or .js file. (CVSS:0.0) (Last Update:2023-03-12) https://t.co/B61aZ7CbXb",
+                    "twitter_user_handle": "threatmeter",
+                    "twitter_user_name": "ThreatMeter",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/637160052617379840/VTN_Q4tL_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cvedetails.com/cve/CVE-2021-4\u2026",
+                            "expanded_url": "http://www.cvedetails.com/cve/CVE-2021-46875/",
+                            "url": "https://t.co/B61aZ7CbXb"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-03-12 06:11",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1634799311203565569",
+                    "tweet_text": "CVEnew: CVE-2021-46875 An issue was discovered in eZ Platform Ibexa Kernel before 1.3.1.1. An XSS attack can occur because JavaScript code can be uploaded in a .html or .js file. https://t.co/e6QnRen236",
+                    "twitter_user_handle": "hernanespinoza",
+                    "twitter_user_name": "Hernan Espinoza",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1547685026636017665/VkgyrG2V_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46875",
+                            "url": "https://t.co/e6QnRen236"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-03-12 06:29",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1634803758495350786",
+                    "tweet_text": "CVE-2021-46875 An issue was discovered in eZ Platform Ibexa Kernel before 1.3.1.1. An XSS attack can occur because JavaScript code can be uploaded in a .html or .js file. https://t.co/1n7Jg0DEp0",
+                    "twitter_user_handle": "eyeTSystems",
+                    "twitter_user_name": "\ud835\udc9f\ud835\udcb6\ud835\udcc3\ud835\udcbe\ud835\udc52\ud835\udcc1",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/733144294278582272/6tkqfYMy_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46875",
+                            "url": "https://t.co/1n7Jg0DEp0"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "cna@vuldb.com",
+            "audience_size": 61363,
+            "cve": "CVE-2016-15028",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Validation of Integrity Check Value",
+                    "cwe_id": "CWE-354"
+                }
+            ],
+            "description": "A vulnerability was found in ICEPAY REST-API-NET 0.9. It has been declared as problematic. Affected by this vulnerability is the function RestClient of the file Classes/RestClient.cs of the component Checksum Validation. The manipulation leads to improper validation of integrity check value. The attack can be launched remotely. Upgrading to version 1.0 is able to address this issue. The name of the patch is 61f6b8758e5c971abff5f901cfa9f231052b775f. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-222847.",
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": "2023-03-12T15:15Z",
+            "num_retweets": 0,
+            "num_tweets": 17,
+            "num_tweets_and_retweets": 17,
+            "publishedDate": "2023-03-12T15:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1678635483.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/11phgcx/cve201615028/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 182,
+                    "title": "CVE-2016-15028",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2016-15028"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-03-12 16:11",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1634950153105997824",
+                    "tweet_text": "CVEnew: CVE-2016-15028 A vulnerability was found in ICEPAY REST-API-NET 0.9. It has been declared as problematic. Affected by this vulnerability is the function RestClient of the file Classes/RestClient.cs of the component Checksum Validation. The... https://t.co/yK3CkXt4KU",
+                    "twitter_user_handle": "hernanespinoza",
+                    "twitter_user_name": "Hernan Espinoza",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1547685026636017665/VkgyrG2V_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-15028",
+                            "url": "https://t.co/yK3CkXt4KU"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-03-12 16:11",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1634950156968947712",
+                    "tweet_text": "New vulnerability on the NVD: CVE-2016-15028 https://t.co/5HXYW3f9i5",
+                    "twitter_user_handle": "JohnJasonFallow",
+                    "twitter_user_name": "John Jason Fallows",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1633238466711486467/5879k0bV_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/nxw5cvZ",
+                            "expanded_url": "https://ift.tt/nxw5cvZ",
+                            "url": "https://t.co/5HXYW3f9i5"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-03-12 16:22",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1634953027785482243",
+                    "tweet_text": "New vulnerability on the NVD: CVE-2016-15028 https://t.co/JixMRmfwew #exploit #toutatis #darknet #news",
+                    "twitter_user_handle": "ServiceToutatis",
+                    "twitter_user_name": "Toutatis InfoPost",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1029512326150586370/Z4fu43g3_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "ift.tt/yhFo0ij",
+                            "expanded_url": "https://ift.tt/yhFo0ij",
+                            "url": "https://t.co/JixMRmfwew"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-03-12 16:29",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1634954841889071104",
+                    "tweet_text": "CVE-2016-15028 A vulnerability was found in ICEPAY REST-API-NET 0.9. It has been declared as problematic. Affected by this vulnerability is the function RestClient of the file Classes/RestClient.cs of the component Checksum Validation. The... https://t.co/GGrCXIqgcm",
+                    "twitter_user_handle": "eyeTSystems",
+                    "twitter_user_name": "\ud835\udc9f\ud835\udcb6\ud835\udcc3\ud835\udcbe\ud835\udc52\ud835\udcc1",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/733144294278582272/6tkqfYMy_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-15028",
+                            "url": "https://t.co/GGrCXIqgcm"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-03-12 16:30",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1634954994972491776",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2016-15028) has been published on https://t.co/wuKrPAa9L6",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "sesin.at",
+                            "expanded_url": "http://www.sesin.at",
+                            "url": "https://t.co/uXvPWJy6tj"
+                        },
+                        {
+                            "display_url": "sesin.at/2023/03/12/cve\u2026",
+                            "expanded_url": "https://www.sesin.at/2023/03/12/cve-2016-15028/",
+                            "url": "https://t.co/wuKrPAa9L6"
+                        }
+                    ]
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "cve@mitre.org",
+            "audience_size": 56307,
+            "cve": "CVE-2023-28154",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": "Webpack 5 before 5.76.0 does not avoid cross-realm object access. ImportParserPlugin.js mishandles the magic comment feature. An attacker who controls a property of an untrusted object can obtain access to the real global object.",
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": "2023-03-13T01:15Z",
+            "num_retweets": 0,
+            "num_tweets": 6,
+            "num_tweets_and_retweets": 6,
+            "publishedDate": "2023-03-13T01:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1678675127.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/11pxrkz/cve202328154/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 182,
+                    "title": "CVE-2023-28154",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2023-28154"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-03-13 01:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1635084868274233344",
+                    "tweet_text": "CVE-2023-28154 : Webpack 5 before 5.76.0 does not avoid cross-realm object access. ImportParserPlugin.js mishandles the magic comment feature. An attacker who controls a property of an untrusted object can obtain access to the real globa... https://t.co/lGACdlNqmC",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": [
+                        {
+                            "display_url": "cve.report/CVE-2023-28154",
+                            "expanded_url": "https://cve.report/CVE-2023-28154",
+                            "url": "https://t.co/lGACdlNqmC"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-03-13 02:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1635105126540083201",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-28154 \ud83d\udea8 Webpack 5 before 5.76.0 does not avoid cross-realm object access. ImportParserPlugin.js mishandles the magic comment feature. An attacker who controls a property of an untrusted object can o... (click for more)  https://t.co/Z83ZVpKg4s",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-28154",
+                            "url": "https://t.co/Z83ZVpKg4s"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-03-13 01:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1635090023602343937",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-28154 \ud83d\udea8 Webpack 5 before 5.76.0 does not avoid cross-realm object access. ImportParserPlugin.js mishandles the magic comment feature. An attacker who controls a property of an untrusted object can o... (click for more)  https://t.co/Z83ZVpKNU0",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "nvd.nist.gov/vuln/detail/CV\u2026",
+                            "expanded_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-28154",
+                            "url": "https://t.co/Z83ZVpKNU0"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-03-13 02:45",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1635109732934635520",
+                    "tweet_text": "CVE-2023-28154 Webpack 5 before 5.76.0 does not avoid cross-realm object access. ImportParserPlugin.js mishandles the magic comment feature. An attacker who controls a property of an untrusted object can obtain access to the real global object. https://t.co/kTvuVLV8IQ",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28154",
+                            "url": "https://t.co/kTvuVLV8IQ"
+                        }
+                    ]
+                },
+                {
+                    "created_at": "2023-03-13 03:11",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1635116375353053184",
+                    "tweet_text": "CVEnew: CVE-2023-28154 Webpack 5 before 5.76.0 does not avoid cross-realm object access. ImportParserPlugin.js mishandles the magic comment feature. An attacker who controls a property of an untrusted object can obtain access to the real global object. https://t.co/cBY4l9wOQg",
+                    "twitter_user_handle": "hernanespinoza",
+                    "twitter_user_name": "Hernan Espinoza",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1547685026636017665/VkgyrG2V_normal.jpg",
+                    "urls": [
+                        {
+                            "display_url": "cve.mitre.org/cgi-bin/cvenam\u2026",
+                            "expanded_url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28154",
+                            "url": "https://t.co/cBY4l9wOQg"
                         }
                     ]
                 }
@@ -1611,5 +1601,5 @@
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2023-03-12 19:05:13"
+    "updated": "2023-03-13 05:48:42"
 }
