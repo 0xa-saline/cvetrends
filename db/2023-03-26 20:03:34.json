@@ -2,7 +2,7 @@
     "data": [
         {
             "assigner": "secure@microsoft.com",
-            "audience_size": 1606329,
+            "audience_size": 976550,
             "cve": "CVE-2023-23397",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -19,20 +19,20 @@
             "epss_score": "0.47537",
             "github_repos": [],
             "lastModifiedDate": "2023-03-20T14:00Z",
-            "num_retweets": 96,
-            "num_tweets": 73,
-            "num_tweets_and_retweets": 169,
+            "num_retweets": 86,
+            "num_tweets": 74,
+            "num_tweets_and_retweets": 160,
             "publishedDate": "2023-03-14T17:15Z",
             "reddit_posts": [
                 {
                     "created": 1679026809.0,
                     "is_self": true,
-                    "num_comments": 188,
+                    "num_comments": 187,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/11tgus5/til_you_can_see_all_of_your_office_versions_in/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 781367,
+                    "subreddit_subscribers": 781380,
                     "title": "TIL: You can see all of your Office versions in config.office.com and update them to the latest Monthly Enterprise channel to help with CVE-2023-23397.",
-                    "upvotes": 1732,
+                    "upvotes": 1730,
                     "url": "https://www.reddit.com/r/sysadmin/comments/11tgus5/til_you_can_see_all_of_your_office_versions_in/"
                 },
                 {
@@ -41,9 +41,9 @@
                     "num_comments": 86,
                     "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/11z7jqa/patch_immediately_patch_cve202323397/",
                     "subreddit": "cybersecurity",
-                    "subreddit_subscribers": 463342,
+                    "subreddit_subscribers": 463482,
                     "title": "Patch Immediately. Patch CVE-2023-23397",
-                    "upvotes": 375,
+                    "upvotes": 379,
                     "url": "https://www.reddit.com/r/cybersecurity/comments/11z7jqa/patch_immediately_patch_cve202323397/"
                 },
                 {
@@ -52,9 +52,9 @@
                     "num_comments": 262,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/11rssg1/microsoft_outlook_cve202323397_elevation_of/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 781367,
+                    "subreddit_subscribers": 781380,
                     "title": "Microsoft Outlook CVE-2023-23397 - Elevation of Privilege Vulnerability",
-                    "upvotes": 287,
+                    "upvotes": 286,
                     "url": "https://www.reddit.com/r/sysadmin/comments/11rssg1/microsoft_outlook_cve202323397_elevation_of/"
                 },
                 {
@@ -63,7 +63,7 @@
                     "num_comments": 145,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/11rycl4/cve202323397/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 781367,
+                    "subreddit_subscribers": 781380,
                     "title": "CVE-2023-23397",
                     "upvotes": 206,
                     "url": "https://www.reddit.com/r/sysadmin/comments/11rycl4/cve202323397/"
@@ -74,9 +74,9 @@
                     "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/11rhqkx/exploiting_cve202323397_microsoft_outlook/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 469867,
+                    "subreddit_subscribers": 469882,
                     "title": "Exploiting CVE-2023-23397: Microsoft Outlook Elevation of Privilege Vulnerability",
-                    "upvotes": 166,
+                    "upvotes": 167,
                     "url": "https://www.mdsec.co.uk/2023/03/exploiting-cve-2023-23397-microsoft-outlook-elevation-of-privilege-vulnerability/"
                 }
             ],
@@ -86,7 +86,7 @@
                 {
                     "created_at": "2023-03-25 20:02",
                     "likes": 0,
-                    "num_retweets": 44,
+                    "num_retweets": 52,
                     "retweets": 0,
                     "tweet_id": "1639719437325717504",
                     "tweet_text": "CVE-2023-23397\n\nSubmitted recently, an email dated from September 29 2022 targeting PIT-RADWAR, a supplier of professional electronics solutions for the Polish Armed Forces\n\nSilence..eml\ne6efaabb01e028ef61876dd129e66bac\n\n\\213.32.252[.]221\\silence https://t.co/cz506acuTm",
@@ -96,27 +96,39 @@
                     "urls": []
                 },
                 {
-                    "created_at": "2023-03-25 16:38",
+                    "created_at": "2023-03-26 17:00",
                     "likes": 0,
-                    "num_retweets": 37,
+                    "num_retweets": 9,
                     "retweets": 0,
-                    "tweet_id": "1639667961492389888",
-                    "tweet_text": "\ud83d\udea8 Microsoft shares guidance on detecting IoCs linked to a recently patched critical Outlook #vulnerability (CVE-2023-23397).\n\nThis critical flaw can lead to privilege escalation, NTLM hash theft, and relay attacks without user interaction.\n\nLearn more: https://t.co/6lgkzTOAoh",
-                    "twitter_user_handle": "TheHackersNews",
-                    "twitter_user_name": "The Hacker News",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1597647879811657728/FLgHrLHy_normal.jpg",
+                    "tweet_id": "1640021009779638272",
+                    "tweet_text": "Guidance for investigating attacks using CVE-2023-23397 https://t.co/Dgbqi6Avx6  #Pentesting #CVE #CyberSecurity #Infosec https://t.co/48O3wAYVpc",
+                    "twitter_user_handle": "ptracesecurity",
+                    "twitter_user_name": "Ptrace Security GmbH",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/659444735791210500/XGvv9R-0_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-03-25 17:01",
+                    "created_at": "2023-03-26 16:30",
                     "likes": 0,
-                    "num_retweets": 3,
+                    "num_retweets": 6,
                     "retweets": 0,
-                    "tweet_id": "1639673752391745546",
-                    "tweet_text": "Researchers demonstrate a proof of concept (PoC) for CVE-2023-23397, which is a Microsoft Outlook elevation of privilege vulnerability:\n\nhttps://t.co/8LG8bpY1Nh",
-                    "twitter_user_handle": "securitytrails",
-                    "twitter_user_name": "SecurityTrails",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1346196937985433601/5q1AbFXy_normal.jpg",
+                    "tweet_id": "1640013254683672576",
+                    "tweet_text": "Microsoft shares guidance for investigating attacks exploiting CVE-2023-23397 https://t.co/hWKQYZ78gs",
+                    "twitter_user_handle": "TheCyberSecHub",
+                    "twitter_user_name": "The Cyber Security Hub\u2122",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1572191181689294848/fT9V8jLs_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-03-26 15:42",
+                    "likes": 0,
+                    "num_retweets": 4,
+                    "retweets": 0,
+                    "tweet_id": "1640001173456388099",
+                    "tweet_text": "Microsoft shares guidance for investigating attacks exploiting CVE-2023-23397\nhttps://t.co/oIyVM7Vyb5\n#securityaffairs #hacking\n@MsftSecIntel @msftsecurity @microsoft",
+                    "twitter_user_handle": "securityaffairs",
+                    "twitter_user_name": "Pierluigi Paganini - Security Affairs",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/3703513695/4ae724ea6ed248d871bc9d523ae1c24e_normal.png",
                     "urls": []
                 },
                 {
@@ -129,18 +141,6 @@
                     "twitter_user_handle": "cozumpark",
                     "twitter_user_name": "\u00c7\u00f6z\u00fcmpark Bili\u015fim Portal\u0131",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/467609775786586112/3ZukfYLP_normal.jpeg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-03-25 13:38",
-                    "likes": 0,
-                    "num_retweets": 2,
-                    "retweets": 0,
-                    "tweet_id": "1639622904697561091",
-                    "tweet_text": "Outlook NTLM Leak - I have just completed this room! Check it out:  https://t.co/1k88Rbzp0w #tryhackme #CVE-2023-23397 #outlook #NTLM Leak #NTLM #responder #recent-threats #outlookntlmleak via @realtryhackme",
-                    "twitter_user_handle": "0xclient",
-                    "twitter_user_name": "Yousef Alfakih",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1637315001848348672/c8W8larD_normal.jpg",
                     "urls": []
                 }
             ],
@@ -163,7 +163,7 @@
         },
         {
             "assigner": null,
-            "audience_size": 87492,
+            "audience_size": 103857,
             "cve": "CVE-2023-28303",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -175,20 +175,20 @@
             "epss_score": null,
             "github_repos": [],
             "lastModifiedDate": null,
-            "num_retweets": 38,
-            "num_tweets": 15,
-            "num_tweets_and_retweets": 53,
+            "num_retweets": 53,
+            "num_tweets": 16,
+            "num_tweets_and_retweets": 69,
             "publishedDate": null,
             "reddit_posts": [
                 {
                     "created": 1679782916.0,
                     "is_self": true,
-                    "num_comments": 14,
+                    "num_comments": 16,
                     "reddit_url": "https://www.reddit.com/r/sysadmin/comments/1221cb4/microsoft_store_apps_update_frustrations/",
                     "subreddit": "sysadmin",
-                    "subreddit_subscribers": 781367,
+                    "subreddit_subscribers": 781380,
                     "title": "Microsoft Store apps update frustrations",
-                    "upvotes": 17,
+                    "upvotes": 20,
                     "url": "https://www.reddit.com/r/sysadmin/comments/1221cb4/microsoft_store_apps_update_frustrations/"
                 }
             ],
@@ -198,7 +198,7 @@
                 {
                     "created_at": "2023-03-26 00:26",
                     "likes": 0,
-                    "num_retweets": 38,
+                    "num_retweets": 52,
                     "retweets": 0,
                     "tweet_id": "1639785897657769986",
                     "tweet_text": "This is now patched, and has been assigned CVE-2023-28303 https://t.co/uSNCt0ROX7",
@@ -208,39 +208,15 @@
                     "urls": []
                 },
                 {
-                    "created_at": "2023-03-25 15:50",
+                    "created_at": "2023-03-26 14:00",
                     "likes": 0,
-                    "num_retweets": 0,
+                    "num_retweets": 1,
                     "retweets": 0,
-                    "tweet_id": "1639656101649215488",
-                    "tweet_text": "https://t.co/dWw5nh8KQE \n\u300cCVE-2023-28303\u300d\n\u300cstandard snipping tool under Windows 10 was not affected\u300d\n\u300cSnip and Sketch on Windows 10 fixes this vulnerability with version 10.2008.3001.0\u300d\n\u300cSnipping Tool on Windows 11 fixes this vulnerability with version 11.2302.20.0\u300d",
-                    "twitter_user_handle": "RD_TS",
-                    "twitter_user_name": "RD-Z300 user",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/378800000060255833/609961d4f87c7c4e5cf0713f7e648bd9_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-03-25 15:53",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639656787019460610",
-                    "tweet_text": "https://t.co/JV4U0hoFWE \n\u300c2023\u5e743\u670824\u65e5\u300d\u300c\u30b9\u30af\u30ea\u30fc\u30f3\u30b7\u30e7\u30c3\u30c8\u6a5f\u80fd\u306b\u6df1\u523b\u306a\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u4fb5\u5bb3\u3092\u5f15\u304d\u8d77\u3053\u3057\u304b\u306d\u306a\u3044\u8106\u5f31\u6027\u300d\n\nMS\u306f\u300cCVE-2023-28303\u300d\u3068\u3057\u3066\u5831\u544a\u3002\nWin 11\u300cSnipping Tool\u300d\u300cv11.2302.20.0\u300d\u4ee5\u964d\u3067\u4fee\u6b63\u3002\nWin 10\u300c\u5207\u308a\u53d6\u308a\u9818\u57df\u3068\u30b9\u30b1\u30c3\u30c1\u300d\u300cv10.2008.3001.0\u300d\u4ee5\u964d\u3067\u4fee\u6b63\u3068\u3002",
-                    "twitter_user_handle": "RD_TS",
-                    "twitter_user_name": "RD-Z300 user",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/378800000060255833/609961d4f87c7c4e5cf0713f7e648bd9_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-03-25 15:58",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639658120757800962",
-                    "tweet_text": "https://t.co/dpzex2Un5U \n\u300c2023\u5e743\u670824\u65e5\u300d\u300cCVE-2023-28303\u300d\u300cWindows Snipping Tool Information Disclosure Vulnerability\u300d\n\n\u300cThe default Snipping Tool in Windows 10 and older versions are unaffected. Only Snip &amp; Sketch in Windows 10 and Snipping Tool in Windows 11 are affected\u300d",
-                    "twitter_user_handle": "RD_TS",
-                    "twitter_user_name": "RD-Z300 user",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/378800000060255833/609961d4f87c7c4e5cf0713f7e648bd9_normal.png",
+                    "tweet_id": "1639975498867458052",
+                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2023-23397: 1.6M (audience size)\nCVE-2023-28303: 76.5K\nCVE-2023-28432: 75.5K\n\nPast 7 days:\nCVE-2023-23397: 7.1M\nCVE-2023-27532: 1.7M\nCVE-2023-28432: 949.3K\n\nhttps://t.co/LhpwNP6xog",
+                    "twitter_user_handle": "CVEtrends",
+                    "twitter_user_name": "CVE Trends",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
                     "urls": []
                 },
                 {
@@ -254,6 +230,30 @@
                     "twitter_user_name": "\u30ad\u30bf\u304d\u3064\u306d",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/356907502/fox_normal.jpg",
                     "urls": []
+                },
+                {
+                    "created_at": "2023-03-26 02:54",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1639808099199459329",
+                    "tweet_text": "Microsoft pushes emergency patch to resolve \"Acropalypse\"(CVE-2023-28303) vulnerability; it enabled the recovery of previously cropped portions of an image. https://t.co/XClBvxEjGW",
+                    "twitter_user_handle": "kyputer",
+                    "twitter_user_name": "/# Kyle \ud83d\udc68\ud83c\udffe\u200d\ud83d\udcbb",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1611633555343294464/32uUb5W7_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-03-26 05:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1639841105905610754",
+                    "tweet_text": "The vuln CVE-2023-28303 has a tweet created 0 days ago and retweeted 21 times.\nhttps://t.co/j8mZiqhoQj\n#pow1rtrtwwcve",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": []
                 }
             ],
             "vendor_advisories": [],
@@ -261,7 +261,7 @@
         },
         {
             "assigner": "security-advisories@github.com",
-            "audience_size": 87181,
+            "audience_size": 72435,
             "cve": "CVE-2023-28432",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -279,8 +279,8 @@
             "github_repos": [],
             "lastModifiedDate": "2023-03-23T01:02Z",
             "num_retweets": 10,
-            "num_tweets": 15,
-            "num_tweets_and_retweets": 25,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 21,
             "publishedDate": "2023-03-22T21:15Z",
             "reddit_posts": [
                 {
@@ -312,7 +312,7 @@
                 {
                     "created_at": "2023-03-26 12:30",
                     "likes": 0,
-                    "num_retweets": 6,
+                    "num_retweets": 8,
                     "retweets": 0,
                     "tweet_id": "1639952901165531139",
                     "tweet_text": "CVE-2023-28432 Minio\u4fe1\u606f\u6cc4\u9732\u5bfc\u81f4RCE https://t.co/S7N9NOako7  #Pentesting #CyberSecurity #Infosec https://t.co/pvN0SghaoK",
@@ -322,48 +322,48 @@
                     "urls": []
                 },
                 {
-                    "created_at": "2023-03-25 14:00",
+                    "created_at": "2023-03-26 14:00",
                     "likes": 0,
-                    "num_retweets": 2,
+                    "num_retweets": 1,
                     "retweets": 0,
-                    "tweet_id": "1639628209128873988",
-                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2023-23397: 2.3M (audience size)\nCVE-2022-0609: 631.8K\nCVE-2023-28432: 407.2K\n\nPast 7 days:\nCVE-2023-23397: 6.1M\nCVE-2023-27532: 1.5M\nCVE-2023-28432: 832.8K\n\nhttps://t.co/LhpwNP6xog",
+                    "tweet_id": "1639975498867458052",
+                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2023-23397: 1.6M (audience size)\nCVE-2023-28303: 76.5K\nCVE-2023-28432: 75.5K\n\nPast 7 days:\nCVE-2023-23397: 7.1M\nCVE-2023-27532: 1.7M\nCVE-2023-28432: 949.3K\n\nhttps://t.co/LhpwNP6xog",
                     "twitter_user_handle": "CVEtrends",
                     "twitter_user_name": "CVE Trends",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-03-25 14:08",
+                    "created_at": "2023-03-25 20:08",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1639630215075987458",
-                    "tweet_text": "I think that the third retweeted(32 times) tweet that contains CVE ID between Mar 24 2023 14:01 UTC and Mar 25 2023 14:00 UTC is:\nhttps://t.co/7lCWvGnVYR\nIt has CVE-2023-28432. #l24_furdshuxk6ym2",
+                    "tweet_id": "1639720815754199043",
+                    "tweet_text": "(Same from about 4 hours ago.)\nI think that the second retweeted(47 times) tweet that contains CVE ID between Mar 24 2023 20:01 UTC and Mar 25 2023 20:00 UTC is:\nhttps://t.co/7lCWvGno9j\nIt has CVE-2023-28432. #l24_furdshuxk6ym2",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-03-25 16:08",
+                    "created_at": "2023-03-25 22:08",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1639660421819899906",
-                    "tweet_text": "(third \u2192 second)\nI think that the second retweeted(42 times) tweet that contains CVE ID between Mar 24 2023 16:01 UTC and Mar 25 2023 16:00 UTC is:\nhttps://t.co/7lCWvGno9j\nIt has CVE-2023-28432. #l24_furdshuxk6ym2",
+                    "tweet_id": "1639751016420720644",
+                    "tweet_text": "(Same from about 6 hours ago.)\nI think that the second retweeted(48 times) tweet that contains CVE ID between Mar 24 2023 22:01 UTC and Mar 25 2023 22:00 UTC is:\nhttps://t.co/7lCWvGno9j\nIt has CVE-2023-28432. #l24_furdshuxk6ym2",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-03-25 18:08",
+                    "created_at": "2023-03-26 00:08",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1639690621215539200",
-                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the second retweeted(47 times) tweet that contains CVE ID between Mar 24 2023 18:01 UTC and Mar 25 2023 18:00 UTC is:\nhttps://t.co/7lCWvGno9j\nIt has CVE-2023-28432. #l24_furdshuxk6ym2",
+                    "tweet_id": "1639781217896652801",
+                    "tweet_text": "(Same from about 8 hours ago.)\nI think that the second retweeted(49 times) tweet that contains CVE ID between Mar 25 2023 00:01 UTC and Mar 26 2023 00:00 UTC is:\nhttps://t.co/7lCWvGno9j\nIt has CVE-2023-28432. #l24_furdshuxk6ym2",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
@@ -375,7 +375,7 @@
         },
         {
             "assigner": "cna@vuldb.com",
-            "audience_size": 62064,
+            "audience_size": 62055,
             "cve": "CVE-2023-1634",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -388,14 +388,14 @@
             "github_repos": [],
             "lastModifiedDate": "2023-03-25T19:15Z",
             "num_retweets": 0,
-            "num_tweets": 13,
-            "num_tweets_and_retweets": 13,
+            "num_tweets": 12,
+            "num_tweets_and_retweets": 12,
             "publishedDate": "2023-03-25T19:15Z",
             "reddit_posts": [
                 {
                     "created": 1679776724.0,
                     "is_self": false,
-                    "num_comments": 0,
+                    "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/netcve/comments/121ydtw/cve20231634/",
                     "subreddit": "netcve",
                     "subreddit_subscribers": 189,
@@ -407,18 +407,6 @@
             "score": null,
             "severity": null,
             "tweets": [
-                {
-                    "created_at": "2023-03-25 18:13",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639692006090997760",
-                    "tweet_text": "CVE-2023-1634 | OTCMS 6.72 URL Parameter /admin/info_deal.php UseCurl server-side request forgery https://t.co/kN9k4L0P1L",
-                    "twitter_user_handle": "glytcher001",
-                    "twitter_user_name": "glytcher",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
-                    "urls": []
-                },
                 {
                     "created_at": "2023-03-25 19:03",
                     "likes": 0,
@@ -466,104 +454,18 @@
                     "twitter_user_name": "www.sesin.at",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
                     "urls": []
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "cna@vuldb.com",
-            "audience_size": 60068,
-            "cve": "CVE-2015-10097",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "A vulnerability was found in grinnellplans-php up to 3.0. It has been declared as critical. Affected by this vulnerability is the function interface_disp_page/interface_disp_page of the file read.php. The manipulation leads to sql injection. The attack can be launched remotely. The name of the patch is 57e4409e19203a94495140ff1b5a697734d17cfb. It is recommended to apply a patch to fix this issue. The identifier VDB-223801 was assigned to this vulnerability.",
-            "epss_score": "0.00045",
-            "github_repos": [],
-            "lastModifiedDate": "2023-03-25T18:15Z",
-            "num_retweets": 0,
-            "num_tweets": 16,
-            "num_tweets_and_retweets": 16,
-            "publishedDate": "2023-03-25T18:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1679773109.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/121wozp/cve201510097/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 189,
-                    "title": "CVE-2015-10097",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2015-10097"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-03-25 18:05",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639689920913473536",
-                    "tweet_text": "CVE-2015-10097 : A vulnerability was found in grinnellplans-php up to 3.0. It has been declared as critical. Affected by this vulnerability is the function interface_disp_page/interface_disp_page of the file read.php. The manipulation le... https://t.co/pvC75D78te",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": []
                 },
                 {
-                    "created_at": "2023-03-25 18:26",
+                    "created_at": "2023-03-25 20:00",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1639695378663481346",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2015-10097 \ud83d\udea8 A vulnerability was found in grinnellplans-php up to 3.0. It has been declared as critical. Affected by this vulnerability is the function interface_disp_page/interface_disp_page of the file... (click for more)  https://t.co/3zkdvEGbfH",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-03-25 19:00",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639703752050393089",
-                    "tweet_text": "CVE-2015-10097 A vulnerability was found in grinnellplans-php up to 3.0. It has been declared as critical. Affected by this vulnerability is the function interface_disp_page/interface_disp_page of the file read.php. The manipu... https://t.co/Uak52bU0T0",
+                    "tweet_id": "1639718852165525509",
+                    "tweet_text": "CVE-2023-1634 A vulnerability was found in OTCMS 6.72. It has been classified as critical. Affected is the function UseCurl of the file /admin/info_deal.php of the component URL Parameter Handler. The manipulation leads to server-side request forg... https://t.co/jZGFzJDjRV",
                     "twitter_user_handle": "CVEnew",
                     "twitter_user_name": "CVE",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
                     "urls": []
-                },
-                {
-                    "created_at": "2023-03-25 19:11",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639706464594939906",
-                    "tweet_text": "Potentially Critical CVE Detected!\nCVE-2015-10097\nA vulnerability was found in grinnellplans-php up to 3.0. It has been declared as critical. Affected by this vulnerabili...\nCVSS: 8.61\n#CVE #CyberSecurity",
-                    "twitter_user_handle": "Robo_Alerts",
-                    "twitter_user_name": "Robo Shadow Alerts",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1439862150890237953/WjKa3G1I_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-03-25 19:11",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639706591384547330",
-                    "tweet_text": "CVEnew: CVE-2015-10097 A vulnerability was found in grinnellplans-php up to 3.0. It has been declared as critical. Affected by this vulnerability is the function interface_disp_page/interface_disp_page of the file read.php. The manipu... https://t.co/HwM8xsgXh1",
-                    "twitter_user_handle": "hernanespinoza",
-                    "twitter_user_name": "Hernan Espinoza",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1547685026636017665/VkgyrG2V_normal.jpg",
-                    "urls": []
                 }
             ],
             "vendor_advisories": [],
@@ -571,203 +473,7 @@
         },
         {
             "assigner": "cna@vuldb.com",
-            "audience_size": 59645,
-            "cve": "CVE-2016-15030",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "A vulnerability classified as problematic has been found in Arno0x TwoFactorAuth. This affects an unknown part of the file login/login.php. The manipulation of the argument from leads to open redirect. It is possible to initiate the attack remotely. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The name of the patch is 8549ad3cf197095f783643e41333586d6a4d0e54. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-223803.",
-            "epss_score": "0.00045",
-            "github_repos": [],
-            "lastModifiedDate": "2023-03-25T18:15Z",
-            "num_retweets": 0,
-            "num_tweets": 15,
-            "num_tweets_and_retweets": 15,
-            "publishedDate": "2023-03-25T18:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1679773110.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/121wp01/cve201615030/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 189,
-                    "title": "CVE-2016-15030",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2016-15030"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-03-25 18:05",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639690039415152643",
-                    "tweet_text": "CVE-2016-15030 : A vulnerability classified as problematic has been found in Arno0x TwoFactorAuth. This affects an unknown part of the file login/login.php. The manipulation of the argument from leads to open redirect. It is possible to ... https://t.co/kx7pe45Dhe",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-03-25 18:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639695378613252101",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2016-15030 \ud83d\udea8 A vulnerability classified as problematic has been found in Arno0x TwoFactorAuth. This affects an unknown part of the file login/login.php. The manipulation of the argument from leads to ope... (click for more)  https://t.co/pOqgTZcSzD",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-03-25 19:00",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639703754848063489",
-                    "tweet_text": "CVE-2016-15030 A vulnerability classified as problematic has been found in Arno0x TwoFactorAuth. This affects an unknown part of the file login/login.php. The manipulation of the argument from leads to open redirect. It is possible t... https://t.co/QqY2VuJMKF",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-03-25 19:11",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639706594836467712",
-                    "tweet_text": "CVEnew: CVE-2016-15030 A vulnerability classified as problematic has been found in Arno0x TwoFactorAuth. This affects an unknown part of the file login/login.php. The manipulation of the argument from leads to open redirect. It is possible t... https://t.co/UbDGSEwV9I",
-                    "twitter_user_handle": "hernanespinoza",
-                    "twitter_user_name": "Hernan Espinoza",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1547685026636017665/VkgyrG2V_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-03-25 20:23",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639724607396536325",
-                    "tweet_text": "CVE-2016-15030 https://t.co/Ol0WSafND2 #CVE #Vulnerability",
-                    "twitter_user_handle": "Velletron",
-                    "twitter_user_name": "Velletron Seven",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/933369739904192513/6M049RIA_normal.jpg",
-                    "urls": []
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "cna@vuldb.com",
-            "audience_size": 58464,
-            "cve": "CVE-2023-1632",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "** DISPUTED ** A vulnerability has been found in Ellucian Banner Web Tailor 8.6 and classified as critical. This vulnerability affects unknown code of the file /PROD_ar/twbkwbis.P_FirstMenu of the component Login Page. The manipulation of the argument PIDM/WEBID leads to improper authorization. The attack can be initiated remotely. After submitting proper login credentials it becomes possible to generate new valid session identifiers on the OTP page. The real existence of this vulnerability is still doubted at the moment. VDB-224014 is the identifier assigned to this vulnerability.",
-            "epss_score": "0.00043",
-            "github_repos": [],
-            "lastModifiedDate": "2023-03-25T21:15Z",
-            "num_retweets": 0,
-            "num_tweets": 12,
-            "num_tweets_and_retweets": 12,
-            "publishedDate": "2023-03-25T17:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1679769481.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/121ux29/cve20231632/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 189,
-                    "title": "CVE-2023-1632",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-1632"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-03-25 16:18",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639663064550371328",
-                    "tweet_text": "CVE-2023-1632 | Ellucian Banner Web Tailor 8.6 Login Page twbkwbis.P_FirstMenu PIDM/WEBID improper authorization https://t.co/1fvhSn2cD7",
-                    "twitter_user_handle": "glytcher001",
-                    "twitter_user_name": "glytcher",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-03-25 17:04",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639674650304163843",
-                    "tweet_text": "CVE-2023-1632 : A vulnerability has been found in Ellucian Banner Web Tailor 8.6 and classified as critical. This vulnerability affects unknown code of the file /PROD_ar/twbkwbis.P_FirstMenu of the component Login Page. The manipulation... https://t.co/g5s0gVBtLb",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-03-25 17:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639680271707430917",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-1632 \ud83d\udea8 A vulnerability has been found in Ellucian Banner Web Tailor 8.6 and classified as critical. This vulnerability affects unknown code of the file /PROD_ar/twbkwbis.P_FirstMenu of the componen... (click for more)  https://t.co/9lRA9QwJR9",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-03-25 18:00",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639688651176132610",
-                    "tweet_text": "CVE-2023-1632 A vulnerability has been found in Ellucian Banner Web Tailor 8.6 and classified as critical. This vulnerability affects unknown code of the file /PROD_ar/twbkwbis.P_FirstMenu of the component Login Page. The manipulation of the argum... https://t.co/MbDa42eCBw",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-03-25 18:11",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639691487553175554",
-                    "tweet_text": "CVEnew: CVE-2023-1632 A vulnerability has been found in Ellucian Banner Web Tailor 8.6 and classified as critical. This vulnerability affects unknown code of the file /PROD_ar/twbkwbis.P_FirstMenu of the component Login Page. The manipulation of the argu\u2026 https://t.co/M9tDlgv2rv",
-                    "twitter_user_handle": "hernanespinoza",
-                    "twitter_user_name": "Hernan Espinoza",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1547685026636017665/VkgyrG2V_normal.jpg",
-                    "urls": []
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "cna@vuldb.com",
-            "audience_size": 58464,
+            "audience_size": 58455,
             "cve": "CVE-2023-1635",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -780,8 +486,8 @@
             "github_repos": [],
             "lastModifiedDate": "2023-03-25T19:15Z",
             "num_retweets": 0,
-            "num_tweets": 12,
-            "num_tweets_and_retweets": 12,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 11,
             "publishedDate": "2023-03-25T19:15Z",
             "reddit_posts": [
                 {
@@ -799,18 +505,6 @@
             "score": null,
             "severity": null,
             "tweets": [
-                {
-                    "created_at": "2023-03-25 18:13",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1639692011434561537",
-                    "tweet_text": "CVE-2023-1635 | OTCMS 6.72 apiRun.php AutoRun mode cross site scripting https://t.co/CU2vtE4Jc4",
-                    "twitter_user_handle": "glytcher001",
-                    "twitter_user_name": "glytcher",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
-                    "urls": []
-                },
                 {
                     "created_at": "2023-03-25 19:03",
                     "likes": 0,
@@ -858,6 +552,116 @@
                     "twitter_user_name": "www.sesin.at",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
                     "urls": []
+                },
+                {
+                    "created_at": "2023-03-25 20:00",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1639718854988267521",
+                    "tweet_text": "CVE-2023-1635 A vulnerability was found in OTCMS 6.72. It has been declared as problematic. Affected by this vulnerability is the function AutoRun of the file apiRun.php. The manipulation of the argument mode leads to cross site... https://t.co/FBPyWpOgWN",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": []
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "cna@vuldb.com",
+            "audience_size": 56367,
+            "cve": "CVE-2023-1458",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": "** DISPUTED ** A vulnerability has been found in Ubiquiti EdgeRouter X 2.0.9-hotfix.6 and classified as critical. Affected by this vulnerability is an unknown functionality of the component OSPF Handler. The manipulation of the argument area leads to command injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The associated identifier of this vulnerability is VDB-223303. NOTE: The vendor position is that post-authentication issues are not accepted as vulnerabilities.",
+            "epss_score": "0.00043",
+            "github_repos": [],
+            "lastModifiedDate": "2023-03-25T22:15Z",
+            "num_retweets": 2,
+            "num_tweets": 7,
+            "num_tweets_and_retweets": 9,
+            "publishedDate": "2023-03-25T22:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1679787490.0,
+                    "is_self": false,
+                    "num_comments": 1,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/1223i8k/cve20231458/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 189,
+                    "title": "CVE-2023-1458",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2023-1458"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-03-25 23:00",
+                    "likes": 0,
+                    "num_retweets": 2,
+                    "retweets": 0,
+                    "tweet_id": "1639764150011166723",
+                    "tweet_text": "CVE-2023-1458 ** DISPUTED ** A vulnerability has been found in Ubiquiti EdgeRouter X 2.0.9-hotfix.6 and classified as critical. Affected by this vulnerability is an unknown functionality of the component OSPF Handler. The manipulation of the argum... https://t.co/Cj7I1iAjDl",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-03-25 22:03",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1639749967060295680",
+                    "tweet_text": "CVE-2023-1458 : ** DISPUTED ** A vulnerability has been found in Ubiquiti EdgeRouter X 2.0.9-hotfix.6 and classified as critical. Affected by this vulnerability is an unknown functionality of the component OSPF Handler. The manipulation... https://t.co/01jvUvnBbB",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-03-25 22:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1639755768546164740",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-1458 \ud83d\udea8 ** DISPUTED ** A vulnerability has been found in Ubiquiti EdgeRouter X 2.0.9-hotfix.6 and classified as critical. Affected by this vulnerability is an unknown functionality of the component ... (click for more)  https://t.co/22MsGakktc",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-03-26 00:17",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1639783543978049536",
+                    "tweet_text": "New Vulnerability: CVE-2023-1458 https://t.co/I7GedIoPXV #InceptusSecure #UnderOurProtection",
+                    "twitter_user_handle": "Inceptus3",
+                    "twitter_user_name": "Inceptus",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1145455372267925504/p8wida9d_normal.png",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-03-26 00:40",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1639789362278813696",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-1458) has been published on https://t.co/kjKfV8cxsj",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
+                    "urls": []
                 }
             ],
             "vendor_advisories": [],
@@ -885,7 +689,7 @@
                 {
                     "created": 1679783917.0,
                     "is_self": false,
-                    "num_comments": 0,
+                    "num_comments": 1,
                     "reddit_url": "https://www.reddit.com/r/netcve/comments/1221t8w/cve20231457/",
                     "subreddit": "netcve",
                     "subreddit_subscribers": 189,
@@ -1058,8 +862,84 @@
             ],
             "vendor_advisories": [],
             "vendors": []
+        },
+        {
+            "assigner": null,
+            "audience_size": 47041,
+            "cve": "CVE-2023-28858",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": null,
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": null,
+            "num_retweets": 0,
+            "num_tweets": 1,
+            "num_tweets_and_retweets": 1,
+            "publishedDate": null,
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-03-26 20:00",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1640066137147822082",
+                    "tweet_text": "CVE-2023-28858 redis-py before 4.5.3, as used in ChatGPT and other products, leaves a connection open after canceling an async Redis command at an inopportune time (in the case of a pipeline operation), and can send response data to the client of ... https://t.co/Tujt4yZMAU",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": []
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": null,
+            "audience_size": 47041,
+            "cve": "CVE-2023-28859",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": null,
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": null,
+            "num_retweets": 0,
+            "num_tweets": 1,
+            "num_tweets_and_retweets": 1,
+            "publishedDate": null,
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-03-26 20:00",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1640066140612198401",
+                    "tweet_text": "CVE-2023-28859 redis-py through 4.5.3 leaves a connection open after canceling an async Redis command at an inopportune time (in the case of a non-pipeline operation), and can send response data to the client of an unrelated request. NOTE: this is... https://t.co/c5ep7YcfUZ",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": []
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2023-03-26 14:03:26"
+    "updated": "2023-03-26 20:03:34"
 }
