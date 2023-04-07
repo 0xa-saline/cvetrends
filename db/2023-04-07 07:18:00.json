@@ -2,7 +2,7 @@
     "data": [
         {
             "assigner": "cve@mitre.org",
-            "audience_size": 2582631,
+            "audience_size": 2598345,
             "cve": "CVE-2022-38181",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -19,9 +19,9 @@
             "epss_score": "0.22552",
             "github_repos": [],
             "lastModifiedDate": "2023-03-01T18:11Z",
-            "num_retweets": 16,
+            "num_retweets": 20,
             "num_tweets": 4,
-            "num_tweets_and_retweets": 20,
+            "num_tweets_and_retweets": 24,
             "publishedDate": "2022-10-25T19:15Z",
             "reddit_posts": [
                 {
@@ -64,7 +64,7 @@
                 {
                     "created_at": "2023-04-06 18:12",
                     "likes": 0,
-                    "num_retweets": 15,
+                    "num_retweets": 19,
                     "retweets": 0,
                     "tweet_id": "1644025303671382034",
                     "tweet_text": "In his latest post, @mmolgtm sheds light on a patching problem in Pixel 6 (GHSL-2023-005) that can leave your device vulnerable to a variant of CVE-2022-38181, enabling malicious apps to gain root access. Read \ud83d\udc49 https://t.co/My1wutUWJ7 https://t.co/uhS0o9gujk",
@@ -129,8 +129,89 @@
             ]
         },
         {
+            "assigner": "cybersecurity@hitachienergy.com",
+            "audience_size": 894058,
+            "cve": "CVE-2022-3682",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": 8.8,
+            "cvssv3_base_severity": "HIGH",
+            "cwes": [
+                {
+                    "cwe_description": "Unrestricted Upload of File with Dangerous Type",
+                    "cwe_id": "CWE-434"
+                }
+            ],
+            "description": "A vulnerability exists in the SDM600 file permission validation. An attacker could exploit the vulnerability by gaining access to the system and uploading a specially crafted message to the system node, which could result in Arbitrary code Executing. This issue affects: All SDM600 versions prior to version 1.2 FP3 HF4 (Build Nr. 1.2.23000.291) List of CPEs: * cpe:2.3:a:hitachienergy:sdm600:1.0:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.1:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.9002.257:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.10002.257:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.11002.149:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.12002.222:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.13002.72:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.14002.44:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.14002.92:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.14002.108:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.14002.182:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.14002.257:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.14002.342:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.14002.447:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.14002.481:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.14002.506:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.14002.566:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.20000.3174:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.21000.291:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.21000.931:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.21000.105:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:sdm600:1.2.23000.291:*:*:*:*:*:*:*",
+            "epss_score": "0.00050",
+            "github_repos": [],
+            "lastModifiedDate": "2023-04-04T16:52Z",
+            "num_retweets": 10,
+            "num_tweets": 2,
+            "num_tweets_and_retweets": 12,
+            "publishedDate": "2023-03-28T12:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1680007091.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/124ng95/cve20223682/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 196,
+                    "title": "CVE-2022-3682",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-3682"
+                }
+            ],
+            "score": 8.8,
+            "severity": "HIGH",
+            "tweets": [
+                {
+                    "created_at": "2023-04-07 07:00",
+                    "likes": 0,
+                    "num_retweets": 10,
+                    "retweets": 0,
+                    "tweet_id": "1644218647554973704",
+                    "tweet_text": "\ud83d\udea8CISA warns of critical flaws in industrial control systems from Hitachi, mySCADA Technologies, Industrial Control Links &amp; Nexx.\n\nTop concern: CVE-2022-3682 (CVSS: 9.9) in Hitachi Energy's MicroSCADA.\n\nLearn more: https://t.co/FVVGEPlpNN\n\n#cybersecurity #informationsecurity",
+                    "twitter_user_handle": "TheHackersNews",
+                    "twitter_user_name": "The Hacker News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1597647879811657728/FLgHrLHy_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-07 07:15",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644222229809360896",
+                    "tweet_text": "\ud83d\udea8CISA warns of critical flaws in industrial control systems from Hitachi, mySCADA Technologies, Industrial Control Links &amp; Nexx.\n\nTop concern: CVE-2022-3682 (CVSS: 9.9) in Hitachi Energy's MicroSCADA.\n\nLearn more: https://t.co/4eoa1yCXSv\n\n#cybersecurity #informationsecurity",
+                    "twitter_user_handle": "golinkco",
+                    "twitter_user_name": "GoLink.co - Decentralized Storage",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1592678815846875139/DXoZq0f4_normal.png",
+                    "urls": []
+                }
+            ],
+            "vendor_advisories": [
+                "https://search.abb.com/library/Download.aspx?DocumentID=8DBD000138&LanguageCode=en&DocumentPartId=&Action=Launch"
+            ],
+            "vendors": [
+                {
+                    "products": [
+                        {
+                            "product": "Sdm600",
+                            "versions": [
+                                "*"
+                            ]
+                        }
+                    ],
+                    "vendor": "Hitachienergy"
+                }
+            ]
+        },
+        {
             "assigner": null,
-            "audience_size": 141134,
+            "audience_size": 156918,
             "cve": "CVE-2023-27322",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -142,9 +223,9 @@
             "epss_score": null,
             "github_repos": [],
             "lastModifiedDate": null,
-            "num_retweets": 21,
+            "num_retweets": 27,
             "num_tweets": 1,
-            "num_tweets_and_retweets": 22,
+            "num_tweets_and_retweets": 28,
             "publishedDate": null,
             "reddit_posts": [],
             "score": null,
@@ -153,7 +234,7 @@
                 {
                     "created_at": "2023-04-06 17:12",
                     "likes": 0,
-                    "num_retweets": 21,
+                    "num_retweets": 27,
                     "retweets": 0,
                     "tweet_id": "1644010134958481411",
                     "tweet_text": "VM escapes in #Parallels Desktop are a common target for many researchers. @renorobertr details some local privilege escalation via setuid root binaries in his latest blog. His write-up includes root cause analysis of CVE-2023-27322, -27324, &amp; -27325. https://t.co/LkZFgsYHpD",
@@ -167,8 +248,133 @@
             "vendors": []
         },
         {
+            "assigner": "security-advisories@github.com",
+            "audience_size": 154590,
+            "cve": "CVE-2023-29017",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Control of Dynamically-Managed Code Resources",
+                    "cwe_id": "CWE-913"
+                }
+            ],
+            "description": "vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. Prior to version 3.9.15, vm2 was not properly handling host objects passed to `Error.prepareStackTrace` in case of unhandled async errors. A threat actor could bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version 3.9.15 of vm2. There are no known workarounds.",
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": "2023-04-06T20:17Z",
+            "num_retweets": 1,
+            "num_tweets": 11,
+            "num_tweets_and_retweets": 12,
+            "publishedDate": "2023-04-06T20:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1680819911.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12e07rw/cve202329017/",
+                    "subreddit": "Team_IT_Security",
+                    "subreddit_subscribers": 7,
+                    "title": "CVE-2023-29017",
+                    "upvotes": 1,
+                    "url": "https://tsecurity.de/de/1852962/Reverse-Engineering/Sicherheitsluecken/CVE-2023-29017/"
+                },
+                {
+                    "created": 1680813621.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/12dx8pb/cve202329017/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 196,
+                    "title": "CVE-2023-29017",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2023-29017"
+                },
+                {
+                    "created": 1680822452.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12e1dr9/cve202329017/",
+                    "subreddit": "Team_IT_Security",
+                    "subreddit_subscribers": 7,
+                    "title": "CVE-2023-29017",
+                    "upvotes": 1,
+                    "url": "https://tsecurity.de/de/1852992/Reverse-Engineering/Sicherheitsluecken/CVE-2023-29017/"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-04-06 22:00",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 0,
+                    "tweet_id": "1644082605808136194",
+                    "tweet_text": "CVE-2023-29017 vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. Prior to version 3.9.15, vm2 was not properly handling host objects passed to `Error.prepareStackTrace` in case of unhandled async errors.... https://t.co/I7vp8SSJJF",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-06 21:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644069124723691539",
+                    "tweet_text": "CVE-2023-29017 : vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. Prior to version 3.9.15, vm2 was not properly handling host objects passed to `Error.prepareStackTrace` in case of unhandled async er... https://t.co/Lyj4fEaBlL",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-06 21:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644074234887503875",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-29017 \ud83d\udea8 vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. Prior to version 3.9.15, vm2 was not properly handling host objects passed to `Error.prepareStackTrace`... (click for more)  https://t.co/KG4XkPf6Qu",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-07 00:00",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644112795347169282",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-29017) has been published on https://t.co/vynmjt1EwS",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-07 00:00",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644112801122721793",
+                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2023-29017) has been published on https://t.co/xEdwlC4kbV",
+                    "twitter_user_handle": "www_sesin_at",
+                    "twitter_user_name": "www.sesin.at",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
+                    "urls": []
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
             "assigner": "chrome-cve-admin@google.com",
-            "audience_size": 79254,
+            "audience_size": 88875,
             "cve": "CVE-2023-1214",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -185,9 +391,9 @@
             "epss_score": "0.00062",
             "github_repos": [],
             "lastModifiedDate": "2023-03-11T02:40Z",
-            "num_retweets": 6,
-            "num_tweets": 3,
-            "num_tweets_and_retweets": 9,
+            "num_retweets": 11,
+            "num_tweets": 5,
+            "num_tweets_and_retweets": 16,
             "publishedDate": "2023-03-07T22:15Z",
             "reddit_posts": [
                 {
@@ -219,7 +425,7 @@
                 {
                     "created_at": "2023-04-06 10:32",
                     "likes": 0,
-                    "num_retweets": 3,
+                    "num_retweets": 7,
                     "retweets": 0,
                     "tweet_id": "1643909512850489345",
                     "tweet_text": "GHSL-2023-023: Type confusion in the Chrome renderer - CVE-2023-1214 https://t.co/Rs5nn1S0WN",
@@ -231,7 +437,7 @@
                 {
                     "created_at": "2023-04-06 21:00",
                     "likes": 0,
-                    "num_retweets": 3,
+                    "num_retweets": 4,
                     "retweets": 0,
                     "tweet_id": "1644067625528446986",
                     "tweet_text": "GHSL-2023-023: Type confusion in the Chrome renderer - CVE-2023-1214 https://t.co/JLA0a2ZXGF  #Pentesting #CyberSecurity #Infosec https://t.co/5DjJh3TJhE",
@@ -251,6 +457,30 @@
                     "twitter_user_name": "\u4e8c\u672c\u677e\u54f2\u4e5f \u2662 qualias.eth",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1437738711756595200/xY4ZPYD6_normal.jpg",
                     "urls": []
+                },
+                {
+                    "created_at": "2023-04-07 05:04",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644189257366487040",
+                    "tweet_text": "I know no IPS that has a protection/signature/rule for the vulnerability CVE-2023-1214.\nThe vuln was published 30 days ago by NIST.\nhttps://t.co/V1cAbm2xgd\n#Srtlzjyqmihlis",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-07 05:04",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644189258280841216",
+                    "tweet_text": "The vuln CVE-2023-1214 has a tweet created 0 days ago and retweeted 8 times.\nhttps://t.co/DbMsCTGA8S\n#Srtlzjyqmihlis",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": []
                 }
             ],
             "vendor_advisories": [],
@@ -269,124 +499,250 @@
             ]
         },
         {
-            "assigner": "cve@mitre.org",
-            "audience_size": 66334,
-            "cve": "CVE-2023-29416",
+            "assigner": "security@qnap.com",
+            "audience_size": 69524,
+            "cve": "CVE-2022-27597",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
+            "cvssv3_base_score": 4.3,
+            "cvssv3_base_severity": "MEDIUM",
             "cwes": [],
-            "description": "An issue was discovered in libbzip3.a in bzip3 before 1.3.0. A bz3_decode_block out-of-bounds write can occur with a crafted archive because bzip3 does not follow the required procedure for interacting with libsais.",
-            "epss_score": "0.00045",
+            "description": "A vulnerability have been reported to affect multiple QNAP operating systems. If exploited, the vulnerability allow remote authenticated users to get secret values. The vulnerabilities affect the following QNAP operating systems: QTS, QuTS hero, QuTScloud, QVP (QVR Pro appliances) We have already fixed the vulnerabilities in the following operating system versions: QTS 5.0.1.2346 build 20230322 and later QuTS hero h5.0.1.2348 build 20230324 and later",
+            "epss_score": "0.00047",
             "github_repos": [],
-            "lastModifiedDate": "2023-04-06T12:55Z",
-            "num_retweets": 1,
-            "num_tweets": 10,
-            "num_tweets_and_retweets": 11,
-            "publishedDate": "2023-04-06T05:15Z",
+            "lastModifiedDate": "2023-04-06T18:16Z",
+            "num_retweets": 13,
+            "num_tweets": 12,
+            "num_tweets_and_retweets": 25,
+            "publishedDate": "2023-03-29T07:15Z",
             "reddit_posts": [
                 {
-                    "created": 1680822427.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12e1dd1/cve202329416/",
-                    "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 6,
-                    "title": "CVE-2023-29416",
-                    "upvotes": 1,
-                    "url": "https://tsecurity.de/de/1852988/Reverse-Engineering/Sicherheitsluecken/CVE-2023-29416/"
+                    "created": 1680086377.0,
+                    "is_self": true,
+                    "num_comments": 27,
+                    "reddit_url": "https://www.reddit.com/r/qnap/comments/125jxte/qts_5012346_firmware_released/",
+                    "subreddit": "qnap",
+                    "subreddit_subscribers": 22705,
+                    "title": "QTS 5.0.1.2346 firmware released",
+                    "upvotes": 5,
+                    "url": "https://www.reddit.com/r/qnap/comments/125jxte/qts_5012346_firmware_released/"
                 },
                 {
-                    "created": 1680762262.0,
+                    "created": 1680075482.0,
                     "is_self": false,
                     "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/12db9l1/cve202329416/",
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/125givo/cve202227597/",
                     "subreddit": "netcve",
                     "subreddit_subscribers": 196,
-                    "title": "CVE-2023-29416",
+                    "title": "CVE-2022-27597",
                     "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-29416"
-                },
-                {
-                    "created": 1680776860.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12dfr3l/cve202329416/",
-                    "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 6,
-                    "title": "CVE-2023-29416",
-                    "upvotes": 1,
-                    "url": "https://tsecurity.de/de/1852099/Reverse-Engineering/Sicherheitsluecken/CVE-2023-29416/"
+                    "url": "https://cve.report/CVE-2022-27597"
                 }
             ],
-            "score": null,
-            "severity": null,
+            "score": 4.3,
+            "severity": "MEDIUM",
             "tweets": [
                 {
-                    "created_at": "2023-04-06 07:11",
+                    "created_at": "2023-04-06 21:35",
                     "likes": 0,
-                    "num_retweets": 1,
+                    "num_retweets": 13,
                     "retweets": 0,
-                    "tweet_id": "1643858829795381248",
-                    "tweet_text": "Potentially Critical CVE Detected!\nCVE-2023-29416\nAn issue was discovered in libbzip3.a in bzip3 before 1.3.0. A bz3_decode_block out-of-bounds write can occur with a cra...\nCVSS: 8.65\n#CVE #CyberSecurity",
-                    "twitter_user_handle": "Robo_Alerts",
-                    "twitter_user_name": "Robo Shadow Alerts",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1439862150890237953/WjKa3G1I_normal.jpg",
+                    "tweet_id": "1644076407901896704",
+                    "tweet_text": "QNAP is urgently fixing #vulnerabilities (CVE-2022-27597 &amp; CVE-2022-27598) affecting 4 products, as they allow hackers to remotely access systems. Bugs have been fixed in 2 products so far. Users are urged to update firmware &amp; strengthen account security. https://t.co/5CHXVxKtuW",
+                    "twitter_user_handle": "TheRecord_Media",
+                    "twitter_user_name": "The Record From Recorded Future News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1294266034623586305/qkhbAIfM_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-06 06:03",
+                    "created_at": "2023-04-06 10:08",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1643841828846727168",
-                    "tweet_text": "CVE-2023-29416 : An issue was discovered in libbzip3.a in bzip3 before 1.3.0. A bz3_decode_block out-of-bounds write can occur with a crafted archive because bzip3 does not follow the required procedure for interacting with libsais.... https://t.co/mllJtoMMFh",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "tweet_id": "1643903459975114753",
+                    "tweet_text": "\ud83d\udca1Genesis Market\u306e\u30c7\u30fc\u30bf\u304cHave I Been Pwned\u3067\u691c\u7d22\u53ef\u80fd\u306b\uff1a\u300c\u30af\u30c3\u30ad\u30fc\u30e2\u30f3\u30b9\u30bf\u30fc\u4f5c\u6226\u300d\u306b\u3088\u308b\u30c6\u30a4\u30af\u30c0\u30a6\u30f3\u7d4c\u3066\n\n\u26a0\ufe0fQNAP\u88fd\u54c1\u306b\u30bc\u30ed\u30c7\u30a4\uff08CVE-2022-27597\u3001CVE-2022-27598\uff09\n\n\ud83d\udea8\u30b9\u30c6\u30a3\u30fc\u30e9\u30fcTyphon Reborn\u3001\u9ad8\u5ea6\u306a\u56de\u907f\u6280\u8853\u3092\u643a\u3048\u518d\u6d6e\u4e0a\n\n\u301c\u30b5\u30a4\u30d0\u30fc\u30a2\u30e9\u30fc\u30c8\u30004\u67086\u65e5\u301c\nhttps://t.co/RZt0SGcx0Z\n#OSINT",
+                    "twitter_user_handle": "MachinaRecord",
+                    "twitter_user_name": "Machina Record",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/774914029965881346/59SnPxq3_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-06 06:26",
+                    "created_at": "2023-04-06 19:27",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1643847733902553088",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-29416 \ud83d\udea8 An issue was discovered in libbzip3.a in bzip3 before 1.3.0. A bz3_decode_block out-of-bounds write can occur with a crafted archive because bzip3 does not follow the required procedure for ... (click for more)  https://t.co/o66lsXwz0i",
+                    "tweet_id": "1644044088214269953",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2022-27597 \ud83d\udea8 A vulnerability have been reported to affect multiple QNAP operating systems. If exploited, the vulnerability allow remote authenticated users to get secret values. The vulnerabilities affec... (click for more) Severity: MEDIUM https://t.co/Q3XNWNB3RU",
                     "twitter_user_handle": "threatintelctr",
                     "twitter_user_name": "Threat Intel Center",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-06 07:00",
+                    "created_at": "2023-04-06 21:31",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1643856177267191810",
-                    "tweet_text": "CVE-2023-29416 An issue was discovered in libbzip3.a in bzip3 before 1.3.0. A bz3_decode_block out-of-bounds write can occur with a crafted archive because bzip3 does not follow the required procedure for interacting with libsais. https://t.co/I7g902nCid",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "tweet_id": "1644075291487133696",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2022-27597 (qts, quts_hero, qutscloud, qvp-21a_firmware, qvp-41a_firmware, qvp-41b_firmware, qvp-63a_firmware, qvp-63b_firmware, qvp-85a_firmware, qvp-85b_firmware, qvr)) has been published on https://t.co/5PpL5zWqlN",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-06 09:46",
+                    "created_at": "2023-04-06 21:31",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1643898025524248576",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2023-29416 | bzip3 up to 1.2.x Archive libbzip3.a bz3_decode_block out-of-bounds write (ID 92)) has been published on https://t.co/Kfd7ibP2Mr",
+                    "tweet_id": "1644075294045753346",
+                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2022-27597 (qts, quts_hero, qutscloud, qvp-21a_firmware, qvp-41a_firmware, qvp-41b_firmware, qvp-63a_firmware, qvp-63b_firmware, qvp-85a_firmware, qvp-85b_firmware, qvr)) has been published on https://t.co/EZU1Z8YFOH",
                     "twitter_user_handle": "www_sesin_at",
                     "twitter_user_name": "www.sesin.at",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
                     "urls": []
                 }
             ],
-            "vendor_advisories": [],
-            "vendors": []
+            "vendor_advisories": [
+                "https://www.qnap.com/en/security-advisory/qsa-23-06"
+            ],
+            "vendors": [
+                {
+                    "products": [
+                        {
+                            "product": "Qutscloud",
+                            "versions": [
+                                "-"
+                            ]
+                        }
+                    ],
+                    "vendor": "Qnap"
+                }
+            ]
+        },
+        {
+            "assigner": "security@qnap.com",
+            "audience_size": 69524,
+            "cve": "CVE-2022-27598",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": 4.3,
+            "cvssv3_base_severity": "MEDIUM",
+            "cwes": [],
+            "description": "A vulnerability have been reported to affect multiple QNAP operating systems. If exploited, the vulnerability allow remote authenticated users to get secret values. The vulnerabilities affect the following QNAP operating systems: QTS, QuTS hero, QuTScloud, QVP (QVR Pro appliances) We have already fixed the vulnerabilities in the following operating system versions: QTS 5.0.1.2346 build 20230322 and later QuTS hero h5.0.1.2348 build 20230324 and later",
+            "epss_score": "0.00047",
+            "github_repos": [],
+            "lastModifiedDate": "2023-04-06T18:17Z",
+            "num_retweets": 13,
+            "num_tweets": 12,
+            "num_tweets_and_retweets": 25,
+            "publishedDate": "2023-03-29T07:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1680086377.0,
+                    "is_self": true,
+                    "num_comments": 27,
+                    "reddit_url": "https://www.reddit.com/r/qnap/comments/125jxte/qts_5012346_firmware_released/",
+                    "subreddit": "qnap",
+                    "subreddit_subscribers": 22705,
+                    "title": "QTS 5.0.1.2346 firmware released",
+                    "upvotes": 5,
+                    "url": "https://www.reddit.com/r/qnap/comments/125jxte/qts_5012346_firmware_released/"
+                },
+                {
+                    "created": 1680075483.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/125giw2/cve202227598/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 196,
+                    "title": "CVE-2022-27598",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2022-27598"
+                }
+            ],
+            "score": 4.3,
+            "severity": "MEDIUM",
+            "tweets": [
+                {
+                    "created_at": "2023-04-06 21:35",
+                    "likes": 0,
+                    "num_retweets": 13,
+                    "retweets": 0,
+                    "tweet_id": "1644076407901896704",
+                    "tweet_text": "QNAP is urgently fixing #vulnerabilities (CVE-2022-27597 &amp; CVE-2022-27598) affecting 4 products, as they allow hackers to remotely access systems. Bugs have been fixed in 2 products so far. Users are urged to update firmware &amp; strengthen account security. https://t.co/5CHXVxKtuW",
+                    "twitter_user_handle": "TheRecord_Media",
+                    "twitter_user_name": "The Record From Recorded Future News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1294266034623586305/qkhbAIfM_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-06 10:08",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1643903459975114753",
+                    "tweet_text": "\ud83d\udca1Genesis Market\u306e\u30c7\u30fc\u30bf\u304cHave I Been Pwned\u3067\u691c\u7d22\u53ef\u80fd\u306b\uff1a\u300c\u30af\u30c3\u30ad\u30fc\u30e2\u30f3\u30b9\u30bf\u30fc\u4f5c\u6226\u300d\u306b\u3088\u308b\u30c6\u30a4\u30af\u30c0\u30a6\u30f3\u7d4c\u3066\n\n\u26a0\ufe0fQNAP\u88fd\u54c1\u306b\u30bc\u30ed\u30c7\u30a4\uff08CVE-2022-27597\u3001CVE-2022-27598\uff09\n\n\ud83d\udea8\u30b9\u30c6\u30a3\u30fc\u30e9\u30fcTyphon Reborn\u3001\u9ad8\u5ea6\u306a\u56de\u907f\u6280\u8853\u3092\u643a\u3048\u518d\u6d6e\u4e0a\n\n\u301c\u30b5\u30a4\u30d0\u30fc\u30a2\u30e9\u30fc\u30c8\u30004\u67086\u65e5\u301c\nhttps://t.co/RZt0SGcx0Z\n#OSINT",
+                    "twitter_user_handle": "MachinaRecord",
+                    "twitter_user_name": "Machina Record",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/774914029965881346/59SnPxq3_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-06 19:27",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644044088176439306",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2022-27598 \ud83d\udea8 A vulnerability have been reported to affect multiple QNAP operating systems. If exploited, the vulnerability allow remote authenticated users to get secret values. The vulnerabilities affec... (click for more) Severity: MEDIUM https://t.co/3lY9WdRhTB",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-06 21:30",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644075246956212229",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2022-27598 (qts, quts_hero, qutscloud, qvp-21a_firmware, qvp-41a_firmware, qvp-41b_firmware, qvp-63a_firmware, qvp-63b_firmware, qvp-85a_firmware, qvp-85b_firmware)) has been published on https://t.co/TxLrZFy189",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-06 21:30",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644075249330257927",
+                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2022-27598 (qts, quts_hero, qutscloud, qvp-21a_firmware, qvp-41a_firmware, qvp-41b_firmware, qvp-63a_firmware, qvp-63b_firmware, qvp-85a_firmware, qvp-85b_firmware)) has been published on https://t.co/ppkFBVaPrd",
+                    "twitter_user_handle": "www_sesin_at",
+                    "twitter_user_name": "www.sesin.at",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
+                    "urls": []
+                }
+            ],
+            "vendor_advisories": [
+                "https://www.qnap.com/en/security-advisory/"
+            ],
+            "vendors": [
+                {
+                    "products": [
+                        {
+                            "product": "Qutscloud",
+                            "versions": [
+                                "-"
+                            ]
+                        }
+                    ],
+                    "vendor": "Qnap"
+                }
+            ]
         },
         {
             "assigner": "cna@vuldb.com",
@@ -429,7 +785,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12dm0hk/cve20231908/",
                     "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 6,
+                    "subreddit_subscribers": 7,
                     "title": "CVE-2023-1908",
                     "upvotes": 1,
                     "url": "https://tsecurity.de/de/1852452/Reverse-Engineering/Sicherheitsluecken/CVE-2023-1908/"
@@ -532,7 +888,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12dfo0y/cve202324006/",
                     "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 6,
+                    "subreddit_subscribers": 7,
                     "title": "CVE-2023-24006",
                     "upvotes": 1,
                     "url": "https://tsecurity.de/de/1852080/Reverse-Engineering/Sicherheitsluecken/CVE-2023-24006/"
@@ -610,240 +966,6 @@
                     "twitter_user_handle": "hernanespinoza",
                     "twitter_user_name": "Hernan Espinoza",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1547685026636017665/VkgyrG2V_normal.jpg",
-                    "urls": []
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "cve@mitre.org",
-            "audience_size": 62267,
-            "cve": "CVE-2023-29419",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "An issue was discovered in libbzip3.a in bzip3 before 1.2.3. There is a bz3_decode_block out-of-bounds read.",
-            "epss_score": "0.00045",
-            "github_repos": [],
-            "lastModifiedDate": "2023-04-06T12:55Z",
-            "num_retweets": 0,
-            "num_tweets": 11,
-            "num_tweets_and_retweets": 11,
-            "publishedDate": "2023-04-06T05:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1680822464.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12e1dyn/cve202329419/",
-                    "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 6,
-                    "title": "CVE-2023-29419",
-                    "upvotes": 1,
-                    "url": "https://tsecurity.de/de/1852994/Reverse-Engineering/Sicherheitsluecken/CVE-2023-29419/"
-                },
-                {
-                    "created": 1680762265.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/12db9lw/cve202329419/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 196,
-                    "title": "CVE-2023-29419",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-29419"
-                },
-                {
-                    "created": 1680776820.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12dfqkl/cve202329419/",
-                    "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 6,
-                    "title": "CVE-2023-29419",
-                    "upvotes": 1,
-                    "url": "https://tsecurity.de/de/1852096/Reverse-Engineering/Sicherheitsluecken/CVE-2023-29419/"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-04-06 06:04",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643842066475110401",
-                    "tweet_text": "CVE-2023-29419 : An issue was discovered in libbzip3.a in bzip3 before 1.2.3. There is a bz3_decode_block out-of-bounds read.... https://t.co/mFcJaGSQNk",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-06 06:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643847733923512320",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-29419 \ud83d\udea8 An issue was discovered in libbzip3.a in bzip3 before 1.2.3. There is a bz3_decode_block out-of-bounds read. https://t.co/Lr8z4jNjKD",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-06 07:00",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643856184967823367",
-                    "tweet_text": "CVE-2023-29419 An issue was discovered in libbzip3.a in bzip3 before 1.2.3. There is a bz3_decode_block out-of-bounds read. https://t.co/PkT7PBHfbB",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-06 09:56",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643900581541564421",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-29419 \ud83d\udea8 An issue was discovered in libbzip3.a in bzip3 before 1.2.3. There is a bz3_decode_block out-of-bounds read. https://t.co/Lr8z4jNjKD",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-06 12:15",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643935413445197825",
-                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-29419) has been published on https://t.co/lDsvXFmSPA",
-                    "twitter_user_handle": "WolfgangSesin",
-                    "twitter_user_name": "Wolfgang Sesin",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
-                    "urls": []
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "audit@patchstack.com",
-            "audience_size": 61634,
-            "cve": "CVE-2023-23971",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [
-                {
-                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
-                    "cwe_id": "CWE-79"
-                }
-            ],
-            "description": "Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in CodePeople WP Time Slots Booking Form plugin <= 1.1.81 versions.",
-            "epss_score": "0.00043",
-            "github_repos": [],
-            "lastModifiedDate": "2023-04-06T12:55Z",
-            "num_retweets": 0,
-            "num_tweets": 9,
-            "num_tweets_and_retweets": 9,
-            "publishedDate": "2023-04-06T06:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1680765175.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/12dc4rv/cve202323971/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 196,
-                    "title": "CVE-2023-23971",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-23971"
-                },
-                {
-                    "created": 1680776736.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12dfpfu/cve202323971/",
-                    "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 6,
-                    "title": "CVE-2023-23971",
-                    "upvotes": 1,
-                    "url": "https://tsecurity.de/de/1852089/Reverse-Engineering/Sicherheitsluecken/CVE-2023-23971/"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-04-06 07:00",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643856164961021952",
-                    "tweet_text": "CVE-2023-23971 Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in CodePeople WP Time Slots Booking Form plugin &lt;= 1.1.81 versions. https://t.co/Ee8aADwiPb",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-06 07:03",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643856940349489152",
-                    "tweet_text": "CVE-2023-23971 : Auth.  admin+  Stored Cross-Site Scripting  #XSS  vulnerability in CodePeople WP Time Slots Booking Form plugin &lt;= 1.1.81 versions.... https://t.co/LP1WmCQVwE",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-06 07:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643862834416058368",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-23971 \ud83d\udea8 Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in CodePeople WP Time Slots Booking Form plugin &lt;= 1.1.81 versions. https://t.co/JAFTwbbB4O",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-06 09:56",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643900581516394497",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-23971 \ud83d\udea8 Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in CodePeople WP Time Slots Booking Form plugin &lt;= 1.1.81 versions. https://t.co/JAFTwbbB4O",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-06 11:15",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643920318002601985",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2023-23971) has been published on https://t.co/BMzKCmdA0x",
-                    "twitter_user_handle": "www_sesin_at",
-                    "twitter_user_name": "www.sesin.at",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
                     "urls": []
                 }
             ],
@@ -935,122 +1057,8 @@
             ],
             "vendor_advisories": [],
             "vendors": []
-        },
-        {
-            "assigner": "audit@patchstack.com",
-            "audience_size": 59003,
-            "cve": "CVE-2023-23815",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [
-                {
-                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
-                    "cwe_id": "CWE-79"
-                }
-            ],
-            "description": "Auth. (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in Alan Jackson Multi-column Tag Map plugin <= 17.0.24 versions.",
-            "epss_score": "0.00043",
-            "github_repos": [],
-            "lastModifiedDate": "2023-04-06T12:55Z",
-            "num_retweets": 0,
-            "num_tweets": 10,
-            "num_tweets_and_retweets": 10,
-            "publishedDate": "2023-04-06T05:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1680776796.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12dfq97/cve202323815/",
-                    "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 6,
-                    "title": "CVE-2023-23815",
-                    "upvotes": 1,
-                    "url": "https://tsecurity.de/de/1852094/Reverse-Engineering/Sicherheitsluecken/CVE-2023-23815/"
-                },
-                {
-                    "created": 1680762260.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/12db9k6/cve202323815/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 196,
-                    "title": "CVE-2023-23815",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-23815"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-04-06 06:02",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643841510394216448",
-                    "tweet_text": "CVE-2023-23815 : Auth.  contributor+  Stored Cross-Site Scripting  #XSS  vulnerability in Alan Jackson Multi-column Tag Map plugin &lt;= 17.0.24 versions.... https://t.co/I6Uk9WfYnc",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-06 06:26",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643847733927616513",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-23815 \ud83d\udea8 Auth. (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in Alan Jackson Multi-column Tag Map plugin &lt;= 17.0.24 versions. https://t.co/qBfL6qXLyZ",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-06 07:00",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643856161957920768",
-                    "tweet_text": "CVE-2023-23815 Auth. (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in Alan Jackson Multi-column Tag Map plugin &lt;= 17.0.24 versions. https://t.co/VKe3k80Pga",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-06 11:15",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643920339083116545",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2023-23815) has been published on https://t.co/FqqYxTn1pD",
-                    "twitter_user_handle": "www_sesin_at",
-                    "twitter_user_name": "www.sesin.at",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-06 11:15",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1643920337090871296",
-                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-23815) has been published on https://t.co/YTQ8fiCkVC",
-                    "twitter_user_handle": "WolfgangSesin",
-                    "twitter_user_name": "Wolfgang Sesin",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
-                    "urls": []
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2023-04-07 00:55:29"
+    "updated": "2023-04-07 07:18:00"
 }
