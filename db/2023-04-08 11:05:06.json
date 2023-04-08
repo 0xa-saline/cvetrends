@@ -2,7 +2,7 @@
     "data": [
         {
             "assigner": "cybersecurity@hitachienergy.com",
-            "audience_size": 2189623,
+            "audience_size": 1221957,
             "cve": "CVE-2022-3682",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -19,9 +19,9 @@
             "epss_score": "0.00050",
             "github_repos": [],
             "lastModifiedDate": "2023-04-04T16:52Z",
-            "num_retweets": 57,
-            "num_tweets": 12,
-            "num_tweets_and_retweets": 69,
+            "num_retweets": 28,
+            "num_tweets": 6,
+            "num_tweets_and_retweets": 34,
             "publishedDate": "2023-03-28T12:15Z",
             "reddit_posts": [
                 {
@@ -30,7 +30,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/netcve/comments/124ng95/cve20223682/",
                     "subreddit": "netcve",
-                    "subreddit_subscribers": 196,
+                    "subreddit_subscribers": 197,
                     "title": "CVE-2022-3682",
                     "upvotes": 1,
                     "url": "https://cve.report/CVE-2022-3682"
@@ -40,21 +40,9 @@
             "severity": "HIGH",
             "tweets": [
                 {
-                    "created_at": "2023-04-07 07:00",
-                    "likes": 0,
-                    "num_retweets": 26,
-                    "retweets": 0,
-                    "tweet_id": "1644218647554973704",
-                    "tweet_text": "\ud83d\udea8CISA warns of critical flaws in industrial control systems from Hitachi, mySCADA Technologies, Industrial Control Links &amp; Nexx.\n\nTop concern: CVE-2022-3682 (CVSS: 9.9) in Hitachi Energy's MicroSCADA.\n\nLearn more: https://t.co/FVVGEPlpNN\n\n#cybersecurity #informationsecurity",
-                    "twitter_user_handle": "TheHackersNews",
-                    "twitter_user_name": "The Hacker News",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1597647879811657728/FLgHrLHy_normal.jpg",
-                    "urls": []
-                },
-                {
                     "created_at": "2023-04-07 14:21",
                     "likes": 0,
-                    "num_retweets": 20,
+                    "num_retweets": 23,
                     "retweets": 0,
                     "tweet_id": "1644329426908491776",
                     "tweet_text": "\ud83d\udea8CISA warns of critical flaws in industrial control systems from Hitachi, mySCADA Technologies, Industrial Control Links &amp; Nexx.\n\nTop concern: CVE-2022-3682 (CVSS: 9.9) in Hitachi Energy's MicroSCADA.\n\nLearn more: https://t.co/FVVGEPlXDl\n\n#cybersecurity #informationsecurity",
@@ -76,27 +64,39 @@
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-07 09:20",
+                    "created_at": "2023-04-07 11:21",
                     "likes": 0,
-                    "num_retweets": 4,
+                    "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1644253678008942592",
-                    "tweet_text": "\ud83d\udea8CISA warns of critical flaws in industrial control systems from Hitachi, mySCADA Technologies, Industrial Control Links &amp; Nexx.\n\nTop concern: CVE-2022-3682 (CVSS: 9.9) in Hitachi Energy's MicroSCADA.\n\nLearn more: https://t.co/E90hTNcmuT\n\n#cybersecurity #informationsecurity",
-                    "twitter_user_handle": "unix_root",
-                    "twitter_user_name": "Mohit Kumar",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1595089203418628098/w5E4iShA_normal.jpg",
+                    "tweet_id": "1644284128572080129",
+                    "tweet_text": "\ud83d\udea8CISA warns of critical flaws in industrial control systems from Hitachi, mySCADA Technologies, Industrial Control Links &amp; Nexx.\n\nTop concern: CVE-2022-3682 (CVSS: 9.9) in Hitachi Energy's MicroSCADA.\n\nLearn more: https://t.co/d7BcdiwkoN\n\n#cybersecurity #informationsecurity",
+                    "twitter_user_handle": "security_wang",
+                    "twitter_user_name": "Wang Wei",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/3023866949/a9092492e690a9b69ecd930477cc51cf_normal.png",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-07 07:20",
+                    "created_at": "2023-04-07 13:52",
                     "likes": 0,
-                    "num_retweets": 1,
+                    "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1644223479091281920",
-                    "tweet_text": "\ud83d\udea8CISA warns of critical flaws in industrial control systems from Hitachi, mySCADA Technologies, Industrial Control Links &amp; Nexx.\n\nTop concern: CVE-2022-3682 (CVSS: 9.9) in Hitachi Energy's MicroSCADA.\n\nLearn more: https://t.co/l6Acaypy2o\n\n#cybersecurity #informationsecurity",
-                    "twitter_user_handle": "Swati_THN",
-                    "twitter_user_name": "Swati Khandelwal",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1167522933482196992/a5LZk63J_normal.jpg",
+                    "tweet_id": "1644322164332429312",
+                    "tweet_text": "Topping the list is CVE-2022-3682 (CVSS score: 9.9), impacting Hitachi Energy's MicroSCADA System Data Manager SDM600 that could allow an attacker to take remote control of the product. https://t.co/eqiq7X4PFl",
+                    "twitter_user_handle": "jbhall56",
+                    "twitter_user_name": "Jeff Hall - PCI Guru - #StandWithUkraine",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1540691168102535168/aId_ATMN_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-07 14:00",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644324157310615554",
+                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2022-38181: 2.6M (audience size)\nCVE-2022-3682: 975.6K\nCVE-2022-27597: 166.4K\n\nPast 7 days:\nCVE-2022-38181: 2.6M\nCVE-2013-3900: 1.9M\nCVE-2023-29218: 1.8M\n\nhttps://t.co/LhpwNP6xog",
+                    "twitter_user_handle": "CVEtrends",
+                    "twitter_user_name": "CVE Trends",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
                     "urls": []
                 }
             ],
@@ -118,8 +118,133 @@
             ]
         },
         {
+            "assigner": "security-advisories@github.com",
+            "audience_size": 1016150,
+            "cve": "CVE-2023-29017",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Control of Dynamically-Managed Code Resources",
+                    "cwe_id": "CWE-913"
+                }
+            ],
+            "description": "vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. Prior to version 3.9.15, vm2 was not properly handling host objects passed to `Error.prepareStackTrace` in case of unhandled async errors. A threat actor could bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version 3.9.15 of vm2. There are no known workarounds.",
+            "epss_score": "0.00064",
+            "github_repos": [],
+            "lastModifiedDate": "2023-04-06T20:17Z",
+            "num_retweets": 30,
+            "num_tweets": 14,
+            "num_tweets_and_retweets": 44,
+            "publishedDate": "2023-04-06T20:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1680813621.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/12dx8pb/cve202329017/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 197,
+                    "title": "CVE-2023-29017",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2023-29017"
+                },
+                {
+                    "created": 1680819911.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12e07rw/cve202329017/",
+                    "subreddit": "Team_IT_Security",
+                    "subreddit_subscribers": 10,
+                    "title": "CVE-2023-29017",
+                    "upvotes": 1,
+                    "url": "https://tsecurity.de/de/1852962/Reverse-Engineering/Sicherheitsluecken/CVE-2023-29017/"
+                },
+                {
+                    "created": 1680822452.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12e1dr9/cve202329017/",
+                    "subreddit": "Team_IT_Security",
+                    "subreddit_subscribers": 10,
+                    "title": "CVE-2023-29017",
+                    "upvotes": 1,
+                    "url": "https://tsecurity.de/de/1852992/Reverse-Engineering/Sicherheitsluecken/CVE-2023-29017/"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-04-08 06:05",
+                    "likes": 0,
+                    "num_retweets": 25,
+                    "retweets": 0,
+                    "tweet_id": "1644567110398488577",
+                    "tweet_text": "Critical RCE flaw (CVE-2023-29017) discovered in popular #JavaScript sandbox module vm2. All versions, including 3.9.14 and prior, affected.\n\nLearn more: https://t.co/WTT6JtMFx8\n\n#cybersecurity #informationsecurity",
+                    "twitter_user_handle": "TheHackersNews",
+                    "twitter_user_name": "The Hacker News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1597647879811657728/FLgHrLHy_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-07 11:32",
+                    "likes": 0,
+                    "num_retweets": 2,
+                    "retweets": 0,
+                    "tweet_id": "1644286934251110402",
+                    "tweet_text": "vm2\u3067\u30b5\u30f3\u30c9\u30dc\u30c3\u30af\u30b9\u30a8\u30b9\u30b1\u30fc\u30d7\u306e\u8106\u5f31\u6027\u3002\n\nCVE-2023-29017\nhttps://t.co/XY02dDA1LL",
+                    "twitter_user_handle": "autumn_good_35",
+                    "twitter_user_name": "Autumn Good",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/753613417236172800/eRXIGCi1_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-08 02:27",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 0,
+                    "tweet_id": "1644512161572728832",
+                    "tweet_text": "Javascript\u306e\u30b5\u30f3\u30c9\u30dc\u30c3\u30af\u30b9\u30e9\u30a4\u30d6\u30e9\u30eaVM2\u306b\u304a\u3051\u308b\u3001\u30b5\u30f3\u30c9\u30dc\u30c3\u30af\u30b9\u306e\u4fdd\u8b77\u3092\u8fc2\u56de\u3057\u3066\u306e\u4efb\u610f\u30b3\u30fc\u30c9\u5b9f\u884c\u8106\u5f31\u6027(CVE-2023-29017, CVSSv3: 10.0)\u3092\u60aa\u7528\u3059\u308bPoC\uff08\u6982\u5ff5\u5b9f\u8a3c\u30b3\u30fc\u30c9\uff09\u304c\u516c\u958b\u3055\u308c\u305f\u3002VM2\u306f\u6708\u9593\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u65701,600\u4e07\u4ef6\u3067\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30c4\u30fc\u30eb\u3082\u542b\u3080\u591a\u69d8\u306a\u88fd\u54c1\u304c\u4f7f\u7528\u3002 https://t.co/ehuMTCf0V9",
+                    "twitter_user_handle": "__kokumoto",
+                    "twitter_user_name": "kokum\u0585t\u0585",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1612504196720492544/T_-s-6OP_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-08 06:53",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 0,
+                    "tweet_id": "1644579258235342848",
+                    "tweet_text": "Critical RCE flaw (CVE-2023-29017) discovered in popular #JavaScript sandbox module vm2. All versions, including 3.9.14 and prior, affected.\n\nLearn more: https://t.co/b9DLysd7YR\n\n#cybersecurity #informationsecurity",
+                    "twitter_user_handle": "RtHackerNews",
+                    "twitter_user_name": "RT Hacker News",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1260973000884580446/r6C7vsoX_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-08 09:25",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 0,
+                    "tweet_id": "1644617323980914688",
+                    "tweet_text": "Critical RCE flaw (CVE-2023-29017) discovered in popular #JavaScript sandbox module vm2. All versions, including 3.9.14 and prior, affected.\n\nLearn more: https://t.co/kdYkCtbI1a\n\n#cybersecurity #informationsecurity",
+                    "twitter_user_handle": "unix_root",
+                    "twitter_user_name": "Mohit Kumar",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1595089203418628098/w5E4iShA_normal.jpg",
+                    "urls": []
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
             "assigner": null,
-            "audience_size": 477012,
+            "audience_size": 546594,
             "cve": "CVE-2023-28206",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -131,9 +256,9 @@
             "epss_score": null,
             "github_repos": [],
             "lastModifiedDate": null,
-            "num_retweets": 24,
-            "num_tweets": 23,
-            "num_tweets_and_retweets": 47,
+            "num_retweets": 34,
+            "num_tweets": 28,
+            "num_tweets_and_retweets": 62,
             "publishedDate": null,
             "reddit_posts": [
                 {
@@ -142,7 +267,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12f17nf/cve202328206_apple_iosipados_up_to_1640/",
                     "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 8,
+                    "subreddit_subscribers": 10,
                     "title": "CVE-2023-28206 | Apple iOS/iPadOS up to 16.4.0 IOSurfaceAccelerator out-of-bounds write (HT213720)",
                     "upvotes": 1,
                     "url": "https://tsecurity.de/de/1853928/Reverse-Engineering/Sicherheitsluecken/CVE-2023-28206-Apple-iOS/iPadOS-up-to-16.4.0-IOSurfaceAccelerator-out-of-bounds-write-HT213720/"
@@ -153,7 +278,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12f17b7/cve202328206_apple_macos_up_to_1330/",
                     "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 8,
+                    "subreddit_subscribers": 10,
                     "title": "CVE-2023-28206 | Apple macOS up to 13.3.0 IOSurfaceAccelerator out-of-bounds write (HT213721)",
                     "upvotes": 1,
                     "url": "https://tsecurity.de/de/1853925/Reverse-Engineering/Sicherheitsluecken/CVE-2023-28206-Apple-macOS-up-to-13.3.0-IOSurfaceAccelerator-out-of-bounds-write-HT213721/"
@@ -164,7 +289,7 @@
                     "num_comments": 3,
                     "reddit_url": "https://www.reddit.com/r/ios/comments/12eweut/only_update_security_updates_but_not_ios_version/",
                     "subreddit": "ios",
-                    "subreddit_subscribers": 261033,
+                    "subreddit_subscribers": 261067,
                     "title": "Only update security updates but not iOS version",
                     "upvotes": 1,
                     "url": "https://www.reddit.com/r/ios/comments/12eweut/only_update_security_updates_but_not_ios_version/"
@@ -176,7 +301,7 @@
                 {
                     "created_at": "2023-04-07 20:00",
                     "likes": 0,
-                    "num_retweets": 11,
+                    "num_retweets": 18,
                     "retweets": 0,
                     "tweet_id": "1644414786871136256",
                     "tweet_text": "\ud83c\udfaf@_clem1 is at it again! Apple patched 2 new iOS in-the-wild 0days: CVE-2023-28205 in Safari and CVE-2023-28206 in IOSurfaceAccelerator\n#itw0days\n\nhttps://t.co/TDGbwk3Bb0",
@@ -188,7 +313,7 @@
                 {
                     "created_at": "2023-04-07 18:42",
                     "likes": 0,
-                    "num_retweets": 6,
+                    "num_retweets": 7,
                     "retweets": 0,
                     "tweet_id": "1644395257600122902",
                     "tweet_text": "\ud83d\udce3 EMERGENCY UPDATES \ud83d\udce3\n\nApple pushed updates for 2 new zero-days that may have been actively exploited.\n\n\ud83d\udc1b CVE-2023-28206 (IOSurfaceAccelerator):\n- macOS Ventura 13.3.1\n- iOS and iPadOS 16.4.1\n\n\ud83d\udc1b CVE-2023-28205 (WebKit):\n- macOS Ventura 13.3.1\n- iOS and iPadOS 16.4.1",
@@ -200,7 +325,7 @@
                 {
                     "created_at": "2023-04-08 03:02",
                     "likes": 0,
-                    "num_retweets": 4,
+                    "num_retweets": 5,
                     "retweets": 0,
                     "tweet_id": "1644521030311108608",
                     "tweet_text": "Apple\u304ciPhone\u3001Mac\u53ca\u3073iPad\u306e\u30cf\u30c3\u30ad\u30f3\u30b0\u306b\u7528\u3044\u3089\u308c\u305f\u65b0\u898f\u30bc\u30ed\u30c7\u30a4\u8106\u5f31\u60272\u4ef6\u3092\u4fee\u6b63\u3002IOSurfaceAccelerator\u306b\u304a\u3051\u308b\u5883\u754c\u5916\u66f8\u304d\u8fbc\u307f(CVE-2023-28206)\uff08\u60aa\u610f\u3042\u308b\u30a2\u30d7\u30ea\u304b\u3089\u30ab\u30fc\u30cd\u30eb\u6a29\u9650\u3067\u306e\u4efb\u610f\u30b3\u30fc\u30c9\u5b9f\u884c\u306e\u53ef\u80fd\u6027\uff09\u53ca\u3073WebKit\u306b\u304a\u3051\u308b\u30e1\u30e2\u30ea\u89e3\u653e\u5f8c\u4f7f\u7528(CVE-2023-28205)\u3002 https://t.co/uAoGCSbwnj",
@@ -239,7 +364,7 @@
         },
         {
             "assigner": null,
-            "audience_size": 333046,
+            "audience_size": 400857,
             "cve": "CVE-2023-28205",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -251,9 +376,9 @@
             "epss_score": null,
             "github_repos": [],
             "lastModifiedDate": null,
-            "num_retweets": 25,
-            "num_tweets": 26,
-            "num_tweets_and_retweets": 51,
+            "num_retweets": 36,
+            "num_tweets": 31,
+            "num_tweets_and_retweets": 67,
             "publishedDate": null,
             "reddit_posts": [
                 {
@@ -262,7 +387,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12f1718/cve202328205_apple_macos_up_to_1330_webkit_use/",
                     "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 8,
+                    "subreddit_subscribers": 10,
                     "title": "CVE-2023-28205 | Apple macOS up to 13.3.0 WebKit use after free (HT213721)",
                     "upvotes": 1,
                     "url": "https://tsecurity.de/de/1853924/Reverse-Engineering/Sicherheitsluecken/CVE-2023-28205-Apple-macOS-up-to-13.3.0-WebKit-use-after-free-HT213721/"
@@ -273,7 +398,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12f17lh/cve202328205_apple_iosipados_up_to_1640_webkit/",
                     "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 8,
+                    "subreddit_subscribers": 10,
                     "title": "CVE-2023-28205 | Apple iOS/iPadOS up to 16.4.0 WebKit use after free (HT213720)",
                     "upvotes": 1,
                     "url": "https://tsecurity.de/de/1853927/Reverse-Engineering/Sicherheitsluecken/CVE-2023-28205-Apple-iOS/iPadOS-up-to-16.4.0-WebKit-use-after-free-HT213720/"
@@ -284,7 +409,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12f17dx/cve202328205_apple_safari_up_to_1640_webkit_use/",
                     "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 8,
+                    "subreddit_subscribers": 10,
                     "title": "CVE-2023-28205 | Apple Safari up to 16.4.0 WebKit use after free (HT213722)",
                     "upvotes": 1,
                     "url": "https://tsecurity.de/de/1853926/Reverse-Engineering/Sicherheitsluecken/CVE-2023-28205-Apple-Safari-up-to-16.4.0-WebKit-use-after-free-HT213722/"
@@ -296,7 +421,7 @@
                 {
                     "created_at": "2023-04-07 20:00",
                     "likes": 0,
-                    "num_retweets": 11,
+                    "num_retweets": 18,
                     "retweets": 0,
                     "tweet_id": "1644414786871136256",
                     "tweet_text": "\ud83c\udfaf@_clem1 is at it again! Apple patched 2 new iOS in-the-wild 0days: CVE-2023-28205 in Safari and CVE-2023-28206 in IOSurfaceAccelerator\n#itw0days\n\nhttps://t.co/TDGbwk3Bb0",
@@ -308,7 +433,7 @@
                 {
                     "created_at": "2023-04-07 18:42",
                     "likes": 0,
-                    "num_retweets": 6,
+                    "num_retweets": 7,
                     "retweets": 0,
                     "tweet_id": "1644395257600122902",
                     "tweet_text": "\ud83d\udce3 EMERGENCY UPDATES \ud83d\udce3\n\nApple pushed updates for 2 new zero-days that may have been actively exploited.\n\n\ud83d\udc1b CVE-2023-28206 (IOSurfaceAccelerator):\n- macOS Ventura 13.3.1\n- iOS and iPadOS 16.4.1\n\n\ud83d\udc1b CVE-2023-28205 (WebKit):\n- macOS Ventura 13.3.1\n- iOS and iPadOS 16.4.1",
@@ -320,7 +445,7 @@
                 {
                     "created_at": "2023-04-08 03:02",
                     "likes": 0,
-                    "num_retweets": 4,
+                    "num_retweets": 5,
                     "retweets": 0,
                     "tweet_id": "1644521030311108608",
                     "tweet_text": "Apple\u304ciPhone\u3001Mac\u53ca\u3073iPad\u306e\u30cf\u30c3\u30ad\u30f3\u30b0\u306b\u7528\u3044\u3089\u308c\u305f\u65b0\u898f\u30bc\u30ed\u30c7\u30a4\u8106\u5f31\u60272\u4ef6\u3092\u4fee\u6b63\u3002IOSurfaceAccelerator\u306b\u304a\u3051\u308b\u5883\u754c\u5916\u66f8\u304d\u8fbc\u307f(CVE-2023-28206)\uff08\u60aa\u610f\u3042\u308b\u30a2\u30d7\u30ea\u304b\u3089\u30ab\u30fc\u30cd\u30eb\u6a29\u9650\u3067\u306e\u4efb\u610f\u30b3\u30fc\u30c9\u5b9f\u884c\u306e\u53ef\u80fd\u6027\uff09\u53ca\u3073WebKit\u306b\u304a\u3051\u308b\u30e1\u30e2\u30ea\u89e3\u653e\u5f8c\u4f7f\u7528(CVE-2023-28205)\u3002 https://t.co/uAoGCSbwnj",
@@ -359,7 +484,7 @@
         },
         {
             "assigner": "security.cna@qualcomm.com",
-            "audience_size": 179246,
+            "audience_size": 181789,
             "cve": "CVE-2022-25664",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -376,9 +501,9 @@
             "epss_score": "0.00043",
             "github_repos": [],
             "lastModifiedDate": "2022-10-20T21:17Z",
-            "num_retweets": 14,
+            "num_retweets": 20,
             "num_tweets": 2,
-            "num_tweets_and_retweets": 16,
+            "num_tweets_and_retweets": 22,
             "publishedDate": "2022-10-19T11:15Z",
             "reddit_posts": [
                 {
@@ -387,7 +512,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/netcve/comments/y80dwj/cve202225664/",
                     "subreddit": "netcve",
-                    "subreddit_subscribers": 196,
+                    "subreddit_subscribers": 197,
                     "title": "CVE-2022-25664",
                     "upvotes": 1,
                     "url": "https://cve.report/CVE-2022-25664"
@@ -399,7 +524,7 @@
                 {
                     "created_at": "2023-04-07 17:30",
                     "likes": 0,
-                    "num_retweets": 14,
+                    "num_retweets": 20,
                     "retweets": 0,
                     "tweet_id": "1644377059714531332",
                     "tweet_text": "Great blog post by @mmolgtm on CVE-2022-25664\nA vulnerability in the Qualcomm Adreno GPU that can be used to leak large amounts of information at the page level in the user space and kernel space \n\nhttps://t.co/Po8CoOm2YP \n\n#infosec #cybersecurity #cve #exploit #android https://t.co/cQo55MPscx",
@@ -427,380 +552,186 @@
             "vendors": []
         },
         {
-            "assigner": "security@qnap.com",
-            "audience_size": 143307,
-            "cve": "CVE-2022-27597",
+            "assigner": "secure@microsoft.com",
+            "audience_size": 140422,
+            "cve": "CVE-2022-38023",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
-            "cvssv3_base_score": 4.3,
-            "cvssv3_base_severity": "MEDIUM",
+            "cvssv3_base_score": 8.1,
+            "cvssv3_base_severity": "HIGH",
             "cwes": [],
-            "description": "A vulnerability have been reported to affect multiple QNAP operating systems. If exploited, the vulnerability allow remote authenticated users to get secret values. The vulnerabilities affect the following QNAP operating systems: QTS, QuTS hero, QuTScloud, QVP (QVR Pro appliances) We have already fixed the vulnerabilities in the following operating system versions: QTS 5.0.1.2346 build 20230322 and later QuTS hero h5.0.1.2348 build 20230324 and later",
-            "epss_score": "0.00056",
+            "description": "Netlogon RPC Elevation of Privilege Vulnerability",
+            "epss_score": "0.00165",
             "github_repos": [],
-            "lastModifiedDate": "2023-04-06T18:16Z",
-            "num_retweets": 25,
-            "num_tweets": 12,
-            "num_tweets_and_retweets": 37,
-            "publishedDate": "2023-03-29T07:15Z",
+            "lastModifiedDate": "2023-03-10T18:15Z",
+            "num_retweets": 4,
+            "num_tweets": 7,
+            "num_tweets_and_retweets": 11,
+            "publishedDate": "2022-11-09T22:15Z",
             "reddit_posts": [
                 {
-                    "created": 1680086377.0,
+                    "created": 1680712112.0,
                     "is_self": true,
-                    "num_comments": 27,
-                    "reddit_url": "https://www.reddit.com/r/qnap/comments/125jxte/qts_5012346_firmware_released/",
-                    "subreddit": "qnap",
-                    "subreddit_subscribers": 22713,
-                    "title": "QTS 5.0.1.2346 firmware released",
-                    "upvotes": 7,
-                    "url": "https://www.reddit.com/r/qnap/comments/125jxte/qts_5012346_firmware_released/"
+                    "num_comments": 170,
+                    "reddit_url": "https://www.reddit.com/r/sysadmin/comments/12cptda/microsoft_ticking_timebombs_april_2023_edition/",
+                    "subreddit": "sysadmin",
+                    "subreddit_subscribers": 784567,
+                    "title": "Microsoft Ticking Timebombs - April 2023 Edition",
+                    "upvotes": 2449,
+                    "url": "https://www.reddit.com/r/sysadmin/comments/12cptda/microsoft_ticking_timebombs_april_2023_edition/"
                 },
                 {
-                    "created": 1680075482.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/125givo/cve202227597/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 196,
-                    "title": "CVE-2022-27597",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-27597"
-                }
-            ],
-            "score": 4.3,
-            "severity": "MEDIUM",
-            "tweets": [
-                {
-                    "created_at": "2023-04-07 10:57",
-                    "likes": 0,
-                    "num_retweets": 25,
-                    "retweets": 0,
-                    "tweet_id": "1644278088686264320",
-                    "tweet_text": "QNAP ha solucionando con urgencia graves vulnerabilidades (CVE-2022-27597, CVE-2022-27598, CVE-2023-22809) \nhttps://t.co/deIWcYiwPT\n\n\ud83c\udf10Shodan muestra m\u00e1s de 80,000 QNAP expuestos a\u00fan con vulnerabilidades\n\n\u27a1\ufe0fSe insta usuarios a actualizar el firmware \u2b07\ufe0f\nhttps://t.co/Kf7MO5Bxtt",
-                    "twitter_user_handle": "elhackernet",
-                    "twitter_user_name": "elhacker.NET",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1330969532/e-peq1_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-07 05:06",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1644189758648643585",
-                    "tweet_text": "The vuln CVE-2022-27597 has a tweet created 0 days ago and retweeted 12 times.\nhttps://t.co/eSdZoKD9YU\n#pow1rtrtwwcve",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-07 05:08",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1644190262682349574",
-                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the third retweeted(12 times) tweet that contains CVE ID between Apr 6 2023 04:01 UTC and Apr 7 2023 04:00 UTC is:\nhttps://t.co/eSdZoKD9YU\nIt has CVE-2022-27597. #l24_i5ok5uxicfdmw",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-07 07:08",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1644220463088824322",
-                    "tweet_text": "(Same from about 4 hours ago.)\nI think that the third retweeted(12 times) tweet that contains CVE ID between Apr 6 2023 06:01 UTC and Apr 7 2023 06:00 UTC is:\nhttps://t.co/eSdZoKD9YU\nIt has CVE-2022-27597. #l24_i5ok5uxicfdmw",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-07 09:08",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1644250661997953024",
-                    "tweet_text": "(Same from about 6 hours ago.)\nI think that the third retweeted(15 times) tweet that contains CVE ID between Apr 6 2023 08:01 UTC and Apr 7 2023 08:00 UTC is:\nhttps://t.co/eSdZoKD9YU\nIt has CVE-2022-27597. #l24_i5ok5uxicfdmw",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-                    "urls": []
-                }
-            ],
-            "vendor_advisories": [
-                "https://www.qnap.com/en/security-advisory/qsa-23-06"
-            ],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Qutscloud",
-                            "versions": [
-                                "-"
-                            ]
-                        }
-                    ],
-                    "vendor": "Qnap"
-                }
-            ]
-        },
-        {
-            "assigner": "security@qnap.com",
-            "audience_size": 137361,
-            "cve": "CVE-2022-27598",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": 4.3,
-            "cvssv3_base_severity": "MEDIUM",
-            "cwes": [],
-            "description": "A vulnerability have been reported to affect multiple QNAP operating systems. If exploited, the vulnerability allow remote authenticated users to get secret values. The vulnerabilities affect the following QNAP operating systems: QTS, QuTS hero, QuTScloud, QVP (QVR Pro appliances) We have already fixed the vulnerabilities in the following operating system versions: QTS 5.0.1.2346 build 20230322 and later QuTS hero h5.0.1.2348 build 20230324 and later",
-            "epss_score": "0.00056",
-            "github_repos": [],
-            "lastModifiedDate": "2023-04-06T18:17Z",
-            "num_retweets": 25,
-            "num_tweets": 11,
-            "num_tweets_and_retweets": 36,
-            "publishedDate": "2023-03-29T07:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1680086377.0,
+                    "created": 1675540877.0,
                     "is_self": true,
-                    "num_comments": 27,
-                    "reddit_url": "https://www.reddit.com/r/qnap/comments/125jxte/qts_5012346_firmware_released/",
-                    "subreddit": "qnap",
-                    "subreddit_subscribers": 22713,
-                    "title": "QTS 5.0.1.2346 firmware released",
-                    "upvotes": 6,
-                    "url": "https://www.reddit.com/r/qnap/comments/125jxte/qts_5012346_firmware_released/"
+                    "num_comments": 174,
+                    "reddit_url": "https://www.reddit.com/r/sysadmin/comments/10tpq1v/microsoft_ticking_timebombs_february_2023_edition/",
+                    "subreddit": "sysadmin",
+                    "subreddit_subscribers": 784567,
+                    "title": "Microsoft Ticking Timebombs - February 2023 Edition",
+                    "upvotes": 2239,
+                    "url": "https://www.reddit.com/r/sysadmin/comments/10tpq1v/microsoft_ticking_timebombs_february_2023_edition/"
                 },
                 {
-                    "created": 1680075483.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/125giw2/cve202227598/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 196,
-                    "title": "CVE-2022-27598",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2022-27598"
+                    "created": 1673910612.0,
+                    "is_self": true,
+                    "num_comments": 330,
+                    "reddit_url": "https://www.reddit.com/r/sysadmin/comments/10dvneq/microsoft_ticking_timebombs_january_2023_edition/",
+                    "subreddit": "sysadmin",
+                    "subreddit_subscribers": 784567,
+                    "title": "Microsoft Ticking Timebombs - January 2023 Edition",
+                    "upvotes": 1814,
+                    "url": "https://www.reddit.com/r/sysadmin/comments/10dvneq/microsoft_ticking_timebombs_january_2023_edition/"
+                },
+                {
+                    "created": 1677947984.0,
+                    "is_self": true,
+                    "num_comments": 44,
+                    "reddit_url": "https://www.reddit.com/r/sysadmin/comments/11i51s0/microsoft_ticking_timebombs_march_2023_edition/",
+                    "subreddit": "sysadmin",
+                    "subreddit_subscribers": 784567,
+                    "title": "Microsoft Ticking Timebombs - March 2023 Edition",
+                    "upvotes": 514,
+                    "url": "https://www.reddit.com/r/sysadmin/comments/11i51s0/microsoft_ticking_timebombs_march_2023_edition/"
+                },
+                {
+                    "created": 1679406198.0,
+                    "is_self": true,
+                    "num_comments": 11,
+                    "reddit_url": "https://www.reddit.com/r/sysadmin/comments/11xhabi/april_windows_updates_will_break_ivanti_secure/",
+                    "subreddit": "sysadmin",
+                    "subreddit_subscribers": 784567,
+                    "title": "April Windows updates will break Ivanti Secure (former Pulse Secure) Kerberos authentication!",
+                    "upvotes": 21,
+                    "url": "https://www.reddit.com/r/sysadmin/comments/11xhabi/april_windows_updates_will_break_ivanti_secure/"
                 }
             ],
-            "score": 4.3,
-            "severity": "MEDIUM",
+            "score": 8.1,
+            "severity": "HIGH",
             "tweets": [
                 {
-                    "created_at": "2023-04-07 10:57",
+                    "created_at": "2023-04-08 06:36",
                     "likes": 0,
-                    "num_retweets": 25,
+                    "num_retweets": 3,
                     "retweets": 0,
-                    "tweet_id": "1644278088686264320",
-                    "tweet_text": "QNAP ha solucionando con urgencia graves vulnerabilidades (CVE-2022-27597, CVE-2022-27598, CVE-2023-22809) \nhttps://t.co/deIWcYiwPT\n\n\ud83c\udf10Shodan muestra m\u00e1s de 80,000 QNAP expuestos a\u00fan con vulnerabilidades\n\n\u27a1\ufe0fSe insta usuarios a actualizar el firmware \u2b07\ufe0f\nhttps://t.co/Kf7MO5Bxtt",
-                    "twitter_user_handle": "elhackernet",
-                    "twitter_user_name": "elhacker.NET",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1330969532/e-peq1_normal.png",
+                    "tweet_id": "1644574908242964481",
+                    "tweet_text": "Microsoft Netlogon: Potential Upcoming Impacts of CVE-2022-38023 https://t.co/G0Fxu8t2su https://t.co/nmFryvb9VF",
+                    "twitter_user_handle": "sans_isc",
+                    "twitter_user_name": "SANS.edu Internet Storm Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/30071042/twitter_isc_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-07 05:06",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1644189760418639873",
-                    "tweet_text": "The vuln CVE-2022-27598 has a tweet created 0 days ago and retweeted 12 times.\nhttps://t.co/eSdZoKD9YU\n#pow1rtrtwwcve",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-07 05:08",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1644190263554854913",
-                    "tweet_text": "(Same from about 2 hours ago.)\nI think that the third retweeted(12 times) tweet that contains CVE ID between Apr 6 2023 04:01 UTC and Apr 7 2023 04:00 UTC is:\nhttps://t.co/eSdZoKD9YU\nIt has CVE-2022-27598. #l24_cvyf5z5jejwx6",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-07 07:08",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1644220463915081734",
-                    "tweet_text": "(Same from about 4 hours ago.)\nI think that the third retweeted(12 times) tweet that contains CVE ID between Apr 6 2023 06:01 UTC and Apr 7 2023 06:00 UTC is:\nhttps://t.co/eSdZoKD9YU\nIt has CVE-2022-27598. #l24_cvyf5z5jejwx6",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-07 09:08",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1644250662811598848",
-                    "tweet_text": "(Same from about 6 hours ago.)\nI think that the third retweeted(15 times) tweet that contains CVE ID between Apr 6 2023 08:01 UTC and Apr 7 2023 08:00 UTC is:\nhttps://t.co/eSdZoKD9YU\nIt has CVE-2022-27598. #l24_cvyf5z5jejwx6",
-                    "twitter_user_handle": "ipssignatures",
-                    "twitter_user_name": "ipssignatures",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-                    "urls": []
-                }
-            ],
-            "vendor_advisories": [
-                "https://www.qnap.com/en/security-advisory/"
-            ],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Qutscloud",
-                            "versions": [
-                                "-"
-                            ]
-                        }
-                    ],
-                    "vendor": "Qnap"
-                }
-            ]
-        },
-        {
-            "assigner": "security-advisories@github.com",
-            "audience_size": 132209,
-            "cve": "CVE-2023-29017",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": null,
-            "cvssv3_base_severity": null,
-            "cwes": [
-                {
-                    "cwe_description": "Improper Control of Dynamically-Managed Code Resources",
-                    "cwe_id": "CWE-913"
-                }
-            ],
-            "description": "vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. Prior to version 3.9.15, vm2 was not properly handling host objects passed to `Error.prepareStackTrace` in case of unhandled async errors. A threat actor could bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version 3.9.15 of vm2. There are no known workarounds.",
-            "epss_score": "0.00064",
-            "github_repos": [],
-            "lastModifiedDate": "2023-04-06T20:17Z",
-            "num_retweets": 13,
-            "num_tweets": 16,
-            "num_tweets_and_retweets": 29,
-            "publishedDate": "2023-04-06T20:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1680813621.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/12dx8pb/cve202329017/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 196,
-                    "title": "CVE-2023-29017",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-29017"
-                },
-                {
-                    "created": 1680819911.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12e07rw/cve202329017/",
-                    "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 8,
-                    "title": "CVE-2023-29017",
-                    "upvotes": 1,
-                    "url": "https://tsecurity.de/de/1852962/Reverse-Engineering/Sicherheitsluecken/CVE-2023-29017/"
-                },
-                {
-                    "created": 1680822452.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12e1dr9/cve202329017/",
-                    "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 8,
-                    "title": "CVE-2023-29017",
-                    "upvotes": 1,
-                    "url": "https://tsecurity.de/de/1852992/Reverse-Engineering/Sicherheitsluecken/CVE-2023-29017/"
-                }
-            ],
-            "score": null,
-            "severity": null,
-            "tweets": [
-                {
-                    "created_at": "2023-04-07 07:06",
-                    "likes": 0,
-                    "num_retweets": 10,
-                    "retweets": 0,
-                    "tweet_id": "1644220074402758658",
-                    "tweet_text": "CVE-2023-29017: Critical RCE Flaw in Popular vm2 JavaScript Sandbox https://t.co/5uJB9kPFLO",
-                    "twitter_user_handle": "Dinosn",
-                    "twitter_user_name": "Nicolas Krassas",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1631613663592300544/ILVsdW2V_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-07 11:32",
-                    "likes": 0,
-                    "num_retweets": 2,
-                    "retweets": 0,
-                    "tweet_id": "1644286934251110402",
-                    "tweet_text": "vm2\u3067\u30b5\u30f3\u30c9\u30dc\u30c3\u30af\u30b9\u30a8\u30b9\u30b1\u30fc\u30d7\u306e\u8106\u5f31\u6027\u3002\n\nCVE-2023-29017\nhttps://t.co/XY02dDA1LL",
-                    "twitter_user_handle": "autumn_good_35",
-                    "twitter_user_name": "Autumn Good",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/753613417236172800/eRXIGCi1_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-04-07 04:02",
+                    "created_at": "2023-04-08 09:23",
                     "likes": 0,
                     "num_retweets": 1,
                     "retweets": 0,
-                    "tweet_id": "1644173688584146944",
-                    "tweet_text": "CVE-2023-29017: Critical RCE Flaw in Popular vm2 JavaScript Sandbox https://t.co/g4WiXiDcwp via securityonline https://t.co/SXCSjDWgzC",
-                    "twitter_user_handle": "AcooEdi",
-                    "twitter_user_name": "EdiAcoo",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1075268845672296448/eeiBrIzG_normal.jpg",
+                    "tweet_id": "1644616981293809665",
+                    "tweet_text": "Microsoft Netlogon: Potential Upcoming Impacts of CVE-2022-38023, (Sat, Apr #infosec #infosecurity #cybersecurity #threatintel #threatintelligence #hacking #cybernews #cyberattack #cloudsecurity #malware #ransomware #cyber #threathunting #ZeroTrust #CISA\nhttps://t.co/Hu1tkKH4cQ",
+                    "twitter_user_handle": "CyberIQs_",
+                    "twitter_user_name": "CyberIQs",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1343113218399600641/p04QylMY_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-07 03:47",
+                    "created_at": "2023-04-08 07:30",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1644169925966045190",
-                    "tweet_text": "My real name is CVE-2023-29017 but all my friends call me Reflected Moki\nhttps://t.co/fILYoqBght",
-                    "twitter_user_handle": "vulnonym",
-                    "twitter_user_name": "vulnonym",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
+                    "tweet_id": "1644588497053818880",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (Microsoft Netlogon: Potential Upcoming Impacts of CVE-2022-38023, (Sat, Apr 8th)) has been published on https://t.co/JU8c9OdxdH",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-07 04:01",
+                    "created_at": "2023-04-08 07:30",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1644173431376625666",
-                    "tweet_text": "CVE-2023-29017: Critical RCE Flaw in Popular vm2 JavaScript Sandbox https://t.co/wEhLHauFEQ #opensource #infosec #security #pentesting",
-                    "twitter_user_handle": "the_yellow_fall",
-                    "twitter_user_name": "Gray Hats",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/419147954344058880/bTW9Gx7T_normal.png",
+                    "tweet_id": "1644588499138428929",
+                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (Microsoft Netlogon: Potential Upcoming Impacts of CVE-2022-38023, (Sat, Apr 8th)) has been published on https://t.co/Wf0nn0YYOT",
+                    "twitter_user_handle": "www_sesin_at",
+                    "twitter_user_name": "www.sesin.at",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-08 07:42",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644591443380674560",
+                    "tweet_text": "Microsoft Netlogon: Potential Upcoming Impacts of CVE-2022-38023, (Sat, Apr 8th) https://t.co/cnM37k52w1 #PoseidonTPA #SANS #Cybersecurity https://t.co/ljoQChxXRX",
+                    "twitter_user_handle": "PoseidonTPA",
+                    "twitter_user_name": "Poseidon",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1538171234613067777/5j_PZREA_normal.jpg",
                     "urls": []
                 }
             ],
             "vendor_advisories": [],
-            "vendors": []
+            "vendors": [
+                {
+                    "products": [
+                        {
+                            "product": "Windows Server 2022",
+                            "versions": [
+                                "-"
+                            ]
+                        }
+                    ],
+                    "vendor": "Microsoft"
+                },
+                {
+                    "products": [
+                        {
+                            "product": "Fedora",
+                            "versions": [
+                                "36",
+                                "37"
+                            ]
+                        }
+                    ],
+                    "vendor": "Fedoraproject"
+                },
+                {
+                    "products": [
+                        {
+                            "product": "Management Services For Netapp Hci",
+                            "versions": [
+                                "-"
+                            ]
+                        }
+                    ],
+                    "vendor": "Netapp"
+                }
+            ]
         },
         {
-            "assigner": "cve@mitre.org",
-            "audience_size": 128278,
-            "cve": "CVE-2023-22809",
+            "assigner": "product-security@apple.com",
+            "audience_size": 123758,
+            "cve": "CVE-2022-46697",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
@@ -808,133 +739,77 @@
             "cvssv3_base_severity": "HIGH",
             "cwes": [
                 {
-                    "cwe_description": "Improper Privilege Management",
-                    "cwe_id": "CWE-269"
+                    "cwe_description": "Out-of-bounds Write",
+                    "cwe_id": "CWE-787"
                 }
             ],
-            "description": "In Sudo before 1.9.12p2, the sudoedit (aka -e) feature mishandles extra arguments passed in the user-provided environment variables (SUDO_EDITOR, VISUAL, and EDITOR), allowing a local attacker to append arbitrary entries to the list of files to process. This can lead to privilege escalation. Affected versions are 1.8.0 through 1.9.12.p1. The problem exists because a user-specified editor may contain a \"--\" argument that defeats a protection mechanism, e.g., an EDITOR='vim -- /path/to/extra/file' value.",
-            "epss_score": "0.00066",
+            "description": "An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in macOS Ventura 13.1. An app may be able to execute arbitrary code with kernel privileges.",
+            "epss_score": "0.00055",
             "github_repos": [],
-            "lastModifiedDate": "2023-04-03T20:15Z",
-            "num_retweets": 25,
-            "num_tweets": 6,
-            "num_tweets_and_retweets": 31,
-            "publishedDate": "2023-01-18T17:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1674073762.0,
-                    "is_self": false,
-                    "num_comments": 38,
-                    "reddit_url": "https://www.reddit.com/r/netsec/comments/10fhsfu/sudoedit_can_edit_arbitrary_files_cve202322809/",
-                    "subreddit": "netsec",
-                    "subreddit_subscribers": 471497,
-                    "title": "Sudoedit can edit arbitrary files (CVE-2023-22809)",
-                    "upvotes": 112,
-                    "url": "https://www.sudo.ws/security/advisories/sudoedit_any/"
-                },
-                {
-                    "created": 1680086377.0,
-                    "is_self": true,
-                    "num_comments": 27,
-                    "reddit_url": "https://www.reddit.com/r/qnap/comments/125jxte/qts_5012346_firmware_released/",
-                    "subreddit": "qnap",
-                    "subreddit_subscribers": 22713,
-                    "title": "QTS 5.0.1.2346 firmware released",
-                    "upvotes": 6,
-                    "url": "https://www.reddit.com/r/qnap/comments/125jxte/qts_5012346_firmware_released/"
-                },
-                {
-                    "created": 1674772991.0,
-                    "is_self": true,
-                    "num_comments": 1,
-                    "reddit_url": "https://www.reddit.com/r/SecOpsDaily/comments/10m4vei/vulnerability_in_sudo/",
-                    "subreddit": "SecOpsDaily",
-                    "subreddit_subscribers": 1013,
-                    "title": "Vulnerability in sudo",
-                    "upvotes": 3,
-                    "url": "https://www.reddit.com/r/SecOpsDaily/comments/10m4vei/vulnerability_in_sudo/"
-                },
-                {
-                    "created": 1678518564.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/SecOpsDaily/comments/11odi5m/how_to_bypass_sudo_exploit_cve202322809/",
-                    "subreddit": "SecOpsDaily",
-                    "subreddit_subscribers": 1013,
-                    "title": "How to bypass sudo \u2014 exploit cve-2023\u201322809 vulnerability",
-                    "upvotes": 3,
-                    "url": "https://medium.com/@dev.nest/how-to-bypass-sudo-exploit-cve-2023-22809-vulnerability-296ef10a1466"
-                },
-                {
-                    "created": 1674148121.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/RedSec/comments/10g72jd/sudoedit_can_edit_arbitrary_files_cve202322809/",
-                    "subreddit": "RedSec",
-                    "subreddit_subscribers": 1530,
-                    "title": "Sudoedit can edit arbitrary files (CVE-2023-22809)",
-                    "upvotes": 2,
-                    "url": "https://www.sudo.ws/security/advisories/sudoedit_any/"
-                }
-            ],
+            "lastModifiedDate": "2022-12-21T14:26Z",
+            "num_retweets": 20,
+            "num_tweets": 5,
+            "num_tweets_and_retweets": 25,
+            "publishedDate": "2022-12-15T19:15Z",
+            "reddit_posts": [],
             "score": 7.8,
             "severity": "HIGH",
             "tweets": [
                 {
-                    "created_at": "2023-04-07 10:57",
+                    "created_at": "2023-04-07 19:17",
                     "likes": 0,
-                    "num_retweets": 25,
+                    "num_retweets": 19,
                     "retweets": 0,
-                    "tweet_id": "1644278088686264320",
-                    "tweet_text": "QNAP ha solucionando con urgencia graves vulnerabilidades (CVE-2022-27597, CVE-2022-27598, CVE-2023-22809) \nhttps://t.co/deIWcYiwPT\n\n\ud83c\udf10Shodan muestra m\u00e1s de 80,000 QNAP expuestos a\u00fan con vulnerabilidades\n\n\u27a1\ufe0fSe insta usuarios a actualizar el firmware \u2b07\ufe0f\nhttps://t.co/Kf7MO5Bxtt",
-                    "twitter_user_handle": "elhackernet",
-                    "twitter_user_name": "elhacker.NET",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1330969532/e-peq1_normal.png",
+                    "tweet_id": "1644404163642531840",
+                    "tweet_text": "Proof of concept for CVE-2022-46697, an out-of-bounds access in IOMobileFrameBuffer. Fixed in macOS Ventura 13.1.\n\nhttps://t.co/jy9OVSf3xR",
+                    "twitter_user_handle": "antoniozekic",
+                    "twitter_user_name": "antoniozekic@infosec.exchange",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1509644494563598344/oSP57oAM_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-07 08:55",
+                    "created_at": "2023-04-08 01:52",
                     "likes": 0,
-                    "num_retweets": 0,
+                    "num_retweets": 1,
                     "retweets": 0,
-                    "tweet_id": "1644247606439165954",
-                    "tweet_text": "\ud83d\udea8 Surveillance des #POC (Proof Of Concept) sur @github :\n\n\ud83d\udc49 CVE-2023-0669: https://t.co/dWWkeutN3P\n\ud83d\udc49 CVE-2023-22809: https://t.co/Aya2LRztR9 https://t.co/AGgXZ2nIYt",
-                    "twitter_user_handle": "Prohacktiv3",
-                    "twitter_user_name": "ProHacktive France",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1618987181124509698/W9qLtnoV_normal.jpg",
+                    "tweet_id": "1644503330272542724",
+                    "tweet_text": "PoC - CVE-2022-46697. https://t.co/6Gnr3V184G",
+                    "twitter_user_handle": "ov3rflow1",
+                    "twitter_user_name": "\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340\u0340",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1642411593974571010/-GjvYm79_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-07 15:06",
+                    "created_at": "2023-04-08 05:04",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1644340754846720000",
-                    "tweet_text": "The vuln CVE-2023-22809 has a tweet created 0 days ago and retweeted 11 times.\nhttps://t.co/qlZPNJr13o\n#pow1rtrtwwcve",
+                    "tweet_id": "1644551648478371840",
+                    "tweet_text": "I know no IPS that has a protection/signature/rule for the vulnerability CVE-2022-46697.\nThe vuln was published 113 days ago by NIST.\nhttps://t.co/JqMUiOVLb4\n#S6geymbzou72aq",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-07 23:08",
+                    "created_at": "2023-04-08 05:04",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1644462054156189701",
-                    "tweet_text": "I think that the third retweeted(25 times) tweet that contains CVE ID between Apr 6 2023 22:01 UTC and Apr 7 2023 22:00 UTC is:\nhttps://t.co/qlZPNJr13o\nIt has CVE-2023-22809. #l24_ilsex6xe5cr34",
+                    "tweet_id": "1644551650118451201",
+                    "tweet_text": "The vuln CVE-2022-46697 has a tweet created 0 days ago and retweeted 8 times.\nhttps://t.co/XqYdadFe5r\n#S6geymbzou72aq",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-08 01:08",
+                    "created_at": "2023-04-08 07:06",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1644492259105157123",
-                    "tweet_text": "(third \u2192 second)\nI think that the second retweeted(26 times) tweet that contains CVE ID between Apr 7 2023 00:01 UTC and Apr 8 2023 00:00 UTC is:\nhttps://t.co/qlZPNJr13o\nIt has CVE-2023-22809. #l24_ilsex6xe5cr34",
+                    "tweet_id": "1644582345238781954",
+                    "tweet_text": "The vuln CVE-2022-46697 has a tweet created 0 days ago and retweeted 12 times.\nhttps://t.co/XqYdadFe5r\n#pow1rtrtwwcve",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
@@ -942,49 +817,25 @@
                 }
             ],
             "vendor_advisories": [
-                "https://www.sudo.ws/security/advisories/sudoedit_any/"
+                "https://support.apple.com/en-us/HT213532"
             ],
             "vendors": [
                 {
                     "products": [
                         {
-                            "product": "Sudo",
+                            "product": "Macos",
                             "versions": [
-                                "1.9.12",
                                 "*"
                             ]
                         }
                     ],
-                    "vendor": "Sudo Project"
-                },
-                {
-                    "products": [
-                        {
-                            "product": "Debian Linux",
-                            "versions": [
-                                "10.0",
-                                "11.0"
-                            ]
-                        }
-                    ],
-                    "vendor": "Debian"
-                },
-                {
-                    "products": [
-                        {
-                            "product": "Fedora",
-                            "versions": [
-                                "37"
-                            ]
-                        }
-                    ],
-                    "vendor": "Fedoraproject"
+                    "vendor": "Apple"
                 }
             ]
         },
         {
             "assigner": "secalert_us@oracle.com",
-            "audience_size": 74980,
+            "audience_size": 75488,
             "cve": "CVE-2023-21839",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -996,9 +847,9 @@
             "epss_score": "0.07745",
             "github_repos": [],
             "lastModifiedDate": "2023-01-24T19:28Z",
-            "num_retweets": 8,
+            "num_retweets": 10,
             "num_tweets": 2,
-            "num_tweets_and_retweets": 10,
+            "num_tweets_and_retweets": 12,
             "publishedDate": "2023-01-18T00:15Z",
             "reddit_posts": [
                 {
@@ -1007,7 +858,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/11i3e7v/cve202321839_weblogic_cve202321839_rce/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 34265,
+                    "subreddit_subscribers": 34268,
                     "title": "CVE-2023-21839: Weblogic CVE-2023-21839 RCE (\u65e0\u9700Java\u4f9d\u8d56\u4e00\u952eRCE) -",
                     "upvotes": 6,
                     "url": "https://github.com/4ra1n/CVE-2023-21839"
@@ -1019,7 +870,7 @@
                 {
                     "created_at": "2023-04-07 21:06",
                     "likes": 0,
-                    "num_retweets": 4,
+                    "num_retweets": 5,
                     "retweets": 0,
                     "tweet_id": "1644431501440974849",
                     "tweet_text": "CVE-2023-21839: Weblogic CVE-2023-21839 RCE (\u65e0\u9700Java\u4f9d\u8d56\u4e00\u952eRCE) - https://t.co/F1CjWVnSqd #cyber #threathunting #infosec https://t.co/A0wOlDCV4B",
@@ -1049,105 +900,224 @@
             ]
         },
         {
-            "assigner": "cve@mitre.org",
-            "audience_size": 60665,
-            "cve": "CVE-2023-26848",
+            "assigner": "security@apache.org",
+            "audience_size": 60260,
+            "cve": "CVE-2023-28707",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
             "cvssv3_base_score": null,
             "cvssv3_base_severity": null,
-            "cwes": [],
-            "description": "TOTOlink A7100RU(V7.4cu.2313_B20191024) was discovered to contain a command injection vulnerability via the org parameter at setting/delStaticDhcpRules.",
-            "epss_score": "0.00043",
+            "cwes": [
+                {
+                    "cwe_description": "Improper Input Validation",
+                    "cwe_id": "CWE-20"
+                }
+            ],
+            "description": "Improper Input Validation vulnerability in Apache Software Foundation Apache Airflow Drill Provider.This issue affects Apache Airflow Drill Provider: before 2.3.2.\n\n",
+            "epss_score": null,
             "github_repos": [],
-            "lastModifiedDate": "2023-04-07T13:35Z",
+            "lastModifiedDate": "2023-04-07T18:15Z",
             "num_retweets": 0,
-            "num_tweets": 12,
-            "num_tweets_and_retweets": 12,
-            "publishedDate": "2023-04-07T03:15Z",
+            "num_tweets": 10,
+            "num_tweets_and_retweets": 10,
+            "publishedDate": "2023-04-07T15:15Z",
             "reddit_posts": [
                 {
-                    "created": 1680838761.0,
+                    "created": 1680884727.0,
                     "is_self": false,
                     "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/12e8i1k/cve202326848/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 196,
-                    "title": "CVE-2023-26848",
+                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12eqq6o/cve202328707/",
+                    "subreddit": "Team_IT_Security",
+                    "subreddit_subscribers": 10,
+                    "title": "CVE-2023-28707",
                     "upvotes": 1,
-                    "url": "https://cve.report/CVE-2023-26848"
+                    "url": "https://tsecurity.de/de/1853715/Reverse-Engineering/Sicherheitsluecken/CVE-2023-28707/"
                 },
                 {
-                    "created": 1680846015.0,
+                    "created": 1680885560.0,
                     "is_self": false,
                     "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12ebckz/cve202326848/",
-                    "subreddit": "Team_IT_Security",
-                    "subreddit_subscribers": 8,
-                    "title": "CVE-2023-26848",
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/12er5wg/cve202328707/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 197,
+                    "title": "CVE-2023-28707",
                     "upvotes": 1,
-                    "url": "https://tsecurity.de/de/1853133/Reverse-Engineering/Sicherheitsluecken/CVE-2023-26848/"
+                    "url": "https://cve.report/CVE-2023-28707"
                 }
             ],
             "score": null,
             "severity": null,
             "tweets": [
                 {
-                    "created_at": "2023-04-07 04:08",
+                    "created_at": "2023-04-07 16:03",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1644175358109917184",
-                    "tweet_text": "CVE-2023-26848 : TOTOlink A7100RU V7.4cu.2313_B20191024  was discovered to contain a command injection vulnerability via the org parameter at setting/delStaticDhcpRules.... https://t.co/SOfHwwGhbv",
+                    "tweet_id": "1644355300630097921",
+                    "tweet_text": "CVE-2023-28707 : Improper Input Validation vulnerability in #Apache Software Foundation Apache Airflow Drill Provider.This issue affects Apache Airflow Drill Provider: before 2.3.2.... https://t.co/6QpAQjw5nv",
                     "twitter_user_handle": "CVEreport",
                     "twitter_user_name": "CVE.report",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-07 04:26",
+                    "created_at": "2023-04-07 16:26",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1644179923731447809",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-26848 \ud83d\udea8 TOTOlink A7100RU(V7.4cu.2313_B20191024) was discovered to contain a command injection vulnerability via the org parameter at setting/delStaticDhcpRules. https://t.co/As5xWQ5zgd",
+                    "tweet_id": "1644361118490542081",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-28707 \ud83d\udea8 Improper Input Validation vulnerability in Apache Software Foundation Apache Airflow Drill Provider.This issue affects Apache Airflow Drill Provider: before 2.3.2. https://t.co/OzjecZ8xJm",
                     "twitter_user_handle": "threatintelctr",
                     "twitter_user_name": "Threat Intel Center",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-07 05:00",
+                    "created_at": "2023-04-07 17:00",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1644188310951043077",
-                    "tweet_text": "CVE-2023-26848 TOTOlink A7100RU(V7.4cu.2313_B20191024) was discovered to contain a command injection vulnerability via the org parameter at setting/delStaticDhcpRules. https://t.co/Uxgr7hX2cA",
+                    "tweet_id": "1644369500370763778",
+                    "tweet_text": "CVE-2023-28707 Improper Input Validation vulnerability in Apache Software Foundation Apache Airflow Drill Provider.This issue affects Apache Airflow Drill Provider: before 2.3.2. https://t.co/nOi9y6SYsP",
                     "twitter_user_handle": "CVEnew",
                     "twitter_user_name": "CVE",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-07 07:30",
+                    "created_at": "2023-04-07 17:16",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1644226061771714562",
-                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-26848) has been published on https://t.co/UsOHybOmMH",
+                    "tweet_id": "1644373563028152320",
+                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2023-28707 | Apache Airflow Drill Provider up to 2.3.1 input validation) has been published on https://t.co/6wEDjQrKjN",
+                    "twitter_user_handle": "www_sesin_at",
+                    "twitter_user_name": "www.sesin.at",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-07 17:16",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644373560712888327",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-28707 | Apache Airflow Drill Provider up to 2.3.1 input validation) has been published on https://t.co/Xoy7O1JELo",
+                    "twitter_user_handle": "WolfgangSesin",
+                    "twitter_user_name": "Wolfgang Sesin",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
+                    "urls": []
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "security@apache.org",
+            "audience_size": 60260,
+            "cve": "CVE-2023-28710",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [
+                {
+                    "cwe_description": "Improper Input Validation",
+                    "cwe_id": "CWE-20"
+                }
+            ],
+            "description": "Improper Input Validation vulnerability in Apache Software Foundation Apache Airflow Spark Provider.This issue affects Apache Airflow Spark Provider: before 4.0.1.\n\n",
+            "epss_score": null,
+            "github_repos": [],
+            "lastModifiedDate": "2023-04-07T18:15Z",
+            "num_retweets": 0,
+            "num_tweets": 10,
+            "num_tweets_and_retweets": 10,
+            "publishedDate": "2023-04-07T15:15Z",
+            "reddit_posts": [
+                {
+                    "created": 1680885561.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/netcve/comments/12er5wt/cve202328710/",
+                    "subreddit": "netcve",
+                    "subreddit_subscribers": 197,
+                    "title": "CVE-2023-28710",
+                    "upvotes": 1,
+                    "url": "https://cve.report/CVE-2023-28710"
+                },
+                {
+                    "created": 1680884669.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/Team_IT_Security/comments/12eqp3b/cve202328710/",
+                    "subreddit": "Team_IT_Security",
+                    "subreddit_subscribers": 10,
+                    "title": "CVE-2023-28710",
+                    "upvotes": 1,
+                    "url": "https://tsecurity.de/de/1853710/Reverse-Engineering/Sicherheitsluecken/CVE-2023-28710/"
+                }
+            ],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-04-07 16:04",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644355389872381954",
+                    "tweet_text": "CVE-2023-28710 : Improper Input Validation vulnerability in #Apache Software Foundation Apache Airflow Spark Provider.This issue affects Apache Airflow Spark Provider: before 4.0.1.... https://t.co/guxcrBjyQY",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-07 16:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644361118461173760",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-28710 \ud83d\udea8 Improper Input Validation vulnerability in Apache Software Foundation Apache Airflow Spark Provider.This issue affects Apache Airflow Spark Provider: before 4.0.1. https://t.co/3ur79xgWWg",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-07 17:00",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644369503185252358",
+                    "tweet_text": "CVE-2023-28710 Improper Input Validation vulnerability in Apache Software Foundation Apache Airflow Spark Provider.This issue affects Apache Airflow Spark Provider: before 4.0.1. https://t.co/IwF4FCUgyB",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-04-07 17:16",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1644373585102876672",
+                    "tweet_text": "New post from https://t.co/uXvPWJy6tj (CVE-2023-28710 | Apache Airflow Spark Provider up to 4.0.0 input validation) has been published on https://t.co/J9G0bUPdRj",
                     "twitter_user_handle": "WolfgangSesin",
                     "twitter_user_name": "Wolfgang Sesin",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/957011635369054208/Om3jbj7z_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-04-07 07:30",
+                    "created_at": "2023-04-07 17:16",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1644226063856201728",
-                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2023-26848) has been published on https://t.co/94CMYW6arL",
+                    "tweet_id": "1644373587514515458",
+                    "tweet_text": "New post from https://t.co/9KYxtdZjkl (CVE-2023-28710 | Apache Airflow Spark Provider up to 4.0.0 input validation) has been published on https://t.co/l6kFNgzqOE",
                     "twitter_user_handle": "www_sesin_at",
                     "twitter_user_name": "www.sesin.at",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/958100963822329858/fb_N8h5n_normal.jpg",
@@ -1159,5 +1129,5 @@
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2023-04-08 03:16:13"
+    "updated": "2023-04-08 11:05:06"
 }
