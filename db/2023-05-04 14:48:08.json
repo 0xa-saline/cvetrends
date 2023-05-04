@@ -2,7 +2,7 @@
     "data": [
         {
             "assigner": "security@google.com",
-            "audience_size": 368638,
+            "audience_size": 376760,
             "cve": "CVE-2023-0266",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -19,9 +19,9 @@
             "epss_score": "0.00082",
             "github_repos": [],
             "lastModifiedDate": "2023-05-03T14:15Z",
-            "num_retweets": 16,
-            "num_tweets": 4,
-            "num_tweets_and_retweets": 20,
+            "num_retweets": 18,
+            "num_tweets": 6,
+            "num_tweets_and_retweets": 24,
             "publishedDate": "2023-01-30T14:15Z",
             "reddit_posts": [
                 {
@@ -30,9 +30,9 @@
                     "num_comments": 4,
                     "reddit_url": "https://www.reddit.com/r/oneui/comments/135ag1g/samsung_detailed_may_2023_one_ui_patch/",
                     "subreddit": "oneui",
-                    "subreddit_subscribers": 12829,
+                    "subreddit_subscribers": 12838,
                     "title": "Samsung detailed May 2023 One UI patch",
-                    "upvotes": 6,
+                    "upvotes": 7,
                     "url": "https://www.reddit.com/r/oneui/comments/135ag1g/samsung_detailed_may_2023_one_ui_patch/"
                 },
                 {
@@ -53,7 +53,7 @@
                 {
                     "created_at": "2023-05-03 16:02",
                     "likes": 0,
-                    "num_retweets": 16,
+                    "num_retweets": 18,
                     "retweets": 0,
                     "tweet_id": "1653777081157971968",
                     "tweet_text": "The Android ITW LPE bug, CVE-2023-0266, discovered by @_clem1 in January is fixed in the May Android Security Bulletin. If your device has security patch level 2023-05-05 then it's been patched. \n\nhttps://t.co/8hCSuD30VK",
@@ -97,6 +97,18 @@
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
                     "urls": []
+                },
+                {
+                    "created_at": "2023-05-04 13:08",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1654095537463754752",
+                    "tweet_text": "I think that the second retweeted(18 times) tweet that contains CVE ID between May 3 2023 12:01 UTC and May 4 2023 12:00 UTC is:\nhttps://t.co/o71hqF6igY\nIt has CVE-2023-0266. #l24_jlmiad2usi556",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": []
                 }
             ],
             "vendor_advisories": [
@@ -116,213 +128,6 @@
                     "vendor": "Linux"
                 }
             ]
-        },
-        {
-            "assigner": "cve@mitre.org",
-            "audience_size": 342228,
-            "cve": "CVE-2018-9995",
-            "cve_urls": null,
-            "cvssv2_base_score": 5.0,
-            "cvssv2_severity": "MEDIUM",
-            "cvssv3_base_score": 9.8,
-            "cvssv3_base_severity": "CRITICAL",
-            "cwes": [],
-            "description": "TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in 1, Securus, Night OWL, DVR Login, HVR Login, and MDVR Login, which run re-branded versions of the original TBK DVR4104 and DVR4216 series, allow remote attackers to bypass authentication via a \"Cookie: uid=admin\" header, as demonstrated by a device.rsp?opt=user&cmd=list request that provides credentials within JSON data in a response.",
-            "epss_score": "0.95231",
-            "github_repos": [],
-            "lastModifiedDate": "2019-10-03T00:03Z",
-            "num_retweets": 6,
-            "num_tweets": 20,
-            "num_tweets_and_retweets": 26,
-            "publishedDate": "2018-04-10T22:29Z",
-            "reddit_posts": [
-                {
-                    "created": 1525181288.0,
-                    "is_self": false,
-                    "num_comments": 6,
-                    "reddit_url": "https://www.reddit.com/r/netsec/comments/8g8g0m/tool_get_all_credentials_in_dvr_cve20189995/",
-                    "subreddit": "netsec",
-                    "subreddit_subscribers": 473773,
-                    "title": "[Tool]; Get all credentials in #DVR (cve-2018-9995)",
-                    "upvotes": 26,
-                    "url": "https://github.com/ezelf/CVE-2018-9995_dvr_credentials"
-                },
-                {
-                    "created": 1649521289.0,
-                    "is_self": true,
-                    "num_comments": 2,
-                    "reddit_url": "https://www.reddit.com/r/PFSENSE/comments/tzwmcn/help_suricata_shuts_down_after_several_minutes/",
-                    "subreddit": "PFSENSE",
-                    "subreddit_subscribers": 103955,
-                    "title": "help: Suricata shuts down after several minutes",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/PFSENSE/comments/tzwmcn/help_suricata_shuts_down_after_several_minutes/"
-                }
-            ],
-            "score": 9.8,
-            "severity": "CRITICAL",
-            "tweets": [
-                {
-                    "created_at": "2023-05-03 14:37",
-                    "likes": 0,
-                    "num_retweets": 6,
-                    "retweets": 0,
-                    "tweet_id": "1653755677050040321",
-                    "tweet_text": "Attackers are trying to exploit old DVR vulnerabilities (CVE-2018-9995, CVE-2016-20016) https://t.co/mNcUbxDK1i",
-                    "twitter_user_handle": "TheCyberSecHub",
-                    "twitter_user_name": "The Cyber Security Hub\u2122",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1572191181689294848/fT9V8jLs_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 08:58",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1653670437380055040",
-                    "tweet_text": "CVE-2018-9995\") in TBK DVR devices is still actively being exploited! Read the Fortinet FortiGuard Labs advisory to know more about this critical authentication bypass issue. #CyberSecurity #CVE20189995 #DVRAttack #FortiGuardLabs",
-                    "twitter_user_handle": "0xedeon",
-                    "twitter_user_name": "Paul Gedeon \ud83d\udef8",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1556425473147768835/JRvIESQX_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 09:25",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1653677032016838656",
-                    "tweet_text": "FortiGuard Labs researchers are warning of a spike in malicious attacks targeting TBK DVR devices. Threat actors are attempting to exploit a five-year-old authentication bypass issue, tracked as CVE-2018-9995 (CVSS score of 9.8), in TBK DVR devices. https://t.co/QvD1enWlKN",
-                    "twitter_user_handle": "johnz_athens",
-                    "twitter_user_name": "IoanCloud",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1647563610464350210/oIWsUPZ__normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 14:35",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1653755176900231175",
-                    "tweet_text": "Attackers are trying to exploit old DVR vulnerabilities (CVE-2018-9995, CVE-2016-20016): Five years ago, security researcher Fernandez Ezequiel discovered a vulnerability (CVE-2018-9995) in many digital video recorder (DVR) brands and released a tool for\u2026 https://t.co/qeeBdvlqQV https://t.co/oY6vPFkhZb",
-                    "twitter_user_handle": "shah_sheikh",
-                    "twitter_user_name": "Shah Sheikh",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1045681989095960577/kl5G4rq7_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 14:38",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1653755972504920066",
-                    "tweet_text": "Attackers are trying to exploit old DVR vulnerabilities (CVE-2018-9995, CVE-2016-20016) - https://t.co/sTxOXEskKn - @Fortinet #DVR #Exploit #IoT #Vulnerability #CyberSecurity #netsec #security #InfoSecurity #CISO #ITsecurity #CyberSecurityNews #SecurityNews https://t.co/zR8iifqimB",
-                    "twitter_user_handle": "helpnetsecurity",
-                    "twitter_user_name": "Help Net Security",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1602979161932455937/3RwfWo0d_normal.jpg",
-                    "urls": []
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "cve@mitre.org",
-            "audience_size": 329125,
-            "cve": "CVE-2016-20016",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": 9.8,
-            "cvssv3_base_severity": "CRITICAL",
-            "cwes": [],
-            "description": "MVPower CCTV DVR models, including TV-7104HE 1.8.4 115215B9 and TV7108HE, contain a web shell that is accessible via a /shell URI. A remote unauthenticated attacker can execute arbitrary operating system commands as root. This vulnerability has also been referred to as the \"JAWS webserver RCE\" because of the easily identifying HTTP response server field. Other firmware versions, at least from 2014 through 2019, can be affected. This was exploited in the wild in 2017 through 2022.",
-            "epss_score": "0.01094",
-            "github_repos": [],
-            "lastModifiedDate": "2022-10-21T16:52Z",
-            "num_retweets": 6,
-            "num_tweets": 11,
-            "num_tweets_and_retweets": 17,
-            "publishedDate": "2022-10-19T05:15Z",
-            "reddit_posts": [
-                {
-                    "created": 1666157928.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/netcve/comments/y7u3p2/cve201620016/",
-                    "subreddit": "netcve",
-                    "subreddit_subscribers": 199,
-                    "title": "CVE-2016-20016",
-                    "upvotes": 1,
-                    "url": "https://cve.report/CVE-2016-20016"
-                }
-            ],
-            "score": 9.8,
-            "severity": "CRITICAL",
-            "tweets": [
-                {
-                    "created_at": "2023-05-03 14:37",
-                    "likes": 0,
-                    "num_retweets": 6,
-                    "retweets": 0,
-                    "tweet_id": "1653755677050040321",
-                    "tweet_text": "Attackers are trying to exploit old DVR vulnerabilities (CVE-2018-9995, CVE-2016-20016) https://t.co/mNcUbxDK1i",
-                    "twitter_user_handle": "TheCyberSecHub",
-                    "twitter_user_name": "The Cyber Security Hub\u2122",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1572191181689294848/fT9V8jLs_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 14:35",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1653755176900231175",
-                    "tweet_text": "Attackers are trying to exploit old DVR vulnerabilities (CVE-2018-9995, CVE-2016-20016): Five years ago, security researcher Fernandez Ezequiel discovered a vulnerability (CVE-2018-9995) in many digital video recorder (DVR) brands and released a tool for\u2026 https://t.co/qeeBdvlqQV https://t.co/oY6vPFkhZb",
-                    "twitter_user_handle": "shah_sheikh",
-                    "twitter_user_name": "Shah Sheikh",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1045681989095960577/kl5G4rq7_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 14:38",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1653755972504920066",
-                    "tweet_text": "Attackers are trying to exploit old DVR vulnerabilities (CVE-2018-9995, CVE-2016-20016) - https://t.co/sTxOXEskKn - @Fortinet #DVR #Exploit #IoT #Vulnerability #CyberSecurity #netsec #security #InfoSecurity #CISO #ITsecurity #CyberSecurityNews #SecurityNews https://t.co/zR8iifqimB",
-                    "twitter_user_handle": "helpnetsecurity",
-                    "twitter_user_name": "Help Net Security",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1602979161932455937/3RwfWo0d_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 14:42",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1653756837605384192",
-                    "tweet_text": "Attackers are trying to exploit old DVR vulnerabilities (CVE-2018-9995, CVE-2016-20016) - https://t.co/sTxOXEskKn - @FortiGuardLabs @Fortinet #DVR #Exploit #IoT #Vulnerability #CyberSecurity #netsec #security #InfoSecurity #CISO #ITsecurity #CyberSecurityNews #SecurityNews https://t.co/4yyZbLT0lR",
-                    "twitter_user_handle": "helpnetsecurity",
-                    "twitter_user_name": "Help Net Security",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1602979161932455937/3RwfWo0d_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 15:49",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1653773716466331651",
-                    "tweet_text": "Attackers are trying to exploit old DVR vulnerabilities (CVE-2018-9995, CVE-2016-20016) #PoseidonTPA #HelpNetSecurity #Cybersecurity https://t.co/1XQAE5BHfj https://t.co/xB0fMFIZ2t",
-                    "twitter_user_handle": "PoseidonTPA",
-                    "twitter_user_name": "Poseidon",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1538171234613067777/5j_PZREA_normal.jpg",
-                    "urls": []
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
         },
         {
             "assigner": "secure@microsoft.com",
@@ -364,6 +169,18 @@
                     "urls": []
                 },
                 {
+                    "created_at": "2023-05-03 20:58",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1653851463242661889",
+                    "tweet_text": "How does @TrellixARC discover the myriad impacts a vuln can have?  Read the blog to learn how the team discovered CVE-2022-37985 and an in-depth exploration of its root cause and exploitation. https://t.co/UNDyuXlxAS",
+                    "twitter_user_handle": "KentMaley",
+                    "twitter_user_name": "Kent Maley",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": []
+                },
+                {
                     "created_at": "2023-05-03 16:44",
                     "likes": 0,
                     "num_retweets": 0,
@@ -386,18 +203,6 @@
                     "twitter_user_name": "Shane Bennett",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/996500948808712192/Z_Q4FAsL_normal.jpg",
                     "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 20:58",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1653851463242661889",
-                    "tweet_text": "How does @TrellixARC discover the myriad impacts a vuln can have?  Read the blog to learn how the team discovered CVE-2022-37985 and an in-depth exploration of its root cause and exploitation. https://t.co/UNDyuXlxAS",
-                    "twitter_user_handle": "KentMaley",
-                    "twitter_user_name": "Kent Maley",
-                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-                    "urls": []
                 }
             ],
             "vendor_advisories": [
@@ -419,7 +224,7 @@
         },
         {
             "assigner": "secalert@redhat.com",
-            "audience_size": 210842,
+            "audience_size": 217668,
             "cve": "CVE-2022-0847",
             "cve_urls": null,
             "cvssv2_base_score": 7.2,
@@ -436,9 +241,9 @@
             "epss_score": "0.07968",
             "github_repos": [],
             "lastModifiedDate": "2022-12-09T19:37Z",
-            "num_retweets": 21,
-            "num_tweets": 4,
-            "num_tweets_and_retweets": 25,
+            "num_retweets": 26,
+            "num_tweets": 8,
+            "num_tweets_and_retweets": 34,
             "publishedDate": "2022-03-10T17:44Z",
             "reddit_posts": [
                 {
@@ -447,9 +252,9 @@
                     "num_comments": 7,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/txni06/dirty_pipe_explained_cve20220847/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 473773,
+                    "subreddit_subscribers": 473790,
                     "title": "Dirty Pipe Explained - CVE-2022-0847",
-                    "upvotes": 78,
+                    "upvotes": 77,
                     "url": "https://www.hackthebox.com/blog/Dirty-Pipe-Explained-CVE-2022-0847"
                 },
                 {
@@ -458,7 +263,7 @@
                     "num_comments": 9,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/t8qqhd/the_dirty_pipe_vulnerability_cve20220847/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 473773,
+                    "subreddit_subscribers": 473790,
                     "title": "The Dirty Pipe Vulnerability [CVE-2022-0847]",
                     "upvotes": 68,
                     "url": "https://dirtypipe.cm4all.com/"
@@ -469,9 +274,9 @@
                     "num_comments": 2,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/umjwki/learning_linux_kernel_exploitation_part_2/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 473773,
+                    "subreddit_subscribers": 473790,
                     "title": "Learning Linux kernel exploitation - Part 2 - CVE-2022-0847 (DirtyPipe)",
-                    "upvotes": 63,
+                    "upvotes": 66,
                     "url": "https://0x434b.dev/learning-linux-kernel-exploitation-part-2-cve-2022-0847/"
                 },
                 {
@@ -480,9 +285,9 @@
                     "num_comments": 38,
                     "reddit_url": "https://www.reddit.com/r/synology/comments/x6e2hl/dsm_71142962_released/",
                     "subreddit": "synology",
-                    "subreddit_subscribers": 122147,
+                    "subreddit_subscribers": 122167,
                     "title": "DSM 7.1.1-42962 released!",
-                    "upvotes": 55,
+                    "upvotes": 53,
                     "url": "https://www.reddit.com/r/synology/comments/x6e2hl/dsm_71142962_released/"
                 },
                 {
@@ -491,9 +296,9 @@
                     "num_comments": 7,
                     "reddit_url": "https://www.reddit.com/r/docker/comments/t9g21g/dirty_pipe_linux_vulnerability_allows_for/",
                     "subreddit": "docker",
-                    "subreddit_subscribers": 171522,
+                    "subreddit_subscribers": 171536,
                     "title": "\"Dirty Pipe\" Linux vulnerability allows for containers to overwrite files from the underlying image",
-                    "upvotes": 46,
+                    "upvotes": 43,
                     "url": "https://www.reddit.com/r/docker/comments/t9g21g/dirty_pipe_linux_vulnerability_allows_for/"
                 }
             ],
@@ -503,7 +308,7 @@
                 {
                     "created_at": "2023-05-03 19:00",
                     "likes": 0,
-                    "num_retweets": 21,
+                    "num_retweets": 26,
                     "retweets": 0,
                     "tweet_id": "1653821760746168335",
                     "tweet_text": "Original blog post by Max Kellermann on Dirty pipe (CVE-2022-0847) \n\nhttps://t.co/5bMXyRHCLv \n\n#Linux #kernel #exploit #infosec #cybersecurity https://t.co/TeyLFL6X8T",
@@ -543,6 +348,18 @@
                     "retweets": 0,
                     "tweet_id": "1653974740380336131",
                     "tweet_text": "I think that the second retweeted(22 times) tweet that contains CVE ID between May 3 2023 04:01 UTC and May 4 2023 04:00 UTC is:\nhttps://t.co/hoYCnu9tlA\nIt has CVE-2022-0847. #l24_otl23vxgr5fqm",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-05-04 07:08",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1654004944393891843",
+                    "tweet_text": "(second \u2192 most)\nI think that the most retweeted(25 times) tweet that contains CVE ID between May 3 2023 06:01 UTC and May 4 2023 06:00 UTC is:\nhttps://t.co/hoYCnu9tlA\nIt has CVE-2022-0847. #l24_otl23vxgr5fqm",
                     "twitter_user_handle": "ipssignatures",
                     "twitter_user_name": "ipssignatures",
                     "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
@@ -600,8 +417,109 @@
             ]
         },
         {
+            "assigner": "psirt@huawei.com",
+            "audience_size": 208629,
+            "cve": "CVE-2017-17215",
+            "cve_urls": null,
+            "cvssv2_base_score": 6.5,
+            "cvssv2_severity": "MEDIUM",
+            "cvssv3_base_score": 8.8,
+            "cvssv3_base_severity": "HIGH",
+            "cwes": [
+                {
+                    "cwe_description": "Improper Input Validation",
+                    "cwe_id": "CWE-20"
+                }
+            ],
+            "description": "Huawei HG532 with some customized versions has a remote code execution vulnerability. An authenticated attacker could send malicious packets to port 37215 to launch attacks. Successful exploit could lead to the remote execution of arbitrary code.",
+            "epss_score": "0.95726",
+            "github_repos": [],
+            "lastModifiedDate": "2018-04-19T15:04Z",
+            "num_retweets": 2,
+            "num_tweets": 1,
+            "num_tweets_and_retweets": 3,
+            "publishedDate": "2018-03-20T15:29Z",
+            "reddit_posts": [
+                {
+                    "created": 1515432049.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/LinuxMalware/comments/7p00i3/quick_notes_for_okiru_satori_variant_of_mirai/",
+                    "subreddit": "LinuxMalware",
+                    "subreddit_subscribers": 1572,
+                    "title": "Quick notes for Okiru &amp; Satori variant of Mirai",
+                    "upvotes": 6,
+                    "url": "https://www.reddit.com/r/LinuxMalware/comments/7p00i3/quick_notes_for_okiru_satori_variant_of_mirai/"
+                },
+                {
+                    "created": 1514565314.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/InfoSecNews/comments/7mvbdt/huawei_router_exploit_cve201717215_involved_in/",
+                    "subreddit": "InfoSecNews",
+                    "subreddit_subscribers": 14830,
+                    "title": "Huawei router exploit (CVE-2017-17215) involved in Satori and Brickerbot was leaked online",
+                    "upvotes": 4,
+                    "url": "http://securityaffairs.co/wordpress/67227/malware/cve-2017-17215-exploit-code.html"
+                },
+                {
+                    "created": 1514560693.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/CyberSecurityFans/comments/7muuwe/huawei_router_exploit_cve201717215_involved_in/",
+                    "subreddit": "CyberSecurityFans",
+                    "subreddit_subscribers": 1744,
+                    "title": "Huawei router exploit (CVE-2017-17215) involved in Satori and Brickerbot was leaked online",
+                    "upvotes": 1,
+                    "url": "http://securityaffairs.co/wordpress/67227/malware/cve-2017-17215-exploit-code.html"
+                },
+                {
+                    "created": 1538747021.0,
+                    "is_self": false,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/u_hirushanT/comments/9lme7o/here_is_a_linux_iot_botnet_malware_cve201717215/",
+                    "subreddit": "u_hirushanT",
+                    "subreddit_subscribers": 0,
+                    "title": "Here is a Linux #IoT botnet #malware CVE-2017\u201317215 (Huawei Router HG532) using #RCE 0days. We even included the payloads used which are displayed in the images.",
+                    "upvotes": 1,
+                    "url": "https://i.redd.it/l8d8ppx7wcq11.jpg"
+                },
+                {
+                    "created": 1517848525.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/CERTCybSec/comments/7vfxqc/jenx_a_new_botnet_threatening_all/",
+                    "subreddit": "CERTCybSec",
+                    "subreddit_subscribers": 304,
+                    "title": "JenX: A New Botnet Threatening All",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/CERTCybSec/comments/7vfxqc/jenx_a_new_botnet_threatening_all/"
+                }
+            ],
+            "score": 8.8,
+            "severity": "HIGH",
+            "tweets": [
+                {
+                    "created_at": "2023-05-04 11:06",
+                    "likes": 0,
+                    "num_retweets": 2,
+                    "retweets": 0,
+                    "tweet_id": "1654064932525047808",
+                    "tweet_text": "\ud83d\udca5 Check out our latest #IoT #botnet report with exploited vulnerabilities in focus:\n- 55 vulnerabilities are being targeted vs. 20 in 2021\n- 38% of these are more recent ones\n- The most exploited vulnerability is CVE-2017-17215\nhttps://t.co/IcFLhxMCQn\n/cc @malwrhunterteam",
+                    "twitter_user_handle": "CujoaiLabs",
+                    "twitter_user_name": "CUJO AI Labs",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1282976696313028608/ZkWBfr1r_normal.jpg",
+                    "urls": []
+                }
+            ],
+            "vendor_advisories": [
+                "http://www.huawei.com/en/psirt/security-notices/huawei-sn-20171130-01-hg532-en"
+            ],
+            "vendors": []
+        },
+        {
             "assigner": "cve@mitre.org",
-            "audience_size": 168349,
+            "audience_size": 167296,
             "cve": "CVE-2023-29489",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -613,9 +531,9 @@
             "epss_score": "0.00053",
             "github_repos": [],
             "lastModifiedDate": "2023-04-28T12:58Z",
-            "num_retweets": 11,
-            "num_tweets": 5,
-            "num_tweets_and_retweets": 16,
+            "num_retweets": 9,
+            "num_tweets": 4,
+            "num_tweets_and_retweets": 13,
             "publishedDate": "2023-04-27T21:15Z",
             "reddit_posts": [
                 {
@@ -624,9 +542,9 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/131saf1/finding_xss_in_a_million_websites_cpanel/",
                     "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 35312,
+                    "subreddit_subscribers": 35324,
                     "title": "Finding XSS in a million websites (cPanel CVE-2023-29489)",
-                    "upvotes": 7,
+                    "upvotes": 6,
                     "url": "https://blog.assetnote.io/2023/04/26/xss-million-websites-cpanel/"
                 },
                 {
@@ -635,7 +553,7 @@
                     "num_comments": 0,
                     "reddit_url": "https://www.reddit.com/r/netsec/comments/1305jjj/finding_xss_in_a_million_websites_cpanel/",
                     "subreddit": "netsec",
-                    "subreddit_subscribers": 473773,
+                    "subreddit_subscribers": 473790,
                     "title": "Finding XSS in a million websites (cPanel CVE-2023-29489)",
                     "upvotes": 4,
                     "url": "https://blog.assetnote.io/2023/04/26/xss-million-websites-cpanel/"
@@ -658,25 +576,13 @@
                 {
                     "created_at": "2023-05-03 18:13",
                     "likes": 0,
-                    "num_retweets": 8,
+                    "num_retweets": 9,
                     "retweets": 0,
                     "tweet_id": "1653810075583275008",
                     "tweet_text": "cPanel CVE-2023-29489 XSS One-Liner\n\nsubfinder -d https://t.co/CZJzv9DTDf -silent -all | httpx -silent -ports http:80,https:443,2082,2083 -path '/cpanelwebcall/&lt;img%20src=x%20onerror=\"prompt(document.domain)\"&gt;aaaaaaaaaaaaaaa' -mc 400\n\n#infosec #bugbountytips #cybersecuritytip",
                     "twitter_user_handle": "0x0SojalSec",
                     "twitter_user_name": "Md Ismail \u0160ojal\uea00",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1533457001107562498/1oXfGilM_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 11:07",
-                    "likes": 0,
-                    "num_retweets": 3,
-                    "retweets": 0,
-                    "tweet_id": "1653702716324196352",
-                    "tweet_text": "Triaged, I found my first bug CVE-2023-29489\n\n#bugbountytips #bugbountytip https://t.co/qSDvXyYzqC",
-                    "twitter_user_handle": "rix4uni",
-                    "twitter_user_name": "Bhagirath Saxena \ud83c\uddee\ud83c\uddf3",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1648784692681003008/rA2v7Ojw_normal.jpg",
                     "urls": []
                 },
                 {
@@ -704,15 +610,15 @@
                     "urls": []
                 },
                 {
-                    "created_at": "2023-05-03 12:30",
+                    "created_at": "2023-05-04 11:14",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1653723659721113601",
-                    "tweet_text": "Triaged, I found my first bug CVE-2023-29489 https://t.co/FdmNFpaGl6",
-                    "twitter_user_handle": "Minacris890M",
-                    "twitter_user_name": "M1n@Cris",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1576423044347723777/c9SjREd3_normal.jpg",
+                    "tweet_id": "1654067063584092160",
+                    "tweet_text": "Finding XSS in a million websites (cPanel CVE-2023-29489) https://t.co/Amfix6OcTC",
+                    "twitter_user_handle": "WRSN101",
+                    "twitter_user_name": "Sa\u00fal Morales R.",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1608269393183793152/cQSuXt6z_normal.jpg",
                     "urls": []
                 }
             ],
@@ -720,166 +626,99 @@
             "vendors": []
         },
         {
-            "assigner": "secalert_us@oracle.com",
-            "audience_size": 104692,
-            "cve": "CVE-2023-21839",
+            "assigner": "f5sirt@f5.com",
+            "audience_size": 96386,
+            "cve": "CVE-2023-27378",
             "cve_urls": null,
             "cvssv2_base_score": null,
             "cvssv2_severity": null,
             "cvssv3_base_score": 7.5,
             "cvssv3_base_severity": "HIGH",
-            "cwes": [],
-            "description": "Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",
-            "epss_score": "0.72347",
-            "github_repos": [],
-            "lastModifiedDate": "2023-01-24T19:28Z",
-            "num_retweets": 15,
-            "num_tweets": 8,
-            "num_tweets_and_retweets": 23,
-            "publishedDate": "2023-01-18T00:15Z",
-            "reddit_posts": [
+            "cwes": [
                 {
-                    "created": 1683146883.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/cybersecurity/comments/136z1on/alert_active_exploitation_of_tplink_apache_and/",
-                    "subreddit": "cybersecurity",
-                    "subreddit_subscribers": 490977,
-                    "title": "Alert: Active Exploitation of TP-Link, Apache, and Oracle Vulnerabilities Detected",
-                    "upvotes": 18,
-                    "url": "https://www.reddit.com/r/cybersecurity/comments/136z1on/alert_active_exploitation_of_tplink_apache_and/"
-                },
-                {
-                    "created": 1677946119.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/11i3e7v/cve202321839_weblogic_cve202321839_rce/",
-                    "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 35312,
-                    "title": "CVE-2023-21839: Weblogic CVE-2023-21839 RCE (\u65e0\u9700Java\u4f9d\u8d56\u4e00\u952eRCE) -",
-                    "upvotes": 6,
-                    "url": "https://github.com/4ra1n/CVE-2023-21839"
-                },
-                {
-                    "created": 1681105738.0,
-                    "is_self": false,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/blueteamsec/comments/12h8rbs/cve202321839_weblogic_server_rce\u5206\u6790\u5b89\u5168\u5ba2/",
-                    "subreddit": "blueteamsec",
-                    "subreddit_subscribers": 35312,
-                    "title": "CVE-2023-21839 WebLogic Server RCE\u5206\u6790-\u5b89\u5168\u5ba2 - CVE-2023-21839 WebLogic Server RCE Analysis - WebLogic has a remote code execution vulnerability, which allows unauthenticated remote attackers to access and damage vulnerable WebLogic servers through the T3/IIOP protocol network.",
-                    "upvotes": 5,
-                    "url": "https://www-anquanke-com.translate.goog/post/id/287753?_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"
-                },
-                {
-                    "created": 1681875150.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/u_GobySec_/comments/12rfc9o/weblogic_cve202321931_vulnerability_exploration/",
-                    "subreddit": "u_GobySec_",
-                    "subreddit_subscribers": 0,
-                    "title": "Weblogic CVE-2023-21931 vulnerability exploration technique: post-deserialization exploitation",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/u_GobySec_/comments/12rfc9o/weblogic_cve202321931_vulnerability_exploration/"
-                },
-                {
-                    "created": 1681848141.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/u_GobySec_/comments/12r2d4e/research_on_weblogic_afterdeserialization/",
-                    "subreddit": "u_GobySec_",
-                    "subreddit_subscribers": 0,
-                    "title": "Research on WebLogic After-Deserialization",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/u_GobySec_/comments/12r2d4e/research_on_weblogic_afterdeserialization/"
+                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+                    "cwe_id": "CWE-79"
                 }
             ],
+            "description": "\nMultiple reflected cross-site scripting (XSS) vulnerabilities exist in undisclosed pages of the BIG-IP Configuration utility which allow an attacker to run JavaScript in the context of the currently logged-in user.\u00a0 Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+            "epss_score": "0.00091",
+            "github_repos": [],
+            "lastModifiedDate": "2023-05-03T15:23Z",
+            "num_retweets": 1,
+            "num_tweets": 6,
+            "num_tweets_and_retweets": 7,
+            "publishedDate": "2023-05-03T15:15Z",
+            "reddit_posts": [],
             "score": 7.5,
             "severity": "HIGH",
             "tweets": [
                 {
-                    "created_at": "2023-05-03 13:08",
+                    "created_at": "2023-05-03 16:06",
                     "likes": 0,
-                    "num_retweets": 8,
+                    "num_retweets": 1,
                     "retweets": 0,
-                    "tweet_id": "1653733154513903618",
-                    "tweet_text": "A severe vulnerability in #Oracle WebLogic Server product is actively being exploited in the wild! If you're running versions 12.2.1.3.0, 12.2.1.4.0, or 14.1.1.0.0, take immediate action to secure your systems against this attack. (CVE-2023-21839). \n\n#WebLogic #Cybersecurity https://t.co/bhSoQ9pykb",
-                    "twitter_user_handle": "ReconOne_bk",
-                    "twitter_user_name": "ReconOne",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1633202137650847744/PKyaSLHx_normal.jpg",
+                    "tweet_id": "1653777968995377152",
+                    "tweet_text": "CVE-2023-27378 : \nMultiple reflected cross-site scripting  #XSS  vulnerabilities exist in undisclosed pages of the BIG-IP Configuration utility which allow an attacker to run JavaScript in the context of the currently logged-in user.\u00a0 Not... https://t.co/FHPmDINBGN",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-05-03 18:00",
-                    "likes": 0,
-                    "num_retweets": 5,
-                    "retweets": 0,
-                    "tweet_id": "1653806629656178723",
-                    "tweet_text": "#FortiGuardLabs Threat Signal Report: Oracle WebLogic Server Vulnerability (CVE-2023-21839) added to CISA Known Exploited Vulnerabilities (KEV) Catalog \u2b95 https://t.co/cZQ2fnmwgR https://t.co/nl7WfktdUK",
-                    "twitter_user_handle": "FortiGuardLabs",
-                    "twitter_user_name": "FortiGuard Labs",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1441495779282079744/lbyqcPZa_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 20:49",
-                    "likes": 0,
-                    "num_retweets": 2,
-                    "retweets": 0,
-                    "tweet_id": "1653849238789562368",
-                    "tweet_text": "Heads up, everyone! \n \nCISA has issued an advisory warning of  active exploitation of three known vulnerabilities, including  CVE-2023-1389 (TP-Link Archer AX-21), CVE-2021-45046\u00a0(Apache Log4j2) and CVE-2023-21839\u00a0(Oracle WebLogic). \n \nDetails: https://t.co/cZJ5DCI8QG",
-                    "twitter_user_handle": "3ackd0or",
-                    "twitter_user_name": "3ackd0or",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1508518788475535361/80BEDn_W_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 14:00",
+                    "created_at": "2023-05-03 18:28",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1653746242910842881",
-                    "tweet_text": "Top 3 trending CVEs on Twitter\n\nPast 24 hrs:\nCVE-2023-2131: 1.1M (audience size)\nCVE-2023-21932: 631.3K\nCVE-2023-28231: 443.6K\n\nPast 7 days:\nCVE-2023-28771: 4M\nCVE-2023-1389: 3.1M\nCVE-2023-21839: 2M\n\nhttps://t.co/LhpwNP6xog",
-                    "twitter_user_handle": "CVEtrends",
-                    "twitter_user_name": "CVE Trends",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1465356279585644556/y1IAsYUX_normal.jpg",
+                    "tweet_id": "1653813854093340672",
+                    "tweet_text": "CVE-2023-27378 | F5 BIG-IP Configuration Utility cross site scripting (K000132726) https://t.co/s1tBlPIJOd",
+                    "twitter_user_handle": "glytcher001",
+                    "twitter_user_name": "glytcher",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-05-04 00:00",
+                    "created_at": "2023-05-03 19:13",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1653897240245846016",
-                    "tweet_text": "#DHSCISA added three vulnerabilities to the #CISAKEV catalog on May 1. \n\n1. CVE-2023-1389 - #TP-Link Archer AX-21 routers\n2. CVE-2021-45046 - #Apache Log4j2 \n3. CVE-2023-21839 - #Oracle WebLogic Servers\n\nFollow our latest CISA updates - https://t.co/tce3t5lvn3 \n\n#threatintel https://t.co/33NGIk06kJ",
-                    "twitter_user_handle": "securin_inc",
-                    "twitter_user_name": "Securin",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1621338645516124160/gXrYIsCS_normal.png",
+                    "tweet_id": "1653825191921823748",
+                    "tweet_text": "My real name is CVE-2023-27378 but all my friends call me Mangy Boxfish\nhttps://t.co/Vrqw5iofLa",
+                    "twitter_user_handle": "vulnonym",
+                    "twitter_user_name": "vulnonym",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-05-03 16:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1653783210067722240",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-27378 \ud83d\udea8 \nMultiple reflected cross-site scripting (XSS) vulnerabilities exist in undisclosed pages of the BIG-IP Configuration utility which allow an attacker to run JavaScript in the context of the ... (click for more) Severity: HIGH https://t.co/PlkUD7yICZ",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-05-03 17:00",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1653791602827993088",
+                    "tweet_text": "CVE-2023-27378 Multiple reflected cross-site scripting (XSS) vulnerabilities exist in undisclosed pages of the BIG-IP Configuration utility which allow an attacker to run JavaScript in the context of the currently logged-in user. Note: Software ve... https://t.co/iQ3HsNLLwA",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
                     "urls": []
                 }
             ],
-            "vendor_advisories": [
-                "https://www.oracle.com/security-alerts/cpujan2023.html"
-            ],
-            "vendors": [
-                {
-                    "products": [
-                        {
-                            "product": "Weblogic Server",
-                            "versions": [
-                                "12.2.1.3.0",
-                                "12.2.1.4.0",
-                                "14.1.1.0.0"
-                            ]
-                        }
-                    ],
-                    "vendor": "Oracle"
-                }
-            ]
+            "vendor_advisories": [],
+            "vendors": []
         },
         {
             "assigner": "cve-requests@bitdefender.com",
-            "audience_size": 101124,
+            "audience_size": 96237,
             "cve": "CVE-2023-1384",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -893,12 +732,12 @@
                 }
             ],
             "description": "The setMediaSource function on the amzn.thin.pl service does not sanitize the \"source\" parameter allowing for arbitrary javascript code to be run\n\nThis issue affects:\n\nAmazon Fire TV Stick 3rd gen\u00a0versions prior to 6.2.9.5.\nInsignia TV with FireOS\u00a0versions prior to 7.6.3.3.",
-            "epss_score": null,
+            "epss_score": "0.00043",
             "github_repos": [],
             "lastModifiedDate": "2023-05-03T14:41Z",
             "num_retweets": 2,
-            "num_tweets": 8,
-            "num_tweets_and_retweets": 10,
+            "num_tweets": 6,
+            "num_tweets_and_retweets": 8,
             "publishedDate": "2023-05-03T13:15Z",
             "reddit_posts": [],
             "score": null,
@@ -929,30 +768,6 @@
                     "urls": []
                 },
                 {
-                    "created_at": "2023-05-03 14:01",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1653746576421015553",
-                    "tweet_text": "CVE-2023-1384 : The setMediaSource function on the https://t.co/tPsjKmbPcF service does not sanitize the \"source\" parameter allowing for arbitrary javascript code to be run\n\nThis issue affects:\n\nAmazon Fire TV Stick 3rd gen\u00a0versions prior to 6.2.9... https://t.co/h4dxoDyIaY",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 14:27",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1653753039042363392",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-1384 \ud83d\udea8 The setMediaSource function on the https://t.co/KW0ts3M0jQ service does not sanitize the \"source\" parameter allowing for arbitrary javascript code to be run\n\nThis issue affects:\n\nAmazon Fire TV Stick 3... (click for more)  https://t.co/bwZoN8DZvz",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
-                    "urls": []
-                },
-                {
                     "created_at": "2023-05-03 15:00",
                     "likes": 0,
                     "num_retweets": 0,
@@ -963,93 +778,26 @@
                     "twitter_user_name": "CVE",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
                     "urls": []
-                }
-            ],
-            "vendor_advisories": [],
-            "vendors": []
-        },
-        {
-            "assigner": "f5sirt@f5.com",
-            "audience_size": 96386,
-            "cve": "CVE-2023-27378",
-            "cve_urls": null,
-            "cvssv2_base_score": null,
-            "cvssv2_severity": null,
-            "cvssv3_base_score": 7.5,
-            "cvssv3_base_severity": "HIGH",
-            "cwes": [
-                {
-                    "cwe_description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
-                    "cwe_id": "CWE-79"
-                }
-            ],
-            "description": "\nMultiple reflected cross-site scripting (XSS) vulnerabilities exist in undisclosed pages of the BIG-IP Configuration utility which allow an attacker to run JavaScript in the context of the currently logged-in user.\u00a0 Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
-            "epss_score": null,
-            "github_repos": [],
-            "lastModifiedDate": "2023-05-03T15:23Z",
-            "num_retweets": 1,
-            "num_tweets": 6,
-            "num_tweets_and_retweets": 7,
-            "publishedDate": "2023-05-03T15:15Z",
-            "reddit_posts": [],
-            "score": 7.5,
-            "severity": "HIGH",
-            "tweets": [
-                {
-                    "created_at": "2023-05-03 16:06",
-                    "likes": 0,
-                    "num_retweets": 1,
-                    "retweets": 0,
-                    "tweet_id": "1653777968995377152",
-                    "tweet_text": "CVE-2023-27378 : \nMultiple reflected cross-site scripting  #XSS  vulnerabilities exist in undisclosed pages of the BIG-IP Configuration utility which allow an attacker to run JavaScript in the context of the currently logged-in user.\u00a0 Not... https://t.co/FHPmDINBGN",
-                    "twitter_user_handle": "CVEreport",
-                    "twitter_user_name": "CVE.report",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
-                    "urls": []
                 },
                 {
-                    "created_at": "2023-05-03 16:26",
+                    "created_at": "2023-05-03 15:11",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1653783210067722240",
-                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-27378 \ud83d\udea8 \nMultiple reflected cross-site scripting (XSS) vulnerabilities exist in undisclosed pages of the BIG-IP Configuration utility which allow an attacker to run JavaScript in the context of the ... (click for more) Severity: HIGH https://t.co/PlkUD7yICZ",
-                    "twitter_user_handle": "threatintelctr",
-                    "twitter_user_name": "Threat Intel Center",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "tweet_id": "1653764334642769920",
+                    "tweet_text": "CVEnew: CVE-2023-1384 The setMediaSource function on the https://t.co/tHkDrbm5nz service does not sanitize the \"source\" parameter allowing for arbitrary javascript code to be run This issue affects: Amazon Fire TV Stick 3rd gen versions prior to ... https://t.co/sWkNjLdIap",
+                    "twitter_user_handle": "hernanespinoza",
+                    "twitter_user_name": "Hernan Espinoza",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1547685026636017665/VkgyrG2V_normal.jpg",
                     "urls": []
                 },
                 {
-                    "created_at": "2023-05-03 17:00",
+                    "created_at": "2023-05-03 15:28",
                     "likes": 0,
                     "num_retweets": 0,
                     "retweets": 0,
-                    "tweet_id": "1653791602827993088",
-                    "tweet_text": "CVE-2023-27378 Multiple reflected cross-site scripting (XSS) vulnerabilities exist in undisclosed pages of the BIG-IP Configuration utility which allow an attacker to run JavaScript in the context of the currently logged-in user. Note: Software ve... https://t.co/iQ3HsNLLwA",
-                    "twitter_user_handle": "CVEnew",
-                    "twitter_user_name": "CVE",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 17:29",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1653798919644618752",
-                    "tweet_text": "CVE-2023-27378 Multiple reflected cross-site scripting (XSS) vulnerabilities exist in undisclosed pages of the BIG-IP Configuration utility which allow an attacker to run JavaScript in the context of the currently logged-in user. Note: Software ve... https://t.co/fX0Gacqf05",
-                    "twitter_user_handle": "eyeTSystems",
-                    "twitter_user_name": "\ud835\udc9f\ud835\udcb6\ud835\udcc3\ud835\udcbe\ud835\udc52\ud835\udcc1",
-                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/733144294278582272/6tkqfYMy_normal.jpg",
-                    "urls": []
-                },
-                {
-                    "created_at": "2023-05-03 18:28",
-                    "likes": 0,
-                    "num_retweets": 0,
-                    "retweets": 0,
-                    "tweet_id": "1653813854093340672",
-                    "tweet_text": "CVE-2023-27378 | F5 BIG-IP Configuration Utility cross site scripting (K000132726) https://t.co/s1tBlPIJOd",
+                    "tweet_id": "1653768512987623424",
+                    "tweet_text": "CVE-2023-1384 | Amazon Fire TV Stick 3rd Gen/Insignia TV https://t.co/C4G91tfhPU setMediaSource source cross site scripting https://t.co/7szmivN0o3",
                     "twitter_user_handle": "glytcher001",
                     "twitter_user_name": "glytcher",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
@@ -1061,7 +809,7 @@
         },
         {
             "assigner": "security@vmware.com",
-            "audience_size": 87134,
+            "audience_size": 89996,
             "cve": "CVE-2023-20869",
             "cve_urls": null,
             "cvssv2_base_score": null,
@@ -1073,9 +821,9 @@
             "epss_score": "0.00065",
             "github_repos": [],
             "lastModifiedDate": "2023-04-26T12:52Z",
-            "num_retweets": 10,
-            "num_tweets": 1,
-            "num_tweets_and_retweets": 11,
+            "num_retweets": 12,
+            "num_tweets": 2,
+            "num_tweets_and_retweets": 14,
             "publishedDate": "2023-04-25T22:15Z",
             "reddit_posts": [
                 {
@@ -1090,28 +838,6 @@
                     "url": "https://www.reddit.com/r/u_theinformance/comments/131k01v/vmware_released_security_updates_and_workarounds/"
                 },
                 {
-                    "created": 1682663939.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/u_theinformance/comments/131jv1z/vmware_released_security_updates_and_workarounds/",
-                    "subreddit": "u_theinformance",
-                    "subreddit_subscribers": 0,
-                    "title": "VMware Released Security Updates And Workarounds On April 25",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/u_theinformance/comments/131jv1z/vmware_released_security_updates_and_workarounds/"
-                },
-                {
-                    "created": 1682663880.0,
-                    "is_self": true,
-                    "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/u_theinformance/comments/131juig/vmware_released_security_updates_and_workarounds/",
-                    "subreddit": "u_theinformance",
-                    "subreddit_subscribers": 0,
-                    "title": "VMware Released Security Updates And Workarounds On April 25",
-                    "upvotes": 1,
-                    "url": "https://www.reddit.com/r/u_theinformance/comments/131juig/vmware_released_security_updates_and_workarounds/"
-                },
-                {
                     "created": 1682664506.0,
                     "is_self": true,
                     "num_comments": 0,
@@ -1123,15 +849,37 @@
                     "url": "https://www.reddit.com/r/u_theinformance/comments/131k0tc/vmware_released_security_updates_and_workarounds/"
                 },
                 {
-                    "created": 1682664139.0,
+                    "created": 1682663939.0,
                     "is_self": true,
                     "num_comments": 0,
-                    "reddit_url": "https://www.reddit.com/r/u_theinformance/comments/131jx5q/vmware_released_security_updates_and_workarounds/",
+                    "reddit_url": "https://www.reddit.com/r/u_theinformance/comments/131jv1z/vmware_released_security_updates_and_workarounds/",
                     "subreddit": "u_theinformance",
                     "subreddit_subscribers": 0,
                     "title": "VMware Released Security Updates And Workarounds On April 25",
                     "upvotes": 1,
-                    "url": "https://www.reddit.com/r/u_theinformance/comments/131jx5q/vmware_released_security_updates_and_workarounds/"
+                    "url": "https://www.reddit.com/r/u_theinformance/comments/131jv1z/vmware_released_security_updates_and_workarounds/"
+                },
+                {
+                    "created": 1682664904.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/u_theinformance/comments/131k4ww/vmware_released_security_updates_and_workarounds/",
+                    "subreddit": "u_theinformance",
+                    "subreddit_subscribers": 0,
+                    "title": "VMware Released Security Updates And Workarounds On April 25",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/u_theinformance/comments/131k4ww/vmware_released_security_updates_and_workarounds/"
+                },
+                {
+                    "created": 1682663880.0,
+                    "is_self": true,
+                    "num_comments": 0,
+                    "reddit_url": "https://www.reddit.com/r/u_theinformance/comments/131juig/vmware_released_security_updates_and_workarounds/",
+                    "subreddit": "u_theinformance",
+                    "subreddit_subscribers": 0,
+                    "title": "VMware Released Security Updates And Workarounds On April 25",
+                    "upvotes": 1,
+                    "url": "https://www.reddit.com/r/u_theinformance/comments/131juig/vmware_released_security_updates_and_workarounds/"
                 }
             ],
             "score": null,
@@ -1140,13 +888,197 @@
                 {
                     "created_at": "2023-05-04 02:44",
                     "likes": 0,
-                    "num_retweets": 10,
+                    "num_retweets": 12,
                     "retweets": 0,
                     "tweet_id": "1653938493482209280",
                     "tweet_text": "Escalada de privilegios local en VMware Workstation\nhttps://t.co/1PS4ZEi6Rr\n\nEl error CVE-2023-20869 reside en el componente UHCI y puede permitir que los atacantes desde dentro de un host ejecuten c\u00f3digo arbitrario en el contexto del hipervisor\nhttps://t.co/A3DzKgHBaU",
                     "twitter_user_handle": "elhackernet",
                     "twitter_user_name": "elhacker.NET",
                     "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1330969532/e-peq1_normal.png",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-05-04 07:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1654004431044657152",
+                    "tweet_text": "The vuln CVE-2023-20869 has a tweet created 0 days ago and retweeted 10 times.\nhttps://t.co/ywKpfys2hu\n#pow1rtrtwwcve",
+                    "twitter_user_handle": "ipssignatures",
+                    "twitter_user_name": "ipssignatures",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": []
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "cve@gitlab.com",
+            "audience_size": 78884,
+            "cve": "CVE-2023-2182",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": "An issue has been discovered in GitLab EE affecting all versions starting from 15.10 before 15.10.5, all versions starting from 15.11 before 15.11.1. Under certain conditions when OpenID Connect is enabled on an instance, it may allow users who are marked as 'external' to become 'regular' users thus leading to privilege escalation for those users.",
+            "epss_score": "0.00043",
+            "github_repos": [],
+            "lastModifiedDate": "2023-05-04T13:03Z",
+            "num_retweets": 1,
+            "num_tweets": 7,
+            "num_tweets_and_retweets": 8,
+            "publishedDate": "2023-05-03T22:15Z",
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-05-04 00:00",
+                    "likes": 0,
+                    "num_retweets": 1,
+                    "retweets": 0,
+                    "tweet_id": "1653897308910526464",
+                    "tweet_text": "CVE-2023-2182 An issue has been discovered in GitLab EE affecting all versions starting from 15.10 before 15.10.5, all versions starting from 15.11 before 15.11.1. Under certain conditions when OpenID Connect is enabled on an instance, it may allo... https://t.co/JCD5IpQZfe",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-05-03 23:05",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1653883596266938369",
+                    "tweet_text": "CVE-2023-2182 : An issue has been discovered in GitLab EE affecting all versions starting from 15.10 before 15.10.5, all versions starting from 15.11 before 15.11.1. Under certain conditions when OpenID Connect is enabled on an instance... https://t.co/L7SuR26zlI",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-05-03 23:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1653888911645474901",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-2182 \ud83d\udea8 An issue has been discovered in GitLab EE affecting all versions starting from 15.10 before 15.10.5, all versions starting from 15.11 before 15.11.1. Under certain conditions when OpenID Con... (click for more)  https://t.co/UNNyMxI38o",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-05-04 04:07",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1653959542038839297",
+                    "tweet_text": "One night, CVE-2023-2182 wished upon a star, and today that wish has been granted. It now has a name, like a real, live vulnerability: Demented Turkey\nhttps://t.co/xwOH3boJxP",
+                    "twitter_user_handle": "vulnonym",
+                    "twitter_user_name": "vulnonym",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1235605772878438405/6p9IJVtn_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-05-04 07:25",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1654009268193067008",
+                    "tweet_text": "CVE-2023-2182 | GitLab Enterprise Edition OpenID Connect Privilege Escalation (Issue 403012) https://t.co/t9wANkHM2f",
+                    "twitter_user_handle": "glytcher001",
+                    "twitter_user_name": "glytcher",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1515725665387130897/e57gbN6K_normal.jpg",
+                    "urls": []
+                }
+            ],
+            "vendor_advisories": [],
+            "vendors": []
+        },
+        {
+            "assigner": "cve@gitlab.com",
+            "audience_size": 78744,
+            "cve": "CVE-2023-1965",
+            "cve_urls": null,
+            "cvssv2_base_score": null,
+            "cvssv2_severity": null,
+            "cvssv3_base_score": null,
+            "cvssv3_base_severity": null,
+            "cwes": [],
+            "description": "An issue has been discovered in GitLab EE affecting all versions starting from 14.2 before 15.9.6, all versions starting from 15.10 before 15.10.5, all versions starting from 15.11 before 15.11.1. Lack of verification on RelayState parameter allowed a maliciously crafted URL to obtain access tokens granted for 3rd party Group SAML SSO logins. This feature isn't enabled by default.",
+            "epss_score": "0.00045",
+            "github_repos": [],
+            "lastModifiedDate": "2023-05-04T13:03Z",
+            "num_retweets": 0,
+            "num_tweets": 9,
+            "num_tweets_and_retweets": 9,
+            "publishedDate": "2023-05-03T21:15Z",
+            "reddit_posts": [],
+            "score": null,
+            "severity": null,
+            "tweets": [
+                {
+                    "created_at": "2023-05-03 22:02",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1653867671161827330",
+                    "tweet_text": "CVE-2023-1965 An issue has been discovered in GitLab EE affecting all versions starting from 14.2 before 15.9.6, all versions starting from 15.10 before 15.10.5, all versions startin\u2026 https://t.co/FVmDwsohBB",
+                    "twitter_user_handle": "hkmitre",
+                    "twitter_user_name": "hk4-mitre",
+                    "twitter_user_profile_pic": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-05-03 22:08",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1653869059161702410",
+                    "tweet_text": "CVE-2023-1965 : An issue has been discovered in GitLab EE affecting all versions starting from 14.2 before 15.9.6, all versions starting from 15.10 before 15.10.5, all versions starting from 15.11 before 15.11.1. Lack of verification on... https://t.co/0lSvFxtzuv",
+                    "twitter_user_handle": "CVEreport",
+                    "twitter_user_name": "CVE.report",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/589794568574357505/gwqqrkZn_normal.png",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-05-03 22:26",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1653873808481087489",
+                    "tweet_text": "\ud83d\udea8 NEW: CVE-2023-1965 \ud83d\udea8 An issue has been discovered in GitLab EE affecting all versions starting from 14.2 before 15.9.6, all versions starting from 15.10 before 15.10.5, all versions starting from 15.11 before 15... (click for more)  https://t.co/99KU9dfMxE",
+                    "twitter_user_handle": "threatintelctr",
+                    "twitter_user_name": "Threat Intel Center",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/904224973987840000/dMy1x9Ho_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-05-03 23:00",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1653882207071551494",
+                    "tweet_text": "CVE-2023-1965 An issue has been discovered in GitLab EE affecting all versions starting from 14.2 before 15.9.6, all versions starting from 15.10 before 15.10.5, all versions starting from 15.11 before 15.11.1. Lack of verification on RelayState p... https://t.co/GIftFlMfmf",
+                    "twitter_user_handle": "CVEnew",
+                    "twitter_user_name": "CVE",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/1447927972393111557/PQRMlVvZ_normal.jpg",
+                    "urls": []
+                },
+                {
+                    "created_at": "2023-05-04 00:06",
+                    "likes": 0,
+                    "num_retweets": 0,
+                    "retweets": 0,
+                    "tweet_id": "1653898920689270786",
+                    "tweet_text": "CVE-2023-1965\n\nAn issue has been discovered in GitLab EE affecting all versions starting from 14.2 before 15.9.6, all versions starting from 15.10 before 15.10.5, all versions starting from 15.11 before 15.11.1. La...\n\nhttps://t.co/1I1DW6wIs3",
+                    "twitter_user_handle": "VulmonFeeds",
+                    "twitter_user_name": "Vulmon Vulnerability Feed",
+                    "twitter_user_profile_pic": "https://pbs.twimg.com/profile_images/945758793161498625/67b3PEYK_normal.jpg",
                     "urls": []
                 }
             ],
@@ -1155,5 +1087,5 @@
         }
     ],
     "latest_client_version": "0.1.14",
-    "updated": "2023-05-04 06:43:36"
+    "updated": "2023-05-04 14:48:08"
 }
