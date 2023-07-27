@@ -1,5 +1,815 @@
 [
     {
+        "Modified": "2023-07-27T19:59:00",
+        "Published": "2023-07-17T14:15:00",
+        "access": {},
+        "assigner": "cve@usom.gov.tr",
+        "cvss": null,
+        "cwe": "CWE-287",
+        "id": "CVE-2023-2959",
+        "impact": {},
+        "last-modified": "2023-07-27T19:59:00",
+        "references": [
+            "https://www.usom.gov.tr/bildirim/tr-23-0409"
+        ],
+        "summary": "Authentication Bypass by Primary Weakness vulnerability in Oliva Expertise Oliva Expertise EKS allows Collect Data as Provided by Users.This issue affects Oliva Expertise EKS: before 1.2.\n\n"
+    },
+    {
+        "Modified": "2023-07-27T19:56:00",
+        "Published": "2023-07-16T01:15:00",
+        "access": {},
+        "assigner": "security@huntr.dev",
+        "cvss": null,
+        "cwe": "CWE-434",
+        "id": "CVE-2023-3692",
+        "impact": {},
+        "last-modified": "2023-07-27T19:56:00",
+        "references": [
+            "https://huntr.dev/bounties/be6616eb-384d-40d6-b1fd-0ec9e4973f12",
+            "https://github.com/admidio/admidio/commit/d66585d14b1160712a8a9bfaf9769dd3da0e9a83"
+        ],
+        "summary": "Unrestricted Upload of File with Dangerous Type in GitHub repository admidio/admidio prior to 4.2.10."
+    },
+    {
+        "Modified": "2023-07-27T19:54:00",
+        "Published": "2023-07-17T07:15:00",
+        "access": {},
+        "assigner": "security@huntr.dev",
+        "cvss": null,
+        "cwe": "CWE-639",
+        "id": "CVE-2023-3700",
+        "impact": {},
+        "last-modified": "2023-07-27T19:54:00",
+        "references": [
+            "https://huntr.dev/bounties/e8d530db-a6a7-4f79-a95d-b77654cc04f8",
+            "https://github.com/alextselegidis/easyappointments/commit/b37b46019553089db4f22eb2fe998bca84b2cb64"
+        ],
+        "summary": "Improper Access Control in GitHub repository alextselegidis/easyappointments prior to 1.5.0."
+    },
+    {
+        "Modified": "2023-07-27T19:51:00",
+        "Published": "2023-07-20T00:15:00",
+        "access": {},
+        "assigner": "security@hashicorp.com",
+        "cvss": null,
+        "cwe": "CWE-862",
+        "id": "CVE-2023-3072",
+        "impact": {},
+        "last-modified": "2023-07-27T19:51:00",
+        "references": [
+            "https://discuss.hashicorp.com/t/hcsec-2023-20-nomad-acl-policies-without-label-are-applied-to-unexpected-resources/56270"
+        ],
+        "summary": "HashiCorp Nomad and Nomad Enterprise 0.7.0 up to 1.5.6 and 1.4.10 ACL policies using a block without a label generates unexpected results. Fixed in 1.6.0, 1.5.7, and 1.4.11."
+    },
+    {
+        "Modified": "2023-07-27T19:51:00",
+        "Published": "2023-07-18T20:15:00",
+        "access": {},
+        "assigner": "PSIRT@rockwellautomation.com",
+        "cvss": null,
+        "cwe": "CWE-22",
+        "id": "CVE-2023-2913",
+        "impact": {},
+        "last-modified": "2023-07-27T19:51:00",
+        "references": [
+            "https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1140160"
+        ],
+        "summary": "\nAn executable used in Rockwell Automation ThinManager ThinServer can be configured to enable an API feature in the HTTPS Server Settings. This feature is disabled by default. When the API is enabled and handling requests, a path traversal vulnerability exists that allows a remote actor to leverage the privileges of the server\u2019s file system and read arbitrary files stored in it. A malicious user could exploit this vulnerability by executing a path that contains manipulating variables.\n\n\n"
+    },
+    {
+        "Modified": "2023-07-27T19:50:00",
+        "Published": "2023-07-20T00:15:00",
+        "access": {},
+        "assigner": "security@hashicorp.com",
+        "cvss": null,
+        "cwe": "CWE-668",
+        "id": "CVE-2023-3299",
+        "impact": {},
+        "last-modified": "2023-07-27T19:50:00",
+        "references": [
+            "https://discuss.hashicorp.com/t/hcsec-2023-21-nomad-caller-acl-tokens-secret-id-is-exposed-to-sentinel/56271"
+        ],
+        "summary": "\n\n\nHashiCorp Nomad Enterprise 1.2.11 up to 1.5.6, and 1.4.10 ACL policies using a block without a label generates unexpected results. Fixed in 1.6.0, 1.5.7, and 1.4.11.\n\n\n"
+    },
+    {
+        "Modified": "2023-07-27T19:50:00",
+        "Published": "2023-07-18T17:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2023-37259",
+        "impact": {},
+        "last-modified": "2023-07-27T19:50:00",
+        "references": [
+            "https://github.com/matrix-org/matrix-react-sdk/commit/22fcd34c606f32129ebc967fc21f24fb708a98b8",
+            "https://github.com/matrix-org/matrix-react-sdk/security/advisories/GHSA-c9vx-2g7w-rp65"
+        ],
+        "summary": "matrix-react-sdk is a react-based SDK for inserting a Matrix chat/voip client into a web page. The Export Chat feature includes certain attacker-controlled elements in the generated document without sufficient escaping, leading to stored Cross site scripting (XSS). Since the Export Chat feature generates a separate document, an attacker can only inject code run from the `null` origin, restricting the impact. However, the attacker can still potentially use the XSS to leak message contents. A malicious homeserver is a potential attacker since the affected inputs are controllable server-side. This issue has been addressed in commit `22fcd34c60` which is included in release version 3.76.0. Users are advised to upgrade. The only known workaround for this issue is to disable or to not use the Export Chat feature."
+    },
+    {
+        "Modified": "2023-07-27T19:50:00",
+        "Published": "2023-07-17T16:15:00",
+        "access": {},
+        "assigner": "responsibledisclosure@mattermost.com",
+        "cvss": null,
+        "cwe": "CWE-863",
+        "id": "CVE-2023-3584",
+        "impact": {},
+        "last-modified": "2023-07-27T19:50:00",
+        "references": [
+            "https://mattermost.com/security-updates"
+        ],
+        "summary": "Mattermost fails to properly check the authorization of\u00a0POST /api/v4/teams when passing a team override scheme ID in the request,\u00a0allowing an authenticated attacker with knowledge of a Team Override Scheme ID to create a new team with said team override scheme.\n\n"
+    },
+    {
+        "Modified": "2023-07-27T19:49:00",
+        "Published": "2023-07-18T21:15:00",
+        "access": {},
+        "assigner": "secalert_us@oracle.com",
+        "cvss": null,
+        "cwe": "NVD-CWE-noinfo",
+        "id": "CVE-2023-22055",
+        "impact": {},
+        "last-modified": "2023-07-27T19:49:00",
+        "references": [
+            "https://www.oracle.com/security-alerts/cpujul2023.html"
+        ],
+        "summary": "Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Web Runtime SEC).  Supported versions that are affected are Prior to 9.2.7.4. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in JD Edwards EnterpriseOne Tools, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of JD Edwards EnterpriseOne Tools accessible data as well as  unauthorized read access to a subset of JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N)."
+    },
+    {
+        "Modified": "2023-07-27T19:49:00",
+        "Published": "2023-07-18T21:15:00",
+        "access": {},
+        "assigner": "secalert_us@oracle.com",
+        "cvss": null,
+        "cwe": "NVD-CWE-noinfo",
+        "id": "CVE-2023-22060",
+        "impact": {},
+        "last-modified": "2023-07-27T19:49:00",
+        "references": [
+            "https://www.oracle.com/security-alerts/cpujul2023.html"
+        ],
+        "summary": "Vulnerability in the Oracle Hyperion Workspace product of Oracle Hyperion (component: UI and Visualization).   The supported version that is affected is 11.2.13.0.000. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Hyperion Workspace.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Hyperion Workspace accessible data as well as  unauthorized access to critical data or complete access to all Oracle Hyperion Workspace accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Hyperion Workspace. CVSS 3.1 Base Score 7.6 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L)."
+    },
+    {
+        "Modified": "2023-07-27T19:49:00",
+        "Published": "2023-07-18T21:15:00",
+        "access": {},
+        "assigner": "secalert_us@oracle.com",
+        "cvss": null,
+        "cwe": "NVD-CWE-noinfo",
+        "id": "CVE-2023-22051",
+        "impact": {},
+        "last-modified": "2023-07-27T19:49:00",
+        "references": [
+            "https://www.oracle.com/security-alerts/cpujul2023.html"
+        ],
+        "summary": "Vulnerability in the Oracle GraalVM Enterprise Edition, Oracle GraalVM for JDK product of Oracle Java SE (component: GraalVM Compiler).  Supported versions that are affected are Oracle GraalVM Enterprise Edition: 21.3.6, 22.3.2; Oracle GraalVM for JDK: 17.0.7 and  20.0.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle GraalVM Enterprise Edition, Oracle GraalVM for JDK.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle GraalVM Enterprise Edition, Oracle GraalVM for JDK accessible data. CVSS 3.1 Base Score 3.7 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N)."
+    },
+    {
+        "Modified": "2023-07-27T19:49:00",
+        "Published": "2023-07-17T16:15:00",
+        "access": {},
+        "assigner": "responsibledisclosure@mattermost.com",
+        "cvss": null,
+        "cwe": "CWE-863",
+        "id": "CVE-2023-3582",
+        "impact": {},
+        "last-modified": "2023-07-27T19:49:00",
+        "references": [
+            "https://mattermost.com/security-updates"
+        ],
+        "summary": "Mattermost fails to verify channel membership when linking a board to a channel allowing a low-privileged authenticated user to link a Board to a private channel they don't have access to,\u00a0\n\n"
+    },
+    {
+        "Modified": "2023-07-27T19:48:00",
+        "Published": "2023-07-19T16:15:00",
+        "access": {},
+        "assigner": "psirt@esri.com",
+        "cvss": null,
+        "cwe": "CWE-89",
+        "id": "CVE-2023-25839",
+        "impact": {},
+        "last-modified": "2023-07-27T19:48:00",
+        "references": [
+            "https://www.esri.com/arcgis-blog/products/trust-arcgis/administration/arcgis-insights-security-patches-for-arcgis-insights-2022-1-are-now-available/"
+        ],
+        "summary": "\nThere is SQL injection vulnerability in Esri ArcGIS Insights Desktop for Mac and Windows version 2022.1  that may allow a local, authorized attacker to execute arbitrary SQL commands against the back-end database. The effort required to generate the crafted input required to exploit this issue is complex and requires significant effort before a successful attack can be expected.\n\n"
+    },
+    {
+        "Modified": "2023-07-27T19:48:00",
+        "Published": "2023-07-18T19:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "CWE-400",
+        "id": "CVE-2023-37481",
+        "impact": {},
+        "last-modified": "2023-07-27T19:48:00",
+        "references": [
+            "https://github.com/ethyca/fides/commit/8beaace082b325e693dc7682029a3cb7e6c2b69d",
+            "https://github.com/ethyca/fides/security/advisories/GHSA-3rw2-wfc8-wmj5"
+        ],
+        "summary": "Fides is an open-source privacy engineering platform for managing data privacy requests and privacy regulations. The Fides webserver is vulnerable to a type of Denial of Service (DoS) attack. Attackers can exploit this vulnerability to upload zip files containing malicious SVG bombs (similar to a billion laughs attack), causing resource exhaustion in Admin UI browser tabs and creating a persistent denial of service of the 'new connector' page (`datastore-connection/new`). This vulnerability affects Fides versions `2.11.0` through `2.15.1`. Exploitation is limited to users with elevated privileges with the `CONNECTOR_TEMPLATE_REGISTER` scope, which includes root users and users with the owner role. The vulnerability has been patched in Fides version `2.16.0`. Users are advised to upgrade to this version or later to secure their systems against this threat. There is no known workaround to remediate this vulnerability without upgrading."
+    },
+    {
+        "Modified": "2023-07-27T19:48:00",
+        "Published": "2023-07-18T17:15:00",
+        "access": {},
+        "assigner": "secalert@redhat.com",
+        "cvss": null,
+        "cwe": "CWE-667",
+        "id": "CVE-2023-0160",
+        "impact": {},
+        "last-modified": "2023-07-27T19:48:00",
+        "references": [
+            "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ed17aa92dc56",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2159764",
+            "https://access.redhat.com/security/cve/CVE-2023-0160",
+            "https://lore.kernel.org/all/CABcoxUayum5oOqFMMqAeWuS8+EzojquSOSyDA3J_2omY=2EeAg@mail.gmail.com/"
+        ],
+        "summary": "A deadlock flaw was found in the Linux kernel\u2019s BPF subsystem. This flaw allows a local user to potentially crash the system."
+    },
+    {
+        "Modified": "2023-07-27T19:47:00",
+        "Published": "2023-07-18T19:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "CWE-400",
+        "id": "CVE-2023-37480",
+        "impact": {},
+        "last-modified": "2023-07-27T19:47:00",
+        "references": [
+            "https://github.com/ethyca/fides/commit/5aea738463960d81821c11ae7ade1d627a46bf32",
+            "https://github.com/ethyca/fides/security/advisories/GHSA-g95c-2jgm-hqc6"
+        ],
+        "summary": "Fides is an open-source privacy engineering platform for managing data privacy requests and privacy regulations. The Fides webserver is vulnerable to a type of Denial of Service (DoS) attack. Attackers can exploit a weakness in the connector template upload feature to upload a malicious zip bomb file, resulting in resource exhaustion and service unavailability for all users of the Fides webserver. This vulnerability affects Fides versions `2.11.0` through `2.15.1`. Exploitation is limited to users with elevated privileges with the `CONNECTOR_TEMPLATE_REGISTER` scope, which includes root users and users with the owner role. The vulnerability has been patched in Fides version `2.16.0`. Users are advised to upgrade to this version or later to secure their systems against this threat. There is no known workaround to remediate this vulnerability without upgrading. If an attack occurs, the impact can be mitigated by manually or automatically restarting the affected container.\n"
+    },
+    {
+        "Modified": "2023-07-27T19:47:00",
+        "Published": "2023-07-14T20:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "CWE-22",
+        "id": "CVE-2023-37474",
+        "impact": {},
+        "last-modified": "2023-07-27T19:47:00",
+        "references": [
+            "https://github.com/9001/copyparty/security/advisories/GHSA-pxfv-7rr3-2qjg",
+            "https://github.com/9001/copyparty/commit/043e3c7dd683113e2b1c15cacb9c8e68f76513ff"
+        ],
+        "summary": "Copyparty is a portable file server. Versions prior to 1.8.2 are subject to a path traversal vulnerability detected in the `.cpr` subfolder. The Path Traversal attack technique allows an attacker access to files, directories, and commands that reside outside the web document root directory. This issue has been addressed in commit `043e3c7d` which has been included in release 1.8.2. Users are advised to upgrade. There are no known workarounds for this vulnerability."
+    },
+    {
+        "Modified": "2023-07-27T19:46:00",
+        "Published": "2023-07-17T16:15:00",
+        "access": {},
+        "assigner": "responsibledisclosure@mattermost.com",
+        "cvss": null,
+        "cwe": "CWE-346",
+        "id": "CVE-2023-3581",
+        "impact": {},
+        "last-modified": "2023-07-27T19:46:00",
+        "references": [
+            "https://mattermost.com/security-updates"
+        ],
+        "summary": "Mattermost fails to properly validate the origin of a websocket connection allowing a MITM attacker on Mattermost to access the websocket APIs.\n\n"
+    },
+    {
+        "Modified": "2023-07-27T19:40:00",
+        "Published": "2023-07-17T16:15:00",
+        "access": {},
+        "assigner": "responsibledisclosure@mattermost.com",
+        "cvss": null,
+        "cwe": "CWE-862",
+        "id": "CVE-2023-3587",
+        "impact": {},
+        "last-modified": "2023-07-27T19:40:00",
+        "references": [
+            "https://mattermost.com/security-updates"
+        ],
+        "summary": "Mattermost fails to properly show information in the UI, allowing a system admin to modify a board state allowing any user with a valid sharing link to join the board with editor access, without the UI showing the updated permissions.\n\n"
+    },
+    {
+        "Modified": "2023-07-27T19:37:00",
+        "Published": "2023-07-17T16:15:00",
+        "access": {},
+        "assigner": "responsibledisclosure@mattermost.com",
+        "cvss": null,
+        "cwe": "CWE-863",
+        "id": "CVE-2023-3586",
+        "impact": {},
+        "last-modified": "2023-07-27T19:37:00",
+        "references": [
+            "https://mattermost.com/security-updates"
+        ],
+        "summary": "Mattermost fails to disable\u00a0public Boards after the \"Enable Publicly-Shared Boards\" configuration option is disabled, resulting in\u00a0previously-shared\u00a0public Boards to remain accessible.\n\n"
+    },
+    {
+        "Modified": "2023-07-27T19:23:00",
+        "Published": "2023-07-17T16:15:00",
+        "access": {},
+        "assigner": "responsibledisclosure@mattermost.com",
+        "cvss": null,
+        "cwe": "CWE-863",
+        "id": "CVE-2023-3590",
+        "impact": {},
+        "last-modified": "2023-07-27T19:23:00",
+        "references": [
+            "https://mattermost.com/security-updates"
+        ],
+        "summary": "Mattermost\u00a0fails to delete card attachments in Boards, allowing an attacker to access deleted attachments.\n\n"
+    },
+    {
+        "Modified": "2023-07-27T19:23:00",
+        "Published": "2023-07-17T16:15:00",
+        "access": {},
+        "assigner": "responsibledisclosure@mattermost.com",
+        "cvss": null,
+        "cwe": "CWE-287",
+        "id": "CVE-2023-3591",
+        "impact": {},
+        "last-modified": "2023-07-27T19:23:00",
+        "references": [
+            "https://mattermost.com/security-updates"
+        ],
+        "summary": "Mattermost fails to invalidate previously generated password reset tokens when a new reset token was created.\n\n"
+    },
+    {
+        "Modified": "2023-07-27T19:22:00",
+        "Published": "2023-07-20T00:15:00",
+        "access": {},
+        "assigner": "security@hashicorp.com",
+        "cvss": null,
+        "cwe": "CWE-862",
+        "id": "CVE-2023-3300",
+        "impact": {},
+        "last-modified": "2023-07-27T19:22:00",
+        "references": [
+            "https://discuss.hashicorp.com/t/hcsec-2023-22-nomad-search-api-leaks-information-about-csi-plugins/56272"
+        ],
+        "summary": "HashiCorp Nomad and Nomad Enterprise 0.11.0 up to 1.5.6 and 1.4.1 HTTP search API can reveal names of available CSI plugins to unauthenticated users or users without the plugin:read policy. Fixed in 1.6.0, 1.5.7, and 1.4.1."
+    },
+    {
+        "Modified": "2023-07-27T19:15:00",
+        "Published": "2023-07-27T19:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2022-31200",
+        "impact": {},
+        "last-modified": "2023-07-27T19:15:00",
+        "references": [
+            "https://portswigger.net/blog/exploiting-xss-in-post-requests",
+            "https://medium.com/@rohitgautam26/cve-2022-31200-5117bac8d548"
+        ],
+        "summary": "Atmail 5.62 allows XSS via the mail/parse.php?file=html/$this-%3ELanguage/help/filexp.html&FirstLoad=1&HelpFile=file.html Search Terms field."
+    },
+    {
+        "Modified": "2023-07-27T19:15:00",
+        "Published": "2023-07-27T19:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "CWE-20",
+        "id": "CVE-2023-38495",
+        "impact": {},
+        "last-modified": "2023-07-27T19:15:00",
+        "references": [
+            "https://github.com/crossplane/crossplane/blob/ac8b24fe739c5d942ea885157148497f196c3dd3/security/ADA-security-audit-23.pdf",
+            "https://github.com/crossplane/crossplane/security/advisories/GHSA-pj4x-2xr5-w87m"
+        ],
+        "summary": "Crossplane is a framework for building cloud native control planes without needing to write code. In versions prior to 1.11.5, 1.12.3, and 1.13.0, Crossplane's image backend does not validate the byte contents of Crossplane packages. As such, Crossplane does not detect if an attacker has tampered with a Package. The problem has been fixed in 1.11.5, 1.12.3 and 1.13.0. As a workaround, only use images from trusted sources and keep Package editing/creating privileges to administrators only."
+    },
+    {
+        "Modified": "2023-07-27T19:15:00",
+        "Published": "2023-07-27T19:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "CWE-248",
+        "id": "CVE-2023-38504",
+        "impact": {},
+        "last-modified": "2023-07-27T19:15:00",
+        "references": [
+            "https://github.com/balderdashy/sails/security/advisories/GHSA-gpw9-fwm8-7rx7",
+            "https://github.com/balderdashy/sails/commit/4a023dc5095a4b30fdc8535f705ed34cd22d2f7d",
+            "https://github.com/balderdashy/sails/releases/tag/v1.5.7",
+            "https://github.com/balderdashy/sails/pull/7287"
+        ],
+        "summary": "Sails is a realtime MVC Framework for Node.js. In Sails apps prior to version 1.5.7,, an attacker can send a virtual request that will cause the node process to crash. This behavior was fixed in Sails v1.5.7. As a workaround, disable the sockets hook and remove the `sails.io.js` client."
+    },
+    {
+        "Modified": "2023-07-27T19:15:00",
+        "Published": "2023-07-27T19:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "CWE-412",
+        "id": "CVE-2023-38505",
+        "impact": {},
+        "last-modified": "2023-07-27T19:15:00",
+        "references": [
+            "https://github.com/ravenclaw900/DietPi-Dashboard/commit/79cd78615d28f577454415e4baafe4dcd9d09666",
+            "https://asciinema.org/a/8nRKbdf7AkPLmP3QxFZUSmPwp?t=7",
+            "https://github.com/ravenclaw900/DietPi-Dashboard/security/advisories/GHSA-3jr4-9rxf-fr44",
+            "https://github.com/ravenclaw900/DietPi-Dashboard/pull/606"
+        ],
+        "summary": "DietPi-Dashboard is a web dashboard for the operating system DietPi. The dashboard only allows for one TLS handshake to be in process at a given moment. Once a TCP connection is established in HTTPS mode, it will assume that it should be waiting for a handshake, and will stay this way indefinitely until a handshake starts or some error occurs. In version 0.6.1, this can be exploited by simply not starting the handshake, preventing any other TLS handshakes from getting through. An attacker can lock the dashboard in a state where it is waiting for a TLS handshake from the attacker, who won't provide it. This prevents any legitimate traffic from getting to the dashboard, and can last indefinitely. Version 0.6.2 has a patch for this issue. As a workaround, do not use HTTPS mode on the open internet where anyone can connect. Instead, put a reverse proxy in front of the dashboard, and have it handle any HTTPS connections."
+    },
+    {
+        "Modified": "2023-07-27T19:15:00",
+        "Published": "2023-07-27T19:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "CWE-862",
+        "id": "CVE-2023-38510",
+        "impact": {},
+        "last-modified": "2023-07-27T19:15:00",
+        "references": [
+            "https://github.com/tolgee/tolgee-platform/releases/tag/v3.23.1",
+            "https://github.com/tolgee/tolgee-platform/security/advisories/GHSA-4f9j-4vh4-p85v",
+            "https://github.com/tolgee/tolgee-platform/commit/4776cba67e7bb8c1b0259376e3e5fa3bb46e45c7",
+            "https://github.com/tolgee/tolgee-platform/pull/1818"
+        ],
+        "summary": "Tolgee is an open-source localization platform. Starting in version 3.14.0 and prior to version 3.23.1, when a request is made using an API key, the backend fails to verify the permission scopes associated with the key, effectively bypassing permission checks entirely for some endpoints. It's important to note that this vulnerability only affects projects that have inadvertently exposed their API keys on the internet. Projects that have kept their API keys secure are not impacted. This issue is fixed in version 3.23.1."
+    },
+    {
+        "Modified": "2023-07-27T19:15:00",
+        "Published": "2023-07-27T19:15:00",
+        "access": {},
+        "assigner": "security@huntr.dev",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2023-3980",
+        "impact": {},
+        "last-modified": "2023-07-27T19:15:00",
+        "references": [
+            "https://github.com/omeka/omeka-s/commit/c6833c0531a07bd914e9f85a61bbbc16e9b4c8df",
+            "https://huntr.dev/bounties/6eb3cb9a-5c78-451f-ae76-0b1e62fe5e54"
+        ],
+        "summary": "Cross-site Scripting (XSS) - Stored in GitHub repository omeka/omeka-s prior to 4.0.2."
+    },
+    {
+        "Modified": "2023-07-27T19:15:00",
+        "Published": "2023-07-27T19:15:00",
+        "access": {},
+        "assigner": "security@huntr.dev",
+        "cvss": null,
+        "cwe": "CWE-918",
+        "id": "CVE-2023-3981",
+        "impact": {},
+        "last-modified": "2023-07-27T19:15:00",
+        "references": [
+            "https://huntr.dev/bounties/f5018226-0063-415d-9675-d7e30934ff78",
+            "https://github.com/omeka/omeka-s/commit/dc01ca1b03e845db8a6a6b665d8da36c8dcd2c31"
+        ],
+        "summary": "Server-Side Request Forgery (SSRF) in GitHub repository omeka/omeka-s prior to 4.0.2."
+    },
+    {
+        "Modified": "2023-07-27T19:15:00",
+        "Published": "2023-07-27T19:15:00",
+        "access": {},
+        "assigner": "security@huntr.dev",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2023-3982",
+        "impact": {},
+        "last-modified": "2023-07-27T19:15:00",
+        "references": [
+            "https://huntr.dev/bounties/e5e889ee-5947-4c2a-a72e-9c90e2e2a845",
+            "https://github.com/omeka/omeka-s/commit/27ff6575c88d970ce95e1d4096553a927e2003b9"
+        ],
+        "summary": "Cross-site Scripting (XSS) - Stored in GitHub repository omeka/omeka-s prior to 4.0.2."
+    },
+    {
+        "Modified": "2023-07-27T18:50:00",
+        "Published": "2023-07-19T01:15:00",
+        "access": {},
+        "assigner": "psirt@us.ibm.com",
+        "cvss": null,
+        "cwe": "CWE-367",
+        "id": "CVE-2023-33832",
+        "impact": {},
+        "last-modified": "2023-07-27T18:50:00",
+        "references": [
+            "https://exchange.xforce.ibmcloud.com/vulnerabilities/256012",
+            "https://www.ibm.com/support/pages/node/7011761"
+        ],
+        "summary": "IBM Spectrum Protect 8.1.0.0 through 8.1.17.0 could allow a local user to cause a denial of service due to due to improper time-of-check to time-of-use functionality.  IBM X-Force ID:  256012."
+    },
+    {
+        "Modified": "2023-07-27T18:49:00",
+        "Published": "2023-07-27T18:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2021-36580",
+        "impact": {},
+        "last-modified": "2023-07-27T18:49:00",
+        "references": [
+            "https://medium.com/@rohitgautam26/cve-2021-36580-69219798231c",
+            "http://mail.ziyan.com",
+            "http://icewarp.com"
+        ],
+        "summary": "Open Redirect vulnerability exists in IceWarp MailServer IceWarp Server Deep Castle 2 Update 1 (13.0.1.2) via the referer parameter."
+    },
+    {
+        "Modified": "2023-07-27T18:49:00",
+        "Published": "2023-07-27T18:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2023-36941",
+        "impact": {},
+        "last-modified": "2023-07-27T18:49:00",
+        "references": [
+            "https://medium.com/@ridheshgohil1092/cve-2023-36941-xss-on-online-fire-reporting-system-v-1-2-df84d7ac3fd1",
+            "https://packetstormsecurity.com"
+        ],
+        "summary": "A cross-site scripting (XSS) vulnerability in PHPGurukul Online Fire Reporting System Using PHP and MySQL 1.2 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the team name, leader, and member fields."
+    },
+    {
+        "Modified": "2023-07-27T18:48:00",
+        "Published": "2023-07-21T21:15:00",
+        "access": {},
+        "assigner": "talos-cna@cisco.com",
+        "cvss": null,
+        "cwe": "CWE-787",
+        "id": "CVE-2022-46294",
+        "impact": {},
+        "last-modified": "2023-07-27T18:48:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1666"
+        ],
+        "summary": "Multiple out-of-bounds write vulnerabilities exist in the translationVectors parsing functionality in multiple supported formats of Open Babel 3.1.1 and master commit 530dbfa3. A specially-crafted malformed file can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability.This vulnerability affects the MOPAC Cartesian file format"
+    },
+    {
+        "Modified": "2023-07-27T18:48:00",
+        "Published": "2023-07-21T21:15:00",
+        "access": {},
+        "assigner": "talos-cna@cisco.com",
+        "cvss": null,
+        "cwe": "CWE-787",
+        "id": "CVE-2022-46295",
+        "impact": {},
+        "last-modified": "2023-07-27T18:48:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1666"
+        ],
+        "summary": "Multiple out-of-bounds write vulnerabilities exist in the translationVectors parsing functionality in multiple supported formats of Open Babel 3.1.1 and master commit 530dbfa3. A specially-crafted malformed file can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability.This vulnerability affects the Gaussian file format"
+    },
+    {
+        "Modified": "2023-07-27T18:32:00",
+        "Published": "2023-07-21T21:15:00",
+        "access": {},
+        "assigner": "talos-cna@cisco.com",
+        "cvss": null,
+        "cwe": "CWE-787",
+        "id": "CVE-2022-46293",
+        "impact": {},
+        "last-modified": "2023-07-27T18:32:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1666"
+        ],
+        "summary": "Multiple out-of-bounds write vulnerabilities exist in the translationVectors parsing functionality in multiple supported formats of Open Babel 3.1.1 and master commit 530dbfa3. A specially-crafted malformed file can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability.This vulnerability affects the MOPAC file format, inside the Final Point and Derivatives section"
+    },
+    {
+        "Modified": "2023-07-27T18:31:00",
+        "Published": "2023-07-21T21:15:00",
+        "access": {},
+        "assigner": "talos-cna@cisco.com",
+        "cvss": null,
+        "cwe": "CWE-787",
+        "id": "CVE-2022-46291",
+        "impact": {},
+        "last-modified": "2023-07-27T18:31:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1666"
+        ],
+        "summary": "Multiple out-of-bounds write vulnerabilities exist in the translationVectors parsing functionality in multiple supported formats of Open Babel 3.1.1 and master commit 530dbfa3. A specially-crafted malformed file can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability.This vulnerability affects the MSI file format"
+    },
+    {
+        "Modified": "2023-07-27T18:31:00",
+        "Published": "2023-07-21T21:15:00",
+        "access": {},
+        "assigner": "talos-cna@cisco.com",
+        "cvss": null,
+        "cwe": "CWE-787",
+        "id": "CVE-2022-46292",
+        "impact": {},
+        "last-modified": "2023-07-27T18:31:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1666"
+        ],
+        "summary": "Multiple out-of-bounds write vulnerabilities exist in the translationVectors parsing functionality in multiple supported formats of Open Babel 3.1.1 and master commit 530dbfa3. A specially-crafted malformed file can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability.This vulnerability affects the MOPAC file format, inside the Unit Cell Translation section"
+    },
+    {
+        "Modified": "2023-07-27T18:23:00",
+        "Published": "2023-07-21T21:15:00",
+        "access": {},
+        "assigner": "talos-cna@cisco.com",
+        "cvss": null,
+        "cwe": "CWE-787",
+        "id": "CVE-2022-46290",
+        "impact": {},
+        "last-modified": "2023-07-27T18:23:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1665"
+        ],
+        "summary": "Multiple out-of-bounds write vulnerabilities exist in the ORCA format nAtoms functionality of Open Babel 3.1.1 and master commit 530dbfa3. A specially-crafted malformed file can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability.The loop that stores the coordinates does not check its index against nAtoms"
+    },
+    {
+        "Modified": "2023-07-27T18:22:00",
+        "Published": "2023-07-21T21:15:00",
+        "access": {},
+        "assigner": "talos-cna@cisco.com",
+        "cvss": null,
+        "cwe": "CWE-787",
+        "id": "CVE-2022-46289",
+        "impact": {},
+        "last-modified": "2023-07-27T18:22:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1665"
+        ],
+        "summary": "Multiple out-of-bounds write vulnerabilities exist in the ORCA format nAtoms functionality of Open Babel 3.1.1 and master commit 530dbfa3. A specially-crafted malformed file can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability.nAtoms calculation wrap-around, leading to a small buffer allocation"
+    },
+    {
+        "Modified": "2023-07-27T18:21:00",
+        "Published": "2023-07-21T21:15:00",
+        "access": {},
+        "assigner": "talos-cna@cisco.com",
+        "cvss": null,
+        "cwe": "CWE-824",
+        "id": "CVE-2022-46280",
+        "impact": {},
+        "last-modified": "2023-07-27T18:21:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1670"
+        ],
+        "summary": "A use of uninitialized pointer vulnerability exists in the PQS format pFormat functionality of Open Babel 3.1.1 and master commit 530dbfa3. A specially crafted malformed file can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability."
+    },
+    {
+        "Modified": "2023-07-27T18:21:00",
+        "Published": "2023-07-19T22:15:00",
+        "access": {},
+        "assigner": "ics-cert@hq.dhs.gov",
+        "cvss": null,
+        "cwe": "CWE-434",
+        "id": "CVE-2023-34394",
+        "impact": {},
+        "last-modified": "2023-07-27T18:21:00",
+        "references": [
+            "https://www.cisa.gov/news-events/ics-advisories/icsa-23-199-02"
+        ],
+        "summary": "\n\n\n\n\n\n\nIn Keysight Geolocation Server v2.4.2 and prior, an attacker could upload a specially crafted malicious file or delete any file or directory with SYSTEM privileges due to an improper path validation, which could result in local privilege escalation or a denial-of-service condition.\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "Modified": "2023-07-27T18:21:00",
+        "Published": "2023-07-19T22:15:00",
+        "access": {},
+        "assigner": "ics-cert@hq.dhs.gov",
+        "cvss": null,
+        "cwe": "CWE-427",
+        "id": "CVE-2023-36853",
+        "impact": {},
+        "last-modified": "2023-07-27T18:21:00",
+        "references": [
+            "https://www.cisa.gov/news-events/ics-advisories/icsa-23-199-02"
+        ],
+        "summary": "\n\n\n\n\n?In Keysight Geolocation Server v2.4.2 and prior, a low privileged attacker could create a local ZIP file containing a malicious script in any location. The attacker could abuse this to load a DLL with SYSTEM privileges.\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "Modified": "2023-07-27T18:20:00",
+        "Published": "2023-07-18T19:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "CWE-78",
+        "id": "CVE-2023-37477",
+        "impact": {},
+        "last-modified": "2023-07-27T18:20:00",
+        "references": [
+            "https://github.com/1Panel-dev/1Panel/commit/e17b80cff4975ee343568ff526b62319f499005d",
+            "https://github.com/1Panel-dev/1Panel/security/advisories/GHSA-p9xf-74xh-mhw5"
+        ],
+        "summary": "1Panel is an open source Linux server operation and maintenance management panel. An OS command injection vulnerability exists in 1Panel firewall functionality. A specially-crafted HTTP request can lead to arbitrary command execution. An attacker can make an authenticated HTTP request to trigger this vulnerability. 1Panel firewall functionality `/hosts/firewall/ip` endpoint read user input without validation, the attacker extends the default functionality of the application, which execute system commands. An attacker can execute arbitrary code on the target system, which can lead to a complete compromise of the system. This issue has been addressed in commit `e17b80cff49` which is included in release version `1.4.3`. Users are advised to upgrade. There are no known workarounds for this vulnerability.\n"
+    },
+    {
+        "Modified": "2023-07-27T18:10:00",
+        "Published": "2023-07-21T21:15:00",
+        "access": {},
+        "assigner": "talos-cna@cisco.com",
+        "cvss": null,
+        "cwe": "CWE-787",
+        "id": "CVE-2022-43607",
+        "impact": {},
+        "last-modified": "2023-07-27T18:10:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1664"
+        ],
+        "summary": "An out-of-bounds write vulnerability exists in the MOL2 format attribute and value functionality of Open Babel 3.1.1 and master commit 530dbfa3. A specially crafted malformed file can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability."
+    },
+    {
+        "Modified": "2023-07-27T18:09:00",
+        "Published": "2023-07-21T21:15:00",
+        "access": {},
+        "assigner": "talos-cna@cisco.com",
+        "cvss": null,
+        "cwe": "CWE-787",
+        "id": "CVE-2022-43467",
+        "impact": {},
+        "last-modified": "2023-07-27T18:09:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1671"
+        ],
+        "summary": "An out-of-bounds write vulnerability exists in the PQS format coord_file functionality of Open Babel 3.1.1 and master commit 530dbfa3. A specially crafted malformed file can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability."
+    },
+    {
+        "Modified": "2023-07-27T18:09:00",
+        "Published": "2023-07-21T21:15:00",
+        "access": {},
+        "assigner": "talos-cna@cisco.com",
+        "cvss": null,
+        "cwe": "CWE-824",
+        "id": "CVE-2022-44451",
+        "impact": {},
+        "last-modified": "2023-07-27T18:09:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1669"
+        ],
+        "summary": "A use of uninitialized pointer vulnerability exists in the MSI format atom functionality of Open Babel 3.1.1 and master commit 530dbfa3. A specially crafted malformed file can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability."
+    },
+    {
+        "Modified": "2023-07-27T18:07:00",
+        "Published": "2023-07-21T16:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2023-37742",
+        "impact": {},
+        "last-modified": "2023-07-27T18:07:00",
+        "references": [
+            "https://www.realinfosec.net/advisories/WEBBOSS-XSS-2022-0xd3fcf.html",
+            "https://webboss.io/page/bughunter-acknowledgments.html",
+            "https://webboss.feedbear.com/updates"
+        ],
+        "summary": "WebBoss.io CMS before v3.7.0.1 was discovered to contain a reflected cross-site scripting (XSS) vulnerability."
+    },
+    {
+        "Modified": "2023-07-27T18:06:00",
+        "Published": "2023-07-21T21:15:00",
+        "access": {},
+        "assigner": "talos-cna@cisco.com",
+        "cvss": null,
+        "cwe": "CWE-787",
+        "id": "CVE-2022-37331",
+        "impact": {},
+        "last-modified": "2023-07-27T18:06:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1672"
+        ],
+        "summary": "An out-of-bounds write vulnerability exists in the Gaussian format orientation functionality of Open Babel 3.1.1 and master commit 530dbfa3. A specially crafted malformed file can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability."
+    },
+    {
+        "Modified": "2023-07-27T18:05:00",
+        "Published": "2023-07-21T21:15:00",
+        "access": {},
+        "assigner": "talos-cna@cisco.com",
+        "cvss": null,
+        "cwe": "CWE-787",
+        "id": "CVE-2022-41793",
+        "impact": {},
+        "last-modified": "2023-07-27T18:05:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1667"
+        ],
+        "summary": "An out-of-bounds write vulnerability exists in the CSR format title functionality of Open Babel 3.1.1 and master commit 530dbfa3. A specially crafted malformed file can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability."
+    },
+    {
+        "Modified": "2023-07-27T18:04:00",
+        "Published": "2023-07-21T21:15:00",
+        "access": {},
+        "assigner": "talos-cna@cisco.com",
+        "cvss": null,
+        "cwe": "CWE-824",
+        "id": "CVE-2022-42885",
+        "impact": {},
+        "last-modified": "2023-07-27T18:04:00",
+        "references": [
+            "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1668"
+        ],
+        "summary": "A use of uninitialized pointer vulnerability exists in the GRO format res functionality of Open Babel 3.1.1 and master commit 530dbfa3. A specially crafted malformed file can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability."
+    },
+    {
         "Modified": "2023-07-27T17:43:00",
         "Published": "2023-07-18T18:15:00",
         "access": {},
@@ -745,913 +1555,5 @@
             "https://patchstack.com/database/vulnerability/radio-forge/wordpress-radio-forge-muses-player-with-skins-plugin-2-5-cross-site-scripting-xss-vulnerability?_s_id=cve"
         ],
         "summary": "Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Radio Forge Muses Player with Skins plugin <=\u00a02.5 versions."
-    },
-    {
-        "Modified": "2023-07-27T16:52:00",
-        "Published": "2023-07-27T15:15:00",
-        "access": {},
-        "assigner": "audit@patchstack.com",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2023-37977",
-        "impact": {},
-        "last-modified": "2023-07-27T16:52:00",
-        "references": [
-            "https://patchstack.com/database/vulnerability/wpfunnels/wordpress-wpfunnels-plugin-2-7-16-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve"
-        ],
-        "summary": "Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in WPFunnels Team Drag & Drop Sales Funnel Builder for WordPress \u2013 WPFunnels plugin <=\u00a02.7.16 versions."
-    },
-    {
-        "Modified": "2023-07-27T16:52:00",
-        "Published": "2023-07-27T15:15:00",
-        "access": {},
-        "assigner": "audit@patchstack.com",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2023-37979",
-        "impact": {},
-        "last-modified": "2023-07-27T16:52:00",
-        "references": [
-            "https://patchstack.com/articles/multiple-high-severity-vulnerabilities-in-ninja-forms-plugin?_s_id=cve",
-            "https://patchstack.com/database/vulnerability/ninja-forms/wordpress-ninja-forms-plugin-3-6-25-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve"
-        ],
-        "summary": "Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Saturday Drive Ninja Forms Contact Form plugin <=\u00a03.6.25 versions."
-    },
-    {
-        "Modified": "2023-07-27T16:52:00",
-        "Published": "2023-07-27T15:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "CWE-140",
-        "id": "CVE-2023-38488",
-        "impact": {},
-        "last-modified": "2023-07-27T16:52:00",
-        "references": [
-            "https://github.com/getkirby/kirby/releases/tag/3.5.8.3",
-            "https://github.com/getkirby/kirby/releases/tag/3.9.6",
-            "https://github.com/getkirby/kirby/security/advisories/GHSA-x5mr-p6v4-wp93",
-            "https://github.com/getkirby/kirby/releases/tag/3.8.4.1",
-            "https://github.com/getkirby/kirby/commit/a1e0f81c799ddae1af91cf37216f8ded9cb93540",
-            "https://github.com/getkirby/kirby/releases/tag/3.6.6.3",
-            "https://github.com/getkirby/kirby/releases/tag/3.7.5.2"
-        ],
-        "summary": "Kirby is a content management system. A vulnerability in versions prior to 3.5.8.3, 3.6.6.3, 3.7.5.2, 3.8.4.1, and 3.9.6 affects all Kirby sites that might have potential attackers in the group of authenticated Panel users or that allow external visitors to update a Kirby content file (e.g. via a contact or comment form). Kirby sites are *not* affected if they don't allow write access for untrusted users or visitors.\n\nA field injection in a content storage implementation is a type of vulnerability that allows attackers with content write access to overwrite content fields that the site developer didn't intend to be modified. In a Kirby site this can be used to alter site content, break site behavior or inject malicious data or code. The exact security risk depends on the field type and usage.\n\nKirby stores content of the site, of pages, files and users in text files by default. The text files use Kirby's KirbyData format where each field is separated by newlines and a line with four dashes (`----`). When reading a KirbyData file, the affected code first removed the Unicode BOM sequence from the file contents and afterwards split the content into fields by the field separator.\n\nWhen writing to a KirbyData file, field separators in field data are escaped to prevent user input from interfering with the field structure. However this escaping could be tricked by including a Unicode BOM sequence in a field separator (e.g. `--\\xEF\\xBB\\xBF--`). When writing, this was not detected as a separator, but because the BOM was removed during reading, it could be abused by attackers to inject other field data into content files.\n\nBecause each field can only be defined once per content file, this vulnerability only affects fields in the content file that were defined above the vulnerable user-writable field or not at all. Fields that are defined below the vulnerable field override the injected field content and were therefore already protected.\n\nThe problem has been patched in Kirby 3.5.8.3, 3.6.6.3, 3.7.5.2, 3.8.4.1, and 3.9.6. In all of the mentioned releases, the maintainers have fixed the affected code to only remove the Unicode BOM sequence at the beginning of the file. This fixes this vulnerability both for newly written as well as for existing content files."
-    },
-    {
-        "Modified": "2023-07-27T16:52:00",
-        "Published": "2023-07-27T15:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "CWE-613",
-        "id": "CVE-2023-38489",
-        "impact": {},
-        "last-modified": "2023-07-27T16:52:00",
-        "references": [
-            "https://github.com/getkirby/kirby/commit/7a0a2014c69fdb925ea02f30e7793bb50115e931",
-            "https://github.com/getkirby/kirby/releases/tag/3.5.8.3",
-            "https://github.com/getkirby/kirby/releases/tag/3.9.6",
-            "https://github.com/getkirby/kirby/releases/tag/3.8.4.1",
-            "https://github.com/getkirby/kirby/security/advisories/GHSA-5mvj-rvp8-rf45",
-            "https://github.com/getkirby/kirby/releases/tag/3.6.6.3",
-            "https://github.com/getkirby/kirby/releases/tag/3.7.5.2"
-        ],
-        "summary": "Kirby is a content management system. A vulnerability in versions prior to 3.5.8.3, 3.6.6.3, 3.7.5.2, 3.8.4.1, and 3.9.6 affects all Kirby sites with user accounts (unless Kirby's API and Panel are disabled in the config). It can only be abused if a Kirby user is logged in on a device or browser that is shared with potentially untrusted users or if an attacker already maliciously used a previous password to log in to a Kirby site as the affected user.\n\nInsufficient Session Expiration is when a web site permits an attacker to reuse old session credentials or session IDs for authorization. In the variation described in this advisory, it allows attackers to stay logged in to a Kirby site on another device even if the logged in user has since changed their password. Kirby did not invalidate user sessions that were created with a password that was since changed by the user or by a site admin. If a user changed their password to lock out an attacker who was already in possession of the previous password or of a login session on another device or browser, the attacker would not be reliably prevented from accessing the Kirby site as the affected user.\n\nThe problem has been patched in Kirby 3.5.8.3, 3.6.6.3, 3.7.5.2, 3.8.4.1, and 3.9.6. In all of the mentioned releases, the maintainers have updated the authentication implementation to keep track of the hashed password in each active session. If the password changed since the login, the session is invalidated. To enforce this fix even if the vulnerability was previously abused, all users are logged out from the Kirby site after updating to one of the patched releases."
-    },
-    {
-        "Modified": "2023-07-27T16:52:00",
-        "Published": "2023-07-27T15:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "CWE-776",
-        "id": "CVE-2023-38490",
-        "impact": {},
-        "last-modified": "2023-07-27T16:52:00",
-        "references": [
-            "https://github.com/getkirby/kirby/security/advisories/GHSA-q386-w6fg-gmgp",
-            "https://github.com/getkirby/kirby/releases/tag/3.5.8.3",
-            "https://github.com/getkirby/kirby/commit/277b05662d2b67386f0a0f18323cf68b30e86387",
-            "https://github.com/getkirby/kirby/releases/tag/3.9.6",
-            "https://github.com/getkirby/kirby/releases/tag/3.8.4.1",
-            "https://github.com/getkirby/kirby/releases/tag/3.6.6.3",
-            "https://github.com/getkirby/kirby/releases/tag/3.7.5.2"
-        ],
-        "summary": "Kirby is a content management system. A vulnerability in versions prior to 3.5.8.3, 3.6.6.3, 3.7.5.2, 3.8.4.1, and 3.9.6 only affects Kirby sites that use the `Xml` data handler (e.g. `Data::decode($string, 'xml')`) or the `Xml::parse()` method in site or plugin code. The Kirby core does not use any of the affected methods.\n\nXML External Entities (XXE) is a little used feature in the XML markup language that allows to include data from external files in an XML structure. If the name of the external file can be controlled by an attacker, this becomes a vulnerability that can be abused for various system impacts like the disclosure of internal or confidential data that is stored on the server (arbitrary file disclosure) or to perform network requests on behalf of the server (server-side request forgery, SSRF).\n\nKirby's `Xml::parse()` method used PHP's `LIBXML_NOENT` constant, which enabled the processing of XML external entities during the parsing operation. The `Xml::parse()` method is used in the `Xml` data handler (e.g. `Data::decode($string, 'xml')`). Both the vulnerable method and the data handler are not used in the Kirby core. However they may be used in site or plugin code, e.g. to parse RSS feeds or other XML files. If those files are of an external origin (e.g. uploaded by a user or retrieved from an external URL), attackers may be able to include an external entity in the XML file that will then be processed in the parsing process. Kirby sites that don't use XML parsing in site or plugin code are *not* affected.\n\nThe problem has been patched in Kirby 3.5.8.3, 3.6.6.3, 3.7.5.2, 3.8.4.1, and 3.9.6. In all of the mentioned releases, the maintainers have removed the `LIBXML_NOENT` constant as processing of external entities is out of scope of the parsing logic. This protects all uses of the method against the described vulnerability."
-    },
-    {
-        "Modified": "2023-07-27T16:52:00",
-        "Published": "2023-07-27T15:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2023-3973",
-        "impact": {},
-        "last-modified": "2023-07-27T16:52:00",
-        "references": [
-            "https://github.com/jgraph/drawio/commit/1db2c2c653aa245d175d30c210239e3946bfcb95",
-            "https://huntr.dev/bounties/4c1c5db5-210f-4d7e-8380-b95f88fdb78d"
-        ],
-        "summary": "Cross-site Scripting (XSS) - Reflected in GitHub repository jgraph/drawio prior to 21.6.3."
-    },
-    {
-        "Modified": "2023-07-27T16:52:00",
-        "Published": "2023-07-27T15:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-78",
-        "id": "CVE-2023-3974",
-        "impact": {},
-        "last-modified": "2023-07-27T16:52:00",
-        "references": [
-            "https://github.com/jgraph/drawio/commit/9d6532de36496e77d872d91b1947bb696607d623",
-            "https://huntr.dev/bounties/ce75aa04-e4d6-4e0a-9db0-ae84c46ae9e2"
-        ],
-        "summary": "OS Command Injection in GitHub repository jgraph/drawio prior to 21.4.0."
-    },
-    {
-        "Modified": "2023-07-27T16:52:00",
-        "Published": "2023-07-27T15:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-78",
-        "id": "CVE-2023-3975",
-        "impact": {},
-        "last-modified": "2023-07-27T16:52:00",
-        "references": [
-            "https://huntr.dev/bounties/4da96d20-78ac-462e-910c-a14db9062161",
-            "https://github.com/jgraph/drawio/commit/8ec95cb03e0a80cf908a282522ac1651306db340"
-        ],
-        "summary": "OS Command Injection in GitHub repository jgraph/drawio prior to 21.5.0."
-    },
-    {
-        "Modified": "2023-07-27T16:30:00",
-        "Published": "2023-07-17T16:15:00",
-        "access": {},
-        "assigner": "responsibledisclosure@mattermost.com",
-        "cvss": null,
-        "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2023-3593",
-        "impact": {},
-        "last-modified": "2023-07-27T16:30:00",
-        "references": [
-            "https://mattermost.com/security-updates"
-        ],
-        "summary": "Mattermost fails to properly validate markdown, allowing an attacker to crash the server via a specially crafted markdown input.\n\n"
-    },
-    {
-        "Modified": "2023-07-27T16:15:00",
-        "Published": "2023-07-27T16:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2023-29845",
-        "impact": {},
-        "last-modified": "2023-07-27T16:15:00",
-        "references": [],
-        "summary": "** REJECT ** DO NOT USE THIS CVE RECORD. ConsultIDs: none. Reason: This record was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none."
-    },
-    {
-        "Modified": "2023-07-27T16:11:00",
-        "Published": "2023-07-18T00:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-193",
-        "id": "CVE-2023-38429",
-        "impact": {},
-        "last-modified": "2023-07-27T16:11:00",
-        "references": [
-            "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/fs/ksmbd?id=443d61d1fa9faa60ef925513d83742902390100f",
-            "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.4"
-        ],
-        "summary": "An issue was discovered in the Linux kernel before 6.3.4. fs/ksmbd/connection.c in ksmbd has an off-by-one error in memory allocation (because of ksmbd_smb2_check_message) that may lead to out-of-bounds access."
-    },
-    {
-        "Modified": "2023-07-27T16:11:00",
-        "Published": "2023-07-17T19:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-787",
-        "id": "CVE-2023-37791",
-        "impact": {},
-        "last-modified": "2023-07-27T16:11:00",
-        "references": [
-            "https://www.dlink.com/en/security-bulletin/",
-            "https://github.com/naihsin/IoT/tree/main/D-Link/DIR-619L/overflow"
-        ],
-        "summary": "D-Link DIR-619L v2.04(TW) was discovered to contain a stack overflow via the curTime parameter at /goform/formLogin."
-    },
-    {
-        "Modified": "2023-07-27T16:09:00",
-        "Published": "2023-07-18T00:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-125",
-        "id": "CVE-2023-38428",
-        "impact": {},
-        "last-modified": "2023-07-27T16:09:00",
-        "references": [
-            "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/fs/ksmbd?id=f0a96d1aafd8964e1f9955c830a3e5cb3c60a90f",
-            "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.4"
-        ],
-        "summary": "An issue was discovered in the Linux kernel before 6.3.4. fs/ksmbd/smb2pdu.c in ksmbd does not properly check the UserName value because it does not consider the address of security buffer, leading to an out-of-bounds read."
-    },
-    {
-        "Modified": "2023-07-27T16:09:00",
-        "Published": "2023-07-18T00:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-191",
-        "id": "CVE-2023-38427",
-        "impact": {},
-        "last-modified": "2023-07-27T16:09:00",
-        "references": [
-            "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/fs/smb/server?id=f1a411873c85b642f13b01f21b534c2bab81fc1b",
-            "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.8"
-        ],
-        "summary": "An issue was discovered in the Linux kernel before 6.3.8. fs/smb/server/smb2pdu.c in ksmbd has an integer underflow and out-of-bounds read in deassemble_neg_contexts."
-    },
-    {
-        "Modified": "2023-07-27T16:08:00",
-        "Published": "2023-07-18T00:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-125",
-        "id": "CVE-2023-38426",
-        "impact": {},
-        "last-modified": "2023-07-27T16:08:00",
-        "references": [
-            "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.4",
-            "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/fs/ksmbd?id=02f76c401d17e409ed45bf7887148fcc22c93c85"
-        ],
-        "summary": "An issue was discovered in the Linux kernel before 6.3.4. ksmbd has an out-of-bounds read in smb2_find_context_vals when create_context's name_len is larger than the tag length."
-    },
-    {
-        "Modified": "2023-07-27T16:02:00",
-        "Published": "2023-07-18T00:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-125",
-        "id": "CVE-2023-38432",
-        "impact": {},
-        "last-modified": "2023-07-27T16:02:00",
-        "references": [
-            "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/fs/smb/server?id=2b9b8f3b68edb3d67d79962f02e26dbb5ae3808d",
-            "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.10"
-        ],
-        "summary": "An issue was discovered in the Linux kernel before 6.3.10. fs/smb/server/smb2misc.c in ksmbd does not validate the relationship between the command payload size and the RFC1002 length specification, leading to an out-of-bounds read."
-    },
-    {
-        "Modified": "2023-07-27T16:01:00",
-        "Published": "2023-07-18T00:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-125",
-        "id": "CVE-2023-38431",
-        "impact": {},
-        "last-modified": "2023-07-27T16:01:00",
-        "references": [
-            "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/fs/smb/server?id=368ba06881c395f1c9a7ba22203cf8d78b4addc0",
-            "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.8"
-        ],
-        "summary": "An issue was discovered in the Linux kernel before 6.3.8. fs/smb/server/connection.c in ksmbd does not validate the relationship between the NetBIOS header's length field and the SMB header sizes, via pdu_size in ksmbd_conn_handler_loop, leading to an out-of-bounds read."
-    },
-    {
-        "Modified": "2023-07-27T16:00:00",
-        "Published": "2023-07-18T00:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-125",
-        "id": "CVE-2023-38430",
-        "impact": {},
-        "last-modified": "2023-07-27T16:00:00",
-        "references": [
-            "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.9",
-            "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/fs/smb/server?id=1c1bcf2d3ea061613119b534f57507c377df20f9"
-        ],
-        "summary": "An issue was discovered in the Linux kernel before 6.3.9. ksmbd does not validate the SMB request protocol ID, leading to an out-of-bounds read."
-    },
-    {
-        "Modified": "2023-07-27T15:21:00",
-        "Published": "2023-04-20T21:15:00",
-        "access": {},
-        "assigner": "secalert@redhat.com",
-        "cvss": null,
-        "cwe": "CWE-125",
-        "id": "CVE-2023-2176",
-        "impact": {},
-        "last-modified": "2023-07-27T15:21:00",
-        "references": [
-            "https://www.spinics.net/lists/linux-rdma/msg114749.html",
-            "https://security.netapp.com/advisory/ntap-20230609-0005/"
-        ],
-        "summary": "A vulnerability was found in compare_netdev_and_ip in drivers/infiniband/core/cma.c in RDMA in the Linux Kernel. The improper cleanup results in out-of-boundary read, where a local user can utilize this problem to crash the system or escalation of privilege."
-    },
-    {
-        "Modified": "2023-07-27T15:21:00",
-        "Published": "2012-01-27T15:55:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "LOCAL"
-        },
-        "assigner": "secalert@redhat.com",
-        "cvss": 6.9,
-        "cvss-time": "2023-07-27T15:21:00",
-        "cvss-vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
-        "cwe": "CWE-119",
-        "id": "CVE-2011-4077",
-        "impact": {
-            "availability": "COMPLETE",
-            "confidentiality": "COMPLETE",
-            "integrity": "COMPLETE"
-        },
-        "last-modified": "2023-07-27T15:21:00",
-        "references": [
-            "http://www.openwall.com/lists/oss-security/2011/10/26/1",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=749156",
-            "http://oss.sgi.com/archives/xfs/2011-10/msg00345.html",
-            "http://xorl.wordpress.com/2011/12/07/cve-2011-4077-linux-kernel-xfs-readlink-memory-corruption/",
-            "http://www.openwall.com/lists/oss-security/2011/10/26/3",
-            "http://secunia.com/advisories/48964",
-            "http://marc.info/?l=bugtraq&m=139447903326211&w=2"
-        ],
-        "summary": "Buffer overflow in the xfs_readlink function in fs/xfs/xfs_vnodeops.c in XFS in the Linux kernel 2.6, when CONFIG_XFS_DEBUG is disabled, allows local users to cause a denial of service (memory corruption and crash) and possibly execute arbitrary code via an XFS image containing a symbolic link with a long pathname."
-    },
-    {
-        "Modified": "2023-07-27T15:21:00",
-        "Published": "2012-01-27T15:55:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "LOCAL"
-        },
-        "assigner": "secalert@redhat.com",
-        "cvss": 6.9,
-        "cvss-time": "2023-07-27T15:21:00",
-        "cvss-vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
-        "cwe": "CWE-264",
-        "id": "CVE-2012-0056",
-        "impact": {
-            "availability": "COMPLETE",
-            "confidentiality": "COMPLETE",
-            "integrity": "COMPLETE"
-        },
-        "last-modified": "2023-07-27T15:21:00",
-        "references": [
-            "http://secunia.com/advisories/47708",
-            "http://ubuntu.com/usn/usn-1336-1",
-            "http://www.redhat.com/support/errata/RHSA-2012-0052.html",
-            "http://www.openwall.com/lists/oss-security/2012/01/22/4",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=782642",
-            "http://www.openwall.com/lists/oss-security/2012/01/18/1",
-            "http://www.openwall.com/lists/oss-security/2012/01/19/4",
-            "http://www.redhat.com/support/errata/RHSA-2012-0061.html",
-            "http://www.securityfocus.com/bid/51625",
-            "http://blog.zx2c4.com/749",
-            "http://www.openwall.com/lists/oss-security/2012/01/18/2",
-            "http://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.2.2",
-            "http://www.kb.cert.org/vuls/id/470151",
-            "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commitdiff%3Bh=e268337dfe26dfc7efd422a804dbb27977a3cccc"
-        ],
-        "summary": "The mem_write function in the Linux kernel before 3.2.2, when ASLR is disabled, does not properly check permissions when writing to /proc/<pid>/mem, which allows local users to gain privileges by modifying process memory, as demonstrated by Mempodipper."
-    },
-    {
-        "Modified": "2023-07-27T15:20:00",
-        "Published": "2022-10-21T11:15:00",
-        "access": {},
-        "assigner": "cna@vuldb.com",
-        "cvss": null,
-        "cwe": "CWE-404",
-        "id": "CVE-2022-3637",
-        "impact": {},
-        "last-modified": "2023-07-27T15:20:00",
-        "references": [
-            "https://git.kernel.org/pub/scm/bluetooth/bluez.git/commit/?id=1d6cfb8e625a944010956714c1802bc1e1fc6c4f",
-            "https://vuldb.com/?id.211936"
-        ],
-        "summary": "A vulnerability has been found in Linux Kernel and classified as problematic. This vulnerability affects the function jlink_init of the file monitor/jlink.c of the component BlueZ. The manipulation leads to denial of service. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-211936."
-    },
-    {
-        "Modified": "2023-07-27T15:20:00",
-        "Published": "2022-10-17T19:15:00",
-        "access": {},
-        "assigner": "cna@vuldb.com",
-        "cvss": null,
-        "cwe": "CWE-404",
-        "id": "CVE-2022-3563",
-        "impact": {},
-        "last-modified": "2023-07-27T15:20:00",
-        "references": [
-            "https://vuldb.com/?id.211086",
-            "https://git.kernel.org/pub/scm/bluetooth/bluez.git/commit/?id=e3c92f1f786f0b55440bd908b55894d0c792cf0e"
-        ],
-        "summary": "A vulnerability classified as problematic has been found in Linux Kernel. Affected is the function read_50_controller_cap_complete of the file tools/mgmt-tester.c of the component BlueZ. The manipulation of the argument cap_len leads to null pointer dereference. It is recommended to apply a patch to fix this issue. VDB-211086 is the identifier assigned to this vulnerability."
-    },
-    {
-        "Modified": "2023-07-27T15:19:00",
-        "Published": "2023-07-18T14:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-835",
-        "id": "CVE-2021-33294",
-        "impact": {},
-        "last-modified": "2023-07-27T15:19:00",
-        "references": [
-            "https://sourceware.org/pipermail/elfutils-devel/2021q1/003607.html",
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=27501"
-        ],
-        "summary": "In elfutils 0.183, an infinite loop was found in the function handle_symtab in readelf.c .Which allows attackers to cause a denial of service (infinite loop) via crafted file."
-    },
-    {
-        "Modified": "2023-07-27T15:19:00",
-        "Published": "2023-07-18T14:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-125",
-        "id": "CVE-2021-34121",
-        "impact": {},
-        "last-modified": "2023-07-27T15:19:00",
-        "references": [
-            "https://github.com/michaelrsweet/htmldoc/issues/433",
-            "https://github.com/michaelrsweet/htmldoc/commit/c67bbd8756f015e33e4ba639a40c7f9d8bd9e8ab"
-        ],
-        "summary": "An Out of Bounds flaw was discovered in htmodoc 1.9.12 in function parse_tree() in toc.cxx, this possibly leads to memory layout information leaking in the data. This might be used in a chain of vulnerability in order to reach code execution."
-    },
-    {
-        "Modified": "2023-07-27T15:19:00",
-        "Published": "2023-07-18T14:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-787",
-        "id": "CVE-2021-34119",
-        "impact": {},
-        "last-modified": "2023-07-27T15:19:00",
-        "references": [
-            "https://github.com/michaelrsweet/htmldoc/issues/431",
-            "https://github.com/michaelrsweet/htmldoc/commit/85fa76d77ed69927d24decf476e69bedc7691f48"
-        ],
-        "summary": "A flaw was discovered in htmodoc 1.9.12 in function parse_paragraph in ps-pdf.cxx ,this flaw possibly allows possible code execution and a denial of service via a crafted file."
-    },
-    {
-        "Modified": "2023-07-27T15:19:00",
-        "Published": "2022-09-23T18:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-502",
-        "id": "CVE-2022-36944",
-        "impact": {},
-        "last-modified": "2023-07-27T15:19:00",
-        "references": [
-            "https://www.scala-lang.org/download/",
-            "https://github.com/scala/scala/pull/10118",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/L3WMKPFAMFQE3HJVRQ5KOJUTWG264SXI/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6ZOZVWY3X72FZZCCRAKRJYTQOJ6LUD6Z/",
-            "https://discuss.lightbend.com/t/impact-of-cve-2022-36944-on-akka-cluster-akka-actor-akka-remote/10007/2",
-            "https://github.com/scala/scala-collection-compat/releases/tag/v2.9.0"
-        ],
-        "summary": "Scala 2.13.x before 2.13.9 has a Java deserialization chain in its JAR file. On its own, it cannot be exploited. There is only a risk in conjunction with Java object deserialization within an application. In such situations, it allows attackers to erase contents of arbitrary files, make network connections, or possibly run arbitrary code (specifically, Function0 functions) via a gadget chain."
-    },
-    {
-        "Modified": "2023-07-27T15:19:00",
-        "Published": "2020-12-14T20:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "NETWORK"
-        },
-        "assigner": "responsibledisclosure@mattermost.com",
-        "cvss": 6.8,
-        "cvss-time": "2023-07-27T15:19:00",
-        "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-        "cwe": "NVD-CWE-Other",
-        "id": "CVE-2020-29511",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2023-07-27T15:19:00",
-        "references": [
-            "https://github.com/mattermost/xml-roundtrip-validator/blob/master/advisories/unstable-elements.md",
-            "https://security.netapp.com/advisory/ntap-20210129-0006/"
-        ],
-        "summary": "The encoding/xml package in Go (all versions) does not correctly preserve the semantics of element namespace prefixes during tokenization round-trips, which allows an attacker to craft inputs that behave in conflicting ways during different stages of processing in affected downstream applications."
-    },
-    {
-        "Modified": "2023-07-27T15:19:00",
-        "Published": "2020-12-14T20:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "NETWORK"
-        },
-        "assigner": "responsibledisclosure@mattermost.com",
-        "cvss": 6.8,
-        "cvss-time": "2023-07-27T15:19:00",
-        "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-        "cwe": "NVD-CWE-Other",
-        "id": "CVE-2020-29509",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2023-07-27T15:19:00",
-        "references": [
-            "https://github.com/mattermost/xml-roundtrip-validator/blob/master/advisories/unstable-attributes.md",
-            "https://security.netapp.com/advisory/ntap-20210129-0006/"
-        ],
-        "summary": "The encoding/xml package in Go (all versions) does not correctly preserve the semantics of attribute namespace prefixes during tokenization round-trips, which allows an attacker to craft inputs that behave in conflicting ways during different stages of processing in affected downstream applications."
-    },
-    {
-        "Modified": "2023-07-27T15:17:00",
-        "Published": "2023-07-18T14:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-787",
-        "id": "CVE-2021-34123",
-        "impact": {},
-        "last-modified": "2023-07-27T15:17:00",
-        "references": [
-            "https://sourceforge.net/p/atasm/bugs/23/"
-        ],
-        "summary": "An issue was discovered on atasm, version 1.09. A stack-buffer-overflow vulnerability in function aprintf() in asm.c allows attackers to execute arbitrary code on the system via a crafted file."
-    },
-    {
-        "Modified": "2023-07-27T15:15:00",
-        "Published": "2023-07-18T14:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-863",
-        "id": "CVE-2022-26563",
-        "impact": {},
-        "last-modified": "2023-07-27T15:15:00",
-        "references": [
-            "https://bitbucket.org/tildeslash/monit/commits/6ecaab1d375f33165fe98d06d92f36c949c0ea11",
-            "https://man7.org/linux/man-pages/man3/pam_acct_mgmt.3.html"
-        ],
-        "summary": "An issue was discovered in Tildeslash Monit before 5.31.0, allows remote attackers to gain escilated privlidges due to improper PAM-authorization."
-    },
-    {
-        "Modified": "2023-07-27T15:14:00",
-        "Published": "2023-07-18T14:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-193",
-        "id": "CVE-2022-33064",
-        "impact": {},
-        "last-modified": "2023-07-27T15:14:00",
-        "references": [
-            "https://github.com/libsndfile/libsndfile/issues/832"
-        ],
-        "summary": "An off-by-one error in function wav_read_header in src/wav.c in Libsndfile 1.1.0, results in a write out of bound, which allows an attacker to execute arbitrary code, Denial of Service or other unspecified impacts."
-    },
-    {
-        "Modified": "2023-07-27T15:12:00",
-        "Published": "2023-07-18T14:15:00",
-        "access": {},
-        "assigner": "audit@patchstack.com",
-        "cvss": null,
-        "cwe": "CWE-287",
-        "id": "CVE-2022-34155",
-        "impact": {},
-        "last-modified": "2023-07-27T15:12:00",
-        "references": [
-            "https://patchstack.com/database/vulnerability/miniorange-login-with-eve-online-google-facebook/wordpress-oauth-single-sign-on-sso-oauth-client-plugin-6-23-3-broken-authentication-vulnerability?_s_id=cve",
-            "https://lana.codes/lanavdb/071fa6eb-2e54-43a1-b37f-1e562988b7d4?_s_id=cve"
-        ],
-        "summary": "Improper Authentication vulnerability in miniOrange OAuth Single Sign On \u2013 SSO (OAuth Client) plugin allows Authentication Bypass.This issue affects OAuth Single Sign On \u2013 SSO (OAuth Client): from n/a through 6.23.3.\n\n"
-    },
-    {
-        "Modified": "2023-07-27T15:11:00",
-        "Published": "2023-07-18T14:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-190",
-        "id": "CVE-2022-33065",
-        "impact": {},
-        "last-modified": "2023-07-27T15:11:00",
-        "references": [
-            "https://github.com/libsndfile/libsndfile/issues/833",
-            "https://github.com/libsndfile/libsndfile/issues/789"
-        ],
-        "summary": "Multiple signed integers overflow in function au_read_header in src/au.c and in functions mat4_open and mat4_read_header in src/mat4.c in Libsndfile, allows an attacker to cause Denial of Service or other unspecified impacts."
-    },
-    {
-        "Modified": "2023-07-27T15:08:00",
-        "Published": "2023-07-18T14:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2022-47085",
-        "impact": {},
-        "last-modified": "2023-07-27T15:08:00",
-        "references": [
-            "https://github.com/ostreedev/ostree/issues/2775",
-            "https://doc.rust-lang.org/std/macro.eprintln.html"
-        ],
-        "summary": "An issue was discovered in ostree before 2022.7 allows attackers to cause a denial of service or other unspecified impacts via the print_panic function in repo_checkout_filter.rs."
-    },
-    {
-        "Modified": "2023-07-27T15:07:00",
-        "Published": "2023-07-18T15:15:00",
-        "access": {},
-        "assigner": "cna@vuldb.com",
-        "cvss": null,
-        "cwe": "CWE-78",
-        "id": "CVE-2020-36762",
-        "impact": {},
-        "last-modified": "2023-07-27T15:07:00",
-        "references": [
-            "https://github.com/ONSdigital/ras-collection-instrument/pull/199",
-            "https://vuldb.com/?ctiid.234248",
-            "https://github.com/ONSdigital/ras-collection-instrument/releases/tag/2.0.28",
-            "https://vuldb.com/?id.234248",
-            "https://github.com/ONSdigital/ras-collection-instrument/commit/dcaad2540f7d50c512ff2e031d3778dd9337db2b"
-        ],
-        "summary": "A vulnerability was found in ONS Digital RAS Collection Instrument up to 2.0.27 and classified as critical. Affected by this issue is the function jobs of the file .github/workflows/comment.yml. The manipulation of the argument $COMMENT_BODY leads to os command injection. Upgrading to version 2.0.28 is able to address this issue. The name of the patch is dcaad2540f7d50c512ff2e031d3778dd9337db2b. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-234248."
-    },
-    {
-        "Modified": "2023-07-27T15:07:00",
-        "Published": "2023-07-18T15:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-476",
-        "id": "CVE-2023-31441",
-        "impact": {},
-        "last-modified": "2023-07-27T15:07:00",
-        "references": [
-            "https://github.com/NCI-Agency/anet/blob/0662b99dfdec1ce07439eb7bed02d90320acc721/src/main/java/mil/dds/anet/utils/Utils.java",
-            "https://github.com/NCI-Agency/anet/issues/4408"
-        ],
-        "summary": "In NATO Communications and Information Agency anet (aka Advisor Network) through 3.3.0, an attacker can provide a crafted JSON file to sanitizeJson and cause an exception. This is related to the U+FFFD Unicode replacement character. A for loop does not consider that a data structure is being modified during loop execution."
-    },
-    {
-        "Modified": "2023-07-27T15:06:00",
-        "Published": "2023-07-18T16:15:00",
-        "access": {},
-        "assigner": "PSIRT@rockwellautomation.com",
-        "cvss": null,
-        "cwe": "CWE-400",
-        "id": "CVE-2023-2263",
-        "impact": {},
-        "last-modified": "2023-07-27T15:06:00",
-        "references": [
-            "https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1140029"
-        ],
-        "summary": "\nThe Rockwell Automation Kinetix 5700 DC Bus Power Supply Series A is vulnerable to CIP fuzzing. \u00a0The new ENIP connections cannot be established if impacted by this vulnerability, \u00a0which prohibits operational capabilities of the device resulting in a denial-of-service attack.\n\n\n"
-    },
-    {
-        "Modified": "2023-07-27T15:05:00",
-        "Published": "2023-07-18T03:15:00",
-        "access": {},
-        "assigner": "security@wordfence.com",
-        "cvss": null,
-        "cwe": "CWE-862",
-        "id": "CVE-2023-3403",
-        "impact": {},
-        "last-modified": "2023-07-27T15:05:00",
-        "references": [
-            "https://www.wordfence.com/threat-intel/vulnerabilities/id/b335fc19-2998-4711-8813-6cb68d7447bd?source=cve",
-            "https://plugins.trac.wordpress.org/browser/profilegrid-user-profiles-groups-and-communities/tags/5.4.8/admin/class-profile-magic-admin.php#L1027",
-            "https://plugins.trac.wordpress.org/changeset/2938904/profilegrid-user-profiles-groups-and-communities#file0"
-        ],
-        "summary": "The ProfileGrid plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'pm_upload_csv' function in versions up to, and including, 5.5.1. This makes it possible for authenticated attackers, with subscriber-level permissions or above to import new users and update existing users."
-    },
-    {
-        "Modified": "2023-07-27T15:05:00",
-        "Published": "2023-07-18T03:15:00",
-        "access": {},
-        "assigner": "security@wordfence.com",
-        "cvss": null,
-        "cwe": "CWE-863",
-        "id": "CVE-2023-3459",
-        "impact": {},
-        "last-modified": "2023-07-27T15:05:00",
-        "references": [
-            "https://plugins.trac.wordpress.org/changeset/2938705/users-customers-import-export-for-wp-woocommerce#file201",
-            "https://plugins.trac.wordpress.org/browser/users-customers-import-export-for-wp-woocommerce/tags/2.4.1/admin/modules/user/import/import.php#L446",
-            "https://www.wordfence.com/threat-intel/vulnerabilities/id/47337214-9cc3-4b12-bb71-9acbab3649b7?source=cve"
-        ],
-        "summary": "The Export and Import Users and Customers plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'hf_update_customer' function called via an AJAX action in versions up to, and including, 2.4.1. This makes it possible for authenticated attackers, with shop manager-level permissions to change user passwords and potentially take over administrator accounts."
-    },
-    {
-        "Modified": "2023-07-27T15:04:00",
-        "Published": "2023-07-18T03:15:00",
-        "access": {},
-        "assigner": "security@wordfence.com",
-        "cvss": null,
-        "cwe": "CWE-200",
-        "id": "CVE-2023-3709",
-        "impact": {},
-        "last-modified": "2023-07-27T15:04:00",
-        "references": [
-            "https://www.wordfence.com/threat-intel/vulnerabilities/id/86c9bcf1-c69e-47ca-b74b-8ce6157f520b?source=cve",
-            "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2938619%40royal-elementor-addons&new=2936984%40royal-elementor-addons&sfp_email=&sfph_mail="
-        ],
-        "summary": "The Royal Elementor Addons plugin for WordPress is vulnerable to unauthenticated API key disclosure in versions up to, and including, 1.3.70 due to the plugin adding the API key to the source code of any page running the MailChimp block. This makes it possible for unauthenticated attackers to obtain a site's MailChimp API key. We recommend resetting any MailChimp API keys if running a vulnerable version of this plugin with the MailChimp block enabled as the API key may have been compromised."
-    },
-    {
-        "Modified": "2023-07-27T15:04:00",
-        "Published": "2023-07-18T03:15:00",
-        "access": {},
-        "assigner": "security@wordfence.com",
-        "cvss": null,
-        "cwe": "CWE-862",
-        "id": "CVE-2023-3713",
-        "impact": {},
-        "last-modified": "2023-07-27T15:04:00",
-        "references": [
-            "https://plugins.trac.wordpress.org/browser/profilegrid-user-profiles-groups-and-communities/tags/5.4.8/admin/class-profile-magic-admin.php#L599",
-            "https://www.wordfence.com/threat-intel/vulnerabilities/id/473ba791-af99-4aae-99cb-ccf220e443e7?source=cve",
-            "https://plugins.trac.wordpress.org/changeset/2938904/profilegrid-user-profiles-groups-and-communities#file0"
-        ],
-        "summary": "The ProfileGrid plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'profile_magic_check_smtp_connection' function in versions up to, and including, 5.5.1. This makes it possible for authenticated attackers, with subscriber-level permissions or above to update the site options arbitrarily. This can be used by attackers to achieve privilege escalation."
-    },
-    {
-        "Modified": "2023-07-27T15:03:00",
-        "Published": "2023-07-18T09:15:00",
-        "access": {},
-        "assigner": "security@wordfence.com",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2023-2433",
-        "impact": {},
-        "last-modified": "2023-07-27T15:03:00",
-        "references": [
-            "https://plugins.trac.wordpress.org/changeset/2939617/yet-another-related-posts-plugin/trunk/classes/YARPP_Core.php",
-            "https://www.wordfence.com/threat-intel/vulnerabilities/id/35bd7462-8dab-43b2-9941-fef6f826cfdc?source=cve",
-            "https://plugins.trac.wordpress.org/browser/yet-another-related-posts-plugin/tags/5.30.3/classes/YARPP_Core.php#L1623"
-        ],
-        "summary": "The YARPP plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'className' parameter in versions up to, and including, 5.30.3 due to insufficient input sanitization and output escaping. This makes it possible for contributor-level attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
-    },
-    {
-        "Modified": "2023-07-27T15:02:00",
-        "Published": "2023-07-13T23:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-617",
-        "id": "CVE-2023-37836",
-        "impact": {},
-        "last-modified": "2023-07-27T15:02:00",
-        "references": [
-            "https://github.com/thorfdbg/libjpeg/issues/87#BUG1"
-        ],
-        "summary": "libjpeg commit db33a6e was discovered to contain a reachable assertion via BitMapHook::BitMapHook at bitmaphook.cpp. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted file."
-    },
-    {
-        "Modified": "2023-07-27T15:01:00",
-        "Published": "2023-07-18T05:15:00",
-        "access": {},
-        "assigner": "cna@vuldb.com",
-        "cvss": null,
-        "cwe": "CWE-89",
-        "id": "CVE-2015-10122",
-        "impact": {},
-        "last-modified": "2023-07-27T15:01:00",
-        "references": [
-            "https://vuldb.com/?ctiid.234249",
-            "https://vuldb.com/?id.234249",
-            "https://github.com/wp-plugins/wp-donate/commit/019114cb788d954c5d1b36d6c62418619e93a757"
-        ],
-        "summary": "A vulnerability was found in wp-donate Plugin up to 1.4 on WordPress. It has been classified as critical. This affects an unknown part of the file includes/donate-display.php. The manipulation leads to sql injection. It is possible to initiate the attack remotely. Upgrading to version 1.5 is able to address this issue. The identifier of the patch is 019114cb788d954c5d1b36d6c62418619e93a757. It is recommended to upgrade the affected component. The identifier VDB-234249 was assigned to this vulnerability."
-    },
-    {
-        "Modified": "2023-07-27T15:01:00",
-        "Published": "2023-07-18T03:15:00",
-        "access": {},
-        "assigner": "security@wordfence.com",
-        "cvss": null,
-        "cwe": "CWE-862",
-        "id": "CVE-2023-3714",
-        "impact": {},
-        "last-modified": "2023-07-27T15:01:00",
-        "references": [
-            "https://plugins.trac.wordpress.org/browser/profilegrid-user-profiles-groups-and-communities/tags/5.4.8/public/partials/profile-magic-group.php#L80",
-            "https://plugins.trac.wordpress.org/changeset/2938904/profilegrid-user-profiles-groups-and-communities#file4",
-            "https://plugins.trac.wordpress.org/changeset/2939344/profilegrid-user-profiles-groups-and-communities/trunk/public/partials/profile-magic-group.php",
-            "https://www.wordfence.com/threat-intel/vulnerabilities/id/a4766651-92a6-42c9-81bc-7ea25350f561?source=cve"
-        ],
-        "summary": "The ProfileGrid plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'edit_group' handler in versions up to, and including, 5.5.2. This makes it possible for authenticated attackers, with group ownership, to update group options, including the 'associate_role' parameter, which defines the member's role. This issue was partially patched in version 5.5.2 preventing privilege escalation, however, it was fully patched in 5.5.3."
-    },
-    {
-        "Modified": "2023-07-27T15:00:00",
-        "Published": "2023-07-14T18:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-668",
-        "id": "CVE-2023-32759",
-        "impact": {},
-        "last-modified": "2023-07-27T15:00:00",
-        "references": [
-            "https://www.archerirm.community/t5/security-advisories/archer-update-for-multiple-vulnerabilities/ta-p/702362",
-            "https://www.archerirm.community/t5/product-advisories/archer-announces-availability-of-archer-release-6-13/ta-p/697821"
-        ],
-        "summary": "An issue in Archer Platform before v.6.13 and fixed in 6.12.0.6 and 6.13.0 allows an authenticated attacker to obtain sensitive information via a crafted URL."
-    },
-    {
-        "Modified": "2023-07-27T15:00:00",
-        "Published": "2023-07-13T23:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-787",
-        "id": "CVE-2023-37837",
-        "impact": {},
-        "last-modified": "2023-07-27T15:00:00",
-        "references": [
-            "https://github.com/thorfdbg/libjpeg/issues/87#BUG0"
-        ],
-        "summary": "libjpeg commit db33a6e was discovered to contain a heap buffer overflow via LineBitmapRequester::EncodeRegion at linebitmaprequester.cpp. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted file."
-    },
-    {
-        "Modified": "2023-07-27T14:56:00",
-        "Published": "2023-07-13T23:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "CWE-89",
-        "id": "CVE-2023-37278",
-        "impact": {},
-        "last-modified": "2023-07-27T14:56:00",
-        "references": [
-            "https://github.com/glpi-project/glpi/security/advisories/GHSA-46gp-f96h-53w4",
-            "https://github.com/glpi-project/glpi/releases/tag/10.0.9"
-        ],
-        "summary": "GLPI is a Free Asset and IT Management Software package, Data center management, ITIL Service Desk, licenses tracking and software auditing. An administrator can trigger SQL injection via dashboards administration. This vulnerability has been patched in version 10.0.9.\n\n"
-    },
-    {
-        "Modified": "2023-07-27T14:55:00",
-        "Published": "2023-07-13T23:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "CWE-117",
-        "id": "CVE-2023-37275",
-        "impact": {},
-        "last-modified": "2023-07-27T14:55:00",
-        "references": [
-            "https://github.com/Significant-Gravitas/Auto-GPT/pull/4810",
-            "https://github.com/Significant-Gravitas/Auto-GPT/security/advisories/GHSA-r7f7-qrrv-3fjh"
-        ],
-        "summary": "Auto-GPT is an experimental open-source application showcasing the capabilities of the GPT-4 language model. The Auto-GPT command line UI makes heavy use of color-coded print statements to signify different types of system messages to the user, including messages that are crucial for the user to review and control which commands should be executed. Before v0.4.3, it was possible for a malicious external resource (such as a website browsed by Auto-GPT) to cause misleading messages to be printed to the console by getting the LLM to regurgitate JSON encoded ANSI escape sequences (`\\u001b[`). These escape sequences were JSON decoded and printed to the console as part of the model's \"thinking process\". The issue has been patched in release version 0.4.3.\n"
-    },
-    {
-        "Modified": "2023-07-27T14:54:00",
-        "Published": "2023-07-13T23:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "CWE-94",
-        "id": "CVE-2023-37274",
-        "impact": {},
-        "last-modified": "2023-07-27T14:54:00",
-        "references": [
-            "https://github.com/Significant-Gravitas/Auto-GPT/pull/4756",
-            "https://github.com/Significant-Gravitas/Auto-GPT/security/advisories/GHSA-5h38-mgp9-rj5f"
-        ],
-        "summary": "Auto-GPT is an experimental open-source application showcasing the capabilities of the GPT-4 language model. When Auto-GPT is executed directly on the host system via the provided run.sh or run.bat files, custom Python code execution is sandboxed using a temporary dedicated docker container which should not have access to any files outside of the Auto-GPT workspace directory.\nBefore v0.4.3, the `execute_python_code` command (introduced in v0.4.1) does not sanitize the `basename` arg before writing LLM-supplied code to a file with an LLM-supplied name. This allows for a path traversal attack that can overwrite any .py file outside the workspace directory by specifying a `basename` such as `../../../main.py`. This can further be abused to achieve arbitrary code execution on the host running Auto-GPT by e.g. overwriting autogpt/main.py which will be executed outside of the docker environment meant to sandbox custom python code execution the next time Auto-GPT is started. The issue has been patched in version 0.4.3. As a workaround, the risk introduced by this vulnerability can be remediated by running Auto-GPT in a virtual machine, or another environment in which damage to files or corruption of the program is not a critical problem."
-    },
-    {
-        "Modified": "2023-07-27T14:53:00",
-        "Published": "2023-07-13T23:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "CWE-94",
-        "id": "CVE-2023-37273",
-        "impact": {},
-        "last-modified": "2023-07-27T14:53:00",
-        "references": [
-            "https://github.com/Significant-Gravitas/Auto-GPT/security/advisories/GHSA-x5gj-2chr-4ch6",
-            "https://github.com/Significant-Gravitas/Auto-GPT/pull/4761"
-        ],
-        "summary": "Auto-GPT is an experimental open-source application showcasing the capabilities of the GPT-4 language model. Running Auto-GPT version prior to 0.4.3 by cloning the git repo and executing `docker compose run auto-gpt` in the repo root uses a different docker-compose.yml file from the one suggested in the official docker set up instructions. The docker-compose.yml file located in the repo root mounts itself into the docker container without write protection. This means that if malicious custom python code is executed via the `execute_python_file` and `execute_python_code` commands, it can overwrite the docker-compose.yml file and abuse it to gain control of the host system the next time Auto-GPT is started. The issue has been patched in version 0.4.3."
     }
 ]
