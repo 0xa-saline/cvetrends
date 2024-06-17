@@ -1,5 +1,53 @@
 [
     {
+        "Modified": "2024-06-16T21:15:00",
+        "Published": "2024-06-16T21:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2023-27636",
+        "impact": {},
+        "last-modified": "2024-06-16T21:15:00",
+        "references": [
+            "https://aldisaw.id/security/2024/06/03/CVE-2023-27636.html"
+        ],
+        "summary": "Progress Sitefinity before 15.0.0 allows XSS by authenticated users via the content form in the SF Editor."
+    },
+    {
+        "Modified": "2024-06-16T21:15:00",
+        "Published": "2024-06-16T21:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-38396",
+        "impact": {},
+        "last-modified": "2024-06-16T21:15:00",
+        "references": [
+            "https://iterm2.com/downloads.html",
+            "https://vin01.github.io/piptagole/escape-sequences/iterm2/rce/2024/06/16/iterm2-rce-window-title-tmux-integration.html",
+            "https://gitlab.com/gnachman/iterm2/-/commit/fc60236a914d63fb70a5c632e211203a4f1bd4dd"
+        ],
+        "summary": "An issue was discovered in iTerm2 3.5.x before 3.5.2. Unfiltered use of an escape sequence to report a window title, in combination with the built-in tmux integration feature (enabled by default), allows an attacker to inject arbitrary code into the terminal, a different vulnerability than CVE-2024-38395."
+    },
+    {
+        "Modified": "2024-06-16T21:15:00",
+        "Published": "2024-06-03T14:15:00",
+        "access": {},
+        "assigner": "security@google.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5197",
+        "impact": {},
+        "last-modified": "2024-06-16T21:15:00",
+        "references": [
+            "https://g-issues.chromium.org/issues/332382766",
+            "https://lists.debian.org/debian-lts-announce/2024/06/msg00005.html"
+        ],
+        "summary": "There exists interger overflows in libvpx in versions prior to 1.14.1.\u00a0Calling vpx_img_alloc()\u00a0with a large value of the d_w, d_h, or align\u00a0parameter may result in integer overflows in the calculations of buffer sizes and offsets and some fields of the returned vpx_image_t\u00a0struct may be invalid.\u00a0Calling vpx_img_wrap()\u00a0with a large value of the d_w, d_h, or stride_align\u00a0parameter may result in integer overflows in the calculations of buffer sizes and offsets and some fields of the returned vpx_image_t\u00a0struct may be invalid. We recommend upgrading to version 1.14.1 or beyond"
+    },
+    {
         "Modified": "2024-06-16T16:15:00",
         "Published": "2024-06-16T16:15:00",
         "access": {},
@@ -1710,51 +1758,6 @@
         "id": "CVE-2024-26088",
         "impact": {},
         "last-modified": "2024-06-14T20:10:00",
-        "references": [
-            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
-        ],
-        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
-    },
-    {
-        "Modified": "2024-06-14T20:07:00",
-        "Published": "2024-06-13T08:16:00",
-        "access": {},
-        "assigner": "psirt@adobe.com",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2024-36146",
-        "impact": {},
-        "last-modified": "2024-06-14T20:07:00",
-        "references": [
-            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
-        ],
-        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
-    },
-    {
-        "Modified": "2024-06-14T20:07:00",
-        "Published": "2024-06-13T08:16:00",
-        "access": {},
-        "assigner": "psirt@adobe.com",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2024-36147",
-        "impact": {},
-        "last-modified": "2024-06-14T20:07:00",
-        "references": [
-            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
-        ],
-        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
-    },
-    {
-        "Modified": "2024-06-14T20:06:00",
-        "Published": "2024-06-13T08:16:00",
-        "access": {},
-        "assigner": "psirt@adobe.com",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2024-36149",
-        "impact": {},
-        "last-modified": "2024-06-14T20:06:00",
         "references": [
             "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
         ],
