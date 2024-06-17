@@ -1,5 +1,997 @@
 [
     {
+        "Modified": "2024-06-17T17:45:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36185",
+        "impact": {},
+        "last-modified": "2024-06-17T17:45:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T17:44:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36186",
+        "impact": {},
+        "last-modified": "2024-06-17T17:44:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T17:40:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36187",
+        "impact": {},
+        "last-modified": "2024-06-17T17:40:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T17:34:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36188",
+        "impact": {},
+        "last-modified": "2024-06-17T17:34:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T17:15:00",
+        "Published": "2024-06-14T10:15:00",
+        "access": {},
+        "assigner": "oss-report@checkmarx.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5685",
+        "impact": {},
+        "last-modified": "2024-06-17T17:15:00",
+        "references": [
+            "https://github.com/snipe/snipe-it/pull/14745",
+            "https://github.com/snipe/snipe-it/commit/34f1ea1c0ecd403047cd1327569ee391a7201cc1",
+            "https://github.com/snipe/snipe-it/releases/tag/v6.4.2"
+        ],
+        "summary": "Users with \"User:edit\" and \"Self:api\" permissions\u00a0can promote or demote themselves or other users by performing changes to the group's memberships via API call.This issue affects snipe-it: from v4.6.17 through v6.4.1."
+    },
+    {
+        "Modified": "2024-06-17T17:15:00",
+        "Published": "2024-05-22T07:15:00",
+        "access": {},
+        "assigner": "cve@kernel.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2021-47472",
+        "impact": {},
+        "last-modified": "2024-06-17T17:15:00",
+        "references": [],
+        "summary": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority."
+    },
+    {
+        "Modified": "2024-06-17T17:15:00",
+        "Published": "2024-02-22T05:15:00",
+        "access": {},
+        "assigner": "psirt@autodesk.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-23134",
+        "impact": {},
+        "last-modified": "2024-06-17T17:15:00",
+        "references": [
+            "https://www.autodesk.com/trust/security-advisories/adsk-sa-2024-0002",
+            "https://www.autodesk.com/trust/security-advisories/adsk-sa-2024-0004",
+            "https://www.autodesk.com/trust/security-advisories/adsk-sa-2024-0009"
+        ],
+        "summary": "A maliciously crafted IGS file in tbb.dll when parsed through Autodesk AutoCAD can be used in user-after-free vulnerability. This vulnerability, along with other vulnerabilities, could lead to code execution in the current process."
+    },
+    {
+        "Modified": "2024-06-17T17:09:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36189",
+        "impact": {},
+        "last-modified": "2024-06-17T17:09:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T17:08:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36168",
+        "impact": {},
+        "last-modified": "2024-06-17T17:08:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T17:04:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36169",
+        "impact": {},
+        "last-modified": "2024-06-17T17:04:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T17:03:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36170",
+        "impact": {},
+        "last-modified": "2024-06-17T17:03:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T16:47:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36171",
+        "impact": {},
+        "last-modified": "2024-06-17T16:47:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T16:42:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36172",
+        "impact": {},
+        "last-modified": "2024-06-17T16:42:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T16:39:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36173",
+        "impact": {},
+        "last-modified": "2024-06-17T16:39:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T16:38:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36174",
+        "impact": {},
+        "last-modified": "2024-06-17T16:38:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T16:30:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36175",
+        "impact": {},
+        "last-modified": "2024-06-17T16:30:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T16:27:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36176",
+        "impact": {},
+        "last-modified": "2024-06-17T16:27:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T16:25:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36178",
+        "impact": {},
+        "last-modified": "2024-06-17T16:25:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T16:25:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36177",
+        "impact": {},
+        "last-modified": "2024-06-17T16:25:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T16:24:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36180",
+        "impact": {},
+        "last-modified": "2024-06-17T16:24:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T16:24:00",
+        "Published": "2024-06-13T08:16:00",
+        "access": {},
+        "assigner": "psirt@adobe.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-36179",
+        "impact": {},
+        "last-modified": "2024-06-17T16:24:00",
+        "references": [
+            "https://helpx.adobe.com/security/products/experience-manager/apsb24-28.html"
+        ],
+        "summary": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field."
+    },
+    {
+        "Modified": "2024-06-17T16:15:00",
+        "Published": "2024-06-17T16:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-36574",
+        "impact": {},
+        "last-modified": "2024-06-17T16:15:00",
+        "references": [
+            "https://gist.github.com/mestrtee/d5a0c93459599f77557b5bbe78b57325"
+        ],
+        "summary": "A Prototype Pollution issue in flatten-json 1.0.1 allows an attacker to execute arbitrary code via module.exports.unflattenJSON (flatten-json/index.js:42)"
+    },
+    {
+        "Modified": "2024-06-17T16:15:00",
+        "Published": "2024-06-17T16:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-36575",
+        "impact": {},
+        "last-modified": "2024-06-17T16:15:00",
+        "references": [
+            "https://gist.github.com/mestrtee/0d830798f20839d634278d7af0155f9e"
+        ],
+        "summary": "A Prototype Pollution issue in getsetprop 1.1.0 allows an attacker to execute arbitrary code via global.accessor."
+    },
+    {
+        "Modified": "2024-06-17T16:15:00",
+        "Published": "2024-06-17T16:15:00",
+        "access": {},
+        "assigner": "cna@python.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-0397",
+        "impact": {},
+        "last-modified": "2024-06-17T16:15:00",
+        "references": [
+            "https://github.com/python/cpython/issues/114572",
+            "https://github.com/python/cpython/pull/114573",
+            "https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/",
+            "https://github.com/python/cpython/commit/01c37f1d0714f5822d34063ca7180b595abf589d",
+            "https://github.com/python/cpython/commit/29c97287d205bf2f410f4895ebce3f43b5160524",
+            "https://github.com/python/cpython/commit/37324b421b72b7bc9934e27aba85d48d4773002e",
+            "https://github.com/python/cpython/commit/542f3272f56f31ed04e74c40635a913fbc12d286",
+            "https://github.com/python/cpython/commit/b228655c227b2ca298a8ffac44d14ce3d22f6faa",
+            "https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab"
+        ],
+        "summary": "A defect was discovered in the Python \u201cssl\u201d module where there is a memory\nrace condition with the ssl.SSLContext methods \u201ccert_store_stats()\u201d and\n\u201cget_ca_certs()\u201d. The race condition can be triggered if the methods are\ncalled at the same time as certificates are loaded into the SSLContext,\nsuch as during the TLS handshake with a certificate directory configured.\nThis issue is fixed in CPython 3.10.14, 3.11.9, 3.12.3, and 3.13.0a5."
+    },
+    {
+        "Modified": "2024-06-17T16:15:00",
+        "Published": "2024-06-17T16:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-36573",
+        "impact": {},
+        "last-modified": "2024-06-17T16:15:00",
+        "references": [
+            "https://gist.github.com/mestrtee/fd8181bbc180d775f8367a2b9e0ffcd1"
+        ],
+        "summary": "almela obx before v.0.0.4 has a Prototype Pollution issue which allows arbitrary code execution via the obx/build/index.js:656), reduce (@almela/obx/build/index.js:470), Object.set (obx/build/index.js:269) component."
+    },
+    {
+        "Modified": "2024-06-17T16:15:00",
+        "Published": "2024-06-17T16:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-36577",
+        "impact": {},
+        "last-modified": "2024-06-17T16:15:00",
+        "references": [
+            "https://gist.github.com/mestrtee/c90189f3d8480a5f267395ec40701373"
+        ],
+        "summary": "apphp js-object-resolver < 3.1.1 is vulnerable to Prototype Pollution via Module.setNestedProperty."
+    },
+    {
+        "Modified": "2024-06-17T16:15:00",
+        "Published": "2024-06-17T16:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-36578",
+        "impact": {},
+        "last-modified": "2024-06-17T16:15:00",
+        "references": [
+            "https://gist.github.com/mestrtee/8bc749ec2b5453d887b2f4a362a65897"
+        ],
+        "summary": "akbr update 1.0.0 is vulnerable to Prototype Pollution via update/index.js."
+    },
+    {
+        "Modified": "2024-06-17T16:15:00",
+        "Published": "2024-06-17T15:15:00",
+        "access": {},
+        "assigner": "cna@python.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-4032",
+        "impact": {},
+        "last-modified": "2024-06-17T16:15:00",
+        "references": [
+            "https://github.com/python/cpython/issues/113171",
+            "https://github.com/python/cpython/pull/113179",
+            "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml",
+            "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml",
+            "https://mail.python.org/archives/list/security-announce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA/",
+            "https://github.com/python/cpython/commit/22adf29da8d99933ffed8647d3e0726edd16f7f8",
+            "https://github.com/python/cpython/commit/40d75c2b7f5c67e254d0a025e0f2e2c7ada7f69f",
+            "https://github.com/python/cpython/commit/895f7e2ac23eff4743143beef0f0c5ac71ea27d3",
+            "https://github.com/python/cpython/commit/ba431579efdcbaed7a96f2ac4ea0775879a332fb",
+            "https://github.com/python/cpython/commit/c62c9e518b784fe44432a3f4fc265fb95b651906",
+            "https://github.com/python/cpython/commit/f86b17ac511e68192ba71f27e752321a3252cee3"
+        ],
+        "summary": "The \u201cipaddress\u201d module contained incorrect information about whether certain IPv4 and IPv6 addresses were designated as \u201cglobally reachable\u201d or \u201cprivate\u201d. This affected the is_private and is_global properties of the ipaddress.IPv4Address, ipaddress.IPv4Network, ipaddress.IPv6Address, and ipaddress.IPv6Network classes, where values wouldn\u2019t be returned in accordance with the latest information from the IANA Special-Purpose Address Registries.\n\nCPython 3.12.4 and 3.13.0a6 contain updated information from these registries and thus have the intended behavior."
+    },
+    {
+        "Modified": "2024-06-17T16:15:00",
+        "Published": "2024-06-16T00:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-38394",
+        "impact": {},
+        "last-modified": "2024-06-17T16:15:00",
+        "references": [
+            "https://pulsesecurity.co.nz/advisories/usbguard-bypass",
+            "https://gitlab.gnome.org/GNOME/gnome-settings-daemon/-/issues/780",
+            "https://gitlab.gnome.org/GNOME/gnome-settings-daemon/-/issues/780#note_2047914",
+            "https://gitlab.gnome.org/GNOME/gnome-settings-daemon/-/tags"
+        ],
+        "summary": "Mismatches in interpreting USB authorization policy between GNOME Settings Daemon (GSD) through 46.0 and the Linux kernel's underlying device matching logic allow a physically proximate attacker to access some unintended Linux kernel USB functionality, such as USB device-specific kernel modules and filesystem implementations. NOTE: the GSD supplier indicates that consideration of a mitigation for this within GSD would be in the context of \"a new feature, not a CVE.\""
+    },
+    {
+        "Modified": "2024-06-17T16:15:00",
+        "Published": "2024-06-15T15:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-89",
+        "id": "CVE-2024-6008",
+        "impact": {},
+        "last-modified": "2024-06-17T16:15:00",
+        "references": [
+            "https://vuldb.com/?id.268698",
+            "https://vuldb.com/?ctiid.268698",
+            "https://vuldb.com/?submit.357143",
+            "https://github.com/1902zdq/cve/issues/1"
+        ],
+        "summary": "A vulnerability, which was classified as critical, was found in itsourcecode Online Book Store up to 1.0. Affected is an unknown function of the file /edit_book.php. The manipulation of the argument image leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-268698 is the identifier assigned to this vulnerability."
+    },
+    {
+        "Modified": "2024-06-17T16:15:00",
+        "Published": "2024-06-14T22:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-89",
+        "id": "CVE-2024-6003",
+        "impact": {},
+        "last-modified": "2024-06-17T16:15:00",
+        "references": [
+            "https://vuldb.com/?id.268692",
+            "https://vuldb.com/?ctiid.268692",
+            "https://vuldb.com/?submit.350714",
+            "https://github.com/chennuo17/cve"
+        ],
+        "summary": "A vulnerability was found in Guangdong Baolun Electronics IP Network Broadcasting Service Platform 2.0. It has been classified as critical. Affected is an unknown function of the file /api/v2/maps. The manipulation of the argument orderColumn leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-268692. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
+        "Modified": "2024-06-17T15:15:00",
+        "Published": "2024-06-17T15:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-1469",
+        "impact": {},
+        "last-modified": "2024-06-17T15:15:00",
+        "references": [],
+        "summary": "Rejected reason: ** REJECT ** Duplicate assignment. Please use CVE-2024-0845 instead."
+    },
+    {
+        "Modified": "2024-06-17T15:15:00",
+        "Published": "2024-06-17T15:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-36581",
+        "impact": {},
+        "last-modified": "2024-06-17T15:15:00",
+        "references": [
+            "https://gist.github.com/mestrtee/f6b2ed1b3b4bc0df994c7455fc6110bd"
+        ],
+        "summary": "A Prototype Pollution issue in abw badger-database 1.2.1 allows an attacker to execute arbitrary code via dist/badger-database.esm."
+    },
+    {
+        "Modified": "2024-06-17T15:15:00",
+        "Published": "2024-06-17T15:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-36582",
+        "impact": {},
+        "last-modified": "2024-06-17T15:15:00",
+        "references": [
+            "https://gist.github.com/mestrtee/9fe4d3a862c62ce6b2b0d20d4c5fd346"
+        ],
+        "summary": "alexbinary object-deep-assign 1.0.11 is vulnerable to Prototype Pollution via the extend() method of Module.deepAssign (/src/index.js)"
+    },
+    {
+        "Modified": "2024-06-17T15:15:00",
+        "Published": "2024-06-16T21:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-38396",
+        "impact": {},
+        "last-modified": "2024-06-17T15:15:00",
+        "references": [
+            "https://iterm2.com/downloads.html",
+            "https://vin01.github.io/piptagole/escape-sequences/iterm2/rce/2024/06/16/iterm2-rce-window-title-tmux-integration.html",
+            "https://gitlab.com/gnachman/iterm2/-/commit/fc60236a914d63fb70a5c632e211203a4f1bd4dd",
+            "http://www.openwall.com/lists/oss-security/2024/06/17/1"
+        ],
+        "summary": "An issue was discovered in iTerm2 3.5.x before 3.5.2. Unfiltered use of an escape sequence to report a window title, in combination with the built-in tmux integration feature (enabled by default), allows an attacker to inject arbitrary code into the terminal, a different vulnerability than CVE-2024-38395."
+    },
+    {
+        "Modified": "2024-06-17T15:15:00",
+        "Published": "2024-06-16T01:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-38395",
+        "impact": {},
+        "last-modified": "2024-06-17T15:15:00",
+        "references": [
+            "https://iterm2.com/downloads.html",
+            "https://gitlab.com/gnachman/iterm2/-/commit/f1e89f78dd72dcac3ba66d3d6f93db3f7f649219",
+            "https://www.openwall.com/lists/oss-security/2024/06/15/1",
+            "https://gitlab.com/gnachman/iterm2/-/tags/v3.5.2",
+            "http://www.openwall.com/lists/oss-security/2024/06/17/1"
+        ],
+        "summary": "In iTerm2 before 3.5.2, the \"Terminal may report window title\" setting is not honored, and thus remote code execution might occur but \"is not trivially exploitable.\""
+    },
+    {
+        "Modified": "2024-06-17T15:15:00",
+        "Published": "2024-06-15T17:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-89",
+        "id": "CVE-2024-6015",
+        "impact": {},
+        "last-modified": "2024-06-17T15:15:00",
+        "references": [
+            "https://vuldb.com/?id.268723",
+            "https://vuldb.com/?ctiid.268723",
+            "https://vuldb.com/?submit.357462",
+            "https://github.com/chenwulin-bit/cve/issues/1"
+        ],
+        "summary": "A vulnerability classified as critical was found in itsourcecode Online House Rental System 1.0. Affected by this vulnerability is an unknown functionality of the file manage_user.php. The manipulation of the argument month_of leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-268723."
+    },
+    {
+        "Modified": "2024-06-17T15:15:00",
+        "Published": "2024-06-15T12:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-6006",
+        "impact": {},
+        "last-modified": "2024-06-17T15:15:00",
+        "references": [
+            "https://vuldb.com/?id.268694",
+            "https://vuldb.com/?ctiid.268694",
+            "https://vuldb.com/?submit.351403"
+        ],
+        "summary": "A vulnerability was found in ZKTeco ZKBio CVSecurity V5000 4.1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the component Summer Schedule Handler. The manipulation of the argument Schedule Name leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-268694 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
+        "Modified": "2024-06-17T15:15:00",
+        "Published": "2024-06-07T04:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-37383",
+        "impact": {},
+        "last-modified": "2024-06-17T15:15:00",
+        "references": [
+            "https://github.com/roundcube/roundcubemail/commit/43aaaa528646877789ec028d87924ba1accf5242",
+            "https://github.com/roundcube/roundcubemail/releases/tag/1.6.7",
+            "https://github.com/roundcube/roundcubemail/releases/tag/1.5.7",
+            "https://lists.debian.org/debian-lts-announce/2024/06/msg00008.html"
+        ],
+        "summary": "Roundcube Webmail before 1.5.7 and 1.6.x before 1.6.7 allows XSS via SVG animate attributes."
+    },
+    {
+        "Modified": "2024-06-17T15:15:00",
+        "Published": "2024-06-07T04:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-37384",
+        "impact": {},
+        "last-modified": "2024-06-17T15:15:00",
+        "references": [
+            "https://github.com/roundcube/roundcubemail/releases/tag/1.6.7",
+            "https://github.com/roundcube/roundcubemail/releases/tag/1.5.7",
+            "https://github.com/roundcube/roundcubemail/commit/cde4522c5c95f13c6aeeb1600ab17e5067a536f7",
+            "https://lists.debian.org/debian-lts-announce/2024/06/msg00008.html"
+        ],
+        "summary": "Roundcube Webmail before 1.5.7 and 1.6.x before 1.6.7 allows XSS via list columns from user preferences."
+    },
+    {
+        "Modified": "2024-06-17T15:15:00",
+        "Published": "2022-11-10T16:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "CWE-77",
+        "id": "CVE-2022-45063",
+        "impact": {},
+        "last-modified": "2024-06-17T15:15:00",
+        "references": [
+            "https://invisible-island.net/xterm/xterm.log.html",
+            "https://www.openwall.com/lists/oss-security/2022/11/10/1",
+            "https://news.ycombinator.com/item?id=33546415",
+            "http://www.openwall.com/lists/oss-security/2022/11/10/1",
+            "http://www.openwall.com/lists/oss-security/2022/11/10/5",
+            "https://security.gentoo.org/glsa/202211-09",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/IVD3I2ZFXGOY6BA2FNS7WPFMPFBDHFWC/",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4TPVNTYFFWNTGZJJQAA4MGGFSTXA4XEA/",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/5T2JI5JCHPTXX2KJU45H2XAHQSFVEJ2Y/",
+            "http://www.openwall.com/lists/oss-security/2024/06/15/1",
+            "http://www.openwall.com/lists/oss-security/2024/06/17/1"
+        ],
+        "summary": "xterm before 375 allows code execution via font ops, e.g., because an OSC 50 response may have Ctrl-g and therefore lead to command execution within the vi line-editing mode of Zsh. NOTE: font ops are not allowed in the xterm default configurations of some Linux distributions."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T14:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-36580",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://gist.github.com/mestrtee/a75d75eca4622ad08f7cfa903a6cc9c3"
+        ],
+        "summary": "A Prototype Pollution issue in cdr0 sg 1.0.10 allows an attacker to execute arbitrary code."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T14:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-37621",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://github.com/Hebing123/cve/issues/47",
+            "https://www.strongshop.cn"
+        ],
+        "summary": "StrongShop v1.0 was discovered to contain a Server-Side Template Injection (SSTI) vulnerability via the component /shippingOptionConfig/index.blade.php."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T14:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-37622",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://github.com/rainrocka/xinhu/issues/4"
+        ],
+        "summary": "Xinhu RockOA v2.6.3 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the num parameter at /flow/flow.php."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T14:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-37158",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://github.com/evmos/evmos/security/advisories/GHSA-pxv8-qhrh-jc7v",
+            "https://github.com/evmos/evmos/commit/b2a09ca66613d8b04decd3f2dcba8e1e77709dcb"
+        ],
+        "summary": "Evmos is the Ethereum Virtual Machine (EVM) Hub on the Cosmos Network. Preliminary checks on actions computed by the clawback vesting accounts are performed in the ante handler. Evmos core, implements two different ante handlers: one for Cosmos transactions and one for Ethereum transactions. Checks performed on the two implementation are different. The vulnerability discovered allowed a clawback account to bypass Cosmos ante handler checks by sending an Ethereum transaction targeting a precompile used to interact with a Cosmos SDK module. This vulnerability is fixed in 18.0.0.\n\n"
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T14:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-37619",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://github.com/Hebing123/cve/issues/45",
+            "https://www.strongshop.cn/"
+        ],
+        "summary": "StrongShop v1.0 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the spec_group_id parameter at /spec/index.blade.php."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T14:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-37620",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://www.phpvod.com/",
+            "https://github.com/Hebing123/cve/issues/46"
+        ],
+        "summary": "PHPVOD v4.0 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the id parameter at /view/admin/view.php."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T14:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-37623",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://github.com/rainrocka/xinhu/issues/5"
+        ],
+        "summary": "Xinhu RockOA v2.6.3 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the /kaoqin/tpl_kaoqin_locationchange.html component."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T14:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-37624",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://github.com/rainrocka/xinhu/issues/6"
+        ],
+        "summary": "Xinhu RockOA v2.6.3 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the /chajian/inputChajian.php. component."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T14:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-37625",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://github.com/zhimengzhe/iBarn",
+            "https://github.com/zhimengzhe/iBarn/issues/20"
+        ],
+        "summary": "zhimengzhe iBarn v1.5 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the $search parameter at /index.php."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T14:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-37848",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://github.com/Lanxiy7th/lx_CVE_report-/issues/13"
+        ],
+        "summary": "SQL Injection vulnerability in Online-Bookstore-Project-In-PHP v1.0 allows a local attacker to execute arbitrary code via the admin_delete.php component."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T14:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-38469",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://github.com/zhimengzhe/iBarn",
+            "https://github.com/zhimengzhe/iBarn/issues/20"
+        ],
+        "summary": "zhimengzhe iBarn v1.5 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the $search parameter at /pay.php."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T14:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-38470",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://github.com/zhimengzhe/iBarn",
+            "https://github.com/zhimengzhe/iBarn/issues/20"
+        ],
+        "summary": "zhimengzhe iBarn v1.5 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the $search parameter at /own.php."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T14:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-37159",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://github.com/evmos/evmos/security/advisories/GHSA-pxv8-qhrh-jc7v",
+            "https://github.com/evmos/evmos/commit/b2a09ca66613d8b04decd3f2dcba8e1e77709dcb"
+        ],
+        "summary": "Evmos is the Ethereum Virtual Machine (EVM) Hub on the Cosmos Network. This vulnerability allowed a user to create a validator using vested tokens to deposit the self-bond. This vulnerability is fixed in 18.0.0."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T14:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-36583",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://gist.github.com/mestrtee/97bc2fbfbcbde3a54d5536c9adeee34c"
+        ],
+        "summary": "A Prototype Pollution issue in byondreal accessor <= 1.0.0 allows an attacker to execute arbitrary code via @byondreal/accessor/index."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T06:15:00",
+        "access": {},
+        "assigner": "cve@cert.org.tw",
+        "cvss": null,
+        "cwe": "CWE-78",
+        "id": "CVE-2024-6047",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://www.twcert.org.tw/tw/cp-132-7883-f5635-1.html",
+            "https://www.twcert.org.tw/en/cp-139-7884-c5a8b-2.html"
+        ],
+        "summary": "Certain EOL GeoVision devices fail to properly filter user input for the specific functionality. Unauthenticated remote attackers can exploit this vulnerability to inject and execute arbitrary system commands on the device."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-17T01:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-6043",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://vuldb.com/?id.268767",
+            "https://vuldb.com/?ctiid.268767",
+            "https://vuldb.com/?submit.358176",
+            "https://github.com/yezzzo/y3/blob/main/SourceCodester%20Best%20house%20rental%20management%20system%20project%20in%20php%201.0%20SQL%20Injection.md"
+        ],
+        "summary": "A vulnerability classified as critical has been found in SourceCodester Best House Rental Management System 1.0. This affects the function login of the file admin_class.php. The manipulation of the argument username leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-268767."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-16T22:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-89",
+        "id": "CVE-2024-6039",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://vuldb.com/?id.268752",
+            "https://vuldb.com/?ctiid.268752",
+            "https://seclists.org/fulldisclosure/2024/Jun/2",
+            "https://msecureltd.blogspot.com/2024/05/friday-fun-pentest-series-6.html"
+        ],
+        "summary": "A vulnerability, which was classified as critical, was found in Feng Office 3.11.1.2. Affected is an unknown function of the component Workspaces. The manipulation of the argument dim leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-268752."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-16T23:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-89",
+        "id": "CVE-2024-6041",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://vuldb.com/?id.268765",
+            "https://vuldb.com/?ctiid.268765",
+            "https://vuldb.com/?submit.357816",
+            "https://github.com/ssiicckk/cve/issues/1"
+        ],
+        "summary": "A vulnerability was found in itsourcecode Gym Management System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file manage_user.php. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-268765 was assigned to this vulnerability."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-06-15T19:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-89",
+        "id": "CVE-2024-6016",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://vuldb.com/?id.268724",
+            "https://vuldb.com/?ctiid.268724",
+            "https://vuldb.com/?submit.357463",
+            "https://github.com/chenwulin-bit/cve/issues/2"
+        ],
+        "summary": "A vulnerability, which was classified as critical, has been found in itsourcecode Online Laundry Management System 1.0. Affected by this issue is some unknown functionality of the file admin_class.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-268724."
+    },
+    {
+        "Modified": "2024-06-17T14:15:00",
+        "Published": "2024-05-17T19:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-34997",
+        "impact": {},
+        "last-modified": "2024-06-17T14:15:00",
+        "references": [
+            "https://github.com/joblib/joblib/issues/1582",
+            "https://github.com/joblib/joblib/issues/977"
+        ],
+        "summary": "joblib v1.4.2 was discovered to contain a deserialization vulnerability via the component joblib.numpy_pickle::NumpyArrayWrapper().read_array(). NOTE: this is disputed by the supplier because NumpyArrayWrapper is only used during caching of trusted content."
+    },
+    {
         "Modified": "2024-06-17T13:35:00",
         "Published": "2023-12-05T03:15:00",
         "access": {},
@@ -634,930 +1626,5 @@
             "https://www.twcert.org.tw/en/cp-139-7860-760b1-2.html"
         ],
         "summary": "Certain ASUS router models have authentication bypass vulnerability, allowing unauthenticated remote attackers to log in the device."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-14T00:15:00",
-        "access": {},
-        "assigner": "audit@patchstack.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2023-35040",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://patchstack.com/database/vulnerability/sendpress/wordpress-sendpress-newsletters-plugin-1-22-3-31-broken-access-control-vulnerability?_s_id=cve"
-        ],
-        "summary": "Missing Authorization vulnerability in SendPress SendPress Newsletters.This issue affects SendPress Newsletters: from n/a through 1.23.11.6."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-14T03:15:00",
-        "access": {},
-        "assigner": "hdq-toshiba-psirt@ml.toshiba.co.jp",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-27141",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://www.toshibatec.com/information/20240531_01.html",
-            "https://www.toshibatec.com/information/pdf/information20240531_01.pdf",
-            "https://jvn.jp/en/vu/JVNVU97136265/index.html"
-        ],
-        "summary": "Toshiba printers use XML communication for the API endpoint provided by the printer. For the endpoint, XML parsing library is used and it is vulnerable to a time-based blind XML External Entity (XXE) vulnerability. An attacker can DoS the printers by sending a HTTP request without authentication. An attacker can exploit the XXE to retrieve information.\u00a0As for the affected products/models/versions, see the reference URL."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-14T03:15:00",
-        "access": {},
-        "assigner": "hdq-toshiba-psirt@ml.toshiba.co.jp",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-27152",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://www.toshibatec.com/information/20240531_01.html",
-            "https://www.toshibatec.com/information/pdf/information20240531_01.pdf",
-            "https://jvn.jp/en/vu/JVNVU97136265/index.html"
-        ],
-        "summary": "The Toshiba printers are vulnerable to a Local Privilege Escalation vulnerability. An attacker can remotely compromise any Toshiba printer. As for the affected products/models/versions, see the reference URL."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-14T04:15:00",
-        "access": {},
-        "assigner": "cve-request@wordfence.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2023-6492",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://www.wordfence.com/threat-intel/vulnerabilities/id/a228e60c-c91b-4a82-8b05-a0ffaed82524?source=cve",
-            "https://plugins.trac.wordpress.org/changeset/3099425/simple-sitemap/trunk/lib/classes/plugin-admin-pages/class-settings.php"
-        ],
-        "summary": "The Simple Sitemap \u2013 Create a Responsive HTML Sitemap plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.5.13. This is due to missing or incorrect nonce validation in the 'admin_notices' hook found in class-settings.php. This makes it possible for unauthenticated attackers to reset the plugin options to a default state via a forged request granted they can trick a site administrator into performing an action such as clicking on a link."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-14T03:15:00",
-        "access": {},
-        "assigner": "hdq-toshiba-psirt@ml.toshiba.co.jp",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-27146",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://www.toshibatec.com/information/20240531_01.html",
-            "https://www.toshibatec.com/information/pdf/information20240531_01.pdf",
-            "https://jvn.jp/en/vu/JVNVU97136265/index.html"
-        ],
-        "summary": "The Toshiba printers do not implement privileges separation. As for the affected products/models/versions, see the reference URL."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-14T03:15:00",
-        "access": {},
-        "assigner": "cve@cert.org.tw",
-        "cvss": null,
-        "cwe": "CWE-121",
-        "id": "CVE-2024-3079",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://www.twcert.org.tw/tw/cp-132-7857-5726f-1.html",
-            "https://www.twcert.org.tw/en/cp-139-7858-3c978-2.html"
-        ],
-        "summary": "Certain models of ASUS routers have buffer overflow vulnerabilities, allowing remote attackers with administrative privileges to execute arbitrary commands on the device."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-14T00:15:00",
-        "access": {},
-        "assigner": "audit@patchstack.com",
-        "cvss": null,
-        "cwe": "CWE-862",
-        "id": "CVE-2023-36695",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://patchstack.com/database/vulnerability/sublanguage/wordpress-sublanguage-plugin-2-9-broken-access-control-vulnerability?_s_id=cve"
-        ],
-        "summary": "Missing Authorization vulnerability in Maxime Schoeni Sublanguage.This issue affects Sublanguage: from n/a through 2.9."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-14T02:15:00",
-        "access": {},
-        "assigner": "audit@patchstack.com",
-        "cvss": null,
-        "cwe": "CWE-862",
-        "id": "CVE-2023-51523",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://patchstack.com/database/vulnerability/woo-easy-duplicate-product/wordpress-woocommerce-easy-duplicate-product-plugin-0-3-0-7-broken-access-control-csrf-vulnerability?_s_id=cve"
-        ],
-        "summary": "Missing Authorization vulnerability in WriterSystem WooCommerce Easy Duplicate Product.This issue affects WooCommerce Easy Duplicate Product: from n/a through 0.3.0.7."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T22:15:00",
-        "access": {},
-        "assigner": "psirt@nvidia.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-0084",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://nvidia.custhelp.com/app/answers/detail/a_id/5551"
-        ],
-        "summary": "NVIDIA vGPU software for Linux contains a vulnerability in the Virtual GPU Manager, where the guest OS could execute privileged operations. A successful exploit of this vulnerability might lead to information disclosure, data tampering, escalation of privileges, and denial of service."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T22:15:00",
-        "access": {},
-        "assigner": "psirt@nvidia.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-0085",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://nvidia.custhelp.com/app/answers/detail/a_id/5551"
-        ],
-        "summary": "NVIDIA vGPU software for Windows and Linux contains a vulnerability where unprivileged users could execute privileged operations on the host. A successful exploit of this vulnerability might lead to data tampering, escalation of privileges, and denial of service."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T22:15:00",
-        "access": {},
-        "assigner": "psirt@nvidia.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-0086",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://nvidia.custhelp.com/app/answers/detail/a_id/5551"
-        ],
-        "summary": "NVIDIA vGPU software for Linux contains a vulnerability where the software can dereference a NULL pointer. A successful exploit of this vulnerability might lead to denial of service and undefined behavior in the vGPU plugin."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T22:15:00",
-        "access": {},
-        "assigner": "psirt@nvidia.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-0090",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://nvidia.custhelp.com/app/answers/detail/a_id/5551"
-        ],
-        "summary": "NVIDIA GPU driver for Windows and Linux contains a vulnerability where a user can cause an out-of-bounds write. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T22:15:00",
-        "access": {},
-        "assigner": "psirt@nvidia.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-0091",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://nvidia.custhelp.com/app/answers/detail/a_id/5551"
-        ],
-        "summary": "NVIDIA GPU Display Driver for Windows and Linux contains a vulnerability where a user can cause an untrusted pointer dereference by executing a driver API. A successful exploit of this vulnerability might lead to denial of service, information disclosure, and data tampering."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T22:15:00",
-        "access": {},
-        "assigner": "psirt@nvidia.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-0092",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://nvidia.custhelp.com/app/answers/detail/a_id/5551"
-        ],
-        "summary": "NVIDIA GPU Driver for Windows and Linux contains a vulnerability where an improper check or improper handling of exception conditions might lead to denial of service."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T22:15:00",
-        "access": {},
-        "assigner": "psirt@nvidia.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-0094",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://nvidia.custhelp.com/app/answers/detail/a_id/5551"
-        ],
-        "summary": "NVIDIA vGPU software for Linux contains a vulnerability in the Virtual GPU Manager, where an untrusted guest VM can cause improper control of the interaction frequency in the host. A successful exploit of this vulnerability might lead to denial of service."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T22:15:00",
-        "access": {},
-        "assigner": "psirt@nvidia.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-0089",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://nvidia.custhelp.com/app/answers/detail/a_id/5551"
-        ],
-        "summary": "NVIDIA GPU Display Driver for Windows contains a vulnerability where the information from a previous client or another process could be disclosed. A successful exploit of this vulnerability might lead to code execution, information disclosure, or data tampering."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T22:15:00",
-        "access": {},
-        "assigner": "psirt@nvidia.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-0099",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://nvidia.custhelp.com/app/answers/detail/a_id/5551"
-        ],
-        "summary": "NVIDIA vGPU software for Linux contains a vulnerability in the Virtual GPU Manager, where the guest OS could cause buffer overrun in the host. A successful exploit of this vulnerability might lead to information disclosure, data tampering, escalation of privileges, and denial of service."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T22:15:00",
-        "access": {},
-        "assigner": "psirt@nvidia.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-0093",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://nvidia.custhelp.com/app/answers/detail/a_id/5551"
-        ],
-        "summary": "NVIDIA GPU software for Linux contains a vulnerability where it can expose sensitive information to an actor that is not explicitly authorized to have access to that information. A successful exploit of this vulnerability might lead to information disclosure."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T22:15:00",
-        "access": {},
-        "assigner": "psirt@nvidia.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-0095",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://nvidia.custhelp.com/app/answers/detail/a_id/5546"
-        ],
-        "summary": "NVIDIA Triton Inference Server for Linux and Windows contains a vulnerability where a user can inject forged logs and executable commands by injecting arbitrary data as a new log entry. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T22:15:00",
-        "access": {},
-        "assigner": "psirt@nvidia.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-0103",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://nvidia.custhelp.com/app/answers/detail/a_id/5546"
-        ],
-        "summary": "NVIDIA Triton Inference Server for Linux contains a vulnerability where a user may cause an incorrect Initialization of resource by network issue. A successful exploit of this vulnerability may lead to information disclosure."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T23:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-31777",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://github.com/FreySolarEye/Exploit-CVE-2024-31777"
-        ],
-        "summary": "File Upload vulnerability in openeclass v.3.15 and before allows an attacker to execute arbitrary code via a crafted file to the certbadge.php endpoint."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T23:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-33253",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://github.com/FreySolarEye/CVE/blob/master/GUnet%20OpenEclass%20E-learning%20platform%203.15%20-%20%27certbadge.php%27%20Stored%20Cross%20Site%20Scripting"
-        ],
-        "summary": "Cross-site scripting (XSS) vulnerability in GUnet OpenEclass E-learning Platform version 3.15 and before allows a authenticated privileged attacker to execute arbitrary code via the title and description fields of the badge template editing function."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32899",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In gpu_pm_power_off_top_nolock of pixel_gpu_power.c, there is a possible compromise of protected memory due to a race condition. This could lead to local escalation of privilege to TEE with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32906",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In AcvpOnMessage of avcp.cpp, there is a possible EOP due to uninitialized data. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32911",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "There is a possible escalation of privilege due to improperly used crypto. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32907",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In memcall_add of memlog.c, there is a possible buffer overflow due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32912",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "there is a possible persistent Denial of Service due to test/debugging code left in a production build. This could lead to local denial of service of impaired use of the device with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T20:15:00",
-        "access": {},
-        "assigner": "secure@microsoft.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-30057",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30057"
-        ],
-        "summary": "Microsoft Edge for iOS Spoofing Vulnerability"
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T20:15:00",
-        "access": {},
-        "assigner": "psirt@lenovo.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-4696",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://support.lenovo.com/us/en/product_security/LEN-163429"
-        ],
-        "summary": "A privilege escalation vulnerability was reported in Lenovo Service Bridge prior to version 5.0.2.17 that could allow operating system commands to be executed if a specially crafted link is visited."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T20:15:00",
-        "access": {},
-        "assigner": "zdi-disclosures@trendmicro.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-5949",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://www.zerodayinitiative.com/advisories/ZDI-24-673/"
-        ],
-        "summary": "Deep Sea Electronics DSE855 Multipart Boundary Infinite Loop Denial-of-Service Vulnerability. This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Deep Sea Electronics DSE855 devices. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the handling of multipart boundaries. The issue results from a logic error that can lead to an infinite loop. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Was ZDI-CAN-23171."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-29784",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In prepare_response of lwis_periodic_io.c, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32904",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In ProtocolVsimOperationAdapter() of protocolvsimadapter.cpp, there is a possible out of bounds read due to a missing bounds check. This could lead to local information disclosure with baseband firmware compromise required. User Interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32916",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In fvp_freq_histogram_init of fvp.c, there is a possible Information Disclosure due to uninitialized data. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T20:15:00",
-        "access": {},
-        "assigner": "security@mozilla.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38312",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=1878578",
-            "https://www.mozilla.org/security/advisories/mfsa2024-27/"
-        ],
-        "summary": "When browsing private tabs, some data related to location history or webpage thumbnails could be persisted incorrectly within the sandboxed app bundle after app termination This vulnerability affects Firefox for iOS < 127."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T20:15:00",
-        "access": {},
-        "assigner": "zdi-disclosures@trendmicro.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-5952",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://www.zerodayinitiative.com/advisories/ZDI-24-676/"
-        ],
-        "summary": "Deep Sea Electronics DSE855 Restart Missing Authentication Denial-of-Service Vulnerability. This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Deep Sea Electronics DSE855 devices. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the web-based UI. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Was ZDI-CAN-23174."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T20:15:00",
-        "access": {},
-        "assigner": "security@mozilla.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38313",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://bugzilla.mozilla.org/show_bug.cgi?id=1878489",
-            "https://www.mozilla.org/security/advisories/mfsa2024-27/"
-        ],
-        "summary": "In certain scenarios a malicious website could attempt to display a fake location URL bar which could mislead users as to the actual website address This vulnerability affects Firefox for iOS < 127."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-29786",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In pktproc_fill_data_addr_without_bm of link_rx_pktproc.c, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T20:15:00",
-        "access": {},
-        "assigner": "secure@microsoft.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-30058",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30058"
-        ],
-        "summary": "Microsoft Edge (Chromium-based) Spoofing Vulnerability"
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T20:15:00",
-        "access": {},
-        "assigner": "zdi-disclosures@trendmicro.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-5951",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://www.zerodayinitiative.com/advisories/ZDI-24-675/"
-        ],
-        "summary": "Deep Sea Electronics DSE855 Factory Reset Missing Authentication Denial-of-Service Vulnerability. This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Deep Sea Electronics DSE855 devices. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the web-based UI. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Was ZDI-CAN-23173."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32891",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In sec_media_unprotect of media.c, there is a possible memory corruption due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T20:15:00",
-        "access": {},
-        "assigner": "zdi-disclosures@trendmicro.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-5947",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://www.zerodayinitiative.com/advisories/ZDI-24-671/"
-        ],
-        "summary": "Deep Sea Electronics DSE855 Configuration Backup Missing Authentication Information Disclosure Vulnerability. This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Deep Sea Electronics DSE855 devices. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the web-based UI. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Was ZDI-CAN-22679."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T20:15:00",
-        "access": {},
-        "assigner": "secure@microsoft.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38083",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38083"
-        ],
-        "summary": "Microsoft Edge (Chromium-based) Spoofing Vulnerability"
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-29780",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In hwbcc_ns_deprivilege of trusty/user/base/lib/hwbcc/client/hwbcc.c, there is a possible uninitialized stack data disclosure due to uninitialized data. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-29778",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In ProtocolPsDedicatedBearInfoAdapter::processQosSession of protocolpsadapter.cpp, there is a possible out of bounds read due to a missing bounds check. This could lead to local information disclosure with baseband firmware compromise required. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32892",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In handle_init of goodix/main/main.c, there is a possible memory corruption due to type confusion. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-29781",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In ss_AnalyzeOssReturnResUssdArgIe of ss_OssAsnManagement.c, there is a possible out of bounds read due to improper input validation. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-29785",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In aur_get_state of aurora.c, there is a possible information disclosure due to uninitialized data. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32909",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In handle_msg of main.cpp, there is a possible out of bounds write due to a heap buffer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32898",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In ProtocolCellIdentityParserV4::Parse() of protocolnetadapter.cpp, there is a possible out of bounds read due to a missing bounds check. This could lead to local information disclosure with baseband firmware compromise required. User Interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32901",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In v4l2_smfc_qbuf of smfc-v4l2-ioctls.c, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32905",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In circ_read of link_device_memory_legacy.c, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32910",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In handle_msg_shm_map_req of trusty/user/base/lib/spi/srv/tipc/tipc.c, there is a possible stack data disclosure due to uninitialized data. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32913",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In wl_notify_rx_mgmt_frame of wl_cfg80211.c, there is a possible out of bounds write due to an integer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32919",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In lwis_add_completion_fence of lwis_fence.c, there is a possible escalation of privilege due to type confusion. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32922",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In gpu_pm_power_on_top_nolock of pixel_gpu_power.c, there is a possible compromise of protected memory due to a logic error in the code. This could lead to local escalation of privilege to TEE with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32925",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In dhd_prot_txstatus_process of dhd_msgbuf.c, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T20:15:00",
-        "access": {},
-        "assigner": "zdi-disclosures@trendmicro.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-5924",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://www.zerodayinitiative.com/advisories/ZDI-24-677/"
-        ],
-        "summary": "Dropbox Desktop Folder Sharing Mark-of-the-Web Bypass Vulnerability. This vulnerability allows remote attackers to bypass the Mark-of-the-Web protection mechanism on affected installations of Dropbox Desktop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the handling of shared folders. When syncing files from a shared folder belonging to an untrusted account, the Dropbox desktop application does not apply the Mark-of-the-Web to the local files. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user. Was ZDI-CAN-23991."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T20:15:00",
-        "access": {},
-        "assigner": "zdi-disclosures@trendmicro.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-5950",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://www.zerodayinitiative.com/advisories/ZDI-24-674/"
-        ],
-        "summary": "Deep Sea Electronics DSE855 Multipart Value Handling Stack-Based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Deep Sea Electronics DSE855 devices. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the handling of multipart form variables. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the device. Was ZDI-CAN-23172."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32930",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In plugin_ipc_handler of slc_plugin.c, there is a possible information disclosure due to uninitialized data. This could lead to local information disclosure of 4 bytes of stack memory with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32895",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In BCMFASTPATH of dhd_msgbuf.c, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation."
-    },
-    {
-        "Modified": "2024-06-17T12:43:00",
-        "Published": "2024-06-13T21:15:00",
-        "access": {},
-        "assigner": "dsap-vuln-management@google.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32900",
-        "impact": {},
-        "last-modified": "2024-06-17T12:43:00",
-        "references": [
-            "https://source.android.com/security/bulletin/pixel/2024-06-01"
-        ],
-        "summary": "In lwis_fence_signal of lwis_debug.c, there is a possible Use after Free due to improper locking. This could lead to local escalation of privilege from hal_camera_default SELinux label with no additional execution privileges needed. User interaction is not needed for exploitation."
     }
 ]
