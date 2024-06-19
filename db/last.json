@@ -1,5 +1,86 @@
 [
     {
+        "Modified": "2024-06-19T18:15:00",
+        "Published": "2024-06-19T18:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-36115",
+        "impact": {},
+        "last-modified": "2024-06-19T18:15:00",
+        "references": [
+            "https://github.com/dzikoysk/reposilite/security/advisories/GHSA-9w8w-34vr-65j2",
+            "https://github.com/dzikoysk/reposilite/commit/279a472015ec675c1da449d902dc82e4dd578484",
+            "https://github.com/dzikoysk/reposilite/commit/d11609f427aba255e0f6f54b1105d5d20ab043cf",
+            "https://github.com/dzikoysk/reposilite/releases/tag/3.5.12"
+        ],
+        "summary": "Reposilite is an open source, lightweight and easy-to-use repository manager for Maven based artifacts in JVM ecosystem. As a Maven repository manager, Reposilite provides the ability to view the artifacts content in the browser, as well as perform administrative tasks via API. The problem lies in the fact that the artifact's content is served via the same origin (protocol/host/port) as the Admin UI. If the artifact contains HTML content with javascript inside, the javascript is executed within the same origin. Therefore, if an authenticated user is viewing the artifacts content, the javascript inside can access the browser's local storage where the user's password (aka 'token-secret') is stored. It is especially dangerous in scenarios where Reposilite is configured to mirror third party repositories, like the Maven Central Repository. Since anyone can publish an artifact to Maven Central under its own name, such malicious packages can be used to attack the Reposilite instance. This issue may lead to the full Reposilite instance compromise. If this attack is performed against the admin user, it's possible to use the admin API to modify settings and artifacts on the instance. In the worst case scenario, an attacker would be able to obtain the Remote code execution on all systems that use artifacts from Reposilite. It's important to note that the attacker does not need to lure a victim user to use a malicious artifact, but just open a link in the browser. This link can be silently loaded among the other HTML content, making this attack unnoticeable. Even if the Reposilite instance is located in an isolated environment, such as behind a VPN or in the local network, this attack is still possible as it can be performed from the admin browser. Reposilite has addressed this issue in version 3.5.12. Users are advised to upgrade. There are no known workarounds for this vulnerability. This issue was discovered and reported by the GitHub Security lab and is also tracked as GHSL-2024-072."
+    },
+    {
+        "Modified": "2024-06-19T18:15:00",
+        "Published": "2024-06-19T18:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-36116",
+        "impact": {},
+        "last-modified": "2024-06-19T18:15:00",
+        "references": [
+            "https://github.com/dzikoysk/reposilite/security/advisories/GHSA-frvj-cfq4-3228",
+            "https://github.com/dzikoysk/reposilite/commit/848173738e4375482c70365db5cebae29f125eaa",
+            "https://github.com/dzikoysk/reposilite/releases/tag/3.5.12"
+        ],
+        "summary": "Reposilite is an open source, lightweight and easy-to-use repository manager for Maven based artifacts in JVM ecosystem. Reposilite provides support for JavaDocs files, which are archives that contain documentation for artifacts. Specifically, JavadocEndpoints.kt controller allows to expand the javadoc archive into the server's file system and return its content. The problem is in the way how the archives are expanded, specifically how the new filename is created. The `file.name` taken from the archive can contain path traversal characters, such as '/../../../anything.txt', so the resulting extraction path can be outside the target directory. If the archive is taken from an untrusted source, such as Maven Central or JitPack for example, an attacker can craft a special archive to overwrite any local file on Reposilite instance. This could lead to remote code execution, for example by placing a new plugin into the '$workspace$/plugins' directory. Alternatively, an attacker can overwrite the content of any other package. Note that the attacker can use its own malicious package from Maven Central to overwrite any other package on Reposilite. Reposilite has addressed this issue in version 3.5.12. Users are advised to upgrade. There are no known workarounds for this vulnerability. This issue was discovered and reported by the GitHub Security lab and is also tracked as GHSL-2024-073."
+    },
+    {
+        "Modified": "2024-06-19T18:15:00",
+        "Published": "2024-06-19T18:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-36117",
+        "impact": {},
+        "last-modified": "2024-06-19T18:15:00",
+        "references": [
+            "https://github.com/dzikoysk/reposilite/releases/tag/3.5.12"
+        ],
+        "summary": "Reposilite is an open source, lightweight and easy-to-use repository manager for Maven based artifacts in JVM ecosystem. Reposilite v3.5.10 is affected by an Arbitrary File Read vulnerability via path traversal while serving expanded javadoc files. Reposilite has addressed this issue in version 3.5.12. There are no known workarounds for this vulnerability. This issue was discovered and reported by the GitHub Security lab and is also tracked as GHSL-2024-074."
+    },
+    {
+        "Modified": "2024-06-19T18:15:00",
+        "Published": "2024-06-19T18:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-38352",
+        "impact": {},
+        "last-modified": "2024-06-19T18:15:00",
+        "references": [],
+        "summary": "Rejected reason: CVE was assigned in error."
+    },
+    {
+        "Modified": "2024-06-19T18:15:00",
+        "Published": "2024-05-01T00:15:00",
+        "access": {},
+        "assigner": "secalert@redhat.com",
+        "cvss": null,
+        "cwe": "CWE-526",
+        "id": "CVE-2024-4369",
+        "impact": {},
+        "last-modified": "2024-06-19T18:15:00",
+        "references": [
+            "https://access.redhat.com/security/cve/CVE-2024-4369",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2278035",
+            "https://access.redhat.com/errata/RHSA-2024:3889",
+            "https://access.redhat.com/errata/RHSA-2024:3881"
+        ],
+        "summary": "An information disclosure flaw was found in OpenShift's internal image registry operator. The AZURE_CLIENT_SECRET can be exposed through an environment variable defined in the pod definition, but is limited to Azure environments. An attacker controlling an account that has high enough permissions to obtain pod information from the openshift-image-registry namespace could use this obtained client secret to perform actions as the registry operator's Azure service account."
+    },
+    {
         "Modified": "2024-06-19T17:15:00",
         "Published": "2024-06-19T17:15:00",
         "access": {},
@@ -1702,93 +1783,5 @@
             "https://git.kernel.org/stable/c/791f4641142e2aced85de082e5783b4fb0b977c2"
         ],
         "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\ntools/nolibc/stdlib: fix memory error in realloc()\n\nPass user_p_len to memcpy() instead of heap->len to prevent realloc()\nfrom copying an extra sizeof(heap) bytes from beyond the allocated\nregion."
-    },
-    {
-        "Modified": "2024-06-19T14:15:00",
-        "Published": "2024-06-19T14:15:00",
-        "access": {},
-        "assigner": "cve@kernel.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38574",
-        "impact": {},
-        "last-modified": "2024-06-19T14:15:00",
-        "references": [
-            "https://git.kernel.org/stable/c/ef80b59acfa4dee4b5eaccb15572b69248831104",
-            "https://git.kernel.org/stable/c/1fd91360a75833b7110af9834ae26c977e1273e0",
-            "https://git.kernel.org/stable/c/9bf48fa19a4b1d186e08b20bf7e5de26a15644fb"
-        ],
-        "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nlibbpf: Prevent null-pointer dereference when prog to load has no BTF\n\nIn bpf_objec_load_prog(), there's no guarantee that obj->btf is non-NULL\nwhen passing it to btf__fd(), and this function does not perform any\ncheck before dereferencing its argument (as bpf_object__btf_fd() used to\ndo). As a consequence, we get segmentation fault errors in bpftool (for\nexample) when trying to load programs that come without BTF information.\n\nv2: Keep btf__fd() in the fix instead of reverting to bpf_object__btf_fd()."
-    },
-    {
-        "Modified": "2024-06-19T14:15:00",
-        "Published": "2024-06-19T14:15:00",
-        "access": {},
-        "assigner": "audit@patchstack.com",
-        "cvss": null,
-        "cwe": "CWE-862",
-        "id": "CVE-2023-36684",
-        "impact": {},
-        "last-modified": "2024-06-19T14:15:00",
-        "references": [
-            "https://patchstack.com/database/vulnerability/convertpro/wordpress-convert-pro-plugin-1-7-5-broken-access-control-vulnerability?_s_id=cve"
-        ],
-        "summary": "Missing Authorization vulnerability in Brainstorm Force Convert Pro.This issue affects Convert Pro: from n/a through 1.7.5."
-    },
-    {
-        "Modified": "2024-06-19T14:15:00",
-        "Published": "2024-06-19T14:15:00",
-        "access": {},
-        "assigner": "cve@kernel.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38577",
-        "impact": {},
-        "last-modified": "2024-06-19T14:15:00",
-        "references": [
-            "https://git.kernel.org/stable/c/08186d0c5fb64a1cc4b43e009314ee6b173ed222",
-            "https://git.kernel.org/stable/c/32d988f48ed287e676a29a15ac30701c35849aec",
-            "https://git.kernel.org/stable/c/6593d857ce5b5b802fb73d8091ac9c84b92c1697",
-            "https://git.kernel.org/stable/c/1a240e138071b25944ded0f5b3e357aa99fabcb7",
-            "https://git.kernel.org/stable/c/cc5645fddb0ce28492b15520306d092730dffa48"
-        ],
-        "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nrcu-tasks: Fix show_rcu_tasks_trace_gp_kthread buffer overflow\n\nThere is a possibility of buffer overflow in\nshow_rcu_tasks_trace_gp_kthread() if counters, passed\nto sprintf() are huge. Counter numbers, needed for this\nare unrealistically high, but buffer overflow is still\npossible.\n\nUse snprintf() with buffer size instead of sprintf().\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE."
-    },
-    {
-        "Modified": "2024-06-19T14:15:00",
-        "Published": "2024-06-19T14:15:00",
-        "access": {},
-        "assigner": "cve@kernel.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38541",
-        "impact": {},
-        "last-modified": "2024-06-19T14:15:00",
-        "references": [
-            "https://git.kernel.org/stable/c/0b0d5701a8bf02f8fee037e81aacf6746558bfd6",
-            "https://git.kernel.org/stable/c/ee332023adfd5882808f2dabf037b32d6ce36f9e",
-            "https://git.kernel.org/stable/c/e45b69360a63165377b30db4a1dfddd89ca18e9a",
-            "https://git.kernel.org/stable/c/cf7385cb26ac4f0ee6c7385960525ad534323252"
-        ],
-        "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nof: module: add buffer overflow check in of_modalias()\n\nIn of_modalias(), if the buffer happens to be too small even for the 1st\nsnprintf() call, the len parameter will become negative and str parameter\n(if not NULL initially) will point beyond the buffer's end. Add the buffer\noverflow check after the 1st snprintf() call and fix such check after the\nstrlen() call (accounting for the terminating NUL char)."
-    },
-    {
-        "Modified": "2024-06-19T14:15:00",
-        "Published": "2024-06-19T14:15:00",
-        "access": {},
-        "assigner": "cve@kernel.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38580",
-        "impact": {},
-        "last-modified": "2024-06-19T14:15:00",
-        "references": [
-            "https://git.kernel.org/stable/c/cbfd1088e24ec4c1199756a37cb8e4cd0a4b016e",
-            "https://git.kernel.org/stable/c/559214eb4e5c3d05e69428af2fae2691ba1eb784",
-            "https://git.kernel.org/stable/c/4f65f4defe4e23659275ce5153541cd4f76ce2d2",
-            "https://git.kernel.org/stable/c/16e3182f6322575eb7c12e728ad3c7986a189d5d",
-            "https://git.kernel.org/stable/c/4efaa5acf0a1d2b5947f98abb3acf8bfd966422b"
-        ],
-        "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nepoll: be better about file lifetimes\n\nepoll can call out to vfs_poll() with a file pointer that may race with\nthe last 'fput()'. That would make f_count go down to zero, and while\nthe ep->mtx locking means that the resulting file pointer tear-down will\nbe blocked until the poll returns, it means that f_count is already\ndead, and any use of it won't actually get a reference to the file any\nmore: it's dead regardless.\n\nMake sure we have a valid ref on the file pointer before we call down to\nvfs_poll() from the epoll routines."
     }
 ]
