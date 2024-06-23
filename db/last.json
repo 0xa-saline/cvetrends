@@ -1,5 +1,23 @@
 [
     {
+        "Modified": "2024-06-23T12:15:00",
+        "Published": "2024-06-23T12:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-77",
+        "id": "CVE-2024-6269",
+        "impact": {},
+        "last-modified": "2024-06-23T12:15:00",
+        "references": [
+            "https://vuldb.com/?id.269482",
+            "https://vuldb.com/?ctiid.269482",
+            "https://vuldb.com/?submit.358202",
+            "https://github.com/charliecatsec/cve1/issues/1"
+        ],
+        "summary": "A vulnerability has been found in Ruijie RG-UAC 1.0 and classified as critical. This vulnerability affects the function get_ip.addr_details of the file /view/vpn/autovpn/sxh_vpnlic.php of the component HTTP POST Request Handler. The manipulation of the argument indevice leads to command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-269482 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
         "Modified": "2024-06-23T10:15:00",
         "Published": "2024-06-23T10:15:00",
         "access": {},
@@ -1892,21 +1910,5 @@
             "https://security.netapp.com/advisory/ntap-20240621-0006/"
         ],
         "summary": "A security vulnerability has been identified in all supported versions\n\nof OpenSSL related to the verification of X.509 certificate chains\nthat include policy constraints.  Attackers may be able to exploit this\nvulnerability by creating a malicious certificate chain that triggers\nexponential use of computational resources, leading to a denial-of-service\n(DoS) attack on affected systems.\n\nPolicy processing is disabled by default but can be enabled by passing\nthe `-policy' argument to the command line utilities or by calling the\n`X509_VERIFY_PARAM_set1_policies()' function."
-    },
-    {
-        "Modified": "2024-06-21T19:15:00",
-        "Published": "2023-03-22T06:15:00",
-        "access": {},
-        "assigner": "security@jfrog.com",
-        "cvss": null,
-        "cwe": "CWE-674",
-        "id": "CVE-2023-1370",
-        "impact": {},
-        "last-modified": "2024-06-21T19:15:00",
-        "references": [
-            "https://research.jfrog.com/vulnerabilities/stack-exhaustion-in-json-smart-leads-to-denial-of-service-when-parsing-malformed-json-xray-427633/",
-            "https://security.netapp.com/advisory/ntap-20240621-0006/"
-        ],
-        "summary": "[Json-smart](https://netplex.github.io/json-smart/) is a performance focused, JSON processor lib.\n\nWhen reaching a \u2018[\u2018 or \u2018{\u2018 character in the JSON input, the code parses an array or an object respectively.\n\nIt was discovered that the code does not have any limit to the nesting of such arrays or objects. Since the parsing of nested arrays and objects is done recursively, nesting too many of them can cause a stack exhaustion (stack overflow) and crash the software.\n\n"
     }
 ]
