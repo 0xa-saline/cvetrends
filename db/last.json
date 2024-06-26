@@ -1,5 +1,473 @@
 [
     {
+        "Modified": "2024-06-26T15:55:00",
+        "Published": "2023-06-16T21:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "CWE-787",
+        "id": "CVE-2023-35788",
+        "impact": {},
+        "last-modified": "2024-06-26T15:55:00",
+        "references": [
+            "https://www.openwall.com/lists/oss-security/2023/06/07/1",
+            "https://git.kernel.org/linus/4d56304e5827c8cc8cc18c75343d283af7c4825c",
+            "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.7",
+            "http://www.openwall.com/lists/oss-security/2023/06/17/1",
+            "https://www.debian.org/security/2023/dsa-5448",
+            "https://security.netapp.com/advisory/ntap-20230714-0002/",
+            "https://lists.debian.org/debian-lts-announce/2023/07/msg00030.html",
+            "https://www.debian.org/security/2023/dsa-5480",
+            "http://packetstormsecurity.com/files/174577/Kernel-Live-Patch-Security-Notice-LSN-0097-1.html",
+            "https://lists.debian.org/debian-lts-announce/2023/10/msg00027.html"
+        ],
+        "summary": "An issue was discovered in fl_set_geneve_opt in net/sched/cls_flower.c in the Linux kernel before 6.3.7. It allows an out-of-bounds write in the flower classifier code via TCA_FLOWER_KEY_ENC_OPTS_GENEVE packets. This may result in denial of service or privilege escalation."
+    },
+    {
+        "Modified": "2024-06-26T15:54:00",
+        "Published": "2023-09-22T14:15:00",
+        "access": {},
+        "assigner": "security@xen.org",
+        "cvss": null,
+        "cwe": "CWE-787",
+        "id": "CVE-2023-34319",
+        "impact": {},
+        "last-modified": "2024-06-26T15:54:00",
+        "references": [
+            "https://xenbits.xenproject.org/xsa/advisory-432.html",
+            "http://packetstormsecurity.com/files/175963/Kernel-Live-Patch-Security-Notice-LSN-0099-1.html",
+            "https://lists.debian.org/debian-lts-announce/2024/01/msg00004.html",
+            "https://security.netapp.com/advisory/ntap-20240202-0001/"
+        ],
+        "summary": "The fix for XSA-423 added logic to Linux'es netback driver to deal with\na frontend splitting a packet in a way such that not all of the headers\nwould come in one piece.  Unfortunately the logic introduced there\ndidn't account for the extreme case of the entire packet being split\ninto as many pieces as permitted by the protocol, yet still being\nsmaller than the area that's specially dealt with to keep all (possible)\nheaders together.  Such an unusual packet would therefore trigger a\nbuffer overrun in the driver.\n"
+    },
+    {
+        "Modified": "2024-06-26T15:54:00",
+        "Published": "2023-06-28T20:15:00",
+        "access": {},
+        "assigner": "security@google.com",
+        "cvss": null,
+        "cwe": "CWE-787",
+        "id": "CVE-2023-3090",
+        "impact": {},
+        "last-modified": "2024-06-26T15:54:00",
+        "references": [
+            "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=90cbed5247439a966b645b34eb0a2e037836ea8e",
+            "https://kernel.dance/90cbed5247439a966b645b34eb0a2e037836ea8e",
+            "https://www.debian.org/security/2023/dsa-5448",
+            "https://lists.debian.org/debian-lts-announce/2023/07/msg00030.html",
+            "https://security.netapp.com/advisory/ntap-20230731-0002/",
+            "https://www.debian.org/security/2023/dsa-5480",
+            "http://packetstormsecurity.com/files/174577/Kernel-Live-Patch-Security-Notice-LSN-0097-1.html",
+            "http://packetstormsecurity.com/files/175072/Kernel-Live-Patch-Security-Notice-LSN-0098-1.html",
+            "https://lists.debian.org/debian-lts-announce/2023/10/msg00027.html"
+        ],
+        "summary": "A heap out-of-bounds write vulnerability in the Linux Kernel ipvlan network driver can be exploited to achieve local privilege escalation.\n\nThe out-of-bounds write is caused by missing skb->cb  initialization in the ipvlan network driver. The vulnerability is reachable if\u00a0CONFIG_IPVLAN is enabled.\n\n\nWe recommend upgrading past commit 90cbed5247439a966b645b34eb0a2e037836ea8e.\n\n"
+    },
+    {
+        "Modified": "2024-06-26T15:53:00",
+        "Published": "2007-03-24T21:19:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "MEDIUM",
+            "vector": "NETWORK"
+        },
+        "assigner": "secalert@redhat.com",
+        "cvss": 9.3,
+        "cvss-time": "2024-06-26T15:53:00",
+        "cvss-vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+        "cwe": "CWE-189",
+        "id": "CVE-2007-1667",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2024-06-26T15:53:00",
+        "references": [
+            "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=414045",
+            "https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=231684",
+            "http://lists.freedesktop.org/archives/xorg-announce/2007-April/000286.html",
+            "http://issues.foresightlinux.org/browse/FL-223",
+            "https://issues.rpath.com/browse/RPL-1213",
+            "http://www.redhat.com/support/errata/RHSA-2007-0126.html",
+            "http://rhn.redhat.com/errata/RHSA-2007-0125.html",
+            "http://secunia.com/advisories/24741",
+            "http://secunia.com/advisories/24756",
+            "http://secunia.com/advisories/24745",
+            "http://secunia.com/advisories/24758",
+            "http://secunia.com/advisories/24765",
+            "http://secunia.com/advisories/24771",
+            "http://secunia.com/advisories/24791",
+            "https://issues.rpath.com/browse/RPL-1211",
+            "http://www.securitytracker.com/id?1017864",
+            "http://secunia.com/advisories/24739",
+            "http://www.redhat.com/support/errata/RHSA-2007-0157.html",
+            "http://sunsolve.sun.com/search/document.do?assetkey=1-26-102888-1",
+            "http://www.novell.com/linux/security/advisories/2007_27_x.html",
+            "http://www.ubuntu.com/usn/usn-453-1",
+            "http://secunia.com/advisories/24953",
+            "http://secunia.com/advisories/25004",
+            "http://secunia.com/advisories/24975",
+            "http://www.openbsd.org/errata39.html#021_xorg",
+            "http://www.openbsd.org/errata40.html#011_xorg",
+            "http://www.novell.com/linux/security/advisories/2007_8_sr.html",
+            "http://www.securityfocus.com/bid/23300",
+            "http://support.avaya.com/elmodocs2/security/ASA-2007-176.htm",
+            "http://security.gentoo.org/glsa/glsa-200705-06.xml",
+            "http://secunia.com/advisories/25112",
+            "http://secunia.com/advisories/25072",
+            "http://secunia.com/advisories/25131",
+            "http://www.debian.org/security/2007/dsa-1294",
+            "http://www.mandriva.com/security/advisories?name=MDKSA-2007:079",
+            "http://www.mandriva.com/security/advisories?name=MDKSA-2007:147",
+            "http://www.ubuntu.com/usn/usn-453-2",
+            "http://www.ubuntu.com/usn/usn-481-1",
+            "http://secunia.com/advisories/25305",
+            "http://secunia.com/advisories/25992",
+            "http://secunia.com/advisories/26177",
+            "http://www.gentoo.org/security/en/glsa/glsa-200805-07.xml",
+            "http://secunia.com/advisories/30161",
+            "http://lists.apple.com/archives/security-announce/2009/Feb/msg00000.html",
+            "http://secunia.com/advisories/33937",
+            "http://www.debian.org/security/2009/dsa-1858",
+            "http://secunia.com/advisories/36260",
+            "http://support.apple.com/kb/HT3438",
+            "http://www.vupen.com/english/advisories/2007/1217",
+            "http://www.vupen.com/english/advisories/2007/1531",
+            "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9776",
+            "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A1693",
+            "http://www.securityfocus.com/archive/1/464816/100/0/threaded",
+            "http://www.securityfocus.com/archive/1/464686/100/0/threaded"
+        ],
+        "summary": "Multiple integer overflows in (1) the XGetPixel function in ImUtil.c in X.Org libx11 before 1.0.3, and (2) XInitImage function in xwd.c for ImageMagick, allow user-assisted remote attackers to cause a denial of service (crash) or obtain sensitive information via crafted images with large or negative values that trigger a buffer overflow."
+    },
+    {
+        "Modified": "2024-06-26T15:15:00",
+        "Published": "2024-06-26T15:15:00",
+        "access": {},
+        "assigner": "cve@usom.gov.tr",
+        "cvss": null,
+        "cwe": "CWE-89",
+        "id": "CVE-2024-4228",
+        "impact": {},
+        "last-modified": "2024-06-26T15:15:00",
+        "references": [
+            "https://www.usom.gov.tr/bildirim/tr-24-0800"
+        ],
+        "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'), CWE - 200 - Exposure of Sensitive Information to an Unauthorized Actor, CWE - 522 - Insufficiently Protected Credentials vulnerability in Magarsus Consultancy SSO (Single Sign On) allows SQL Injection.This issue affects SSO (Single Sign On): from 1.0 before 1.1."
+    },
+    {
+        "Modified": "2024-06-26T15:15:00",
+        "Published": "2024-06-26T15:15:00",
+        "access": {},
+        "assigner": "cve@usom.gov.tr",
+        "cvss": null,
+        "cwe": "CWE-601",
+        "id": "CVE-2024-4604",
+        "impact": {},
+        "last-modified": "2024-06-26T15:15:00",
+        "references": [
+            "https://www.usom.gov.tr/bildirim/tr-24-0800"
+        ],
+        "summary": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Magarsus Consultancy SSO (Single Sign On) allows Manipulating Hidden Fields.This issue affects SSO (Single Sign On): from 1.0 before 1.1."
+    },
+    {
+        "Modified": "2024-06-26T15:15:00",
+        "Published": "2024-06-26T15:15:00",
+        "access": {},
+        "assigner": "security@huntr.dev",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-6349",
+        "impact": {},
+        "last-modified": "2024-06-26T15:15:00",
+        "references": [],
+        "summary": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority."
+    },
+    {
+        "Modified": "2024-06-26T15:15:00",
+        "Published": "2024-06-25T22:15:00",
+        "access": {},
+        "assigner": "security@sonatype.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-6060",
+        "impact": {},
+        "last-modified": "2024-06-26T15:15:00",
+        "references": [
+            "https://sites.google.com/sonatype.com/vulnerabilities/cve-2024-6060"
+        ],
+        "summary": "An information disclosure vulnerability in Phloc Webscopes 7.0.0 allows local attackers with access to the log files to view logged HTTP requests that contain user passwords or other sensitive information."
+    },
+    {
+        "Modified": "2024-06-26T15:15:00",
+        "Published": "2024-02-02T22:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-1196",
+        "impact": {},
+        "last-modified": "2024-06-26T15:15:00",
+        "references": [
+            "https://vuldb.com/?id.252694",
+            "https://vuldb.com/?ctiid.252694"
+        ],
+        "summary": "A vulnerability classified as problematic was found in SourceCodester Testimonial Page Manager 1.0. This vulnerability affects unknown code of the file add-testimonial.php of the component HTTP POST Request Handler. The manipulation of the argument name/description/testimony leads to cross site scripting. The attack can be initiated remotely. VDB-252694 is the identifier assigned to this vulnerability."
+    },
+    {
+        "Modified": "2024-06-26T15:15:00",
+        "Published": "2024-02-02T16:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-404",
+        "id": "CVE-2024-1185",
+        "impact": {},
+        "last-modified": "2024-06-26T15:15:00",
+        "references": [
+            "https://vuldb.com/?id.252675",
+            "https://vuldb.com/?ctiid.252675",
+            "https://fitoxs.com/vuldb/11-exploit-perl.txt"
+        ],
+        "summary": "A vulnerability classified as problematic has been found in Nsasoft NBMonitor Network Bandwidth Monitor 1.6.5.0. This affects an unknown part of the component Registration Handler. The manipulation leads to denial of service. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-252675. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
+        "Modified": "2024-06-26T15:02:00",
+        "Published": "2024-06-24T17:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "CWE-125",
+        "id": "CVE-2024-38373",
+        "impact": {},
+        "last-modified": "2024-06-26T15:02:00",
+        "references": [
+            "https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/security/advisories/GHSA-ppcp-rg65-58mv",
+            "https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/releases/tag/V4.1.1"
+        ],
+        "summary": "FreeRTOS-Plus-TCP is a lightweight TCP/IP stack for FreeRTOS. FreeRTOS-Plus-TCP versions 4.0.0 through 4.1.0 contain a buffer over-read issue in the DNS Response Parser when parsing domain names in a DNS response. A carefully crafted DNS response with domain name length value greater than the actual domain name length, could cause the parser to read beyond the DNS response buffer. This issue affects applications using DNS functionality of the FreeRTOS-Plus-TCP stack. Applications that do not use DNS functionality are not affected, even when the DNS functionality is enabled. This vulnerability has been patched in version 4.1.1."
+    },
+    {
+        "Modified": "2024-06-26T14:47:00",
+        "Published": "2024-06-24T17:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "CWE-863",
+        "id": "CVE-2024-38369",
+        "impact": {},
+        "last-modified": "2024-06-26T14:47:00",
+        "references": [
+            "https://github.com/xwiki/xwiki-platform/security/advisories/GHSA-qcj3-wpgm-qpxh"
+        ],
+        "summary": "XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. The content of a document included using `{{include reference=\"targetdocument\"/}}` is executed with the right of the includer and not with the right of its author. This means that any user able to modify the target document can impersonate the author of the content which used the `include` macro. This vulnerability has been patched in XWiki 15.0 RC1 by making the default behavior safe.\n"
+    },
+    {
+        "Modified": "2024-06-26T14:42:00",
+        "Published": "2024-06-24T17:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "NVD-CWE-noinfo",
+        "id": "CVE-2024-33880",
+        "impact": {},
+        "last-modified": "2024-06-26T14:42:00",
+        "references": [
+            "https://download.virtosoftware.com/Manuals/nu_ncsc_virto_one_bulk_file_download_v5.4.4_pt_disclosure.pdf",
+            "https://docs.virtosoftware.com/v/virto-security-frequently-asked-questions-faq&gt%3B"
+        ],
+        "summary": "An issue was discovered in VirtoSoftware Virto Bulk File Download 5.5.44 for SharePoint 2019. It discloses full pathnames via Virto.SharePoint.FileDownloader/Api/Download.ashx?action=archive."
+    },
+    {
+        "Modified": "2024-06-26T14:42:00",
+        "Published": "2024-06-24T17:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "CWE-22",
+        "id": "CVE-2024-33881",
+        "impact": {},
+        "last-modified": "2024-06-26T14:42:00",
+        "references": [
+            "https://docs.virtosoftware.com/v/virto-security-frequently-asked-questions-faq",
+            "https://download.virtosoftware.com/Manuals/nu_ncsc_virto_one_bulk_file_download_v5.4.4_pt_disclosure.pdf"
+        ],
+        "summary": "An issue was discovered in VirtoSoftware Virto Bulk File Download 5.5.44 for SharePoint 2019. The Virto.SharePoint.FileDownloader/Api/Download.ashx isCompleted method allows an NTLMv2 hash leak via a UNC share pathname in the path parameter."
+    },
+    {
+        "Modified": "2024-06-26T14:40:00",
+        "Published": "2024-06-24T17:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "CWE-22",
+        "id": "CVE-2024-33879",
+        "impact": {},
+        "last-modified": "2024-06-26T14:40:00",
+        "references": [
+            "https://docs.virtosoftware.com/v/virto-security-frequently-asked-questions-faq",
+            "https://download.virtosoftware.com/Manuals/nu_ncsc_virto_one_bulk_file_download_v5.4.4_pt_disclosure.pdf"
+        ],
+        "summary": "An issue was discovered in VirtoSoftware Virto Bulk File Download 5.5.44 for SharePoint 2019. The Virto.SharePoint.FileDownloader/Api/Download.ashx isCompleted method allows arbitrary file download and deletion via absolute path traversal in the path parameter."
+    },
+    {
+        "Modified": "2024-06-26T14:36:00",
+        "Published": "2024-06-24T16:15:00",
+        "access": {},
+        "assigner": "cve@asrg.io",
+        "cvss": null,
+        "cwe": "CWE-682",
+        "id": "CVE-2024-6287",
+        "impact": {},
+        "last-modified": "2024-06-26T14:36:00",
+        "references": [
+            "https://github.com/renesas-rcar/arm-trusted-firmware/commit/954d488a9798f8fda675c6b57c571b469b298f04",
+            "https://asrg.io/security-advisories/cve-2024-6287/"
+        ],
+        "summary": "Incorrect Calculation vulnerability in Renesas arm-trusted-firmware allows Local Execution of Code.\n\n\nWhen checking whether a new image invades/overlaps with a previously loaded image the code neglects to consider a few cases. that could An attacker to bypass memory range restriction and overwrite an already loaded image partly or completely, which could result in code execution and bypass of secure boot."
+    },
+    {
+        "Modified": "2024-06-26T14:24:00",
+        "Published": "2024-06-24T16:15:00",
+        "access": {},
+        "assigner": "cve@asrg.io",
+        "cvss": null,
+        "cwe": "CWE-191",
+        "id": "CVE-2024-6285",
+        "impact": {},
+        "last-modified": "2024-06-26T14:24:00",
+        "references": [
+            "https://github.com/renesas-rcar/arm-trusted-firmware/commit/b596f580637bae919b0ac3a5471422a1f756db3b",
+            "https://asrg.io/security-advisories/cve-2024-6285/"
+        ],
+        "summary": "Integer Underflow (Wrap or Wraparound) vulnerability in Renesas arm-trusted-firmware.\nAn integer underflow in image range check calculations could lead to bypassing address restrictions and loading of images to unallowed addresses."
+    },
+    {
+        "Modified": "2024-06-26T14:15:00",
+        "Published": "2024-06-25T20:15:00",
+        "access": {},
+        "assigner": "security@progress.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5011",
+        "impact": {},
+        "last-modified": "2024-06-26T14:15:00",
+        "references": [
+            "https://www.progress.com/network-monitoring",
+            "https://community.progress.com/s/article/WhatsUp-Gold-Security-Bulletin-June-2024",
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-1934"
+        ],
+        "summary": "In WhatsUp Gold versions released before 2023.1.3, an uncontrolled resource consumption vulnerability exists.\u00a0A specially crafted unauthenticated HTTP request\u00a0to the TestController Chart functionality\u00a0can lead to denial of service."
+    },
+    {
+        "Modified": "2024-06-26T14:15:00",
+        "Published": "2024-06-25T21:16:00",
+        "access": {},
+        "assigner": "security@progress.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5017",
+        "impact": {},
+        "last-modified": "2024-06-26T14:15:00",
+        "references": [
+            "https://www.progress.com/network-monitoring",
+            "https://community.progress.com/s/article/WhatsUp-Gold-Security-Bulletin-June-2024",
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-1932"
+        ],
+        "summary": "In WhatsUp Gold versions released before 2023.1.3, a path traversal vulnerability exists.\u00a0A specially crafted unauthenticated HTTP request\u00a0to AppProfileImport can lead can lead to information disclosure."
+    },
+    {
+        "Modified": "2024-06-26T14:15:00",
+        "Published": "2024-06-25T20:15:00",
+        "access": {},
+        "assigner": "security@progress.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5010",
+        "impact": {},
+        "last-modified": "2024-06-26T14:15:00",
+        "references": [
+            "https://www.progress.com/network-monitoring",
+            "https://community.progress.com/s/article/WhatsUp-Gold-Security-Bulletin-June-2024",
+            "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-1933"
+        ],
+        "summary": "In WhatsUp Gold versions released before 2023.1.3, a vulnerability exists in the TestController functionality.\u00a0 A specially crafted \n\nunauthenticated\n\nHTTP request can lead to a disclosure of sensitive information."
+    },
+    {
+        "Modified": "2024-06-26T14:12:00",
+        "Published": "2024-06-24T15:15:00",
+        "access": {},
+        "assigner": "vultures@jpcert.or.jp",
+        "cvss": null,
+        "cwe": "CWE-345",
+        "id": "CVE-2024-33687",
+        "impact": {},
+        "last-modified": "2024-06-26T14:12:00",
+        "references": [
+            "https://www.fa.omron.co.jp/product/security/assets/pdf/en/OMSR-2024-004_en.pdf",
+            "https://jvn.jp/en/vu/JVNVU92504444/"
+        ],
+        "summary": "Insufficient verification of data authenticity issue exists in NJ Series CPU Unit all versions and NX Series CPU Unit all versions. If a user program in the affected product is altered, the product may not be able to detect the alteration."
+    },
+    {
+        "Modified": "2024-06-26T14:07:00",
+        "Published": "2024-06-24T14:15:00",
+        "access": {},
+        "assigner": "cvd@cert.pl",
+        "cvss": null,
+        "cwe": "CWE-78",
+        "id": "CVE-2024-4748",
+        "impact": {},
+        "last-modified": "2024-06-26T14:07:00",
+        "references": [
+            "https://cert.pl/en/posts/2024/06/CVE-2024-4748",
+            "https://cert.pl/posts/2024/06/CVE-2024-4748",
+            "https://github.com/jan-vandenberg/cruddiy/issues/67"
+        ],
+        "summary": "The CRUDDIY project is vulnerable to shell command injection via sending a crafted POST request to the application server.\u00a0\nThe exploitation risk is limited since CRUDDIY is meant to be launched locally. Nevertheless, a user with the project running on their computer might visit a website which would send such a malicious request to the locally launched server."
+    },
+    {
+        "Modified": "2024-06-26T14:05:00",
+        "Published": "2024-06-24T14:15:00",
+        "access": {},
+        "assigner": "cve@kernel.org",
+        "cvss": null,
+        "cwe": "CWE-415",
+        "id": "CVE-2024-39292",
+        "impact": {},
+        "last-modified": "2024-06-26T14:05:00",
+        "references": [
+            "https://git.kernel.org/stable/c/66ea9a7c6824821476914bed21a476cd20094f33",
+            "https://git.kernel.org/stable/c/dc1ff95602ee908fcd7d8acee7a0dadb61b1a0c0",
+            "https://git.kernel.org/stable/c/351d1a64544944b44732f6a64ed65573b00b9e14",
+            "https://git.kernel.org/stable/c/31960d991e43c8d6dc07245f19fc13398e90ead2",
+            "https://git.kernel.org/stable/c/0c02d425a2fbe52643a5859a779db0329e7dddd4",
+            "https://git.kernel.org/stable/c/434a06c38ee1217a8baa0dd7c37cc85d50138fb0",
+            "https://git.kernel.org/stable/c/73b8e21f76c7dda4905655d2e2c17dc5a73b87f1",
+            "https://git.kernel.org/stable/c/a0fbbd36c156b9f7b2276871d499c9943dfe5101"
+        ],
+        "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\num: Add winch to winch_handlers before registering winch IRQ\n\nRegistering a winch IRQ is racy, an interrupt may occur before the winch is\nadded to the winch_handlers list.\n\nIf that happens, register_winch_irq() adds to that list a winch that is\nscheduled to be (or has already been) freed, causing a panic later in\nwinch_cleanup().\n\nAvoid the race by adding the winch to the winch_handlers list before\nregistering the IRQ, and rolling back if um_request_irq() fails."
+    },
+    {
+        "Modified": "2024-06-26T14:03:00",
+        "Published": "2024-06-24T14:15:00",
+        "access": {},
+        "assigner": "cve@kernel.org",
+        "cvss": null,
+        "cwe": "CWE-120",
+        "id": "CVE-2024-39291",
+        "impact": {},
+        "last-modified": "2024-06-26T14:03:00",
+        "references": [
+            "https://git.kernel.org/stable/c/19bd9537b6bc1c882df25206c15917214d8e9460",
+            "https://git.kernel.org/stable/c/f1b6a016dfa45cedc080d36fa5d6f22237d80e8b",
+            "https://git.kernel.org/stable/c/acce6479e30f73ab0872e93a75aed1fb791d04ec"
+        ],
+        "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu: Fix buffer size in gfx_v9_4_3_init_ cp_compute_microcode() and rlc_microcode()\n\nThe function gfx_v9_4_3_init_microcode in gfx_v9_4_3.c was generating\nabout potential truncation of output when using the snprintf function.\nThe issue was due to the size of the buffer 'ucode_prefix' being too\nsmall to accommodate the maximum possible length of the string being\nwritten into it.\n\nThe string being written is \"amdgpu/%s_mec.bin\" or \"amdgpu/%s_rlc.bin\",\nwhere %s is replaced by the value of 'chip_name'. The length of this\nstring without the %s is 16 characters. The warning message indicated\nthat 'chip_name' could be up to 29 characters long, resulting in a total\nof 45 characters, which exceeds the buffer size of 30 characters.\n\nTo resolve this issue, the size of the 'ucode_prefix' buffer has been\nreduced from 30 to 15. This ensures that the maximum possible length of\nthe string being written into the buffer will not exceed its size, thus\npreventing potential buffer overflow and truncation issues.\n\nFixes the below with gcc W=1:\ndrivers/gpu/drm/amd/amdgpu/gfx_v9_4_3.c: In function \u2018gfx_v9_4_3_early_init\u2019:\ndrivers/gpu/drm/amd/amdgpu/gfx_v9_4_3.c:379:52: warning: \u2018%s\u2019 directive output may be truncated writing up to 29 bytes into a region of size 23 [-Wformat-truncation=]\n  379 |         snprintf(fw_name, sizeof(fw_name), \"amdgpu/%s_rlc.bin\", chip_name);\n      |                                                    ^~\n......\n  439 |         r = gfx_v9_4_3_init_rlc_microcode(adev, ucode_prefix);\n      |                                                 ~~~~~~~~~~~~\ndrivers/gpu/drm/amd/amdgpu/gfx_v9_4_3.c:379:9: note: \u2018snprintf\u2019 output between 16 and 45 bytes into a destination of size 30\n  379 |         snprintf(fw_name, sizeof(fw_name), \"amdgpu/%s_rlc.bin\", chip_name);\n      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ndrivers/gpu/drm/amd/amdgpu/gfx_v9_4_3.c:413:52: warning: \u2018%s\u2019 directive output may be truncated writing up to 29 bytes into a region of size 23 [-Wformat-truncation=]\n  413 |         snprintf(fw_name, sizeof(fw_name), \"amdgpu/%s_mec.bin\", chip_name);\n      |                                                    ^~\n......\n  443 |         r = gfx_v9_4_3_init_cp_compute_microcode(adev, ucode_prefix);\n      |                                                        ~~~~~~~~~~~~\ndrivers/gpu/drm/amd/amdgpu/gfx_v9_4_3.c:413:9: note: \u2018snprintf\u2019 output between 16 and 45 bytes into a destination of size 30\n  413 |         snprintf(fw_name, sizeof(fw_name), \"amdgpu/%s_mec.bin\", chip_name);\n      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    },
+    {
         "Modified": "2024-06-26T13:53:00",
         "Published": "2024-06-24T14:15:00",
         "access": {},
@@ -749,21 +1217,6 @@
     },
     {
         "Modified": "2024-06-26T12:44:00",
-        "Published": "2024-06-25T22:15:00",
-        "access": {},
-        "assigner": "security@sonatype.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-6060",
-        "impact": {},
-        "last-modified": "2024-06-26T12:44:00",
-        "references": [
-            "https://sites.google.com/sonatype.com/vulnerabilities/cve-2024-6060"
-        ],
-        "summary": "An information disclosure vulnerability in Phloc Webscopes 7.0.0 allows local attackers with access to the log files to view logged HTTP requests that contain user passwords or other sensitive information."
-    },
-    {
-        "Modified": "2024-06-26T12:44:00",
         "Published": "2024-06-25T21:15:00",
         "access": {},
         "assigner": "cve@mitre.org",
@@ -908,22 +1361,6 @@
         "Modified": "2024-06-26T12:44:00",
         "Published": "2024-06-25T20:15:00",
         "access": {},
-        "assigner": "security@progress.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-5011",
-        "impact": {},
-        "last-modified": "2024-06-26T12:44:00",
-        "references": [
-            "https://www.progress.com/network-monitoring",
-            "https://community.progress.com/s/article/WhatsUp-Gold-Security-Bulletin-June-2024"
-        ],
-        "summary": "In WhatsUp Gold versions released before 2023.1.3, an uncontrolled resource consumption vulnerability exists.\u00a0A specially crafted unauthenticated HTTP request\u00a0to the TestController Chart functionality\u00a0can lead to denial of service."
-    },
-    {
-        "Modified": "2024-06-26T12:44:00",
-        "Published": "2024-06-25T20:15:00",
-        "access": {},
         "assigner": "security-advisories@github.com",
         "cvss": null,
         "cwe": "Unknown",
@@ -998,22 +1435,6 @@
             "https://community.progress.com/s/article/WhatsUp-Gold-Security-Bulletin-June-2024"
         ],
         "summary": "In WhatsUp Gold versions released before 2023.1.3, Distributed Edition installations can be exploited by using a deserialization\u00a0tool to achieve a Remote Code Execution as SYSTEM.\u00a0\nThe vulnerability exists in the main message processing routines\u00a0NmDistributed.DistributedServiceBehavior.OnMessage for server and NmDistributed.DistributedClient.OnMessage for clients."
-    },
-    {
-        "Modified": "2024-06-26T12:44:00",
-        "Published": "2024-06-25T21:16:00",
-        "access": {},
-        "assigner": "security@progress.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-5017",
-        "impact": {},
-        "last-modified": "2024-06-26T12:44:00",
-        "references": [
-            "https://www.progress.com/network-monitoring",
-            "https://community.progress.com/s/article/WhatsUp-Gold-Security-Bulletin-June-2024"
-        ],
-        "summary": "In WhatsUp Gold versions released before 2023.1.3, a path traversal vulnerability exists.\u00a0A specially crafted unauthenticated HTTP request\u00a0to AppProfileImport can lead can lead to information disclosure."
     },
     {
         "Modified": "2024-06-26T12:44:00",
@@ -1125,22 +1546,6 @@
             "https://community.progress.com/s/article/WhatsUp-Gold-Security-Bulletin-June-2024"
         ],
         "summary": "In WhatsUp Gold versions released before 2023.1.3,\u00a0an Improper Access Control vulnerability in Wug.UI.Controllers.InstallController.SetAdminPassword allows local attackers to modify admin's password."
-    },
-    {
-        "Modified": "2024-06-26T12:44:00",
-        "Published": "2024-06-25T20:15:00",
-        "access": {},
-        "assigner": "security@progress.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-5010",
-        "impact": {},
-        "last-modified": "2024-06-26T12:44:00",
-        "references": [
-            "https://www.progress.com/network-monitoring",
-            "https://community.progress.com/s/article/WhatsUp-Gold-Security-Bulletin-June-2024"
-        ],
-        "summary": "In WhatsUp Gold versions released before 2023.1.3, a vulnerability exists in the TestController functionality.\u00a0 A specially crafted \n\nunauthenticated\n\nHTTP request can lead to a disclosure of sensitive information."
     },
     {
         "Modified": "2024-06-26T12:44:00",
@@ -1299,437 +1704,5 @@
             "https://lists.debian.org/debian-lts-announce/2024/06/msg00018.html"
         ],
         "summary": "Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources."
-    },
-    {
-        "Modified": "2024-06-26T10:15:00",
-        "Published": "2024-05-14T19:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32004",
-        "impact": {},
-        "last-modified": "2024-06-26T10:15:00",
-        "references": [
-            "https://github.com/git/git/security/advisories/GHSA-xfc6-vwr8-r389",
-            "https://github.com/git/git/commit/f4aa8c8bb11dae6e769cd930565173808cbb69c8",
-            "https://git-scm.com/docs/git-clone",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S4CK4IYTXEOBZTEM5K3T6LWOIZ3S44AR/",
-            "http://www.openwall.com/lists/oss-security/2024/05/14/2",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00018.html"
-        ],
-        "summary": "Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, an attacker can prepare a local repository in such a way that, when cloned, will execute arbitrary code during the operation. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. As a workaround, avoid cloning repositories from untrusted sources."
-    },
-    {
-        "Modified": "2024-06-26T10:15:00",
-        "Published": "2024-05-14T20:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32021",
-        "impact": {},
-        "last-modified": "2024-06-26T10:15:00",
-        "references": [
-            "https://github.com/git/git/security/advisories/GHSA-mvxm-9j2h-qjx7",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S4CK4IYTXEOBZTEM5K3T6LWOIZ3S44AR/",
-            "http://www.openwall.com/lists/oss-security/2024/05/14/2",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00018.html"
-        ],
-        "summary": "Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, when cloning a local source repository that contains symlinks via the filesystem, Git may create hardlinks to arbitrary user-readable files on the same filesystem as the target repository in the `objects/` directory. Cloning a local repository over the filesystem may creating hardlinks to arbitrary user-owned files on the same filesystem in the target Git repository's `objects/` directory. When cloning a repository over the filesystem (without explicitly specifying the `file://` protocol or `--no-local`), the optimizations for local cloning\nwill be used, which include attempting to hard link the object files instead of copying them. While the code includes checks against symbolic links in the source repository, which were added during the fix for CVE-2022-39253, these checks can still be raced because the hard link operation ultimately follows symlinks. If the object on the filesystem appears as a file during the check, and then a symlink during the operation, this will allow the adversary to bypass the check and create hardlinks in the destination objects directory to arbitrary, user-readable files. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4."
-    },
-    {
-        "Modified": "2024-06-26T10:15:00",
-        "Published": "2024-05-14T20:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-32465",
-        "impact": {},
-        "last-modified": "2024-06-26T10:15:00",
-        "references": [
-            "https://github.com/git/git/security/advisories/GHSA-vm9j-46j9-qvq4",
-            "https://github.com/git/git/commit/7b70e9efb18c2cc3f219af399bd384c5801ba1d7",
-            "https://git-scm.com/docs/git#_security",
-            "https://git-scm.com/docs/git-clone",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S4CK4IYTXEOBZTEM5K3T6LWOIZ3S44AR/",
-            "http://www.openwall.com/lists/oss-security/2024/05/14/2",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00018.html"
-        ],
-        "summary": "Git is a revision control system. The Git project recommends to avoid working in untrusted repositories, and instead to clone it first with `git clone --no-local` to obtain a clean copy. Git has specific protections to make that a safe operation even with an untrusted source repository, but vulnerabilities allow those protections to be bypassed. In the context of cloning local repositories owned by other users, this vulnerability has been covered in CVE-2024-32004. But there are circumstances where the fixes for CVE-2024-32004 are not enough: For example, when obtaining a `.zip` file containing a full copy of a Git repository, it should not be trusted by default to be safe, as e.g. hooks could be configured to run within the context of that repository. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. As a workaround, avoid using Git in repositories that have been obtained via archives from untrusted sources."
-    },
-    {
-        "Modified": "2024-06-26T10:15:00",
-        "Published": "2023-04-25T20:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "CWE-134",
-        "id": "CVE-2023-25815",
-        "impact": {},
-        "last-modified": "2024-06-26T10:15:00",
-        "references": [
-            "https://github.com/git-for-windows/git/releases/tag/v2.40.1.windows.1",
-            "https://axcheron.github.io/exploit-101-format-strings/#writing-to-the-stack",
-            "https://github.com/msys2/MINGW-packages/pull/10461",
-            "https://pubs.opengroup.org/onlinepubs/9699919799/functions/printf.html",
-            "https://github.com/git-for-windows/git/security/advisories/GHSA-9w66-8mq8-5vm8",
-            "http://www.openwall.com/lists/oss-security/2023/04/25/2",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PI7FZ4NNR5S5J5K6AMVQBH2JFP6NE4L7/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YFZWGQKB6MM5MNF2DLFTD7KS2KWPICKL/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RKOXOAZ42HLXHXTW6JZI4L5DAIYDTYCU/",
-            "https://security.gentoo.org/glsa/202312-15",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00018.html"
-        ],
-        "summary": "In Git for Windows, the Windows port of Git, no localized messages are shipped with the installer. As a consequence, Git is expected not to localize messages at all, and skips the gettext initialization. However, due to a change in MINGW-packages, the `gettext()` function's implicit initialization no longer uses the runtime prefix but uses the hard-coded path `C:\\mingw64\\share\\locale` to look for localized messages. And since any authenticated user has the permission to create folders in `C:\\` (and since `C:\\mingw64` does not typically exist), it is possible for low-privilege users to place fake messages in that location where `git.exe` will pick them up in version 2.40.1.\n\nThis vulnerability is relatively hard to exploit and requires social engineering. For example, a legitimate message at the end of a clone could be maliciously modified to ask the user to direct their web browser to a malicious website, and the user might think that the message comes from Git and is legitimate. It does require local write access by the attacker, though, which makes this attack vector less likely. Version 2.40.1 contains a patch for this issue. Some workarounds are available. Do not work on a Windows machine with shared accounts, or alternatively create a `C:\\mingw64` folder and leave it empty. Users who have administrative rights may remove the permission to create folders in `C:\\`."
-    },
-    {
-        "Modified": "2024-06-26T10:15:00",
-        "Published": "2023-04-25T21:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "CWE-74",
-        "id": "CVE-2023-29007",
-        "impact": {},
-        "last-modified": "2024-06-26T10:15:00",
-        "references": [
-            "https://github.com/git/git/security/advisories/GHSA-v48j-4xgg-4844",
-            "https://github.com/git/git/commit/528290f8c61222433a8cf02fb7cfffa8438432b4",
-            "https://github.com/git/git/blob/9ce9dea4e1c2419cca126d29fa7730baa078a11b/Documentation/RelNotes/2.30.9.txt",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PI7FZ4NNR5S5J5K6AMVQBH2JFP6NE4L7/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YFZWGQKB6MM5MNF2DLFTD7KS2KWPICKL/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RKOXOAZ42HLXHXTW6JZI4L5DAIYDTYCU/",
-            "https://security.gentoo.org/glsa/202312-15",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00018.html"
-        ],
-        "summary": "Git is a revision control system. Prior to versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1, a specially crafted `.gitmodules` file with submodule URLs that are longer than 1024 characters can used to exploit a bug in `config.c::git_config_copy_or_rename_section_in_file()`. This bug can be used to inject arbitrary configuration into a user's `$GIT_DIR/config` when attempting to remove the configuration section associated with that submodule. When the attacker injects configuration values which specify executables to run (such as `core.pager`, `core.editor`, `core.sshCommand`, etc.) this can lead to a remote code execution. A fix A fix is available in versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1. As a workaround, avoid running `git submodule deinit` on untrusted repositories or without prior inspection of any submodule sections in `$GIT_DIR/config`."
-    },
-    {
-        "Modified": "2024-06-26T10:15:00",
-        "Published": "2023-04-25T20:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "CWE-22",
-        "id": "CVE-2023-25652",
-        "impact": {},
-        "last-modified": "2024-06-26T10:15:00",
-        "references": [
-            "https://github.com/git/git/commit/668f2d53613ac8fd373926ebe219f2c29112d93e",
-            "https://github.com/git/git/security/advisories/GHSA-2hvf-7c8p-28fx",
-            "https://github.com/git/git/commit/18e2b1cfc80990719275d7b08e6e50f3e8cbc902",
-            "http://www.openwall.com/lists/oss-security/2023/04/25/2",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PI7FZ4NNR5S5J5K6AMVQBH2JFP6NE4L7/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YFZWGQKB6MM5MNF2DLFTD7KS2KWPICKL/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RKOXOAZ42HLXHXTW6JZI4L5DAIYDTYCU/",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BSXOGVVBJLYX26IAYX6PJSYQB36BREWH/",
-            "https://security.gentoo.org/glsa/202312-15",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00018.html"
-        ],
-        "summary": "Git is a revision control system. Prior to versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1, by feeding specially crafted input to `git apply --reject`, a path outside the working tree can be overwritten with partially controlled contents (corresponding to the rejected hunk(s) from the given patch). A fix is available in versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1. As a workaround, avoid using `git apply` with `--reject` when applying patches from an untrusted source. Use `git apply --stat` to inspect a patch before applying; avoid applying one that create a conflict where a link corresponding to the `*.rej` file exists."
-    },
-    {
-        "Modified": "2024-06-26T10:15:00",
-        "Published": "2019-12-18T21:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "NETWORK"
-        },
-        "assigner": "secure@microsoft.com",
-        "cvss": 6.8,
-        "cvss-time": "2024-06-26T10:15:00",
-        "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-        "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2019-1387",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-06-26T10:15:00",
-        "references": [
-            "https://access.redhat.com/errata/RHSA-2019:4356",
-            "https://access.redhat.com/errata/RHSA-2020:0002",
-            "https://access.redhat.com/errata/RHSA-2020:0124",
-            "https://lists.debian.org/debian-lts-announce/2020/01/msg00019.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2020-01/msg00056.html",
-            "https://access.redhat.com/errata/RHSA-2020:0228",
-            "https://security.gentoo.org/glsa/202003-30",
-            "https://security.gentoo.org/glsa/202003-42",
-            "http://lists.opensuse.org/opensuse-security-announce/2020-05/msg00003.html",
-            "https://lore.kernel.org/git/xmqqr21cqcn9.fsf%40gitster-ct.c.googlers.com/T/#u",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N6UGTEOXWIYSM5KDZL74QD2GK6YQNQCP/",
-            "https://public-inbox.org/git/xmqqr21cqcn9.fsf%40gitster-ct.c.googlers.com/",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00018.html"
-        ],
-        "summary": "An issue was found in Git before v2.24.1, v2.23.1, v2.22.2, v2.21.1, v2.20.2, v2.19.3, v2.18.2, v2.17.3, v2.16.6, v2.15.4, and v2.14.6. Recursive clones are currently affected by a vulnerability that is caused by too-lax validation of submodule names, allowing very targeted attacks via remote code execution in recursive clones."
-    },
-    {
-        "Modified": "2024-06-26T06:15:00",
-        "Published": "2024-06-26T06:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-36802",
-        "impact": {},
-        "last-modified": "2024-06-26T06:15:00",
-        "references": [],
-        "summary": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none."
-    },
-    {
-        "Modified": "2024-06-26T04:15:00",
-        "Published": "2024-06-04T02:15:00",
-        "access": {},
-        "assigner": "security@zyxel.com.tw",
-        "cvss": null,
-        "cwe": "CWE-78",
-        "id": "CVE-2024-29972",
-        "impact": {},
-        "last-modified": "2024-06-26T04:15:00",
-        "references": [
-            "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-multiple-vulnerabilities-in-nas-products-06-04-2024",
-            "https://outpost24.com/blog/zyxel-nas-critical-vulnerabilities/"
-        ],
-        "summary": "** UNSUPPORTED WHEN ASSIGNED **\nThe command injection vulnerability in the CGI program \"remote_help-cgi\" in Zyxel NAS326 firmware versions before V5.21(AAZF.17)C0 and NAS542 firmware versions before\u00a0V5.21(ABAG.14)C0\u00a0could allow an unauthenticated attacker to execute some operating system (OS) commands by sending a crafted HTTP POST request."
-    },
-    {
-        "Modified": "2024-06-26T04:15:00",
-        "Published": "2024-06-04T02:15:00",
-        "access": {},
-        "assigner": "security@zyxel.com.tw",
-        "cvss": null,
-        "cwe": "CWE-78",
-        "id": "CVE-2024-29973",
-        "impact": {},
-        "last-modified": "2024-06-26T04:15:00",
-        "references": [
-            "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-multiple-vulnerabilities-in-nas-products-06-04-2024",
-            "https://outpost24.com/blog/zyxel-nas-critical-vulnerabilities/"
-        ],
-        "summary": "** UNSUPPORTED WHEN ASSIGNED **\nThe command injection vulnerability in the \u201csetCookie\u201d parameter in Zyxel NAS326 firmware versions before V5.21(AAZF.17)C0 and NAS542 firmware versions before\u00a0V5.21(ABAG.14)C0 could allow an unauthenticated attacker to execute some operating system (OS) commands by sending a crafted HTTP POST request."
-    },
-    {
-        "Modified": "2024-06-26T02:15:00",
-        "Published": "2024-04-11T14:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2023-29483",
-        "impact": {},
-        "last-modified": "2024-06-26T02:15:00",
-        "references": [
-            "https://www.dnspython.org/",
-            "https://github.com/rthalley/dnspython/releases/tag/v2.6.0",
-            "https://github.com/rthalley/dnspython/issues/1045",
-            "https://security.snyk.io/vuln/SNYK-PYTHON-DNSPYTHON-6241713",
-            "https://github.com/eventlet/eventlet/issues/913",
-            "https://github.com/eventlet/eventlet/releases/tag/v0.35.2",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VOHJOO3OM65UIUUUVDEXMCTXNM6LXZEH/",
-            "https://security.netapp.com/advisory/ntap-20240510-0001/",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NLRKR57IFVKQC2GCXZBFLCLBAWBWL3F6/",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X3BNSIK5NFYSAP53Y45GOCMOQHHDLGIF/"
-        ],
-        "summary": "eventlet before 0.35.2, as used in dnspython before 2.6.0, allows remote attackers to interfere with DNS name resolution by quickly sending an invalid packet from the expected IP address and source port, aka a \"TuDoor\" attack. In other words, dnspython does not have the preferred behavior in which the DNS name resolution algorithm would proceed, within the full time window, in order to wait for a valid packet. NOTE: dnspython 2.6.0 is unusable for a different reason that was addressed in 2.6.1."
-    },
-    {
-        "Modified": "2024-06-26T00:15:00",
-        "Published": "2024-06-25T15:15:00",
-        "access": {},
-        "assigner": "security@progress.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-5806",
-        "impact": {},
-        "last-modified": "2024-06-26T00:15:00",
-        "references": [
-            "https://www.progress.com/moveit",
-            "https://community.progress.com/s/article/MOVEit-Transfer-Product-Security-Alert-Bulletin-June-2024-CVE-2024-5806"
-        ],
-        "summary": "Improper Authentication vulnerability in Progress MOVEit Transfer (SFTP module) can lead to Authentication Bypass.This issue affects MOVEit Transfer: from 2023.0.0 before 2023.0.11, from 2023.1.0 before 2023.1.6, from 2024.0.0 before 2024.0.2."
-    },
-    {
-        "Modified": "2024-06-25T23:15:00",
-        "Published": "2024-04-03T17:15:00",
-        "access": {},
-        "assigner": "cve@kernel.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-26779",
-        "impact": {},
-        "last-modified": "2024-06-25T23:15:00",
-        "references": [
-            "https://git.kernel.org/stable/c/76fad1174a0cae6fc857b9f88b261a2e4f07d587",
-            "https://git.kernel.org/stable/c/85720b69aef177318f4a18efbcc4302228a340e5",
-            "https://git.kernel.org/stable/c/5ffab99e070b9f8ae0cf60c3c3602b84eee818dd",
-            "https://git.kernel.org/stable/c/88c18fd06608b3adee547102505d715f21075c9d",
-            "https://git.kernel.org/stable/c/eb39bb548bf974acad7bd6780fe11f9e6652d696",
-            "https://git.kernel.org/stable/c/54b79d8786964e2f840e8a2ec4a9f9a50f3d4954",
-            "https://git.kernel.org/stable/c/281280276b70c822f55ce15b661f6d1d3228aaa9",
-            "https://git.kernel.org/stable/c/bcbc84af1183c8cf3d1ca9b78540c2185cd85e7f",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00017.html"
-        ],
-        "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mac80211: fix race condition on enabling fast-xmit\n\nfast-xmit must only be enabled after the sta has been uploaded to the driver,\notherwise it could end up passing the not-yet-uploaded sta via drv_tx calls\nto the driver, leading to potential crashes because of uninitialized drv_priv\ndata.\nAdd a missing sta->uploaded check and re-check fast xmit after inserting a sta."
-    },
-    {
-        "Modified": "2024-06-25T23:15:00",
-        "Published": "2024-04-03T17:15:00",
-        "access": {},
-        "assigner": "cve@kernel.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-26778",
-        "impact": {},
-        "last-modified": "2024-06-25T23:15:00",
-        "references": [
-            "https://git.kernel.org/stable/c/224453de8505aede1890f007be973925a3edf6a1",
-            "https://git.kernel.org/stable/c/84dce0f6a4cc5b7bfd7242ef9290db8ac1dd77ff",
-            "https://git.kernel.org/stable/c/512ee6d6041e007ef5bf200c6e388e172a2c5b24",
-            "https://git.kernel.org/stable/c/8c54acf33e5adaad6374bf3ec1e3aff0591cc8e1",
-            "https://git.kernel.org/stable/c/070398d32c5f3ab0e890374904ad94551c76aec4",
-            "https://git.kernel.org/stable/c/bc3c2e58d73b28b9a8789fca84778ee165a72d13",
-            "https://git.kernel.org/stable/c/a9ca4e80d23474f90841251f4ac0d941fa337a01",
-            "https://git.kernel.org/stable/c/04e5eac8f3ab2ff52fa191c187a46d4fdbc1e288",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00017.html"
-        ],
-        "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nfbdev: savage: Error out if pixclock equals zero\n\nThe userspace program could pass any values to the driver through\nioctl() interface. If the driver doesn't check the value of pixclock,\nit may cause divide-by-zero error.\n\nAlthough pixclock is checked in savagefb_decode_var(), but it is not\nchecked properly in savagefb_probe(). Fix this by checking whether\npixclock is zero in the function savagefb_check_var() before\ninfo->var.pixclock is used as the divisor.\n\nThis is similar to CVE-2022-3061 in i740fb which was fixed by\ncommit 15cf0b8."
-    },
-    {
-        "Modified": "2024-06-25T23:15:00",
-        "Published": "2024-04-04T09:15:00",
-        "access": {},
-        "assigner": "cve@kernel.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-26790",
-        "impact": {},
-        "last-modified": "2024-06-25T23:15:00",
-        "references": [
-            "https://git.kernel.org/stable/c/518d78b4fac68cac29a263554d7f3b19da99d0da",
-            "https://git.kernel.org/stable/c/bb3a06e9b9a30e33d96aadc0e077be095a4f8580",
-            "https://git.kernel.org/stable/c/106c1ac953a66556ec77456c46e818208d3a9bce",
-            "https://git.kernel.org/stable/c/237ecf1afe6c22534fa43abdf2bf0b0f52de0aaa",
-            "https://git.kernel.org/stable/c/5b696e9c388251f1c7373be92293769a489fd367",
-            "https://git.kernel.org/stable/c/ad2f8920c314e0a2d9e984fc94b729eca3cda471",
-            "https://git.kernel.org/stable/c/9d739bccf261dd93ec1babf82f5c5d71dd4caa3e",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00017.html"
-        ],
-        "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: fsl-qdma: fix SoC may hang on 16 byte unaligned read\n\nThere is chip (ls1028a) errata:\n\nThe SoC may hang on 16 byte unaligned read transactions by QDMA.\n\nUnaligned read transactions initiated by QDMA may stall in the NOC\n(Network On-Chip), causing a deadlock condition. Stalled transactions will\ntrigger completion timeouts in PCIe controller.\n\nWorkaround:\nEnable prefetch by setting the source descriptor prefetchable bit\n( SD[PF] = 1 ).\n\nImplement this workaround."
-    },
-    {
-        "Modified": "2024-06-25T23:15:00",
-        "Published": "2024-04-03T17:15:00",
-        "access": {},
-        "assigner": "cve@kernel.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-26766",
-        "impact": {},
-        "last-modified": "2024-06-25T23:15:00",
-        "references": [
-            "https://git.kernel.org/stable/c/115b7f3bc1dce590a6851a2dcf23dc1100c49790",
-            "https://git.kernel.org/stable/c/5833024a9856f454a964a198c63a57e59e07baf5",
-            "https://git.kernel.org/stable/c/3f38d22e645e2e994979426ea5a35186102ff3c2",
-            "https://git.kernel.org/stable/c/47ae64df23ed1318e27bd9844e135a5e1c0e6e39",
-            "https://git.kernel.org/stable/c/52dc9a7a573dbf778625a0efca0fca55489f084b",
-            "https://git.kernel.org/stable/c/a2fef1d81becf4ff60e1a249477464eae3c3bc2a",
-            "https://git.kernel.org/stable/c/9034a1bec35e9f725315a3bb6002ef39666114d9",
-            "https://git.kernel.org/stable/c/e6f57c6881916df39db7d95981a8ad2b9c3458d6",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00017.html"
-        ],
-        "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nIB/hfi1: Fix sdma.h tx->num_descs off-by-one error\n\nUnfortunately the commit `fd8958efe877` introduced another error\ncausing the `descs` array to overflow. This reults in further crashes\neasily reproducible by `sendmsg` system call.\n\n[ 1080.836473] general protection fault, probably for non-canonical address 0x400300015528b00a: 0000 [#1] PREEMPT SMP PTI\n[ 1080.869326] RIP: 0010:hfi1_ipoib_build_ib_tx_headers.constprop.0+0xe1/0x2b0 [hfi1]\n--\n[ 1080.974535] Call Trace:\n[ 1080.976990]  <TASK>\n[ 1081.021929]  hfi1_ipoib_send_dma_common+0x7a/0x2e0 [hfi1]\n[ 1081.027364]  hfi1_ipoib_send_dma_list+0x62/0x270 [hfi1]\n[ 1081.032633]  hfi1_ipoib_send+0x112/0x300 [hfi1]\n[ 1081.042001]  ipoib_start_xmit+0x2a9/0x2d0 [ib_ipoib]\n[ 1081.046978]  dev_hard_start_xmit+0xc4/0x210\n--\n[ 1081.148347]  __sys_sendmsg+0x59/0xa0\n\ncrash> ipoib_txreq 0xffff9cfeba229f00\nstruct ipoib_txreq {\n  txreq = {\n    list = {\n      next = 0xffff9cfeba229f00,\n      prev = 0xffff9cfeba229f00\n    },\n    descp = 0xffff9cfeba229f40,\n    coalesce_buf = 0x0,\n    wait = 0xffff9cfea4e69a48,\n    complete = 0xffffffffc0fe0760 <hfi1_ipoib_sdma_complete>,\n    packet_len = 0x46d,\n    tlen = 0x0,\n    num_desc = 0x0,\n    desc_limit = 0x6,\n    next_descq_idx = 0x45c,\n    coalesce_idx = 0x0,\n    flags = 0x0,\n    descs = {{\n        qw = {0x8024000120dffb00, 0x4}  # SDMA_DESC0_FIRST_DESC_FLAG (bit 63)\n      }, {\n        qw = {  0x3800014231b108, 0x4}\n      }, {\n        qw = { 0x310000e4ee0fcf0, 0x8}\n      }, {\n        qw = {  0x3000012e9f8000, 0x8}\n      }, {\n        qw = {  0x59000dfb9d0000, 0x8}\n      }, {\n        qw = {  0x78000e02e40000, 0x8}\n      }}\n  },\n  sdma_hdr =  0x400300015528b000,  <<< invalid pointer in the tx request structure\n  sdma_status = 0x0,                   SDMA_DESC0_LAST_DESC_FLAG (bit 62)\n  complete = 0x0,\n  priv = 0x0,\n  txq = 0xffff9cfea4e69880,\n  skb = 0xffff9d099809f400\n}\n\nIf an SDMA send consists of exactly 6 descriptors and requires dword\npadding (in the 7th descriptor), the sdma_txreq descriptor array is not\nproperly expanded and the packet will overflow into the container\nstructure. This results in a panic when the send completion runs. The\nexact panic varies depending on what elements of the container structure\nget corrupted. The fix is to use the correct expression in\n_pad_sdma_tx_descs() to test the need to expand the descriptor array.\n\nWith this patch the crashes are no longer reproducible and the machine is\nstable."
-    },
-    {
-        "Modified": "2024-06-25T23:15:00",
-        "Published": "2024-04-04T10:15:00",
-        "access": {},
-        "assigner": "cve@kernel.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-26809",
-        "impact": {},
-        "last-modified": "2024-06-25T23:15:00",
-        "references": [
-            "https://git.kernel.org/stable/c/b36b83297ff4910dfc8705402c8abffd4bbf8144",
-            "https://git.kernel.org/stable/c/362508506bf545e9ce18c72a2c48dcbfb891ab9c",
-            "https://git.kernel.org/stable/c/5ad233dc731ab64cdc47b84a5c1f78fff6c024af",
-            "https://git.kernel.org/stable/c/ff90050771412b91e928093ccd8736ae680063c2",
-            "https://git.kernel.org/stable/c/821e28d5b506e6a73ccc367ff792bd894050d48b",
-            "https://git.kernel.org/stable/c/9384b4d85c46ce839f51af01374062ce6318b2f2",
-            "https://git.kernel.org/stable/c/b0e256f3dd2ba6532f37c5c22e07cb07a36031ee",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00017.html"
-        ],
-        "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nft_set_pipapo: release elements in clone only from destroy path\n\nClone already always provides a current view of the lookup table, use it\nto destroy the set, otherwise it is possible to destroy elements twice.\n\nThis fix requires:\n\n 212ed75dc5fb (\"netfilter: nf_tables: integrate pipapo into commit protocol\")\n\nwhich came after:\n\n 9827a0e6e23b (\"netfilter: nft_set_pipapo: release elements in clone from abort path\")."
-    },
-    {
-        "Modified": "2024-06-25T23:15:00",
-        "Published": "2024-04-03T15:15:00",
-        "access": {},
-        "assigner": "cve@kernel.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-26696",
-        "impact": {},
-        "last-modified": "2024-06-25T23:15:00",
-        "references": [
-            "https://git.kernel.org/stable/c/228742b2ddfb99dfd71e5a307e6088ab6836272e",
-            "https://git.kernel.org/stable/c/862ee4422c38be5c249844a684b00d0dbe9d1e46",
-            "https://git.kernel.org/stable/c/98a4026b22ff440c7f47056481bcbbe442f607d6",
-            "https://git.kernel.org/stable/c/7e9b622bd0748cc104d66535b76d9b3535f9dc0f",
-            "https://git.kernel.org/stable/c/8494ba2c9ea00a54d5b50e69b22c55a8958bce32",
-            "https://git.kernel.org/stable/c/ea5ddbc11613b55e5128c85f57b08f907abd9b28",
-            "https://git.kernel.org/stable/c/e38585401d464578d30f5868ff4ca54475c34f7d",
-            "https://git.kernel.org/stable/c/38296afe3c6ee07319e01bb249aa4bb47c07b534",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00017.html"
-        ],
-        "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nnilfs2: fix hang in nilfs_lookup_dirty_data_buffers()\n\nSyzbot reported a hang issue in migrate_pages_batch() called by mbind()\nand nilfs_lookup_dirty_data_buffers() called in the log writer of nilfs2.\n\nWhile migrate_pages_batch() locks a folio and waits for the writeback to\ncomplete, the log writer thread that should bring the writeback to\ncompletion picks up the folio being written back in\nnilfs_lookup_dirty_data_buffers() that it calls for subsequent log\ncreation and was trying to lock the folio.  Thus causing a deadlock.\n\nIn the first place, it is unexpected that folios/pages in the middle of\nwriteback will be updated and become dirty.  Nilfs2 adds a checksum to\nverify the validity of the log being written and uses it for recovery at\nmount, so data changes during writeback are suppressed.  Since this is\nbroken, an unclean shutdown could potentially cause recovery to fail.\n\nInvestigation revealed that the root cause is that the wait for writeback\ncompletion in nilfs_page_mkwrite() is conditional, and if the backing\ndevice does not require stable writes, data may be modified without\nwaiting.\n\nFix these issues by making nilfs_page_mkwrite() wait for writeback to\nfinish regardless of the stable write requirement of the backing device."
-    },
-    {
-        "Modified": "2024-06-25T23:15:00",
-        "Published": "2024-04-03T15:15:00",
-        "access": {},
-        "assigner": "cve@kernel.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-26704",
-        "impact": {},
-        "last-modified": "2024-06-25T23:15:00",
-        "references": [
-            "https://git.kernel.org/stable/c/b4fbb89d722cbb16beaaea234b7230faaaf68c71",
-            "https://git.kernel.org/stable/c/afbcad9ae7d6d11608399188f03a837451b6b3a1",
-            "https://git.kernel.org/stable/c/d033a555d9a1cf53dbf3301af7199cc4a4c8f537",
-            "https://git.kernel.org/stable/c/afba9d11320dad5ce222ac8964caf64b7b4bedb1",
-            "https://git.kernel.org/stable/c/185eab30486ba3e7bf8b9c2e049c79a06ffd2bc1",
-            "https://git.kernel.org/stable/c/2883940b19c38d5884c8626483811acf4d7e148f",
-            "https://git.kernel.org/stable/c/559ddacb90da1d8786dd8ec4fd76bbfa404eaef6",
-            "https://git.kernel.org/stable/c/55583e899a5357308274601364741a83e78d6ac4",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00017.html"
-        ],
-        "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: fix double-free of blocks due to wrong extents moved_len\n\nIn ext4_move_extents(), moved_len is only updated when all moves are\nsuccessfully executed, and only discards orig_inode and donor_inode\npreallocations when moved_len is not zero. When the loop fails to exit\nafter successfully moving some extents, moved_len is not updated and\nremains at 0, so it does not discard the preallocations.\n\nIf the moved extents overlap with the preallocated extents, the\noverlapped extents are freed twice in ext4_mb_release_inode_pa() and\next4_process_freed_data() (as described in commit 94d7c16cbbbd (\"ext4:\nFix double-free of blocks with EXT4_IOC_MOVE_EXT\")), and bb_free is\nincremented twice. Hence when trim is executed, a zero-division bug is\ntriggered in mb_update_avg_fragment_size() because bb_free is not zero\nand bb_fragments is zero.\n\nTherefore, update move_len after each extent move to avoid the issue."
-    },
-    {
-        "Modified": "2024-06-25T23:15:00",
-        "Published": "2024-04-03T17:15:00",
-        "access": {},
-        "assigner": "cve@kernel.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-26733",
-        "impact": {},
-        "last-modified": "2024-06-25T23:15:00",
-        "references": [
-            "https://git.kernel.org/stable/c/dbc9b22d0ed319b4e29034ce0a3fe32a3ee2c587",
-            "https://git.kernel.org/stable/c/97eaa2955db4120ce6ec2ef123e860bc32232c50",
-            "https://git.kernel.org/stable/c/f119f2325ba70cbfdec701000dcad4d88805d5b0",
-            "https://git.kernel.org/stable/c/a3f2c083cb575d80a7627baf3339e78fedccbb91",
-            "https://git.kernel.org/stable/c/3ab0d6f8289ba8402ca95a9fc61a34909d5e1f3a",
-            "https://git.kernel.org/stable/c/a7d6027790acea24446ddd6632d394096c0f4667",
-            "https://lists.debian.org/debian-lts-announce/2024/06/msg00017.html"
-        ],
-        "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\narp: Prevent overflow in arp_req_get().\n\nsyzkaller reported an overflown write in arp_req_get(). [0]\n\nWhen ioctl(SIOCGARP) is issued, arp_req_get() looks up an neighbour\nentry and copies neigh->ha to struct arpreq.arp_ha.sa_data.\n\nThe arp_ha here is struct sockaddr, not struct sockaddr_storage, so\nthe sa_data buffer is just 14 bytes.\n\nIn the splat below, 2 bytes are overflown to the next int field,\narp_flags.  We initialise the field just after the memcpy(), so it's\nnot a problem.\n\nHowever, when dev->addr_len is greater than 22 (e.g. MAX_ADDR_LEN),\narp_netmask is overwritten, which could be set as htonl(0xFFFFFFFFUL)\nin arp_ioctl() before calling arp_req_get().\n\nTo avoid the overflow, let's limit the max length of memcpy().\n\nNote that commit b5f0de6df6dc (\"net: dev: Convert sa_data to flexible\narray in struct sockaddr\") just silenced syzkaller.\n\n[0]:\nmemcpy: detected field-spanning write (size 16) of single field \"r->arp_ha.sa_data\" at net/ipv4/arp.c:1128 (size 14)\nWARNING: CPU: 0 PID: 144638 at net/ipv4/arp.c:1128 arp_req_get+0x411/0x4a0 net/ipv4/arp.c:1128\nModules linked in:\nCPU: 0 PID: 144638 Comm: syz-executor.4 Not tainted 6.1.74 #31\nHardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.0-debian-1.16.0-5 04/01/2014\nRIP: 0010:arp_req_get+0x411/0x4a0 net/ipv4/arp.c:1128\nCode: fd ff ff e8 41 42 de fb b9 0e 00 00 00 4c 89 fe 48 c7 c2 20 6d ab 87 48 c7 c7 80 6d ab 87 c6 05 25 af 72 04 01 e8 5f 8d ad fb <0f> 0b e9 6c fd ff ff e8 13 42 de fb be 03 00 00 00 4c 89 e7 e8 a6\nRSP: 0018:ffffc900050b7998 EFLAGS: 00010286\nRAX: 0000000000000000 RBX: ffff88803a815000 RCX: 0000000000000000\nRDX: 0000000000000000 RSI: ffffffff8641a44a RDI: 0000000000000001\nRBP: ffffc900050b7a98 R08: 0000000000000001 R09: 0000000000000000\nR10: 0000000000000000 R11: 203a7970636d656d R12: ffff888039c54000\nR13: 1ffff92000a16f37 R14: ffff88803a815084 R15: 0000000000000010\nFS:  00007f172bf306c0(0000) GS:ffff88805aa00000(0000) knlGS:0000000000000000\nCS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033\nCR2: 00007f172b3569f0 CR3: 0000000057f12005 CR4: 0000000000770ef0\nDR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000\nDR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400\nPKRU: 55555554\nCall Trace:\n <TASK>\n arp_ioctl+0x33f/0x4b0 net/ipv4/arp.c:1261\n inet_ioctl+0x314/0x3a0 net/ipv4/af_inet.c:981\n sock_do_ioctl+0xdf/0x260 net/socket.c:1204\n sock_ioctl+0x3ef/0x650 net/socket.c:1321\n vfs_ioctl fs/ioctl.c:51 [inline]\n __do_sys_ioctl fs/ioctl.c:870 [inline]\n __se_sys_ioctl fs/ioctl.c:856 [inline]\n __x64_sys_ioctl+0x18e/0x220 fs/ioctl.c:856\n do_syscall_x64 arch/x86/entry/common.c:51 [inline]\n do_syscall_64+0x37/0x90 arch/x86/entry/common.c:81\n entry_SYSCALL_64_after_hwframe+0x64/0xce\nRIP: 0033:0x7f172b262b8d\nCode: 66 2e 0f 1f 84 00 00 00 00 00 0f 1f 00 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 c7 c1 b8 ff ff ff f7 d8 64 89 01 48\nRSP: 002b:00007f172bf300b8 EFLAGS: 00000246 ORIG_RAX: 0000000000000010\nRAX: ffffffffffffffda RBX: 00007f172b3abf80 RCX: 00007f172b262b8d\nRDX: 0000000020000000 RSI: 0000000000008954 RDI: 0000000000000003\nRBP: 00007f172b2d3493 R08: 0000000000000000 R09: 0000000000000000\nR10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000\nR13: 000000000000000b R14: 00007f172b3abf80 R15: 00007f172bf10000\n </TASK>"
     }
 ]
