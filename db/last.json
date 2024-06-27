@@ -1,5 +1,212 @@
 [
     {
+        "Modified": "2024-06-27T09:15:00",
+        "Published": "2024-06-27T09:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-4983",
+        "impact": {},
+        "last-modified": "2024-06-27T09:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/e3f0a20b-d572-4040-b5b6-ede0aec4e2b0?source=cve",
+            "https://plugins.trac.wordpress.org/browser/the-plus-addons-for-elementor-page-builder/tags/5.5.3/modules/widgets/tp_video_player.php#L1302",
+            "https://plugins.trac.wordpress.org/changeset/3107776/"
+        ],
+        "summary": "The The Plus Addons for Elementor \u2013 Elementor Addons, Page Templates, Widgets, Mega Menu, WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018video_color\u2019 parameter in all versions up to, and including, 5.6.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+    },
+    {
+        "Modified": "2024-06-27T08:15:00",
+        "Published": "2024-06-27T08:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5601",
+        "impact": {},
+        "last-modified": "2024-06-27T08:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/9d04d8c1-75c0-447c-a26a-c2724c0a6618?source=cve",
+            "https://plugins.trac.wordpress.org/browser/mediavine-create/trunk/class-plugin.php#L575",
+            "https://wordpress.org/plugins/mediavine-create/#developers",
+            "https://plugins.trac.wordpress.org/changeset/3108144/#file794"
+        ],
+        "summary": "The Create by Mediavine plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's Schema Meta shortcode in all versions up to, and including, 1.9.7 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+    },
+    {
+        "Modified": "2024-06-27T07:15:00",
+        "Published": "2024-06-27T07:15:00",
+        "access": {},
+        "assigner": "security@vmware.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-22231",
+        "impact": {},
+        "last-modified": "2024-06-27T07:15:00",
+        "references": [
+            "https://saltproject.io/security-announcements/2024-01-31-advisory/"
+        ],
+        "summary": "Syndic cache directory creation is vulnerable to a directory traversal attack in salt project which can lead\u00a0a malicious attacker to create an arbitrary directory on a Salt master."
+    },
+    {
+        "Modified": "2024-06-27T07:15:00",
+        "Published": "2024-06-27T07:15:00",
+        "access": {},
+        "assigner": "security@vmware.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-22232",
+        "impact": {},
+        "last-modified": "2024-06-27T07:15:00",
+        "references": [
+            "https://saltproject.io/security-announcements/2024-01-31-advisory/"
+        ],
+        "summary": "A specially crafted url can be created which leads to a directory traversal in the salt file server.\nA malicious user can read an arbitrary file from a Salt master\u2019s filesystem."
+    },
+    {
+        "Modified": "2024-06-27T06:15:00",
+        "Published": "2024-06-27T06:15:00",
+        "access": {},
+        "assigner": "contact@wpscan.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-1330",
+        "impact": {},
+        "last-modified": "2024-06-27T06:15:00",
+        "references": [
+            "https://wpscan.com/vulnerability/1988815b-7a53-4657-9b1c-1f83c9f9ccfd/"
+        ],
+        "summary": "The kadence-blocks-pro WordPress plugin before 2.3.8 does not prevent users with at least the contributor role using some of its shortcode's functionalities to leak arbitrary options from the database."
+    },
+    {
+        "Modified": "2024-06-27T06:15:00",
+        "Published": "2024-06-27T06:15:00",
+        "access": {},
+        "assigner": "contact@wpscan.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-3111",
+        "impact": {},
+        "last-modified": "2024-06-27T06:15:00",
+        "references": [
+            "https://wpscan.com/vulnerability/7c39f3b5-d407-4eb0-aa34-b498fe196c55/"
+        ],
+        "summary": "The Interactive Content  WordPress plugin before 1.15.8 does not validate uploads which could allow a Contributors and above to update malicious SVG files, leading to Stored Cross-Site Scripting issues"
+    },
+    {
+        "Modified": "2024-06-27T06:15:00",
+        "Published": "2024-06-27T06:15:00",
+        "access": {},
+        "assigner": "contact@wpscan.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-4664",
+        "impact": {},
+        "last-modified": "2024-06-27T06:15:00",
+        "references": [
+            "https://wpscan.com/vulnerability/46ada0b4-f3cd-44fb-a568-3345e639bdb6/"
+        ],
+        "summary": "The WP Chat App WordPress plugin before 3.6.5 does not sanitise and escape some of its settings, which could allow high privilege users such as admins to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed."
+    },
+    {
+        "Modified": "2024-06-27T06:15:00",
+        "Published": "2024-06-27T06:15:00",
+        "access": {},
+        "assigner": "contact@wpscan.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-4704",
+        "impact": {},
+        "last-modified": "2024-06-27T06:15:00",
+        "references": [
+            "https://wpscan.com/vulnerability/8bdcdb5a-9026-4157-8592-345df8fb1a17/"
+        ],
+        "summary": "The Contact Form 7 WordPress plugin before 5.9.5 has an open redirect that allows an attacker to utilize a false URL and redirect to the URL of their choosing."
+    },
+    {
+        "Modified": "2024-06-27T05:15:00",
+        "Published": "2024-06-27T05:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-6283",
+        "impact": {},
+        "last-modified": "2024-06-27T05:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/9b2083f9-79d0-43f6-b7ae-a5817dc561b0?source=cve",
+            "https://plugins.trac.wordpress.org/browser/dethemekit-for-elementor/trunk/widgets/dethemekit-grid.php#L2565",
+            "https://plugins.trac.wordpress.org/browser/dethemekit-for-elementor/trunk/widgets/dethemekit-grid.php#L2900"
+        ],
+        "summary": "The DethemeKit For Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the URL parameter of the De Gallery widget in all versions up to and including 2.1.5 due to insufficient input sanitization and output escaping on user-supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user clicks on the injected link."
+    },
+    {
+        "Modified": "2024-06-27T05:15:00",
+        "Published": "2024-06-12T09:15:00",
+        "access": {},
+        "assigner": "secalert@redhat.com",
+        "cvss": null,
+        "cwe": "CWE-668",
+        "id": "CVE-2024-5154",
+        "impact": {},
+        "last-modified": "2024-06-27T05:15:00",
+        "references": [
+            "https://access.redhat.com/errata/RHSA-2024:3676",
+            "https://access.redhat.com/security/cve/CVE-2024-5154",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2280190",
+            "https://github.com/cri-o/cri-o/security/advisories/GHSA-j9hf-98c3-wrm8",
+            "https://access.redhat.com/errata/RHSA-2024:3700",
+            "https://access.redhat.com/errata/RHSA-2024:4008"
+        ],
+        "summary": "A flaw was found in cri-o. A malicious container can create a symbolic link pointing to an arbitrary directory or file on the host via directory traversal (\u201c../\u201c). This flaw allows the container to read and write to arbitrary files on the host system."
+    },
+    {
+        "Modified": "2024-06-27T05:15:00",
+        "Published": "2024-03-21T13:00:00",
+        "access": {},
+        "assigner": "secalert@redhat.com",
+        "cvss": null,
+        "cwe": "CWE-401",
+        "id": "CVE-2024-1394",
+        "impact": {},
+        "last-modified": "2024-06-27T05:15:00",
+        "references": [
+            "https://access.redhat.com/errata/RHSA-2024:1462",
+            "https://access.redhat.com/security/cve/CVE-2024-1394",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2262921",
+            "https://github.com/golang-fips/openssl/security/advisories/GHSA-78hx-gp6g-7mj6",
+            "https://access.redhat.com/errata/RHSA-2024:1468",
+            "https://access.redhat.com/errata/RHSA-2024:1472",
+            "https://access.redhat.com/errata/RHSA-2024:1501",
+            "https://access.redhat.com/errata/RHSA-2024:1502",
+            "https://access.redhat.com/errata/RHSA-2024:1561",
+            "https://access.redhat.com/errata/RHSA-2024:1563",
+            "https://access.redhat.com/errata/RHSA-2024:1640",
+            "https://access.redhat.com/errata/RHSA-2024:1644",
+            "https://access.redhat.com/errata/RHSA-2024:1646",
+            "https://access.redhat.com/errata/RHSA-2024:1574",
+            "https://access.redhat.com/errata/RHSA-2024:1566",
+            "https://access.redhat.com/errata/RHSA-2024:1567",
+            "https://github.com/golang-fips/openssl/commit/85d31d0d257ce842c8a1e63c4d230ae850348136",
+            "https://github.com/microsoft/go-crypto-openssl/commit/104fe7f6912788d2ad44602f77a0a0a62f1f259f",
+            "https://pkg.go.dev/vuln/GO-2024-2660",
+            "https://vuln.go.dev/ID/GO-2024-2660.json",
+            "https://access.redhat.com/errata/RHSA-2024:1763",
+            "https://access.redhat.com/errata/RHSA-2024:1897",
+            "https://access.redhat.com/errata/RHSA-2024:2562",
+            "https://access.redhat.com/errata/RHSA-2024:2568",
+            "https://access.redhat.com/errata/RHSA-2024:2569",
+            "https://access.redhat.com/errata/RHSA-2024:3265",
+            "https://access.redhat.com/errata/RHSA-2024:2729",
+            "https://access.redhat.com/errata/RHSA-2024:2730",
+            "https://access.redhat.com/errata/RHSA-2024:2767",
+            "https://access.redhat.com/errata/RHSA-2024:3352",
+            "https://access.redhat.com/errata/RHSA-2024:4146"
+        ],
+        "summary": "A memory leak flaw was found in Golang in the RSA encrypting/decrypting code, which might lead to a resource exhaustion vulnerability using attacker-controlled inputs?. The memory leak happens in github.com/golang-fips/openssl/openssl/rsa.go#L113. The objects leaked are pkey? and ctx?. That function uses named return parameters to free pkey? and ctx? if there is an error initializing the context or setting the different properties. All return statements related to error cases follow the \"return nil, nil, fail(...)\" pattern, meaning that pkey? and ctx? will be nil inside the deferred function that should free them."
+    },
+    {
         "Modified": "2024-06-27T04:15:00",
         "Published": "2024-06-27T04:15:00",
         "access": {},
@@ -1838,201 +2045,5 @@
             "https://downloads.unitronicsplc.com/Sites/plc/Technical_Library/Unitronics-Cybersecurity-Advisory-2023-001-CVE-2023-6448.pdf"
         ],
         "summary": "Unitronics VisiLogic before version 9.9.00, used in Vision and Samba PLCs and HMIs, uses a default administrative password. An unauthenticated attacker with network access can take administrative control of a vulnerable system.\n"
-    },
-    {
-        "Modified": "2024-06-26T19:15:00",
-        "Published": "2024-06-26T19:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-33328",
-        "impact": {},
-        "last-modified": "2024-06-26T19:15:00",
-        "references": [
-            "https://gist.github.com/rodnt/cf2946b0f6136cd03ee4737aa72ae95b"
-        ],
-        "summary": "A cross-site scripting (XSS) vulnerability in the component main.jsp of Lumisxp v15.0.x to v16.1.x allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the pageId parameter."
-    },
-    {
-        "Modified": "2024-06-26T19:15:00",
-        "Published": "2024-06-26T19:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-33329",
-        "impact": {},
-        "last-modified": "2024-06-26T19:15:00",
-        "references": [
-            "https://gist.github.com/rodnt/f6b3a2ac875b8f13656063eefbfd9812"
-        ],
-        "summary": "A hardcoded privileged ID within Lumisxp v15.0.x to v16.1.x allows attackers to bypass authentication and access internal pages and other sensitive information."
-    },
-    {
-        "Modified": "2024-06-26T19:15:00",
-        "Published": "2024-06-26T19:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38375",
-        "impact": {},
-        "last-modified": "2024-06-26T19:15:00",
-        "references": [
-            "https://github.com/fastly/js-compute-runtime/security/advisories/GHSA-mp3g-vpm9-9vqv",
-            "https://github.com/fastly/js-compute-runtime/commit/4e16641ef4e159c4a11b500ac861b8fa8d9ff5d3"
-        ],
-        "summary": "@fastly/js-compute is a JavaScript SDK and runtime for building Fastly Compute applications. The implementation of several functions were determined to include a use-after-free bug. This bug could allow for unintended data loss if the result of the preceding functions were sent anywhere else, and often results in a guest trap causing services to return a 500. This bug has been fixed in version 3.16.0 of the `@fastly/js-compute` package."
-    },
-    {
-        "Modified": "2024-06-26T19:15:00",
-        "Published": "2024-06-26T19:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-33327",
-        "impact": {},
-        "last-modified": "2024-06-26T19:15:00",
-        "references": [
-            "https://gist.github.com/rodnt/c53d4c95bb6966f0a2cf381ae5089c79"
-        ],
-        "summary": "A cross-site scripting (XSS) vulnerability in the component UrlAccessibilityEvaluation.jsp of Lumisxp v15.0.x to v16.1.x allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the contentHtml parameter."
-    },
-    {
-        "Modified": "2024-06-26T19:15:00",
-        "Published": "2024-06-26T19:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38520",
-        "impact": {},
-        "last-modified": "2024-06-26T19:15:00",
-        "references": [
-            "https://github.com/SoftEtherVPN/SoftEtherVPN/security/advisories/GHSA-j35p-p8pj-vqxq",
-            "https://github.com/SoftEtherVPN/SoftEtherVPN/commit/c2a7aa548137dc80c6aafdc645cf4dc34e0dc764",
-            "https://github.com/SoftEtherVPN/SoftEtherVPN/releases/tag/5.02.5185"
-        ],
-        "summary": "SoftEtherVPN is a an open-source cross-platform multi-protocol VPN Program. When SoftEtherVPN is deployed with L2TP enabled on a device, it introduces the possibility of the host being used for amplification/reflection traffic generation because it will respond to every packet with two response packets that are larger than the request packet size. These sorts of techniques are used by external actors who generate spoofed source IPs to target a destination on the internet. This vulnerability has been patched in version 5.02.5185.\n"
-    },
-    {
-        "Modified": "2024-06-26T19:15:00",
-        "Published": "2024-06-26T19:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-33326",
-        "impact": {},
-        "last-modified": "2024-06-26T19:15:00",
-        "references": [
-            "https://gist.github.com/rodnt/51ae2897abfff1bdcedccf72edbf3d24"
-        ],
-        "summary": "A cross-site scripting (XSS) vulnerability in the component XsltResultControllerHtml.jsp of Lumisxp v15.0.x to v16.1.x allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the lumPageID parameter."
-    },
-    {
-        "Modified": "2024-06-26T19:15:00",
-        "Published": "2024-06-23T12:15:00",
-        "access": {},
-        "assigner": "cna@vuldb.com",
-        "cvss": null,
-        "cwe": "CWE-77",
-        "id": "CVE-2024-6269",
-        "impact": {},
-        "last-modified": "2024-06-26T19:15:00",
-        "references": [
-            "https://vuldb.com/?id.269482",
-            "https://vuldb.com/?ctiid.269482",
-            "https://vuldb.com/?submit.358202",
-            "https://github.com/charliecatsec/cve1/issues/1"
-        ],
-        "summary": "A vulnerability has been found in Ruijie RG-UAC 1.0 and classified as critical. This vulnerability affects the function get_ip.addr_details of the file /view/vpn/autovpn/sxh_vpnlic.php of the component HTTP POST Request Handler. The manipulation of the argument indevice leads to command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-269482 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
-    },
-    {
-        "Modified": "2024-06-26T19:15:00",
-        "Published": "2024-06-22T12:15:00",
-        "access": {},
-        "assigner": "cna@vuldb.com",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2024-6252",
-        "impact": {},
-        "last-modified": "2024-06-26T19:15:00",
-        "references": [
-            "https://vuldb.com/?id.269419",
-            "https://vuldb.com/?ctiid.269419",
-            "https://vuldb.com/?submit.355783",
-            "https://fushuling.com/index.php/2024/06/13/test2/"
-        ],
-        "summary": "A vulnerability has been found in Zorlan SkyCaiji up to 2.8 and classified as problematic. Affected by this vulnerability is an unknown functionality of the component Task Handler. The manipulation of the argument onerror leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-269419."
-    },
-    {
-        "Modified": "2024-06-26T19:15:00",
-        "Published": "2024-03-27T05:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2023-45924",
-        "impact": {},
-        "last-modified": "2024-06-26T19:15:00",
-        "references": [
-            "https://gitlab.freedesktop.org/glvnd/libglvnd/-/issues/242",
-            "http://seclists.org/fulldisclosure/2024/Jan/52"
-        ],
-        "summary": "libglxproto.c in OpenGL libglvnd bb06db5a was discovered to contain a segmentation violation via the function glXGetDrawableScreen(). NOTE: this is disputed because there are no common situations in which users require uninterrupted operation with an attacker-controller server."
-    },
-    {
-        "Modified": "2024-06-26T19:15:00",
-        "Published": "2024-03-27T03:15:00",
-        "access": {},
-        "assigner": "cna@vuldb.com",
-        "cvss": null,
-        "cwe": "CWE-89",
-        "id": "CVE-2024-2941",
-        "impact": {},
-        "last-modified": "2024-06-26T19:15:00",
-        "references": [
-            "https://vuldb.com/?id.258032",
-            "https://vuldb.com/?ctiid.258032",
-            "https://vuldb.com/?submit.304757",
-            "https://github.com/E1CHO/cve_hub/blob/main/Online%20Examination%20System/Online%20Examination%20System%20-%20vuln%201.pdf"
-        ],
-        "summary": "A vulnerability, which was classified as critical, has been found in Campcodes Online Examination System 1.0. Affected by this issue is some unknown functionality of the file /adminpanel/admin/query/loginExe.php. The manipulation of the argument pass leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-258032."
-    },
-    {
-        "Modified": "2024-06-26T19:15:00",
-        "Published": "2012-08-25T21:55:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "HIGH",
-            "vector": "LOCAL"
-        },
-        "assigner": "cve@mitre.org",
-        "cvss": 6.2,
-        "cvss-time": "2024-06-26T19:15:00",
-        "cvss-vector": "AV:L/AC:H/Au:N/C:C/I:C/A:C",
-        "cwe": "CWE-362",
-        "id": "CVE-2010-5164",
-        "impact": {
-            "availability": "COMPLETE",
-            "confidentiality": "COMPLETE",
-            "integrity": "COMPLETE"
-        },
-        "last-modified": "2024-06-26T19:15:00",
-        "references": [
-            "http://www.osvdb.org/67660",
-            "http://matousec.com/info/advisories/khobe-8.0-earthquake-for-windows-desktop-security-software.php",
-            "http://www.securityfocus.com/bid/39924",
-            "http://matousec.com/info/articles/khobe-8.0-earthquake-for-windows-desktop-security-software.php",
-            "http://www.f-secure.com/weblog/archives/00001949.html",
-            "http://countermeasures.trendmicro.eu/you-just-cant-trust-a-drunk/",
-            "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/",
-            "http://archives.neohapsis.com/archives/fulldisclosure/2010-05/0066.html",
-            "http://archives.neohapsis.com/archives/bugtraq/2010-05/0026.html"
-        ],
-        "summary": "Race condition in KingSoft Personal Firewall 9 Plus 2009.05.07.70 on Windows XP allows local users to bypass kernel-mode hook handlers, and execute dangerous code that would otherwise be blocked by a handler but not blocked by signature-based malware detection, via certain user-space memory changes during hook-handler execution, aka an argument-switch attack or a KHOBE attack.  NOTE: this issue is disputed by some third parties because it is a flaw in a protection mechanism for situations where a crafted program has already begun to execute"
     }
 ]
