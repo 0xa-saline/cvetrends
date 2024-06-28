@@ -1,5 +1,504 @@
 [
     {
+        "Modified": "2024-06-28T09:15:00",
+        "Published": "2024-06-28T09:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5424",
+        "impact": {},
+        "last-modified": "2024-06-28T09:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/3e7bd708-2e82-4fef-85f2-bf4f56f66bc4?source=cve",
+            "https://plugins.trac.wordpress.org/browser/simply-gallery-block/trunk/blocks/init.php#L127",
+            "https://plugins.trac.wordpress.org/browser/simply-gallery-block/trunk/blocks/init.php#L132",
+            "https://plugins.trac.wordpress.org/browser/simply-gallery-block/trunk/blocks/init.php#L70",
+            "https://plugins.trac.wordpress.org/changeset/3107152/simply-gallery-block/trunk/blocks/init.php",
+            "https://wordpress.org/plugins/simply-gallery-block/#developers"
+        ],
+        "summary": "The Gallery Blocks with Lightbox. Image Gallery, (HTML5 video , YouTube, Vimeo) Video Gallery and Lightbox for native gallery plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018galleryID\u2019 and 'className' parameters in all versions up to, and including, 3.2.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+    },
+    {
+        "Modified": "2024-06-28T09:15:00",
+        "Published": "2024-06-28T09:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5662",
+        "impact": {},
+        "last-modified": "2024-06-28T09:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/be9d977d-d7b2-4946-b107-35df176fbdf3?source=cve",
+            "https://plugins.trac.wordpress.org/browser/ultimate-post-kit/tags/3.11.5/modules/static-social-count/widgets/static-social-count.php#L800",
+            "https://plugins.trac.wordpress.org/changeset/3106395/#file526",
+            "https://wordpress.org/plugins/ultimate-post-kit/#developers"
+        ],
+        "summary": "The Ultimate Post Kit Addons For Elementor \u2013 (Post Grid, Post Carousel, Post Slider, Category List, Post Tabs, Timeline, Post Ticker, Tag Cloud) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018url\u2019 parameter within the Social Count (Static) widget in all versions up to, and including, 3.11.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+    },
+    {
+        "Modified": "2024-06-28T09:15:00",
+        "Published": "2024-06-28T09:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5922",
+        "impact": {},
+        "last-modified": "2024-06-28T09:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/c57bffc8-1ee5-4380-a78f-f4fc8c606861?source=cve",
+            "https://themes.trac.wordpress.org/browser/scylla-lite/1.8.3/lib/includes/shortcodes.php#L139"
+        ],
+        "summary": "The Scylla lite theme for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018url\u2019 parameter within the theme's Button shortcode in all versions up to, and including, 1.8.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+    },
+    {
+        "Modified": "2024-06-28T09:15:00",
+        "Published": "2024-06-28T09:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5925",
+        "impact": {},
+        "last-modified": "2024-06-28T09:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/b4737bb2-1bb4-4986-9df5-5978fc46f2ec?source=cve",
+            "https://themes.trac.wordpress.org/browser/theron-lite/2.0/lib/includes/shortcodes.php#L76"
+        ],
+        "summary": "The Theron Lite theme for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018url\u2019 parameter within the theme's Button shortcode in all versions up to, and including, 2.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+    },
+    {
+        "Modified": "2024-06-28T08:15:00",
+        "Published": "2024-06-28T07:15:00",
+        "access": {},
+        "assigner": "security@synology.com",
+        "cvss": null,
+        "cwe": "CWE-290",
+        "id": "CVE-2024-39350",
+        "impact": {},
+        "last-modified": "2024-06-28T08:15:00",
+        "references": [
+            "https://www.synology.com/en-global/security/advisory/Synology_SA_23_15"
+        ],
+        "summary": "A vulnerability regarding authentication bypass by spoofing is found in the RTSP functionality. This allows man-in-the-middle attackers to obtain privileges without consent via unspecified vectors. The following models with Synology Camera Firmware versions before 1.0.7-0298 may be affected: BC500 and TC500."
+    },
+    {
+        "Modified": "2024-06-28T08:15:00",
+        "Published": "2024-06-28T08:15:00",
+        "access": {},
+        "assigner": "psirt@hcl.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-30135",
+        "impact": {},
+        "last-modified": "2024-06-28T08:15:00",
+        "references": [
+            "https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0114193"
+        ],
+        "summary": "HCL DRYiCE AEX is potentially impacted by disclosure of sensitive information in the mobile application when a snapshot is taken."
+    },
+    {
+        "Modified": "2024-06-28T07:15:00",
+        "Published": "2024-06-28T07:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-2795",
+        "impact": {},
+        "last-modified": "2024-06-28T07:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/f62a9ca0-7077-410f-b005-175348acd133?source=cve",
+            "https://wordpress.org/plugins/seo-simple-pack/"
+        ],
+        "summary": "The SEO SIMPLE PACK plugin for WordPress is vulnerable to Information Exposure in all versions up to, and including, 3.2.1 via META description. This makes it possible for unauthenticated attackers to extract limited information about password protected posts."
+    },
+    {
+        "Modified": "2024-06-28T07:15:00",
+        "Published": "2024-06-28T07:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-2795",
+        "impact": {},
+        "last-modified": "2024-06-28T07:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/f62a9ca0-7077-410f-b005-175348acd133?source=cve",
+            "https://wordpress.org/plugins/seo-simple-pack/"
+        ],
+        "summary": "The SEO SIMPLE PACK plugin for WordPress is vulnerable to Information Exposure in all versions up to, and including, 3.2.1 via META description. This makes it possible for unauthenticated attackers to extract limited information about password protected posts."
+    },
+    {
+        "Modified": "2024-06-28T07:15:00",
+        "Published": "2024-06-28T07:15:00",
+        "access": {},
+        "assigner": "psirt@hcl.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-30111",
+        "impact": {},
+        "last-modified": "2024-06-28T07:15:00",
+        "references": [
+            "https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0114193"
+        ],
+        "summary": "HCL DRYiCE AEX product is impacted by Missing\nRoot Detection vulnerability in the mobile application. The  mobile app can be installed in the rooted\ndevice due to which malicious users can gain unauthorized access to the rooted\ndevices, compromising security and potentially leading to data breaches or\nother malicious activities."
+    },
+    {
+        "Modified": "2024-06-28T07:15:00",
+        "Published": "2024-06-28T07:15:00",
+        "access": {},
+        "assigner": "security@synology.com",
+        "cvss": null,
+        "cwe": "CWE-276",
+        "id": "CVE-2024-39347",
+        "impact": {},
+        "last-modified": "2024-06-28T07:15:00",
+        "references": [
+            "https://www.synology.com/en-global/security/advisory/Synology_SA_23_16"
+        ],
+        "summary": "Incorrect default permissions vulnerability in firewall functionality in Synology Router Manager (SRM) before 1.2.5-8227-11 and 1.3.1-9346-8 allows man-in-the-middle attackers to access highly sensitive intranet resources via unspecified vectors."
+    },
+    {
+        "Modified": "2024-06-28T07:15:00",
+        "Published": "2024-06-28T07:15:00",
+        "access": {},
+        "assigner": "security@synology.com",
+        "cvss": null,
+        "cwe": "CWE-276",
+        "id": "CVE-2024-39347",
+        "impact": {},
+        "last-modified": "2024-06-28T07:15:00",
+        "references": [
+            "https://www.synology.com/en-global/security/advisory/Synology_SA_23_16"
+        ],
+        "summary": "Incorrect default permissions vulnerability in firewall functionality in Synology Router Manager (SRM) before 1.2.5-8227-11 and 1.3.1-9346-8 allows man-in-the-middle attackers to access highly sensitive intranet resources via unspecified vectors."
+    },
+    {
+        "Modified": "2024-06-28T07:15:00",
+        "Published": "2024-06-28T07:15:00",
+        "access": {},
+        "assigner": "security@synology.com",
+        "cvss": null,
+        "cwe": "CWE-494",
+        "id": "CVE-2024-39348",
+        "impact": {},
+        "last-modified": "2024-06-28T07:15:00",
+        "references": [
+            "https://www.synology.com/en-global/security/advisory/Synology_SA_23_16"
+        ],
+        "summary": "Download of code without integrity check vulnerability in AirPrint functionality in Synology Router Manager (SRM) before 1.2.5-8227-11 and 1.3.1-9346-8 allows man-in-the-middle attackers to execute arbitrary code via unspecified vectors."
+    },
+    {
+        "Modified": "2024-06-28T07:15:00",
+        "Published": "2024-06-28T07:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5788",
+        "impact": {},
+        "last-modified": "2024-06-28T07:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/0183625a-611c-4353-9d2a-7a25ae12709a?source=cve",
+            "https://themes.trac.wordpress.org/browser/silesia/1.0.6/functions/shortcodes.php#L128"
+        ],
+        "summary": "The Silesia theme for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018link\u2019 attribute within the theme's Button shortcode in all versions up to, and including, 1.0.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+    },
+    {
+        "Modified": "2024-06-28T07:15:00",
+        "Published": "2024-06-28T07:15:00",
+        "access": {},
+        "assigner": "psirt@hcl.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-30110",
+        "impact": {},
+        "last-modified": "2024-06-28T07:15:00",
+        "references": [
+            "https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0114193"
+        ],
+        "summary": "HCL DRYiCE\nAEX product is impacted by lack of input validation vulnerability in a particular web application. A malicious script can be injected into a system which\ncan cause the system to behave in unexpected ways."
+    },
+    {
+        "Modified": "2024-06-28T07:15:00",
+        "Published": "2024-06-28T07:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5796",
+        "impact": {},
+        "last-modified": "2024-06-28T07:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/673f0910-8121-4344-b756-2ed5418fdc6b?source=cve",
+            "https://themes.trac.wordpress.org/browser/infinite/1.1.2/framework/metaboxes/metaboxes.php#L79"
+        ],
+        "summary": "The Infinite theme for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018project_url\u2019 parameter in all versions up to, and including, 1.1.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+    },
+    {
+        "Modified": "2024-06-28T07:15:00",
+        "Published": "2024-06-28T07:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5796",
+        "impact": {},
+        "last-modified": "2024-06-28T07:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/673f0910-8121-4344-b756-2ed5418fdc6b?source=cve",
+            "https://themes.trac.wordpress.org/browser/infinite/1.1.2/framework/metaboxes/metaboxes.php#L79"
+        ],
+        "summary": "The Infinite theme for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018project_url\u2019 parameter in all versions up to, and including, 1.1.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+    },
+    {
+        "Modified": "2024-06-28T07:15:00",
+        "Published": "2024-06-28T07:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-6288",
+        "impact": {},
+        "last-modified": "2024-06-28T07:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/f668c3cd-bf64-4e95-8d75-70e4f12cabce?source=cve",
+            "https://plugins.trac.wordpress.org/browser/enhanced-e-commerce-for-woocommerce-store/tags/7.1.0/admin/partials/wizard-productfeed-even.php?rev=3105213#L371",
+            "https://plugins.trac.wordpress.org/browser/enhanced-e-commerce-for-woocommerce-store/tags/7.1.0/admin/partials/wizard-productfeed-odd.php?rev=3105213#L368",
+            "https://plugins.trac.wordpress.org/changeset/3108037/"
+        ],
+        "summary": "The Conversios \u2013 Google Analytics 4 (GA4), Meta Pixel & more Via Google Tag Manager For WooCommerce plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the \u2018tiktok_user_id\u2019 parameter in all versions up to, and including, 7.0.12 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link."
+    },
+    {
+        "Modified": "2024-06-28T06:15:00",
+        "Published": "2024-06-28T06:15:00",
+        "access": {},
+        "assigner": "security@synology.com",
+        "cvss": null,
+        "cwe": "CWE-78",
+        "id": "CVE-2023-47802",
+        "impact": {},
+        "last-modified": "2024-06-28T06:15:00",
+        "references": [
+            "https://www.synology.com/en-global/security/advisory/Synology_SA_23_15"
+        ],
+        "summary": "A vulnerability regarding improper neutralization of special elements used in an OS command ('OS Command Injection') is found in the IP block functionality. This allows remote authenticated users with administrator privileges to execute arbitrary commands via unspecified vectors. The following models with Synology Camera Firmware versions before 1.0.7-0298 may be affected: BC500 and TC500."
+    },
+    {
+        "Modified": "2024-06-28T06:15:00",
+        "Published": "2024-06-28T06:15:00",
+        "access": {},
+        "assigner": "security@synology.com",
+        "cvss": null,
+        "cwe": "CWE-120",
+        "id": "CVE-2024-39349",
+        "impact": {},
+        "last-modified": "2024-06-28T06:15:00",
+        "references": [
+            "https://www.synology.com/en-global/security/advisory/Synology_SA_23_15"
+        ],
+        "summary": "A vulnerability regarding buffer copy without checking size of input ('Classic Buffer Overflow') is found in the libjansson component and it does not affect the upstream library. This allows remote attackers to execute arbitrary code via unspecified vectors. The following models with Synology Camera Firmware versions before 1.0.7-0298 may be affected: BC500 and TC500."
+    },
+    {
+        "Modified": "2024-06-28T06:15:00",
+        "Published": "2024-06-28T06:15:00",
+        "access": {},
+        "assigner": "security@synology.com",
+        "cvss": null,
+        "cwe": "CWE-78",
+        "id": "CVE-2024-39351",
+        "impact": {},
+        "last-modified": "2024-06-28T06:15:00",
+        "references": [
+            "https://www.synology.com/en-global/security/advisory/Synology_SA_23_15"
+        ],
+        "summary": "A vulnerability regarding improper neutralization of special elements used in an OS command ('OS Command Injection') is found in the NTP configuration. This allows remote authenticated users with administrator privileges to execute arbitrary commands via unspecified vectors. The following models with Synology Camera Firmware versions before 1.0.7-0298 may be affected: BC500 and TC500."
+    },
+    {
+        "Modified": "2024-06-28T06:15:00",
+        "Published": "2024-06-28T06:15:00",
+        "access": {},
+        "assigner": "security@synology.com",
+        "cvss": null,
+        "cwe": "CWE-863",
+        "id": "CVE-2024-39352",
+        "impact": {},
+        "last-modified": "2024-06-28T06:15:00",
+        "references": [
+            "https://www.synology.com/en-global/security/advisory/Synology_SA_23_15"
+        ],
+        "summary": "A vulnerability regarding incorrect authorization is found in the firmware upgrade functionality. This allows remote authenticated users with administrator privileges to bypass firmware integrity check via unspecified vectors. The following models with Synology Camera Firmware versions before 1.0.7-0298 may be affected: BC500 and TC500."
+    },
+    {
+        "Modified": "2024-06-28T06:15:00",
+        "Published": "2024-06-28T06:15:00",
+        "access": {},
+        "assigner": "contact@wpscan.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5727",
+        "impact": {},
+        "last-modified": "2024-06-28T06:15:00",
+        "references": [
+            "https://wpscan.com/vulnerability/5f677863-2f4f-474f-ba48-f490f9d6e71c/"
+        ],
+        "summary": "The Widget4Call WordPress plugin through 1.0.7 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin"
+    },
+    {
+        "Modified": "2024-06-28T06:15:00",
+        "Published": "2024-06-28T06:15:00",
+        "access": {},
+        "assigner": "contact@wpscan.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5728",
+        "impact": {},
+        "last-modified": "2024-06-28T06:15:00",
+        "references": [
+            "https://wpscan.com/vulnerability/287c4e8c-9092-4cb9-9642-e4f3d10f46fa/"
+        ],
+        "summary": "The Animated AL List WordPress plugin through 1.0.6 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin"
+    },
+    {
+        "Modified": "2024-06-28T06:15:00",
+        "Published": "2024-06-28T06:15:00",
+        "access": {},
+        "assigner": "contact@wpscan.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5729",
+        "impact": {},
+        "last-modified": "2024-06-28T06:15:00",
+        "references": [
+            "https://wpscan.com/vulnerability/0352f6f5-cdfd-4cef-9ed5-fdc1cbcb368a/"
+        ],
+        "summary": "The Simple AL Slider WordPress plugin through 1.2.10 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin"
+    },
+    {
+        "Modified": "2024-06-28T06:15:00",
+        "Published": "2024-06-28T06:15:00",
+        "access": {},
+        "assigner": "contact@wpscan.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5729",
+        "impact": {},
+        "last-modified": "2024-06-28T06:15:00",
+        "references": [
+            "https://wpscan.com/vulnerability/0352f6f5-cdfd-4cef-9ed5-fdc1cbcb368a/"
+        ],
+        "summary": "The Simple AL Slider WordPress plugin through 1.2.10 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin"
+    },
+    {
+        "Modified": "2024-06-28T06:15:00",
+        "Published": "2024-06-28T06:15:00",
+        "access": {},
+        "assigner": "contact@wpscan.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5730",
+        "impact": {},
+        "last-modified": "2024-06-28T06:15:00",
+        "references": [
+            "https://wpscan.com/vulnerability/17482b2c-c9ba-480a-8000-879baf835af7/"
+        ],
+        "summary": "The Pagerank tools WordPress plugin through 1.1.5 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin"
+    },
+    {
+        "Modified": "2024-06-28T06:15:00",
+        "Published": "2024-06-28T06:15:00",
+        "access": {},
+        "assigner": "contact@wpscan.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5730",
+        "impact": {},
+        "last-modified": "2024-06-28T06:15:00",
+        "references": [
+            "https://wpscan.com/vulnerability/17482b2c-c9ba-480a-8000-879baf835af7/"
+        ],
+        "summary": "The Pagerank tools WordPress plugin through 1.1.5 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin"
+    },
+    {
+        "Modified": "2024-06-28T06:15:00",
+        "Published": "2024-06-28T06:15:00",
+        "access": {},
+        "assigner": "security@synology.com",
+        "cvss": null,
+        "cwe": "CWE-22",
+        "id": "CVE-2023-47803",
+        "impact": {},
+        "last-modified": "2024-06-28T06:15:00",
+        "references": [
+            "https://www.synology.com/en-global/security/advisory/Synology_SA_23_15"
+        ],
+        "summary": "A vulnerability regarding improper limitation of a pathname to a restricted directory ('Path Traversal') is found in the Language Settings functionality. This allows remote attackers to read specific files containing non-sensitive information via unspecified vectors. The following models with Synology Camera Firmware versions before 1.0.7-0298 may be affected: BC500 and TC500."
+    },
+    {
+        "Modified": "2024-06-28T06:15:00",
+        "Published": "2024-06-28T06:15:00",
+        "access": {},
+        "assigner": "contact@wpscan.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5570",
+        "impact": {},
+        "last-modified": "2024-06-28T06:15:00",
+        "references": [
+            "https://wpscan.com/vulnerability/49b3a8cb-f606-4cf7-80ec-bfdafd74e848/"
+        ],
+        "summary": "The Simple Photoswipe WordPress plugin through 0.1 does not have authorisation check when updating its settings, which could allow any authenticated users, such as subscriber to update them"
+    },
+    {
+        "Modified": "2024-06-28T06:15:00",
+        "Published": "2024-06-28T06:15:00",
+        "access": {},
+        "assigner": "psirt@hcl.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-30109",
+        "impact": {},
+        "last-modified": "2024-06-28T06:15:00",
+        "references": [
+            "https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0114193"
+        ],
+        "summary": "HCL DRYiCE AEX is impacted by a lack of clickjacking protection in the AEX web application.  An attacker can use multiple transparent or opaque layers to trick a user into clicking on a button or link on another page than the one intended."
+    },
+    {
+        "Modified": "2024-06-28T05:15:00",
+        "Published": "2024-06-28T05:15:00",
+        "access": {},
+        "assigner": "security@elastic.co",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-37282",
+        "impact": {},
+        "last-modified": "2024-06-28T05:15:00",
+        "references": [
+            "https://discuss.elastic.co/t/elastic-cloud-enterprise-3-7-2-security-update-esa-2024-18/362181"
+        ],
+        "summary": "It was identified that under certain specific preconditions, an API key that was originally created with a specific privileges could be subsequently used to create new API keys that have elevated privileges."
+    },
+    {
+        "Modified": "2024-06-28T05:15:00",
+        "Published": "2024-04-28T00:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2023-52722",
+        "impact": {},
+        "last-modified": "2024-06-28T05:15:00",
+        "references": [
+            "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=afd7188f74918cb51b5fb89f52b54eb16e8acfd1",
+            "http://www.openwall.com/lists/oss-security/2024/06/28/2"
+        ],
+        "summary": "An issue was discovered in Artifex Ghostscript through 10.01.0. psi/zmisc1.c, when SAFER mode is used, allows eexec seeds other than the Type 1 standard."
+    },
+    {
         "Modified": "2024-06-28T04:15:00",
         "Published": "2024-06-28T04:15:00",
         "access": {},
@@ -1100,682 +1599,5 @@
             "https://huntr.com/bounties/b24f1b5f-a529-435b-ac4d-5ca71d5d1fb5"
         ],
         "summary": "A Server-Side Request Forgery (SSRF) vulnerability exists in the upload processing interface of gaizhenbiao/ChuanhuChatGPT versions <= ChuanhuChatGPT-20240410-git.zip. This vulnerability allows attackers to send crafted requests from the vulnerable server to internal or external resources, potentially bypassing security controls and accessing sensitive data."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-284",
-        "id": "CVE-2024-5714",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/8cff4afa-131b-4a7e-9f0d-8a3c69f3d024"
-        ],
-        "summary": "In lunary-ai/lunary version 1.2.4, an improper access control vulnerability allows members with team management permissions to manipulate project identifiers in requests, enabling them to invite users to projects in other organizations, change members to projects in other organizations with escalated privileges, and change members from other organizations to their own or other projects, also with escalated privileges. This vulnerability is due to the backend's failure to validate project identifiers against the current user's organization ID and projects belonging to it, as well as a misconfiguration in attribute naming (`org_id` should be `orgId`) that prevents proper user organization validation. As a result, attackers can cause inconsistencies on the platform for affected users and organizations, including unauthorized privilege escalation. The issue is present in the backend API endpoints for user invitation and modification, specifically in the handling of project IDs in requests."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T18:15:00",
-        "access": {},
-        "assigner": "psirt@us.ibm.com",
-        "cvss": null,
-        "cwe": "CWE-327",
-        "id": "CVE-2023-38371",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://www.ibm.com/support/pages/node/7158790",
-            "https://exchange.xforce.ibmcloud.com/vulnerabilities/261198"
-        ],
-        "summary": "IBM Security Access Manager Docker 10.0.0.0 through 10.0.7.1 uses weaker than expected cryptographic algorithms that could allow an attacker to decrypt highly sensitive information.  IBM X-Force ID:  261198."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-94",
-        "id": "CVE-2024-5826",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/90620087-44ac-4e43-b659-3c5d30889369"
-        ],
-        "summary": "In the latest version of vanna-ai/vanna, the `vanna.ask` function is vulnerable to remote code execution due to prompt injection. The root cause is the lack of a sandbox when executing LLM-generated code, allowing an attacker to manipulate the code executed by the `exec` function in `src/vanna/base/base.py`. This vulnerability can be exploited by an attacker to achieve remote code execution on the app backend server, potentially gaining full control of the server."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T18:15:00",
-        "access": {},
-        "assigner": "psirt@us.ibm.com",
-        "cvss": null,
-        "cwe": "CWE-1021",
-        "id": "CVE-2023-42011",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://www.ibm.com/support/pages/node/7158657",
-            "https://exchange.xforce.ibmcloud.com/vulnerabilities/265508"
-        ],
-        "summary": "IBM Sterling B2B Integrator Standard Edition 6.1 and 6.2 does not restrict or incorrectly restricts frame objects or UI layers that belong to another application or domain, which can lead to user confusion about which interface the user is interacting with.  IBM X-Force ID:  265508."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "psirt@us.ibm.com",
-        "cvss": null,
-        "cwe": "CWE-250",
-        "id": "CVE-2023-30997",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://www.ibm.com/support/pages/node/7158790",
-            "https://exchange.xforce.ibmcloud.com/vulnerabilities/254638"
-        ],
-        "summary": "IBM Security Access Manager Docker 10.0.0.0 through 10.0.7.1 could allow a local user to obtain root access due to improper access controls.  IBM X-Force ID:  254638."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-918",
-        "id": "CVE-2024-5885",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/c178bf48-1d4a-4743-87ca-4cc8e475d274"
-        ],
-        "summary": "stangirard/quivr version 0.0.236 contains a Server-Side Request Forgery (SSRF) vulnerability. The application does not provide sufficient controls when crawling a website, allowing an attacker to access applications on the local network. This vulnerability could allow a malicious user to gain access to internal servers, the AWS metadata endpoint, and capture Supabase data."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "psirt@us.ibm.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2023-30998",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://www.ibm.com/support/pages/node/7158790",
-            "https://exchange.xforce.ibmcloud.com/vulnerabilities/254649"
-        ],
-        "summary": "IBM Security Access Manager Docker 10.0.0.0 through 10.0.7.1 could allow a local user to obtain root access due to improper access controls.  IBM X-Force ID:  254649."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2024-5933",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/51a2e370-3b64-45cd-9afc-0e4856ab5517"
-        ],
-        "summary": "A Cross-site Scripting (XSS) vulnerability exists in the chat functionality of parisneo/lollms-webui in the latest version. This vulnerability allows an attacker to inject malicious scripts via chat messages, which are then executed in the context of the user's browser."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "psirt@us.ibm.com",
-        "cvss": null,
-        "cwe": "CWE-276",
-        "id": "CVE-2023-38370",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://www.ibm.com/support/pages/node/7158790",
-            "https://exchange.xforce.ibmcloud.com/vulnerabilities/261197"
-        ],
-        "summary": "IBM Security Access Manager Docker 10.0.0.0 through 10.0.7.1, under certain configurations, could allow a user on the network to install malicious packages.  IBM X-Force ID:  261197."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-400",
-        "id": "CVE-2024-5979",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/d80a2139-fc03-44b7-b739-de41e323b458"
-        ],
-        "summary": "In h2oai/h2o-3 version 3.46.0, the `run_tool` command in the `rapids` component allows the `main` function of any class under the `water.tools` namespace to be called. One such class, `MojoConvertTool`, crashes the server when invoked with an invalid argument, causing a denial of service."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "product-security@silabs.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-3043",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://github.com/SiliconLabs/gecko_sdk",
-            "https://community.silabs.com/069Vm000005UCH0IAO"
-        ],
-        "summary": "An unauthenticated IEEE 802.15.4 'co-ordinator realignment' packet can be used to force Zigbee nodes to change their network identifier (pan ID), leading to a denial of service. This packet type is not useful in production and should be used only for PHY qualification."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-352",
-        "id": "CVE-2024-5935",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/b374f1c9-fa25-4b52-a34d-5153afd5a295"
-        ],
-        "summary": "A Cross-Site Request Forgery (CSRF) vulnerability in version 0.5.0 of imartinez/privategpt allows an attacker to delete all uploaded files on the server. This can lead to data loss and service disruption for the application's users."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-434",
-        "id": "CVE-2024-5980",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/55a6ac6f-89c7-42ea-86f3-c6e93a2679f3"
-        ],
-        "summary": "A vulnerability in the /v1/runs API endpoint of lightning-ai/pytorch-lightning v2.2.4 allows attackers to exploit path traversal when extracting tar.gz files. When the LightningApp is running with the plugin_server, attackers can deploy malicious tar.gz plugins that embed arbitrary files with path traversal vulnerabilities. This can result in arbitrary files being written to any directory in the victim's local file system, potentially leading to remote code execution."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@tibco.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-3330",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://community.spotfire.com/articles/spotfire/spotfire-security-advisory-june-262024-spotfire-cve-2024-3330-r3435/"
-        ],
-        "summary": "Vulnerability in Spotfire Spotfire Analyst, Spotfire Spotfire Server, Spotfire Spotfire for AWS Marketplace allows In the case of the installed Windows client: Successful execution of this vulnerability will result in an attacker being able to run arbitrary code.This requires human interaction from a person other than the attacker., In the case of the Web player (Business Author): Successful execution of this vulnerability via the Web Player, will result in the attacker being able to run arbitrary code as the account running the Web player process, In the case of Automation Services: Successful execution of this vulnerability will result in an attacker being able to run arbitrary code via Automation Services..This issue affects Spotfire Analyst: from 12.0.9 through 12.5.0, from 14.0 through 14.0.2; Spotfire Server: from 12.0.10 through 12.5.0, from 14.0 through 14.0.3, from 14.2.0 through 14.3.0; Spotfire for AWS Marketplace: from 14.0 before 14.3.0."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-284",
-        "id": "CVE-2024-5710",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/70897f59-a966-4d93-b71e-745e3da91970"
-        ],
-        "summary": "berriai/litellm version 1.34.34 is vulnerable to improper access control in its team management functionality. This vulnerability allows attackers to perform unauthorized actions such as creating, updating, viewing, deleting, blocking, and unblocking any teams, as well as adding or deleting any member to or from any teams. The vulnerability stems from insufficient access control checks in various team management endpoints, enabling attackers to exploit these functionalities without proper authorization."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-625",
-        "id": "CVE-2024-6038",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/d41cca0a-82bc-4cbf-a52a-928d304fb42d"
-        ],
-        "summary": "A Regular Expression Denial of Service (ReDoS) vulnerability exists in the latest version of gaizhenbiao/chuanhuchatgpt. The vulnerability is located in the filter_history function within the utils.py module. This function takes a user-provided keyword and attempts to match it against chat history filenames using a regular expression search. Due to the lack of sanitization or validation of the keyword parameter, an attacker can inject a specially crafted regular expression, leading to a denial of service condition. This can cause severe degradation of service performance and potential system unavailability."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-6085",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/d2fb73d7-4b4f-451a-8763-484c189a27fe"
-        ],
-        "summary": "A path traversal vulnerability exists in the XTTS server included in the lollms package, version v9.6. This vulnerability arises from the ability to perform an unauthenticated root folder settings change. Although the read file endpoint is protected against path traversals, this protection can be bypassed by changing the root folder to '/'. This allows attackers to read arbitrary files on the system. Additionally, the output folders can be changed to write arbitrary audio files to any location on the system."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-821",
-        "id": "CVE-2024-5755",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/cf337d37-e602-482b-aa7a-9e34e7f13e1f"
-        ],
-        "summary": "In lunary-ai/lunary versions <=v1.2.11, an attacker can bypass email validation by using a dot character ('.') in the email address. This allows the creation of multiple accounts with essentially the same email address (e.g., 'attacker123@gmail.com' and 'attacker.123@gmail.com'), leading to incorrect synchronization and potential security issues."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-284",
-        "id": "CVE-2024-6086",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/9e83f63f-c5c1-422f-8010-95c353f0c643"
-        ],
-        "summary": "In version 1.2.7 of lunary-ai/lunary, any authenticated user, regardless of their role, can change the name of an organization due to improper access control. The function checkAccess() is not implemented, allowing users with the lowest privileges, such as the 'Prompt Editor' role, to modify organization attributes without proper authorization."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-6139",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/fd00f112-efd0-40a1-8227-d6733716e4c0"
-        ],
-        "summary": "A path traversal vulnerability exists in the XTTS server of the parisneo/lollms package version v9.6. This vulnerability allows an attacker to write audio files to arbitrary locations on the system and enumerate file paths. The issue arises from improper validation of user-provided file paths in the `tts_to_file` endpoint."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-36",
-        "id": "CVE-2024-6250",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/11a8bf9d-16f3-49b3-b5fc-ad36d8993c73"
-        ],
-        "summary": "An absolute path traversal vulnerability exists in parisneo/lollms-webui v9.6, specifically in the `open_file` endpoint of `lollms_advanced.py`. The `sanitize_path` function with `allow_absolute_path=True` allows an attacker to access arbitrary files and directories on a Windows system. This vulnerability can be exploited to read any file and list arbitrary directories on the affected system."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T19:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-22",
-        "id": "CVE-2024-5824",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/9ceb7cf9-a7cd-4699-b3f8-d0999d2b49fd",
-            "https://github.com/parisneo/lollms/commit/eda3af5f5c4ea9b2f3569f72f8d05989e29367fc"
-        ],
-        "summary": "A path traversal vulnerability in the `/set_personality_config` endpoint of parisneo/lollms version 9.4.0 allows an attacker to overwrite the `configs/config.yaml` file. This can lead to remote code execution by changing server configuration properties such as `force_accept_remote_access` and `turn_on_code_validation`."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T18:15:00",
-        "access": {},
-        "assigner": "security@golang.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-24792",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://go.dev/cl/588115",
-            "https://go.dev/issue/67624",
-            "https://pkg.go.dev/vuln/GO-2024-2937"
-        ],
-        "summary": "Parsing a corrupt or malicious image with invalid color indices can cause a panic."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T18:15:00",
-        "access": {},
-        "assigner": "psirt@us.ibm.com",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2024-35153",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://www.ibm.com/support/pages/node/7158662",
-            "https://exchange.xforce.ibmcloud.com/vulnerabilities/292640"
-        ],
-        "summary": "IBM WebSphere Application Server 8.5 and 9.0 is vulnerable to cross-site scripting. This vulnerability allows a privileged user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.  IBM X-Force ID:  292640."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T18:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-73",
-        "id": "CVE-2024-5334",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/7eec128b-1bf5-4922-a95c-551ad3695cf6",
-            "https://github.com/stitionai/devika/commit/6acce21fb08c3d1123ef05df6a33912bf0ee77c2"
-        ],
-        "summary": "External Control of File Name or Path in GitHub repository stitionai/devika prior to -."
-    },
-    {
-        "Modified": "2024-06-27T19:25:00",
-        "Published": "2024-06-27T18:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-22",
-        "id": "CVE-2024-5548",
-        "impact": {},
-        "last-modified": "2024-06-27T19:25:00",
-        "references": [
-            "https://huntr.com/bounties/ad7dd135-8839-4042-87c0-105af61d262c",
-            "https://github.com/stitionai/devika/commit/6acce21fb08c3d1123ef05df6a33912bf0ee77c2"
-        ],
-        "summary": "Path Traversal in GitHub repository stitionai/devika prior to -."
-    },
-    {
-        "Modified": "2024-06-27T19:24:00",
-        "Published": "2023-01-18T00:15:00",
-        "access": {},
-        "assigner": "secalert_us@oracle.com",
-        "cvss": null,
-        "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2023-21839",
-        "impact": {},
-        "last-modified": "2024-06-27T19:24:00",
-        "references": [
-            "https://www.oracle.com/security-alerts/cpujan2023.html",
-            "http://packetstormsecurity.com/files/172882/Oracle-Weblogic-PreAuth-Remote-Command-Execution.html"
-        ],
-        "summary": "Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N)."
-    },
-    {
-        "Modified": "2024-06-27T19:24:00",
-        "Published": "2021-12-14T19:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "HIGH",
-            "vector": "NETWORK"
-        },
-        "assigner": "security@apache.org",
-        "cvss": 5.1,
-        "cvss-time": "2024-06-27T19:24:00",
-        "cvss-vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-917",
-        "id": "CVE-2021-45046",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-06-27T19:24:00",
-        "references": [
-            "http://www.openwall.com/lists/oss-security/2021/12/14/4",
-            "https://logging.apache.org/log4j/2.x/security.html",
-            "https://www.cve.org/CVERecord?id=CVE-2021-44228",
-            "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html",
-            "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd",
-            "http://www.openwall.com/lists/oss-security/2021/12/15/3",
-            "https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf",
-            "https://www.kb.cert.org/vuls/id/930724",
-            "https://cert-portal.siemens.com/productcert/pdf/ssa-714170.pdf",
-            "https://www.debian.org/security/2021/dsa-5022",
-            "https://www.oracle.com/security-alerts/alert-cve-2021-44228.html",
-            "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032",
-            "http://www.openwall.com/lists/oss-security/2021/12/18/1",
-            "https://cert-portal.siemens.com/productcert/pdf/ssa-397453.pdf",
-            "https://cert-portal.siemens.com/productcert/pdf/ssa-479842.pdf",
-            "https://www.oracle.com/security-alerts/cpujan2022.html",
-            "https://www.oracle.com/security-alerts/cpuapr2022.html",
-            "https://www.oracle.com/security-alerts/cpujul2022.html",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SIG7FZULMNK2XF6FZRU4VWYDQXNMUGAJ/",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/EOKPQGV24RRBBI4TBZUDQMM4MEH7MXCY/",
-            "https://security.gentoo.org/glsa/202310-16"
-        ],
-        "summary": "It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in an information leak and remote code execution in some environments and local code execution in all environments. Log4j 2.16.0 (Java 8) and 2.12.2 (Java 7) fix this issue by removing support for message lookup patterns and disabling JNDI functionality by default."
-    },
-    {
-        "Modified": "2024-06-27T19:23:00",
-        "Published": "2022-02-16T19:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "LOCAL"
-        },
-        "assigner": "secalert@redhat.com",
-        "cvss": 7.2,
-        "cvss-time": "2024-06-27T19:23:00",
-        "cvss-vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
-        "cwe": "CWE-754",
-        "id": "CVE-2021-3560",
-        "impact": {
-            "availability": "COMPLETE",
-            "confidentiality": "COMPLETE",
-            "integrity": "COMPLETE"
-        },
-        "last-modified": "2024-06-27T19:23:00",
-        "references": [
-            "https://github.blog/2021-06-10-privilege-escalation-polkit-root-on-linux-with-bug/",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=1961710",
-            "http://packetstormsecurity.com/files/172836/polkit-Authentication-Bypass.html",
-            "http://packetstormsecurity.com/files/172846/Facebook-Fizz-Denial-Of-Service.html"
-        ],
-        "summary": "It was found that polkit could be tricked into bypassing the credential checks for D-Bus requests, elevating the privileges of the requestor to the root user. This flaw could be used by an unprivileged local attacker to, for example, create a new local administrator. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability."
-    },
-    {
-        "Modified": "2024-06-27T19:23:00",
-        "Published": "2017-04-06T21:59:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "NETWORK"
-        },
-        "assigner": "security@apache.org",
-        "cvss": 7.5,
-        "cvss-time": "2024-06-27T19:23:00",
-        "cvss-vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-        "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2016-8735",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-06-27T19:23:00",
-        "references": [
-            "http://tomcat.apache.org/security-9.html",
-            "http://tomcat.apache.org/security-8.html",
-            "http://tomcat.apache.org/security-7.html",
-            "http://tomcat.apache.org/security-6.html",
-            "http://svn.apache.org/viewvc?view=revision&revision=1767684",
-            "http://svn.apache.org/viewvc?view=revision&revision=1767676",
-            "http://svn.apache.org/viewvc?view=revision&revision=1767656",
-            "http://svn.apache.org/viewvc?view=revision&revision=1767644",
-            "http://seclists.org/oss-sec/2016/q4/502",
-            "http://www.securityfocus.com/bid/94463",
-            "http://www.securitytracker.com/id/1037331",
-            "http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html",
-            "http://www.debian.org/security/2016/dsa-3738",
-            "https://access.redhat.com/errata/RHSA-2017:0456",
-            "https://access.redhat.com/errata/RHSA-2017:0455",
-            "http://rhn.redhat.com/errata/RHSA-2017-0457.html",
-            "http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html",
-            "https://security.netapp.com/advisory/ntap-20180607-0001/",
-            "http://www.oracle.com/technetwork/security-advisory/cpujul2018-4258247.html",
-            "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html",
-            "https://www.oracle.com/technetwork/security-advisory/cpujul2019-5072835.html",
-            "https://usn.ubuntu.com/4557-1/",
-            "https://lists.apache.org/thread.html/343558d982879bf88ec20dbf707f8c11255f8e219e81d45c4f8d0551%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/b8a1bf18155b552dcf9a928ba808cbadad84c236d85eab3033662cfb%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/388a323769f1dff84c9ec905455aa73fbcb20338e3c7eb131457f708%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/b5e3f51d28cd5d9b1809f56594f2cf63dcd6a90429e16ea9f83bbedc%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/39ae1f0bd5867c15755a6f959b271ade1aea04ccdc3b2e639dcd903b%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/88855876c33f2f9c532ffb75bfee570ccf0b17ffa77493745af9a17a%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/845312a10aabbe2c499fca94003881d2c79fc993d85f34c1f5c77424%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/37220405a377c0182d2afdbc36461c4783b2930fbeae3a17f1333113%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/3d19773b4cf0377db62d1e9328bf9160bf1819f04f988315086931d7%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/6af47120905aa7d8fe12f42e8ff2284fb338ba141d3b77b8c7cb61b3%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/b84ad1258a89de5c9c853c7f2d3ad77e5b8b2930be9e132d5cef6b95%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/r03c597a64de790ba42c167efacfa23300c3d6c9fe589ab87fe02859c%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/r9136ff5b13e4f1941360b5a309efee2c114a14855578c3a2cbe5d19c%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/r587e50b86c1a96ee301f751d50294072d142fd6dc08a8987ae9f3a9b%40%3Cdev.tomcat.apache.org%3E"
-        ],
-        "summary": "Remote code execution is possible with Apache Tomcat before 6.0.48, 7.x before 7.0.73, 8.x before 8.0.39, 8.5.x before 8.5.7, and 9.x before 9.0.0.M12 if JmxRemoteLifecycleListener is used and an attacker can reach JMX ports. The issue exists because this listener wasn't updated for consistency with the CVE-2016-3427 Oracle patch that affected credential types."
-    },
-    {
-        "Modified": "2024-06-27T19:23:00",
-        "Published": "2016-04-21T11:00:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "NETWORK"
-        },
-        "assigner": "secalert_us@oracle.com",
-        "cvss": 10.0,
-        "cvss-time": "2024-06-27T19:23:00",
-        "cvss-vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
-        "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2016-3427",
-        "impact": {
-            "availability": "COMPLETE",
-            "confidentiality": "COMPLETE",
-            "integrity": "COMPLETE"
-        },
-        "last-modified": "2024-06-27T19:23:00",
-        "references": [
-            "http://www.oracle.com/technetwork/security-advisory/cpuapr2016v3-2985753.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00040.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00039.html",
-            "http://rhn.redhat.com/errata/RHSA-2016-0702.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00059.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00042.html",
-            "http://rhn.redhat.com/errata/RHSA-2016-0701.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00058.html",
-            "http://rhn.redhat.com/errata/RHSA-2016-0723.html",
-            "http://rhn.redhat.com/errata/RHSA-2016-0708.html",
-            "http://rhn.redhat.com/errata/RHSA-2016-0716.html",
-            "https://security.gentoo.org/glsa/201606-18",
-            "http://www.oracle.com/technetwork/topics/security/linuxbulletinapr2016-2952096.html",
-            "https://access.redhat.com/errata/RHSA-2016:1430",
-            "http://www.securityfocus.com/bid/86421",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00061.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-06/msg00002.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00067.html",
-            "http://rhn.redhat.com/errata/RHSA-2016-1039.html",
-            "https://kc.mcafee.com/corporate/index?page=content&id=SB10159",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00021.html",
-            "http://rhn.redhat.com/errata/RHSA-2016-0676.html",
-            "http://rhn.redhat.com/errata/RHSA-2016-0675.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00012.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00026.html",
-            "http://rhn.redhat.com/errata/RHSA-2016-0679.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00022.html",
-            "http://rhn.redhat.com/errata/RHSA-2016-0677.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00009.html",
-            "http://rhn.redhat.com/errata/RHSA-2016-0678.html",
-            "http://rhn.redhat.com/errata/RHSA-2016-0651.html",
-            "http://rhn.redhat.com/errata/RHSA-2016-0650.html",
-            "http://www.ubuntu.com/usn/USN-2972-1",
-            "http://www.ubuntu.com/usn/USN-2963-1",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00006.html",
-            "http://www.ubuntu.com/usn/USN-2964-1",
-            "http://lists.opensuse.org/opensuse-security-announce/2016-05/msg00027.html",
-            "http://www.debian.org/security/2016/dsa-3558",
-            "http://www.securitytracker.com/id/1035596",
-            "http://www.securitytracker.com/id/1037331",
-            "https://security.netapp.com/advisory/ntap-20160420-0001/",
-            "https://access.redhat.com/errata/RHSA-2017:1216",
-            "http://www.openwall.com/lists/oss-security/2020/08/31/1",
-            "https://lists.apache.org/thread.html/343558d982879bf88ec20dbf707f8c11255f8e219e81d45c4f8d0551%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/b8a1bf18155b552dcf9a928ba808cbadad84c236d85eab3033662cfb%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/388a323769f1dff84c9ec905455aa73fbcb20338e3c7eb131457f708%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/b5e3f51d28cd5d9b1809f56594f2cf63dcd6a90429e16ea9f83bbedc%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/39ae1f0bd5867c15755a6f959b271ade1aea04ccdc3b2e639dcd903b%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/88855876c33f2f9c532ffb75bfee570ccf0b17ffa77493745af9a17a%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/845312a10aabbe2c499fca94003881d2c79fc993d85f34c1f5c77424%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/37220405a377c0182d2afdbc36461c4783b2930fbeae3a17f1333113%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/3d19773b4cf0377db62d1e9328bf9160bf1819f04f988315086931d7%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/6af47120905aa7d8fe12f42e8ff2284fb338ba141d3b77b8c7cb61b3%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/b84ad1258a89de5c9c853c7f2d3ad77e5b8b2930be9e132d5cef6b95%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/r03c597a64de790ba42c167efacfa23300c3d6c9fe589ab87fe02859c%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/r9136ff5b13e4f1941360b5a309efee2c114a14855578c3a2cbe5d19c%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/r587e50b86c1a96ee301f751d50294072d142fd6dc08a8987ae9f3a9b%40%3Cdev.tomcat.apache.org%3E",
-            "https://lists.apache.org/thread.html/rc3abf40b06c511d5693baf707d6444bf7745e6a1e343e6f530a12258%40%3Cuser.cassandra.apache.org%3E",
-            "https://lists.apache.org/thread.html/r5f48b16573a11fdf0b557cc3d1d71423ecde8ee771c29f32334fa948%40%3Cdev.cassandra.apache.org%3E"
-        ],
-        "summary": "Unspecified vulnerability in Oracle Java SE 6u113, 7u99, and 8u77; Java SE Embedded 8u77; and JRockit R28.3.9 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to JMX."
-    },
-    {
-        "Modified": "2024-06-27T19:23:00",
-        "Published": "2010-12-06T20:13:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "LOCAL"
-        },
-        "assigner": "security@ubuntu.com",
-        "cvss": 7.2,
-        "cvss-time": "2024-06-27T19:23:00",
-        "cvss-vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
-        "cwe": "CWE-1284",
-        "id": "CVE-2010-3904",
-        "impact": {
-            "availability": "COMPLETE",
-            "confidentiality": "COMPLETE",
-            "integrity": "COMPLETE"
-        },
-        "last-modified": "2024-06-27T19:23:00",
-        "references": [
-            "http://www.kb.cert.org/vuls/id/362983",
-            "http://www.vsecurity.com/resources/advisory/20101019-1/",
-            "http://securitytracker.com/id?1024613",
-            "http://www.vsecurity.com/download/tools/linux-rds-exploit.c",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=642896",
-            "http://www.kernel.org/pub/linux/kernel/v2.6/ChangeLog-2.6.36",
-            "http://www.ubuntu.com/usn/USN-1000-1",
-            "http://www.redhat.com/support/errata/RHSA-2010-0842.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2010-10/msg00008.html",
-            "http://www.redhat.com/support/errata/RHSA-2010-0792.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2010-11/msg00004.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2011-02/msg00000.html",
-            "http://www.vupen.com/english/advisories/2011/0298",
-            "http://secunia.com/advisories/46397",
-            "http://www.vmware.com/security/advisories/VMSA-2011-0012.html",
-            "https://www.exploit-db.com/exploits/44677/",
-            "http://www.securityfocus.com/archive/1/520102/100/0/threaded",
-            "http://packetstormsecurity.com/files/155751/vReliable-Datagram-Sockets-RDS-rds_page_copy_user-Privilege-Escalation.html",
-            "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=799c10559d60f159ab2232203f222f18fa3c4a5f"
-        ],
-        "summary": "The rds_page_copy_user function in net/rds/page.c in the Reliable Datagram Sockets (RDS) protocol implementation in the Linux kernel before 2.6.36 does not properly validate addresses obtained from user space, which allows local users to gain privileges via crafted use of the sendmsg and recvmsg system calls."
     }
 ]
