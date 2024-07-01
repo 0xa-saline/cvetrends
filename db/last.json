@@ -1,5 +1,407 @@
 [
     {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2023-43554",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "Memory corruption while processing IOCTL handler in FastRPC."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-21456",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "Information Disclosure while parsing beacon frame in STA."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-21457",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "INformation disclosure while handling Multi-link IE in beacon frame."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-21461",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "Memory corruption while performing finish HMAC operation when context is freed by keymaster."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-21465",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "Memory corruption while processing key blob passed by the user."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-21469",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "Memory corruption when an invoke call and a TEE call are bound for the same trusted application."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-23368",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "Memory corruption when allocating and accessing an entry in an SMEM partition."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-21460",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "Information disclosure when ASLR relocates the IMEM and Secure DDR portions as one chunk in virtual address space."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-21462",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "Transient DOS while loading the TA ELF file."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-21482",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "Memory corruption during the secure boot process, when the `bootm` command is used, it bypasses the authentication of the kernel/rootfs image."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-23372",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "Memory corruption while invoking IOCTL call for GPU memory allocation and size param is greater than expected size."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-23373",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "Memory corruption when IOMMU unmap operation fails, the DMA and anon buffers are getting released."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-23380",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "Memory corruption while handling user packets during VBO bind operation."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-34696",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://github.com/geoserver/geoserver/security/advisories/GHSA-j59v-vgcr-hxvf"
+        ],
+        "summary": "GeoServer is an open source server that allows users to share and edit geospatial data. Starting in version 2.10.0 and prior to versions 2.24.4 and 2.25.1, GeoServer's Server Status page and REST API lists all environment variables and Java properties to any GeoServer user with administrative rights as part of those modules' status message. These variables/properties can also contain sensitive information, such as database passwords or API keys/tokens. Additionally, many community-developed GeoServer container images `export` other credentials from their start-up scripts as environment variables to the GeoServer (`java`) process. The precise scope of the issue depends on which container image is used and how it is configured.\n\nThe `about status` API endpoint which powers the Server Status page is only available to administrators.Depending on the operating environment, administrators might have legitimate access to credentials in other ways, but this issue defeats more sophisticated controls (like break-glass access to secrets or role accounts).By default, GeoServer only allows same-origin authenticated API access. This limits the scope for a third-party attacker to use an administrator\u2019s credentials to gain access to credentials. The researchers who found the vulnerability were unable to determine any other conditions under which the GeoServer REST API may be available more broadly.\n\nUsers should update container images to use GeoServer 2.24.4 or 2.25.1 to get the bug fix. As a workaround, leave environment variables and Java system properties hidden by default. Those who provide the option to re-enable it should communicate the impact and risks so that users can make an informed choice."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "cna@mongodb.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-6375",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://jira.mongodb.org/browse/SERVER-79327"
+        ],
+        "summary": "A command for refining a collection shard key is missing an authorization check. This may cause the command to run directly on a shard, leading to either degradation of query performance, or to revealing chunk boundaries through timing side channels. This affects MongoDB Server v5.0 versions, prior to 5.0.22, MongoDB Server v6.0 versions, prior to 6.0.11 and MongoDB Server v7.0 versions prior to 7.0.3."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "cna@mongodb.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-6376",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://jira.mongodb.org/browse/COMPASS-7496"
+        ],
+        "summary": "MongoDB Compass may be susceptible to code injection due to insufficient sandbox protection settings with the usage of ejson shell parser in Compass' connection handling. This issue affects MongoDB Compass versions prior to version 1.42.2"
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-21458",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "Information disclosure while handling SA query action frame."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-07-01T15:15:00",
+        "access": {},
+        "assigner": "security.cna@qualcomm.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-21466",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://docs.qualcomm.com/product/publicresources/securitybulletin/july-2024-bulletin.html"
+        ],
+        "summary": "Information disclosure while parsing sub-IE length during new IE generation."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-05-06T19:15:00",
+        "access": {},
+        "assigner": "cisa@example.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-3661",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://datatracker.ietf.org/doc/html/rfc2131#section-7",
+            "https://datatracker.ietf.org/doc/html/rfc3442#section-7",
+            "https://tunnelvisionbug.com/",
+            "https://www.leviathansecurity.com/research/tunnelvision",
+            "https://news.ycombinator.com/item?id=40279632",
+            "https://arstechnica.com/security/2024/05/novel-attack-against-virtually-all-vpn-apps-neuters-their-entire-purpose/",
+            "https://krebsonsecurity.com/2024/05/why-your-vpn-may-not-be-as-secure-as-it-claims/",
+            "https://issuetracker.google.com/issues/263721377",
+            "https://mullvad.net/en/blog/evaluating-the-impact-of-tunnelvision",
+            "https://www.zscaler.com/blogs/security-research/cve-2024-3661-k-tunnelvision-exposes-vpn-bypass-vulnerability",
+            "https://lowendtalk.com/discussion/188857/a-rogue-dhcp-server-within-your-network-can-and-will-hijack-your-vpn-traffic",
+            "https://news.ycombinator.com/item?id=40284111",
+            "https://www.agwa.name/blog/post/hardening_openvpn_for_def_con",
+            "https://www.theregister.com/2024/05/07/vpn_tunnelvision_dhcp/",
+            "https://support.citrix.com/article/CTX677069/cloud-software-group-security-advisory-for-cve20243661",
+            "https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2024-00009",
+            "https://bst.cisco.com/quickview/bug/CSCwk05814",
+            "https://security.paloaltonetworks.com/CVE-2024-3661",
+            "https://fortiguard.fortinet.com/psirt/FG-IR-24-170",
+            "https://my.f5.com/manage/s/article/K000139553"
+        ],
+        "summary": "DHCP can add routes to a client\u2019s routing table via the classless static route option (121). VPN-based security solutions that rely on routes to redirect traffic can be forced to leak traffic over the physical interface. An attacker on the same local network can read, disrupt, or possibly modify network traffic that was expected to be protected by the VPN."
+    },
+    {
+        "Modified": "2024-07-01T15:15:00",
+        "Published": "2024-04-18T15:15:00",
+        "access": {},
+        "assigner": "security@perforce.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-2796",
+        "impact": {},
+        "last-modified": "2024-07-01T15:15:00",
+        "references": [
+            "https://portal.perforce.com/s/detail/a91PA000001STuXYAW"
+        ],
+        "summary": "A server-side request forgery (SSRF) was discovered in the Akana Community Manager Developer Portal in versions prior to and including 2022.1.3. Reported by Jakob Antonsson."
+    },
+    {
+        "Modified": "2024-07-01T14:15:00",
+        "Published": "2024-07-01T14:15:00",
+        "access": {},
+        "assigner": "security-advisories@github.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-24749",
+        "impact": {},
+        "last-modified": "2024-07-01T14:15:00",
+        "references": [
+            "https://github.com/geoserver/geoserver/security/advisories/GHSA-jhqx-5v5g-mpf3",
+            "https://github.com/GeoWebCache/geowebcache/pull/1211",
+            "https://github.com/GeoWebCache/geowebcache/commit/c7f76bd8a1d67c3b986146e7a5e0b14dd64a8fef"
+        ],
+        "summary": "GeoServer is an open source server that allows users to share and edit geospatial data. Prior to versions 2.23.5 and 2.24.3, if GeoServer is deployed in the Windows operating system using an Apache Tomcat web application server, it is possible to bypass existing input validation in the GeoWebCache ByteStreamController class and read arbitrary classpath resources with specific file name extensions. If GeoServer is also deployed as a web archive using the data directory embedded in the `geoserver.war` file (rather than an external data directory), it will likely be possible to read specific resources to gain administrator privileges. However, it is very unlikely that production environments will be using the embedded data directory since, depending on how GeoServer is deployed, it will be erased and re-installed (which would also reset to the default password) either every time the server restarts or every time a new GeoServer WAR is installed and is therefore difficult to maintain. An external data directory will always be used if GeoServer is running in standalone mode (via an installer or a binary). Versions 2.23.5 and 2.24.3 contain a patch for the issue. Some workarounds are available. One may change from a Windows environment to a Linux environment; or change from Apache Tomcat to Jetty application server. One may also disable anonymous access to the embeded GeoWebCache administration and status pages."
+    },
+    {
+        "Modified": "2024-07-01T14:15:00",
+        "Published": "2024-07-01T14:15:00",
+        "access": {},
+        "assigner": "cvd@cert.pl",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-6050",
+        "impact": {},
+        "last-modified": "2024-07-01T14:15:00",
+        "references": [
+            "https://cert.pl/en/posts/2024/07/CVE-2024-6050/",
+            "https://cert.pl/posts/2024/07/CVE-2024-6050/"
+        ],
+        "summary": "Improper Neutralization of Input During Web Page Generation vulnerability in SOKRATES-software SOWA OPAC allows a Reflected Cross-Site Scripting (XSS).\u00a0An attacker might trick somebody into using a crafted URL, which will cause a script to be run in user's browser.\u00a0This issue affects SOWA OPAC software in versions from 4.0 before 4.9.10, from 5.0 before 6.2.12."
+    },
+    {
+        "Modified": "2024-07-01T14:15:00",
+        "Published": "2024-07-01T14:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-38953",
+        "impact": {},
+        "last-modified": "2024-07-01T14:15:00",
+        "references": [
+            "https://github.com/qinggan/phpok/issues/17"
+        ],
+        "summary": "phpok 6.4.003 contains a Cross Site Scripting (XSS) vulnerability in the ok_f() method under the framework/api/upload_control.php file."
+    },
+    {
+        "Modified": "2024-07-01T14:15:00",
+        "Published": "2024-06-28T20:15:00",
+        "access": {},
+        "assigner": "security@perforce.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-3995",
+        "impact": {},
+        "last-modified": "2024-07-01T14:15:00",
+        "references": [
+            "https://portal.perforce.com/s/detail/a91PA000001SU5pYAG"
+        ],
+        "summary": "In Helix ALM versions prior to 2024.2.0, a local command injection was identified.  Reported by Bryan Riggins."
+    },
+    {
+        "Modified": "2024-07-01T14:15:00",
+        "Published": "2024-06-27T21:15:00",
+        "access": {},
+        "assigner": "cna@python.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5642",
+        "impact": {},
+        "last-modified": "2024-07-01T14:15:00",
+        "references": [
+            "https://jbp.io/2024/06/27/cve-2024-5535-openssl-memory-safety.html",
+            "https://github.com/python/cpython/pull/23014",
+            "https://mail.python.org/archives/list/security-announce@python.org/thread/PLP2JI3PJY33YG6P5BZYSSNU66HASXBQ/",
+            "https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e",
+            "http://www.openwall.com/lists/oss-security/2024/06/28/4",
+            "https://github.com/python/cpython/issues/121227"
+        ],
+        "summary": "CPython 3.9 and earlier doesn't disallow configuring an empty list (\"[]\") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured)."
+    },
+    {
         "Modified": "2024-07-01T13:15:00",
         "Published": "2024-07-01T13:15:00",
         "access": {},
@@ -1183,415 +1585,5 @@
             "https://plugins.trac.wordpress.org/changeset/3106884/"
         ],
         "summary": "The UsersWP \u2013 Front-end login form, User Registration, User Profile & Members Directory plugin for WordPress plugin for WordPress is vulnerable to time-based SQL Injection via the \u2018uwp_sort_by\u2019 parameter in all versions up to, and including, 1.2.10 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-29T07:15:00",
-        "access": {},
-        "assigner": "cve-request@wordfence.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-5666",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://www.wordfence.com/threat-intel/vulnerabilities/id/63306df3-4972-426f-bfda-6af75a09971c?source=cve",
-            "https://plugins.trac.wordpress.org/browser/extensions-for-elementor/trunk/modules/button/widgets/ee-button.php#L88",
-            "https://plugins.trac.wordpress.org/changeset/3104024/",
-            "https://wordpress.org/plugins/extensions-for-elementor/#developers"
-        ],
-        "summary": "The Extensions for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018url\u2019 parameter within the EE Button widget in all versions up to, and including, 2.0.30 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-29T07:15:00",
-        "access": {},
-        "assigner": "cve-request@wordfence.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-5790",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://www.wordfence.com/threat-intel/vulnerabilities/id/6d1b948a-7a7e-4bdf-af1d-559f34d4baa3?source=cve",
-            "https://plugins.trac.wordpress.org/browser/happy-elementor-addons/tags/3.11.0/widgets/gradient-heading/widget.php#L260",
-            "https://plugins.trac.wordpress.org/changeset/3108597/#file575",
-            "https://wordpress.org/plugins/happy-elementor-addons/#developers"
-        ],
-        "summary": "The Happy Addons for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018url\u2019 attribute within the plugin's Gradient Heading widget in all versions up to, and including, 3.11.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-29T07:15:00",
-        "access": {},
-        "assigner": "cve-request@wordfence.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-6363",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://www.wordfence.com/threat-intel/vulnerabilities/id/280a5d6d-192a-43aa-927e-45c50b126463?source=cve",
-            "https://wordpress.org/plugins/stock-ticker/#developers",
-            "https://plugins.trac.wordpress.org/browser/stock-ticker/trunk/stock-ticker.php"
-        ],
-        "summary": "The Stock Ticker plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's stock_ticker shortcode in all versions up to, and including, 3.24.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-29T00:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2019-25211",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://github.com/gin-contrib/cors/pull/57",
-            "https://github.com/gin-contrib/cors/pull/106",
-            "https://github.com/gin-contrib/cors/compare/v1.5.0...v1.6.0",
-            "https://github.com/gin-contrib/cors/releases/tag/v1.6.0",
-            "https://github.com/gin-contrib/cors/commit/27b723a473efd80d5a498fa9f5933c80204c850d"
-        ],
-        "summary": "parseWildcardRules in Gin-Gonic CORS middleware before 1.6.0 mishandles a wildcard at the end of an origin string, e.g., https://example.community/* is allowed when the intention is that only https://example.com/* should be allowed, and http://localhost.example.com/* is allowed when the intention is that only http://localhost/* should be allowed."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-29T02:15:00",
-        "access": {},
-        "assigner": "cve-request@wordfence.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-6405",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://www.wordfence.com/threat-intel/vulnerabilities/id/befe5e99-204e-470e-bbbb-285b5ba0b1fb?source=cve",
-            "https://plugins.trac.wordpress.org/browser/floating-social-buttons/trunk/floating-social-buttons.php#L230"
-        ],
-        "summary": "The Floating Social Buttons plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.5. This is due to missing or incorrect nonce validation on the floating_social_buttons_option() function. This makes it possible for unauthenticated attackers to update the plugins settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T22:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-37370",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://web.mit.edu/kerberos/www/advisories/",
-            "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef"
-        ],
-        "summary": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T22:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38525",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://github.com/DataDog/dd-trace-cpp/security/advisories/GHSA-rf3p-mg22-qv6w",
-            "https://github.com/DataDog/dd-trace-cpp/releases/tag/v0.2.2"
-        ],
-        "summary": "dd-trace-cpp is the Datadog distributed tracing for C++. When the library fails to extract trace context due to malformed unicode, it logs the list of audited headers and their values using the `nlohmann` JSON library. However, due to the way the JSON library is invoked, it throws an uncaught exception, which results in a crash. This vulnerability has been patched in version 0.2.2."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T22:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38532",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://github.com/usbarmory/mxs-dcp/security/advisories/GHSA-g85c-rh49-p8cq",
-            "https://github.com/usbarmory/mxs-dcp/commit/e5a99cb3d9429e6145495da7d01525c75af426a7"
-        ],
-        "summary": "The NXP Data Co-Processor (DCP) is a built-in hardware module for specific NXP SoCs\u00b9 that implements a dedicated AES cryptographic engine for encryption/decryption operations. The dcp_tool reference implementation included in the repository selected the test key, regardless of its `-t` argument. This issue has been patched in commit 26a7."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T22:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38533",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://github.com/matter-labs/era-compiler-vyper/security/advisories/GHSA-q7pg-6jh9-87gv"
-        ],
-        "summary": "ZKsync Era is a layer 2 rollup that uses zero-knowledge proofs to scale Ethereum. There is possible invalid stack access due to the addresses used to access the stack not properly being converted to cells. This issue has been patched in version 1.5.0."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T22:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-39828",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://github.com/ggod2/sandboxels_xss_test",
-            "https://sandboxels.r74n.com/changelog",
-            "https://github.com/ggod2/sandboxels_xss_test/blob/main/README.md"
-        ],
-        "summary": "R74n Sandboxels 1.9 through 1.9.5 allows XSS via a message in a modified saved-game file. This was fixed in a hotfix to 1.9.5 on 2024-06-29."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T23:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-37371",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://web.mit.edu/kerberos/www/advisories/",
-            "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef"
-        ],
-        "summary": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T20:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38528",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://github.com/pendulum-project/ntpd-rs/security/advisories/GHSA-2xpx-vcmq-5f72"
-        ],
-        "summary": "nptd-rs is a tool for synchronizing your computer's clock, implementing the NTP and NTS protocols. There is a missing limit for accepted NTS-KE connections. This allows an unauthenticated remote attacker to crash ntpd-rs when an NTS-KE server is configured. Non NTS-KE server configurations, such as the default ntpd-rs configuration, are unaffected. This vulnerability has been patched in version 1.1.3.\n"
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T20:15:00",
-        "access": {},
-        "assigner": "security@perforce.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-3995",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://portal.perforce.com/s/detail/a91PA000001SU5pYAG"
-        ],
-        "summary": "In Helix ALM versions prior to 2024.2.0, a local command injection was identified.  Reported by Bryan Riggins."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T20:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-352",
-        "id": "CVE-2024-5712",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://huntr.com/bounties/301aeafb-af28-4b0b-a2cf-9a2ff1da1ef4"
-        ],
-        "summary": "Cross-Site Request Forgery (CSRF) in stitionai/devika"
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T20:15:00",
-        "access": {},
-        "assigner": "security@huntr.dev",
-        "cvss": null,
-        "cwe": "CWE-434",
-        "id": "CVE-2024-5827",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://huntr.com/bounties/e4e64a51-618b-41d0-8f56-1d2146d8825e"
-        ],
-        "summary": "Vanna v0.3.4 is vulnerable to SQL injection in its DuckDB integration exposed to its Flask Web APIs. Attackers can inject malicious SQL training data and generate corresponding queries to write arbitrary files on the victim's file system, such as backdoor.php with contents `<?php system($_GET[0]); ?>`. This can lead to command execution or the creation of backdoors."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T21:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-29040",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://github.com/tpm2-software/tpm2-tss/security/advisories/GHSA-837m-jw3m-h9p6",
-            "https://github.com/tpm2-software/tpm2-tss/releases/tag/4.1.0"
-        ],
-        "summary": "This repository hosts source code implementing the Trusted Computing Group's (TCG) TPM2 Software Stack (TSS). The JSON Quote Info returned by Fapi_Quote has to be deserialized by Fapi_VerifyQuote to the TPM Structure `TPMS_ATTEST`. For the field `TPM2_GENERATED magic` of this structure any number can be used in the JSON structure. The verifier can receive a state which does not represent the actual, possibly malicious state of the device under test. The malicious device might get access to data it shouldn't, or can use services it shouldn't be able to. This \nissue has been patched in version 4.1.0."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T21:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38518",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://github.com/bigbluebutton/bigbluebutton/security/advisories/GHSA-4m48-49h7-f3c4",
-            "https://github.com/bigbluebutton/bigbluebutton/pull/20279",
-            "https://github.com/bigbluebutton/bigbluebutton/commit/a9d436accdcd26ea66bed9f391488ac128cd62d1",
-            "https://github.com/bigbluebutton/bigbluebutton/commit/ea6e9461dceae8fa593543d8c686f77bb8677e72"
-        ],
-        "summary": "BigBlueButton is an open-source virtual classroom designed to help teachers teach and learners learn. An attacker with a valid join link to a meeting can trick BigBlueButton into generating a signed join link with additional parameters. One of those parameters may be \"role=moderator\", allowing an attacker to join a meeting as moderator using a join link that was originally created for viewer access. This vulnerability has been patched in version(s) 2.6.18, 2.7.8 and 3.0.0-alpha.7."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T21:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-39302",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://github.com/bigbluebutton/bigbluebutton/security/advisories/GHSA-5966-9hw8-q96q",
-            "https://github.com/bigbluebutton/bigbluebutton/commit/04e916798b6b1f53f88513df3168f009b57b8f18",
-            "https://github.com/bigbluebutton/bigbluebutton/commit/b9a46197ed924783f06a24381e923b3329b9c91a",
-            "https://github.com/bigbluebutton/bigbluebutton/commit/f4502e4927609374f5356f824f5dac0101f9976a"
-        ],
-        "summary": "BigBlueButton is an open-source virtual classroom designed to help teachers teach and learners learn. An attacker may be able to exploit the overly elevated file permissions in the `/usr/local/bigbluebutton/core/vendor/bundle/ruby/2.7.0/gems/resque-2.6.0` directory with the goal of privilege escalation, potentially exposing sensitive information on the server. This issue has been patched in version(s) 2.6.18, 2.7.8 and 3.0.0-alpha.7.\n"
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T21:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-39307",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://github.com/Kareadita/Kavita/security/advisories/GHSA-r4qc-3w52-2v84"
-        ],
-        "summary": "Kavita is a cross platform reading server. Opening an ebook with malicious scripts inside leads to code execution inside the browsing context. Kavita doesn't sanitize or sandbox the contents of epubs, allowing scripts inside ebooks to execute. This vulnerability was patched in version 0.8.1."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T19:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-27628",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://support.dcmtk.org/redmine/issues/1108",
-            "https://github.com/DCMTK/dcmtk/commit/ec52e99e1e33fc39810560421c0833b02da567b3"
-        ],
-        "summary": "Buffer Overflow vulnerability in DCMTK v.3.6.8 allows an attacker to execute arbitrary code via the EctEnhancedCT method component."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T19:15:00",
-        "access": {},
-        "assigner": "psirt@us.ibm.com",
-        "cvss": null,
-        "cwe": "CWE-789",
-        "id": "CVE-2024-35116",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://www.ibm.com/support/pages/node/7157387",
-            "https://exchange.xforce.ibmcloud.com/vulnerabilities/290335",
-            "https://www.ibm.com/support/pages/node/7158071"
-        ],
-        "summary": "IBM MQ 9.0 LTS, 9.1 LTS, 9.2 LTS, 9.3 LTS, and 9.3 CD is vulnerable to a denial of service attack caused by an error applying configuration changes.  IBM X-Force ID:  290335."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T19:15:00",
-        "access": {},
-        "assigner": "psirt@us.ibm.com",
-        "cvss": null,
-        "cwe": "CWE-209",
-        "id": "CVE-2024-35156",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://www.ibm.com/support/pages/node/7158058",
-            "https://exchange.xforce.ibmcloud.com/vulnerabilities/292766"
-        ],
-        "summary": "IBM MQ 9.3 LTS and 9.3 CD could allow a remote attacker to obtain sensitive information when a detailed technical error message is returned in the browser.  This information could be used in further attacks against the system.  IBM X-Force ID:  292766."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T19:15:00",
-        "access": {},
-        "assigner": "psirt@us.ibm.com",
-        "cvss": null,
-        "cwe": "CWE-204",
-        "id": "CVE-2024-38322",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://www.ibm.com/support/pages/node/7158446",
-            "https://exchange.xforce.ibmcloud.com/vulnerabilities/294869"
-        ],
-        "summary": "IBM Storage Defender - Resiliency Service 2.0.0 through 2.0.4 agent username and password error response discrepancy exposes product to brute force enumeration.  IBM X-Force ID:  294869."
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T19:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38514",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/security/advisories/GHSA-gph5-rx77-3pjg",
-            "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/commit/dad122199a85c2f12277593973e1784b212adf5e"
-        ],
-        "summary": "NextChat is a cross-platform ChatGPT/Gemini UI. There is a Server-Side Request Forgery (SSRF) vulnerability due to a lack of validation of the `endpoint` GET parameter on the WebDav API endpoint. This SSRF can be used to perform arbitrary HTTPS request from the vulnerable instance (MKCOL, PUT and GET methods supported), or to target NextChat users and make them execute arbitrary JavaScript code in their browser. This vulnerability has been patched in version 2.12.4.\n"
-    },
-    {
-        "Modified": "2024-07-01T12:37:00",
-        "Published": "2024-06-28T18:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-37905",
-        "impact": {},
-        "last-modified": "2024-07-01T12:37:00",
-        "references": [
-            "https://github.com/goauthentik/authentik/security/advisories/GHSA-c78c-2r9w-p7x4",
-            "https://github.com/goauthentik/authentik/releases/tag/version%2F2024.2.4",
-            "https://github.com/goauthentik/authentik/releases/tag/version%2F2024.4.3",
-            "https://github.com/goauthentik/authentik/releases/tag/version%2F2024.6.0"
-        ],
-        "summary": "authentik is an open-source Identity Provider that emphasizes flexibility and versatility. Authentik API-Access-Token mechanism can be exploited to gain admin user privileges. A successful exploit of the issue will result in a user gaining full admin access to the Authentik application, including resetting user passwords and more. This issue has been patched in version(s) 2024.2.4, 2024.4.2 and 2024.6.0.\n"
     }
 ]
