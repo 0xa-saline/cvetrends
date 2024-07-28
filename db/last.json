@@ -1,5 +1,921 @@
 [
     {
+        "Modified": "2024-07-28T21:15:00",
+        "Published": "2024-07-02T18:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-39894",
+        "impact": {},
+        "last-modified": "2024-07-28T21:15:00",
+        "references": [
+            "https://www.openssh.com/txt/release-9.8",
+            "https://lists.mindrot.org/pipermail/openssh-unix-announce/2024-July/000158.html",
+            "https://www.openwall.com/lists/oss-security/2024/07/02/1",
+            "http://www.openwall.com/lists/oss-security/2024/07/03/6",
+            "https://security.netapp.com/advisory/ntap-20240712-0004/",
+            "http://www.openwall.com/lists/oss-security/2024/07/23/4",
+            "http://www.openwall.com/lists/oss-security/2024/07/23/6",
+            "http://www.openwall.com/lists/oss-security/2024/07/28/3"
+        ],
+        "summary": "OpenSSH 9.5 through 9.7 before 9.8 sometimes allows timing attacks against echo-off password entry (e.g., for su and Sudo) because of an ObscureKeystrokeTiming logic error. Similarly, other timing attacks against keystroke entry could occur."
+    },
+    {
+        "Modified": "2024-07-28T21:15:00",
+        "Published": "2024-07-01T13:15:00",
+        "access": {},
+        "assigner": "secalert@redhat.com",
+        "cvss": null,
+        "cwe": "CWE-362",
+        "id": "CVE-2024-6387",
+        "impact": {},
+        "last-modified": "2024-07-28T21:15:00",
+        "references": [
+            "https://access.redhat.com/security/cve/CVE-2024-6387",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2294604",
+            "https://www.qualys.com/2024/07/01/cve-2024-6387/regresshion.txt",
+            "http://www.openwall.com/lists/oss-security/2024/07/01/12",
+            "https://github.com/zgzhang/cve-2024-6387-poc",
+            "https://ubuntu.com/security/CVE-2024-6387",
+            "https://ubuntu.com/security/notices/USN-6859-1",
+            "https://www.suse.com/security/cve/CVE-2024-6387.html",
+            "https://explore.alas.aws.amazon.com/CVE-2024-6387.html",
+            "https://archlinux.org/news/the-sshd-service-needs-to-be-restarted-after-upgrading-to-openssh-98p1/",
+            "https://www.openssh.com/txt/release-9.8",
+            "https://lists.mindrot.org/pipermail/openssh-unix-announce/2024-July/000158.html",
+            "https://lists.mindrot.org/pipermail/openssh-unix-dev/2024-July/041431.html",
+            "https://blog.qualys.com/vulnerabilities-threat-research/2024/07/01/regresshion-remote-unauthenticated-code-execution-vulnerability-in-openssh-server",
+            "https://www.theregister.com/2024/07/01/regresshion_openssh/",
+            "https://news.ycombinator.com/item?id=40843778",
+            "https://security-tracker.debian.org/tracker/CVE-2024-6387",
+            "https://github.com/oracle/oracle-linux/issues/149",
+            "https://github.com/rapier1/hpn-ssh/issues/87",
+            "https://stackdiary.com/openssh-race-condition-in-sshd-allows-remote-code-execution/",
+            "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0010",
+            "http://www.openwall.com/lists/oss-security/2024/07/01/13",
+            "https://security.netapp.com/advisory/ntap-20240701-0001/",
+            "http://www.openwall.com/lists/oss-security/2024/07/02/1",
+            "https://ftp.netbsd.org/pub/NetBSD/security/advisories/NetBSD-SA2024-002.txt.asc",
+            "https://www.freebsd.org/security/advisories/FreeBSD-SA-24:04.openssh.asc",
+            "http://www.openwall.com/lists/oss-security/2024/07/03/2",
+            "http://www.openwall.com/lists/oss-security/2024/07/03/1",
+            "http://www.openwall.com/lists/oss-security/2024/07/03/3",
+            "http://www.openwall.com/lists/oss-security/2024/07/03/4",
+            "http://www.openwall.com/lists/oss-security/2024/07/03/5",
+            "https://access.redhat.com/errata/RHSA-2024:4312",
+            "https://arstechnica.com/security/2024/07/regresshion-vulnerability-in-openssh-gives-attackers-root-on-linux/",
+            "https://github.com/microsoft/azurelinux/issues/9555",
+            "https://github.com/Azure/AKS/issues/4379",
+            "https://github.com/PowerShell/Win32-OpenSSH/issues/2249",
+            "https://github.com/AlmaLinux/updates/issues/629",
+            "https://github.com/PowerShell/Win32-OpenSSH/discussions/2248",
+            "http://www.openwall.com/lists/oss-security/2024/07/03/11",
+            "http://www.openwall.com/lists/oss-security/2024/07/04/1",
+            "http://www.openwall.com/lists/oss-security/2024/07/04/2",
+            "https://sig-security.rocky.page/issues/CVE-2024-6387/",
+            "https://access.redhat.com/errata/RHSA-2024:4340",
+            "https://www.splunk.com/en_us/blog/security/cve-2024-6387-regresshion-vulnerability.html",
+            "https://forum.vmssoftware.com/viewtopic.php?f=8&t=9132",
+            "http://www.openwall.com/lists/oss-security/2024/07/08/2",
+            "http://www.openwall.com/lists/oss-security/2024/07/08/3",
+            "https://access.redhat.com/errata/RHSA-2024:4389",
+            "https://www.akamai.com/blog/security-research/2024-openssh-vulnerability-regression-what-to-know-and-do",
+            "https://lists.almalinux.org/archives/list/announce@lists.almalinux.org/thread/23BF5BMGFVEVUI2WNVAGMLKT557EU7VY/",
+            "http://www.openwall.com/lists/oss-security/2024/07/09/2",
+            "http://www.openwall.com/lists/oss-security/2024/07/09/5",
+            "http://www.openwall.com/lists/oss-security/2024/07/10/1",
+            "http://www.openwall.com/lists/oss-security/2024/07/10/2",
+            "http://www.openwall.com/lists/oss-security/2024/07/10/3",
+            "http://www.openwall.com/lists/oss-security/2024/07/10/4",
+            "http://www.openwall.com/lists/oss-security/2024/07/10/6",
+            "https://github.com/openela-main/openssh/commit/e1f438970e5a337a17070a637c1b9e19697cad09",
+            "http://www.openwall.com/lists/oss-security/2024/07/11/1",
+            "http://www.openwall.com/lists/oss-security/2024/07/11/3",
+            "https://www.arista.com/en/support/advisories-notices/security-advisory/19904-security-advisory-0100",
+            "https://access.redhat.com/errata/RHSA-2024:4469",
+            "https://access.redhat.com/errata/RHSA-2024:4479",
+            "https://access.redhat.com/errata/RHSA-2024:4484",
+            "https://access.redhat.com/errata/RHSA-2024:4474",
+            "http://www.openwall.com/lists/oss-security/2024/07/23/4",
+            "http://www.openwall.com/lists/oss-security/2024/07/23/6",
+            "http://www.openwall.com/lists/oss-security/2024/07/28/2",
+            "http://www.openwall.com/lists/oss-security/2024/07/28/3"
+        ],
+        "summary": "A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period."
+    },
+    {
+        "Modified": "2024-07-28T21:15:00",
+        "Published": "2006-09-27T23:07:00",
+        "access": {
+            "authentication": "NONE",
+            "complexity": "MEDIUM",
+            "vector": "NETWORK"
+        },
+        "assigner": "secalert@redhat.com",
+        "cvss": 9.3,
+        "cvss-time": "2024-07-28T21:15:00",
+        "cvss-vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+        "cwe": "CWE-415",
+        "id": "CVE-2006-5051",
+        "impact": {
+            "availability": "COMPLETE",
+            "confidentiality": "COMPLETE",
+            "integrity": "COMPLETE"
+        },
+        "last-modified": "2024-07-28T21:15:00",
+        "references": [
+            "ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-06:22.openssh.asc",
+            "http://www.redhat.com/support/errata/RHSA-2006-0698.html",
+            "http://www.redhat.com/support/errata/RHSA-2006-0697.html",
+            "http://slackware.com/security/viewer.php?l=slackware-security&y=2006&m=slackware-security.592566",
+            "http://www.ubuntu.com/usn/usn-355-1",
+            "http://www.securityfocus.com/bid/20241",
+            "http://securitytracker.com/id?1016940",
+            "http://secunia.com/advisories/22158",
+            "http://secunia.com/advisories/22173",
+            "http://secunia.com/advisories/22183",
+            "http://secunia.com/advisories/22196",
+            "http://secunia.com/advisories/22236",
+            "http://lists.freebsd.org/pipermail/freebsd-security/2006-October/004051.html",
+            "http://www.debian.org/security/2006/dsa-1189",
+            "http://security.freebsd.org/advisories/FreeBSD-SA-06%3A22.openssh.asc",
+            "http://www.kb.cert.org/vuls/id/851340",
+            "http://secunia.com/advisories/22270",
+            "http://secunia.com/advisories/22208",
+            "http://secunia.com/advisories/22245",
+            "http://www.arkoon.fr/upload/alertes/36AK-2006-07-FR-1.0_FAST360_OPENSSH.pdf",
+            "http://www.openbsd.org/errata.html#ssh",
+            "http://secunia.com/advisories/22352",
+            "http://support.avaya.com/elmodocs2/security/ASA-2006-216.htm",
+            "http://www.openpkg.org/security/advisories/OpenPKG-SA-2006.022-openssh.html",
+            "http://secunia.com/advisories/22362",
+            "http://www.novell.com/linux/security/advisories/2006_62_openssh.html",
+            "http://secunia.com/advisories/22495",
+            "http://www.arkoon.fr/upload/alertes/43AK-2006-09-FR-1.0_SSL360_OPENSSH.pdf",
+            "ftp://patches.sgi.com/support/free/security/advisories/20061001-01-P.asc",
+            "http://secunia.com/advisories/22487",
+            "http://security.gentoo.org/glsa/glsa-200611-06.xml",
+            "http://secunia.com/advisories/22823",
+            "http://www.debian.org/security/2006/dsa-1212",
+            "http://secunia.com/advisories/22926",
+            "http://www.vmware.com/support/vi3/doc/esx-3069097-patch.html",
+            "http://www.vmware.com/support/vi3/doc/esx-9986131-patch.html",
+            "http://secunia.com/advisories/23680",
+            "http://docs.info.apple.com/article.html?artnum=305214",
+            "http://secunia.com/advisories/24479",
+            "http://www-unix.globus.org/mail_archive/security-announce/2007/04/msg00000.html",
+            "http://secunia.com/advisories/24805",
+            "http://openssh.org/txt/release-4.4",
+            "http://www.osvdb.org/29264",
+            "http://sourceforge.net/forum/forum.php?forum_id=681763",
+            "http://lists.apple.com/archives/security-announce/2007/Mar/msg00002.html",
+            "http://www.mandriva.com/security/advisories?name=MDKSA-2006:179",
+            "http://www.us-cert.gov/cas/techalerts/TA07-072A.html",
+            "http://secunia.com/advisories/24799",
+            "http://www.vupen.com/english/advisories/2007/0930",
+            "http://www.vupen.com/english/advisories/2007/1332",
+            "http://www.vupen.com/english/advisories/2006/4329",
+            "http://www.vupen.com/english/advisories/2006/4018",
+            "http://marc.info/?l=openssh-unix-dev&m=115939141729160&w=2",
+            "https://exchange.xforce.ibmcloud.com/vulnerabilities/29254",
+            "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11387",
+            "http://www.openwall.com/lists/oss-security/2024/07/01/3",
+            "http://www.openwall.com/lists/oss-security/2024/07/28/3"
+        ],
+        "summary": "Signal handler race condition in OpenSSH before 4.4 allows remote attackers to cause a denial of service (crash), and possibly execute arbitrary code if GSSAPI authentication is enabled, via unspecified vectors that lead to a double-free."
+    },
+    {
+        "Modified": "2024-07-28T20:15:00",
+        "Published": "2024-07-28T20:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-352",
+        "id": "CVE-2024-7169",
+        "impact": {},
+        "last-modified": "2024-07-28T20:15:00",
+        "references": [
+            "https://vuldb.com/?id.272583",
+            "https://vuldb.com/?ctiid.272583",
+            "https://vuldb.com/?submit.380185",
+            "https://gist.github.com/topsky979/421c916be6ab09dc990896b07185ec89"
+        ],
+        "summary": "A vulnerability classified as problematic has been found in SourceCodester School Fees Payment System 1.0. This affects an unknown part of the file /ajax.php. The manipulation leads to cross-site request forgery. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-272583."
+    },
+    {
+        "Modified": "2024-07-28T19:15:00",
+        "Published": "2024-07-28T19:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-89",
+        "id": "CVE-2024-7167",
+        "impact": {},
+        "last-modified": "2024-07-28T19:15:00",
+        "references": [
+            "https://vuldb.com/?id.272581",
+            "https://vuldb.com/?ctiid.272581",
+            "https://vuldb.com/?submit.380181",
+            "https://gist.github.com/topsky979/69a797bc0b33fc19144a727a0be31685"
+        ],
+        "summary": "A vulnerability was found in SourceCodester School Fees Payment System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /manage_course.php. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-272581 was assigned to this vulnerability."
+    },
+    {
+        "Modified": "2024-07-28T19:15:00",
+        "Published": "2024-07-28T19:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-89",
+        "id": "CVE-2024-7168",
+        "impact": {},
+        "last-modified": "2024-07-28T19:15:00",
+        "references": [
+            "https://vuldb.com/?id.272582",
+            "https://vuldb.com/?ctiid.272582",
+            "https://vuldb.com/?submit.380184",
+            "https://gist.github.com/topsky979/14187eec46d6bc04772eadae7ac4e930"
+        ],
+        "summary": "A vulnerability was found in SourceCodester School Fees Payment System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /manage_user.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-272582 is the identifier assigned to this vulnerability."
+    },
+    {
+        "Modified": "2024-07-28T18:15:00",
+        "Published": "2024-07-28T18:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-89",
+        "id": "CVE-2024-7165",
+        "impact": {},
+        "last-modified": "2024-07-28T18:15:00",
+        "references": [
+            "https://vuldb.com/?id.272579",
+            "https://vuldb.com/?ctiid.272579",
+            "https://vuldb.com/?submit.380179",
+            "https://gist.github.com/topsky979/efe8fa56e557bf3244909f348d5874f7"
+        ],
+        "summary": "A vulnerability was found in SourceCodester School Fees Payment System 1.0 and classified as critical. This issue affects some unknown processing of the file /view_payment.php. The manipulation of the argument ef_id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-272579."
+    },
+    {
+        "Modified": "2024-07-28T18:15:00",
+        "Published": "2024-07-28T18:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-89",
+        "id": "CVE-2024-7166",
+        "impact": {},
+        "last-modified": "2024-07-28T18:15:00",
+        "references": [
+            "https://vuldb.com/?id.272580",
+            "https://vuldb.com/?ctiid.272580",
+            "https://vuldb.com/?submit.380180",
+            "https://gist.github.com/topsky979/8ab4ff5ffb2a555694931d14329f5a5d"
+        ],
+        "summary": "A vulnerability was found in SourceCodester School Fees Payment System 1.0. It has been classified as critical. Affected is an unknown function of the file /receipt.php. The manipulation of the argument ef_id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-272580."
+    },
+    {
+        "Modified": "2024-07-28T17:15:00",
+        "Published": "2024-07-28T17:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-7163",
+        "impact": {},
+        "last-modified": "2024-07-28T17:15:00",
+        "references": [
+            "https://vuldb.com/?id.272577",
+            "https://vuldb.com/?ctiid.272577",
+            "https://vuldb.com/?submit.379477",
+            "https://github.com/HuaQiPro/seacms/issues/28"
+        ],
+        "summary": "A vulnerability, which was classified as problematic, was found in SeaCMS 12.9. This affects an unknown part of the file /js/player/dmplayer/player/index.php. The manipulation of the argument color/vid/url leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-272577 was assigned to this vulnerability."
+    },
+    {
+        "Modified": "2024-07-28T17:15:00",
+        "Published": "2024-07-28T17:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-7164",
+        "impact": {},
+        "last-modified": "2024-07-28T17:15:00",
+        "references": [
+            "https://vuldb.com/?id.272578",
+            "https://vuldb.com/?ctiid.272578",
+            "https://vuldb.com/?submit.380174",
+            "https://gist.github.com/topsky979/d53eab0322b187bfe151b3f1f31958e2"
+        ],
+        "summary": "A vulnerability has been found in SourceCodester School Fees Payment System 1.0 and classified as critical. This vulnerability affects unknown code of the file /ajax.php?action=login. The manipulation of the argument username leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-272578 is the identifier assigned to this vulnerability."
+    },
+    {
+        "Modified": "2024-07-28T16:15:00",
+        "Published": "2024-07-28T16:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-352",
+        "id": "CVE-2024-7161",
+        "impact": {},
+        "last-modified": "2024-07-28T16:15:00",
+        "references": [
+            "https://vuldb.com/?id.272575",
+            "https://vuldb.com/?ctiid.272575",
+            "https://vuldb.com/?submit.379473",
+            "https://github.com/HuaQiPro/seacms/issues/30"
+        ],
+        "summary": "A vulnerability classified as problematic was found in SeaCMS 13.0. Affected by this vulnerability is an unknown functionality of the file /member.php?action=chgpwdsubmit of the component Password Change Handler. The manipulation of the argument newpwd/newpwd2 leads to cross-site request forgery. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-272575."
+    },
+    {
+        "Modified": "2024-07-28T16:15:00",
+        "Published": "2024-07-28T16:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-79",
+        "id": "CVE-2024-7162",
+        "impact": {},
+        "last-modified": "2024-07-28T16:15:00",
+        "references": [
+            "https://vuldb.com/?id.272576",
+            "https://vuldb.com/?ctiid.272576",
+            "https://vuldb.com/?submit.379474",
+            "https://github.com/HuaQiPro/seacms/issues/29"
+        ],
+        "summary": "A vulnerability, which was classified as problematic, has been found in SeaCMS 12.9/13.0. Affected by this issue is some unknown functionality of the file js/player/dmplayer/admin/post.php?act=setting. The manipulation of the argument yzm leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-272576."
+    },
+    {
+        "Modified": "2024-07-28T15:15:00",
+        "Published": "2024-07-28T15:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-259",
+        "id": "CVE-2024-7159",
+        "impact": {},
+        "last-modified": "2024-07-28T15:15:00",
+        "references": [
+            "https://vuldb.com/?id.272573",
+            "https://vuldb.com/?ctiid.272573",
+            "https://vuldb.com/?submit.377942",
+            "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/TOTOLINK/A3600R/product.md"
+        ],
+        "summary": "A vulnerability was found in TOTOLINK A3600R 4.1.2cu.5182_B20201102. It has been rated as critical. This issue affects some unknown processing of the file /web_cste/cgi-bin/product.ini of the component Telnet Service. The manipulation leads to use of hard-coded password. The exploit has been disclosed to the public and may be used. The identifier VDB-272573 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
+        "Modified": "2024-07-28T15:15:00",
+        "Published": "2024-07-28T15:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-77",
+        "id": "CVE-2024-7160",
+        "impact": {},
+        "last-modified": "2024-07-28T15:15:00",
+        "references": [
+            "https://vuldb.com/?id.272574",
+            "https://vuldb.com/?ctiid.272574",
+            "https://vuldb.com/?submit.377080",
+            "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/TOTOLINK/A3700R/setWanCfg.md"
+        ],
+        "summary": "A vulnerability classified as critical has been found in TOTOLINK A3700R 9.1.2u.5822_B20200513. Affected is the function setWanCfg of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument hostName leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-272574 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
+        "Modified": "2024-07-28T14:15:00",
+        "Published": "2024-07-28T14:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-77",
+        "id": "CVE-2024-7158",
+        "impact": {},
+        "last-modified": "2024-07-28T14:15:00",
+        "references": [
+            "https://vuldb.com/?id.272572",
+            "https://vuldb.com/?ctiid.272572",
+            "https://vuldb.com/?submit.377543",
+            "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/TOTOLINK/A3100R/setTelnetCfg.md"
+        ],
+        "summary": "A vulnerability was found in TOTOLINK A3100R 4.1.2cu.5050_B20200504. It has been declared as critical. This vulnerability affects the function setTelnetCfg of the file /cgi-bin/cstecgi.cgi of the component HTTP POST Request Handler. The manipulation of the argument telnet_enabled leads to command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-272572. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
+        "Modified": "2024-07-28T14:15:00",
+        "Published": "2024-07-26T06:15:00",
+        "access": {},
+        "assigner": "vultures@jpcert.or.jp",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-40897",
+        "impact": {},
+        "last-modified": "2024-07-28T14:15:00",
+        "references": [
+            "https://github.com/GStreamer/orc",
+            "https://gstreamer.freedesktop.org/modules/orc.html",
+            "https://jvn.jp/en/jp/JVN02030803/",
+            "http://www.openwall.com/lists/oss-security/2024/07/26/1"
+        ],
+        "summary": "Stack-based buffer overflow vulnerability exists in orcparse.c of ORC versions prior to 0.4.39. If a developer is tricked to process a specially crafted file with the affected ORC compiler, an arbitrary code may be executed on the developer's build environment. This may lead to compromise of developer machines or CI build environments."
+    },
+    {
+        "Modified": "2024-07-28T14:15:00",
+        "Published": "2024-06-27T21:15:00",
+        "access": {},
+        "assigner": "cna@python.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5642",
+        "impact": {},
+        "last-modified": "2024-07-28T14:15:00",
+        "references": [
+            "https://jbp.io/2024/06/27/cve-2024-5535-openssl-memory-safety.html",
+            "https://github.com/python/cpython/pull/23014",
+            "https://mail.python.org/archives/list/security-announce@python.org/thread/PLP2JI3PJY33YG6P5BZYSSNU66HASXBQ/",
+            "https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e",
+            "http://www.openwall.com/lists/oss-security/2024/06/28/4",
+            "https://github.com/python/cpython/issues/121227",
+            "https://security.netapp.com/advisory/ntap-20240726-0005/"
+        ],
+        "summary": "CPython 3.9 and earlier doesn't disallow configuring an empty list (\"[]\") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured)."
+    },
+    {
+        "Modified": "2024-07-28T14:15:00",
+        "Published": "2024-06-17T15:15:00",
+        "access": {},
+        "assigner": "cna@python.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-4032",
+        "impact": {},
+        "last-modified": "2024-07-28T14:15:00",
+        "references": [
+            "https://github.com/python/cpython/issues/113171",
+            "https://github.com/python/cpython/pull/113179",
+            "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml",
+            "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml",
+            "https://mail.python.org/archives/list/security-announce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA/",
+            "https://github.com/python/cpython/commit/22adf29da8d99933ffed8647d3e0726edd16f7f8",
+            "https://github.com/python/cpython/commit/40d75c2b7f5c67e254d0a025e0f2e2c7ada7f69f",
+            "https://github.com/python/cpython/commit/895f7e2ac23eff4743143beef0f0c5ac71ea27d3",
+            "https://github.com/python/cpython/commit/ba431579efdcbaed7a96f2ac4ea0775879a332fb",
+            "https://github.com/python/cpython/commit/c62c9e518b784fe44432a3f4fc265fb95b651906",
+            "https://github.com/python/cpython/commit/f86b17ac511e68192ba71f27e752321a3252cee3",
+            "http://www.openwall.com/lists/oss-security/2024/06/17/3",
+            "https://security.netapp.com/advisory/ntap-20240726-0004/"
+        ],
+        "summary": "The \u201cipaddress\u201d module contained incorrect information about whether certain IPv4 and IPv6 addresses were designated as \u201cglobally reachable\u201d or \u201cprivate\u201d. This affected the is_private and is_global properties of the ipaddress.IPv4Address, ipaddress.IPv4Network, ipaddress.IPv6Address, and ipaddress.IPv6Network classes, where values wouldn\u2019t be returned in accordance with the latest information from the IANA Special-Purpose Address Registries.\n\nCPython 3.12.4 and 3.13.0a6 contain updated information from these registries and thus have the intended behavior."
+    },
+    {
+        "Modified": "2024-07-28T14:15:00",
+        "Published": "2024-06-09T19:15:00",
+        "access": {},
+        "assigner": "security@php.net",
+        "cvss": null,
+        "cwe": "CWE-345",
+        "id": "CVE-2024-5458",
+        "impact": {},
+        "last-modified": "2024-07-28T14:15:00",
+        "references": [
+            "https://github.com/php/php-src/security/advisories/GHSA-w8qr-v226-r27w",
+            "http://www.openwall.com/lists/oss-security/2024/06/07/1",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PKGTQUOA2NTZ3RXN22CSAUJPIRUYRB4B/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/W45DBOH56NQDRTOM2DN2LNA2FZIMC3PK/",
+            "https://lists.debian.org/debian-lts-announce/2024/06/msg00009.html",
+            "https://security.netapp.com/advisory/ntap-20240726-0001/"
+        ],
+        "summary": "In PHP versions\u00a08.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, due to a code logic error, filtering functions such as filter_var when validating URLs\u00a0(FILTER_VALIDATE_URL) for certain types of URLs the function will result in invalid user information (username + password part of URLs) being treated as valid user information. This may lead to the downstream code accepting invalid URLs as valid and parsing them incorrectly."
+    },
+    {
+        "Modified": "2024-07-28T14:15:00",
+        "Published": "2024-06-09T19:15:00",
+        "access": {},
+        "assigner": "security@php.net",
+        "cvss": null,
+        "cwe": "CWE-116",
+        "id": "CVE-2024-5585",
+        "impact": {},
+        "last-modified": "2024-07-28T14:15:00",
+        "references": [
+            "https://github.com/php/php-src/security/advisories/GHSA-9fcc-425m-g385",
+            "http://www.openwall.com/lists/oss-security/2024/06/07/1",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PKGTQUOA2NTZ3RXN22CSAUJPIRUYRB4B/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/W45DBOH56NQDRTOM2DN2LNA2FZIMC3PK/",
+            "https://security.netapp.com/advisory/ntap-20240726-0002/"
+        ],
+        "summary": "In PHP versions\u00a08.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, the fix for\u00a0CVE-2024-1874 does not work if the command name includes trailing spaces. Original issue:\u00a0when using proc_open() command with array syntax, due to insufficient escaping, if the arguments of the executed command are controlled by a malicious user, the user can supply arguments that would execute arbitrary commands in Windows shell."
+    },
+    {
+        "Modified": "2024-07-28T14:15:00",
+        "Published": "2018-07-24T13:29:00",
+        "access": {
+            "authentication": "SINGLE",
+            "complexity": "LOW",
+            "vector": "NETWORK"
+        },
+        "assigner": "cve@mitre.org",
+        "cvss": 4.0,
+        "cvss-time": "2024-07-28T14:15:00",
+        "cvss-vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+        "cwe": "CWE-59",
+        "id": "CVE-2018-14335",
+        "impact": {
+            "availability": "NONE",
+            "confidentiality": "PARTIAL",
+            "integrity": "NONE"
+        },
+        "last-modified": "2024-07-28T14:15:00",
+        "references": [
+            "https://gist.github.com/owodelta/9714faf9a86435cef5a99d4930eaee20",
+            "https://www.exploit-db.com/exploits/45105/",
+            "https://access.redhat.com/errata/RHSA-2020:0727",
+            "https://lists.apache.org/thread.html/582d4165de6507b0be82d5a6f9a1ce392ec43a00c9fed32bacf7fe1e%40%3Cuser.ignite.apache.org%3E",
+            "https://security.netapp.com/advisory/ntap-20240726-0003/"
+        ],
+        "summary": "An issue was discovered in H2 1.4.197. Insecure handling of permissions in the backup function allows attackers to read sensitive files (outside of their permissions) via a symlink to a fake database file."
+    },
+    {
+        "Modified": "2024-07-28T11:15:00",
+        "Published": "2024-07-28T11:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-200",
+        "id": "CVE-2024-7156",
+        "impact": {},
+        "last-modified": "2024-07-28T11:15:00",
+        "references": [
+            "https://vuldb.com/?id.272570",
+            "https://vuldb.com/?ctiid.272570",
+            "https://vuldb.com/?submit.377473",
+            "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/TOTOLINK/A3700R/ExportSettings.md"
+        ],
+        "summary": "A vulnerability was found in TOTOLINK A3700R 9.1.2u.5822_B20200513 and classified as problematic. Affected by this issue is some unknown functionality of the file /cgi-bin/ExportSettings.sh of the component apmib Configuration Handler. The manipulation leads to information disclosure. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-272570 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
+        "Modified": "2024-07-28T11:15:00",
+        "Published": "2024-07-28T11:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-120",
+        "id": "CVE-2024-7157",
+        "impact": {},
+        "last-modified": "2024-07-28T11:15:00",
+        "references": [
+            "https://vuldb.com/?id.272571",
+            "https://vuldb.com/?ctiid.272571",
+            "https://vuldb.com/?submit.377542",
+            "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/TOTOLINK/A3100R/getSaveConfig.md"
+        ],
+        "summary": "A vulnerability was found in TOTOLINK A3100R 4.1.2cu.5050_B20200504. It has been classified as critical. This affects the function getSaveConfig of the file /cgi-bin/cstecgi.cgi?action=save&setting. The manipulation of the argument http_host leads to buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-272571. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
+        "Modified": "2024-07-28T10:15:00",
+        "Published": "2024-07-28T10:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-284",
+        "id": "CVE-2024-7154",
+        "impact": {},
+        "last-modified": "2024-07-28T10:15:00",
+        "references": [
+            "https://vuldb.com/?id.272568",
+            "https://vuldb.com/?ctiid.272568",
+            "https://vuldb.com/?submit.377463",
+            "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/TOTOLINK/A3700R/setWizardCfg_changepw.md"
+        ],
+        "summary": "A vulnerability, which was classified as problematic, was found in TOTOLINK A3700R 9.1.2u.5822_B20200513. Affected is an unknown function of the file /wizard.html of the component Password Reset Handler. The manipulation leads to improper access controls. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-272568. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
+        "Modified": "2024-07-28T10:15:00",
+        "Published": "2024-07-28T10:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-7155",
+        "impact": {},
+        "last-modified": "2024-07-28T10:15:00",
+        "references": [
+            "https://vuldb.com/?id.272569",
+            "https://vuldb.com/?ctiid.272569",
+            "https://vuldb.com/?submit.377465",
+            "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/TOTOLINK/A3300R/shadow.md"
+        ],
+        "summary": "A vulnerability has been found in TOTOLINK A3300R 17.0.0cu.557_B20221024 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /etc/shadow.sample. The manipulation leads to use of hard-coded password. It is possible to launch the attack on the local host. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The identifier VDB-272569 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
+        "Modified": "2024-07-28T08:15:00",
+        "Published": "2024-04-15T04:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-89",
+        "id": "CVE-2024-3768",
+        "impact": {},
+        "last-modified": "2024-07-28T08:15:00",
+        "references": [
+            "https://vuldb.com/?id.260615",
+            "https://vuldb.com/?ctiid.260615",
+            "https://vuldb.com/?submit.316291",
+            "https://github.com/BurakSevben/CVEs/blob/main/News%20Portal/News%20Portal%20-%20SQL%20Injection%20-%204.md",
+            "https://github.com/L1OudFd8cl09/CVE/blob/main/25_07_2024_b.md"
+        ],
+        "summary": "A vulnerability, which was classified as critical, has been found in PHPGurukul/itsourcecode News Portal 4.1. This issue affects some unknown processing of the file search.php. The manipulation of the argument searchtitle leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-260615."
+    },
+    {
+        "Modified": "2024-07-28T04:15:00",
+        "Published": "2024-07-28T04:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-42054",
+        "impact": {},
+        "last-modified": "2024-07-28T04:15:00",
+        "references": [
+            "https://www.getastra.com/blog/vulnerability/xss-insecure-file-cervantes/",
+            "https://www.jinsonvarghese.com/stored-xss-file-upload-vulnerabilities-found-in-cervantes/",
+            "https://github.com/CervantesSec/cervantes/commit/78631a034d0fb3323a53fb7428b2022b29a0d2cd"
+        ],
+        "summary": "Cervantes through 0.5-alpha accepts insecure file uploads."
+    },
+    {
+        "Modified": "2024-07-28T04:15:00",
+        "Published": "2024-07-28T04:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-42055",
+        "impact": {},
+        "last-modified": "2024-07-28T04:15:00",
+        "references": [
+            "https://www.getastra.com/blog/vulnerability/xss-insecure-file-cervantes/",
+            "https://www.jinsonvarghese.com/stored-xss-file-upload-vulnerabilities-found-in-cervantes/",
+            "https://github.com/CervantesSec/cervantes/commit/78631a034d0fb3323a53fb7428b2022b29a0d2cd"
+        ],
+        "summary": "Cervantes through 0.5-alpha allows stored XSS."
+    },
+    {
+        "Modified": "2024-07-28T03:15:00",
+        "Published": "2024-07-28T03:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-42050",
+        "impact": {},
+        "last-modified": "2024-07-28T03:15:00",
+        "references": [
+            "https://github.com/SpacePlant/Vulns/blob/main/Advisories/2024/4.md",
+            "https://support-splashtopbusiness.splashtop.com/hc/en-us/articles/25584410412571--Splashtop-Streamer-version-v3-7-0-0-for-Windows-released"
+        ],
+        "summary": "The MSI installer for Splashtop Streamer for Windows before 3.7.0.0 uses a temporary folder with weak permissions during installation. A local user can exploit this to escalate privileges to SYSTEM via an oplock on CredProvider_Inst.reg."
+    },
+    {
+        "Modified": "2024-07-28T03:15:00",
+        "Published": "2024-07-28T03:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-42051",
+        "impact": {},
+        "last-modified": "2024-07-28T03:15:00",
+        "references": [
+            "https://github.com/SpacePlant/Vulns/blob/main/Advisories/2024/3.md",
+            "https://support-splashtopbusiness.splashtop.com/hc/en-us/articles/20716875636763-Splashtop-Streamer-version-v3-6-2-0-for-Windows-released"
+        ],
+        "summary": "The MSI installer for Splashtop Streamer for Windows before 3.6.2.0 uses a temporary folder with weak permissions during installation. A local user can exploit this to escalate privileges to SYSTEM by replacing InstRegExp.reg."
+    },
+    {
+        "Modified": "2024-07-28T03:15:00",
+        "Published": "2024-07-28T03:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-42052",
+        "impact": {},
+        "last-modified": "2024-07-28T03:15:00",
+        "references": [
+            "https://github.com/SpacePlant/Vulns/blob/main/Advisories/2024/1.md",
+            "https://support-splashtopbusiness.splashtop.com/hc/en-us/articles/15813655496603-Splashtop-Streamer-version-v3-5-8-0-for-Windows-released"
+        ],
+        "summary": "The MSI installer for Splashtop Streamer for Windows before 3.5.8.0 uses a temporary folder with weak permissions during installation. A local user can exploit this to escalate privileges to SYSTEM by placing a wevtutil.exe file in the folder."
+    },
+    {
+        "Modified": "2024-07-28T03:15:00",
+        "Published": "2024-07-28T03:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-42053",
+        "impact": {},
+        "last-modified": "2024-07-28T03:15:00",
+        "references": [
+            "https://github.com/SpacePlant/Vulns/blob/main/Advisories/2024/2.md",
+            "https://support-splashtopbusiness.splashtop.com/hc/en-us/articles/18223802896539-Splashtop-Streamer-version-v3-6-0-0-for-Windows-released"
+        ],
+        "summary": "The MSI installer for Splashtop Streamer for Windows before 3.6.0.0 uses a temporary folder with weak permissions during installation. A local user can exploit this to escalate privileges to SYSTEM by placing a version.dll file in the folder."
+    },
+    {
+        "Modified": "2024-07-28T02:15:00",
+        "Published": "2024-07-28T02:15:00",
+        "access": {},
+        "assigner": "cve@mitre.org",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-42049",
+        "impact": {},
+        "last-modified": "2024-07-28T02:15:00",
+        "references": [
+            "https://www.tightvnc.com/whatsnew.php",
+            "https://sourceforge.net/p/vnc-tight/bugs/1629/"
+        ],
+        "summary": "TightVNC (Server for Windows) before 2.8.84 allows attackers to connect to the control pipe via a network connection."
+    },
+    {
+        "Modified": "2024-07-27T22:15:00",
+        "Published": "2024-07-27T22:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-425",
+        "id": "CVE-2024-7153",
+        "impact": {},
+        "last-modified": "2024-07-27T22:15:00",
+        "references": [
+            "https://vuldb.com/?id.272556",
+            "https://vuldb.com/?ctiid.272556",
+            "https://vuldb.com/?submit.377056",
+            "https://wiki.shikangsi.com/post/share/e8a2a0a0-5e72-4bb1-8805-cf155a89f583"
+        ],
+        "summary": "A vulnerability classified as problematic has been found in Netgear WN604 up to 20240719. Affected is an unknown function of the file siteSurvey.php. The manipulation leads to direct request. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-272556. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
+        "Modified": "2024-07-27T21:15:00",
+        "Published": "2024-07-27T21:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-121",
+        "id": "CVE-2024-7152",
+        "impact": {},
+        "last-modified": "2024-07-27T21:15:00",
+        "references": [
+            "https://vuldb.com/?id.272555",
+            "https://vuldb.com/?ctiid.272555",
+            "https://vuldb.com/?submit.377041",
+            "https://github.com/noahze01/IoT-vulnerable/blob/main/Tenda/O3v2.0/fromSafeSetMacFilter.md"
+        ],
+        "summary": "A vulnerability was found in Tenda O3 1.0.0.10(2478). It has been rated as critical. This issue affects the function fromSafeSetMacFilter of the file /goform/setMacFilterList. The manipulation of the argument time leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-272555. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
+        "Modified": "2024-07-27T20:15:00",
+        "Published": "2024-07-27T20:15:00",
+        "access": {},
+        "assigner": "cna@vuldb.com",
+        "cvss": null,
+        "cwe": "CWE-121",
+        "id": "CVE-2024-7151",
+        "impact": {},
+        "last-modified": "2024-07-27T20:15:00",
+        "references": [
+            "https://vuldb.com/?id.272554",
+            "https://vuldb.com/?ctiid.272554",
+            "https://vuldb.com/?submit.377040",
+            "https://github.com/noahze01/IoT-vulnerable/blob/main/Tenda/O3v2.0/fromMacFilterSet.md"
+        ],
+        "summary": "A vulnerability was found in Tenda O3 1.0.0.10(2478). It has been declared as critical. This vulnerability affects the function fromMacFilterSet of the file /goform/setMacFilter. The manipulation of the argument remark leads to stack-based buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-272554 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
+        "Modified": "2024-07-27T13:15:00",
+        "Published": "2024-07-27T13:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-6703",
+        "impact": {},
+        "last-modified": "2024-07-27T13:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/69dc9236-8079-434f-b2b5-060a0c5eba46?source=cve",
+            "https://plugins.trac.wordpress.org/browser/fluentform/trunk/app/Services/FluentConversational/Classes/Elements/WelcomeScreen.php",
+            "https://plugins.trac.wordpress.org/changeset/3125227/"
+        ],
+        "summary": "The Contact Form Plugin by Fluent Forms for Quiz, Survey, and Drag & Drop WP Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018description\u2019 and 'btn_txt' parameters in all versions up to, and including, 5.1.19 due to insufficient input sanitization and output escaping. This makes it possible for attackers with the Form Manager permissions and Subscriber+ user role, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+    },
+    {
+        "Modified": "2024-07-27T12:15:00",
+        "Published": "2024-07-27T12:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-5614",
+        "impact": {},
+        "last-modified": "2024-07-27T12:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/2880cde0-a278-4a41-97f7-c54c2b3aceb2?source=cve",
+            "https://plugins.trac.wordpress.org/browser/piotnet-addons-for-elementor/trunk/inc/ajax-posts-list.php#L4",
+            "https://plugins.trac.wordpress.org/changeset/3125094/"
+        ],
+        "summary": "The Piotnet Addons For Elementor plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.4.29 via the 'pafe_posts_list' function. This makes it possible for unauthenticated attackers to extract sensitive data including titles and excerpts of future, draft, and pending blog posts."
+    },
+    {
+        "Modified": "2024-07-27T12:15:00",
+        "Published": "2024-07-27T12:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-6521",
+        "impact": {},
+        "last-modified": "2024-07-27T12:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/be7c6cfa-6cac-46d2-8eb9-9fef8049f6e7?source=cve",
+            "https://wordpress.org/plugins/fluentform/#developers",
+            "https://plugins.trac.wordpress.org/changeset/3125227/"
+        ],
+        "summary": "The Contact Form Plugin by Fluent Forms for Quiz, Survey, and Drag & Drop WP Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 5.1.19 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Administrator-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+    },
+    {
+        "Modified": "2024-07-27T12:15:00",
+        "Published": "2024-07-27T12:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-6627",
+        "impact": {},
+        "last-modified": "2024-07-27T12:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/5bfe0a05-6bf9-4acc-bf9d-05079c3b3664?source=cve",
+            "https://plugins.trac.wordpress.org/browser/happy-elementor-addons/trunk/widgets/pdf-view/widget.php#L587",
+            "https://wordpress.org/plugins/happy-elementor-addons/#developers",
+            "https://plugins.trac.wordpress.org/changeset/3124446/"
+        ],
+        "summary": "The Happy Addons for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's PDF View widget in all versions up to, and including, 3.11.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+    },
+    {
+        "Modified": "2024-07-27T12:15:00",
+        "Published": "2024-07-27T12:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-6518",
+        "impact": {},
+        "last-modified": "2024-07-27T12:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/66ca9c39-1ba0-4208-ae35-d2c3c9ea4eb9?source=cve",
+            "https://wordpress.org/plugins/fluentform/#developers",
+            "https://plugins.trac.wordpress.org/changeset/3125227/"
+        ],
+        "summary": "The Contact Form Plugin by Fluent Forms for Quiz, Survey, and Drag & Drop WP Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 5.1.19 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Administrator-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+    },
+    {
+        "Modified": "2024-07-27T12:15:00",
+        "Published": "2024-07-27T12:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-6520",
+        "impact": {},
+        "last-modified": "2024-07-27T12:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/0a30d35c-9883-4b0f-83a2-494401c45d8e?source=cve",
+            "https://wordpress.org/plugins/fluentform/#developers",
+            "https://plugins.trac.wordpress.org/changeset/3125227/"
+        ],
+        "summary": "The Contact Form Plugin by Fluent Forms for Quiz, Survey, and Drag & Drop WP Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 5.1.19 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Administrator-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+    },
+    {
+        "Modified": "2024-07-27T12:15:00",
+        "Published": "2024-07-27T12:15:00",
+        "access": {},
+        "assigner": "cve-request@wordfence.com",
+        "cvss": null,
+        "cwe": "Unknown",
+        "id": "CVE-2024-6897",
+        "impact": {},
+        "last-modified": "2024-07-27T12:15:00",
+        "references": [
+            "https://www.wordfence.com/threat-intel/vulnerabilities/id/c0d06c02-fad7-4d2f-a230-03723ba828b3?source=cve",
+            "https://plugins.trac.wordpress.org/browser/athemes-starter-sites/trunk/v2/classes/class-importer.php#L65",
+            "https://wordpress.org/plugins/athemes-starter-sites/#developers",
+            "https://plugins.trac.wordpress.org/changeset/3124434/"
+        ],
+        "summary": "The aThemes Starter Sites plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.0.53 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file."
+    },
+    {
         "Modified": "2024-07-27T09:15:00",
         "Published": "2024-07-27T09:15:00",
         "access": {},
@@ -1051,953 +1967,5 @@
             "http://packetstormsecurity.com/files/171650/WordPress-File-Manager-6.9-Shell-Upload.html"
         ],
         "summary": "The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote attackers to upload and execute arbitrary PHP code because it renames an unsafe example elFinder connector file to have the .php extension. This, for example, allows attackers to run the elFinder upload (or mkfile and put) command to write PHP code into the wp-content/plugins/wp-file-manager/lib/files/ directory. This was exploited in the wild in August and September 2020."
-    },
-    {
-        "Modified": "2024-07-26T19:54:00",
-        "Published": "2020-09-11T17:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "HIGH",
-            "vector": "NETWORK"
-        },
-        "assigner": "secure@microsoft.com",
-        "cvss": 5.1,
-        "cvss-time": "2024-07-26T19:54:00",
-        "cvss-vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-787",
-        "id": "CVE-2020-0878",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-07-26T19:54:00",
-        "references": [
-            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0878"
-        ],
-        "summary": "<p>A remote code execution vulnerability exists in the way that Microsoft browsers access objects in memory. The vulnerability could corrupt memory in a way that could allow an attacker to execute arbitrary code in the context of the current user. An attacker who successfully exploited the vulnerability could gain the same user rights as the current user. If the current user is logged on with administrative user rights, the attacker could take control of an affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.</p>\n<p>An attacker could host a specially crafted website that is designed to exploit the vulnerability through Microsoft browsers, and then convince a user to view the website. The attacker could also take advantage of compromised websites, or websites that accept or host user-provided content or advertisements, by adding specially crafted content that could exploit the vulnerability. In all cases, however, an attacker would have no way to force users to view the attacker-controlled content. Instead, an attacker would have to convince users to take action, typically via an enticement in email or instant message, or by getting them to open an email attachment.</p>\n<p>The security update addresses the vulnerability by modifying how Microsoft browsers handle objects in memory.</p>\n"
-    },
-    {
-        "Modified": "2024-07-26T19:53:00",
-        "Published": "2020-12-10T00:15:00",
-        "access": {
-            "authentication": "SINGLE",
-            "complexity": "MEDIUM",
-            "vector": "NETWORK"
-        },
-        "assigner": "secure@microsoft.com",
-        "cvss": 6.0,
-        "cvss-time": "2024-07-26T19:53:00",
-        "cvss-vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
-        "cwe": "CWE-502",
-        "id": "CVE-2020-17144",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-07-26T19:53:00",
-        "references": [
-            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-17144"
-        ],
-        "summary": "Microsoft Exchange Remote Code Execution Vulnerability"
-    },
-    {
-        "Modified": "2024-07-26T19:53:00",
-        "Published": "2020-11-06T08:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "NETWORK"
-        },
-        "assigner": "cve@mitre.org",
-        "cvss": 7.5,
-        "cvss-time": "2024-07-26T19:53:00",
-        "cvss-vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-78",
-        "id": "CVE-2020-16846",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-07-26T19:53:00",
-        "references": [
-            "https://github.com/saltstack/salt/releases",
-            "https://www.saltstack.com/blog/on-november-3-2020-saltstack-publicly-disclosed-three-new-cves/",
-            "http://lists.opensuse.org/opensuse-security-announce/2020-11/msg00029.html",
-            "https://security.gentoo.org/glsa/202011-13",
-            "http://packetstormsecurity.com/files/160039/SaltStack-Salt-REST-API-Arbitrary-Command-Execution.html",
-            "https://www.zerodayinitiative.com/advisories/ZDI-20-1380/",
-            "https://www.zerodayinitiative.com/advisories/ZDI-20-1379/",
-            "https://www.zerodayinitiative.com/advisories/ZDI-20-1383/",
-            "https://www.zerodayinitiative.com/advisories/ZDI-20-1381/",
-            "https://www.zerodayinitiative.com/advisories/ZDI-20-1382/",
-            "https://lists.debian.org/debian-lts-announce/2020/12/msg00007.html",
-            "https://www.debian.org/security/2021/dsa-4837",
-            "https://lists.debian.org/debian-lts-announce/2022/01/msg00000.html",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TPOGB2F6XUAIGFDTOCQDNB2VIXFXHWMA/"
-        ],
-        "summary": "An issue was discovered in SaltStack Salt through 3002. Sending crafted web requests to the Salt API, with the SSH client enabled, can result in shell injection."
-    },
-    {
-        "Modified": "2024-07-26T19:46:00",
-        "Published": "2020-12-22T22:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "NETWORK"
-        },
-        "assigner": "cve@mitre.org",
-        "cvss": 10.0,
-        "cvss-time": "2024-07-26T19:46:00",
-        "cvss-vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
-        "cwe": "CWE-522",
-        "id": "CVE-2020-29583",
-        "impact": {
-            "availability": "COMPLETE",
-            "confidentiality": "COMPLETE",
-            "integrity": "COMPLETE"
-        },
-        "last-modified": "2024-07-26T19:46:00",
-        "references": [
-            "https://www.zyxel.com/support/security_advisories.shtml",
-            "https://businessforum.zyxel.com/discussion/5254/whats-new-for-zld4-60-patch-1-available-on-dec-15",
-            "https://businessforum.zyxel.com/discussion/5252/zld-v4-60-revoke-and-wk48-firmware-release",
-            "https://www.eyecontrol.nl/blog/undocumented-user-account-in-zyxel-products.html",
-            "https://www.zyxel.com/support/CVE-2020-29583.shtml",
-            "https://www.secpod.com/blog/a-secret-zyxel-firewall-and-ap-controllers-could-allow-for-administrative-access-cve-2020-29583/",
-            "http://ftp.zyxel.com/USG40/firmware/USG40_4.60%28AALA.1%29C0_2.pdf"
-        ],
-        "summary": "Firmware version 4.60 of Zyxel USG devices contains an undocumented account (zyfwp) with an unchangeable password. The password for this account can be found in cleartext in the firmware. This account can be used by someone to login to the ssh server or web interface with admin privileges."
-    },
-    {
-        "Modified": "2024-07-26T19:40:00",
-        "Published": "2021-10-05T09:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "NETWORK"
-        },
-        "assigner": "security@apache.org",
-        "cvss": 4.3,
-        "cvss-time": "2024-07-26T19:40:00",
-        "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
-        "cwe": "CWE-22",
-        "id": "CVE-2021-41773",
-        "impact": {
-            "availability": "NONE",
-            "confidentiality": "PARTIAL",
-            "integrity": "NONE"
-        },
-        "last-modified": "2024-07-26T19:40:00",
-        "references": [
-            "https://httpd.apache.org/security/vulnerabilities_24.html",
-            "http://www.openwall.com/lists/oss-security/2021/10/05/2",
-            "http://packetstormsecurity.com/files/164418/Apache-HTTP-Server-2.4.49-Path-Traversal.html",
-            "http://www.openwall.com/lists/oss-security/2021/10/07/1",
-            "http://packetstormsecurity.com/files/164418/Apache-HTTP-Server-2.4.49-Path-Traversal-Remote-Code-Execution.html",
-            "http://www.openwall.com/lists/oss-security/2021/10/07/6",
-            "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-httpd-pathtrv-LAzg68cZ",
-            "http://www.openwall.com/lists/oss-security/2021/10/08/1",
-            "http://www.openwall.com/lists/oss-security/2021/10/08/2",
-            "http://www.openwall.com/lists/oss-security/2021/10/08/4",
-            "http://www.openwall.com/lists/oss-security/2021/10/08/3",
-            "http://www.openwall.com/lists/oss-security/2021/10/08/6",
-            "http://www.openwall.com/lists/oss-security/2021/10/08/5",
-            "http://www.openwall.com/lists/oss-security/2021/10/09/1",
-            "http://www.openwall.com/lists/oss-security/2021/10/11/4",
-            "http://www.openwall.com/lists/oss-security/2021/10/15/3",
-            "http://www.openwall.com/lists/oss-security/2021/10/16/1",
-            "http://packetstormsecurity.com/files/164629/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution.html",
-            "https://security.netapp.com/advisory/ntap-20211029-0009/",
-            "http://packetstormsecurity.com/files/164941/Apache-HTTP-Server-2.4.50-Remote-Code-Execution.html",
-            "https://www.oracle.com/security-alerts/cpujan2022.html",
-            "https://security.gentoo.org/glsa/202208-20",
-            "https://lists.apache.org/thread.html/r6abf5f2ba6f1aa8b1030f95367aaf17660c4e4c78cb2338aee18982f%40%3Cusers.httpd.apache.org%3E",
-            "https://lists.apache.org/thread.html/r98d704ed4377ed889d40479db79ed1ee2f43b2ebdd79ce84b042df45%40%3Cannounce.apache.org%3E",
-            "https://lists.apache.org/thread.html/r7c795cd45a3384d4d27e57618a215b0ed19cb6ca8eb070061ad5d837%40%3Cannounce.apache.org%3E",
-            "https://lists.apache.org/thread.html/rb5b0e46f179f60b0c70204656bc52fcb558e961cb4d06a971e9e3efb%40%3Cusers.httpd.apache.org%3E",
-            "https://lists.apache.org/thread.html/r17a4c6ce9aff662efd9459e9d1850ab4a611cb23392fc68264c72cb3%40%3Ccvs.httpd.apache.org%3E",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RMIIEFINL6FUIOPD2A3M5XC6DH45Y3CC/",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WS5RVHOIIRECG65ZBTZY7IEJVWQSQPG3/"
-        ],
-        "summary": "A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration \"require all denied\", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013."
-    },
-    {
-        "Modified": "2024-07-26T19:39:00",
-        "Published": "2021-10-08T22:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "NETWORK"
-        },
-        "assigner": "chrome-cve-admin@google.com",
-        "cvss": 6.8,
-        "cvss-time": "2024-07-26T19:39:00",
-        "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-416",
-        "id": "CVE-2021-37973",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-07-26T19:39:00",
-        "references": [
-            "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_24.html",
-            "https://crbug.com/1251727",
-            "https://www.debian.org/security/2022/dsa-5046",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4DDW7HAHTS3SDVXBQUY4SURELO5D4X7R/",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PM7MOYYHJSWLIFZ4TPJTD7MSA3HSSLV2/"
-        ],
-        "summary": "Use after free in Portals in Google Chrome prior to 94.0.4606.61 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page."
-    },
-    {
-        "Modified": "2024-07-26T19:39:00",
-        "Published": "2021-10-08T21:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "NETWORK"
-        },
-        "assigner": "chrome-cve-admin@google.com",
-        "cvss": 6.8,
-        "cvss-time": "2024-07-26T19:39:00",
-        "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-787",
-        "id": "CVE-2021-30632",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-07-26T19:39:00",
-        "references": [
-            "https://crbug.com/1247763",
-            "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop.html",
-            "http://packetstormsecurity.com/files/172845/Chrome-JIT-Compiler-Type-Confusion.html",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4DDW7HAHTS3SDVXBQUY4SURELO5D4X7R/",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PM7MOYYHJSWLIFZ4TPJTD7MSA3HSSLV2/"
-        ],
-        "summary": "Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page."
-    },
-    {
-        "Modified": "2024-07-26T19:39:00",
-        "Published": "2021-10-08T21:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "NETWORK"
-        },
-        "assigner": "chrome-cve-admin@google.com",
-        "cvss": 6.8,
-        "cvss-time": "2024-07-26T19:39:00",
-        "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-416",
-        "id": "CVE-2021-30633",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-07-26T19:39:00",
-        "references": [
-            "https://crbug.com/1247766",
-            "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop.html",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4DDW7HAHTS3SDVXBQUY4SURELO5D4X7R/",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PM7MOYYHJSWLIFZ4TPJTD7MSA3HSSLV2/"
-        ],
-        "summary": "Use after free in Indexed DB API in Google Chrome prior to 93.0.4577.82 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page."
-    },
-    {
-        "Modified": "2024-07-26T19:39:00",
-        "Published": "2021-10-07T16:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "NETWORK"
-        },
-        "assigner": "security@apache.org",
-        "cvss": 7.5,
-        "cvss-time": "2024-07-26T19:39:00",
-        "cvss-vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-        "cwe": "NVD-CWE-Other",
-        "id": "CVE-2021-42013",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-07-26T19:39:00",
-        "references": [
-            "https://httpd.apache.org/security/vulnerabilities_24.html",
-            "http://www.openwall.com/lists/oss-security/2021/10/07/6",
-            "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-httpd-pathtrv-LAzg68cZ",
-            "http://jvn.jp/en/jp/JVN51106450/index.html",
-            "http://www.openwall.com/lists/oss-security/2021/10/08/1",
-            "http://www.openwall.com/lists/oss-security/2021/10/08/2",
-            "http://www.openwall.com/lists/oss-security/2021/10/08/4",
-            "http://www.openwall.com/lists/oss-security/2021/10/08/3",
-            "http://www.openwall.com/lists/oss-security/2021/10/08/6",
-            "http://www.openwall.com/lists/oss-security/2021/10/08/5",
-            "http://www.openwall.com/lists/oss-security/2021/10/09/1",
-            "http://www.openwall.com/lists/oss-security/2021/10/11/4",
-            "http://packetstormsecurity.com/files/164501/Apache-HTTP-Server-2.4.50-Path-Traversal-Code-Execution.html",
-            "http://www.openwall.com/lists/oss-security/2021/10/15/3",
-            "http://www.openwall.com/lists/oss-security/2021/10/16/1",
-            "http://packetstormsecurity.com/files/164609/Apache-HTTP-Server-2.4.50-Remote-Code-Execution.html",
-            "http://packetstormsecurity.com/files/164629/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution.html",
-            "https://security.netapp.com/advisory/ntap-20211029-0009/",
-            "http://packetstormsecurity.com/files/164941/Apache-HTTP-Server-2.4.50-Remote-Code-Execution.html",
-            "http://packetstormsecurity.com/files/165089/Apache-HTTP-Server-2.4.50-CVE-2021-42013-Exploitation.html",
-            "https://www.oracle.com/security-alerts/cpujan2022.html",
-            "https://www.oracle.com/security-alerts/cpuapr2022.html",
-            "http://packetstormsecurity.com/files/167397/Apache-2.4.50-Remote-Code-Execution.html",
-            "https://www.povilaika.com/apache-2-4-50-exploit/",
-            "https://security.gentoo.org/glsa/202208-20",
-            "https://lists.apache.org/thread.html/r7c795cd45a3384d4d27e57618a215b0ed19cb6ca8eb070061ad5d837%40%3Cannounce.apache.org%3E",
-            "https://lists.apache.org/thread.html/rb5b0e46f179f60b0c70204656bc52fcb558e961cb4d06a971e9e3efb%40%3Cusers.httpd.apache.org%3E",
-            "https://lists.apache.org/thread.html/r17a4c6ce9aff662efd9459e9d1850ab4a611cb23392fc68264c72cb3%40%3Ccvs.httpd.apache.org%3E",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RMIIEFINL6FUIOPD2A3M5XC6DH45Y3CC/",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WS5RVHOIIRECG65ZBTZY7IEJVWQSQPG3/"
-        ],
-        "summary": "It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration \"require all denied\", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue only affects Apache 2.4.49 and Apache 2.4.50 and not earlier versions."
-    },
-    {
-        "Modified": "2024-07-26T19:38:00",
-        "Published": "2021-10-08T22:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "NETWORK"
-        },
-        "assigner": "chrome-cve-admin@google.com",
-        "cvss": 6.8,
-        "cvss-time": "2024-07-26T19:38:00",
-        "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-        "cwe": "CWE-416",
-        "id": "CVE-2021-37975",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-07-26T19:38:00",
-        "references": [
-            "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_30.html",
-            "https://crbug.com/1252918",
-            "https://www.debian.org/security/2022/dsa-5046",
-            "http://packetstormsecurity.com/files/172847/Chrome-V8-Logic-Bug-Use-After-Free.html",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/D63JZ3ROXCUHP4CFWDHCPZNTGET7T34R/",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FRFXUDH46PFVE75VQVWY6PYY5DK3S2XT/",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RNARCF5HEZK7GJXZRN5TQ45AQDCRM2WO/"
-        ],
-        "summary": "Use after free in V8 in Google Chrome prior to 94.0.4606.71 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page."
-    },
-    {
-        "Modified": "2024-07-26T19:38:00",
-        "Published": "2021-10-08T22:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "NETWORK"
-        },
-        "assigner": "chrome-cve-admin@google.com",
-        "cvss": 4.3,
-        "cvss-time": "2024-07-26T19:38:00",
-        "cvss-vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
-        "cwe": "CWE-862",
-        "id": "CVE-2021-37976",
-        "impact": {
-            "availability": "NONE",
-            "confidentiality": "PARTIAL",
-            "integrity": "NONE"
-        },
-        "last-modified": "2024-07-26T19:38:00",
-        "references": [
-            "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_30.html",
-            "https://crbug.com/1251787",
-            "https://www.debian.org/security/2022/dsa-5046",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/D63JZ3ROXCUHP4CFWDHCPZNTGET7T34R/",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FRFXUDH46PFVE75VQVWY6PYY5DK3S2XT/",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RNARCF5HEZK7GJXZRN5TQ45AQDCRM2WO/"
-        ],
-        "summary": "Inappropriate implementation in Memory in Google Chrome prior to 94.0.4606.71 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page."
-    },
-    {
-        "Modified": "2024-07-26T19:30:00",
-        "Published": "2021-08-12T18:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "LOCAL"
-        },
-        "assigner": "secure@microsoft.com",
-        "cvss": 4.6,
-        "cvss-time": "2024-07-26T19:30:00",
-        "cvss-vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
-        "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2021-36948",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-07-26T19:30:00",
-        "references": [
-            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36948"
-        ],
-        "summary": "Windows Update Medic Service Elevation of Privilege Vulnerability"
-    },
-    {
-        "Modified": "2024-07-26T19:29:00",
-        "Published": "2021-08-12T18:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "NETWORK"
-        },
-        "assigner": "secure@microsoft.com",
-        "cvss": 5.0,
-        "cvss-time": "2024-07-26T19:29:00",
-        "cvss-vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-        "cwe": "NVD-CWE-Other",
-        "id": "CVE-2021-36942",
-        "impact": {
-            "availability": "NONE",
-            "confidentiality": "NONE",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-07-26T19:29:00",
-        "references": [
-            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36942",
-            "https://www.kb.cert.org/vuls/id/405600"
-        ],
-        "summary": "Windows LSA Spoofing Vulnerability"
-    },
-    {
-        "Modified": "2024-07-26T19:26:00",
-        "Published": "2021-07-29T20:15:00",
-        "access": {
-            "authentication": "SINGLE",
-            "complexity": "LOW",
-            "vector": "NETWORK"
-        },
-        "assigner": "security@trendmicro.com",
-        "cvss": 6.5,
-        "cvss-time": "2024-07-26T19:26:00",
-        "cvss-vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
-        "cwe": "CWE-20",
-        "id": "CVE-2021-36741",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-07-26T19:26:00",
-        "references": [
-            "https://success.trendmicro.com/jp/solution/000287796",
-            "https://success.trendmicro.com/solution/000287819",
-            "https://success.trendmicro.com/solution/000287820",
-            "https://success.trendmicro.com/jp/solution/000287815"
-        ],
-        "summary": "An improper input validation vulnerability in Trend Micro Apex One, Apex One as a Service, OfficeScan XG, and Worry-Free Business Security 10.0 SP1 allows a remote attached to upload arbitrary files on affected installations. Please note: an attacker must first obtain the ability to logon to the product?s management console in order to exploit this vulnerability."
-    },
-    {
-        "Modified": "2024-07-26T19:26:00",
-        "Published": "2021-07-16T21:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "MEDIUM",
-            "vector": "NETWORK"
-        },
-        "assigner": "secure@microsoft.com",
-        "cvss": 9.3,
-        "cvss-time": "2024-07-26T19:26:00",
-        "cvss-vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
-        "cwe": "CWE-787",
-        "id": "CVE-2021-34448",
-        "impact": {
-            "availability": "COMPLETE",
-            "confidentiality": "COMPLETE",
-            "integrity": "COMPLETE"
-        },
-        "last-modified": "2024-07-26T19:26:00",
-        "references": [
-            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34448"
-        ],
-        "summary": "Scripting Engine Memory Corruption Vulnerability"
-    },
-    {
-        "Modified": "2024-07-26T19:26:00",
-        "Published": "2021-07-14T18:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "NETWORK"
-        },
-        "assigner": "secure@microsoft.com",
-        "cvss": 10.0,
-        "cvss-time": "2024-07-26T19:26:00",
-        "cvss-vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
-        "cwe": "CWE-918",
-        "id": "CVE-2021-34473",
-        "impact": {
-            "availability": "COMPLETE",
-            "confidentiality": "COMPLETE",
-            "integrity": "COMPLETE"
-        },
-        "last-modified": "2024-07-26T19:26:00",
-        "references": [
-            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34473",
-            "https://www.zerodayinitiative.com/advisories/ZDI-21-821/",
-            "http://packetstormsecurity.com/files/163895/Microsoft-Exchange-ProxyShell-Remote-Code-Execution.html"
-        ],
-        "summary": "Microsoft Exchange Server Remote Code Execution Vulnerability"
-    },
-    {
-        "Modified": "2024-07-26T19:25:00",
-        "Published": "2021-07-14T18:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "LOCAL"
-        },
-        "assigner": "secure@microsoft.com",
-        "cvss": 7.2,
-        "cvss-time": "2024-07-26T19:25:00",
-        "cvss-vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
-        "cwe": "CWE-119",
-        "id": "CVE-2021-33771",
-        "impact": {
-            "availability": "COMPLETE",
-            "confidentiality": "COMPLETE",
-            "integrity": "COMPLETE"
-        },
-        "last-modified": "2024-07-26T19:25:00",
-        "references": [
-            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33771"
-        ],
-        "summary": "Windows Kernel Elevation of Privilege Vulnerability"
-    },
-    {
-        "Modified": "2024-07-26T19:25:00",
-        "Published": "2021-07-14T18:15:00",
-        "access": {
-            "authentication": "NONE",
-            "complexity": "LOW",
-            "vector": "LOCAL"
-        },
-        "assigner": "secure@microsoft.com",
-        "cvss": 7.2,
-        "cvss-time": "2024-07-26T19:25:00",
-        "cvss-vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
-        "cwe": "CWE-119",
-        "id": "CVE-2021-31979",
-        "impact": {
-            "availability": "COMPLETE",
-            "confidentiality": "COMPLETE",
-            "integrity": "COMPLETE"
-        },
-        "last-modified": "2024-07-26T19:25:00",
-        "references": [
-            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31979"
-        ],
-        "summary": "Windows Kernel Elevation of Privilege Vulnerability"
-    },
-    {
-        "Modified": "2024-07-26T19:25:00",
-        "Published": "2021-05-11T19:15:00",
-        "access": {
-            "authentication": "SINGLE",
-            "complexity": "LOW",
-            "vector": "NETWORK"
-        },
-        "assigner": "secure@microsoft.com",
-        "cvss": 6.5,
-        "cvss-time": "2024-07-26T19:25:00",
-        "cvss-vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
-        "cwe": "CWE-434",
-        "id": "CVE-2021-31207",
-        "impact": {
-            "availability": "PARTIAL",
-            "confidentiality": "PARTIAL",
-            "integrity": "PARTIAL"
-        },
-        "last-modified": "2024-07-26T19:25:00",
-        "references": [
-            "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31207",
-            "https://www.zerodayinitiative.com/advisories/ZDI-21-819/",
-            "http://packetstormsecurity.com/files/163895/Microsoft-Exchange-ProxyShell-Remote-Code-Execution.html"
-        ],
-        "summary": "Microsoft Exchange Server Security Feature Bypass Vulnerability"
-    },
-    {
-        "Modified": "2024-07-26T19:15:00",
-        "Published": "2024-07-26T19:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-42007",
-        "impact": {},
-        "last-modified": "2024-07-26T19:15:00",
-        "references": [
-            "https://github.com/NoiseByNorthwest/php-spx/issues/251"
-        ],
-        "summary": "SPX (aka php-spx) through 0.4.15 allows SPX_UI_URI Directory Traversal to read arbitrary files."
-    },
-    {
-        "Modified": "2024-07-26T19:12:00",
-        "Published": "2024-05-21T16:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-319",
-        "id": "CVE-2024-31840",
-        "impact": {},
-        "last-modified": "2024-07-26T19:12:00",
-        "references": [
-            "https://www.gruppotim.it/it/footer/red-team.html"
-        ],
-        "summary": "An issue was discovered in Italtel Embrace 1.6.4. The web application inserts cleartext passwords in the HTML source code. An authenticated user is able to edit the configuration of the email server. Once the user access the edit function, the web application fills the edit form with the current credentials for the email account, including the cleartext password."
-    },
-    {
-        "Modified": "2024-07-26T19:11:00",
-        "Published": "2024-03-15T20:15:00",
-        "access": {},
-        "assigner": "security@opentext.com",
-        "cvss": null,
-        "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2023-7248",
-        "impact": {},
-        "last-modified": "2024-07-26T19:11:00",
-        "references": [
-            "https://portal.microfocus.com/s/article/KM000027542?language=en_US"
-        ],
-        "summary": "\nCertain functionality in OpenText Vertica Management console might be prone to bypass via crafted requests.\u00a0\n\nThe vulnerability would affect one of Vertica\u2019s authentication functionalities by allowing specially crafted requests and sequences. \nThis issue impacts the following Vertica Management Console versions:\n10.x\n11.1.1-24 or lower\n12.0.4-18 or lower\n\nPlease upgrade to one of the following Vertica Management Console versions:\n10.x to upgrade to latest versions from below.\n11.1.1-25\n12.0.4-19\n23.x\n24.x\n\n"
-    },
-    {
-        "Modified": "2024-07-26T19:03:00",
-        "Published": "2024-06-10T15:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-287",
-        "id": "CVE-2022-45168",
-        "impact": {},
-        "last-modified": "2024-07-26T19:03:00",
-        "references": [
-            "https://www.gruppotim.it/it/footer/red-team.html"
-        ],
-        "summary": "An issue was discovered in LIVEBOX Collaboration vDesk through v018. A Bypass of Two-Factor Authentication can occur under the /login/backup_code endpoint and the /api/v1/vdeskintegration/createbackupcodes endpoint, because the application allows a user to generate or regenerate the backup codes before checking the TOTP."
-    },
-    {
-        "Modified": "2024-07-26T18:21:00",
-        "Published": "2024-05-21T16:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-209",
-        "id": "CVE-2024-31844",
-        "impact": {},
-        "last-modified": "2024-07-26T18:21:00",
-        "references": [
-            "https://www.gruppotim.it/it/footer/red-team.html"
-        ],
-        "summary": "An issue was discovered in Italtel Embrace 1.6.4. The server does not properly handle application errors. In some cases, this leads to a disclosure of information about the server. An unauthenticated user is able craft specific requests in order to make the application generate an error. Inside an error message, some information about the server is revealed, such as the absolute path of the source code of the application. This kind of information can help an attacker to perform other attacks against the system. This can be exploited without authentication."
-    },
-    {
-        "Modified": "2024-07-26T18:20:00",
-        "Published": "2024-05-28T20:16:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-434",
-        "id": "CVE-2022-45171",
-        "impact": {},
-        "last-modified": "2024-07-26T18:20:00",
-        "references": [
-            "https://www.gruppotim.it/it/footer/red-team.html"
-        ],
-        "summary": "An issue was discovered in LIVEBOX Collaboration vDesk through v018. An Unrestricted Upload of a File with a Dangerous Type can occur under the vShare web site section. A remote user, authenticated to the product, can arbitrarily upload potentially dangerous files without restrictions."
-    },
-    {
-        "Modified": "2024-07-26T18:20:00",
-        "Published": "2024-05-21T16:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2024-31847",
-        "impact": {},
-        "last-modified": "2024-07-26T18:20:00",
-        "references": [
-            "https://www.gruppotim.it/it/footer/red-team.html"
-        ],
-        "summary": "An issue was discovered in Italtel Embrace 1.6.4. A stored cross-site scripting (XSS) vulnerability allows authenticated and unauthenticated remote attackers to inject arbitrary web script or HTML into a GET parameter. This reflects/stores the user input without sanitization."
-    },
-    {
-        "Modified": "2024-07-26T18:19:00",
-        "Published": "2024-07-25T12:15:00",
-        "access": {},
-        "assigner": "psirt@huawei.com",
-        "cvss": null,
-        "cwe": "NVD-CWE-noinfo",
-        "id": "CVE-2023-7271",
-        "impact": {},
-        "last-modified": "2024-07-26T18:19:00",
-        "references": [
-            "https://consumer.huawei.com/en/support/bulletin/2024/7/"
-        ],
-        "summary": "Privilege escalation vulnerability in the NMS module\nImpact: Successful exploitation of this vulnerability will affect availability."
-    },
-    {
-        "Modified": "2024-07-26T18:15:00",
-        "Published": "2024-07-26T18:15:00",
-        "access": {},
-        "assigner": "cna@manageengine.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38872",
-        "impact": {},
-        "last-modified": "2024-07-26T18:15:00",
-        "references": [
-            "https://www.manageengine.com/products/exchange-reports/advisory/CVE-2024-38872.html"
-        ],
-        "summary": "Zohocorp ManageEngine Exchange Reporter Plus versions 5717 and below are vulnerable to the authenticated SQL injection in the monitoring module."
-    },
-    {
-        "Modified": "2024-07-26T18:15:00",
-        "Published": "2024-07-26T18:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-39304",
-        "impact": {},
-        "last-modified": "2024-07-26T18:15:00",
-        "references": [
-            "https://github.com/ChurchCRM/CRM/security/advisories/GHSA-2rh6-gr3h-83j9",
-            "https://github.com/ChurchCRM/CRM/commit/e3bd7bfbf33f01148df0ef1acdb0cf2c2b878b08"
-        ],
-        "summary": "ChurchCRM is an open-source church management system. Versions of the application prior to 5.9.2 are vulnerable to an authenticated SQL injection due to an improper sanitization of user input. Authentication is required, but no elevated privileges are necessary. This allows attackers to inject SQL statements directly into the database query due to inadequate sanitization of the EID parameter in in a GET request to `/GetText.php`. Version 5.9.2 patches the issue."
-    },
-    {
-        "Modified": "2024-07-26T18:15:00",
-        "Published": "2024-07-26T18:15:00",
-        "access": {},
-        "assigner": "cna@manageengine.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-38871",
-        "impact": {},
-        "last-modified": "2024-07-26T18:15:00",
-        "references": [
-            "https://www.manageengine.com/products/exchange-reports/advisory/CVE-2024-38871.html"
-        ],
-        "summary": "Zohocorp ManageEngine Exchange Reporter Plus versions 5717 and below are vulnerable to the authenticated SQL injection in the reports module."
-    },
-    {
-        "Modified": "2024-07-26T18:03:00",
-        "Published": "2024-06-10T15:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "CWE-79",
-        "id": "CVE-2022-45176",
-        "impact": {},
-        "last-modified": "2024-07-26T18:03:00",
-        "references": [
-            "https://www.gruppotim.it/it/footer/red-team.html"
-        ],
-        "summary": "An issue was discovered in LIVEBOX Collaboration vDesk through v018. Stored Cross-site Scripting (XSS) can occur under the /api/v1/getbodyfile endpoint via the uri parameter. The web application (through its vShare functionality section) doesn't properly check parameters, sent in HTTP requests as input, before saving them on the server. In addition, crafted JavaScript content can then be reflected back to the end user and executed by the web browser."
-    },
-    {
-        "Modified": "2024-07-26T17:15:00",
-        "Published": "2024-07-26T17:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2023-50700",
-        "impact": {},
-        "last-modified": "2024-07-26T17:15:00",
-        "references": [
-            "https://bugzilla.opensuse.org/show_bug.cgi?id=1134131",
-            "https://bugzilla.opensuse.org/show_bug.cgi?id=1134132",
-            "https://github.com/linuxdeepin/developer-center/issues/10007"
-        ],
-        "summary": "Insecure Permissions vulnerability in Deepin dde-file-manager 6.0.54 and earlier allows privileged operations to be called by unprivileged users via the D-Bus method."
-    },
-    {
-        "Modified": "2024-07-26T17:15:00",
-        "Published": "2024-07-26T17:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-24257",
-        "impact": {},
-        "last-modified": "2024-07-26T17:15:00",
-        "references": [
-            "https://idssgmcc.github.io/aran.github.io/1.html"
-        ],
-        "summary": "An issue in skteco.com Central Control Attendance Machine web management platform v.3.0 allows an attacker to obtain sensitive information via a crafted script to the csl/user component."
-    },
-    {
-        "Modified": "2024-07-26T17:15:00",
-        "Published": "2024-07-26T17:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-26520",
-        "impact": {},
-        "last-modified": "2024-07-26T17:15:00",
-        "references": [
-            "https://idssgmcc.github.io/aran.github.io/2.html"
-        ],
-        "summary": "An issue in Hangzhou Xiongwei Technology Development Co., Ltd. Restaurant Digital Comprehensive Management platform v1 allows an attacker to bypass authentication and perform arbitrary password resets."
-    },
-    {
-        "Modified": "2024-07-26T17:15:00",
-        "Published": "2024-07-26T17:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-27357",
-        "impact": {},
-        "last-modified": "2024-07-26T17:15:00",
-        "references": [
-            "https://www.withsecure.com/en/support/security-advisories/cve-2024-27357"
-        ],
-        "summary": "An issue was discovered in WithSecure Elements Agent through 23.x for macOS, WithSecure Elements Client Security through 23.x for macOS, and WithSecure MDR through 23.x for macOS. Local Privilege Escalation can occur during installations or updates by admins."
-    },
-    {
-        "Modified": "2024-07-26T17:15:00",
-        "Published": "2024-07-26T17:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-27358",
-        "impact": {},
-        "last-modified": "2024-07-26T17:15:00",
-        "references": [
-            "https://www.withsecure.com/en/support/security-advisories/cve-2024-27358"
-        ],
-        "summary": "An issue was discovered in WithSecure Elements Agent through 23.x for macOS and WithSecure Elements Client Security through 23.x for macOS. Local users can block an admin from completing an installation, aka a Denial-of-Service (DoS)."
-    },
-    {
-        "Modified": "2024-07-26T17:15:00",
-        "Published": "2024-07-26T17:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-41353",
-        "impact": {},
-        "last-modified": "2024-07-26T17:15:00",
-        "references": [
-            "https://github.com/phpipam/phpipam/issues/4147"
-        ],
-        "summary": "phpipam 1.6 is vulnerable to Cross Site Scripting (XSS) via app\\admin\\groups\\edit-group.php"
-    },
-    {
-        "Modified": "2024-07-26T17:15:00",
-        "Published": "2024-07-26T17:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-41354",
-        "impact": {},
-        "last-modified": "2024-07-26T17:15:00",
-        "references": [
-            "https://github.com/phpipam/phpipam/issues/4150"
-        ],
-        "summary": "phpipam 1.6 is vulnerable to Cross Site Scripting (XSS) via /app/admin/widgets/edit.php"
-    },
-    {
-        "Modified": "2024-07-26T17:15:00",
-        "Published": "2024-07-26T17:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-41373",
-        "impact": {},
-        "last-modified": "2024-07-26T17:15:00",
-        "references": [
-            "https://github.com/xjzzzxx/vulFound/blob/main/icecoder/icecoder8.1_PT.md"
-        ],
-        "summary": "ICEcoder 8.1 contains a Path Traversal vulnerability via lib/backup-versions-preview-loader.php."
-    },
-    {
-        "Modified": "2024-07-26T17:15:00",
-        "Published": "2024-07-26T17:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-41374",
-        "impact": {},
-        "last-modified": "2024-07-26T17:15:00",
-        "references": [
-            "https://github.com/xjzzzxx/vulFound/blob/main/icecoder/icecoder8.1_xss2.md"
-        ],
-        "summary": "ICEcoder 8.1 is vulnerable to Cross Site Scripting (XSS) via lib/settings-screen.php"
-    },
-    {
-        "Modified": "2024-07-26T17:15:00",
-        "Published": "2024-07-26T17:15:00",
-        "access": {},
-        "assigner": "cve@mitre.org",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-41375",
-        "impact": {},
-        "last-modified": "2024-07-26T17:15:00",
-        "references": [
-            "https://github.com/xjzzzxx/vulFound/blob/main/icecoder/icecoder8.1_xss1.md"
-        ],
-        "summary": "ICEcoder 8.1 is vulnerable to Cross Site Scripting (XSS) via lib/terminal-xhr.php"
-    },
-    {
-        "Modified": "2024-07-26T17:15:00",
-        "Published": "2024-07-26T17:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-41812",
-        "impact": {},
-        "last-modified": "2024-07-26T17:15:00",
-        "references": [
-            "https://github.com/TxtDot/txtdot/security/advisories/GHSA-4gj5-xj97-j8fp",
-            "https://github.com/TxtDot/txtdot/commit/7c72d985f7a26ec1fd3cf628444717ca54986d2d",
-            "https://github.com/TxtDot/txtdot/blob/a7fdaf80fdf45abefe83b2eb5135ba112142dc74/src/handlers/distributor.ts#L43-L47"
-        ],
-        "summary": "txtdot is an HTTP proxy that parses only text, links, and pictures from pages, removing ads and heavy scripts. Prior to version 1.7.0, a Server-Side Request Forgery (SSRF) vulnerability in the `/get` route of txtdot allows remote attackers to use the server as a proxy to send HTTP GET requests to arbitrary targets and retrieve information in the internal network. Version 1.7.0 prevents displaying the response of forged requests, but the requests can still be sent. For complete mitigation, a firewall between txtdot and other internal network resources should be set."
-    },
-    {
-        "Modified": "2024-07-26T17:15:00",
-        "Published": "2024-07-26T17:15:00",
-        "access": {},
-        "assigner": "security-advisories@github.com",
-        "cvss": null,
-        "cwe": "Unknown",
-        "id": "CVE-2024-41813",
-        "impact": {},
-        "last-modified": "2024-07-26T17:15:00",
-        "references": [
-            "https://github.com/TxtDot/txtdot/security/advisories/GHSA-4c78-229v-hf6m",
-            "https://github.com/TxtDot/txtdot/commit/f241a46e05b148a39b84bf956051b5aaa489949e",
-            "https://github.com/TxtDot/txtdot/blob/a7fdaf80fdf45abefe83b2eb5135ba112142dc74/src/handlers/distributor.ts#L43-L47"
-        ],
-        "summary": "txtdot is an HTTP proxy that parses only text, links, and pictures from pages, removing ads and heavy scripts. Starting in version 1.4.0 and prior to version 1.6.1, a Server-Side Request Forgery (SSRF) vulnerability in the `/proxy` route of txtdot allows remote attackers to use the server as a proxy to send HTTP GET requests to arbitrary targets and retrieve information in the internal network. Version 1.6.1 patches the issue."
     }
 ]
